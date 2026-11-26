@@ -1,0 +1,18 @@
+# Metadata-selection reconstruction
+
+[I] The analysis base now includes the class and method selection algorithms in [metadata_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/metadata_analysis.cpp), with explicit dependency signatures in [metadata_analysis.hpp](/home/john/Desktop/cheat_re/source/reconstructed/metadata_analysis.hpp). [U] These signatures describe values exchanged with unresolved game exports; they are not verified live ABI declarations. [C] The implementation uses only callbacks supplied by an offline caller and reads owned snapshot bytes.
+
+| Routine | Translated behavior | Dependency/limit |
+|---|---|---|
+| [C] `0x334224` | [C] Get domain/assembly list, skip null images, return the first nonzero class result. Pass namespace before class name to `0x334528` (`0x33426b–0x334274`). | [U] Domain, assembly, image and class export implementations are supplied callbacks. |
+| [C] `0x334960` | [C] Initialize iterator state to zero; enumerate methods; return a MethodInfo whose first pointer is nonzero and equals the supplied code pointer (`0x334980–0x33499b`). | [U] Method enumeration is supplied by the matching-build export boundary. |
+| [C] `0x33416c` | [C] Zero occurrence delegates to `0x3345c4`. The custom branch skips **equal** names (`0x3341b7–0x3341b9`), optionally filters nonnegative parameter counts, and selects by a zero-based counter. Negative actual counts bypass the count mismatch test. | [U] The unusual non-equality branch is literal sample behavior; its intended purpose is unresolved. Class lookup is separated into `resolve_class_334224`; enumeration/count exports remain inputs. |
+| [C] `0x3349ac` | [C] Match names using `0x334ff4`; a negative parameter index or null requested parameter name returns immediately. Otherwise enforce index/count bounds and compare the parameter at `method+0x28` array base plus `index*24-24`. A zero count compares against decoded `"-"` (`0x334a21–0x334a5d`). | [U] The parameter record's source type is unresolved. [C] The 32-bit offset calculation and sign extension are preserved. |
+
+[C] `0x3ca884` compares signed bytes and returns zero for equality; `0x334ff4` returns true for equal strings, including two null pointers. [I] The snapshot implementation uses only the equality/non-equality outcomes needed by these callers. [C] Full alternate-return byte spans were independently disassembled, since the earlier first-return heuristic omits these helpers' tails.
+
+[I] Finite iteration/string limits and explicit failure statuses are analysis additions. They prevent unreadable snapshots, missing callbacks and unterminated iterators from being confused with a confirmed no-match result. [U] Callback exceptions are propagated to the offline caller; no exception behavior is attributed to the sample.
+
+[C] Evidence: [selection functions](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/metadata_resolution_evidence.asm), [export adapters and comparison helpers](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/metadata_dependencies_evidence.asm), [independent raw-byte disassembly](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/raw_metadata.asm). [I] Fixtures in [metadata_checks.cpp](/home/john/Desktop/cheat_re/source/reconstructed/metadata_checks.cpp) exercise class argument order, zero code pointers, the non-equality branch, occurrence/count rules, parameter names/sentinel, read failures and iteration limits.
+
+[C] Exact-count named helper `0x334a90` and seven cached export resolvers are now concrete. See [export reconstruction](/home/john/Desktop/cheat_re/source/reconstructed/metadata_export_reconstruction.md) for byte evidence, tests and remaining wrapper/signature-lookup work.

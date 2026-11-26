@@ -1,0 +1,87 @@
+{
+  "claim": "[C] Evidence bytes independently match the preserved virtual-layout image. [I] Semantic review conclusions are in parent_review.md.",
+  "evidence": [
+    {
+      "file": "metadata_adapters_evidence.asm",
+      "matching_instruction_rows": 529,
+      "sha256": "cf34ccc564a4de2e43689860f1742501717e31a9b2397f2d20c77eb3fa7513ad"
+    },
+    {
+      "file": "signature_lookup_helpers.asm",
+      "matching_instruction_rows": 152,
+      "sha256": "e316d12b4ec8362ea638b18e8eba7994b3e13d2ae57f325206057895604871e4"
+    },
+    {
+      "file": "signature_string_operations.asm",
+      "matching_instruction_rows": 59,
+      "sha256": "59df92c538222c0427e9d16b2af2f10fa52915a648ebbb6740145afc2f332d83"
+    },
+    {
+      "file": "export_hash_and_loader.asm",
+      "matching_instruction_rows": 30,
+      "sha256": "00e8f49aa05396d688aaa654c3a3ae0a261c82c9fca4ac9e5eee72fa56136572"
+    },
+    {
+      "file": "export_hash_dependencies.asm",
+      "matching_instruction_rows": 93,
+      "sha256": "5c3fe1b4418a850c86bcf0e89298141aa0ce69dabc2306ea64846e9c50825ad4"
+    },
+    {
+      "file": "metadata_export_lookup_bodies.asm",
+      "matching_instruction_rows": 385,
+      "sha256": "55724973950971a93f1b3988eb1a8fd69c07e1f1f793bfba8eedb1567d76fbf1"
+    },
+    {
+      "file": "metadata_export_resolvers.asm",
+      "matching_instruction_rows": 140,
+      "sha256": "b0158384c8c23de543482bb7505a146a00b699cc210b79d79992567ba8e1f9d8"
+    },
+    {
+      "file": "metadata_export_resolvers_bodies.asm",
+      "matching_instruction_rows": 100,
+      "sha256": "973483d2c42c698feac190822cb49684202801d96cf65b71801e381709aa1234"
+    },
+    {
+      "file": "metadata_export_additional.asm",
+      "matching_instruction_rows": 242,
+      "sha256": "e8268159c407a55794979bd18fba24184f487d9c6247f717576c4b3fde5732bb"
+    },
+    {
+      "file": "metadata_export_additional_caches.asm",
+      "matching_instruction_rows": 48,
+      "sha256": "1fbe61f7c4012a5dcd47f6ac8aed7e5fec1bea04dce660a807127286f46a2669"
+    },
+    {
+      "file": "metadata_export_additional_cells.asm",
+      "matching_instruction_rows": 8,
+      "sha256": "1b5ebce64577d2467fcb64696ee8665f40775e7b0d2b340b528a80970a987c1b"
+    },
+    {
+      "file": "metadata_method_name_export.asm",
+      "matching_instruction_rows": 111,
+      "sha256": "f5005709d31746047da6b4c402afb6e5c85af98883a6c4b13ce2ac542b18a1be"
+    },
+    {
+      "file": "binding_fields_evidence.asm",
+      "matching_instruction_rows": 62,
+      "sha256": "f3c72068c859307b539f6c21655033ea9238bcf6d723e30fd305e24dded0d9df"
+    },
+    {
+      "file": "classifier_adapter_evidence.asm",
+      "matching_instruction_rows": 140,
+      "sha256": "508251d168b9946d12fa8a7adbc3e2022e3b7c5c7c3114e0064a230ae8a0df7f"
+    },
+    {
+      "file": "guarded_method_selector.asm",
+      "matching_instruction_rows": 90,
+      "sha256": "3bad673b7c0672a27cd1c6e3567075a54bf744d9ae6e1e37213c429f1a78aaee"
+    }
+  ],
+  "sources": {
+    "metadata_signature_analysis.cpp": "852a2ecb2e19cf3ba7559a6794a44c000e1180a81f39125362a1e7cc9d27cd3a",
+    "metadata_export_analysis.cpp": "2f480b4904ad1fa614768a2151fd593cfaccc143d6064d869dbd9fe039e407ca",
+    "snapshot_bindings.cpp": "2e149e62186fd554f5e6d0ed178a50493ff427ada7d3f272450242a83d2085ad",
+    "metadata_analysis.cpp": "38187b9f5f20e10a10ca2aa91c973b2035dda979c37f362149407e1068ad2b07"
+  },
+  "crc_table_and_separator_verified": true
+}

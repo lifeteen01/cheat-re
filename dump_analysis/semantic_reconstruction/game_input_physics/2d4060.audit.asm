@@ -1,0 +1,11 @@
+
+/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_input_physics/2d4060.audit.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00000000002d4060 <.data>:
+  2d4060:	8b 02                                           	mov    eax,DWORD PTR [rdx]
+  2d4062:	89 01                                           	mov    DWORD PTR [rcx],eax
+  2d4064:	48 8b c1                                        	mov    rax,rcx
+  2d4067:	c3                                              	ret

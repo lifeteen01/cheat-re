@@ -1,0 +1,11 @@
+# World-domain snapshot composition
+
+[I] [world_snapshot_bindings.cpp](/home/john/Desktop/cheat_re/source/reconstructed/world_snapshot_bindings.cpp) connects existing byte-translated helpers to world simulation/player controllers. It adds no game ABI declarations or numeric-address execution. Closures borrow the snapshot and optional visibility registry; they must outlive consumers.
+
+[C] Simulation binds held/definition/component traversal, four ID/category classifiers, origin/direction, identifier, attachment and charge-scale roles to the concrete snapshot/game-helper modules. The composite helpers are bound **before** `bind_snapshot_aim`, because snapshot classifiers capture the definition-getter fallback at binding time. This permits classifier → `37154c` → supplied game effect to traverse the concrete wrapper/cache body. Merely replacing the outer object's callback afterward would leave that dependency unresolved.
+
+[C] `charged_scale_36b504` now has a direct base implementation: invalid numeric receiver returns zero; valid receiver reads `+3ac` and adds binary32 one (`36b504..36b52e`). Missing bytes remain unavailable, rather than returning zero. World player bindings connect entity validity, owned visibility lookup, eye quaternion and bone transform reading. They preserve other supplied backend fields.
+
+[C] [Fixtures](/home/john/Desktop/cheat_re/source/reconstructed/world_snapshot_binding_checks.cpp) exercise the concrete wrapper/classifier chain with copied ID/category bytes, raw identifier results, origin/direction and charge scale, an authoritative visibility update, bone fields leading to a supplied transform effect, missing bytes and missing transform effects. [I] Synthetic matching-game effects supply only their typed results; no copied address is invoked.
+
+[U] World transform/bounds queries, projection, inventory/name chains, outside/looking predicates, matching Unity/game effects and remaining renderer primitives still require their separately tracked implementations or data. These bindings do not claim full classifier/overlay/frame composition. Snapshot failures carry their original status/RVA; no missing callback is replaced by a valid native zero.

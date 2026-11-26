@@ -1,0 +1,19 @@
+394230	mov    QWORD PTR [rsp+0x8],rbx
+394235	push   rdi
+394236	sub    rsp,0x20
+39423a	mov    edi,edx
+39423c	mov    ebx,ecx
+39423e	call   0x392714
+394243	cmp    BYTE PTR [rax],0x0
+394246	je     0x394258
+394248	mov    edx,edi
+39424a	mov    ecx,ebx
+39424c	call   0x39bf0c
+394251	test   al,al
+394253	setne  al
+394256	jmp    0x39425a
+394258	xor    al,al
+39425a	mov    rbx,QWORD PTR [rsp+0x30]
+39425f	add    rsp,0x20
+394263	pop    rdi
+394264	ret

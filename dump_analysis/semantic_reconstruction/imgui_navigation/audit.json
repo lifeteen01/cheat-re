@@ -1,0 +1,780 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x395258",
+      "end_exclusive": "0x3952af",
+      "bytes": 87,
+      "instructions": 20,
+      "sha256": "f5150400ac5c21685b47e36b55c1e8b11511f925f94480b7f275a520facc51ae"
+    },
+    {
+      "begin": "0x395bc4",
+      "end_exclusive": "0x395cdd",
+      "bytes": 281,
+      "instructions": 74,
+      "sha256": "a83ed8056edcd0cfe8c1014fb91868278e070f991b3ce1a0f9bb3171457e7085"
+    },
+    {
+      "begin": "0x395db8",
+      "end_exclusive": "0x396133",
+      "bytes": 891,
+      "instructions": 218,
+      "sha256": "3e8b4d64800c3a470aee43b800afd2bd1ab77fd6d26c91c889881546696596f9"
+    },
+    {
+      "begin": "0x395964",
+      "end_exclusive": "0x395bc1",
+      "bytes": 605,
+      "instructions": 137,
+      "sha256": "6e6ca22ec43137fc091afa3f18973fe9cebbe8beb703eb81ed1bd82fba966725"
+    },
+    {
+      "begin": "0x3c04d0",
+      "end_exclusive": "0x3c0536",
+      "bytes": 102,
+      "instructions": 25,
+      "sha256": "37c2d2d012212b5b04441322a81469dbed4791304ea42e14d02a99cf0767cf4a"
+    },
+    {
+      "begin": "0x392654",
+      "end_exclusive": "0x3926a9",
+      "bytes": 85,
+      "instructions": 22,
+      "sha256": "ef16b731dfee0bc5e7fb9c7e6105e875b251363638201349b48da36a0e354f43"
+    },
+    {
+      "begin": "0x395878",
+      "end_exclusive": "0x395898",
+      "bytes": 32,
+      "instructions": 6,
+      "sha256": "6ab5dcca7ce6d94bb25ca8074d6553647eea4c23f2317c3eb7ec3715e17fa31a"
+    },
+    {
+      "begin": "0x395810",
+      "end_exclusive": "0x395825",
+      "bytes": 21,
+      "instructions": 3,
+      "sha256": "2c0316d4c053c0ea2fe867230692609122f816f588f2ce60438fb069d7e0dbb9"
+    },
+    {
+      "begin": "0x396134",
+      "end_exclusive": "0x39614f",
+      "bytes": 27,
+      "instructions": 11,
+      "sha256": "fa5accd34bf5a98a176586c6c2dee853cc11517d41c7e7f91887ade4ab839b9e"
+    },
+    {
+      "begin": "0x3932b0",
+      "end_exclusive": "0x393311",
+      "bytes": 97,
+      "instructions": 24,
+      "sha256": "9ed82daf4695affe5d8cf9beea4caf4e09c056bd6c617ac119ff725abc014088"
+    },
+    {
+      "begin": "0x39e1e0",
+      "end_exclusive": "0x39e234",
+      "bytes": 84,
+      "instructions": 19,
+      "sha256": "3e1f8fa6d128e029699324adba05e1e5e1f098133303db0ac34d996e4f03fbb8"
+    },
+    {
+      "begin": "0x39e304",
+      "end_exclusive": "0x39e314",
+      "bytes": 16,
+      "instructions": 6,
+      "sha256": "ed9269e1aac634b58d0c6fc095c2e21a185bb5c14dc699a68a41f7eaaabd448b"
+    },
+    {
+      "begin": "0x39676c",
+      "end_exclusive": "0x39678e",
+      "bytes": 34,
+      "instructions": 9,
+      "sha256": "bf16a5a56bae5d3513575f9f4bac928c30e827087ef0d3161f015888d9696e4a"
+    },
+    {
+      "begin": "0x37acd4",
+      "end_exclusive": "0x37ad04",
+      "bytes": 48,
+      "instructions": 16,
+      "sha256": "9991f89eb9035ccadb7be8a79fc6a1ebbcf29fde962c4447d058f230c9ccd082"
+    },
+    {
+      "begin": "0x37a69c",
+      "end_exclusive": "0x37a6f5",
+      "bytes": 89,
+      "instructions": 26,
+      "sha256": "11928b730f2db9de26e07f7299b2005fdc49683c81b4748e37a6d3c36a17c113"
+    },
+    {
+      "begin": "0x393314",
+      "end_exclusive": "0x393349",
+      "bytes": 53,
+      "instructions": 16,
+      "sha256": "604544ebbd4301c108dc42383ac958f9f88b5416d2eed7ef82a8d6f4c641199b"
+    }
+  ],
+  "branches": [
+    [
+      "0x395be1",
+      "jb     0x395c13"
+    ],
+    [
+      "0x395bf8",
+      "jne    0x395ccd"
+    ],
+    [
+      "0x395c01",
+      "jne    0x395c0f"
+    ],
+    [
+      "0x395c07",
+      "jne    0x395c13"
+    ],
+    [
+      "0x395c0d",
+      "jb     0x395c13"
+    ],
+    [
+      "0x395c11",
+      "jmp    0x395c15"
+    ],
+    [
+      "0x395c25",
+      "jne    0x395c73"
+    ],
+    [
+      "0x395c29",
+      "je     0x395c5f"
+    ],
+    [
+      "0x395c32",
+      "jne    0x395c40"
+    ],
+    [
+      "0x395c48",
+      "jle    0x395c5f"
+    ],
+    [
+      "0x395c53",
+      "jne    0x395c5f"
+    ],
+    [
+      "0x395c5d",
+      "jmp    0x395ccd"
+    ],
+    [
+      "0x395c65",
+      "jne    0x395ccd"
+    ],
+    [
+      "0x395c71",
+      "jmp    0x395ccd"
+    ],
+    [
+      "0x395c76",
+      "jne    0x395ca0"
+    ],
+    [
+      "0x395c7e",
+      "jne    0x395c97"
+    ],
+    [
+      "0x395c87",
+      "je     0x395ccd"
+    ],
+    [
+      "0x395c95",
+      "jmp    0x395ccd"
+    ],
+    [
+      "0x395c99",
+      "je     0x395ccd"
+    ],
+    [
+      "0x395c9e",
+      "jmp    0x395cc8"
+    ],
+    [
+      "0x395ca2",
+      "jne    0x395ccd"
+    ],
+    [
+      "0x395ca6",
+      "je     0x395ccd"
+    ],
+    [
+      "0x395cae",
+      "jne    0x395cb8"
+    ],
+    [
+      "0x395cbf",
+      "jne    0x395ccd"
+    ],
+    [
+      "0x395e18",
+      "jne    0x3960ec"
+    ],
+    [
+      "0x395e68",
+      "jne    0x395e93"
+    ],
+    [
+      "0x395e80",
+      "je     0x3960ec"
+    ],
+    [
+      "0x395f2e",
+      "jp     0x395f32"
+    ],
+    [
+      "0x395f30",
+      "je     0x395f5c"
+    ],
+    [
+      "0x395f35",
+      "jp     0x395f39"
+    ],
+    [
+      "0x395f37",
+      "je     0x395f5c"
+    ],
+    [
+      "0x395f3c",
+      "jbe    0x395f48"
+    ],
+    [
+      "0x395f46",
+      "jmp    0x395f50"
+    ],
+    [
+      "0x395fb6",
+      "jp     0x396001"
+    ],
+    [
+      "0x395fb8",
+      "jne    0x396001"
+    ],
+    [
+      "0x395fbe",
+      "jp     0x396001"
+    ],
+    [
+      "0x395fc0",
+      "jne    0x396001"
+    ],
+    [
+      "0x395fc6",
+      "jp     0x395ff3"
+    ],
+    [
+      "0x395fc8",
+      "jne    0x395ff3"
+    ],
+    [
+      "0x395fce",
+      "jp     0x395ff3"
+    ],
+    [
+      "0x395fd0",
+      "jne    0x395ff3"
+    ],
+    [
+      "0x395ff1",
+      "jmp    0x39601c"
+    ],
+    [
+      "0x395fff",
+      "jmp    0x396014"
+    ],
+    [
+      "0x396027",
+      "jne    0x396082"
+    ],
+    [
+      "0x396032",
+      "jbe    0x396048"
+    ],
+    [
+      "0x396043",
+      "jmp    0x3960ee"
+    ],
+    [
+      "0x39604c",
+      "jp     0x396082"
+    ],
+    [
+      "0x39604e",
+      "jne    0x396082"
+    ],
+    [
+      "0x396059",
+      "jbe    0x396066"
+    ],
+    [
+      "0x396064",
+      "jmp    0x396082"
+    ],
+    [
+      "0x39606a",
+      "jp     0x396082"
+    ],
+    [
+      "0x39606c",
+      "jne    0x396082"
+    ],
+    [
+      "0x396073",
+      "ja     0x396079"
+    ],
+    [
+      "0x39608e",
+      "jp     0x3960e8"
+    ],
+    [
+      "0x396090",
+      "jne    0x3960e8"
+    ],
+    [
+      "0x39609b",
+      "jbe    0x3960e8"
+    ],
+    [
+      "0x3960a3",
+      "jne    0x3960e8"
+    ],
+    [
+      "0x3960b3",
+      "jne    0x3960e8"
+    ],
+    [
+      "0x3960b7",
+      "jne    0x3960bf"
+    ],
+    [
+      "0x3960bd",
+      "ja     0x3960df"
+    ],
+    [
+      "0x3960c1",
+      "jne    0x3960c9"
+    ],
+    [
+      "0x3960c7",
+      "ja     0x3960df"
+    ],
+    [
+      "0x3960cc",
+      "jne    0x3960d4"
+    ],
+    [
+      "0x3960d2",
+      "ja     0x3960df"
+    ],
+    [
+      "0x3960d7",
+      "jne    0x3960e8"
+    ],
+    [
+      "0x3960dd",
+      "jbe    0x3960e8"
+    ],
+    [
+      "0x3960ea",
+      "jmp    0x3960ee"
+    ],
+    [
+      "0x39599a",
+      "jne    0x3959e6"
+    ],
+    [
+      "0x3959fa",
+      "je     0x395a56"
+    ],
+    [
+      "0x395a08",
+      "jne    0x395a56"
+    ],
+    [
+      "0x395a0e",
+      "jne    0x395a56"
+    ],
+    [
+      "0x395a17",
+      "je     0x395a22"
+    ],
+    [
+      "0x395a20",
+      "jne    0x395a56"
+    ],
+    [
+      "0x395a48",
+      "jne    0x395a56"
+    ],
+    [
+      "0x395a5d",
+      "je     0x395b4b"
+    ],
+    [
+      "0x395a67",
+      "jne    0x395b4b"
+    ],
+    [
+      "0x395a77",
+      "jae    0x395a8a"
+    ],
+    [
+      "0x395a85",
+      "jmp    0x395b4b"
+    ],
+    [
+      "0x395a90",
+      "jne    0x395a9a"
+    ],
+    [
+      "0x395a94",
+      "je     0x395b4b"
+    ],
+    [
+      "0x395ab9",
+      "je     0x395ac3"
+    ],
+    [
+      "0x395aca",
+      "je     0x395b4b"
+    ],
+    [
+      "0x395adf",
+      "je     0x395b4b"
+    ],
+    [
+      "0x395b2e",
+      "jb     0x395b4b"
+    ],
+    [
+      "0x395b41",
+      "je     0x395b4b"
+    ],
+    [
+      "0x395b51",
+      "jne    0x395bac"
+    ],
+    [
+      "0x395b5a",
+      "je     0x395b64"
+    ],
+    [
+      "0x3c04d2",
+      "je     0x3c0535"
+    ],
+    [
+      "0x3c04e8",
+      "jne    0x3c0530"
+    ],
+    [
+      "0x395893",
+      "jmp    0x39676c"
+    ],
+    [
+      "0x395820",
+      "jmp    0x39676c"
+    ],
+    [
+      "0x396137",
+      "jbe    0x396141"
+    ],
+    [
+      "0x396144",
+      "jbe    0x39614b"
+    ],
+    [
+      "0x3932e0",
+      "jbe    0x3932ef"
+    ],
+    [
+      "0x3932ed",
+      "jmp    0x3932fc"
+    ],
+    [
+      "0x39677b",
+      "jne    0x396785"
+    ],
+    [
+      "0x396783",
+      "je     0x396787"
+    ],
+    [
+      "0x37ace6",
+      "jle    0x37acf7"
+    ],
+    [
+      "0x37a6b4",
+      "jle    0x37a6e5"
+    ],
+    [
+      "0x37a6c8",
+      "je     0x37a6de"
+    ],
+    [
+      "0x39331d",
+      "je     0x393342"
+    ],
+    [
+      "0x393340",
+      "jne    0x39331f"
+    ]
+  ],
+  "calls": [
+    [
+      "0x39529c",
+      "call   0x39e1e0"
+    ],
+    [
+      "0x395c3b",
+      "call   0x395258"
+    ],
+    [
+      "0x395c58",
+      "call   0x395878"
+    ],
+    [
+      "0x395c90",
+      "call   0x39676c"
+    ],
+    [
+      "0x395cb3",
+      "call   0x395878"
+    ],
+    [
+      "0x395cc8",
+      "call   0x395258"
+    ],
+    [
+      "0x395e79",
+      "call   0x398728"
+    ],
+    [
+      "0x395e8e",
+      "call   0x390208"
+    ],
+    [
+      "0x395eac",
+      "call   0x396134"
+    ],
+    [
+      "0x395ec7",
+      "call   0x33565c"
+    ],
+    [
+      "0x395ee2",
+      "call   0x33565c"
+    ],
+    [
+      "0x395efe",
+      "call   0x33565c"
+    ],
+    [
+      "0x395f13",
+      "call   0x33565c"
+    ],
+    [
+      "0x395f1e",
+      "call   0x396134"
+    ],
+    [
+      "0x395f60",
+      "call   0x2e3ef0"
+    ],
+    [
+      "0x395f6c",
+      "call   0x2e3ef0"
+    ],
+    [
+      "0x395f9c",
+      "call   0x2e3ef0"
+    ],
+    [
+      "0x395fa9",
+      "call   0x2e3ef0"
+    ],
+    [
+      "0x396014",
+      "call   0x3932b0"
+    ],
+    [
+      "0x3959b4",
+      "call   0x3762bc"
+    ],
+    [
+      "0x3959d9",
+      "call   0x3762bc"
+    ],
+    [
+      "0x395a35",
+      "call   0x39e1e0"
+    ],
+    [
+      "0x395a51",
+      "call   0x39676c"
+    ],
+    [
+      "0x395a80",
+      "call   0x395bc4"
+    ],
+    [
+      "0x395ab2",
+      "call   0x395db8"
+    ],
+    [
+      "0x395abe",
+      "call   0x395258"
+    ],
+    [
+      "0x395ad8",
+      "call   0x398728"
+    ],
+    [
+      "0x395b01",
+      "call   0x3762bc"
+    ],
+    [
+      "0x395b16",
+      "call   0x3762bc"
+    ],
+    [
+      "0x395b3a",
+      "call   0x395db8"
+    ],
+    [
+      "0x395b46",
+      "call   0x395258"
+    ],
+    [
+      "0x395b5f",
+      "call   0x39b6d8"
+    ],
+    [
+      "0x395b90",
+      "call   0x39e1e0"
+    ],
+    [
+      "0x3c04ff",
+      "call   0x37acd4"
+    ],
+    [
+      "0x3c052b",
+      "call   0x3c8d4c"
+    ],
+    [
+      "0x392670",
+      "call   0x39e304"
+    ],
+    [
+      "0x392682",
+      "call   0x39e1e0"
+    ],
+    [
+      "0x392694",
+      "call   0x393314"
+    ],
+    [
+      "0x39588a",
+      "call   0x395258"
+    ],
+    [
+      "0x3932cb",
+      "call   0x2e3ef0"
+    ],
+    [
+      "0x3932d6",
+      "call   0x2e3ef0"
+    ],
+    [
+      "0x39e226",
+      "call   0x38baf4"
+    ],
+    [
+      "0x37ace8",
+      "call   0x362efc"
+    ],
+    [
+      "0x37acf2",
+      "call   0x37a69c"
+    ],
+    [
+      "0x37a6b9",
+      "call   0x395158"
+    ],
+    [
+      "0x37a6d0",
+      "call   0x3c8d4c"
+    ],
+    [
+      "0x37a6d9",
+      "call   0x39517c"
+    ]
+  ],
+  "tail_jumps": [
+    [
+      "0x395c11",
+      "jmp    0x395c15"
+    ],
+    [
+      "0x395c5d",
+      "jmp    0x395ccd"
+    ],
+    [
+      "0x395c71",
+      "jmp    0x395ccd"
+    ],
+    [
+      "0x395c95",
+      "jmp    0x395ccd"
+    ],
+    [
+      "0x395c9e",
+      "jmp    0x395cc8"
+    ],
+    [
+      "0x395f46",
+      "jmp    0x395f50"
+    ],
+    [
+      "0x395ff1",
+      "jmp    0x39601c"
+    ],
+    [
+      "0x395fff",
+      "jmp    0x396014"
+    ],
+    [
+      "0x396043",
+      "jmp    0x3960ee"
+    ],
+    [
+      "0x396064",
+      "jmp    0x396082"
+    ],
+    [
+      "0x3960ea",
+      "jmp    0x3960ee"
+    ],
+    [
+      "0x395a85",
+      "jmp    0x395b4b"
+    ],
+    [
+      "0x395893",
+      "jmp    0x39676c"
+    ],
+    [
+      "0x395820",
+      "jmp    0x39676c"
+    ],
+    [
+      "0x3932ed",
+      "jmp    0x3932fc"
+    ]
+  ],
+  "scope": "Navigation result/tab/score/cancel, existing process controller reuse, copied text-deactivation resize and anonymous binary CRC. Owned allocation/copy ABI and FP environment limits explicit."
+}

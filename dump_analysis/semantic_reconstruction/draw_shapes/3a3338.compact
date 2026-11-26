@@ -1,0 +1,24 @@
+3a3338 mov    QWORD PTR [rsp+0x8],rbx
+3a333d mov    QWORD PTR [rsp+0x10],rsi
+3a3342 push   rdi
+3a3343 sub    rsp,0x20
+3a3347 test   DWORD PTR [rsp+0x50],0xff000000
+3a334f mov    rdi,r9
+3a3352 mov    rsi,r8
+3a3355 mov    rbx,rcx
+3a3358 je     0x3a3381
+3a335a call   0x378a40
+3a335f mov    rdx,rsi
+3a3362 mov    rcx,rbx
+3a3365 call   0x378a40
+3a336a mov    rdx,rdi
+3a336d mov    rcx,rbx
+3a3370 call   0x378a40
+3a3375 mov    edx,DWORD PTR [rsp+0x50]
+3a3379 mov    rcx,rbx
+3a337c call   0x378a14
+3a3381 mov    rbx,QWORD PTR [rsp+0x30]
+3a3386 mov    rsi,QWORD PTR [rsp+0x38]
+3a338b add    rsp,0x20
+3a338f pop    rdi
+3a3390 ret

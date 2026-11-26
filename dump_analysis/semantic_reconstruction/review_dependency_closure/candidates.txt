@@ -1,0 +1,316 @@
+0x2cbd24 HITS 31 COV [] 
+  [U] Untranslated local control ranges in the assigned metadata/allocation/cache folds: none. [U] Unavailable runtime inputs are wrapper stack/home scratch bytes; they are not inferred zeros. [U] Foreign implementations remain the 
+0x2cbef8 HITS 1 COV [] 
+  | [U] `2cbd24..2cbef8`, `2cb9fc..2cba4f`, `3214f4..321565`, executor `3cdbd4` and restoration `3cdbba` | Execution/context/continuation mechanics intentionally excluded. Metadata inputs and typed effect calls only; not executable 
+0x2cbfa4 HITS 1 COV [] 
+  [U] Exact remaining boundary entrypoints are the foreign effects reached through the descriptor wrappers above; original sky target obtained from saved cell `3e6838`; key query `2e5e4c`; and the supplied `MetadataApi` export effec
+0x2cc050 HITS 1 COV [] 
+  [U] Exact remaining boundary entrypoints are the foreign effects reached through the descriptor wrappers above; original sky target obtained from saved cell `3e6838`; key query `2e5e4c`; and the supplied `MetadataApi` export effec
+0x2cce98 HITS 1 COV [] 
+  [U]2cce98 consumes seven uninitialized native stack bytes after clearing the icon tree. `native_stack_tail` must supply copied bits; absence stops there, retaining already-cleared tree and prior flags. Side5 increments an availabl
+0x2cd69c HITS 0 COV [] 
+  | `0x2d9540..0x2d955b` -> `0x2d955c..0x2d95cb`; thunk `0x2cc4f4..0x2cc4f9` -> `0x2cd69c..0x2cd6f5` | [U] Scalar `%f` string formatting and destruction. Explicit callbacks preserve branch call/cleanup order; no synchronization or e
+0x2cef40 HITS 0 COV [] 
+  | Trajectory cache | `trajectory_cache` folds `0x2e1ff4..0x2e20f1`: formatting `0x2d9540`, concatenation `0x2cef40`, destruction `0x2cc4f4`, signed-byte hash, 1,000-record search `0x2e0e20`, allocation/insertion `0x2dfe64` and tab
+0x2d4da0 HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x2d60d0 HITS 2 COV [] 
+  - [U] Frame `UnityFrameApi::domain` needs bindings for setup `0x2dd284/0x2d91c4/0x315c34`, entity/container update `0x2d60d0/0x3211f0/0x31acd0`, timers/input/game getters `0x2e5b7c/0x2e069c/0x2e0e4c/0x2cce78/0x2e89e4/0x315924/0x2e
+0x2d6d44 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x2d7328 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x2d7bd4 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x2d7d90 HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x2d86b8 HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x2d87b0 HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x2d9540 HITS 7 COV [] 
+  | `0x2d9540..0x2d955b` -> `0x2d955c..0x2d95cb`; thunk `0x2cc4f4..0x2cc4f9` -> `0x2cd69c..0x2cd6f5` | [U] Scalar `%f` string formatting and destruction. Explicit callbacks preserve branch call/cleanup order; no synchronization or e
+0x2d955c HITS 1 COV [] 
+  | `0x2d9540..0x2d955b` -> `0x2d955c..0x2d95cb`; thunk `0x2cc4f4..0x2cc4f9` -> `0x2cd69c..0x2cd6f5` | [U] Scalar `%f` string formatting and destruction. Explicit callbacks preserve branch call/cleanup order; no synchronization or e
+0x2dbb00 HITS 4 COV [] 
+  - [U] File-path/existence/config parsing and notifications `0x2dbb70/0x2dbb00/0x2d5be4/0x2dbbe0/0x2dbec0/0x37f918` are not complete sample-local translations here. [C] Their branching, string messages, notification kind, once-only
+0x2dbb70 HITS 5 COV [] 
+  - [U] File-path/existence/config parsing and notifications `0x2dbb70/0x2dbb00/0x2d5be4/0x2dbbe0/0x2dbec0/0x37f918` are not complete sample-local translations here. [C] Their branching, string messages, notification kind, once-only
+0x2dbbe0 HITS 5 COV [] 
+  - [U] File-path/existence/config parsing and notifications `0x2dbb70/0x2dbb00/0x2d5be4/0x2dbbe0/0x2dbec0/0x37f918` are not complete sample-local translations here. [C] Their branching, string messages, notification kind, once-only
+0x2dbec0 HITS 4 COV [] 
+  - [U] File-path/existence/config parsing and notifications `0x2dbb70/0x2dbb00/0x2d5be4/0x2dbbe0/0x2dbec0/0x37f918` are not complete sample-local translations here. [C] Their branching, string messages, notification kind, once-only
+0x2dda50 HITS 2 COV [] 
+  [C] [launcher_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.cpp) implements the save/worker/original/restore flow at `0x2ddb10–0x2ddbb5`, capture helper `0x2dda50–0x2dda96`, restoration `0x2ddbbc
+0x2ddba2 HITS 2 COV [] 
+  [C] The original launcher invocation follows at `0x2ddba2`, even when numeric pointer checks skipped capture. Normal return reaches the restoration tail call, which checks the original player/related pair and consumes the **curren
+0x2ddbbc HITS 3 COV [] 
+  [C] [launcher_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.cpp) implements the save/worker/original/restore flow at `0x2ddb10–0x2ddbb5`, capture helper `0x2dda50–0x2dda96`, restoration `0x2ddbbc
+0x2de97c HITS 0 COV [] 
+  [C] [I] Known scalar low32/type/arity stores from `2de97c`, `2de9d4`, and `2ddbf8` are materialized. [U] Scalar-slot high32, type-tag high bytes and stack return-slot addresses are uninitialized or unavailable and remain unmateria
+0x2de9d4 HITS 0 COV [] 
+  [C] [I] Known scalar low32/type/arity stores from `2de97c`, `2de9d4`, and `2ddbf8` are materialized. [U] Scalar-slot high32, type-tag high bytes and stack return-slot addresses are uninitialized or unavailable and remain unmateria
+0x2decb8 HITS 1 COV [] 
+  [U] Exact remaining boundary entrypoints are the foreign effects reached through the descriptor wrappers above; original sky target obtained from saved cell `3e6838`; key query `2e5e4c`; and the supplied `MetadataApi` export effec
+0x2dfe64 HITS 1 COV [] 
+  | Trajectory cache | `trajectory_cache` folds `0x2e1ff4..0x2e20f1`: formatting `0x2d9540`, concatenation `0x2cef40`, destruction `0x2cc4f4`, signed-byte hash, 1,000-record search `0x2e0e20`, allocation/insertion `0x2dfe64` and tab
+0x2e081c HITS 5 COV [] 
+  | `36b504`, `36b758`, `36b6cc`, `372954`, `3727e0`, `32bb60`, `36970c`, `2e081c`, `31581c`, `36942c` | [U] Scalar getter/timing outputs. Each reached invocation identifies its original callee; pellet spread retains index and pelle
+0x2e1300 HITS 0 COV [] 
+  [C] The three bodies' own lazy-state folds are explicit: melee `0x2e1300..0x2e1387`, forwarding `0x2e9236..0x2e928d`, and dispatch branches `0x2e7995..0x2e79f1`, `0x2e7a24..0x2e7a83`, `0x2e7d1c..0x2e7d72`, `0x2e8822..0x2e887e`. Ow
+0x2e2320 HITS 13 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x2e2eec HITS 0 COV [] 
+  | `0x2e3afc..0x2e3b2e`; thunk `0x2df480..0x2df485` -> `0x2e2eec..0x2e2f3f` | [U] Global `0x2187d0` container snapshot/release. Replaced by owned `span<TargetRecord>` input, not a fabricated native container ABI. |
+0x2e3a70 HITS 3 COV [] 
+  | Trajectory cache | `trajectory_cache` folds `0x2e1ff4..0x2e20f1`: formatting `0x2d9540`, concatenation `0x2cef40`, destruction `0x2cc4f4`, signed-byte hash, 1,000-record search `0x2e0e20`, allocation/insertion `0x2dfe64` and tab
+0x2e3afc HITS 0 COV [] 
+  | `0x2e3afc..0x2e3b2e`; thunk `0x2df480..0x2df485` -> `0x2e2eec..0x2e2f3f` | [U] Global `0x2187d0` container snapshot/release. Replaced by owned `span<TargetRecord>` input, not a fabricated native container ABI. |
+0x2e480c HITS 3 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x2e5e4c HITS 10 COV [] 
+  | `0x2e5e4c..0x2e5eec`; `0x2e5a54..0x2e5a80` | [U] Key query `(second_key,true)` and class-name retrieval. Class hash callback returns nullopt for an out-of-range class-name pointer. |
+0x2e6240 HITS 19 COV [] 
+  | [U] Scalar results | `0x2dff68`/`0x2e0198` (matching-game Cos/Sin), `0x2e071c`, `0x2e6240`, `0x31581c`, `0x3666b0`, `0x36970c`. |
+0x2e7995 HITS 0 COV [] 
+  [C] The three bodies' own lazy-state folds are explicit: melee `0x2e1300..0x2e1387`, forwarding `0x2e9236..0x2e928d`, and dispatch branches `0x2e7995..0x2e79f1`, `0x2e7a24..0x2e7a83`, `0x2e7d1c..0x2e7d72`, `0x2e8822..0x2e887e`. Ow
+0x2e7a24 HITS 0 COV [] 
+  [C] The three bodies' own lazy-state folds are explicit: melee `0x2e1300..0x2e1387`, forwarding `0x2e9236..0x2e928d`, and dispatch branches `0x2e7995..0x2e79f1`, `0x2e7a24..0x2e7a83`, `0x2e7d1c..0x2e7d72`, `0x2e8822..0x2e887e`. Ow
+0x2e7d1c HITS 0 COV [] 
+  [C] The three bodies' own lazy-state folds are explicit: melee `0x2e1300..0x2e1387`, forwarding `0x2e9236..0x2e928d`, and dispatch branches `0x2e7995..0x2e79f1`, `0x2e7a24..0x2e7a83`, `0x2e7d1c..0x2e7d72`, `0x2e8822..0x2e887e`. Ow
+0x2e7e82 HITS 0 COV [] 
+  [U] Invalid destination getter branches at `0x2e7e82..0x2e7e96` and `0x2e8046..0x2e8058` consume stale stack +0xa0 as UID and count. The caller must supply those actual copied 64 bits via `destination_scratch`; otherwise replay re
+0x2e8046 HITS 0 COV [] 
+  [U] Invalid destination getter branches at `0x2e7e82..0x2e7e96` and `0x2e8046..0x2e8058` consume stale stack +0xa0 as UID and count. The caller must supply those actual copied 64 bits via `destination_scratch`; otherwise replay re
+0x2e8822 HITS 0 COV [] 
+  [C] The three bodies' own lazy-state folds are explicit: melee `0x2e1300..0x2e1387`, forwarding `0x2e9236..0x2e928d`, and dispatch branches `0x2e7995..0x2e79f1`, `0x2e7a24..0x2e7a83`, `0x2e7d1c..0x2e7d72`, `0x2e8822..0x2e887e`. Ow
+0x2e8910 HITS 12 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x2e9236 HITS 0 COV [] 
+  [C] The three bodies' own lazy-state folds are explicit: melee `0x2e1300..0x2e1387`, forwarding `0x2e9236..0x2e928d`, and dispatch branches `0x2e7995..0x2e79f1`, `0x2e7a24..0x2e7a83`, `0x2e7d1c..0x2e7d72`, `0x2e8822..0x2e887e`. Ow
+0x2ea318 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x2ee714 HITS 7 COV [] 
+  | [U] Unavailable copied stack datum | In the additional launch worker, `0x3183e3` calls `0x2ee714` with the four-field format from `0x2f37f0`, but initializes only speed, gravity and drag. The fourth double comes from the unwritt
+0x3096c4 HITS 2 COV [] 
+  - [U] Frame `UnityFrameApi::domain` needs bindings for setup `0x2dd284/0x2d91c4/0x315c34`, entity/container update `0x2d60d0/0x3211f0/0x31acd0`, timers/input/game getters `0x2e5b7c/0x2e069c/0x2e0e4c/0x2cce78/0x2e89e4/0x315924/0x2e
+0x30d722 HITS 1 COV [] 
+  [U] The simulation format at `30d722` passes three doubles for four conversions, and `30e429` passes one. Their omitted values come from retained native argument slots/registers. This interface requires copied fourth/remaining-thr
+0x30e429 HITS 1 COV [] 
+  [U] The simulation format at `30d722` passes three doubles for four conversions, and `30e429` passes one. Their omitted values come from retained native argument slots/registers. This interface requires copied fourth/remaining-thr
+0x31492c HITS 2 COV [] 
+  | `0x318724..0x31885b` | [C] Target-velocity filtering and shared motion writes. [U] `0x31492c` crosses to matching-game Vector3.Lerp. |
+0x31581c HITS 15 COV [] 
+  | [U] Scalar results | `0x2dff68`/`0x2e0198` (matching-game Cos/Sin), `0x2e071c`, `0x2e6240`, `0x31581c`, `0x3666b0`, `0x36970c`. |
+0x315924 HITS 9 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x315a54 HITS 11 COV [] 
+  | `0x315a54..0x315b82`; `0x3747d4..0x374929` | [U] Transform receiver lookup and transform point getter. |
+0x316540 HITS 1 COV [] 
+  - [U] Frame `UnityFrameApi::domain` needs bindings for setup `0x2dd284/0x2d91c4/0x315c34`, entity/container update `0x2d60d0/0x3211f0/0x31acd0`, timers/input/game getters `0x2e5b7c/0x2e069c/0x2e0e4c/0x2cce78/0x2e89e4/0x315924/0x2e
+0x3183e3 HITS 0 COV [] 
+  | [U] Unavailable copied stack datum | In the additional launch worker, `0x3183e3` calls `0x2ee714` with the four-field format from `0x2f37f0`, but initializes only speed, gravity and drag. The fourth double comes from the unwritt
+0x31841c HITS 0 COV [] 
+  | [U] Unavailable copied stack datum | In the additional launch worker, `0x3183e3` calls `0x2ee714` with the four-field format from `0x2f37f0`, but initializes only speed, gravity and drag. The fourth double comes from the unwritt
+0x318a14 HITS 0 COV [] 
+  | `0x2e0ff0..0x2e124a`, `0x31530c..0x315515`, `0x318a14..0x318bb5`, `0x320db4..0x320f57` | [C] Look rotation, Euler conversion/wrapping, quaternion construction, quaternion/vector multiplication and exact scalar staging; reuse rec
+0x318f34 HITS 1 COV [] 
+  - [U] Frame `UnityFrameApi::domain` needs bindings for setup `0x2dd284/0x2d91c4/0x315c34`, entity/container update `0x2d60d0/0x3211f0/0x31acd0`, timers/input/game getters `0x2e5b7c/0x2e069c/0x2e0e4c/0x2cce78/0x2e89e4/0x315924/0x2e
+0x3193a4 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x319850 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x31a0a0 HITS 0 COV [] 
+  [U] Precisely bounded remaining source-local storage work: without an owned visibility registry, a copied-native missing key stops at **`367684`**, rather than being called a game/foreign boundary. Native allocation/rehash/linking
+0x320584 HITS 0 COV [] 
+  [C] The ItemModProjectile / Projectile / ServerProjectile qualified literals were independently decoded from their actual encoded byte arrays and the local XOR loops (`32210c/320584/332284`). [I] Fixed decoded strings substitute f
+0x3211f0 HITS 2 COV [] 
+  - [U] Frame `UnityFrameApi::domain` needs bindings for setup `0x2dd284/0x2d91c4/0x315c34`, entity/container update `0x2d60d0/0x3211f0/0x31acd0`, timers/input/game getters `0x2e5b7c/0x2e069c/0x2e0e4c/0x2cce78/0x2e89e4/0x315924/0x2e
+0x3214f4 HITS 2 COV [] 
+  | [U] `2cbd24..2cbef8`, `2cb9fc..2cba4f`, `3214f4..321565`, executor `3cdbd4` and restoration `3cdbba` | Execution/context/continuation mechanics intentionally excluded. Metadata inputs and typed effect calls only; not executable 
+0x32210c HITS 0 COV [] 
+  [C] The ItemModProjectile / Projectile / ServerProjectile qualified literals were independently decoded from their actual encoded byte arrays and the local XOR loops (`32210c/320584/332284`). [I] Fixed decoded strings substitute f
+0x32225c HITS 1 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x322580 HITS 2 COV [] 
+  | [U] Integer results | `0x322580`, `0x36c79c`, `0x37261c`. Item IDs retain all 32 bits. |
+0x322b0e HITS 1 COV [] 
+  [C] 0x322b0e captures `0x322ef8(object)` before lazy original setup and forwarding of all three original arguments at 0x322b86. A range-invalid captured collider still permits the original call and then skips all latch/config work
+0x322b86 HITS 0 COV [] 
+  [C] 0x322b0e captures `0x322ef8(object)` before lazy original setup and forwarding of all three original arguments at 0x322b86. A range-invalid captured collider still permits the original call and then skips all latch/config work
+0x322cc5 HITS 1 COV [] 
+  [C] 0x322cc5..0x322dd5 selects radius 0.38 when fly is active and shared smooth latch is false, setting 0x3f2668 after the callback. [C] 0x322dda..0x322ed7 otherwise restores 0.5 only when that latch was set, clearing it after the
+0x322dda HITS 1 COV [] 
+  [C] 0x322cc5..0x322dd5 selects radius 0.38 when fly is active and shared smooth latch is false, setting 0x3f2668 after the callback. [C] 0x322dda..0x322ed7 otherwise restores 0.5 only when that latch was set, clearing it after the
+0x322ef8 HITS 0 COV [] 
+  [C] 0x322b0e captures `0x322ef8(object)` before lazy original setup and forwarding of all three original arguments at 0x322b86. A range-invalid captured collider still permits the original call and then skips all latch/config work
+0x323004 HITS 0 COV [] 
+  [C] 0x322b0e captures `0x322ef8(object)` before lazy original setup and forwarding of all three original arguments at 0x322b86. A range-invalid captured collider still permits the original call and then skips all latch/config work
+0x32308c HITS 3 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x3247cc HITS 4 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x3297f0 HITS 4 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x329920 HITS 2 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x329aa0 HITS 7 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x32b454 HITS 1 COV [] 
+  [C] HitChams reads dword `+0x38`, resolves an entity through `0x32b308`, hashes its class name using the recovered signed-byte hash, and invokes separate helper `0x36a464` only for BasePlayer hash equality (`0x32b454–0x32b4be`). [
+0x32be08 HITS 2 COV [] 
+  | `2dda9c`, `368a84`, `371464`, `36b938`, `37154c`, `2e02b0`, `3742d4`, `374210`, `32be08`, `330700`, `368c60`, `368b10`, `2e5a54` | [U] Address getter/selection calls; numeric results and original callee/site are explicit. Getter
+0x32cec2 HITS 0 COV [] 
+  - [C] 0x32cec2..0x32cf58: owned lazy bits 1/2, original target and dispatch slot 0x3f8480; original record 0x3f0888. Bits are set before callbacks. [U] Metadata lookup and dispatch implementations remain typed dependencies.
+0x330700 HITS 5 COV [] 
+  | `2dda9c`, `368a84`, `371464`, `36b938`, `37154c`, `2e02b0`, `3742d4`, `374210`, `32be08`, `330700`, `368c60`, `368b10`, `2e5a54` | [U] Address getter/selection calls; numeric results and original callee/site are explicit. Getter
+0x330c04 HITS 1 COV [] 
+  | `330c04..330cf2`, `330d65..330d97` | [U] Material handle creation and managed literal conversions/hash; separate typed callbacks preserve getter/converter RVAs, raw name pointer, FNV seed `cbf29ce484222325`, and 64-bit hashes. L
+0x330d65 HITS 1 COV [] 
+  | `330c04..330cf2`, `330d65..330d97` | [U] Material handle creation and managed literal conversions/hash; separate typed callbacks preserve getter/converter RVAs, raw name pointer, FNV seed `cbf29ce484222325`, and 64-bit hashes. L
+0x3316e1 HITS 1 COV [] 
+  | Mounted `3316e1..331907`, `331964..331a20`, `331a2a..331b74` | [U] Literal resolution and `3ca884` comparison are a combined callback per comparison. All getter/converter/call-site triples and zero-equality short-circuit order a
+0x331964 HITS 0 COV [] 
+  | Mounted `3316e1..331907`, `331964..331a20`, `331a2a..331b74` | [U] Literal resolution and `3ca884` comparison are a combined callback per comparison. All getter/converter/call-site triples and zero-equality short-circuit order a
+0x331a2a HITS 0 COV [] 
+  | Mounted `3316e1..331907`, `331964..331a20`, `331a2a..331b74` | [U] Literal resolution and `3ca884` comparison are a combined callback per comparison. All getter/converter/call-site triples and zero-equality short-circuit order a
+0x332284 HITS 0 COV [] 
+  [C] The ItemModProjectile / Projectile / ServerProjectile qualified literals were independently decoded from their actual encoded byte arrays and the local XOR loops (`32210c/320584/332284`). [I] Fixed decoded strings substitute f
+0x3336ac HITS 1 COV [] 
+  [U] Exact remaining boundary entrypoints are the foreign effects reached through the descriptor wrappers above; original sky target obtained from saved cell `3e6838`; key query `2e5e4c`; and the supplied `MetadataApi` export effec
+0x3341b7 HITS 1 COV [] 
+  | [C] `0x33416c` | [C] Zero occurrence delegates to `0x3345c4`. The custom branch skips **equal** names (`0x3341b7–0x3341b9`), optionally filters nonnegative parameter counts, and selects by a zero-based counter. Negative actual c
+0x33426b HITS 0 COV [] 
+  | [C] `0x334224` | [C] Get domain/assembly list, skip null images, return the first nonzero class result. Pass namespace before class name to `0x334528` (`0x33426b–0x334274`). | [U] Domain, assembly, image and class export impleme
+0x334980 HITS 0 COV [] 
+  | [C] `0x334960` | [C] Initialize iterator state to zero; enumerate methods; return a MethodInfo whose first pointer is nonzero and equals the supplied code pointer (`0x334980–0x33499b`). | [U] Method enumeration is supplied by th
+0x334a21 HITS 0 COV [] 
+  | [C] `0x3349ac` | [C] Match names using `0x334ff4`; a negative parameter index or null requested parameter name returns immediately. Otherwise enforce index/count bounds and compare the parameter at `method+0x28` array base plus 
+0x335229 HITS 0 COV [] 
+  [C] Assembly enumeration retains the existing `MetadataApi` owned-vector projection; iteration passes the mutable iterator by reference. `334528` passes image, namespace, name in that order. `3345c4` preserves the signed 32-bit co
+0x3360cc HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x3360f8 HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x364aec HITS 0 COV [] 
+  | `364aec..364ba2`, bucket-index leaf `3367b8..3367c0` | [C] [I] Size-cache hit/miss/request dedup/result branches implemented with existing `FrameFontBucket`. [U] Exact RB-tree/vector header/allocation mechanics through364a9c/2d8
+0x366c30 HITS 12 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x366ccc HITS 1 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x366d7c HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x366e38 HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x366ef0 HITS 8 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x367684 HITS 2 COV [] 
+  | `0x367668..0x367684`; `0x2ef724..0x2ef752` | [U] Integer record ID and cheat-owned baseline lookup from global `0x3e5f10`. Cache allocation/map internals are supplied; baseline initialization/read/write behavior is translated. |
+0x368100 HITS 26 COV [] 
+  | `0x369164..0x3691be`; `0x368100..0x36817a` | [U] Local origin and motion vector getters. |
+0x36817c HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x368244 HITS 2 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x368468 HITS 2 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x3684e0 HITS 1 COV [] 
+  - [U] Frame `UnityFrameApi::domain` needs bindings for setup `0x2dd284/0x2d91c4/0x315c34`, entity/container update `0x2d60d0/0x3211f0/0x31acd0`, timers/input/game getters `0x2e5b7c/0x2e069c/0x2e0e4c/0x2cce78/0x2e89e4/0x315924/0x2e
+0x368b9c HITS 10 COV [] 
+  | [U] Vector/quaternion/string results | Vectors: `0x31492c`, `0x368100`, `0x368b9c`, `0x368be8`, `0x369164`, `0x3691c0`, `0x36924c`, `0x369790`, `0x369c1c`, `0x3743f8`, `0x3747d4`; quaternions: `0x3738cc`, `0x3739c4`, `0x373c60`,
+0x369164 HITS 41 COV [] 
+  | `0x369164..0x3691be`; `0x368100..0x36817a` | [U] Local origin and motion vector getters. |
+0x3691c0 HITS 3 COV [] 
+  | [U] Vector/quaternion/string results | Vectors: `0x31492c`, `0x368100`, `0x368b9c`, `0x368be8`, `0x369164`, `0x3691c0`, `0x36924c`, `0x369790`, `0x369c1c`, `0x3743f8`, `0x3747d4`; quaternions: `0x3738cc`, `0x3739c4`, `0x373c60`,
+0x36920c HITS 10 COV [] 
+  [U] `36920c` and `3739c4` return without writing a quaternion on invalid receivers (`369243`, `373a57`). An explicit initial quaternion or `GameHelperEnvironment::direction_scratch` is required to reproduce that stale stack path. 
+0x369243 HITS 1 COV [] 
+  [U] `36920c` and `3739c4` return without writing a quaternion on invalid receivers (`369243`, `373a57`). An explicit initial quaternion or `GameHelperEnvironment::direction_scratch` is required to reproduce that stale stack path. 
+0x36924c HITS 10 COV [] 
+  | [U] Vector/quaternion/string results | Vectors: `0x31492c`, `0x368100`, `0x368b9c`, `0x368be8`, `0x369164`, `0x3691c0`, `0x36924c`, `0x369790`, `0x369c1c`, `0x3743f8`, `0x3747d4`; quaternions: `0x3738cc`, `0x3739c4`, `0x373c60`,
+0x36942c HITS 12 COV [] 
+  | `36b504`, `36b758`, `36b6cc`, `372954`, `3727e0`, `32bb60`, `36970c`, `2e081c`, `31581c`, `36942c` | [U] Scalar getter/timing outputs. Each reached invocation identifies its original callee; pellet spread retains index and pelle
+0x36a0e0 HITS 8 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x36a1e4 HITS 4 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x36a238 HITS 3 COV [] 
+  | `0x36a178..0x36a19d`; `0x3693b0..0x3693d4`; `0x36acb8..0x36acde`; `0x36b288..0x36b2ae`; `0x36a20c..0x36a238`; `0x36b244..0x36b288` | [U] Scientist/dead/player-only/wounded/sleeper/visibility predicates, supplied lazily with rece
+0x36ad68 HITS 9 COV [('C', 'game_aux_helpers')] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x36ae90 HITS 5 COV [('C', 'game_aux_helpers')] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x36b004 HITS 1 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x36b244 HITS 18 COV [] 
+  | `0x36a178..0x36a19d`; `0x3693b0..0x3693d4`; `0x36acb8..0x36acde`; `0x36b288..0x36b2ae`; `0x36a20c..0x36a238`; `0x36b244..0x36b288` | [U] Scientist/dead/player-only/wounded/sleeper/visibility predicates, supplied lazily with rece
+0x36b6cc HITS 2 COV [] 
+  | `36b504`, `36b758`, `36b6cc`, `372954`, `3727e0`, `32bb60`, `36970c`, `2e081c`, `31581c`, `36942c` | [U] Scalar getter/timing outputs. Each reached invocation identifies its original callee; pellet spread retains index and pelle
+0x36b938 HITS 34 COV [] 
+  | `0x36b758..0x36b938` | [C] Attachment traversal and speed aggregation are concrete in `attachment_velocity_36b758`, bound by `bind_snapshot_aim`; [U] Unity name retrieval remains external. Scalar called once for threshold and ag
+0x36ba2c HITS 1 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x36c79c HITS 4 COV [] 
+  | [U] Integer results | `0x322580`, `0x36c79c`, `0x37261c`. Item IDs retain all 32 bits. |
+0x36cbe4 HITS 4 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x36ce18 HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x370508 HITS 2 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x370968 HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x370b50 HITS 1 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x371464 HITS 24 COV [] 
+  | `classify_weapon_subset` | gates from `0x3721b4..0x37221f`, `0x371464..0x3714c2`, `0x371eb8..0x371f24`, `0x3716e0..0x371761` | [C] Range, ID and category decisions. [U] The native definition/category getter sequences remain call
+0x3714c4 HITS 2 COV [] 
+  | `0x3714c4..0x37154a` | [U] Outer view-model getter. Resulting copied `+0x218 -> +0x28 -> +0xf0 -> WORD+0x20` chain is translated. |
+0x371630 HITS 16 COV [] 
+  | `0x36b938..0x36b99d`; `0x371630..0x371685` | [U] Weapon/item definition -> ItemModProjectile component chains. |
+0x371688 HITS 1 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x3716e0 HITS 19 COV [] 
+  | `classify_weapon_subset` | gates from `0x3721b4..0x37221f`, `0x371464..0x3714c2`, `0x371eb8..0x371f24`, `0x3716e0..0x371761` | [C] Range, ID and category decisions. [U] The native definition/category getter sequences remain call
+0x3717c0 HITS 1 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x371df4 HITS 1 COV [] 
+  | [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, 
+0x371eb8 HITS 21 COV [] 
+  | `classify_weapon_subset` | gates from `0x3721b4..0x37221f`, `0x371464..0x3714c2`, `0x371eb8..0x371f24`, `0x3716e0..0x371761` | [C] Range, ID and category decisions. [U] The native definition/category getter sequences remain call
+0x3721b4 HITS 22 COV [] 
+  | `classify_weapon_subset` | gates from `0x3721b4..0x37221f`, `0x371464..0x3714c2`, `0x371eb8..0x371f24`, `0x3716e0..0x371761` | [C] Range, ID and category decisions. [U] The native definition/category getter sequences remain call
+0x37224c HITS 22 COV [] 
+  [U] Inventory composite getters `369324/37224c/3722f0/371c38` belong to the completed game-helper unit and still require adapter composition here. `371c38` is the icon/texture getter, not a name getter. `369040` and `372398` namin
+0x3722f0 HITS 21 COV [] 
+  [U] Inventory composite getters `369324/37224c/3722f0/371c38` belong to the completed game-helper unit and still require adapter composition here. `371c38` is the icon/texture getter, not a name getter. `369040` and `372398` namin
+0x372abc HITS 23 COV [] 
+  | `0x372abc..0x372b2f`; `0x372b30..0x372ba3` | [U] Projectile/ServerProjectile resource and component chains; range gates and reads of resulting copied fields are translated. |
+0x372b30 HITS 11 COV [] 
+  | `0x372abc..0x372b2f`; `0x372b30..0x372ba3` | [U] Projectile/ServerProjectile resource and component chains; range gates and reads of resulting copied fields are translated. |
+0x372bf4 HITS 3 COV [] 
+  | [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x37
+0x372c1c HITS 8 COV [('C', 'game_aux_helpers')] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x3738cc HITS 2 COV [] 
+  [C] Restoration helper `0x373d04` obtains a current rotation through `0x373c60`, calls the resolved Quaternion method behind `0x3738cc`, multiplies that result by the desired orientation, and stores 16 bytes at related object `+0x
+0x373a57 HITS 0 COV [] 
+  [U] `36920c` and `3739c4` return without writing a quaternion on invalid receivers (`369243`, `373a57`). An explicit initial quaternion or `GameHelperEnvironment::direction_scratch` is required to reproduce that stale stack path. 
+0x373c60 HITS 2 COV [] 
+  [C] Restoration helper `0x373d04` obtains a current rotation through `0x373c60`, calls the resolved Quaternion method behind `0x3738cc`, multiplies that result by the desired orientation, and stores 16 bytes at related object `+0x
+0x373d1c HITS 1 COV [] 
+  [C] [launcher_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.cpp) implements the save/worker/original/restore flow at `0x2ddb10–0x2ddbb5`, capture helper `0x2dda50–0x2dda96`, restoration `0x2ddbbc
+0x373eb4 HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x373f0c HITS 2 COV [] 
+  | [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b
+0x374124 HITS 5 COV [('C', 'game_aux_helpers')] 
+  | `368100`, `369164`, `369790`, `369c1c`, `368be8`, `3740e0`, `374124`, `3747d4` | [U] Game vector/bone-position getters; bone/index arguments are explicit. |
+0x374168 HITS 3 COV [] 
+  | `374d60`, `374bf8`, `375140`, `2ce5dc`, `374168` | [U] Coordinate transforms, position setter, managed-material conversion, and hit dispatch. Arguments are explicit; coordinate-system/game ABI and serialization are not guessed. 
+0x3743f8 HITS 2 COV [('C', 'game_aux_helpers')] 
+  | [U] Vector/quaternion/string results | Vectors: `0x31492c`, `0x368100`, `0x368b9c`, `0x368be8`, `0x369164`, `0x3691c0`, `0x36924c`, `0x369790`, `0x369c1c`, `0x3743f8`, `0x3747d4`; quaternions: `0x3738cc`, `0x3739c4`, `0x373c60`,
+0x374bf8 HITS 6 COV [] 
+  | `0x374aa4..0x374bf8`; `0x31530c..0x315515` | [C] Euler conversion is concrete in `quaternion_euler_31530c`; [U] the matching-game Quaternion getter remains a boundary. Worker subtraction/wrapping is translated. |
+0x374d60 HITS 7 COV [] 
+  | `374d60`, `374bf8`, `375140`, `2ce5dc`, `374168` | [U] Coordinate transforms, position setter, managed-material conversion, and hit dispatch. Arguments are explicit; coordinate-system/game ABI and serialization are not guessed. 

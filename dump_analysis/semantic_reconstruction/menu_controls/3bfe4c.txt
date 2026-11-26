@@ -1,0 +1,28 @@
+3bfe4c	mov    QWORD PTR [rsp+0x8],rbx
+3bfe51	push   rdi
+3bfe52	sub    rsp,0x30
+3bfe56	mov    rdi,rcx
+3bfe59	call   0x35d200
+3bfe5e	cmp    BYTE PTR [rax+0xbb],0x0
+3bfe65	jne    0x3bfeb0
+3bfe67	lea    rbx,[rax+0x100]
+3bfe6e	mov    r8,rdi
+3bfe71	mov    rdx,rbx
+3bfe74	lea    rcx,[rsp+0x48]
+3bfe79	call   0x2ef9d8
+3bfe7e	mov    r8,rax
+3bfe81	lea    rcx,[rsp+0x20]
+3bfe86	mov    rdx,rbx
+3bfe89	call   0x2db388
+3bfe8e	movss  xmm1,DWORD PTR [rip+0xffffffffffed33ca]        # 0x293260
+3bfe96	mov    rcx,rdi
+3bfe99	call   0x394b40
+3bfe9e	xor    r9d,r9d
+3bfea1	lea    rcx,[rsp+0x20]
+3bfea6	xor    r8d,r8d
+3bfea9	xor    edx,edx
+3bfeab	call   0x3948dc
+3bfeb0	mov    rbx,QWORD PTR [rsp+0x40]
+3bfeb5	add    rsp,0x30
+3bfeb9	pop    rdi
+3bfeba	ret

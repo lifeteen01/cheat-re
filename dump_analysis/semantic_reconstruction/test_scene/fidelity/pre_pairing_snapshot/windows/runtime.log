@@ -1,0 +1,24 @@
+[C] PASS: continuous WM_TIMER scene frames
+PASS: owned atlas exponent1, literal recovered power/UVs, produced alpha rows, recovered text geometry, font snapshot, clip, alpha, edge coverage, invalid triangles, resize, lifecycle
+PASS: mutable ESP label size, cold16 to10, empty/nondefault writes, entity/frame persistence
+PASS: ESP recovered plain-text controller, font selection, nine outline/color passes, alpha and name gate
+PASS: original world-before-menu ordering for checkbox, slider and color edits
+PASS: eight asymmetric corner-box segments, captured draw list, alpha gate and adjacent-float projection edges
+PASS: full overlay rejects missing mandatory window, simulation and history bindings; scene remains an explicit selected-player boundary
+PASS: original Favorites thunk/body, native retained children and balanced window/focus/style/clip stacks
+PASS: recovered color preview386438, native animated popup, outside close, reopen reuse and capture cleanup
+PASS: actual menu root closed exit and explicit missing category initialization boundary
+PASS: native display-order hover, Hidden collection, popup cold measure/fade and frame IO
+[C] 01_menu_and_esp: boxes=3 names=3 selected=4
+[C] 02_checkbox_esp_off: boxes=0 names=0 selected=0
+[C] 03_color_changes_esp: boxes=3 names=3 selected=4
+[C] 03b_hex_paste_changes_esp: boxes=3 names=3 selected=4
+[C] 04_slider_filters_esp: boxes=0 names=0 selected=0
+[C] 05_hotkey_menu_hidden: boxes=4 names=4 selected=5
+[C] 06_camera_moved: boxes=4 names=4 selected=5
+[C] 07_entities_moved: boxes=4 names=4 selected=5
+[C] 08_offset_reload_changes_labels: boxes=4 names=4 selected=5
+[C] 09_small_clipped_scene: boxes=4 names=4 selected=5
+[C] 10_resized_scene: boxes=4 names=4 selected=5
+[C] PASS: reconstructed menu/ESP/offsets/projection/resize/clipping/lifetime; frames=212 platform_paints=212
+[C] PASS: owned Win32 event routing/GDI presentation/window destruction/class shutdown

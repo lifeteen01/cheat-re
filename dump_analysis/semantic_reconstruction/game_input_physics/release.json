@@ -1,0 +1,73 @@
+{
+  "status": "released/frozen; STOP further expansion/reviews",
+  "source_scope": "NEW source/reconstructed/game_input_physics_* only; no existing source/build/ledger edits",
+  "deliverables": {
+    "source/reconstructed/game_input_physics_analysis.hpp": "1eb94030b7eb83377b8592d878267d34d32a5c98cc9b991fc63ce2ccf34660a7",
+    "source/reconstructed/game_input_physics_arguments.cpp": "28d4575b2666aea55933a626d85f852730af04e33ebbc26ad04690ffe3c8aa39",
+    "source/reconstructed/game_input_physics_arguments_checks.cpp": "f0755514a2a779779ba01493bc7a97a79f453afc49648c1ac41c6b3f60b85a83",
+    "source/reconstructed/game_input_physics_bindings.cpp": "c34b35ef5509530f689da69575bf45e16d334bb3e9c86f63b30ca9c6004394b7",
+    "source/reconstructed/game_input_physics_checks.cpp": "992abb10a7def8a2839df0e6e1259d1ffa0023b8a0e7241555b8474bd4c1cc45",
+    "source/reconstructed/game_input_physics_coverage.cpp": "d150c5211b323250aae00e4b832bdd0793ee1548175bbc7262ab5c8e8d768292",
+    "source/reconstructed/game_input_physics_fixture.cpp": "dae91943d44c50c45d36283f59edc2c35458c51054abc04bee590e121df1bb64",
+    "source/reconstructed/game_input_physics_fixture.hpp": "5c4c4586066a72fda542aeeb5bfa7e18d0a7c44006d98b72f05d2aa96a795042",
+    "source/reconstructed/game_input_physics_internal.hpp": "3b5e9b97c095fb85cd279f2463b9142141c243e7b945343de055848ef04e18bc",
+    "source/reconstructed/game_input_physics_keys.cpp": "5969a78fb687abc35445ce6c10122e4fb9b8bf8bf0de7d8b050de32a15ae2cf9",
+    "source/reconstructed/game_input_physics_literals.cpp": "4af5622fdcd281dd30a46af1595b6c925bb926dc246807ceff344d9be21e4b43",
+    "source/reconstructed/game_input_physics_metadata.cpp": "20a132c1fea4c6381963511ec54c87a66caaf8285af17a1b93e563db4e29ea0a",
+    "source/reconstructed/game_input_physics_metadata_checks.cpp": "bffa258517c550c1f6e5648da28949d7454dd40a1d71a65f4ce3576acf916642",
+    "source/reconstructed/game_input_physics_pe.cpp": "4de2ed91e3b5d9dc92b4e730d548f82a63aa1607f8795a75f592b1c39302cc1e",
+    "source/reconstructed/game_input_physics_queries.cpp": "91a941e321ec7aec97fc84740b1aa7c60170717d5344a631697a13cb2e817f45",
+    "source/reconstructed/game_input_physics_queries_checks.cpp": "14b4a37746415fe7cb43138a0987ae43523a06ebb918e445b400ab3fe92dcf26",
+    "source/reconstructed/game_input_physics_reconstruction.md": "39f85543470664ce35f3e527812c0a7edb86150c21fc5a238af7be0f3e261092",
+    "source/reconstructed/game_input_physics_specs.inc": "dfe1c54f71488e745c4fa5b5ab8dd8daf772c539266cddfc6ce7fee4bbebfcdf"
+  },
+  "entrypoint": "check_game_input_physics_reconstruction()",
+  "assigned_roots": [
+    "0x2e2320",
+    "0x2e0f10",
+    "0x2e5e4c",
+    "0x2e8910",
+    "0x329aa0",
+    "0x2e480c",
+    "0x3214f4",
+    "0x32225c"
+  ],
+  "audit": {
+    "range_count": 127,
+    "bytes": 8481,
+    "instructions": 2311,
+    "branch_call_count": 411
+  },
+  "verification": {
+    "translation_units": 17,
+    "source_count": 45,
+    "runs": {
+      "strict": {
+        "exit_code": 0,
+        "seconds": 17.163,
+        "sources_unchanged": true
+      },
+      "sanitize": {
+        "exit_code": 0,
+        "seconds": 25.335,
+        "sources_unchanged": true
+      }
+    },
+    "preserved_inputs": {
+      "exit_code": 0,
+      "pass_count": 135
+    }
+  },
+  "reversion": {
+    "mutation": "incorrectly normalize Cursor2e49ec using AL instead of complete RAX at2e4a0c",
+    "exit_code": 1,
+    "seconds": 17.594,
+    "expected_diagnostic": "warm cursor tests full return word while button tests AL only; no cold dependencies",
+    "observed_diagnostic": "warm cursor tests full return word while button tests AL only; no cold dependencies",
+    "delivered_source_unchanged": true,
+    "result": "PASS"
+  },
+  "native_generic_library_frontier_count": 34,
+  "remaining": "remaining.json",
+  "runtime_claim": "Offline copied-data implementation only; real matching effects/artifacts and Windows DLL integration remain required"
+}

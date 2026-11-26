@@ -1,0 +1,12 @@
+Compile strict menu.cpp
+{"passed": true, "mode": "strict", "cache_hits": 146, "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene", "artifact_sha256": "7318d2fefe5be974ea3d211298d5979917067fe744c0d8a6e88530b447718e05"}
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 36.407,
+  "artifact_sha256": "7318d2fefe5be974ea3d211298d5979917067fe744c0d8a6e88530b447718e05",
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

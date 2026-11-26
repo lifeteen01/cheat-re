@@ -1,0 +1,40 @@
+3716e0 mov    QWORD PTR [rsp+0x8],rbx
+3716e5 push   rdi
+3716e6 sub    rsp,0x20
+3716ea mov    rbx,rcx
+3716ed call   0x2caf08
+3716f2 test   al,al
+3716f4 je     0x371754
+3716f6 mov    rcx,rbx
+3716f9 call   0x37154c
+3716fe mov    rcx,rax
+371701 mov    rdi,rax
+371704 call   0x2caf08
+371709 test   al,al
+37170b je     0x371754
+37170d mov    rcx,rdi
+371710 call   0x37261c
+371715 cmp    eax,0x892448f
+37171a je     0x37173f
+37171c cmp    eax,0x5cc4424c
+371721 je     0x37173f
+371723 cmp    eax,0x6db8b70a
+371728 je     0x37173f
+37172a cmp    eax,0xc827b4ca
+37172f je     0x37173f
+371731 cmp    eax,0x5345536b
+371736 je     0x37173f
+371738 cmp    eax,0x4b55e423
+37173d jne    0x371754
+37173f mov    rcx,rdi
+371742 call   0x37236c
+371747 xor    ecx,ecx
+371749 test   eax,eax
+37174b cmovne rbx,rcx
+37174f mov    rax,rbx
+371752 jmp    0x371756
+371754 xor    eax,eax
+371756 mov    rbx,QWORD PTR [rsp+0x30]
+37175b add    rsp,0x20
+37175f pop    rdi
+371760 ret

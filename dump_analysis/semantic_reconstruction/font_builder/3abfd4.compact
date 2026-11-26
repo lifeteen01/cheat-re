@@ -1,0 +1,72 @@
+3abfd4 sub    rsp,0x28
+3abfd8 movss  xmm5,DWORD PTR [rsp+0x50]
+3abfde movss  xmm4,DWORD PTR [rsp+0x60]
+3abfe4 ucomiss xmm5,xmm4
+3abfe7 movaps XMMWORD PTR [rsp+0x10],xmm6
+3abfec movaps XMMWORD PTR [rsp],xmm8
+3abff1 jp     0x3abff9
+3abff3 je     0x3ac0ed
+3abff9 comiss xmm5,DWORD PTR [r8+0x1c]
+3abffe ja     0x3ac0ed
+3ac004 movss  xmm8,DWORD PTR [r8+0x18]
+3ac00a comiss xmm8,xmm4
+3ac00e ja     0x3ac0ed
+3ac014 comiss xmm8,xmm5
+3ac018 movss  xmm6,DWORD PTR [rsp+0x58]
+3ac01e jbe    0x3ac046
+3ac020 movaps xmm2,xmm8
+3ac024 movaps xmm0,xmm6
+3ac027 subss  xmm2,xmm5
+3ac02b movaps xmm1,xmm4
+3ac02e subss  xmm0,xmm3
+3ac032 subss  xmm1,xmm5
+3ac036 movaps xmm5,xmm8
+3ac03a mulss  xmm2,xmm0
+3ac03e divss  xmm2,xmm1
+3ac042 addss  xmm3,xmm2
+3ac046 comiss xmm4,DWORD PTR [r8+0x1c]
+3ac04b jbe    0x3ac074
+3ac04d movss  xmm1,DWORD PTR [r8+0x1c]
+3ac053 movaps xmm0,xmm6
+3ac056 subss  xmm1,xmm4
+3ac05a subss  xmm4,xmm5
+3ac05e subss  xmm0,xmm3
+3ac062 mulss  xmm1,xmm0
+3ac066 divss  xmm1,xmm4
+3ac06a movss  xmm4,DWORD PTR [r8+0x1c]
+3ac070 addss  xmm6,xmm1
+3ac074 movd   xmm0,edx
+3ac078 cvtdq2ps xmm0,xmm0
+3ac07b comiss xmm0,xmm3
+3ac07e jb     0x3ac09e
+3ac080 comiss xmm0,xmm6
+3ac083 jb     0x3ac09e
+3ac085 subss  xmm4,xmm5
+3ac089 movsxd rax,edx
+3ac08c mulss  xmm4,DWORD PTR [r8+0x14]
+3ac092 addss  xmm4,DWORD PTR [rcx+rax*4]
+3ac097 movss  DWORD PTR [rcx+rax*4],xmm4
+3ac09c jmp    0x3ac0ed
+3ac09e lea    eax,[rdx+0x1]
+3ac0a1 movd   xmm1,eax
+3ac0a5 cvtdq2ps xmm1,xmm1
+3ac0a8 comiss xmm3,xmm1
+3ac0ab jb     0x3ac0b2
+3ac0ad comiss xmm6,xmm1
+3ac0b0 jae    0x3ac0ed
+3ac0b2 subss  xmm3,xmm0
+3ac0b6 movsxd rax,edx
+3ac0b9 subss  xmm6,xmm0
+3ac0bd movss  xmm0,DWORD PTR [rip+0xffffffffffee118f]        # 0x28d254
+3ac0c5 subss  xmm4,xmm5
+3ac0c9 addss  xmm3,xmm6
+3ac0cd mulss  xmm4,DWORD PTR [r8+0x14]
+3ac0d3 mulss  xmm3,DWORD PTR [rip+0xffffffffffee1175]        # 0x28d250
+3ac0db subss  xmm0,xmm3
+3ac0df mulss  xmm0,xmm4
+3ac0e3 addss  xmm0,DWORD PTR [rcx+rax*4]
+3ac0e8 movss  DWORD PTR [rcx+rax*4],xmm0
+3ac0ed movaps xmm6,XMMWORD PTR [rsp+0x10]
+3ac0f2 movaps xmm8,XMMWORD PTR [rsp]
+3ac0f7 add    rsp,0x28
+3ac0fb ret

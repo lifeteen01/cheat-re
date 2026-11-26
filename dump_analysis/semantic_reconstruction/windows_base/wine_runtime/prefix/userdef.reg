@@ -1,0 +1,7 @@
+WINE REGISTRY Version 2
+;; All keys relative to REGISTRY\\User\\.Default
+
+#arch=win64
+
+[] 1795538106
+#time=1dd7c31c39f48cc

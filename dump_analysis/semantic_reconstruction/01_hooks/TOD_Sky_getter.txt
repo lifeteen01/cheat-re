@@ -1,0 +1,3 @@
+getter RVA 0x2f6b7c copies immediate 63 77 7d 65 68 57 44 3e; decrypt consumer 0x2e3614.
+XOR key 0x37+i (8 bytes): b'TOD_Sky\x00'
+Callsite 0x315e8a -> getter; 0x315e92 -> decryptor; resulting class argument at 0x315e97.

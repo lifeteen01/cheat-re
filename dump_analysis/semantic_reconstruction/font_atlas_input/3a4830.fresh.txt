@@ -1,0 +1,2 @@
+3a4830 lea    rax,[rip+0xfffffffffff05ab9]        # 0x2aa2f0
+3a4837 ret

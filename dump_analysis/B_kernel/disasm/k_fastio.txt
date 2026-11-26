@@ -1,0 +1,354 @@
+
+<KsecFastIoDeviceControl>:
+3270: mov    QWORD PTR [rsp+0x10],rbx
+3275: mov    QWORD PTR [rsp+0x18],rbp
+327a: mov    QWORD PTR [rsp+0x20],rsi
+327f: push   r14
+3281: sub    rsp,0x50
+3285: mov    ebx,DWORD PTR [rip+0x1b155]        # 0x1e3e0 ; _TraceLoggingMetadata+40d ; ?KsecddSiloContextSlot@@3KA
+328b: xor    r14d,r14d
+328e: mov    DWORD PTR [rsp+0x30],r14d
+3293: mov    esi,r9d
+3296: mov    QWORD PTR [rsp+0x38],r14
+329b: mov    rbp,r8
+329e: mov    QWORD PTR [rsp+0x40],r14
+32a3: rex.W call QWORD PTR [rip+0x1e076]        # 0x21320 ; ?SecTable@@3U_SECURITY_FUNCTION_TABLE_W@@A+76 ; __imp_PsGetCurrentServerSilo
+32aa: nop    DWORD PTR [rax+rax*1+0x0]
+32af: lea    r8,[rsp+0x40]
+32b4: mov    edx,ebx
+32b6: mov    rcx,rax
+32b9: rex.W call QWORD PTR [rip+0x1e128]        # 0x213e8 ; KspKernelFunctions+28 ; __imp_PsGetPermanentSiloContext
+32c0: nop    DWORD PTR [rax+rax*1+0x0]
+32c5: mov    rdx,QWORD PTR [rsp+0x40]
+32ca: test   rdx,rdx
+32cd: je     0x3562 ; KsecFastIoDeviceControl+2f2
+32d3: prefetchw BYTE PTR [rdx+0x210]
+32da: mov    rax,QWORD PTR [rdx+0x210]
+32e1: lea    rcx,[rax+0x1]
+32e5: cmp    rcx,0x1
+32e9: jbe    0x3489 ; KsecFastIoDeviceControl+219
+32ef: lock cmpxchg QWORD PTR [rdx+0x210],rcx
+32f8: jne    0x32e1 ; KsecFastIoDeviceControl+71
+32fa: mov    rbx,QWORD PTR [rsp+0x40]
+32ff: mov    QWORD PTR [rsp+0x38],rbx
+3304: test   rbx,rbx
+3307: jne    0x333e ; KsecFastIoDeviceControl+ce
+3309: mov    rax,QWORD PTR [rsp+0x98]
+3311: lea    rcx,[rsp+0x38]
+3316: mov    DWORD PTR [rax],0xc00002fe
+331c: mov    QWORD PTR [rax+0x8],r14
+3320: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+3325: xor    al,al
+3327: mov    rbx,QWORD PTR [rsp+0x68]
+332c: mov    rbp,QWORD PTR [rsp+0x70]
+3331: mov    rsi,QWORD PTR [rsp+0x78]
+3336: add    rsp,0x50
+333a: pop    r14
+333c: ret
+333d: int3
+333e: mov    QWORD PTR [rsp+0x60],rdi
+3343: mov    rdi,QWORD PTR [rbx]
+3346: rex.W call QWORD PTR [rip+0x1dee3]        # 0x21230 ; wil_details_featureDescriptors_z+46b ; __imp_PsGetCurrentProcess
+334d: nop    DWORD PTR [rax+rax*1+0x0]
+3352: cmp    rax,rdi
+3355: jne    0x33cb ; KsecFastIoDeviceControl+15b
+3357: mov    edi,DWORD PTR [rsp+0x90]
+335e: cmp    edi,0x39006f
+3364: je     0x33b7 ; KsecFastIoDeviceControl+147
+3366: add    edi,0xffc6ffd8
+336c: cmp    edi,0x58
+336f: jbe    0x343e ; KsecFastIoDeviceControl+1ce
+3375: xor    dil,dil
+3378: mov    eax,0xc00000bb
+337d: mov    rcx,QWORD PTR [rsp+0x98]
+3385: mov    DWORD PTR [rcx],eax
+3387: mov    eax,DWORD PTR [rsp+0x30]
+338b: mov    QWORD PTR [rcx+0x8],rax
+338f: mov    rax,0xffffffffffffffff
+3396: lock xadd QWORD PTR [rbx+0x210],rax
+339f: sub    rax,0x1
+33a3: jle    0x3693 ; KsecFastIoDeviceControl+423
+33a9: movzx  eax,dil
+33ad: mov    rdi,QWORD PTR [rsp+0x60]
+33b2: jmp    0x3327 ; KsecFastIoDeviceControl+b7
+33b7: cmp    esi,0x10
+33ba: jne    0x3375 ; KsecFastIoDeviceControl+105
+33bc: mov    edx,esi
+33be: mov    rcx,rbp
+33c1: mov    dil,0x1
+33c4: call   0x46a0 ; KsecIoctlHandleFunctionReturn
+33c9: jmp    0x337d ; KsecFastIoDeviceControl+10d
+33cb: rex.W call QWORD PTR [rip+0x1de5e]        # 0x21230 ; wil_details_featureDescriptors_z+3e6 ; __imp_PsGetCurrentProcess
+33d2: nop    DWORD PTR [rax+rax*1+0x0]
+33d7: mov    rcx,rax
+33da: rex.W call QWORD PTR [rip+0x1e0a7]        # 0x21488 ; ?SecTable@@3U_SECURITY_FUNCTION_TABLE_W@@A+a7 ; __imp_PsIsProtectedProcess
+33e1: nop    DWORD PTR [rax+rax*1+0x0]
+33e6: mov    edi,DWORD PTR [rsp+0x90]
+33ed: test   eax,eax
+33ef: jne    0x342b ; KsecFastIoDeviceControl+1bb
+33f1: lea    eax,[rdi-0x390028]
+33f7: cmp    eax,0x58
+33fa: jbe    0x358e ; KsecFastIoDeviceControl+31e
+3400: mov    rsi,QWORD PTR [rsp+0x98]
+3408: xor    bpl,bpl
+340b: mov    DWORD PTR [rsi],0xc00000bb
+3411: mov    rcx,rbx
+3414: mov    QWORD PTR [rsi+0x8],r14
+3418: call   0x3760 ; ?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z
+341d: mov    rdi,QWORD PTR [rsp+0x60]
+3422: movzx  eax,bpl
+3426: jmp    0x3327 ; KsecFastIoDeviceControl+b7
+342b: lea    eax,[rdi-0x39005c]
+3431: test   eax,0xfffffffb
+3436: je     0x3366 ; KsecFastIoDeviceControl+f6
+343c: jmp    0x33f1 ; KsecFastIoDeviceControl+181
+343e: lea    rdx,[rip+0xffffffffffffcbbb]        # 0x0
+3445: movzx  eax,BYTE PTR [rdx+rdi*1+0x1abe4] ; ??_C@_1CC@FCCBMONP@?$AAM?$AAa?$AAx?$AAE?$AAn?$AAt?$AAr?$AAi?$AAe?$AAs?$AAS?$AAt?$AAo?$AAr?$AAe@+c4
+344d: mov    ecx,DWORD PTR [rdx+rax*4+0x1abb4] ; ??_C@_1CC@FCCBMONP@?$AAM?$AAa?$AAx?$AAE?$AAn?$AAt?$AAr?$AAi?$AAe?$AAs?$AAS?$AAt?$AAo?$AAr?$AAe@+94
+3454: add    rcx,rdx
+3457: jmp    rcx
+3459: int3
+345a: int3
+345b: int3
+345c: int3
+345d: mov    r9d,DWORD PTR [rsp+0x88]
+3465: lea    rax,[rsp+0x30]
+346a: mov    r8,QWORD PTR [rsp+0x80]
+3472: mov    edx,esi
+3474: mov    rcx,rbp
+3477: mov    QWORD PTR [rsp+0x20],rax
+347c: mov    dil,0x1
+347f: call   0x37ec ; ?KsecIoctlDupLsaHandle@@YAJPEAXK0KPEAK@Z
+3484: jmp    0x337d ; KsecFastIoDeviceControl+10d
+3489: je     0x3309 ; KsecFastIoDeviceControl+99
+348f: mov    ecx,0xe
+3494: int    0x29
+3496: jmp    0x3309 ; KsecFastIoDeviceControl+99
+349b: mov    edx,esi
+349d: mov    rcx,rbp
+34a0: mov    dil,0x1
+34a3: call   0x3a30 ; ?KsecIoctlCopyVm@@YAJPEAXK@Z
+34a8: jmp    0x337d ; KsecFastIoDeviceControl+10d
+34ad: mov    r9d,DWORD PTR [rsp+0x88]
+34b5: lea    rax,[rsp+0x30]
+34ba: mov    r8,QWORD PTR [rsp+0x80]
+34c2: mov    edx,esi
+34c4: mov    rcx,rbp
+34c7: mov    QWORD PTR [rsp+0x20],rax
+34cc: mov    dil,0x1
+34cf: call   0x4028 ; ?KsecIoctlAllocVm@@YAJPEAXK0KPEAK@Z
+34d4: jmp    0x337d ; KsecFastIoDeviceControl+10d
+34d9: mov    edx,esi
+34db: mov    rcx,rbp
+34de: mov    dil,0x1
+34e1: call   0x43f0 ; ?KsecIoctlRemoveProtectedProcessAddress@@YAJPEAXK@Z
+34e6: jmp    0x337d ; KsecFastIoDeviceControl+10d
+34eb: mov    edx,esi
+34ed: mov    rcx,rbp
+34f0: mov    dil,0x1
+34f3: call   0x44a0 ; ?KsecIoctlInsertProtectedProcessAddress@@YAJPEAXK@Z
+34f8: jmp    0x337d ; KsecFastIoDeviceControl+10d
+34fd: rex.W call QWORD PTR [rip+0x1df0c]        # 0x21410 ; wil_details_featureDescriptors_z+494 ; __imp_KeGetCurrentIrql
+3504: nop    DWORD PTR [rax+rax*1+0x0]
+3509: test   al,al
+350b: jne    0x3525 ; KsecFastIoDeviceControl+2b5
+350d: mov    rcx,QWORD PTR [rsp+0x38]
+3512: call   0x2cd80 ; CleanKsecddLsaState
+3517: movzx  eax,dil
+351b: mov    rdi,QWORD PTR [rsp+0x60]
+3520: jmp    0x3327 ; KsecFastIoDeviceControl+b7
+3525: mov    rax,QWORD PTR [rsp+0x38]
+352a: lea    rdx,[rip+0x2984f]        # 0x2cd80 ; ProcessSecurityContextMarshalParams+2ef ; CleanKsecddLsaState
+3531: lea    rcx,[rax+0x1f0]
+3538: mov    QWORD PTR [rcx+0x10],rdx
+353c: mov    edx,0x1
+3541: mov    QWORD PTR [rcx+0x18],rax
+3545: mov    QWORD PTR [rcx],r14
+3548: rex.W call QWORD PTR [rip+0x1dec9]        # 0x21418 ; wil_details_featureDescriptors_z+451 ; __imp_ExQueueWorkItem
+354f: nop    DWORD PTR [rax+rax*1+0x0]
+3554: movzx  eax,dil
+3558: mov    rdi,QWORD PTR [rsp+0x60]
+355d: jmp    0x3327 ; KsecFastIoDeviceControl+b7
+3562: rex.W call QWORD PTR [rip+0x1ddb7]        # 0x21320 ; wil_details_featureDescriptors_z+33f ; __imp_PsGetCurrentServerSilo
+3569: nop    DWORD PTR [rax+rax*1+0x0]
+356e: xor    r9d,r9d
+3571: mov    QWORD PTR [rsp+0x20],r14
+3576: mov    rdx,rax
+3579: xor    r8d,r8d
+357c: mov    ecx,0x18a
+3581: rex.W call QWORD PTR [rip+0x1de70]        # 0x213f8 ; wil_details_featureDescriptors_z+3f8 ; __imp_KeBugCheckEx
+3588: nop    DWORD PTR [rax+rax*1+0x0]
+358d: int3
+358e: lea    rdx,[rip+0xffffffffffffca6b]        # 0x0
+3595: movzx  eax,BYTE PTR [rdx+rax*1+0x1ac45] ; ??_C@_1CC@FCCBMONP@?$AAM?$AAa?$AAx?$AAE?$AAn?$AAt?$AAr?$AAi?$AAe?$AAs?$AAS?$AAt?$AAo?$AAr?$AAe@+125
+359d: mov    ecx,DWORD PTR [rdx+rax*4+0x1ac3d] ; ??_C@_1CC@FCCBMONP@?$AAM?$AAa?$AAx?$AAE?$AAn?$AAt?$AAr?$AAi?$AAe?$AAs?$AAS?$AAt?$AAo?$AAr?$AAe@+11d
+35a4: add    rcx,rdx
+35a7: jmp    rcx
+35a9: int3
+35aa: int3
+35ab: int3
+35ac: int3
+35ad: cmp    DWORD PTR [rip+0x1b138],r14d        # 0x1e6ec ; _TraceLoggingMetadata+3f0 ; DebugInfoLevel
+35b4: mov    bpl,0x1
+35b7: mov    rsi,QWORD PTR [rsp+0x98]
+35bf: mov    DWORD PTR [rsi],0xc0000022
+35c5: je     0x3411 ; KsecFastIoDeviceControl+1a1
+35cb: rex.W call QWORD PTR [rip+0x1dc5e]        # 0x21230 ; wil_details_featureDescriptors_z+1e6 ; __imp_PsGetCurrentProcess
+35d2: nop    DWORD PTR [rax+rax*1+0x0]
+35d7: mov    r8d,edi
+35da: lea    rdx,[rip+0x151ff]        # 0x187e0 ; _load_config_used+1bf ; ??_C@_0EB@EGEBIKIC@KsecFastIoDeviceControl?3?5Contro@
+35e1: mov    r9,rax
+35e4: mov    ecx,0x1
+35e9: call   0x2e008 ; LsapDebugOut
+35ee: jmp    0x3411 ; KsecFastIoDeviceControl+1a1
+35f3: mov    r9d,DWORD PTR [rsp+0x88]
+35fb: lea    rax,[rsp+0x30]
+3600: mov    r8,QWORD PTR [rsp+0x80]
+3608: mov    edx,esi
+360a: mov    rcx,rbp
+360d: mov    QWORD PTR [rsp+0x20],rax
+3612: mov    dil,0x1
+3615: call   0xe34c ; ?KsecIoctlAllocPool@@YAJPEAXK0KPEAK@Z
+361a: jmp    0x337d ; KsecFastIoDeviceControl+10d
+361f: mov    edx,esi
+3621: mov    rcx,rbp
+3624: mov    dil,0x1
+3627: call   0xe824 ; ?KsecIoctlFreePool@@YAJPEAXK@Z
+362c: jmp    0x337d ; KsecFastIoDeviceControl+10d
+3631: mov    edx,esi
+3633: mov    rcx,rbp
+3636: mov    dil,0x1
+3639: call   0x78f4 ; ?KsecIoctlCopyPool@@YAJPEAXK@Z
+363e: jmp    0x337d ; KsecFastIoDeviceControl+10d
+3643: mov    r9d,DWORD PTR [rsp+0x88]
+364b: lea    rax,[rsp+0x30]
+3650: mov    r8,QWORD PTR [rsp+0x80]
+3658: mov    edx,esi
+365a: mov    rcx,rbp
+365d: mov    QWORD PTR [rsp+0x20],rax
+3662: mov    dil,0x1
+3665: call   0xe578 ; ?KsecIoctlClientCallback@@YAJPEAXK0KPEAK@Z
+366a: jmp    0x337d ; KsecFastIoDeviceControl+10d
+366f: mov    edx,esi
+3671: mov    rcx,rbp
+3674: mov    dil,0x1
+3677: call   0xe8ec ; ?KsecIoctlFreeVm@@YAJPEAXK@Z
+367c: jmp    0x337d ; KsecFastIoDeviceControl+10d
+3681: mov    edx,esi
+3683: mov    rcx,rbp
+3686: mov    dil,0x1
+3689: call   0xea90 ; ?KsecUpdateUserTokenSessionId@@YAJPEAXK@Z
+368e: jmp    0x337d ; KsecFastIoDeviceControl+10d
+3693: test   rax,rax
+3696: je     0x34fd ; KsecFastIoDeviceControl+28d
+369c: mov    ecx,0xe
+36a1: int    0x29
+36a3: jmp    0x33a9 ; KsecFastIoDeviceControl+139
+36a8: int3
+36a9: int3
+36aa: int3
+36ab: int3
+36ac: int3
+36ad: int3
+36ae: int3
+36af: int3
+
+<??1KsecddLsaStateRef@@QEAA@XZ>:
+36b0: mov    QWORD PTR [rsp+0x8],rbx
+36b5: push   rdi
+36b6: sub    rsp,0x20
+36ba: mov    rbx,QWORD PTR [rcx]
+36bd: mov    rdi,rcx
+36c0: test   rbx,rbx
+36c3: je     0x36e2 ; ??1KsecddLsaStateRef@@QEAA@XZ+32
+36c5: mov    rax,0xffffffffffffffff
+36cc: lock xadd QWORD PTR [rbx+0x210],rax
+36d5: sub    rax,0x1
+36d9: jle    0x3749 ; ??1KsecddLsaStateRef@@QEAA@XZ+99
+36db: mov    QWORD PTR [rdi],0x0
+36e2: mov    rbx,QWORD PTR [rsp+0x30]
+36e7: add    rsp,0x20
+36eb: pop    rdi
+36ec: ret
+36ed: int3
+36ee: rex.W call QWORD PTR [rip+0x1dd1b]        # 0x21410 ; wil_details_featureDescriptors_z+2a3 ; __imp_KeGetCurrentIrql
+36f5: nop    DWORD PTR [rax+rax*1+0x0]
+36fa: test   al,al
+36fc: jne    0x3708 ; ??1KsecddLsaStateRef@@QEAA@XZ+58
+36fe: mov    rcx,rbx
+3701: call   0x2cd80 ; CleanKsecddLsaState
+3706: jmp    0x36db ; ??1KsecddLsaStateRef@@QEAA@XZ+2b
+3708: lea    rcx,[rbx+0x1f0]
+370f: mov    edx,0x1
+3714: lea    rax,[rip+0x29665]        # 0x2cd80 ; ProcessSecurityContextMarshalParams+105 ; CleanKsecddLsaState
+371b: mov    QWORD PTR [rcx+0x18],rbx
+371f: mov    QWORD PTR [rcx+0x10],rax
+3723: mov    QWORD PTR [rcx],0x0
+372a: rex.W call QWORD PTR [rip+0x1dce7]        # 0x21418 ; wil_details_featureDescriptors_z+26f ; __imp_ExQueueWorkItem
+3731: nop    DWORD PTR [rax+rax*1+0x0]
+3736: mov    rbx,QWORD PTR [rsp+0x30]
+373b: mov    QWORD PTR [rdi],0x0
+3742: add    rsp,0x20
+3746: pop    rdi
+3747: ret
+3748: int3
+3749: test   rax,rax
+374c: je     0x36ee ; ??1KsecddLsaStateRef@@QEAA@XZ+3e
+374e: mov    ecx,0xe
+3753: int    0x29
+3755: jmp    0x36db ; ??1KsecddLsaStateRef@@QEAA@XZ+2b
+3757: int3
+3758: int3
+3759: int3
+375a: int3
+375b: int3
+375c: int3
+375d: int3
+375e: int3
+375f: int3
+
+<?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z>:
+3760: rex push rbx
+3762: sub    rsp,0x20
+3766: mov    rbx,rcx
+3769: mov    rax,0xffffffffffffffff
+3770: lock xadd QWORD PTR [rcx+0x210],rax
+3779: sub    rax,0x1
+377d: jle    0x37d5 ; ?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z+75
+377f: add    rsp,0x20
+3783: pop    rbx
+3784: ret
+3785: int3
+3786: rex.W call QWORD PTR [rip+0x1dc83]        # 0x21410 ; wil_details_featureDescriptors_z+20b ; __imp_KeGetCurrentIrql
+378d: nop    DWORD PTR [rax+rax*1+0x0]
+3792: test   al,al
+3794: jne    0x37a0 ; ?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z+40
+3796: mov    rcx,rbx
+3799: call   0x2cd80 ; CleanKsecddLsaState
+379e: jmp    0x377f ; ?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z+1f
+37a0: lea    rcx,[rbx+0x1f0]
+37a7: mov    edx,0x1
+37ac: lea    rax,[rip+0x295cd]        # 0x2cd80 ; ProcessSecurityContextMarshalParams+6d ; CleanKsecddLsaState
+37b3: mov    QWORD PTR [rcx+0x18],rbx
+37b7: mov    QWORD PTR [rcx+0x10],rax
+37bb: mov    QWORD PTR [rcx],0x0
+37c2: rex.W call QWORD PTR [rip+0x1dc4f]        # 0x21418 ; wil_details_featureDescriptors_z+1d7 ; __imp_ExQueueWorkItem
+37c9: nop    DWORD PTR [rax+rax*1+0x0]
+37ce: add    rsp,0x20
+37d2: pop    rbx
+37d3: ret
+37d4: int3
+37d5: test   rax,rax
+37d8: je     0x3786 ; ?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z+26
+37da: mov    ecx,0xe
+37df: int    0x29
+37e1: jmp    0x377f ; ?ReleaseSiloKsecddLsaState@@YAXPEAU_KSECDDLSASTATE@@@Z+1f
+37e3: int3
+37e4: int3
+37e5: int3
+37e6: int3
+37e7: int3
+37e8: int3
+37e9: int3
+37ea: int3
+37eb: int3

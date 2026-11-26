@@ -1,0 +1,10 @@
+Compile field_getters_analysis.cpp
+Compile frame_dependencies_overlay.cpp
+Compile world_esp_item_names.cpp
+Compile menu_pages_analysis.cpp
+Compile menu_pages_players.cpp
+Compile menu_pages_config.cpp
+Compile menu_pages_checks.cpp
+Compile menu_pages_main.cpp
+Link 26 sources
+PASS: GCC15 C++20 menu page fixtures (sanitize)

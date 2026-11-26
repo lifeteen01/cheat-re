@@ -1,0 +1,585 @@
+120:31aeca  40 38 3d 97 df 0c 00           cmp    BYTE PTR [rip+0xcdf97],dil        # 0x3e8e68 ; CONFIG Bools.droppeditems value(+0x48)
+133:31af09  e8 96 70 fd ff                 call   0x2f1fa4 ; STRING getter=0x2f1fa4 DudTimedExplosive
+145:31af40  e8 fb 86 fd ff                 call   0x2f3640 ; STRING getter=0x2f3640 DudTimedExplosive
+153:31af62  8d 57 05                       lea    edx,[rdi+0x5]
+155:31af68  e8 4f c7 ff ff                 call   0x3176bc
+159:31af81  40 38 3d 20 bd 0c 00           cmp    BYTE PTR [rip+0xcbd20],dil        # 0x3e6ca8 ; CONFIG Bools.CCTV value(+0x48)
+174:31afc8  e8 9f 9a fd ff                 call   0x2f4a6c ; STRING getter=0x2f4a6c CCTV Camera
+182:31afea  ba 09 00 00 00                 mov    edx,0x9
+184:31aff2  e8 c5 c6 ff ff                 call   0x3176bc
+187:31b001  40 38 3d 10 cf 0b 00           cmp    BYTE PTR [rip+0xbcf10],dil        # 0x3d7f18 ; CONFIG Bools.SilentFarmOre value(+0x48)
+189:31b00a  40 38 3d 30 d2 0b 00           cmp    BYTE PTR [rip+0xbd230],dil        # 0x3d8241
+191:31b013  40 38 3d 5e c9 0c 00           cmp    BYTE PTR [rip+0xcc95e],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+198:31b03b  e8 a0 a1 fd ff                 call   0x2f51e0 ; STRING getter=0x2f51e0 OreResourceEntity
+216:31b086  40 38 3d eb a1 0c 00           cmp    BYTE PTR [rip+0xca1eb],dil        # 0x3e5278 ; CONFIG Bools.SilentFarmTree value(+0x48)
+220:31b09d  e8 2a af fd ff                 call   0x2f5fcc ; STRING getter=0x2f5fcc TreeEntity
+239:31b0e7  40 38 3d ca ec 0c 00           cmp    BYTE PTR [rip+0xcecca],dil        # 0x3e9db8 ; CONFIG Bools.Autolock value(+0x48)
+243:31b0fe  e8 5d ba fd ff                 call   0x2f6b60 ; STRING getter=0x2f6b60 CodeLock
+253:31b127  e8 7c c1 fd ff                 call   0x2f72a8 ; STRING getter=0x2f72a8 DigitSendCodeLock
+272:31b16e  40 38 3d 2c 44 0d 00           cmp    BYTE PTR [rip+0xd442c],dil        # 0x3ef5a1
+276:31b185  e8 2a cb fd ff                 call   0x2f7cb4 ; STRING getter=0x2f7cb4 CodeLock
+286:31b1ae  e8 35 51 fd ff                 call   0x2f02e8 ; STRING getter=0x2f02e8 DigitSendCodeLock
+305:31b1f8  40 38 3d 29 bd 0c 00           cmp    BYTE PTR [rip+0xcbd29],dil        # 0x3e6f28 ; CONFIG Bools.WoodPile value(+0x48)
+309:31b211  e8 36 56 fd ff                 call   0x2f084c ; STRING getter=0x2f084c OreResourceEntity
+319:31b239  e8 16 59 fd ff                 call   0x2f0b54 ; STRING getter=0x2f0b54 wood_log_pile/wood-pile.prefab
+330:31b269  e8 56 5c fd ff                 call   0x2f0ec4 ; STRING getter=0x2f0ec4 Wood Pile
+338:31b28b  ba 04 00 00 00                 mov    edx,0x4
+340:31b293  e8 24 c4 ff ff                 call   0x3176bc
+343:31b2a2  40 38 3d ef ba 0c 00           cmp    BYTE PTR [rip+0xcbaef],dil        # 0x3e6d98 ; CONFIG Bools.HBHFSensor value(+0x48)
+347:31b2bd  e8 8e 5e fd ff                 call   0x2f1150 ; STRING getter=0x2f1150 HBHFSensor
+359:31b2f7  e8 30 62 fd ff                 call   0x2f152c ; STRING getter=0x2f152c HBHF
+367:31b319  ba 12 00 00 00                 mov    edx,0x12
+369:31b321  e8 96 c3 ff ff                 call   0x3176bc
+373:31b33a  40 38 3d a7 ba 0c 00           cmp    BYTE PTR [rip+0xcbaa7],dil        # 0x3e6de8 ; CONFIG Bools.SeismicSensor value(+0x48)
+377:31b351  e8 c2 64 fd ff                 call   0x2f1818 ; STRING getter=0x2f1818 SeismicSensor
+388:31b381  e8 b6 67 fd ff                 call   0x2f1b3c ; STRING getter=0x2f1b3c Seismic Sensor
+396:31b3a3  ba 13 00 00 00                 mov    edx,0x13
+398:31b3ab  e8 0c c3 ff ff                 call   0x3176bc
+401:31b3ba  40 38 3d 87 b9 0c 00           cmp    BYTE PTR [rip+0xcb987],dil        # 0x3e6d48 ; CONFIG Bools.LargeBattery value(+0x48)
+405:31b3d5  e8 de 68 fd ff                 call   0x2f1cb8 ; STRING getter=0x2f1cb8 ElectricBattery
+416:31b40e  e8 4d 6a fd ff                 call   0x2f1e60 ; STRING getter=0x2f1e60 large
+427:31b43e  e8 cd 70 fd ff                 call   0x2f2510 ; STRING getter=0x2f2510 Large Battery
+435:31b460  ba 14 00 00 00                 mov    edx,0x14
+437:31b468  e8 4f c2 ff ff                 call   0x3176bc
+441:31b481  40 38 3d 40 c5 0c 00           cmp    BYTE PTR [rip+0xcc540],dil        # 0x3e79c8 ; CONFIG Bools.StoneOre value(+0x48)
+443:31b48a  40 38 3d d7 c5 0c 00           cmp    BYTE PTR [rip+0xcc5d7],dil        # 0x3e7a68 ; CONFIG Bools.MetalOre value(+0x48)
+445:31b493  40 38 3d 6e c6 0c 00           cmp    BYTE PTR [rip+0xcc66e],dil        # 0x3e7b08 ; CONFIG Bools.SulfurOre value(+0x48)
+447:31b49c  40 38 3d 75 c5 0c 00           cmp    BYTE PTR [rip+0xcc575],dil        # 0x3e7a18 ; CONFIG Bools.HQMOre value(+0x48)
+451:31b4b5  e8 9e 71 fd ff                 call   0x2f2658 ; STRING getter=0x2f2658 OreResourceEntity
+459:31b4d6  40 38 3d 3b c5 0c 00           cmp    BYTE PTR [rip+0xcc53b],dil        # 0x3e7a18 ; CONFIG Bools.HQMOre value(+0x48)
+461:31b4df  40 38 3d 92 c4 0c 00           cmp    BYTE PTR [rip+0xcc492],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+465:31b4f6  e8 d1 72 fd ff                 call   0x2f27cc ; STRING getter=0x2f27cc hqm
+484:31b548  ba 7a 00 00 00                 mov    edx,0x7a
+486:31b550  e8 67 c1 ff ff                 call   0x3176bc
+489:31b55f  40 38 3d 62 c4 0c 00           cmp    BYTE PTR [rip+0xcc462],dil        # 0x3e79c8 ; CONFIG Bools.StoneOre value(+0x48)
+491:31b568  40 38 3d 09 c4 0c 00           cmp    BYTE PTR [rip+0xcc409],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+495:31b583  e8 64 76 fd ff                 call   0x2f2bec ; STRING getter=0x2f2bec stone
+505:31b5ac  e8 cf 78 fd ff                 call   0x2f2e80 ; STRING getter=0x2f2e80 assets/bundled/prefabs/radtown/ore_stone.prefab
+516:31b5dc  e8 cf 7a fd ff                 call   0x2f30b0 ; STRING getter=0x2f30b0 StoneOre
+524:31b5fe  ba 01 00 00 00                 mov    edx,0x1
+526:31b606  e8 b1 c0 ff ff                 call   0x3176bc
+529:31b615  40 38 3d 4c c4 0c 00           cmp    BYTE PTR [rip+0xcc44c],dil        # 0x3e7a68 ; CONFIG Bools.MetalOre value(+0x48)
+531:31b61e  40 38 3d 53 c3 0c 00           cmp    BYTE PTR [rip+0xcc353],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+535:31b639  e8 3a 7c fd ff                 call   0x2f3278 ; STRING getter=0x2f3278 metal
+545:31b662  e8 8d 7d fd ff                 call   0x2f33f4 ; STRING getter=0x2f33f4 assets/bundled/prefabs/radtown/ore_metal.prefab
+556:31b692  e8 3d 7f fd ff                 call   0x2f35d4 ; STRING getter=0x2f35d4 MetalOre
+564:31b6b4  ba 02 00 00 00                 mov    edx,0x2
+566:31b6bc  e8 fb bf ff ff                 call   0x3176bc
+569:31b6cb  40 38 3d 36 c4 0c 00           cmp    BYTE PTR [rip+0xcc436],dil        # 0x3e7b08 ; CONFIG Bools.SulfurOre value(+0x48)
+571:31b6d4  40 38 3d 9d c2 0c 00           cmp    BYTE PTR [rip+0xcc29d],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+575:31b6ef  e8 00 82 fd ff                 call   0x2f38f4 ; STRING getter=0x2f38f4 sulfur
+585:31b718  e8 9f 82 fd ff                 call   0x2f39bc ; STRING getter=0x2f39bc assets/bundled/prefabs/radtown/ore_sulfur.prefab
+596:31b748  e8 db 83 fd ff                 call   0x2f3b28 ; STRING getter=0x2f3b28 SulfurOre
+604:31b76a  ba 03 00 00 00                 mov    edx,0x3
+606:31b772  e8 45 bf ff ff                 call   0x3176bc
+609:31b781  40 38 3d d0 cd 0c 00           cmp    BYTE PTR [rip+0xccdd0],dil        # 0x3e8558 ; CONFIG Bools.CarESP value(+0x48)
+613:31b79c  e8 b3 84 fd ff                 call   0x2f3c54 ; STRING getter=0x2f3c54 ModularCar
+625:31b7d6  e8 d9 85 fd ff                 call   0x2f3db4 ; STRING getter=0x2f3db4 Car
+633:31b7f8  ba 7d 00 00 00                 mov    edx,0x7d
+635:31b800  e8 b7 be ff ff                 call   0x3176bc
+639:31b819  40 38 3d 88 cd 0c 00           cmp    BYTE PTR [rip+0xccd88],dil        # 0x3e85a8 ; CONFIG Bools.TrainESP value(+0x48)
+643:31b830  e8 37 86 fd ff                 call   0x2f3e6c ; STRING getter=0x2f3e6c TrainEngine
+654:31b860  e8 07 87 fd ff                 call   0x2f3f6c ; STRING getter=0x2f3f6c Train
+662:31b882  ba 72 00 00 00                 mov    edx,0x72
+664:31b88a  e8 2d be ff ff                 call   0x3176bc
+667:31b899  40 38 3d 58 e1 0c 00           cmp    BYTE PTR [rip+0xce158],dil        # 0x3e99f8 ; CONFIG Bools.DrawDrone value(+0x48)
+671:31b8b4  e8 c3 87 fd ff                 call   0x2f407c ; STRING getter=0x2f407c Drone
+683:31b8ee  e8 29 88 fd ff                 call   0x2f411c ; STRING getter=0x2f411c Drones
+691:31b910  ba 0c 00 00 00                 mov    edx,0xc
+693:31b918  e8 9f bd ff ff                 call   0x3176bc
+697:31b931  40 38 3d 90 b6 0c 00           cmp    BYTE PTR [rip+0xcb690],dil        # 0x3e6fc8 ; CONFIG Bools.DrawBikes value(+0x48)
+699:31b93a  40 38 3d 37 b6 0c 00           cmp    BYTE PTR [rip+0xcb637],dil        # 0x3e6f78 ; CONFIG Bools.MetalBike value(+0x48)
+703:31b955  e8 ee 87 fd ff                 call   0x2f4148 ; STRING getter=0x2f4148 Bike
+711:31b976  40 38 3d 4b b6 0c 00           cmp    BYTE PTR [rip+0xcb64b],dil        # 0x3e6fc8 ; CONFIG Bools.DrawBikes value(+0x48)
+715:31b991  e8 da 89 fd ff                 call   0x2f4370 ; STRING getter=0x2f4370 pedalbike
+726:31b9c1  e8 4e 8a fd ff                 call   0x2f4414 ; STRING getter=0x2f4414 PedalBike
+731:31b9d7  e8 c0 8a fd ff                 call   0x2f449c ; STRING getter=0x2f449c pedaltrike
+742:31ba07  e8 98 8b fd ff                 call   0x2f45a4 ; STRING getter=0x2f45a4 PedalTrike
+750:31ba29  ba 0d 00 00 00                 mov    edx,0xd
+752:31ba31  e8 86 bc ff ff                 call   0x3176bc
+755:31ba40  40 38 3d 31 b5 0c 00           cmp    BYTE PTR [rip+0xcb531],dil        # 0x3e6f78 ; CONFIG Bools.MetalBike value(+0x48)
+759:31ba59  e8 de 8b fd ff                 call   0x2f463c ; STRING getter=0x2f463c motorbike_sidecar
+770:31ba86  e8 45 8c fd ff                 call   0x2f46d0 ; STRING getter=0x2f46d0 MotorBike Sidecar
+775:31ba99  e8 ae 8c fd ff                 call   0x2f474c ; STRING getter=0x2f474c motorbike.prefab
+786:31bac9  e8 2e 8d fd ff                 call   0x2f47fc ; STRING getter=0x2f47fc MotorBike
+794:31baeb  ba 0e 00 00 00                 mov    edx,0xe
+796:31baf3  e8 c4 bb ff ff                 call   0x3176bc
+799:31bb02  40 38 3d cf d6 0c 00           cmp    BYTE PTR [rip+0xcd6cf],dil        # 0x3e91d8 ; CONFIG Bools.PatrolHeli value(+0x48)
+803:31bb1a  e8 51 8d fd ff                 call   0x2f4870 ; STRING getter=0x2f4870 PatrolHelicopter
+814:31bb4f  e8 dc 8d fd ff                 call   0x2f4930 ; STRING getter=0x2f4930 PatrolHelicopter
+822:31bb71  ba 0f 00 00 00                 mov    edx,0xf
+824:31bb79  e8 3e bb ff ff                 call   0x3176bc
+829:31bb94  e8 6b 8f fd ff                 call   0x2f4b04 ; STRING getter=0x2f4b04 heli_crate.prefab
+840:31bbc4  e8 03 90 fd ff                 call   0x2f4bcc ; STRING getter=0x2f4bcc heli_crate
+848:31bbe6  ba 10 00 00 00                 mov    edx,0x10
+850:31bbee  e8 c9 ba ff ff                 call   0x3176bc
+853:31bbfd  40 38 3d 64 b9 0c 00           cmp    BYTE PTR [rip+0xcb964],dil        # 0x3e7568 ; CONFIG Bools.recycler value(+0x48)
+857:31bc18  e8 e7 8f fd ff                 call   0x2f4c04 ; STRING getter=0x2f4c04 Recycler
+869:31bc52  e8 79 90 fd ff                 call   0x2f4cd0 ; STRING getter=0x2f4cd0 Recycler
+877:31bc74  ba 11 00 00 00                 mov    edx,0x11
+879:31bc7c  e8 3b ba ff ff                 call   0x3176bc
+883:31bc95  40 38 3d 8c d5 0c 00           cmp    BYTE PTR [rip+0xcd58c],dil        # 0x3e9228 ; CONFIG Bools.Bradley value(+0x48)
+887:31bcb0  e8 bb 90 fd ff                 call   0x2f4d70 ; STRING getter=0x2f4d70 BradleyAPC
+898:31bce0  e8 cf 91 fd ff                 call   0x2f4eb4 ; STRING getter=0x2f4eb4 BradleyAPC
+906:31bd02  ba 15 00 00 00                 mov    edx,0x15
+908:31bd0a  e8 ad b9 ff ff                 call   0x3176bc
+913:31bd27  e8 bc 91 fd ff                 call   0x2f4ee8 ; STRING getter=0x2f4ee8 bradley_crate
+924:31bd57  e8 58 92 fd ff                 call   0x2f4fb4 ; STRING getter=0x2f4fb4 bradley_crate
+932:31bd79  ba 16 00 00 00                 mov    edx,0x16
+934:31bd81  e8 36 b9 ff ff                 call   0x3176bc
+937:31bd90  40 38 3d c1 d6 0c 00           cmp    BYTE PTR [rip+0xcd6c1],dil        # 0x3e9458 ; CONFIG Bools.Submarine value(+0x48)
+941:31bdab  e8 5c 92 fd ff                 call   0x2f500c ; STRING getter=0x2f500c SubmarineDuo
+952:31bde0  e8 7f 93 fd ff                 call   0x2f5164 ; STRING getter=0x2f5164 BaseSubmarine
+963:31be10  e8 5f 95 fd ff                 call   0x2f5374 ; STRING getter=0x2f5374 Submarine
+971:31be32  ba 17 00 00 00                 mov    edx,0x17
+973:31be3a  e8 7d b8 ff ff                 call   0x3176bc
+977:31be53  40 38 3d ae d5 0c 00           cmp    BYTE PTR [rip+0xcd5ae],dil        # 0x3e9408 ; CONFIG Bools.ScrapHeli value(+0x48)
+981:31be68  e8 cb 95 fd ff                 call   0x2f5438 ; STRING getter=0x2f5438 ScrapTransportHelicopter
+992:31be98  e8 43 97 fd ff                 call   0x2f55e0 ; STRING getter=0x2f55e0 ScrapHelicopter
+1000:31beba  ba 18 00 00 00                 mov    edx,0x18
+1002:31bec2  e8 f5 b7 ff ff                 call   0x3176bc
+1005:31bed1  40 38 3d e0 d4 0c 00           cmp    BYTE PTR [rip+0xcd4e0],dil        # 0x3e93b8 ; CONFIG Bools.Minicopter value(+0x48)
+1009:31beec  e8 ff 97 fd ff                 call   0x2f56f0 ; STRING getter=0x2f56f0 Minicopter
+1021:31bf26  e8 d9 99 fd ff                 call   0x2f5904 ; STRING getter=0x2f5904 Minicopter
+1029:31bf48  ba 19 00 00 00                 mov    edx,0x19
+1031:31bf50  e8 67 b7 ff ff                 call   0x3176bc
+1035:31bf69  40 38 3d 58 d3 0c 00           cmp    BYTE PTR [rip+0xcd358],dil        # 0x3e92c8 ; CONFIG Bools.attackhelicopter value(+0x48)
+1039:31bf7e  e8 b9 9a fd ff                 call   0x2f5a3c ; STRING getter=0x2f5a3c AttackHelicopter
+1050:31bfab  e8 34 9c fd ff                 call   0x2f5be4 ; STRING getter=0x2f5be4 AttackHelicopter
+1058:31bfcd  ba 1a 00 00 00                 mov    edx,0x1a
+1060:31bfd5  e8 e2 b6 ff ff                 call   0x3176bc
+1063:31bfe4  40 38 3d 8d d2 0c 00           cmp    BYTE PTR [rip+0xcd28d],dil        # 0x3e9278 ; CONFIG Bools.tugboat value(+0x48)
+1087:31c05b  ba 1b 00 00 00                 mov    edx,0x1b
+1089:31c063  e8 54 b6 ff ff                 call   0x3176bc
+1093:31c07c  40 38 3d 95 d2 0c 00           cmp    BYTE PTR [rip+0xcd295],dil        # 0x3e9318 ; CONFIG Bools.RHIB value(+0x48)
+1097:31c093  e8 9c 9e fd ff                 call   0x2f5f34 ; STRING getter=0x2f5f34 RHIB
+1108:31c0c3  e8 00 a1 fd ff                 call   0x2f61c8 ; STRING getter=0x2f61c8 RHIB
+1116:31c0e5  ba 1c 00 00 00                 mov    edx,0x1c
+1118:31c0ed  e8 ca b5 ff ff                 call   0x3176bc
+1121:31c0fc  40 38 3d 65 d2 0c 00           cmp    BYTE PTR [rip+0xcd265],dil        # 0x3e9368 ; CONFIG Bools.Rowboat value(+0x48)
+1125:31c117  e8 74 a2 fd ff                 call   0x2f6390 ; STRING getter=0x2f6390 MotorRowboat
+1145:31c173  ba 1d 00 00 00                 mov    edx,0x1d
+1147:31c17b  e8 3c b5 ff ff                 call   0x3176bc
+1151:31c194  40 38 3d fd ce 0c 00           cmp    BYTE PTR [rip+0xccefd],dil        # 0x3e9098 ; CONFIG Bools.Cargoship value(+0x48)
+1155:31c1ab  e8 6c a3 fd ff                 call   0x2f651c ; STRING getter=0x2f651c CargoShip
+1166:31c1db  e8 28 a4 fd ff                 call   0x2f6608 ; STRING getter=0x2f6608 Cargoship
+1174:31c1fd  ba 1e 00 00 00                 mov    edx,0x1e
+1176:31c205  e8 b2 b4 ff ff                 call   0x3176bc
+1189:31c249  e8 ee a4 fd ff                 call   0x2f673c ; STRING getter=0x2f673c CollectableEasterEgg
+1201:31c287  e8 2c a6 fd ff                 call   0x2f68b8 ; STRING getter=0x2f68b8 Candy
+1209:31c2ae  e8 61 a7 fd ff                 call   0x2f6a14 ; STRING getter=0x2f6a14 collectableegg
+1220:31c2de  e8 dd a7 fd ff                 call   0x2f6ac0 ; STRING getter=0x2f6ac0 Egg
+1230:31c305  e8 b2 b3 ff ff                 call   0x3176bc
+1234:31c31d  40 38 3d d4 c2 0c 00           cmp    BYTE PTR [rip+0xcc2d4],dil        # 0x3e85f8 ; CONFIG Bools.FragmentsESP value(+0x48)
+1236:31c326  40 38 3d 1b c3 0c 00           cmp    BYTE PTR [rip+0xcc31b],dil        # 0x3e8648 ; CONFIG Bools.SmallFragmentsESP value(+0x48)
+1238:31c32f  40 38 3d 62 c3 0c 00           cmp    BYTE PTR [rip+0xcc362],dil        # 0x3e8698 ; CONFIG Bools.RedCardESP value(+0x48)
+1242:31c34a  e8 b1 a7 fd ff                 call   0x2f6b00 ; STRING getter=0x2f6b00 ItemPickup
+1250:31c36b  40 38 3d 86 c2 0c 00           cmp    BYTE PTR [rip+0xcc286],dil        # 0x3e85f8 ; CONFIG Bools.FragmentsESP value(+0x48)
+1254:31c37f  e8 f4 a8 fd ff                 call   0x2f6c78 ; STRING getter=0x2f6c78 advancedblueprintfragment
+1265:31c3ad  e8 5e a9 fd ff                 call   0x2f6d10 ; STRING getter=0x2f6d10 Advanced Fragment
+1273:31c3cf  ba 5f 00 00 00                 mov    edx,0x5f
+1275:31c3d7  e8 e0 b2 ff ff                 call   0x3176bc
+1278:31c3e6  40 38 3d 5b c2 0c 00           cmp    BYTE PTR [rip+0xcc25b],dil        # 0x3e8648 ; CONFIG Bools.SmallFragmentsESP value(+0x48)
+1282:31c3fb  e8 cc a9 fd ff                 call   0x2f6dcc ; STRING getter=0x2f6dcc basicblueprintfragment
+1293:31c42b  e8 24 aa fd ff                 call   0x2f6e54 ; STRING getter=0x2f6e54 Basic Fragment
+1301:31c44d  ba 60 00 00 00                 mov    edx,0x60
+1303:31c455  e8 62 b2 ff ff                 call   0x3176bc
+1306:31c464  40 38 3d 2d c2 0c 00           cmp    BYTE PTR [rip+0xcc22d],dil        # 0x3e8698 ; CONFIG Bools.RedCardESP value(+0x48)
+1310:31c47b  e8 54 aa fd ff                 call   0x2f6ed4 ; STRING getter=0x2f6ed4 keycard_red
+1329:31c4cd  ba 61 00 00 00                 mov    edx,0x61
+1331:31c4d5  e8 e2 b1 ff ff                 call   0x3176bc
+1336:31c4f0  e8 23 ab fd ff                 call   0x2f7018 ; STRING getter=0x2f7018 CollectibleEntity
+1345:31c51b  40 38 3d f6 be 0c 00           cmp    BYTE PTR [rip+0xcbef6],dil        # 0x3e8418 ; CONFIG Bools.WheatESP value(+0x48)
+1349:31c530  e8 eb ab fd ff                 call   0x2f7120 ; STRING getter=0x2f7120 wheat-collectable
+1360:31c560  e8 f7 ab fd ff                 call   0x2f715c ; STRING getter=0x2f715c Wheat
+1368:31c582  ba 39 00 00 00                 mov    edx,0x39
+1370:31c58a  e8 2d b1 ff ff                 call   0x3176bc
+1373:31c599  40 38 3d 18 bf 0c 00           cmp    BYTE PTR [rip+0xcbf18],dil        # 0x3e84b8 ; CONFIG Bools.SunflowerESP value(+0x48)
+1377:31c5ae  e8 61 ac fd ff                 call   0x2f7214 ; STRING getter=0x2f7214 sunflower-collectable
+1388:31c5de  e8 9d ad fd ff                 call   0x2f7380 ; STRING getter=0x2f7380 SunFlower
+1396:31c600  ba 3e 00 00 00                 mov    edx,0x3e
+1398:31c608  e8 af b0 ff ff                 call   0x3176bc
+1401:31c617  40 38 3d 4a be 0c 00           cmp    BYTE PTR [rip+0xcbe4a],dil        # 0x3e8468 ; CONFIG Bools.RoseESP value(+0x48)
+1405:31c62c  e8 cf ae fd ff                 call   0x2f7500 ; STRING getter=0x2f7500 rose-collectable
+1416:31c65c  e8 47 b0 fd ff                 call   0x2f76a8 ; STRING getter=0x2f76a8 Rose
+1424:31c67e  ba 3f 00 00 00                 mov    edx,0x3f
+1426:31c686  e8 31 b0 ff ff                 call   0x3176bc
+1429:31c695  40 38 3d 6c be 0c 00           cmp    BYTE PTR [rip+0xcbe6c],dil        # 0x3e8508 ; CONFIG Bools.OrchidESP value(+0x48)
+1433:31c6aa  e8 35 b1 fd ff                 call   0x2f77e4 ; STRING getter=0x2f77e4 orchid-collectable
+1444:31c6da  e8 71 b1 fd ff                 call   0x2f7850 ; STRING getter=0x2f7850 Orchid
+1452:31c6fc  ba 40 00 00 00                 mov    edx,0x40
+1454:31c704  e8 b3 af ff ff                 call   0x3176bc
+1457:31c713  40 38 3d ae c1 0c 00           cmp    BYTE PTR [rip+0xcc1ae],dil        # 0x3e88c8 ; CONFIG Bools.hempesp value(+0x48)
+1461:31c728  e8 b7 b1 fd ff                 call   0x2f78e4 ; STRING getter=0x2f78e4 hemp-collectable
+1472:31c758  e8 2b b2 fd ff                 call   0x2f7988 ; STRING getter=0x2f7988 Hemp
+1480:31c77a  ba 21 00 00 00                 mov    edx,0x21
+1482:31c782  e8 35 af ff ff                 call   0x3176bc
+1495:31c7c1  e8 aa b2 fd ff                 call   0x2f7a70 ; STRING getter=0x2f7a70 black
+1506:31c7f1  e8 86 b3 fd ff                 call   0x2f7b7c ; STRING getter=0x2f7b7c Black
+1514:31c813  ba 22 00 00 00                 mov    edx,0x22
+1516:31c81b  e8 9c ae ff ff                 call   0x3176bc
+1529:31c85d  e8 ba b3 fd ff                 call   0x2f7c1c ; STRING getter=0x2f7c1c blue
+1540:31c88d  e8 06 32 fd ff                 call   0x2efa98 ; STRING getter=0x2efa98 Blue
+1548:31c8af  ba 23 00 00 00                 mov    edx,0x23
+1550:31c8b7  e8 00 ae ff ff                 call   0x3176bc
+1563:31c8f9  e8 ea 32 fd ff                 call   0x2efbe8 ; STRING getter=0x2efbe8 green
+1574:31c929  e8 fe 33 fd ff                 call   0x2efd2c ; STRING getter=0x2efd2c Green
+1582:31c94b  ba 24 00 00 00                 mov    edx,0x24
+1584:31c953  e8 64 ad ff ff                 call   0x3176bc
+1597:31c995  e8 de 33 fd ff                 call   0x2efd78 ; STRING getter=0x2efd78 red
+1608:31c9c5  e8 96 34 fd ff                 call   0x2efe60 ; STRING getter=0x2efe60 Red
+1616:31c9e7  ba 25 00 00 00                 mov    edx,0x25
+1618:31c9ef  e8 c8 ac ff ff                 call   0x3176bc
+1631:31ca31  e8 52 35 fd ff                 call   0x2eff88 ; STRING getter=0x2eff88 white
+1642:31ca61  e8 16 36 fd ff                 call   0x2f007c ; STRING getter=0x2f007c White
+1650:31ca83  ba 26 00 00 00                 mov    edx,0x26
+1652:31ca8b  e8 2c ac ff ff                 call   0x3176bc
+1665:31cacd  e8 32 36 fd ff                 call   0x2f0104 ; STRING getter=0x2f0104 yellow
+1676:31cafd  e8 ea 36 fd ff                 call   0x2f01ec ; STRING getter=0x2f01ec Yellow
+1684:31cb1f  ba 27 00 00 00                 mov    edx,0x27
+1686:31cb27  e8 90 ab ff ff                 call   0x3176bc
+1689:31cb36  40 38 3d db bd 0c 00           cmp    BYTE PTR [rip+0xcbddb],dil        # 0x3e8918 ; CONFIG Bools.stoneesp value(+0x48)
+1693:31cb4a  e8 0d 37 fd ff                 call   0x2f025c ; STRING getter=0x2f025c stone-collectable
+1704:31cb78  e8 df 38 fd ff                 call   0x2f045c ; STRING getter=0x2f045c StoneCollectable
+1712:31cb9a  ba 28 00 00 00                 mov    edx,0x28
+1714:31cba2  e8 15 ab ff ff                 call   0x3176bc
+1717:31cbb1  40 38 3d b0 bd 0c 00           cmp    BYTE PTR [rip+0xcbdb0],dil        # 0x3e8968 ; CONFIG Bools.metalesp value(+0x48)
+1721:31cbc8  e8 7f 39 fd ff                 call   0x2f054c ; STRING getter=0x2f054c metal
+1732:31cbf6  e8 b9 39 fd ff                 call   0x2f05b4 ; STRING getter=0x2f05b4 MetalCollectable
+1740:31cc18  ba 29 00 00 00                 mov    edx,0x29
+1742:31cc20  e8 97 aa ff ff                 call   0x3176bc
+1745:31cc2f  40 38 3d 82 bd 0c 00           cmp    BYTE PTR [rip+0xcbd82],dil        # 0x3e89b8 ; CONFIG Bools.sulfuresp value(+0x48)
+1749:31cc46  e8 61 3a fd ff                 call   0x2f06ac ; STRING getter=0x2f06ac sulfur
+1760:31cc74  e8 c3 3a fd ff                 call   0x2f073c ; STRING getter=0x2f073c SulfurCollectable
+1768:31cc96  ba 2a 00 00 00                 mov    edx,0x2a
+1770:31cc9e  e8 19 aa ff ff                 call   0x3176bc
+1773:31ccad  40 38 3d 54 bd 0c 00           cmp    BYTE PTR [rip+0xcbd54],dil        # 0x3e8a08 ; CONFIG Bools.woodesp value(+0x48)
+1777:31ccc4  e8 8f 3a fd ff                 call   0x2f0758 ; STRING getter=0x2f0758 wood
+1788:31ccf4  e8 ab 3a fd ff                 call   0x2f07a4 ; STRING getter=0x2f07a4 WoodCollectable
+1796:31cd16  ba 2b 00 00 00                 mov    edx,0x2b
+1798:31cd1e  e8 99 a9 ff ff                 call   0x3176bc
+1801:31cd2d  40 38 3d 24 bd 0c 00           cmp    BYTE PTR [rip+0xcbd24],dil        # 0x3e8a58 ; CONFIG Bools.cornesp value(+0x48)
+1805:31cd44  e8 83 3a fd ff                 call   0x2f07cc ; STRING getter=0x2f07cc corn
+1816:31cd74  e8 83 3a fd ff                 call   0x2f07fc ; STRING getter=0x2f07fc CornCollectable
+1824:31cd96  ba 2c 00 00 00                 mov    edx,0x2c
+1826:31cd9e  e8 19 a9 ff ff                 call   0x3176bc
+1829:31cdad  40 38 3d 24 bf 0c 00           cmp    BYTE PTR [rip+0xcbf24],dil        # 0x3e8cd8 ; CONFIG Bools.mushroomesp value(+0x48)
+1833:31cdc4  e8 4f 3a fd ff                 call   0x2f0818 ; STRING getter=0x2f0818 mushroom
+1844:31cdf2  e8 3d 3b fd ff                 call   0x2f0934 ; STRING getter=0x2f0934 MushroomCollectable
+1852:31ce14  ba 2d 00 00 00                 mov    edx,0x2d
+1854:31ce1c  e8 9b a8 ff ff                 call   0x3176bc
+1857:31ce2b  40 38 3d f6 be 0c 00           cmp    BYTE PTR [rip+0xcbef6],dil        # 0x3e8d28 ; CONFIG Bools.pumpkinesp value(+0x48)
+1872:31ce70  e8 27 3b fd ff                 call   0x2f099c ; STRING getter=0x2f099c PumpkinCollectable
+1880:31ce92  ba 2e 00 00 00                 mov    edx,0x2e
+1882:31ce9a  e8 1d a8 ff ff                 call   0x3176bc
+1885:31cea9  40 38 3d c8 be 0c 00           cmp    BYTE PTR [rip+0xcbec8],dil        # 0x3e8d78 ; CONFIG Bools.diselesp value(+0x48)
+1889:31cec0  e8 2f 3b fd ff                 call   0x2f09f4 ; STRING getter=0x2f09f4 diesel
+1900:31ceee  e8 61 3b fd ff                 call   0x2f0a54 ; STRING getter=0x2f0a54 DieselCollectable
+1908:31cf10  ba 2f 00 00 00                 mov    edx,0x2f
+1910:31cf18  e8 9f a7 ff ff                 call   0x3176bc
+1913:31cf27  40 38 3d 9a be 0c 00           cmp    BYTE PTR [rip+0xcbe9a],dil        # 0x3e8dc8 ; CONFIG Bools.potatoesp value(+0x48)
+1917:31cf3e  e8 2d 3b fd ff                 call   0x2f0a70 ; STRING getter=0x2f0a70 potato
+1928:31cf6c  e8 1f 3b fd ff                 call   0x2f0a90 ; STRING getter=0x2f0a90 PotatoCollectable
+1936:31cf8e  ba 30 00 00 00                 mov    edx,0x30
+1938:31cf96  e8 21 a7 ff ff                 call   0x3176bc
+1942:31cfaf  40 38 3d d2 b2 0c 00           cmp    BYTE PTR [rip+0xcb2d2],dil        # 0x3e8288 ; CONFIG Bools.BeeHive value(+0x48)
+1946:31cfc6  e8 e1 3a fd ff                 call   0x2f0aac ; STRING getter=0x2f0aac NaturalBeehive
+1965:31d018  ba 07 00 00 00                 mov    edx,0x7
+1967:31d020  e8 97 a6 ff ff                 call   0x3176bc
+1970:31d02f  40 38 3d a2 b2 0c 00           cmp    BYTE PTR [rip+0xcb2a2],dil        # 0x3e82d8 ; CONFIG Bools.BeeSwarmAI value(+0x48)
+1974:31d04a  e8 ad 3a fd ff                 call   0x2f0afc ; STRING getter=0x2f0afc BeeSwarmAI
+1986:31d084  e8 9f 3b fd ff                 call   0x2f0c28 ; STRING getter=0x2f0c28 BeeSwarm
+1994:31d0a6  ba 06 00 00 00                 mov    edx,0x6
+1996:31d0ae  e8 09 a6 ff ff                 call   0x3176bc
+2000:31d0c7  40 38 3d 2a bf 0c 00           cmp    BYTE PTR [rip+0xcbf2a],dil        # 0x3e8ff8 ; CONFIG Bools.Airdrop value(+0x48)
+2004:31d0de  e8 61 3b fd ff                 call   0x2f0c44 ; STRING getter=0x2f0c44 SupplyDrop
+2023:31d130  ba 31 00 00 00                 mov    edx,0x31
+2025:31d138  e8 7f a5 ff ff                 call   0x3176bc
+2028:31d147  40 38 3d 9a bf 0c 00           cmp    BYTE PTR [rip+0xcbf9a],dil        # 0x3e90e8 ; CONFIG Bools.LockedCrates value(+0x48)
+2032:31d15c  e8 63 3b fd ff                 call   0x2f0cc4 ; STRING getter=0x2f0cc4 HackableLockedCrate
+2044:31d193  e8 60 3b fd ff                 call   0x2f0cf8 ; STRING getter=0x2f0cf8 HackableLockedCrate
+2052:31d1b5  ba 32 00 00 00                 mov    edx,0x32
+2054:31d1bd  e8 fa a4 ff ff                 call   0x3176bc
+2058:31d1d6  40 38 3d fb ab 0c 00           cmp    BYTE PTR [rip+0xcabfb],dil        # 0x3e7dd8 ; CONFIG Bools.AWaterCrateESP value(+0x48)
+2060:31d1df  40 38 3d 42 ac 0c 00           cmp    BYTE PTR [rip+0xcac42],dil        # 0x3e7e28 ; CONFIG Bools.BWaterCrateESP value(+0x48)
+2064:31d1f8  e8 23 3b fd ff                 call   0x2f0d20 ; STRING getter=0x2f0d20 FreeableLootContainer
+2072:31d219  40 38 3d b8 ab 0c 00           cmp    BYTE PTR [rip+0xcabb8],dil        # 0x3e7dd8 ; CONFIG Bools.AWaterCrateESP value(+0x48)
+2076:31d22d  e8 26 3b fd ff                 call   0x2f0d58 ; STRING getter=0x2f0d58 crate_underwater_advanced.prefab
+2087:31d25b  e8 30 3b fd ff                 call   0x2f0d90 ; STRING getter=0x2f0d90 AdvancedWaterCrate
+2095:31d27d  ba 33 00 00 00                 mov    edx,0x33
+2097:31d285  e8 32 a4 ff ff                 call   0x3176bc
+2100:31d294  40 38 3d 8d ab 0c 00           cmp    BYTE PTR [rip+0xcab8d],dil        # 0x3e7e28 ; CONFIG Bools.BWaterCrateESP value(+0x48)
+2104:31d2a9  e8 12 3b fd ff                 call   0x2f0dc0 ; STRING getter=0x2f0dc0 crate_underwater_basic.prefab
+2115:31d2d9  e8 12 3b fd ff                 call   0x2f0df0 ; STRING getter=0x2f0df0 BasicWaterCrate
+2123:31d2fb  ba 34 00 00 00                 mov    edx,0x34
+2125:31d303  e8 b4 a3 ff ff                 call   0x3176bc
+2130:31d320  e8 f3 3b fd ff                 call   0x2f0f18 ; STRING getter=0x2f0f18 LootContainer
+2139:31d34b  40 38 3d 06 a8 0c 00           cmp    BYTE PTR [rip+0xca806],dil        # 0x3e7b58 ; CONFIG Bools.BlueBarrelEsp value(+0x48)
+2143:31d366  e8 ed 3b fd ff                 call   0x2f0f58 ; STRING getter=0x2f0f58 loot-barrel
+2153:31d391  e8 fa 3b fd ff                 call   0x2f0f90 ; STRING getter=0x2f0f90 loot_barrel
+2164:31d3c1  e8 02 3c fd ff                 call   0x2f0fc8 ; STRING getter=0x2f0fc8 Barrel
+2172:31d3e3  ba 35 00 00 00                 mov    edx,0x35
+2174:31d3eb  e8 cc a2 ff ff                 call   0x3176bc
+2177:31d3fa  40 38 3d a7 a7 0c 00           cmp    BYTE PTR [rip+0xca7a7],dil        # 0x3e7ba8 ; CONFIG Bools.OilBarrelEsp value(+0x48)
+2181:31d411  e8 d2 3b fd ff                 call   0x2f0fe8 ; STRING getter=0x2f0fe8 oil_barrel
+2192:31d441  e8 da 3b fd ff                 call   0x2f1020 ; STRING getter=0x2f1020 OilBarrel
+2200:31d463  ba 37 00 00 00                 mov    edx,0x37
+2202:31d46b  e8 4c a2 ff ff                 call   0x3176bc
+2205:31d47a  40 38 3d 77 a7 0c 00           cmp    BYTE PTR [rip+0xca777],dil        # 0x3e7bf8 ; CONFIG Bools.NormalCrateESP value(+0x48)
+2209:31d48f  e8 e4 3b fd ff                 call   0x2f1078 ; STRING getter=0x2f1078 crate_normal_2.prefab
+2220:31d4bf  e8 ec 3b fd ff                 call   0x2f10b0 ; STRING getter=0x2f10b0 NormalCrate
+2228:31d4e1  ba 38 00 00 00                 mov    edx,0x38
+2230:31d4e9  e8 ce a1 ff ff                 call   0x3176bc
+2233:31d4f8  40 38 3d 49 a7 0c 00           cmp    BYTE PTR [rip+0xca749],dil        # 0x3e7c48 ; CONFIG Bools.MilitaryCrateESP value(+0x48)
+2237:31d50d  e8 c6 3b fd ff                 call   0x2f10d8 ; STRING getter=0x2f10d8 crate_normal.prefab
+2248:31d53d  e8 ce 3b fd ff                 call   0x2f1110 ; STRING getter=0x2f1110 MilitaryCrate
+2256:31d55f  ba 3a 00 00 00                 mov    edx,0x3a
+2258:31d567  e8 50 a1 ff ff                 call   0x3176bc
+2261:31d576  40 38 3d 1b a7 0c 00           cmp    BYTE PTR [rip+0xca71b],dil        # 0x3e7c98 ; CONFIG Bools.EliteCrateESP value(+0x48)
+2265:31d58b  e8 a8 3c fd ff                 call   0x2f1238 ; STRING getter=0x2f1238 crate_elite.prefab
+2276:31d5bb  e8 9c 3c fd ff                 call   0x2f125c ; STRING getter=0x2f125c EliteCrate
+2284:31d5dd  ba 3b 00 00 00                 mov    edx,0x3b
+2286:31d5e5  e8 d2 a0 ff ff                 call   0x3176bc
+2289:31d5f4  40 38 3d ed a6 0c 00           cmp    BYTE PTR [rip+0xca6ed],dil        # 0x3e7ce8 ; CONFIG Bools.ToolCrateESP value(+0x48)
+2293:31d60b  e8 88 3c fd ff                 call   0x2f1298 ; STRING getter=0x2f1298 crate_tools
+2304:31d63b  e8 90 3c fd ff                 call   0x2f12d0 ; STRING getter=0x2f12d0 ToolCrate
+2312:31d65d  ba 3c 00 00 00                 mov    edx,0x3c
+2314:31d665  e8 52 a0 ff ff                 call   0x3176bc
+2317:31d674  40 38 3d bd a6 0c 00           cmp    BYTE PTR [rip+0xca6bd],dil        # 0x3e7d38 ; CONFIG Bools.FoodCrateESP value(+0x48)
+2321:31d68f  e8 88 3c fd ff                 call   0x2f131c ; STRING getter=0x2f131c food
+2331:31d6ba  e8 b1 3c fd ff                 call   0x2f1370 ; STRING getter=0x2f1370 trash-pile-1
+2342:31d6ea  e8 dd 3c fd ff                 call   0x2f13cc ; STRING getter=0x2f13cc FoodCrate
+2350:31d70c  ba 3d 00 00 00                 mov    edx,0x3d
+2352:31d714  e8 a3 9f ff ff                 call   0x3176bc
+2355:31d723  40 38 3d 5e a6 0c 00           cmp    BYTE PTR [rip+0xca65e],dil        # 0x3e7d88 ; CONFIG Bools.MedicalCrateESP value(+0x48)
+2359:31d738  e8 c7 3c fd ff                 call   0x2f1404 ; STRING getter=0x2f1404 crate_normal_2_medical.prefab
+2370:31d768  e8 f7 3c fd ff                 call   0x2f1464 ; STRING getter=0x2f1464 MedicalCrate
+2378:31d78a  ba 41 00 00 00                 mov    edx,0x41
+2380:31d792  e8 25 9f ff ff                 call   0x3176bc
+2383:31d7a1  40 38 3d d0 a6 0c 00           cmp    BYTE PTR [rip+0xca6d0],dil        # 0x3e7e78 ; CONFIG Bools.BasicCrateESP value(+0x48)
+2387:31d7b6  e8 05 3d fd ff                 call   0x2f14c0 ; STRING getter=0x2f14c0 crate_basic.prefab
+2398:31d7e6  e8 8d 3d fd ff                 call   0x2f1578 ; STRING getter=0x2f1578 BasicCrate
+2406:31d808  ba 42 00 00 00                 mov    edx,0x42
+2408:31d810  e8 a7 9e ff ff                 call   0x3176bc
+2412:31d829  40 38 3d 48 9c 0c 00           cmp    BYTE PTR [rip+0xc9c48],dil        # 0x3e7478 ; CONFIG Bools.Corpse value(+0x48)
+2416:31d840  e8 9f 3d fd ff                 call   0x2f15e4 ; STRING getter=0x2f15e4 PlayerCorpse
+2427:31d870  e8 af 3d fd ff                 call   0x2f1624 ; STRING getter=0x2f1624 Corpse
+2435:31d892  ba 43 00 00 00                 mov    edx,0x43
+2437:31d89a  e8 1d 9e ff ff                 call   0x3176bc
+2440:31d8a9  40 38 3d 18 9c 0c 00           cmp    BYTE PTR [rip+0xc9c18],dil        # 0x3e74c8 ; CONFIG Bools.ScientistCorpse value(+0x48)
+2444:31d8c4  e8 b7 3d fd ff                 call   0x2f1680 ; STRING getter=0x2f1680 NPCPlayerCorpse
+2456:31d8fe  e8 ad 3d fd ff                 call   0x2f16b0 ; STRING getter=0x2f16b0 NPCCorpse
+2464:31d920  ba 44 00 00 00                 mov    edx,0x44
+2466:31d928  e8 8f 9d ff ff                 call   0x3176bc
+2470:31d941  40 38 3d d0 9b 0c 00           cmp    BYTE PTR [rip+0xc9bd0],dil        # 0x3e7518 ; CONFIG Bools.AnimalCorpse value(+0x48)
+2474:31d958  e8 8b 3d fd ff                 call   0x2f16e8 ; STRING getter=0x2f16e8 BaseCorpse
+2485:31d988  e8 8f 3d fd ff                 call   0x2f171c ; STRING getter=0x2f171c AnimalCorpse
+2493:31d9aa  ba 45 00 00 00                 mov    edx,0x45
+2495:31d9b2  e8 05 9d ff ff                 call   0x3176bc
+2498:31d9c1  40 38 3d f0 9b 0c 00           cmp    BYTE PTR [rip+0xc9bf0],dil        # 0x3e75b8 ; CONFIG Bools.Backpack value(+0x48)
+2502:31d9d6  e8 7d 3d fd ff                 call   0x2f1758 ; STRING getter=0x2f1758 DroppedItemContainer
+2514:31da10  e8 8f 3d fd ff                 call   0x2f17a4 ; STRING getter=0x2f17a4 Backpack
+2522:31da32  ba 46 00 00 00                 mov    edx,0x46
+2524:31da3a  e8 7d 9c ff ff                 call   0x3176bc
+2528:31da53  40 38 3d 0e b4 0c 00           cmp    BYTE PTR [rip+0xcb40e],dil        # 0x3e8e68 ; CONFIG Bools.droppeditems value(+0x48)
+2530:31da5c  40 38 3d b5 b3 0c 00           cmp    BYTE PTR [rip+0xcb3b5],dil        # 0x3e8e18 ; CONFIG Bools.droppedweapons value(+0x48)
+2532:31da65  40 38 3d bc a8 0c 00           cmp    BYTE PTR [rip+0xca8bc],dil        # 0x3e8328 ; CONFIG Bools.OOFWeapons value(+0x48)
+2536:31da7c  e8 6f 3d fd ff                 call   0x2f17f0 ; STRING getter=0x2f17f0 DroppedItem
+2550:31dab3  ba 47 00 00 00                 mov    edx,0x47
+2552:31dabb  e8 fc 9b ff ff                 call   0x3176bc
+2555:31daca  40 38 3d 17 ac 0c 00           cmp    BYTE PTR [rip+0xcac17],dil        # 0x3e86e8 ; CONFIG Bools.AutoTurretESP value(+0x48)
+2557:31dad3  40 38 3d 5e bb 0c 00           cmp    BYTE PTR [rip+0xcbb5e],dil        # 0x3e9638 ; CONFIG Bools.AutoFarmOre value(+0x48)
+2559:31dadc  40 38 3d 05 bb 0c 00           cmp    BYTE PTR [rip+0xcbb05],dil        # 0x3e95e8 ; CONFIG Bools.AutoWalkMarker value(+0x48)
+2563:31daf7  e8 d8 3d fd ff                 call   0x2f18d4 ; STRING getter=0x2f18d4 AutoTurret
+2575:31db31  e8 ba 3d fd ff                 call   0x2f18f0 ; STRING getter=0x2f18f0 AutoTurret
+2583:31db53  ba 49 00 00 00                 mov    edx,0x49
+2585:31db5b  e8 5c 9b ff ff                 call   0x3176bc
+2589:31db74  40 38 3d fd a7 0c 00           cmp    BYTE PTR [rip+0xca7fd],dil        # 0x3e8378 ; CONFIG Bools.SnaptrapESP value(+0x48)
+2593:31db8b  e8 ac 3d fd ff                 call   0x2f193c ; STRING getter=0x2f193c BearTrap
+2604:31dbbb  e8 bc 3d fd ff                 call   0x2f197c ; STRING getter=0x2f197c BearTrap
+2612:31dbdd  ba 4a 00 00 00                 mov    edx,0x4a
+2614:31dbe5  e8 d2 9a ff ff                 call   0x3176bc
+2617:31dbf4  40 38 3d 1d a3 0c 00           cmp    BYTE PTR [rip+0xca31d],dil        # 0x3e7f18 ; CONFIG Bools.SnakeEsp value(+0x48)
+2621:31dc0f  e8 a8 3d fd ff                 call   0x2f19bc ; STRING getter=0x2f19bc SnakeHazard
+2633:31dc49  e8 a6 3d fd ff                 call   0x2f19f4 ; STRING getter=0x2f19f4 Snake
+2641:31dc6b  ba 4f 00 00 00                 mov    edx,0x4f
+2643:31dc73  e8 44 9a ff ff                 call   0x3176bc
+2647:31dc8c  40 38 3d b5 a4 0c 00           cmp    BYTE PTR [rip+0xca4b5],dil        # 0x3e8148 ; CONFIG Bools.CowESP value(+0x48)
+2651:31dca0  e8 7f 3d fd ff                 call   0x2f1a24 ; STRING getter=0x2f1a24 Cow
+2662:31dccd  e8 52 3d fd ff                 call   0x2f1a24 ; STRING getter=0x2f1a24 Cow
+2670:31dcef  ba 7f 00 00 00                 mov    edx,0x7f
+2672:31dcf7  e8 c0 99 ff ff                 call   0x3176bc
+2675:31dd06  40 38 3d eb a3 0c 00           cmp    BYTE PTR [rip+0xca3eb],dil        # 0x3e80f8 ; CONFIG Bools.SheepESP value(+0x48)
+2679:31dd21  e8 46 3d fd ff                 call   0x2f1a6c ; STRING getter=0x2f1a6c Sheep
+2691:31dd5b  e8 24 3d fd ff                 call   0x2f1a84 ; STRING getter=0x2f1a84 Sheep
+2699:31dd7d  ba 7e 00 00 00                 mov    edx,0x7e
+2701:31dd85  e8 32 99 ff ff                 call   0x3176bc
+2705:31dd9e  40 38 3d c3 a1 0c 00           cmp    BYTE PTR [rip+0xca1c3],dil        # 0x3e7f68 ; CONFIG Bools.TigerEsp value(+0x48)
+2709:31ddb5  e8 d6 3d fd ff                 call   0x2f1b90 ; STRING getter=0x2f1b90 Tiger
+2720:31dde5  e8 be 3d fd ff                 call   0x2f1ba8 ; STRING getter=0x2f1ba8 Tiger
+2728:31de07  ba 50 00 00 00                 mov    edx,0x50
+2730:31de0f  e8 a8 98 ff ff                 call   0x3176bc
+2733:31de1e  40 38 3d 93 a1 0c 00           cmp    BYTE PTR [rip+0xca193],dil        # 0x3e7fb8 ; CONFIG Bools.PantherEsp value(+0x48)
+2757:31de95  ba 51 00 00 00                 mov    edx,0x51
+2759:31de9d  e8 1a 98 ff ff                 call   0x3176bc
+2763:31deb6  40 38 3d 4b a1 0c 00           cmp    BYTE PTR [rip+0xca14b],dil        # 0x3e8008 ; CONFIG Bools.CrocodileEsp value(+0x48)
+2767:31decd  e8 3e 3d fd ff                 call   0x2f1c10 ; STRING getter=0x2f1c10 Crocodile
+2778:31defd  e8 2a 3d fd ff                 call   0x2f1c2c ; STRING getter=0x2f1c2c Crocodile
+2786:31df1f  ba 52 00 00 00                 mov    edx,0x52
+2788:31df27  e8 90 97 ff ff                 call   0x3176bc
+2791:31df36  40 38 3d fb a7 0c 00           cmp    BYTE PTR [rip+0xca7fb],dil        # 0x3e8738 ; CONFIG Bools.FlameTrapESP value(+0x48)
+2795:31df51  e8 f2 3c fd ff                 call   0x2f1c48 ; STRING getter=0x2f1c48 FlameTurret
+2807:31df8b  e8 d4 3c fd ff                 call   0x2f1c64 ; STRING getter=0x2f1c64 FlameTurret
+2815:31dfad  ba 4b 00 00 00                 mov    edx,0x4b
+2817:31dfb5  e8 02 97 ff ff                 call   0x3176bc
+2821:31dfce  40 38 3d 83 be 0c 00           cmp    BYTE PTR [rip+0xcbe83],dil        # 0x3e9e58 ; CONFIG Bools.tunacanalarm value(+0x48)
+2825:31dfe5  e8 96 3c fd ff                 call   0x2f1c80 ; STRING getter=0x2f1c80 TinCanAlarm
+2836:31e015  e8 82 3c fd ff                 call   0x2f1c9c ; STRING getter=0x2f1c9c TinCanAlarm
+2844:31e037  ba 4c 00 00 00                 mov    edx,0x4c
+2846:31e03f  e8 78 96 ff ff                 call   0x3176bc
+2849:31e04e  40 38 3d c3 b7 0c 00           cmp    BYTE PTR [rip+0xcb7c3],dil        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+2851:31e057  40 38 3d a3 15 0d 00           cmp    BYTE PTR [rip+0xd15a3],dil        # 0x3ef601
+2876:31e0cf  e8 74 3c fd ff                 call   0x2f1d48 ; STRING getter=0x2f1d48 FlameTurret
+2888:31e112  40 38 3d 2f b4 0c 00           cmp    BYTE PTR [rip+0xcb42f],dil        # 0x3e9548 ; CONFIG Bools.lookingat value(+0x48)
+2890:31e11f  40 38 3d f2 b6 0c 00           cmp    BYTE PTR [rip+0xcb6f2],dil        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+2933:31e1fd  e8 7e 3b fd ff                 call   0x2f1d80 ; STRING getter=0x2f1d80 UnityEngine
+2939:31e21b  e8 44 3b fd ff                 call   0x2f1d64 ; STRING getter=0x2f1d64 BoxCollider
+2970:31e2b1  e8 e6 3a fd ff                 call   0x2f1d9c ; STRING getter=0x2f1d9c FlameTurret
+2978:31e2d3  8d 57 4b                       lea    edx,[rdi+0x4b]
+2980:31e2d9  e8 de 93 ff ff                 call   0x3176bc
+3028:31e3ad  e8 06 3a fd ff                 call   0x2f1db8 ; STRING getter=0x2f1db8 SimpleBuildingBlock
+3036:31e3d5  40 38 3d 3c b4 0c 00           cmp    BYTE PTR [rip+0xcb43c],dil        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+3061:31e455  e8 76 39 fd ff                 call   0x2f1dd0 ; STRING getter=0x2f1dd0 external.high.stone.prefab
+3071:31e47e  e8 69 39 fd ff                 call   0x2f1dec ; STRING getter=0x2f1dec wall.external.high.adobe
+3099:31e50b  e8 14 39 fd ff                 call   0x2f1e24 ; STRING getter=0x2f1e24 UnityEngine
+3105:31e529  e8 da 38 fd ff                 call   0x2f1e08 ; STRING getter=0x2f1e08 BoxCollider
+3135:31e5bd  e8 7e 38 fd ff                 call   0x2f1e40 ; STRING getter=0x2f1e40 XDWALL
+3143:31e5df  ba 4d 00 00 00                 mov    edx,0x4d
+3145:31e5e7  e8 d0 90 ff ff                 call   0x3176bc
+3150:31e602  e8 81 3d fd ff                 call   0x2f2388 ; STRING getter=0x2f2388 external.high.wood.prefab
+3178:31e68c  e8 2f 3d fd ff                 call   0x2f23c0 ; STRING getter=0x2f23c0 UnityEngine
+3184:31e6aa  e8 f5 3c fd ff                 call   0x2f23a4 ; STRING getter=0x2f23a4 BoxCollider
+3222:31e75a  ba 4e 00 00 00                 mov    edx,0x4e
+3224:31e762  e8 55 8f ff ff                 call   0x3176bc
+3270:31e82d  e8 be 3b fd ff                 call   0x2f23f0 ; STRING getter=0x2f23f0 Barricade
+3278:31e855  80 3d bc af 0c 00 00           cmp    BYTE PTR [rip+0xcafbc],0x0        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+3299:31e8b8  80 38 00                       cmp    BYTE PTR [rax],0x0
+3303:31e8cd  e8 3a 3b fd ff                 call   0x2f240c ; STRING getter=0x2f240c barricade.woodwire
+3313:31e8f5  e8 2a 3b fd ff                 call   0x2f2424 ; STRING getter=0x2f2424 barricade.metal.prefab
+3330:31e941  e8 16 3b fd ff                 call   0x2f245c ; STRING getter=0x2f245c UnityEngine
+3336:31e95f  e8 dc 3a fd ff                 call   0x2f2440 ; STRING getter=0x2f2440 BoxCollider
+3370:31e9fe  80 38 00                       cmp    BYTE PTR [rax],0x0
+3376:31ea1a  80 38 00                       cmp    BYTE PTR [rax],0x0
+3410:31eaa9  e8 ca 39 fd ff                 call   0x2f2478 ; STRING getter=0x2f2478 Landmine
+3419:31ead3  38 1d 3f ad 0c 00              cmp    BYTE PTR [rip+0xcad3f],bl        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+3461:31eb9f  e8 cc 39 fd ff                 call   0x2f2570 ; STRING getter=0x2f2570 UnityEngine
+3467:31ebbd  e8 92 39 fd ff                 call   0x2f2554 ; STRING getter=0x2f2554 BoxCollider
+3538:31ecea  e8 9d 38 fd ff                 call   0x2f258c ; STRING getter=0x2f258c PlayerCorpse
+3546:31ed12  40 38 3d e8 08 0d 00           cmp    BYTE PTR [rip+0xd08e8],dil        # 0x3ef601
+3589:31edec  e8 db 37 fd ff                 call   0x2f25cc ; STRING getter=0x2f25cc UnityEngine
+3595:31ee0a  e8 a1 37 fd ff                 call   0x2f25b0 ; STRING getter=0x2f25b0 BoxCollider
+3644:31eedb  40 38 3d a6 98 0c 00           cmp    BYTE PTR [rip+0xc98a6],dil        # 0x3e8788 ; CONFIG Bools.LandmineESP value(+0x48)
+3648:31eef2  e8 f1 36 fd ff                 call   0x2f25e8 ; STRING getter=0x2f25e8 Landmine
+3659:31ef29  e8 d6 36 fd ff                 call   0x2f2604 ; STRING getter=0x2f2604 Landmine
+3667:31ef4b  ba 53 00 00 00                 mov    edx,0x53
+3669:31ef53  e8 64 87 ff ff                 call   0x3176bc
+3672:31ef62  40 38 3d 6f 98 0c 00           cmp    BYTE PTR [rip+0xc986f],dil        # 0x3e87d8 ; CONFIG Bools.SamsiteESP value(+0x48)
+3674:31ef6b  40 38 3d 16 b6 0c 00           cmp    BYTE PTR [rip+0xcb616],dil        # 0x3ea588 ; CONFIG Bools.SamSiteAlert value(+0x48)
+3686:31efae  40 38 3d 73 98 0c 00           cmp    BYTE PTR [rip+0xc9873],dil        # 0x3e8828 ; CONFIG Bools.UseCachedPositions value(+0x48)
+3699:31efec  ba 54 00 00 00                 mov    edx,0x54
+3701:31eff4  e8 c3 86 ff ff                 call   0x3176bc
+3704:31f003  40 38 3d 1e 98 0c 00           cmp    BYTE PTR [rip+0xc981e],dil        # 0x3e8828 ; CONFIG Bools.UseCachedPositions value(+0x48)
+3720:31f04c  39 7b 14                       cmp    DWORD PTR [rbx+0x14],edi
+3733:31f08a  e8 a5 35 fd ff                 call   0x2f2634 ; STRING getter=0x2f2634 %0e7b8295f9567c35261c2c1ae35d9654f0ffa04b
+3803:31f1bb  e8 24 35 fd ff                 call   0x2f26e4 ; STRING getter=0x2f26e4 Successfully saved sam
+3818:31f1fb  40 38 3d 76 96 0c 00           cmp    BYTE PTR [rip+0xc9676],dil        # 0x3e8878 ; CONFIG Bools.ShotgunTrapESP value(+0x48)
+3842:31f272  ba 55 00 00 00                 mov    edx,0x55
+3844:31f27a  e8 3d 84 ff ff                 call   0x3176bc
+3848:31f293  40 38 3d 1e 9c 0c 00           cmp    BYTE PTR [rip+0xc9c1e],dil        # 0x3e8eb8 ; CONFIG Bools.Cupboard value(+0x48)
+3852:31f2ac  e8 63 34 fd ff                 call   0x2f2714 ; STRING getter=0x2f2714 BuildingPrivlidge
+3862:31f2d4  e8 57 34 fd ff                 call   0x2f2730 ; STRING getter=0x2f2730 BuildingPrivilegeRetro
+3873:31f302  e8 45 34 fd ff                 call   0x2f274c ; STRING getter=0x2f274c BuildingPrivlidge
+3881:31f324  ba 56 00 00 00                 mov    edx,0x56
+3883:31f32c  e8 8b 83 ff ff                 call   0x3176bc
+3886:31f33b  40 38 3d 66 9c 0c 00           cmp    BYTE PTR [rip+0xc9c66],dil        # 0x3e8fa8 ; CONFIG Bools.StashesUnHidden value(+0x48)
+3890:31f356  e8 0d 34 fd ff                 call   0x2f2768 ; STRING getter=0x2f2768 StashContainer
+3902:31f390  e8 03 34 fd ff                 call   0x2f2798 ; STRING getter=0x2f2798 Stash
+3910:31f3b2  ba 7c 00 00 00                 mov    edx,0x7c
+3912:31f3ba  e8 fd 82 ff ff                 call   0x3176bc
+3916:31f3d3  40 38 3d 2e 9b 0c 00           cmp    BYTE PTR [rip+0xc9b2e],dil        # 0x3e8f08 ; CONFIG Bools.SleepingBag value(+0x48)
+3920:31f3ea  e8 c1 33 fd ff                 call   0x2f27b0 ; STRING getter=0x2f27b0 SleepingBag
+3931:31f41a  e8 85 34 fd ff                 call   0x2f28a4 ; STRING getter=0x2f28a4 SleepingBag
+3939:31f43c  ba 58 00 00 00                 mov    edx,0x58
+3941:31f444  e8 73 82 ff ff                 call   0x3176bc
+3944:31f453  40 38 3d 2e 9d 0c 00           cmp    BYTE PTR [rip+0xc9d2e],dil        # 0x3e9188 ; CONFIG Bools.RFReceiver value(+0x48)
+3948:31f46e  e8 4d 34 fd ff                 call   0x2f28c0 ; STRING getter=0x2f28c0 RFReceiver
+3960:31f4a8  e8 2f 34 fd ff                 call   0x2f28dc ; STRING getter=0x2f28dc RFReceiver
+3968:31f4ca  ba 59 00 00 00                 mov    edx,0x59
+3970:31f4d2  e8 e5 81 ff ff                 call   0x3176bc
+3974:31f4eb  40 38 3d 46 9c 0c 00           cmp    BYTE PTR [rip+0xc9c46],dil        # 0x3e9138 ; CONFIG Bools.RFBroadcaster value(+0x48)
+3978:31f502  e8 f1 33 fd ff                 call   0x2f28f8 ; STRING getter=0x2f28f8 RFBroadcaster
+3989:31f532  e8 e5 33 fd ff                 call   0x2f291c ; STRING getter=0x2f291c RFBroadcaster
+3997:31f554  ba 5a 00 00 00                 mov    edx,0x5a
+3999:31f55c  e8 5b 81 ff ff                 call   0x3176bc
+4002:31f56b  40 38 3d d6 9a 0c 00           cmp    BYTE PTR [rip+0xc9ad6],dil        # 0x3e9048 ; CONFIG Bools.Workbench value(+0x48)
+4004:31f574  40 38 3d 2d 9f 0c 00           cmp    BYTE PTR [rip+0xc9f2d],dil        # 0x3e94a8 ; CONFIG Bools.workbench2 value(+0x48)
+4008:31f58f  e8 ac 33 fd ff                 call   0x2f2940 ; STRING getter=0x2f2940 Workbench
+4018:31f5c5  e8 92 33 fd ff                 call   0x2f295c ; STRING getter=0x2f295c workbench2
+4029:31f5f2  e8 81 33 fd ff                 call   0x2f2978 ; STRING getter=0x2f2978 WB2
+4035:31f60c  ba 5b 00 00 00                 mov    edx,0x5b
+4040:31f621  e8 5e 33 fd ff                 call   0x2f2984 ; STRING getter=0x2f2984 workbench3
+4051:31f64e  e8 4d 33 fd ff                 call   0x2f29a0 ; STRING getter=0x2f29a0 WB3
+4057:31f668  ba 5c 00 00 00                 mov    edx,0x5c
+4061:31f678  e8 3f 80 ff ff                 call   0x3176bc
+4064:31f687  40 38 3d 3a 88 0c 00           cmp    BYTE PTR [rip+0xc883a],dil        # 0x3e7ec8 ; CONFIG Bools.BearEsp value(+0x48)
+4068:31f6a2  e8 c9 33 fd ff                 call   0x2f2a70 ; STRING getter=0x2f2a70 Bear
+4080:31f6dc  e8 a7 33 fd ff                 call   0x2f2a88 ; STRING getter=0x2f2a88 Bear
+4088:31f6fe  ba 5d 00 00 00                 mov    edx,0x5d
+4090:31f706  e8 b1 7f ff ff                 call   0x3176bc
+4095:31f723  e8 78 33 fd ff                 call   0x2f2aa0 ; STRING getter=0x2f2aa0 PolarBear
+4106:31f753  e8 64 33 fd ff                 call   0x2f2abc ; STRING getter=0x2f2abc PolarBear
+4114:31f775  ba 5e 00 00 00                 mov    edx,0x5e
+4116:31f77d  e8 3a 7f ff ff                 call   0x3176bc
+4121:31f798  40 38 3d b9 88 0c 00           cmp    BYTE PTR [rip+0xc88b9],dil        # 0x3e8058 ; CONFIG Bools.StagEsp value(+0x48)
+4125:31f7af  e8 24 33 fd ff                 call   0x2f2ad8 ; STRING getter=0x2f2ad8 Stag
+4136:31f7df  e8 0c 33 fd ff                 call   0x2f2af0 ; STRING getter=0x2f2af0 Stag
+4144:31f801  ba 64 00 00 00                 mov    edx,0x64
+4146:31f809  e8 ae 7e ff ff                 call   0x3176bc
+4149:31f818  40 38 3d 89 88 0c 00           cmp    BYTE PTR [rip+0xc8889],dil        # 0x3e80a8 ; CONFIG Bools.WolfEsp value(+0x48)
+4153:31f833  e8 d0 32 fd ff                 call   0x2f2b08 ; STRING getter=0x2f2b08 Wolf
+4163:31f85e  e8 ed 32 fd ff                 call   0x2f2b50 ; STRING getter=0x2f2b50 Wolf2
+4174:31f88e  e8 d5 32 fd ff                 call   0x2f2b68 ; STRING getter=0x2f2b68 Wolf
+4182:31f8b0  ba 65 00 00 00                 mov    edx,0x65
+4184:31f8b8  e8 ff 7d ff ff                 call   0x3176bc
+4187:31f8c7  40 38 3d ca 88 0c 00           cmp    BYTE PTR [rip+0xc88ca],dil        # 0x3e8198 ; CONFIG Bools.PigEsp value(+0x48)
+4191:31f8de  e8 cd 32 fd ff                 call   0x2f2bb0 ; STRING getter=0x2f2bb0 Boar
+4202:31f90e  e8 89 33 fd ff                 call   0x2f2c9c ; STRING getter=0x2f2c9c Boar
+4210:31f930  ba 66 00 00 00                 mov    edx,0x66
+4212:31f938  e8 7f 7d ff ff                 call   0x3176bc
+4215:31f947  40 38 3d 9a 88 0c 00           cmp    BYTE PTR [rip+0xc889a],dil        # 0x3e81e8 ; CONFIG Bools.HorseEsp value(+0x48)
+4219:31f962  e8 7d 33 fd ff                 call   0x2f2ce4 ; STRING getter=0x2f2ce4 Horse
+4229:31f98d  e8 9a 33 fd ff                 call   0x2f2d2c ; STRING getter=0x2f2d2c RidableHorse
+4240:31f9bd  e8 9e 33 fd ff                 call   0x2f2d60 ; STRING getter=0x2f2d60 Horse
+4248:31f9df  ba 67 00 00 00                 mov    edx,0x67
+4250:31f9e7  e8 d0 7c ff ff                 call   0x3176bc
+4253:31f9f6  40 38 3d 3b 88 0c 00           cmp    BYTE PTR [rip+0xc883b],dil        # 0x3e8238 ; CONFIG Bools.SharkEsp value(+0x48)
+4257:31fa0d  e8 7e 33 fd ff                 call   0x2f2d90 ; STRING getter=0x2f2d90 SimpleShark
+4268:31fa3d  e8 82 33 fd ff                 call   0x2f2dc4 ; STRING getter=0x2f2dc4 Shark
+4276:31fa5f  ba 68 00 00 00                 mov    edx,0x68
+4278:31fa67  e8 50 7c ff ff                 call   0x3176bc
+4283:31fa84  e8 6f 33 fd ff                 call   0x2f2df8 ; STRING getter=0x2f2df8 ScientistNPC2
+4315:31fb14  40 38 3d 4d 84 0b 00           cmp    BYTE PTR [rip+0xb844d],dil        # 0x3d7f68 ; CONFIG Bools.SilentMeleePlayers value(+0x48)
+4356:31fbbe  40 38 3d 73 7c 0c 00           cmp    BYTE PTR [rip+0xc7c73],dil        # 0x3e7838 ; CONFIG Bools.Wounded value(+0x48)
+4362:31fbd9  40 38 3d 78 7a 0c 00           cmp    BYTE PTR [rip+0xc7a78],dil        # 0x3e7658 ; CONFIG Bools.SafeZone value(+0x48)
+4387:31fc35  40 38 3d ec 77 0c 00           cmp    BYTE PTR [rip+0xc77ec],dil        # 0x3e7428 ; CONFIG Bools.Scientist value(+0x48)
+4389:31fc3e  40 38 3d 03 76 0c 00           cmp    BYTE PTR [rip+0xc7603],dil        # 0x3e7248 ; CONFIG Bools.PlayerESP value(+0x48)
+4399:31fc69  48 3b 9d b8 00 00 00           cmp    rbx,QWORD PTR [rbp+0xb8]
+4412:31fc9e  83 78 24 01                    cmp    DWORD PTR [rax+0x24],0x1
+4433:31fcee  83 ff 02                       cmp    edi,0x2
+4443:31fd15  80 3d 1c 76 0c 00 00           cmp    BYTE PTR [rip+0xc761c],0x0        # 0x3e7338 ; CONFIG Bools.Sleepers value(+0x48)
+4448:31fd24  83 ff 02                       cmp    edi,0x2
+4458:31fd4c  80 3d 85 76 0c 00 00           cmp    BYTE PTR [rip+0xc7685],0x0        # 0x3e73d8 ; CONFIG Bools.Dead value(+0x48)
+4473:31fd7a  80 3d 07 9e 0c 00 00           cmp    BYTE PTR [rip+0xc9e07],0x0        # 0x3e9b88 ; CONFIG Bools.drawteam value(+0x48)
+4475:31fd83  83 ff 02                       cmp    edi,0x2
+4477:31fd88  80 3d e9 a3 0c 00 00           cmp    BYTE PTR [rip+0xca3e9],0x0        # 0x3ea178 ; CONFIG Bools.draweenemy value(+0x48)
+4507:31fe12  3b 45 a8                       cmp    eax,DWORD PTR [rbp-0x58]

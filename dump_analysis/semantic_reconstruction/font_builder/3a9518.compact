@@ -1,0 +1,27 @@
+3a9518 mov    eax,DWORD PTR [rcx+0x8]
+3a951b cmp    eax,DWORD PTR [rdx+0x8]
+3a951e jg     0x3a9530
+3a9520 jge    0x3a9528
+3a9522 mov    eax,0x1
+3a9527 ret
+3a9528 mov    ecx,DWORD PTR [rcx+0x4]
+3a952b cmp    ecx,DWORD PTR [rdx+0x4]
+3a952e jle    0x3a9534
+3a9530 or     eax,0xffffffff
+3a9533 ret
+3a9534 xor    eax,eax
+3a9536 cmp    ecx,DWORD PTR [rdx+0x4]
+3a9539 setl   al
+3a953c ret
+3a953d int3
+3a953e int3
+3a953f int3
+3a9540 mov    r8d,DWORD PTR [rcx+0x14]
+3a9544 cmp    r8d,DWORD PTR [rdx+0x14]
+3a9548 jge    0x3a954e
+3a954a or     eax,0xffffffff
+3a954d ret
+3a954e xor    eax,eax
+3a9550 cmp    r8d,DWORD PTR [rdx+0x14]
+3a9554 setg   al
+3a9557 ret

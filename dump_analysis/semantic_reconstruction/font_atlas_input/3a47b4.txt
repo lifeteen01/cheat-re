@@ -1,0 +1,4 @@
+3a47b4 lea    rax,[rip+0xfffffffffff08675]        # 0x2ace30
+3a47bb ret
+3a47bc lea    rax,[rip+0xfffffffffff05b15]        # 0x2aa2d8
+3a47c3 ret

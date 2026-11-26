@@ -1,0 +1,13 @@
+[I] Combined immutable-script ASan/UBSan verification.
+Compile sky_model_analysis.cpp
+Compile game_runtime_wrappers_analysis.cpp
+Compile game_runtime_wrappers_arguments.cpp
+Compile game_runtime_wrappers_bindings.cpp
+Compile game_runtime_wrappers_checks.cpp
+Compile game_runtime_wrappers_domains.cpp
+Compile analysis_checks.cpp
+Compile sky_model_checks.cpp
+Link 289 translation units; 281 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

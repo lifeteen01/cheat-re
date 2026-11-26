@@ -1,0 +1,9 @@
+315d84 MethodInfo-ptr detour=0x32ae10 Update | Projectile
+315de8 MethodInfo-ptr detour=0x332554 Update | WaterOverlay
+315e4c MethodInfo-ptr detour=0x32f038 Update | SmokeGrenade
+315eb0 MethodInfo-ptr detour=0x32f408 LateUpdate
+315f1e vtable-slot detour=0x3215cc %ff5c768afbd21540016ff268deca16199f9d287c | ItemIcon
+315f88 vtable-slot detour=0x32a9f8 %123bd3a03dc442df4d55d50e4bcff18dffb8caf0 | PlayerWalkMovement
+315ff2 vtable-slot detour=0x324b30 %9a4b1fd10d6243652214a9bef78c6ecd197d0836 | PlayerWalkMovement
+31605c vtable-slot detour=0x322aec %1d9a027bf72a0c970debaab6d90583b700d8985f | PlayerWalkMovement
+3621f2 MethodInfo-ptr detour=0x2f8574 C:\Spotify | DefaultCfg.bin | LateUpdate | Client

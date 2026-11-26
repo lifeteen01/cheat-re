@@ -1,0 +1,1272 @@
+330b38 mov    rax,rsp
+330b3b mov    QWORD PTR [rax+0x8],rbx
+330b3f push   rbp
+330b40 push   rsi
+330b41 push   rdi
+330b42 push   r12
+330b44 push   r13
+330b46 push   r14
+330b48 push   r15
+330b4a lea    rbp,[rax-0x1a8]
+330b51 sub    rsp,0x270
+330b58 movaps XMMWORD PTR [rax-0x48],xmm6
+330b5c mov    r14,rcx
+330b5f movaps XMMWORD PTR [rax-0x58],xmm7
+330b63 movaps XMMWORD PTR [rax-0x68],xmm8
+330b68 movaps XMMWORD PTR [rax-0x78],xmm9
+330b6d movaps XMMWORD PTR [rax-0x88],xmm10
+330b75 movaps XMMWORD PTR [rax-0x98],xmm11
+330b7d movaps XMMWORD PTR [rax-0xa8],xmm12
+330b85 movaps XMMWORD PTR [rax-0xb8],xmm13
+330b8d movaps XMMWORD PTR [rax-0xc8],xmm14
+330b95 call   0x2caf08
+330b9a test   al,al
+330b9c je     0x332118
+330ba2 call   0x2dda9c
+330ba7 mov    rcx,rax
+330baa mov    rbx,rax
+330bad call   0x2caf08
+330bb2 test   al,al
+330bb4 je     0x332118
+330bba mov    rcx,r14
+330bbd call   0x3742d4
+330bc2 cmp    rax,rbx
+330bc5 jne    0x332118
+330bcb mov    rcx,r14
+330bce call   0x374268
+330bd3 test   al,al
+330bd5 je     0x332118
+330bdb cmp    BYTE PTR [rip+0xc7126],0x0        # 0x3f7d08
+330be2 je     0x330c04
+330be4 lea    rcx,[rbp-0x30]
+330be8 call   0x3c7bbc
+330bed movsd  xmm0,QWORD PTR [rax]
+330bf1 movsd  QWORD PTR [r14+0xf8],xmm0
+330bfa mov    eax,DWORD PTR [rax+0x8]
+330bfd mov    DWORD PTR [r14+0x100],eax
+330c04 lea    rdx,[rbp+0x60]
+330c08 lea    rcx,[rbp+0x1b8]
+330c0f call   0x3302b0
+330c14 mov    rcx,rax
+330c17 call   0x2d84dc
+330c1c mov    edi,0x1
+330c21 mov    r13,rax
+330c24 mov    eax,DWORD PTR [rip+0xc899e]        # 0x3f95c8
+330c2a lea    r15d,[rdi+0x2]
+330c2e test   eax,eax
+330c30 jne    0x330c52
+330c32 lea    rdx,[rbp+0x87]
+330c39 lea    rcx,[rbp+0x1b8]
+330c40 call   0x2dfbcc
+330c45 mov    rcx,rax
+330c48 call   0x2e3614
+330c4d jmp    0x330cef
+330c52 cmp    eax,edi
+330c54 jne    0x330c70
+330c56 lea    rdx,[rbp+0x66]
+330c5a lea    rcx,[rbp+0x1b8]
+330c61 call   0x3304ec
+330c66 mov    rcx,rax
+330c69 call   0x2d84dc
+330c6e jmp    0x330cef
+330c70 cmp    eax,0x2
+330c73 jne    0x330c87
+330c75 lea    rdx,[rbp+0x6c]
+330c79 lea    rcx,[rbp+0x1b8]
+330c80 call   0x330528
+330c85 jmp    0x330c66
+330c87 cmp    eax,r15d
+330c8a jne    0x330ca1
+330c8c lea    rdx,[rbp+0x1c0]
+330c93 lea    rcx,[rbp+0x1b8]
+330c9a call   0x330540
+330c9f jmp    0x330ce7
+330ca1 cmp    eax,0x4
+330ca4 jne    0x330cb8
+330ca6 lea    rdx,[rbp+0x72]
+330caa lea    rcx,[rbp+0x1b8]
+330cb1 call   0x330570
+330cb6 jmp    0x330c66
+330cb8 cmp    eax,0x5
+330cbb jne    0x330cd2
+330cbd lea    rdx,[rbp+0x1c8]
+330cc4 lea    rcx,[rbp+0x1b8]
+330ccb call   0x3305a4
+330cd0 jmp    0x330ce7
+330cd2 cmp    eax,0x6
+330cd5 jne    0x330cf2
+330cd7 lea    rdx,[rbp+0x36]
+330cdb lea    rcx,[rbp+0x1b8]
+330ce2 call   0x3305bc
+330ce7 mov    rcx,rax
+330cea call   0x2cdccc
+330cef mov    r13,rax
+330cf2 movss  xmm1,DWORD PTR [rip+0xfffffffffff5ce4a]        # 0x28db44
+330cfa xorps  xmm0,xmm0
+330cfd xorps  xmm9,xmm9
+330d01 call   0x2e3d5c
+330d06 cmp    BYTE PTR [rip+0xa71bb],0x0        # 0x3d7ec8
+330d0d movaps xmm6,xmm0
+330d10 movss  xmm14,DWORD PTR [rip+0xfffffffffff5cdc3]        # 0x28dadc
+330d19 je     0x331e28
+330d1f call   0x2e02b0
+330d24 mov    rcx,rax
+330d27 mov    r12,rax
+330d2a call   0x2caf08
+330d2f test   al,al
+330d31 je     0x331e28
+330d37 mov    rcx,r12
+330d3a call   0x2e0e9c
+330d3f test   al,al
+330d41 je     0x331e28
+330d47 mov    rcx,r12
+330d4a call   0x2e5a54
+330d4f mov    rcx,rax
+330d52 mov    rdx,rax
+330d55 call   0x2caf08
+330d5a test   al,al
+330d5c je     0x331e28
+330d62 mov    rcx,rdx
+330d65 call   0x2d6354
+330d6a lea    rdx,[rbp+0x28]
+330d6e mov    rbx,rax
+330d71 lea    rcx,[rbp+0x1b8]
+330d78 call   0x330614
+330d7d mov    rcx,rax
+330d80 call   0x2dd188
+330d85 mov    rcx,rax
+330d88 movabs rdx,0xcbf29ce484222325
+330d92 call   0x2e5b4c
+330d97 movss  xmm7,DWORD PTR [rip+0xfffffffffff5cd7d]        # 0x28db1c
+330d9f cmp    rbx,rax
+330da2 mov    rsi,rax
+330da5 mov    r9d,0xf
+330dab mov    eax,DWORD PTR [rip+0xc87c7]        # 0x3f9578
+330db1 sete   dl
+330db4 test   eax,eax
+330db6 jne    0x330dc5
+330db8 mov    edi,0x35
+330dbd lea    eax,[rdi-0x6]
+330dc0 jmp    0x330eeb
+330dc5 cmp    eax,edi
+330dc7 jne    0x330dd6
+330dc9 mov    edi,0x17
+330dce lea    eax,[rdi-0x6]
+330dd1 jmp    0x330eeb
+330dd6 cmp    eax,0x2
+330dd9 jne    0x330df0
+330ddb mov    eax,0x1d
+330de0 cmp    rbx,rsi
+330de3 lea    edi,[rax-0x6]
+330de6 cmove  eax,edi
+330de9 mov    edi,eax
+330deb jmp    0x330ef1
+330df0 cmp    eax,r15d
+330df3 jne    0x330e0a
+330df5 mov    edi,0x11
+330dfa cmp    rbx,rsi
+330dfd lea    r8d,[rdi-0xc]
+330e01 cmove  edi,r8d
+330e05 jmp    0x330ef1
+330e0a mov    ecx,0x4
+330e0f cmp    eax,ecx
+330e11 jne    0x330e84
+330e13 comiss xmm6,DWORD PTR [rip+0xfffffffffff5cd26]        # 0x28db40
+330e1a ja     0x330db8
+330e1c comiss xmm6,DWORD PTR [rip+0xfffffffffff5cd19]        # 0x28db3c
+330e23 jbe    0x330ea4
+330e25 mov    edi,0x34
+330e2a lea    eax,[rdi-0x6]
+330e2d jmp    0x330eeb
+330e32 mov    edi,0x18
+330e37 lea    eax,[rdi-0xa]
+330e3a jmp    0x330eeb
+330e3f comiss xmm6,DWORD PTR [rip+0xfffffffffff5ccea]        # 0x28db30
+330e46 ja     0x330eaf
+330e48 comiss xmm6,DWORD PTR [rip+0xfffffffffff5ccdd]        # 0x28db2c
+330e4f ja     0x330e67
+330e51 comiss xmm6,DWORD PTR [rip+0xfffffffffff5ccd0]        # 0x28db28
+330e58 jbe    0x330eb9
+330e5a mov    edi,0x11
+330e5f lea    eax,[rdi-0x9]
+330e62 jmp    0x330eeb
+330e67 mov    edi,0xe
+330e6c lea    eax,[rdi-0xd]
+330e6f jmp    0x330eeb
+330e71 comiss xmm6,DWORD PTR [rip+0xfffffffffff5cca8]        # 0x28db20
+330e78 jbe    0x330ed0
+330e7a mov    edi,0x1d
+330e7f lea    eax,[rdi-0xd]
+330e82 jmp    0x330eeb
+330e84 mov    edi,0x35
+330e89 lea    r8d,[rdi-0x30]
+330e8d cmp    eax,r8d
+330e90 jne    0x330ef1
+330e92 comiss xmm6,DWORD PTR [rip+0xfffffffffff5cca7]        # 0x28db40
+330e99 jbe    0x330e1c
+330e9b lea    edi,[r8+0x38]
+330e9f lea    eax,[rdi-0x2]
+330ea2 jmp    0x330eeb
+330ea4 comiss xmm6,DWORD PTR [rip+0xfffffffffff5cc8d]        # 0x28db38
+330eab ja     0x330e32
+330ead jmp    0x330e3f
+330eaf xor    edi,edi
+330eb1 cmp    rbx,rsi
+330eb4 cmove  edi,ecx
+330eb7 jmp    0x330ef1
+330eb9 comiss xmm6,DWORD PTR [rip+0xfffffffffff5cc64]        # 0x28db24
+330ec0 jbe    0x330e71
+330ec2 cmp    rbx,rsi
+330ec5 mov    edi,0x14
+330eca cmove  edi,r9d
+330ece jmp    0x330ef1
+330ed0 comiss xmm6,xmm7
+330ed3 jbe    0x330ee3
+330ed5 cmp    rbx,rsi
+330ed8 mov    edi,0x3d
+330edd cmove  edi,r15d
+330ee1 jmp    0x330ef1
+330ee3 mov    eax,0xa
+330ee8 mov    edi,r15d
+330eeb cmp    rbx,rsi
+330eee cmove  edi,eax
+330ef1 mov    rcx,r12
+330ef4 call   0x36a20c
+330ef9 test   al,al
+330efb jne    0x331e28
+330f01 mov    rcx,r14
+330f04 call   0x374210
+330f09 mov    rcx,rax
+330f0c mov    r15,rax
+330f0f call   0x2caf08
+330f14 test   al,al
+330f16 je     0x331e28
+330f1c mov    r8d,0x36
+330f22 lea    rdx,[rsp+0x70]
+330f27 cmp    rbx,rsi
+330f2a mov    rcx,r12
+330f2d lea    eax,[r8-0x27]
+330f31 cmove  r8d,eax
+330f35 call   0x368be8
+330f3a lea    rdx,[rbp-0x70]
+330f3e mov    rcx,r14
+330f41 call   0x3740e0
+330f46 lea    rdx,[rbp-0x50]
+330f4a mov    rcx,r14
+330f4d call   0x374124
+330f52 movaps xmm2,xmm14
+330f56 lea    rdx,[rsp+0x50]
+330f5b lea    rcx,[rbp-0x50]
+330f5f call   0x2df66c
+330f64 mov    r8,rax
+330f67 lea    rdx,[rsp+0x60]
+330f6c lea    rcx,[rbp-0x70]
+330f70 call   0x2df6cc
+330f75 lea    r8,[rsp+0x30]
+330f7a lea    rdx,[rsp+0x40]
+330f7f lea    rcx,[rbp+0xc0]
+330f86 movsd  xmm0,QWORD PTR [rax]
+330f8a mov    eax,DWORD PTR [rax+0x8]
+330f8d movsd  QWORD PTR [rsp+0x30],xmm0
+330f93 movsd  xmm0,QWORD PTR [rbp-0x70]
+330f98 mov    DWORD PTR [rsp+0x38],eax
+330f9c mov    eax,DWORD PTR [rbp-0x68]
+330f9f movsd  QWORD PTR [rsp+0x40],xmm0
+330fa5 mov    DWORD PTR [rsp+0x48],eax
+330fa9 call   0x2df29c
+330fae movaps xmm2,xmm14
+330fb2 lea    rdx,[rsp+0x50]
+330fb7 lea    rcx,[rbp-0x50]
+330fbb call   0x2df66c
+330fc0 mov    r8,rax
+330fc3 lea    rdx,[rsp+0x60]
+330fc8 lea    rcx,[rbp-0x70]
+330fcc call   0x2df708
+330fd1 lea    r8,[rsp+0x30]
+330fd6 lea    rdx,[rsp+0x40]
+330fdb lea    rcx,[rbp+0x10]
+330fdf movsd  xmm0,QWORD PTR [rax]
+330fe3 mov    eax,DWORD PTR [rax+0x8]
+330fe6 movsd  QWORD PTR [rsp+0x30],xmm0
+330fec movsd  xmm0,QWORD PTR [rbp-0x70]
+330ff1 mov    DWORD PTR [rsp+0x38],eax
+330ff5 mov    eax,DWORD PTR [rbp-0x68]
+330ff8 movsd  QWORD PTR [rsp+0x40],xmm0
+330ffe mov    DWORD PTR [rsp+0x48],eax
+331002 call   0x2df29c
+331007 movsd  xmm0,QWORD PTR [rsp+0x70]
+33100d lea    r8,[rsp+0x30]
+331012 mov    eax,DWORD PTR [rsp+0x78]
+331016 lea    rdx,[rbp-0x80]
+33101a lea    rcx,[rbp+0x10]
+33101e movsd  QWORD PTR [rsp+0x30],xmm0
+331024 mov    DWORD PTR [rsp+0x38],eax
+331028 call   0x2e5a80
+33102d movaps xmm2,xmm14
+331031 lea    rdx,[rbp-0x30]
+331035 lea    rcx,[rbp-0x50]
+331039 call   0x2df66c
+33103e lea    rcx,[rbp-0x30]
+331042 call   0x2e0ee8
+331047 lea    r8,[rbp-0x70]
+33104b movaps xmm13,xmm0
+33104f lea    rdx,[rsp+0x30]
+331054 lea    rcx,[rbp-0x80]
+331058 call   0x2df6cc
+33105d mov    rcx,rax
+331060 call   0x2e0ee8
+331065 movaps xmm11,xmm0
+331069 call   0x2e081c
+33106e lea    rdx,[rbp-0x80]
+331072 movaps xmm8,xmm0
+331076 lea    rcx,[rsp+0x70]
+33107b call   0x2dff30
+331080 movaps xmm10,xmm0
+331084 mov    eax,DWORD PTR [rsp+0x78]
+331088 lea    rdx,[rsp+0x30]
+33108d movsd  xmm12,QWORD PTR [rsp+0x70]
+331094 lea    rcx,[rbp-0x80]
+331098 movsd  QWORD PTR [rsp+0x30],xmm12
+33109f mov    DWORD PTR [rbp+0x1b8],eax
+3310a5 mov    DWORD PTR [rsp+0x38],eax
+3310a9 call   0x2dff30
+3310ae cmp    BYTE PTR [rip+0xc83d3],0x0        # 0x3f9488
+3310b5 movaps xmm6,xmm0
+3310b8 je     0x3311ef
+3310be movss  xmm1,DWORD PTR [rip+0xc8462]        # 0x3f9528
+3310c6 comiss xmm1,xmm10
+3310ca jbe    0x331e28
+3310d0 call   0x2e6a6c
+3310d5 movss  xmm3,DWORD PTR [rip+0xfffffffffff5ca0b]        # 0x28dae8
+3310dd lea    r8,[rbp-0x80]
+3310e1 lea    rdx,[rsp+0x70]
+3310e6 mov    ebx,eax
+3310e8 lea    rcx,[rsp+0x50]
+3310ed call   0x330830
+3310f2 minss  xmm6,DWORD PTR [rip+0xfffffffffff63d3a]        # 0x294e34
+3310fa lea    r8,[rsp+0x50]
+3310ff lea    rdx,[rbp-0x80]
+331103 lea    rcx,[rsp+0x60]
+331108 movaps xmm3,xmm6
+33110b call   0x330830
+331110 movsd  xmm0,QWORD PTR [rbp-0x70]
+331115 lea    rdx,[rsp+0x30]
+33111a mov    eax,DWORD PTR [rbp-0x68]
+33111d lea    rcx,[rsp+0x40]
+331122 movsd  QWORD PTR [rsp+0x30],xmm0
+331128 xorps  xmm3,xmm3
+33112b movsd  xmm0,QWORD PTR [rsp+0x70]
+331131 mov    r8d,ebx
+331134 mov    DWORD PTR [rsp+0x38],eax
+331138 mov    eax,DWORD PTR [rsp+0x78]
+33113c movsd  QWORD PTR [rsp+0x40],xmm0
+331142 movss  DWORD PTR [rsp+0x20],xmm9
+331149 mov    DWORD PTR [rsp+0x48],eax
+33114d call   0x2e2320
+331152 test   al,al
+331154 je     0x331e28
+33115a mov    rcx,r14
+33115d call   0x330700
+331162 mov    rcx,rax
+331165 call   0x2caf08
+33116a test   al,al
+33116c je     0x331e28
+331172 lea    rdx,[rsp+0x40]
+331177 mov    rcx,r14
+33117a call   0x374124
+33117f mov    rcx,rax
+331182 call   0x2e0ee8
+331187 xor    edx,edx
+331189 mov    rcx,r12
+33118c movaps xmm6,xmm0
+33118f call   0x368cb0
+331194 mov    r8d,eax
+331197 lea    rdx,[rsp+0x40]
+33119c mov    rcx,r12
+33119f call   0x368be8
+3311a4 mov    rcx,rax
+3311a7 lea    r8,[rbp-0x70]
+3311ab lea    rdx,[rbp-0x40]
+3311af call   0x2df6cc
+3311b4 mov    rcx,rax
+3311b7 lea    rdx,[rbp-0x60]
+3311bb call   0x2e1278
+3311c0 mov    rcx,rax
+3311c3 lea    rdx,[rsp+0x30]
+3311c8 movaps xmm2,xmm6
+3311cb call   0x2df66c
+3311d0 movsd  xmm0,QWORD PTR [rsp+0x30]
+3311d6 mov    eax,DWORD PTR [rsp+0x38]
+3311da movsd  QWORD PTR [r14+0x16c],xmm0
+3311e3 mov    DWORD PTR [r14+0x174],eax
+3311ea jmp    0x331e28
+3311ef movss  xmm0,DWORD PTR [rip+0xc2be1]        # 0x3f3dd8
+3311f7 comiss xmm0,xmm10
+3311fb jbe    0x33165b
+331201 call   0x2e6a6c
+331206 movss  xmm3,DWORD PTR [rip+0xfffffffffff5c8da]        # 0x28dae8
+33120e lea    r8,[rbp-0x80]
+331212 lea    rdx,[rsp+0x70]
+331217 mov    ebx,eax
+331219 lea    rcx,[rsp+0x40]
+33121e call   0x330830
+331223 movsd  xmm0,QWORD PTR [rbp-0x80]
+331228 mov    ecx,DWORD PTR [rbp-0x78]
+33122b movsd  QWORD PTR [rsp+0x30],xmm0
+331231 movsd  xmm0,QWORD PTR [rbp+0x10]
+331236 mov    DWORD PTR [rsp+0x38],ecx
+33123a mov    ecx,DWORD PTR [rbp+0x18]
+33123d movsd  QWORD PTR [rsp+0x50],xmm0
+331243 mov    DWORD PTR [rsp+0x58],ecx
+331247 call   0x2e6a6c
+33124c mov    r8d,eax
+33124f movss  DWORD PTR [rsp+0x20],xmm9
+331256 xorps  xmm3,xmm3
+331259 lea    rdx,[rsp+0x30]
+33125e lea    rcx,[rsp+0x50]
+331263 call   0x2e2320
+331268 test   al,al
+33126a je     0x331e28
+331270 movsd  xmm0,QWORD PTR [rsp+0x70]
+331276 lea    rdx,[rsp+0x30]
+33127b mov    eax,DWORD PTR [rsp+0x78]
+33127f lea    rcx,[rsp+0x50]
+331284 movsd  QWORD PTR [rsp+0x30],xmm0
+33128a xorps  xmm3,xmm3
+33128d movsd  xmm0,QWORD PTR [rbp-0x80]
+331292 mov    r8d,ebx
+331295 mov    DWORD PTR [rsp+0x38],eax
+331299 mov    eax,DWORD PTR [rbp-0x78]
+33129c movsd  QWORD PTR [rsp+0x50],xmm0
+3312a2 movss  DWORD PTR [rsp+0x20],xmm9
+3312a9 mov    DWORD PTR [rsp+0x58],eax
+3312ad call   0x2e2320
+3312b2 test   al,al
+3312b4 je     0x331e28
+3312ba mov    eax,DWORD PTR [rsp+0x48]
+3312be lea    rdx,[rsp+0x30]
+3312c3 movsd  xmm0,QWORD PTR [rsp+0x40]
+3312c9 lea    rcx,[rsp+0x50]
+3312ce mov    DWORD PTR [rsp+0x38],eax
+3312d2 xorps  xmm3,xmm3
+3312d5 mov    eax,DWORD PTR [rbp+0x1b8]
+3312db mov    r8d,ebx
+3312de mov    DWORD PTR [rsp+0x58],eax
+3312e2 movss  DWORD PTR [rsp+0x20],xmm9
+3312e9 movsd  QWORD PTR [rsp+0x30],xmm0
+3312ef movsd  QWORD PTR [rsp+0x50],xmm12
+3312f6 call   0x2e2320
+3312fb test   al,al
+3312fd je     0x331e28
+331303 movsd  xmm0,QWORD PTR [rsp+0x70]
+331309 lea    rdx,[rsp+0x30]
+33130e mov    eax,DWORD PTR [rsp+0x78]
+331312 lea    rcx,[rsp+0x50]
+331317 movsd  QWORD PTR [rsp+0x30],xmm0
+33131d xorps  xmm3,xmm3
+331320 movsd  xmm0,QWORD PTR [rsp+0x40]
+331326 mov    r8d,ebx
+331329 mov    DWORD PTR [rsp+0x38],eax
+33132d mov    eax,DWORD PTR [rsp+0x48]
+331331 movsd  QWORD PTR [rsp+0x50],xmm0
+331337 movss  DWORD PTR [rsp+0x20],xmm9
+33133e mov    DWORD PTR [rsp+0x58],eax
+331342 call   0x2e2320
+331347 test   al,al
+331349 je     0x331e28
+33134f minss  xmm6,DWORD PTR [rip+0xfffffffffff63add]        # 0x294e34
+331357 lea    r8,[rsp+0x40]
+33135c lea    rdx,[rbp-0x80]
+331360 lea    rcx,[rsp+0x50]
+331365 movaps xmm3,xmm6
+331368 call   0x330830
+33136d movsd  xmm0,QWORD PTR [rsp+0x50]
+331373 lea    rdx,[rsp+0x30]
+331378 mov    eax,DWORD PTR [rsp+0x58]
+33137c lea    rcx,[rsp+0x60]
+331381 movsd  QWORD PTR [rsp+0x30],xmm0
+331387 xorps  xmm3,xmm3
+33138a movsd  xmm0,QWORD PTR [rbp-0x80]
+33138f mov    r8d,ebx
+331392 mov    DWORD PTR [rsp+0x38],eax
+331396 mov    eax,DWORD PTR [rbp-0x78]
+331399 movsd  QWORD PTR [rsp+0x60],xmm0
+33139f movss  DWORD PTR [rsp+0x20],xmm9
+3313a6 mov    DWORD PTR [rsp+0x68],eax
+3313aa call   0x2e2320
+3313af test   al,al
+3313b1 je     0x331e28
+3313b7 movsd  xmm0,QWORD PTR [rsp+0x50]
+3313bd lea    rdx,[rsp+0x30]
+3313c2 mov    eax,DWORD PTR [rsp+0x58]
+3313c6 lea    rcx,[rsp+0x60]
+3313cb movsd  QWORD PTR [rsp+0x30],xmm0
+3313d1 xorps  xmm3,xmm3
+3313d4 movsd  xmm0,QWORD PTR [rsp+0x40]
+3313da mov    r8d,ebx
+3313dd mov    DWORD PTR [rsp+0x38],eax
+3313e1 mov    eax,DWORD PTR [rsp+0x48]
+3313e5 movsd  QWORD PTR [rsp+0x60],xmm0
+3313eb movss  DWORD PTR [rsp+0x20],xmm9
+3313f2 mov    DWORD PTR [rsp+0x68],eax
+3313f6 call   0x2e2320
+3313fb test   al,al
+3313fd je     0x331e28
+331403 mov    rcx,r14
+331406 call   0x330700
+33140b mov    rcx,rax
+33140e mov    rbx,rax
+331411 call   0x2caf08
+331416 test   al,al
+331418 je     0x331e28
+33141e movsd  xmm0,QWORD PTR [rbp-0x80]
+331423 lea    r8,[rbp-0x80]
+331427 mov    ecx,DWORD PTR [rbp-0x78]
+33142a lea    rdx,[rbp-0x60]
+33142e movss  xmm7,DWORD PTR [rip+0xfffffffffff5be1e]        # 0x28d254
+331436 movsd  QWORD PTR [r14+0x178],xmm0
+33143f movaps xmm0,xmm11
+331443 addss  xmm0,DWORD PTR [r14+0x184]
+33144c divss  xmm7,xmm13
+331451 mov    DWORD PTR [r14+0x180],ecx
+331458 lea    rcx,[rsp+0x50]
+33145d movss  DWORD PTR [r14+0x184],xmm0
+331466 mulss  xmm11,xmm7
+33146b mulss  xmm8,xmm11
+331470 addss  xmm8,DWORD PTR [r14+0x188]
+331479 movss  DWORD PTR [r14+0x188],xmm8
+331482 call   0x2df6cc
+331487 mov    rcx,rax
+33148a call   0x2e0ee8
+33148f movaps xmm6,xmm0
+331492 movaps xmm8,xmm0
+331496 mulss  xmm6,xmm7
+33149a call   0x2e081c
+33149f movsd  xmm1,QWORD PTR [rbp-0x80]
+3314a4 lea    rdx,[rsp+0x30]
+3314a9 mov    eax,DWORD PTR [rbp-0x78]
+3314ac movaps xmm7,xmm0
+3314af mov    rcx,rbx
+3314b2 mulss  xmm7,xmm6
+3314b6 mov    DWORD PTR [rsp+0x38],eax
+3314ba movsd  QWORD PTR [rsp+0x30],xmm1
+3314c0 call   0x375140
+3314c5 addss  xmm8,DWORD PTR [r14+0x184]
+3314ce addss  xmm7,DWORD PTR [r14+0x188]
+3314d7 movsd  xmm1,QWORD PTR [rsp+0x50]
+3314dd mov    edx,edi
+3314df mov    eax,DWORD PTR [rsp+0x58]
+3314e3 mov    rcx,r12
+3314e6 movsd  QWORD PTR [r14+0x178],xmm1
+3314ef movss  DWORD PTR [r14+0x184],xmm8
+3314f8 movss  DWORD PTR [r14+0x188],xmm7
+331501 mov    DWORD PTR [r14+0x180],eax
+331508 mov    BYTE PTR [r15+0xb0],0x1
+331510 mov    QWORD PTR [r15+0x90],r12
+331517 call   0x368c60
+33151c mov    rcx,rax
+33151f mov    rbx,rax
+331522 call   0x2caf08
+331527 test   al,al
+331529 je     0x331e28
+33152f lea    r8,[rbp-0x80]
+331533 lea    rdx,[rbp-0x60]
+331537 lea    rcx,[rsp+0x40]
+33153c call   0x2df6cc
+331541 mov    rcx,rax
+331544 lea    rdx,[rbp-0x40]
+331548 call   0x2e1278
+33154d lea    r8,[rsp+0x30]
+331552 lea    rdx,[rsp+0x60]
+331557 lea    rcx,[rbp-0x10]
+33155b movsd  xmm0,QWORD PTR [rax]
+33155f mov    eax,DWORD PTR [rax+0x8]
+331562 movsd  QWORD PTR [rsp+0x30],xmm0
+331568 movsd  xmm0,QWORD PTR [rbp-0x80]
+33156d mov    DWORD PTR [rsp+0x38],eax
+331571 mov    eax,DWORD PTR [rbp-0x78]
+331574 movsd  QWORD PTR [rsp+0x60],xmm0
+33157a mov    DWORD PTR [rsp+0x68],eax
+33157e call   0x2df29c
+331583 movsd  xmm0,QWORD PTR [rsp+0x40]
+331589 lea    r8,[rsp+0x30]
+33158e mov    eax,DWORD PTR [rsp+0x48]
+331592 lea    rdx,[rbp-0x60]
+331596 mov    rcx,rbx
+331599 movsd  QWORD PTR [rsp+0x30],xmm0
+33159f mov    QWORD PTR [r15+0xd8],rbx
+3315a6 mov    DWORD PTR [rsp+0x38],eax
+3315aa call   0x374d60
+3315af lea    r8,[rsp+0x30]
+3315b4 mov    rcx,rbx
+3315b7 lea    rdx,[rbp-0x60]
+3315bb movsd  xmm0,QWORD PTR [rax]
+3315bf movsd  QWORD PTR [r15+0x5c],xmm0
+3315c5 mov    eax,DWORD PTR [rax+0x8]
+3315c8 movsd  xmm0,QWORD PTR [rsp+0x40]
+3315ce mov    DWORD PTR [r15+0x64],eax
+3315d2 mov    eax,DWORD PTR [rsp+0x48]
+3315d6 mov    DWORD PTR [rsp+0x38],eax
+3315da movsd  QWORD PTR [rsp+0x30],xmm0
+3315e0 call   0x374bf8
+3315e5 movsd  xmm1,QWORD PTR [rbp+0x0]
+3315ea mov    rcx,r13
+3315ed movsd  xmm0,QWORD PTR [rax]
+3315f1 movsd  QWORD PTR [r15+0xa4],xmm0
+3315fa mov    eax,DWORD PTR [rax+0x8]
+3315fd movups xmm0,XMMWORD PTR [rbp-0x10]
+331601 mov    DWORD PTR [r15+0xac],eax
+331608 movups XMMWORD PTR [r15+0x6c],xmm0
+33160d movsd  QWORD PTR [r15+0x7c],xmm1
+331613 call   0x2ce5dc
+331618 movsd  xmm0,QWORD PTR [r15+0xa4]
+331621 lea    r9,[rsp+0x30]
+331626 mov    QWORD PTR [r15+0xc0],rax
+33162d mov    rax,QWORD PTR [r14+0x80]
+331634 mov    QWORD PTR [r15+0xd0],rax
+33163b mov    eax,DWORD PTR [r15+0xac]
+331642 mov    DWORD PTR [rsp+0x38],eax
+331646 mov    eax,DWORD PTR [r15+0x64]
+33164a movsd  QWORD PTR [rsp+0x30],xmm0
+331650 movsd  xmm0,QWORD PTR [r15+0x5c]
+331656 jmp    0x331e0e
+33165b cmp    rbx,rsi
+33165e je     0x331e28
+331664 cmp    BYTE PTR [rip+0xc7e6d],0x0        # 0x3f94d8
+33166b je     0x331e28
+331671 mov    rcx,r12
+331674 call   0x368b10
+331679 mov    rcx,rax
+33167c mov    rbx,rax
+33167f call   0x2caf08
+331684 test   al,al
+331686 je     0x331e28
+33168c mov    rcx,r12
+33168f call   0x330700
+331694 mov    rcx,rax
+331697 mov    r8,rax
+33169a call   0x2caf08
+33169f test   al,al
+3316a1 je     0x331e28
+3316a7 lea    rdx,[rsp+0x30]
+3316ac mov    rcx,r8
+3316af call   0x3747d4
+3316b4 mov    rcx,QWORD PTR [rbx+0x38]
+3316b8 call   0x2caf08
+3316bd test   al,al
+3316bf je     0x331e28
+3316c5 mov    rcx,QWORD PTR [rbx+0x38]
+3316c9 call   0x2e5a54
+3316ce mov    rcx,rax
+3316d1 mov    rbx,rax
+3316d4 call   0x2caf08
+3316d9 test   al,al
+3316db je     0x331e28
+3316e1 lea    rdx,[rbp-0x20]
+3316e5 lea    rcx,[rbp+0x1b8]
+3316ec call   0x330128
+3316f1 mov    rcx,rax
+3316f4 call   0x2cdccc
+3316f9 mov    rdx,rax
+3316fc mov    rcx,rbx
+3316ff call   0x3ca884
+331704 test   eax,eax
+331706 je     0x33190d
+33170c lea    rdx,[rbp-0x10]
+331710 lea    rcx,[rbp+0x1b8]
+331717 call   0x330140
+33171c mov    rcx,rax
+33171f call   0x3204bc
+331724 mov    rdx,rax
+331727 mov    rcx,rbx
+33172a call   0x3ca884
+33172f test   eax,eax
+331731 je     0x33190d
+331737 lea    rdx,[rbp+0x90]
+33173e lea    rcx,[rbp+0x1b8]
+331745 call   0x330174
+33174a mov    rcx,rax
+33174d call   0x320494
+331752 mov    rdx,rax
+331755 mov    rcx,rbx
+331758 call   0x3ca884
+33175d test   eax,eax
+33175f je     0x33190d
+331765 lea    rdx,[rsp+0x50]
+33176a lea    rcx,[rbp+0x1b8]
+331771 call   0x33018c
+331776 mov    rcx,rax
+331779 call   0x2e9c54
+33177e mov    rdx,rax
+331781 mov    rcx,rbx
+331784 call   0x3ca884
+331789 test   eax,eax
+33178b je     0x33190d
+331791 lea    rdx,[rbp+0xa8]
+331798 lea    rcx,[rbp+0x1b8]
+33179f call   0x3301a8
+3317a4 mov    rcx,rax
+3317a7 call   0x2e9bb4
+3317ac mov    rdx,rax
+3317af mov    rcx,rbx
+3317b2 call   0x3ca884
+3317b7 test   eax,eax
+3317b9 je     0x33190d
+3317bf lea    rdx,[rbp+0x40]
+3317c3 lea    rcx,[rbp+0x1b8]
+3317ca call   0x3301c0
+3317cf mov    rcx,rax
+3317d2 call   0x32050c
+3317d7 mov    rdx,rax
+3317da mov    rcx,rbx
+3317dd call   0x3ca884
+3317e2 test   eax,eax
+3317e4 je     0x33190d
+3317ea lea    rdx,[rbp+0x78]
+3317ee lea    rcx,[rbp+0x1b8]
+3317f5 call   0x3301dc
+3317fa mov    rcx,rax
+3317fd call   0x2d866c
+331802 mov    rdx,rax
+331805 mov    rcx,rbx
+331808 call   0x3ca884
+33180d test   eax,eax
+33180f je     0x33190d
+331815 lea    rdx,[rsp+0x60]
+33181a lea    rcx,[rbp+0x1b8]
+331821 call   0x33020c
+331826 mov    rcx,rax
+331829 call   0x2e9b8c
+33182e mov    rdx,rax
+331831 mov    rcx,rbx
+331834 call   0x3ca884
+331839 test   eax,eax
+33183b je     0x33190d
+331841 lea    rdx,[rbp-0x60]
+331845 lea    rcx,[rbp+0x1b8]
+33184c call   0x330228
+331851 mov    rcx,rax
+331854 call   0x2d85f4
+331859 mov    rdx,rax
+33185c mov    rcx,rbx
+33185f call   0x3ca884
+331864 test   eax,eax
+331866 je     0x33190d
+33186c lea    rdx,[rbp+0x28]
+331870 lea    rcx,[rbp+0x1b8]
+331877 call   0x33024c
+33187c mov    rcx,rax
+33187f call   0x2d85f4
+331884 mov    rdx,rax
+331887 mov    rcx,rbx
+33188a call   0x3ca884
+33188f test   eax,eax
+331891 je     0x33190d
+331893 lea    rdx,[rbp-0x40]
+331897 lea    rcx,[rbp+0x1b8]
+33189e call   0x3302ec
+3318a3 mov    rcx,rax
+3318a6 call   0x2d84dc
+3318ab mov    rdx,rax
+3318ae mov    rcx,rbx
+3318b1 call   0x3ca884
+3318b6 test   eax,eax
+3318b8 je     0x33190d
+3318ba lea    rdx,[rbp-0x1b]
+3318be lea    rcx,[rbp+0x1b8]
+3318c5 call   0x330304
+3318ca mov    rcx,rax
+3318cd call   0x2cdccc
+3318d2 mov    rdx,rax
+3318d5 mov    rcx,rbx
+3318d8 call   0x3ca884
+3318dd test   eax,eax
+3318df je     0x33190d
+3318e1 lea    rdx,[rsp+0x40]
+3318e6 lea    rcx,[rbp+0x1b8]
+3318ed call   0x33031c
+3318f2 mov    rcx,rax
+3318f5 call   0x2e9c54
+3318fa mov    rdx,rax
+3318fd mov    rcx,rbx
+331900 call   0x3ca884
+331905 test   eax,eax
+331907 jne    0x331e28
+33190d call   0x31581c
+331912 movaps xmm6,xmm0
+331915 mov    rcx,r12
+331918 subss  xmm6,DWORD PTR [rip+0xc0804]        # 0x3f2124
+331920 minss  xmm6,DWORD PTR [rip+0xfffffffffff5b92c]        # 0x28d254
+331928 call   0x36942c
+33192d xorps  xmm1,xmm1
+331930 lea    rdx,[rbp+0xa8]
+331937 maxss  xmm1,xmm6
+33193b movaps xmm8,xmm0
+33193f lea    rcx,[rbp+0x1b8]
+331946 addss  xmm1,DWORD PTR [rip+0xfffffffffff5c192]        # 0x28dae0
+33194e mulss  xmm1,DWORD PTR [rip+0xfffffffffff5c1a6]        # 0x28dafc
+331956 mulss  xmm8,xmm1
+33195b addss  xmm8,DWORD PTR [rip+0xfffffffffff5c180]        # 0x28dae4
+331964 call   0x330338
+331969 mov    rcx,rax
+33196c call   0x2e9bb4
+331971 mov    rdx,rax
+331974 mov    rcx,rbx
+331977 call   0x3ca884
+33197c test   eax,eax
+33197e je     0x331a27
+331984 lea    rdx,[rsp+0x40]
+331989 lea    rcx,[rbp+0x1b8]
+331990 call   0x330350
+331995 mov    rcx,rax
+331998 call   0x2e9c54
+33199d mov    rdx,rax
+3319a0 mov    rcx,rbx
+3319a3 call   0x3ca884
+3319a8 test   eax,eax
+3319aa je     0x331a27
+3319ac lea    rdx,[rbp-0x10]
+3319b0 lea    rcx,[rbp+0x1b8]
+3319b7 call   0x33036c
+3319bc mov    rcx,rax
+3319bf call   0x32050c
+3319c4 mov    rdx,rax
+3319c7 mov    rcx,rbx
+3319ca call   0x3ca884
+3319cf test   eax,eax
+3319d1 je     0x331a27
+3319d3 lea    rdx,[rbp+0x78]
+3319d7 lea    rcx,[rbp+0x1b8]
+3319de call   0x330388
+3319e3 mov    rcx,rax
+3319e6 call   0x2d866c
+3319eb mov    rdx,rax
+3319ee mov    rcx,rbx
+3319f1 call   0x3ca884
+3319f6 test   eax,eax
+3319f8 je     0x331a27
+3319fa lea    rdx,[rsp+0x60]
+3319ff lea    rcx,[rbp+0x1b8]
+331a06 call   0x3303b8
+331a0b mov    rcx,rax
+331a0e call   0x2e9b8c
+331a13 mov    rdx,rax
+331a16 mov    rcx,rbx
+331a19 call   0x3ca884
+331a1e test   eax,eax
+331a20 je     0x331a27
+331a22 xor    sil,sil
+331a25 jmp    0x331a2a
+331a27 mov    sil,0x1
+331a2a lea    rdx,[rbp-0x1b]
+331a2e lea    rcx,[rbp+0x1b8]
+331a35 call   0x3303d4
+331a3a mov    rcx,rax
+331a3d call   0x2cdccc
+331a42 mov    rdx,rax
+331a45 mov    rcx,rbx
+331a48 call   0x3ca884
+331a4d test   eax,eax
+331a4f je     0x331b7a
+331a55 lea    rdx,[rbp+0x90]
+331a5c lea    rcx,[rbp+0x1b8]
+331a63 call   0x3303ec
+331a68 mov    rcx,rax
+331a6b call   0x320494
+331a70 mov    rdx,rax
+331a73 mov    rcx,rbx
+331a76 call   0x3ca884
+331a7b test   eax,eax
+331a7d je     0x331b7a
+331a83 lea    rdx,[rbp-0x10]
+331a87 lea    rcx,[rbp+0x1b8]
+331a8e call   0x33043c
+331a93 mov    rcx,rax
+331a96 call   0x3204bc
+331a9b mov    rdx,rax
+331a9e mov    rcx,rbx
+331aa1 call   0x3ca884
+331aa6 test   eax,eax
+331aa8 je     0x331b7a
+331aae lea    rdx,[rsp+0x40]
+331ab3 lea    rcx,[rbp+0x1b8]
+331aba call   0x330458
+331abf mov    rcx,rax
+331ac2 call   0x2e9c54
+331ac7 mov    rdx,rax
+331aca mov    rcx,rbx
+331acd call   0x3ca884
+331ad2 test   eax,eax
+331ad4 je     0x331b7a
+331ada lea    rdx,[rbp+0x28]
+331ade lea    rcx,[rbp+0x1b8]
+331ae5 call   0x330474
+331aea mov    rcx,rax
+331aed call   0x2d85f4
+331af2 mov    rdx,rax
+331af5 mov    rcx,rbx
+331af8 call   0x3ca884
+331afd test   eax,eax
+331aff je     0x331b7a
+331b01 lea    rdx,[rbp-0x60]
+331b05 lea    rcx,[rbp+0x1b8]
+331b0c call   0x330498
+331b11 mov    rcx,rax
+331b14 call   0x2d85f4
+331b19 mov    rdx,rax
+331b1c mov    rcx,rbx
+331b1f call   0x3ca884
+331b24 test   eax,eax
+331b26 je     0x331b7a
+331b28 lea    rdx,[rbp-0x40]
+331b2c lea    rcx,[rbp+0x1b8]
+331b33 call   0x3304bc
+331b38 mov    rcx,rax
+331b3b call   0x2d84dc
+331b40 mov    rdx,rax
+331b43 mov    rcx,rbx
+331b46 call   0x3ca884
+331b4b test   eax,eax
+331b4d je     0x331b7a
+331b4f lea    rdx,[rbp-0x20]
+331b53 lea    rcx,[rbp+0x1b8]
+331b5a call   0x3304d4
+331b5f mov    rcx,rax
+331b62 call   0x2cdccc
+331b67 mov    rdx,rax
+331b6a mov    rcx,rbx
+331b6d call   0x3ca884
+331b72 test   eax,eax
+331b74 je     0x331b7a
+331b76 xor    al,al
+331b78 jmp    0x331b7c
+331b7a mov    al,0x1
+331b7c test   sil,sil
+331b7f je     0x331b88
+331b81 maxss  xmm7,xmm8
+331b86 jmp    0x331b9a
+331b88 test   al,al
+331b8a je     0x331b96
+331b8c movss  xmm7,DWORD PTR [rip+0xfffffffffff615f4]        # 0x293188
+331b94 jmp    0x331b81
+331b96 movaps xmm7,xmm8
+331b9a movsd  xmm6,QWORD PTR [r14+0x178]
+331ba3 lea    rdx,[rbp-0x60]
+331ba7 movsd  xmm0,QWORD PTR [r14+0x16c]
+331bb0 lea    rcx,[rsp+0x40]
+331bb5 mov    ebx,DWORD PTR [r14+0x180]
+331bbc movaps xmm2,xmm14
+331bc0 mov    eax,DWORD PTR [r14+0x174]
+331bc7 movsd  QWORD PTR [rsp+0x60],xmm6
+331bcd movsd  QWORD PTR [rsp+0x40],xmm0
+331bd3 mov    DWORD PTR [rsp+0x68],ebx
+331bd7 mov    DWORD PTR [rsp+0x48],eax
+331bdb call   0x2df66c
+331be0 mov    r8,rax
+331be3 lea    rdx,[rbp-0x40]
+331be7 lea    rcx,[rsp+0x60]
+331bec call   0x2df708
+331bf1 lea    r8,[rsp+0x40]
+331bf6 movsd  QWORD PTR [rsp+0x60],xmm6
+331bfc lea    rdx,[rsp+0x60]
+331c01 mov    DWORD PTR [rsp+0x68],ebx
+331c05 lea    rcx,[rbp+0x40]
+331c09 movsd  xmm0,QWORD PTR [rax]
+331c0d mov    eax,DWORD PTR [rax+0x8]
+331c10 movsd  QWORD PTR [rsp+0x40],xmm0
+331c16 mov    DWORD PTR [rsp+0x48],eax
+331c1a call   0x2df29c
+331c1f movsd  xmm0,QWORD PTR [rsp+0x30]
+331c25 lea    r8,[rsp+0x40]
+331c2a mov    eax,DWORD PTR [rsp+0x38]
+331c2e lea    rdx,[rsp+0x50]
+331c33 lea    rcx,[rbp+0x40]
+331c37 movsd  QWORD PTR [rsp+0x40],xmm0
+331c3d mov    DWORD PTR [rsp+0x48],eax
+331c41 call   0x2e5a80
+331c46 movsd  xmm0,QWORD PTR [r14+0x190]
+331c4f lea    rdx,[rsp+0x50]
+331c54 mov    eax,DWORD PTR [r14+0x198]
+331c5b lea    rcx,[rsp+0x30]
+331c60 movsd  QWORD PTR [rsp+0x40],xmm0
+331c66 mov    DWORD PTR [rsp+0x48],eax
+331c6a call   0x2dff30
+331c6f comiss xmm7,xmm0
+331c72 jb     0x331e28
+331c78 movsd  xmm0,QWORD PTR [r14+0x28]
+331c7e lea    rdx,[rsp+0x50]
+331c83 mov    eax,DWORD PTR [r14+0x30]
+331c87 lea    rcx,[rsp+0x40]
+331c8c movsd  QWORD PTR [rsp+0x60],xmm0
+331c92 mov    DWORD PTR [rsp+0x68],eax
+331c96 call   0x2dff30
+331c9b lea    rcx,[rsp+0x60]
+331ca0 movaps xmm6,xmm0
+331ca3 call   0x2e0ee8
+331ca8 movss  xmm1,DWORD PTR [r14+0x188]
+331cb1 addss  xmm1,xmm14
+331cb6 minss  xmm1,DWORD PTR [rip+0xfffffffffff6317a]        # 0x294e38
+331cbe mulss  xmm0,xmm1
+331cc2 addss  xmm0,DWORD PTR [r14+0x44]
+331cc8 comiss xmm0,xmm6
+331ccb jbe    0x331e28
+331cd1 mov    edx,edi
+331cd3 mov    BYTE PTR [r15+0xb0],0x1
+331cdb mov    rcx,r12
+331cde mov    QWORD PTR [r15+0x90],r12
+331ce5 call   0x368c60
+331cea mov    rcx,rax
+331ced mov    rbx,rax
+331cf0 call   0x2caf08
+331cf5 test   al,al
+331cf7 je     0x331e28
+331cfd mov    ecx,DWORD PTR [rsp+0x58]
+331d01 lea    r8,[rsp+0x40]
+331d06 movsd  xmm0,QWORD PTR [rsp+0x50]
+331d0c lea    rdx,[rbp-0x60]
+331d10 mov    DWORD PTR [rsp+0x48],ecx
+331d14 mov    rcx,rbx
+331d17 mov    QWORD PTR [r15+0xd8],rbx
+331d1e movsd  QWORD PTR [rsp+0x40],xmm0
+331d24 call   0x374d60
+331d29 lea    r8,[rsp+0x40]
+331d2e mov    rcx,rbx
+331d31 lea    rdx,[rbp-0x60]
+331d35 movsd  xmm0,QWORD PTR [rax]
+331d39 movsd  QWORD PTR [r15+0x5c],xmm0
+331d3f mov    eax,DWORD PTR [rax+0x8]
+331d42 movsd  xmm0,QWORD PTR [rsp+0x50]
+331d48 mov    DWORD PTR [r15+0x64],eax
+331d4c mov    eax,DWORD PTR [rsp+0x58]
+331d50 mov    DWORD PTR [rsp+0x48],eax
+331d54 movsd  QWORD PTR [rsp+0x40],xmm0
+331d5a call   0x374bf8
+331d5f lea    rcx,[rbp-0x60]
+331d63 movsd  xmm0,QWORD PTR [rax]
+331d67 movsd  QWORD PTR [r15+0xa4],xmm0
+331d70 mov    eax,DWORD PTR [rax+0x8]
+331d73 mov    DWORD PTR [r15+0xac],eax
+331d7a call   0x3c7bbc
+331d7f lea    r8,[rsp+0x40]
+331d84 lea    rdx,[rsp+0x60]
+331d89 lea    rcx,[rbp+0x90]
+331d90 movsd  xmm0,QWORD PTR [rax]
+331d94 mov    eax,DWORD PTR [rax+0x8]
+331d97 movsd  QWORD PTR [rsp+0x40],xmm0
+331d9d movsd  xmm0,QWORD PTR [rsp+0x50]
+331da3 mov    DWORD PTR [rsp+0x48],eax
+331da7 mov    eax,DWORD PTR [rsp+0x58]
+331dab movsd  QWORD PTR [rsp+0x60],xmm0
+331db1 mov    DWORD PTR [rsp+0x68],eax
+331db5 call   0x2df29c
+331dba mov    rcx,r13
+331dbd movups xmm0,XMMWORD PTR [rax]
+331dc0 movups XMMWORD PTR [r15+0x6c],xmm0
+331dc5 movsd  xmm1,QWORD PTR [rax+0x10]
+331dca movsd  QWORD PTR [r15+0x7c],xmm1
+331dd0 movups xmm0,XMMWORD PTR [rax]
+331dd3 movsd  xmm1,QWORD PTR [rax+0x10]
+331dd8 movups XMMWORD PTR [rbp-0x10],xmm0
+331ddc movsd  QWORD PTR [rbp+0x0],xmm1
+331de1 call   0x2ce5dc
+331de6 movsd  xmm0,QWORD PTR [rbp-0x4]
+331deb lea    r9,[rsp+0x40]
+331df0 mov    QWORD PTR [r15+0xc0],rax
+331df7 mov    eax,DWORD PTR [rbp+0x4]
+331dfa movsd  QWORD PTR [rsp+0x40],xmm0
+331e00 movsd  xmm0,QWORD PTR [rsp+0x50]
+331e06 mov    DWORD PTR [rsp+0x48],eax
+331e0a mov    eax,DWORD PTR [rsp+0x58]
+331e0e lea    r8,[rsp+0x60]
+331e13 movsd  QWORD PTR [rsp+0x60],xmm0
+331e19 mov    rdx,r15
+331e1c mov    DWORD PTR [rsp+0x68],eax
+331e20 mov    rcx,r14
+331e23 call   0x374168
+331e28 cmp    BYTE PTR [rip+0xc1d79],0x0        # 0x3f3ba8
+331e2f je     0x332118
+331e35 mov    rdi,QWORD PTR [rip+0xa547c]        # 0x3d72b8
+331e3c mov    rcx,rdi
+331e3f call   0x2caf08
+331e44 test   al,al
+331e46 je     0x332118
+331e4c mov    rcx,rdi
+331e4f call   0x2e0e9c
+331e54 test   al,al
+331e56 je     0x332118
+331e5c mov    rcx,r14
+331e5f call   0x374210
+331e64 mov    rcx,rax
+331e67 mov    rbx,rax
+331e6a call   0x2caf08
+331e6f test   al,al
+331e71 je     0x332118
+331e77 mov    rdx,QWORD PTR [rdi+0x2e8]
+331e7e mov    rcx,rdx
+331e81 call   0x2caf08
+331e86 test   al,al
+331e88 je     0x332118
+331e8e mov    rsi,QWORD PTR [rdx+0x28]
+331e92 mov    rcx,rsi
+331e95 call   0x2caf08
+331e9a test   al,al
+331e9c je     0x332118
+331ea2 mov    rcx,rdi
+331ea5 call   0x330700
+331eaa mov    rcx,rax
+331ead mov    r15,rax
+331eb0 call   0x2caf08
+331eb5 test   al,al
+331eb7 je     0x332118
+331ebd call   0x31581c
+331ec2 subss  xmm0,DWORD PTR [rip+0xc025a]        # 0x3f2124
+331eca movss  xmm6,DWORD PTR [rip+0xfffffffffff612e6]        # 0x2931b8
+331ed2 lea    rdx,[rbp-0x50]
+331ed6 xorps  xmm1,xmm1
+331ed9 mov    rcx,r15
+331edc minss  xmm0,DWORD PTR [rip+0xfffffffffff5b370]        # 0x28d254
+331ee4 maxss  xmm1,xmm0
+331ee8 addss  xmm1,DWORD PTR [rip+0xfffffffffff5bbf0]        # 0x28dae0
+331ef0 mulss  xmm1,DWORD PTR [rip+0xfffffffffff5bc04]        # 0x28dafc
+331ef8 mulss  xmm1,DWORD PTR [rip+0xfffffffffff62f3c]        # 0x294e3c
+331f00 addss  xmm1,DWORD PTR [rip+0xfffffffffff5bbdc]        # 0x28dae4
+331f08 maxss  xmm6,xmm1
+331f0c call   0x3747d4
+331f11 lea    rdx,[rsp+0x30]
+331f16 mov    rcx,r14
+331f19 call   0x3740e0
+331f1e lea    rdx,[rbp-0x30]
+331f22 mov    rcx,r14
+331f25 call   0x374124
+331f2a movaps xmm2,xmm14
+331f2e lea    rdx,[rbp-0x60]
+331f32 lea    rcx,[rbp-0x30]
+331f36 call   0x2df66c
+331f3b mov    r8,rax
+331f3e lea    rdx,[rsp+0x40]
+331f43 lea    rcx,[rsp+0x30]
+331f48 call   0x2df708
+331f4d lea    r8,[rsp+0x70]
+331f52 lea    rdx,[rbp-0x80]
+331f56 lea    rcx,[rbp+0x40]
+331f5a movsd  xmm0,QWORD PTR [rax]
+331f5e mov    eax,DWORD PTR [rax+0x8]
+331f61 movsd  QWORD PTR [rsp+0x70],xmm0
+331f67 movsd  xmm0,QWORD PTR [rsp+0x30]
+331f6d mov    DWORD PTR [rsp+0x78],eax
+331f71 mov    eax,DWORD PTR [rsp+0x38]
+331f75 movsd  QWORD PTR [rbp-0x80],xmm0
+331f7a mov    DWORD PTR [rbp-0x78],eax
+331f7d call   0x2df29c
+331f82 movsd  xmm0,QWORD PTR [rbp-0x50]
+331f87 lea    r8,[rsp+0x70]
+331f8c mov    eax,DWORD PTR [rbp-0x48]
+331f8f lea    rdx,[rbp-0x70]
+331f93 lea    rcx,[rbp+0x40]
+331f97 movsd  QWORD PTR [rsp+0x70],xmm0
+331f9d mov    DWORD PTR [rsp+0x78],eax
+331fa1 call   0x2e5a80
+331fa6 lea    rdx,[rbp-0x70]
+331faa lea    rcx,[rbp-0x50]
+331fae call   0x2dff30
+331fb3 minss  xmm6,xmm6
+331fb7 comiss xmm6,xmm0
+331fba jb     0x332118
+331fc0 xor    edx,edx
+331fc2 mov    BYTE PTR [rbx+0xb0],0x1
+331fc9 mov    rax,QWORD PTR [rip+0xa52e8]        # 0x3d72b8
+331fd0 mov    rcx,rdi
+331fd3 mov    QWORD PTR [rbx+0x90],rax
+331fda movss  xmm0,DWORD PTR [rsi+0x24]
+331fdf comiss xmm0,xmm9
+331fe3 setbe  dl
+331fe6 add    edx,0x3e
+331fe9 call   0x368c60
+331fee mov    rcx,rax
+331ff1 mov    rdi,rax
+331ff4 call   0x2caf08
+331ff9 test   al,al
+331ffb je     0x332118
+332001 mov    ecx,DWORD PTR [rbp-0x68]
+332004 lea    r8,[rsp+0x70]
+332009 movsd  xmm0,QWORD PTR [rbp-0x70]
+33200e lea    rdx,[rbp-0x60]
+332012 mov    DWORD PTR [rsp+0x78],ecx
+332016 mov    rcx,rdi
+332019 mov    QWORD PTR [rbx+0xd8],rdi
+332020 movsd  QWORD PTR [rsp+0x70],xmm0
+332026 call   0x374d60
+33202b lea    r8,[rsp+0x70]
+332030 mov    rcx,rdi
+332033 lea    rdx,[rbp-0x60]
+332037 movsd  xmm0,QWORD PTR [rax]
+33203b movsd  QWORD PTR [rbx+0x5c],xmm0
+332040 mov    eax,DWORD PTR [rax+0x8]
+332043 movsd  xmm0,QWORD PTR [rbp-0x70]
+332048 mov    DWORD PTR [rbx+0x64],eax
+33204b mov    eax,DWORD PTR [rbp-0x68]
+33204e mov    DWORD PTR [rsp+0x78],eax
+332052 movsd  QWORD PTR [rsp+0x70],xmm0
+332058 call   0x374bf8
+33205d lea    rcx,[rbp-0x60]
+332061 movsd  xmm0,QWORD PTR [rax]
+332065 movsd  QWORD PTR [rbx+0xa4],xmm0
+33206d mov    eax,DWORD PTR [rax+0x8]
+332070 mov    DWORD PTR [rbx+0xac],eax
+332076 call   0x3c7bbc
+33207b lea    r8,[rsp+0x70]
+332080 lea    rdx,[rbp-0x80]
+332084 lea    rcx,[rbp+0xc0]
+33208b movsd  xmm0,QWORD PTR [rax]
+33208f mov    eax,DWORD PTR [rax+0x8]
+332092 movsd  QWORD PTR [rsp+0x70],xmm0
+332098 movsd  xmm0,QWORD PTR [rbp-0x70]
+33209d mov    DWORD PTR [rsp+0x78],eax
+3320a1 mov    eax,DWORD PTR [rbp-0x68]
+3320a4 movsd  QWORD PTR [rbp-0x80],xmm0
+3320a9 mov    DWORD PTR [rbp-0x78],eax
+3320ac call   0x2df29c
+3320b1 mov    rcx,r13
+3320b4 movups xmm0,XMMWORD PTR [rax]
+3320b7 movups XMMWORD PTR [rbx+0x6c],xmm0
+3320bb movsd  xmm1,QWORD PTR [rax+0x10]
+3320c0 movsd  QWORD PTR [rbx+0x7c],xmm1
+3320c5 movups xmm0,XMMWORD PTR [rax]
+3320c8 movsd  xmm1,QWORD PTR [rax+0x10]
+3320cd movups XMMWORD PTR [rbp+0x10],xmm0
+3320d1 movsd  QWORD PTR [rbp+0x20],xmm1
+3320d6 call   0x2ce5dc
+3320db movsd  xmm0,QWORD PTR [rbp+0x1c]
+3320e0 lea    r9,[rsp+0x70]
+3320e5 mov    QWORD PTR [rbx+0xc0],rax
+3320ec lea    r8,[rbp-0x80]
+3320f0 mov    eax,DWORD PTR [rbp+0x24]
+3320f3 mov    rdx,rbx
+3320f6 movsd  QWORD PTR [rsp+0x70],xmm0
+3320fc mov    rcx,r14
+3320ff movsd  xmm0,QWORD PTR [rbp-0x70]
+332104 mov    DWORD PTR [rsp+0x78],eax
+332108 mov    eax,DWORD PTR [rbp-0x68]
+33210b movsd  QWORD PTR [rbp-0x80],xmm0
+332110 mov    DWORD PTR [rbp-0x78],eax
+332113 call   0x374168
+332118 lea    r11,[rsp+0x270]
+332120 mov    rbx,QWORD PTR [r11+0x40]
+332124 movaps xmm6,XMMWORD PTR [r11-0x10]
+332129 movaps xmm7,XMMWORD PTR [r11-0x20]
+33212e movaps xmm8,XMMWORD PTR [r11-0x30]
+332133 movaps xmm9,XMMWORD PTR [r11-0x40]
+332138 movaps xmm10,XMMWORD PTR [r11-0x50]
+33213d movaps xmm11,XMMWORD PTR [r11-0x60]
+332142 movaps xmm12,XMMWORD PTR [r11-0x70]
+332147 movaps xmm13,XMMWORD PTR [r11-0x80]
+33214c movaps xmm14,XMMWORD PTR [r11-0x90]
+332154 mov    rsp,r11
+332157 pop    r15
+332159 pop    r14
+33215b pop    r13
+33215d pop    r12
+33215f pop    rdi
+332160 pop    rsi
+332161 pop    rbp
+332162 ret

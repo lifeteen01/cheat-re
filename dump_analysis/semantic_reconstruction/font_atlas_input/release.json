@@ -1,0 +1,54 @@
+{
+  "status": "released/frozen",
+  "deliverables": {
+    "source/reconstructed/font_atlas_input_analysis.hpp": "897c1658213c3c93f8d87a2e1f9c2d02d1ae6b56b28a25dc5619a42b25e88945",
+    "source/reconstructed/font_atlas_input_bindings.cpp": "1b25c92d47c29f28efc91375dfbabd8a2b8e58d56045a5afc5315efaabfa0b85",
+    "source/reconstructed/font_atlas_input_checks.cpp": "f8f4102a5abf42682e7fe4c8895458b6852cba11620daf073695ef1b59dfeaa2",
+    "source/reconstructed/font_atlas_input_clear.cpp": "24b3070369052cf0cb66efa1defde3a9b847f36d7c7dbebfe2d2ae7a3e74ef2f",
+    "source/reconstructed/font_atlas_input_coverage.cpp": "4c5531273019dfed41a70754a2f736198b9ea635d7e7eb7827d5e65cd85dad95",
+    "source/reconstructed/font_atlas_input_ingestion.cpp": "8f72615f9b73e2e2bfbf56874081a8aa3d4334f43338953bfdd555212734b3e8",
+    "source/reconstructed/font_atlas_input_internal.hpp": "e1f6f912f58b3a90a30e0aae055d232252d418917303acad0e671bca11462c8d",
+    "source/reconstructed/font_atlas_input_memory.cpp": "d0b1a61292c949fcdb244c04f6ed94823af130a7fb13c49598147335d888d367",
+    "source/reconstructed/font_atlas_input_ranges.cpp": "bacdd934f287da6968cd41bcfc10ea54d497766fe5e8d5b4255b2e88d49ba523",
+    "source/reconstructed/font_atlas_input_reconstruction.md": "19d8f8143055d31db6863935af52438503d22738f82a996041dd404cdcb74e1f"
+  },
+  "checks": "check_font_atlas_input_reconstruction()",
+  "audit": {
+    "range_count": 40,
+    "bytes": 2432,
+    "instructions": 655,
+    "branch_call_count": 103,
+    "direct_call_count": 59
+  },
+  "verification": {
+    "source_count": 52,
+    "translation_units": 24,
+    "runs": {
+      "strict": {
+        "exit_code": 0,
+        "seconds": 36.05,
+        "sources_unchanged": true
+      },
+      "sanitize": {
+        "exit_code": 0,
+        "seconds": 57.114,
+        "sources_unchanged": true
+      }
+    },
+    "preserved_inputs": {
+      "exit_code": 0,
+      "pass_count": 135
+    }
+  },
+  "reversion": {
+    "mutation": "move source config data-pointer read before native allocation/store instead of literal39fe0f",
+    "exit_code": 1,
+    "seconds": 36.308,
+    "expected_diagnostic": "data length/source reloads, no invented tail byte, ellipsis and pixel mutation",
+    "observed_diagnostic": "data length/source reloads, no invented tail byte, ellipsis and pixel mutation",
+    "delivered_source_unchanged": true,
+    "result": "PASS"
+  },
+  "remaining": "remaining.json",
+  "source_scope": "NEW source/reconstructed/font_atlas_input_* only; scratch/artifacts under dump_analysis/semantic_reconstruction/font_atlas_input"
+}

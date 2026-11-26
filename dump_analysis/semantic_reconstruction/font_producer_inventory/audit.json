@@ -1,0 +1,106 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x3a3394",
+      "end_exclusive": "0x3a33c0",
+      "instructions": 14,
+      "bytes": 44,
+      "sha256": "e67c75bc464af4ef400f2c7776c6dae74b2bb4bf9d145ccaba21d3e7c985a0b5"
+    },
+    {
+      "begin": "0x3a4994",
+      "end_exclusive": "0x3a49eb",
+      "instructions": 32,
+      "bytes": 87,
+      "sha256": "4c7e83e1b4e1077993060570143677f163a7646300e8a5bffe13e9152f09997f"
+    },
+    {
+      "begin": "0x3a49ec",
+      "end_exclusive": "0x3a4ab9",
+      "instructions": 61,
+      "bytes": 205,
+      "sha256": "e9ba2059aa011588773967eed827b832e8941b928bf05b3a9a7d22055806e611"
+    },
+    {
+      "begin": "0x3a653c",
+      "end_exclusive": "0x3a6552",
+      "instructions": 4,
+      "bytes": 22,
+      "sha256": "c7d865a0f1cfafce51682b028cad4053cd981d1be89b63d7a875c779b5656ef5"
+    }
+  ],
+  "branches": [
+    [
+      "0x3a33a1",
+      "jne    0x3a33a4"
+    ],
+    [
+      "0x3a33ae",
+      "jne    0x3a33b5"
+    ],
+    [
+      "0x3a49af",
+      "jne    0x3a49b6"
+    ],
+    [
+      "0x3a49c0",
+      "je     0x3a49c7"
+    ],
+    [
+      "0x3a49ca",
+      "je     0x3a49d1"
+    ],
+    [
+      "0x3a49d9",
+      "je     0x3a49e1"
+    ],
+    [
+      "0x3a4a11",
+      "jne    0x3a4a79"
+    ],
+    [
+      "0x3a4a3a",
+      "je     0x3a4a79"
+    ],
+    [
+      "0x3a4a5c",
+      "jmp    0x3a4a75"
+    ],
+    [
+      "0x3a4a77",
+      "jg     0x3a4a5e"
+    ],
+    [
+      "0x3a4a83",
+      "je     0x3a4a8b"
+    ],
+    [
+      "0x3a4a8e",
+      "je     0x3a4a95"
+    ],
+    [
+      "0x3a4a9d",
+      "je     0x3a4aa5"
+    ]
+  ],
+  "calls": [
+    [
+      "0x3a33b0",
+      "call   0x3a653c"
+    ],
+    [
+      "0x3a49b1",
+      "call   0x3a3394"
+    ],
+    [
+      "0x3a4a2d",
+      "call   0x3a4994"
+    ],
+    [
+      "0x3a4a4c",
+      "call   0x395158"
+    ]
+  ],
+  "limits": "Byte provenance, boundary and branch inventory only. Unknown stack/return bytes unmaterialized; context/executor execution excluded. Default atlas builder3a59bc remains local closure."
+}

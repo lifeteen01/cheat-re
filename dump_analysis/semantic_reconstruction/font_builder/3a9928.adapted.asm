@@ -1,0 +1,32 @@
+
+dump_analysis/unpacked/cheat.unpacked.dll:     file format binary
+
+
+Disassembly of section .data:
+
+00000000003a9928 <.data+0x3a9928>:
+  3a9928:	6b 01 1c                                        	imul   eax,DWORD PTR [rcx],0x1c
+  3a992b:	c3                                              	ret
+  3a992c:	4c 8b dc                                        	mov    r11,rsp
+  3a992f:	45 89 4b 20                                     	mov    DWORD PTR [r11+0x20],r9d
+  3a9933:	49 89 4b 08                                     	mov    QWORD PTR [r11+0x8],rcx
+  3a9937:	53                                              	push   rbx
+  3a9938:	55                                              	push   rbp
+  3a9939:	56                                              	push   rsi
+  3a993a:	57                                              	push   rdi
+  3a993b:	41 54                                           	push   r12
+  3a993d:	41 55                                           	push   r13
+  3a993f:	41 56                                           	push   r14
+  3a9941:	41 57                                           	push   r15
+  3a9943:	48 83 ec 48                                     	sub    rsp,0x48
+  3a9947:	44 8b 52 08                                     	mov    r10d,DWORD PTR [rdx+0x8]
+  3a994b:	45 8d 68 ff                                     	lea    r13d,[r8-0x1]
+  3a994f:	45 03 ea                                        	add    r13d,r10d
+  3a9952:	4c 8b e2                                        	mov    r12,rdx
+  3a9955:	41 8b c5                                        	mov    eax,r13d
+  3a9958:	48 8b f9                                        	mov    rdi,rcx
+  3a995b:	99                                              	cdq
+  3a995c:	41 f7 fa                                        	idiv   r10d
+  3a995f:	44 2b ea                                        	sub    r13d,edx
+  3a9962:	45 3b 2c 24                                     	cmp    r13d,DWORD PTR [r12]
+  3a9966:	0f 8f                                   	jg     0x3a9b09

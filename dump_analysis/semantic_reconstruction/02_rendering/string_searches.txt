@@ -1,0 +1,16 @@
+PATTERN RenderPipelineManager
+NO MATCH in supplied decoded string inventory
+PATTERN UniversalRenderPipeline|URP
+NO MATCH in supplied decoded string inventory
+PATTERN HDRenderPipeline|HDRP
+NO MATCH in supplied decoded string inventory
+PATTERN AddCommandBuffer|RemoveCommandBuffer|CameraEvent
+NO MATCH in supplied decoded string inventory
+PATTERN D3D11|DXGI|Present
+3cc9e9 N=14 M=52 Bools.present
+3ccc91 N=15 M=52 C.PresentColor
+3cd908 N=18 M=52 i.presentdistance
+PATTERN DisablePlayerCulling
+2f0787 N=27 M=52 Bools.DisablePlayerCulling
+PATTERN UnityFS
+NO MATCH in supplied decoded string inventory

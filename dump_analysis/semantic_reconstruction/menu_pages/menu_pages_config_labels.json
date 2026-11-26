@@ -1,0 +1,173 @@
+[
+  {
+    "site": "0x34c54d",
+    "join": "0x34c596",
+    "labels": [
+      "New Config Name..",
+      "Новое имя конфига..",
+      "新配置名称.."
+    ]
+  },
+  {
+    "site": "0x34c71b",
+    "join": "0x34c760",
+    "labels": [
+      "Current CFGS",
+      "Текущие конфиги",
+      "当前配置"
+    ]
+  },
+  {
+    "site": "0x34c7c3",
+    "join": "0x34c800",
+    "labels": [
+      "All Options",
+      "Все настройки",
+      "所有选项"
+    ]
+  },
+  {
+    "site": "0x34c876",
+    "join": "0x34c8b6",
+    "labels": [
+      "Loaded Config %s",
+      "Загружен конфиг %s",
+      "已加载配置 %s"
+    ]
+  },
+  {
+    "site": "0x34c8d0",
+    "join": "0x34c90f",
+    "labels": [
+      "Refresh Config List",
+      "Обновить список конфигов",
+      "刷新配置列表"
+    ]
+  },
+  {
+    "site": "0x34c923",
+    "join": "0x34c960",
+    "labels": [
+      "Successfully refreshed config list",
+      "Список конфигов успешно обновлен",
+      "成功刷新配置列表"
+    ]
+  },
+  {
+    "site": "0x34c994",
+    "join": "0x34c9d3",
+    "labels": [
+      "Load SamSites/Stashes",
+      "Загрузить Сэм-сайты/Тайники",
+      "加载防空/藏匿点"
+    ]
+  },
+  {
+    "site": "0x34ca14",
+    "join": "0x34ca51",
+    "labels": [
+      "Loaded Samsites",
+      "Сэм-сайты загружены",
+      "已加载防空炮塔"
+    ]
+  },
+  {
+    "site": "0x34ca62",
+    "join": "0x34ca9f",
+    "labels": [
+      "Failed to find samsite config",
+      "Не удалось найти конфиг сэм-сайтов",
+      "未找到防空炮塔配置文件"
+    ]
+  },
+  {
+    "site": "0x34cad3",
+    "join": "0x34cb10",
+    "labels": [
+      "Loaded Stashes",
+      "Тайники загружены",
+      "已加载藏匿点"
+    ]
+  },
+  {
+    "site": "0x34cb21",
+    "join": "0x34cb5e",
+    "labels": [
+      "Failed to find stash config",
+      "Не удалось найти конфиг тайников",
+      "未找到藏匿点配置文件"
+    ]
+  },
+  {
+    "site": "0x34cb9a",
+    "join": "0x34cbda",
+    "labels": [
+      "Create Config",
+      "Создать конфиг",
+      "创建配置"
+    ]
+  },
+  {
+    "site": "0x34cc49",
+    "join": "0x34cc85",
+    "labels": [
+      "Created Config : ",
+      "Создан конфиг : ",
+      "已创建配置："
+    ]
+  },
+  {
+    "site": "0x34cd10",
+    "join": "0x34cd50",
+    "labels": [
+      "Remove Config",
+      "Удалить конфиг",
+      "删除配置"
+    ]
+  },
+  {
+    "site": "0x34cd7a",
+    "join": "0x34cdb9",
+    "labels": [
+      "Deleted Config : ",
+      "Удален конфиг : ",
+      "已删除配置："
+    ]
+  },
+  {
+    "site": "0x34ce41",
+    "join": "0x34ce81",
+    "labels": [
+      "Save Config",
+      "Сохранить конфиг",
+      "保存配置"
+    ]
+  },
+  {
+    "site": "0x34cf15",
+    "join": "0x34cf55",
+    "labels": [
+      "Saved Config : ",
+      "Сохранен конфиг : ",
+      "已保存配置："
+    ]
+  },
+  {
+    "site": "0x34cfc3",
+    "join": "0x34d003",
+    "labels": [
+      "Load Config",
+      "Загрузить конфиг",
+      "加载配置"
+    ]
+  },
+  {
+    "site": "0x34d0c0",
+    "join": "0x34d100",
+    "labels": [
+      "Loaded Config : ",
+      "Загружен конфиг : ",
+      "已加载配置："
+    ]
+  }
+]

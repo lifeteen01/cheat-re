@@ -1,0 +1,18 @@
+Compile strict esp.cpp
+Compile strict host.cpp
+Compile strict resource_checks.cpp
+Compile strict menu.cpp
+Compile strict resources.cpp
+Compile strict scene.cpp
+Compile strict semantic_checks.cpp
+{"passed": true, "mode": "strict", "cache_hits": 115, "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene", "artifact_sha256": "07e7db9c075f5d4eba81ede475fa27f604ca798ed969bf8c09f463495f831a42"}
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 6.809,
+  "artifact_sha256": "07e7db9c075f5d4eba81ede475fa27f604ca798ed969bf8c09f463495f831a42",
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

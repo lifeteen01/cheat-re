@@ -1,0 +1,194 @@
+{
+  "confidence": "C",
+  "dll_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "start": "0x369040",
+      "end_exclusive": "0x369163",
+      "instructions": 79,
+      "internal_branches": [
+        [
+          "0x36905f",
+          "369086"
+        ],
+        [
+          "0x369081",
+          "369150"
+        ],
+        [
+          "0x369090",
+          "3690a9"
+        ],
+        [
+          "0x3690a7",
+          "369076"
+        ],
+        [
+          "0x3690ba",
+          "3690cb"
+        ],
+        [
+          "0x3690c9",
+          "36906e"
+        ],
+        [
+          "0x3690d6",
+          "3690e7"
+        ],
+        [
+          "0x3690e5",
+          "36906e"
+        ],
+        [
+          "0x369107",
+          "36912b"
+        ],
+        [
+          "0x369129",
+          "369147"
+        ],
+        [
+          "0x369139",
+          "369142"
+        ],
+        [
+          "0x369140",
+          "369147"
+        ]
+      ]
+    },
+    {
+      "start": "0x372398",
+      "end_exclusive": "0x37261b",
+      "instructions": 169,
+      "internal_branches": [
+        [
+          "0x3723bf",
+          "3723e6"
+        ],
+        [
+          "0x3723e1",
+          "372600"
+        ],
+        [
+          "0x3723f4",
+          "372405"
+        ],
+        [
+          "0x372403",
+          "3723ce"
+        ],
+        [
+          "0x37241d",
+          "372444"
+        ],
+        [
+          "0x37243f",
+          "3725f7"
+        ],
+        [
+          "0x3724bd",
+          "3724e4"
+        ],
+        [
+          "0x3724df",
+          "3725ee"
+        ],
+        [
+          "0x3724f2",
+          "37250b"
+        ],
+        [
+          "0x372509",
+          "3724d4"
+        ],
+        [
+          "0x372519",
+          "37252a"
+        ],
+        [
+          "0x372528",
+          "372501"
+        ],
+        [
+          "0x372542",
+          "372566"
+        ],
+        [
+          "0x372564",
+          "3725e5"
+        ],
+        [
+          "0x3725ac",
+          "3725d0"
+        ],
+        [
+          "0x3725ce",
+          "3725dc"
+        ]
+      ]
+    },
+    {
+      "start": "0x2cee44",
+      "end_exclusive": "0x2ceedd",
+      "instructions": 44,
+      "internal_branches": [
+        [
+          "0x2cee88",
+          "2cee94"
+        ],
+        [
+          "0x2cee92",
+          "2ceed2"
+        ]
+      ]
+    },
+    {
+      "start": "0x2cf59c",
+      "end_exclusive": "0x2cf65e",
+      "instructions": 50,
+      "internal_branches": [
+        [
+          "0x2cf5c6",
+          "2cf658"
+        ],
+        [
+          "0x2cf5d0",
+          "2cf612"
+        ]
+      ]
+    },
+    {
+      "start": "0x2cf7e4",
+      "end_exclusive": "0x2cf7ff",
+      "instructions": 10,
+      "internal_branches": [
+        [
+          "0x2cf7e7",
+          "2cf7fb"
+        ],
+        [
+          "0x2cf7f9",
+          "2cf7e9"
+        ]
+      ]
+    },
+    {
+      "start": "0x37233c",
+      "end_exclusive": "0x372353",
+      "instructions": 6,
+      "internal_branches": []
+    },
+    {
+      "start": "0x372354",
+      "end_exclusive": "0x372369",
+      "instructions": 6,
+      "internal_branches": []
+    }
+  ],
+  "decoded_literals": [
+    "m16a2",
+    "M-16"
+  ],
+  "scope": "Byte provenance/branch boundaries; semantic review remains separate."
+}

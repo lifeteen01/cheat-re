@@ -1,0 +1,159 @@
+319024 mov    QWORD PTR [rsp+0x8],rbx
+319029 push   rbp
+31902a push   rsi
+31902b push   rdi
+31902c sub    rsp,0x50
+319030 mov    rcx,rdx
+319033 movaps XMMWORD PTR [rsp+0x40],xmm6
+319038 mov    rsi,rdx
+31903b call   0x2caf08
+319040 xor    ebp,ebp
+319042 test   al,al
+319044 je     0x3192c8
+31904a mov    rcx,rdx
+31904d call   0x2e0e9c
+319052 test   al,al
+319054 je     0x3192c8
+31905a mov    rcx,rsi
+31905d call   0x368a84
+319062 mov    rcx,rax
+319065 mov    rdi,rax
+319068 call   0x2caf08
+31906d test   al,al
+31906f je     0x3192c8
+319075 mov    rcx,rdi
+319078 call   0x3721b4
+31907d mov    rcx,rax
+319080 mov    rdx,rax
+319083 call   0x2caf08
+319088 test   al,al
+31908a je     0x31909c
+31908c cmp    BYTE PTR [rip+0xd0465],bpl        # 0x3e94f8
+319093 je     0x31909c
+319095 mov    BYTE PTR [rdx+0x3c1],bpl
+31909c cmp    BYTE PTR [rip+0xd0725],bpl        # 0x3e97c8
+3190a3 jne    0x3190b2
+3190a5 cmp    BYTE PTR [rip+0xcbfec],bpl        # 0x3e5098
+3190ac je     0x319155
+3190b2 mov    rcx,rdi
+3190b5 call   0x2e5a54
+3190ba mov    rcx,rax
+3190bd mov    rdx,rax
+3190c0 call   0x2caf08
+3190c5 test   al,al
+3190c7 je     0x319155
+3190cd mov    rcx,rdx
+3190d0 call   0x2d6354
+3190d5 lea    rdx,[rsp+0x28]
+3190da mov    rbx,rax
+3190dd lea    rcx,[rsp+0x80]
+3190e5 call   0x2f1f88
+3190ea mov    rcx,rax
+3190ed call   0x2e9bdc
+3190f2 mov    rcx,rax
+3190f5 movabs rdx,0xcbf29ce484222325
+3190ff call   0x2e5b4c
+319104 cmp    rbx,rax
+319107 jne    0x319155
+319109 mov    eax,DWORD PTR [rip+0xd5959]        # 0x3eea68
+31910f cmp    eax,0x1
+319112 je     0x319144
+319114 cmp    BYTE PTR [rip+0xcbf7d],bpl        # 0x3e5098
+31911b jne    0x319144
+31911d test   eax,eax
+31911f jne    0x319133
+319121 movss  xmm0,DWORD PTR [rip+0xd47bf]        # 0x3ed8e8
+319129 movss  DWORD PTR [rdi+0x4d8],xmm0
+319131 jmp    0x319155
+319133 cmp    eax,0x2
+319136 jne    0x319155
+319138 mov    DWORD PTR [rdi+0x4d8],0xc61c3c00
+319142 jmp    0x319155
+319144 mov    DWORD PTR [rdi+0x4d8],0x3f800000
+31914e mov    BYTE PTR [rdi+0x4e8],0x1
+319155 cmp    BYTE PTR [rip+0xbf145],bpl        # 0x3d82a1
+31915c jne    0x319170
+31915e cmp    BYTE PTR [rip+0xd0ca3],bpl        # 0x3e9e08
+319165 jne    0x319170
+319167 cmp    BYTE PTR [rip+0xd6a33],bpl        # 0x3efba1
+31916e je     0x3191cd
+319170 mov    rcx,rdi
+319173 call   0x3714c4
+319178 mov    rcx,rax
+31917b mov    rdx,rax
+31917e call   0x2caf08
+319183 test   al,al
+319185 je     0x3191cd
+319187 mov    rdx,QWORD PTR [rdx+0x218]
+31918e mov    rcx,rdx
+319191 call   0x2caf08
+319196 test   al,al
+319198 je     0x3192c8
+31919e mov    rdx,QWORD PTR [rdx+0x28]
+3191a2 mov    rcx,rdx
+3191a5 call   0x2caf08
+3191aa test   al,al
+3191ac je     0x3192c8
+3191b2 mov    rdx,QWORD PTR [rdx+0xf0]
+3191b9 mov    rcx,rdx
+3191bc call   0x2caf08
+3191c1 test   al,al
+3191c3 je     0x3192c8
+3191c9 mov    WORD PTR [rdx+0x20],bp
+3191cd mov    rcx,rdi
+3191d0 call   0x371464
+3191d5 mov    rcx,rax
+3191d8 mov    rbx,rax
+3191db call   0x2caf08
+3191e0 test   al,al
+3191e2 je     0x3192c8
+3191e8 mov    dl,BYTE PTR [rip+0xd6a13]        # 0x3efc01
+3191ee mov    r8,rsi
+3191f1 mov    rcx,rbx
+3191f4 call   0x36bc14
+3191f9 mov    rcx,rbx
+3191fc call   0x367668
+319201 lea    rdx,[rsp+0x80]
+319209 mov    DWORD PTR [rsp+0x80],eax
+319210 lea    rcx,[rip+0xcccf9]        # 0x3e5f10
+319217 call   0x2ef724
+31921c mov    rdi,rax
+31921f test   rax,rax
+319222 je     0x31929d
+319224 cmp    BYTE PTR [rip+0xd054d],bpl        # 0x3e9778
+31922b movss  xmm0,DWORD PTR [rip+0xd45c5]        # 0x3ed7f8
+319233 subss  xmm0,DWORD PTR [rip+0xfffffffffff74f8d]        # 0x28e1c8
+31923b movss  xmm6,DWORD PTR [rip+0xfffffffffff74011]        # 0x28d254
+319243 mov    DWORD PTR [rsp+0x88],0x3f800000
+31924e mov    DWORD PTR [rsp+0x20],ebp
+319252 divss  xmm0,DWORD PTR [rip+0xfffffffffff79e72]        # 0x2930cc
+31925a movss  DWORD PTR [rsp+0x24],xmm0
+319260 je     0x319290
+319262 lea    r8,[rsp+0x88]
+31926a lea    rdx,[rsp+0x20]
+31926f lea    rcx,[rsp+0x24]
+319274 call   0x2ed2ac
+319279 movss  xmm0,DWORD PTR [rax]
+31927d mulss  xmm0,DWORD PTR [rip+0xfffffffffff79e47]        # 0x2930cc
+319285 subss  xmm6,xmm0
+319289 mulss  xmm6,DWORD PTR [rdi+0x10]
+31928e jmp    0x319295
+319290 movss  xmm6,DWORD PTR [rax+0x10]
+319295 movss  DWORD PTR [rbx+0x304],xmm6
+31929d cmp    BYTE PTR [rip+0xd0484],bpl        # 0x3e9728
+3192a4 jne    0x3192af
+3192a6 cmp    BYTE PTR [rip+0xcbdeb],bpl        # 0x3e5098
+3192ad je     0x3192b7
+3192af mov    rcx,rbx
+3192b2 call   0x36b434
+3192b7 cmp    BYTE PTR [rip+0xd041a],bpl        # 0x3e96d8
+3192be je     0x3192c8
+3192c0 mov    rcx,rbx
+3192c3 call   0x36be9c
+3192c8 mov    rbx,QWORD PTR [rsp+0x70]
+3192cd movaps xmm6,XMMWORD PTR [rsp+0x40]
+3192d2 add    rsp,0x50
+3192d6 pop    rdi
+3192d7 pop    rsi
+3192d8 pop    rbp
+3192d9 ret

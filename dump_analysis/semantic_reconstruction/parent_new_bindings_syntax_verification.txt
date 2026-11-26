@@ -1,0 +1,12 @@
+name_helpers_analysis.cpp: EXIT_STATUS=0
+
+name_helpers_checks.cpp: EXIT_STATUS=0
+
+frame_game_bindings.cpp: EXIT_STATUS=0
+
+frame_game_binding_checks.cpp: EXIT_STATUS=0
+
+font_text_controllers.cpp: EXIT_STATUS=0
+
+font_text_checks.cpp: EXIT_STATUS=0
+

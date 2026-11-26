@@ -1,0 +1,54 @@
+3bb5d8	mov    QWORD PTR [rsp+0x8],rbx
+3bb5dd	mov    QWORD PTR [rsp+0x10],rdi
+3bb5e2	push   rbp
+3bb5e3	mov    rbp,rsp
+3bb5e6	sub    rsp,0x60
+3bb5ea	mov    rbx,r8
+3bb5ed	mov    r8d,edx
+3bb5f0	xor    edx,edx
+3bb5f2	call   0x39334c
+3bb5f7	mov    DWORD PTR [rbp+0x28],eax
+3bb5fa	lea    rdi,[rip+0x5390f]        # 0x40ef10
+3bb601	mov    eax,DWORD PTR [rip+0x53949]        # 0x40ef50
+3bb607	test   al,0x1
+3bb609	jne    0x3bb628
+3bb60b	or     eax,0x1
+3bb60e	mov    rcx,rdi
+3bb611	mov    DWORD PTR [rip+0x53939],eax        # 0x40ef50
+3bb617	call   0x382680
+3bb61c	lea    rcx,[rip+0x1573d]        # 0x3d0d60
+3bb623	call   0x2cd32c
+3bb628	lea    r8,[rbp+0x28]
+3bb62c	mov    rcx,rdi
+3bb62f	lea    rdx,[rbp-0x40]
+3bb633	call   0x37e96c
+3bb638	lea    rdx,[rbp-0x38]
+3bb63c	mov    rcx,rdi
+3bb63f	call   0x37e930
+3bb644	mov    rdx,rax
+3bb647	lea    rcx,[rbp-0x40]
+3bb64b	call   0x2cc534
+3bb650	test   al,al
+3bb652	je     0x3bb68b
+3bb654	mov    r8,rbx
+3bb657	lea    rdx,[rbp+0x28]
+3bb65b	lea    rcx,[rbp-0x28]
+3bb65f	call   0x37fe3c
+3bb664	lea    r8,[rbp-0x28]
+3bb668	mov    rcx,rdi
+3bb66b	lea    rdx,[rbp-0x38]
+3bb66f	call   0x3c5c18
+3bb674	lea    r8,[rbp+0x28]
+3bb678	mov    rcx,rdi
+3bb67b	lea    rdx,[rbp-0x38]
+3bb67f	call   0x37e96c
+3bb684	mov    rcx,QWORD PTR [rax]
+3bb687	mov    QWORD PTR [rbp-0x40],rcx
+3bb68b	lea    rcx,[rbp-0x40]
+3bb68f	call   0x37c9cc
+3bb694	mov    rbx,QWORD PTR [rsp+0x70]
+3bb699	add    rax,0x4
+3bb69d	mov    rdi,QWORD PTR [rsp+0x78]
+3bb6a2	add    rsp,0x60
+3bb6a6	pop    rbp
+3bb6a7	ret

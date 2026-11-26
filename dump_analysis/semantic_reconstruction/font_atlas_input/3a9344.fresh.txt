@@ -1,0 +1,19 @@
+3a9344 mov    QWORD PTR [rsp+0x8],rbx
+3a9349 push   rdi
+3a934a sub    rsp,0x20
+3a934e xor    edi,edi
+3a9350 mov    rbx,rcx
+3a9353 cmp    DWORD PTR [rcx],edi
+3a9355 jle    0x3a936d
+3a9357 mov    rcx,QWORD PTR [rbx+0x8]
+3a935b movsxd rax,edi
+3a935e mov    rcx,QWORD PTR [rcx+rax*8]
+3a9362 call   0x39f268
+3a9367 inc    edi
+3a9369 cmp    edi,DWORD PTR [rbx]
+3a936b jl     0x3a9357
+3a936d mov    rcx,rbx
+3a9370 mov    rbx,QWORD PTR [rsp+0x30]
+3a9375 add    rsp,0x20
+3a9379 pop    rdi
+3a937a jmp    0x379578

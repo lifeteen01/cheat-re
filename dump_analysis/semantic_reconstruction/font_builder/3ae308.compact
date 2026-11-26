@@ -1,0 +1,85 @@
+3ae308 mov    r11,rsp
+3ae30b push   rbx
+3ae30c sub    rsp,0x70
+3ae310 lea    rax,[r11-0x40]
+3ae314 movaps XMMWORD PTR [rsp+0x60],xmm6
+3ae319 mov    QWORD PTR [r11-0x50],rax
+3ae31d lea    r9,[r11-0x44]
+3ae321 movaps XMMWORD PTR [rsp+0x50],xmm7
+3ae326 lea    rax,[r11-0x3c]
+3ae32a movaps XMMWORD PTR [r11-0x38],xmm8
+3ae32f lea    r8,[r11-0x48]
+3ae333 mov    QWORD PTR [r11-0x58],rax
+3ae337 movaps xmm7,xmm3
+3ae33a movaps xmm8,xmm2
+3ae33e mov    DWORD PTR [rsp+0x30],0x0
+3ae346 mov    DWORD PTR [rsp+0x34],0x0
+3ae34e call   0x3ae484
+3ae353 test   eax,eax
+3ae355 jne    0x3ae3ac
+3ae357 mov    rax,QWORD PTR [rsp+0xb0]
+3ae35f test   rax,rax
+3ae362 je     0x3ae36a
+3ae364 mov    DWORD PTR [rax],0x0
+3ae36a mov    rax,QWORD PTR [rsp+0xb8]
+3ae372 test   rax,rax
+3ae375 je     0x3ae37d
+3ae377 mov    DWORD PTR [rax],0x0
+3ae37d mov    rax,QWORD PTR [rsp+0xc0]
+3ae385 test   rax,rax
+3ae388 je     0x3ae390
+3ae38a mov    DWORD PTR [rax],0x0
+3ae390 mov    rax,QWORD PTR [rsp+0xc8]
+3ae398 test   rax,rax
+3ae39b je     0x3ae46b
+3ae3a1 mov    DWORD PTR [rax],0x0
+3ae3a7 jmp    0x3ae46b
+3ae3ac mov    rcx,QWORD PTR [rsp+0xb0]
+3ae3b4 test   rcx,rcx
+3ae3b7 je     0x3ae3db
+3ae3b9 movd   xmm0,DWORD PTR [rsp+0x30]
+3ae3bf cvtdq2ps xmm0,xmm0
+3ae3c2 mulss  xmm0,xmm8
+3ae3c7 addss  xmm0,DWORD PTR [rsp+0xa0]
+3ae3d0 call   0x3930e8
+3ae3d5 cvttss2si eax,xmm0
+3ae3d9 mov    DWORD PTR [rcx],eax
+3ae3db mov    rcx,QWORD PTR [rsp+0xb8]
+3ae3e3 movss  xmm6,DWORD PTR [rsp+0xa8]
+3ae3ec test   rcx,rcx
+3ae3ef je     0x3ae410
+3ae3f1 movd   xmm1,DWORD PTR [rsp+0x38]
+3ae3f7 movaps xmm0,xmm6
+3ae3fa cvtdq2ps xmm1,xmm1
+3ae3fd mulss  xmm1,xmm7
+3ae401 subss  xmm0,xmm1
+3ae405 call   0x3930e8
+3ae40a cvttss2si eax,xmm0
+3ae40e mov    DWORD PTR [rcx],eax
+3ae410 mov    rbx,QWORD PTR [rsp+0xc0]
+3ae418 test   rbx,rbx
+3ae41b je     0x3ae43f
+3ae41d movd   xmm0,DWORD PTR [rsp+0x3c]
+3ae423 cvtdq2ps xmm0,xmm0
+3ae426 mulss  xmm0,xmm8
+3ae42b addss  xmm0,DWORD PTR [rsp+0xa0]
+3ae434 call   0x3c8918
+3ae439 cvttss2si eax,xmm0
+3ae43d mov    DWORD PTR [rbx],eax
+3ae43f mov    rbx,QWORD PTR [rsp+0xc8]
+3ae447 test   rbx,rbx
+3ae44a je     0x3ae46b
+3ae44c movd   xmm1,DWORD PTR [rsp+0x34]
+3ae452 cvtdq2ps xmm1,xmm1
+3ae455 mulss  xmm1,xmm7
+3ae459 subss  xmm6,xmm1
+3ae45d movaps xmm0,xmm6
+3ae460 call   0x3c8918
+3ae465 cvttss2si eax,xmm0
+3ae469 mov    DWORD PTR [rbx],eax
+3ae46b movaps xmm6,XMMWORD PTR [rsp+0x60]
+3ae470 movaps xmm7,XMMWORD PTR [rsp+0x50]
+3ae475 movaps xmm8,XMMWORD PTR [rsp+0x40]
+3ae47b add    rsp,0x70
+3ae47f pop    rbx
+3ae480 ret

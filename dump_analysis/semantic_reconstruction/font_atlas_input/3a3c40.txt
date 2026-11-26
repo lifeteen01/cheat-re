@@ -1,0 +1,10 @@
+3a3c40 rex push rbx
+3a3c42 sub    rsp,0x20
+3a3c46 mov    rbx,rcx
+3a3c49 call   0x3a3d04
+3a3c4e mov    rcx,rbx
+3a3c51 call   0x3a3e64
+3a3c56 mov    rcx,rbx
+3a3c59 add    rsp,0x20
+3a3c5d pop    rbx
+3a3c5e jmp    0x3a3c64

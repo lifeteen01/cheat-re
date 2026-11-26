@@ -1,0 +1,63 @@
+2d5f84	rex push rbx
+2d5f86	push   rbp
+2d5f87	push   rsi
+2d5f88	push   rdi
+2d5f89	sub    rsp,0x78
+2d5f8d	mov    rdi,r8
+2d5f90	mov    rbx,rdx
+2d5f93	mov    rbp,rcx
+2d5f96	call   0x2d4758
+2d5f9b	mov    rcx,rbx
+2d5f9e	call   0x2ce5dc
+2d5fa3	mov    rcx,rdi
+2d5fa6	mov    rbx,rax
+2d5fa9	call   0x2ce5dc
+2d5fae	mov    rdx,rax
+2d5fb1	mov    rcx,rbx
+2d5fb4	call   0x2d5e90
+2d5fb9	mov    rsi,rax
+2d5fbc	test   rax,rax
+2d5fbf	je     0x2d6059
+2d5fc5	mov    edi,DWORD PTR [rax+0x18]
+2d5fc8	xor    ebx,ebx
+2d5fca	test   edi,edi
+2d5fcc	je     0x2d6059
+2d5fd2	mov    edx,ebx
+2d5fd4	mov    rcx,rsi
+2d5fd7	call   0x2d56b0
+2d5fdc	mov    rcx,QWORD PTR [rax]
+2d5fdf	test   rcx,rcx
+2d5fe2	je     0x2d604f
+2d5fe4	lea    rdx,[rsp+0x28]
+2d5fe9	call   0x2d7e18
+2d5fee	lea    rdx,[rsp+0x20]
+2d5ff3	lea    rcx,[rsp+0xb8]
+2d5ffb	call   0x2d51c0   ; STR "/\"
+2d6000	mov    rcx,rax
+2d6003	call   0x2d848c
+2d6008	mov    rdx,rax
+2d600b	lea    rcx,[rsp+0x28]
+2d6010	or     r8,0xffffffffffffffff
+2d6014	call   0x2d896c
+2d6019	or     r9,0xffffffffffffffff
+2d601d	lea    rdx,[rsp+0x48]
+2d6022	lea    rcx,[rsp+0x28]
+2d6027	lea    r8,[rax+0x1]
+2d602b	call   0x2d9498
+2d6030	mov    rdx,rax
+2d6033	mov    rcx,rbp
+2d6036	call   0x2d8ff8
+2d603b	lea    rcx,[rsp+0x48]
+2d6040	call   0x2cc4f4
+2d6045	lea    rcx,[rsp+0x28]
+2d604a	call   0x2cc4f4
+2d604f	inc    ebx
+2d6051	cmp    ebx,edi
+2d6053	jb     0x2d5fd2
+2d6059	mov    rax,rbp
+2d605c	add    rsp,0x78
+2d6060	pop    rdi
+2d6061	pop    rsi
+2d6062	pop    rbp
+2d6063	pop    rbx
+2d6064	ret

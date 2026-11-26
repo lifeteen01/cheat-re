@@ -1,0 +1,12 @@
+Breakpoint 1 at 0x119d0
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x00007ffff7cb0094 in std::__throw_out_of_range(char const*) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#0  0x00007ffff7cb0094 in std::__throw_out_of_range(char const*) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#1  0x00005555555e4f85 in std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, rust_internal_re::ClipRect, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, rust_internal_re::ClipRect> > >::at (this=0x7fffffff9cb0, __k="color_preview") at /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/c++/15/bits/stl_map.h:576
+#2  owned_scene::(anonymous namespace)::open_color_popup (scene=..., input=...) at /home/john/Desktop/cheat_re/source/test_scene/semantic_checks.cpp:36
+#3  0x00005555555ebf65 in owned_scene::(anonymous namespace)::check_editor_pointer () at /home/john/Desktop/cheat_re/source/test_scene/semantic_checks.cpp:154
+#4  owned_scene::check_semantic_fidelity () at /home/john/Desktop/cheat_re/source/test_scene/semantic_checks.cpp:290
+#5  0x000055555559cb33 in owned_scene::(anonymous namespace)::run_checks (host=..., output=filesystem::path "dump_analysis/semantic_reconstruction/test_scene/strict/runtime" = {...}) at /home/john/Desktop/cheat_re/source/test_scene/host.cpp:207
+#6  main (count=6, arguments=0x7fffffffd608) at /home/john/Desktop/cheat_re/source/test_scene/host.cpp:688

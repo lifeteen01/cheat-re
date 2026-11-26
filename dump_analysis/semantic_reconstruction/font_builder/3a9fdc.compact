@@ -1,0 +1,38 @@
+3a9fdc sub    rsp,0x28
+3a9fe0 mov    r9d,edx
+3a9fe3 mov    r8,rcx
+3a9fe6 call   0x3ac1d8
+3a9feb test   eax,eax
+3a9fed je     0x3a9ff6
+3a9fef neg    r9d
+3a9ff2 sbb    eax,eax
+3a9ff4 jmp    0x3aa059
+3a9ff6 cmp    BYTE PTR [rcx],0x74
+3a9ff9 jne    0x3aa056
+3a9ffb cmp    BYTE PTR [rcx+0x1],0x74
+3a9fff jne    0x3aa056
+3aa001 cmp    BYTE PTR [rcx+0x2],0x63
+3aa005 jne    0x3aa056
+3aa007 cmp    BYTE PTR [rcx+0x3],0x66
+3aa00b jne    0x3aa056
+3aa00d add    rcx,0x4
+3aa011 call   0x3add74
+3aa016 cmp    eax,0x10000
+3aa01b je     0x3aa02d
+3aa01d lea    rcx,[r8+0x4]
+3aa021 call   0x3add74
+3aa026 cmp    eax,0x20000
+3aa02b jne    0x3aa056
+3aa02d lea    rcx,[r8+0x8]
+3aa031 call   0x3add74
+3aa036 cmp    r9d,eax
+3aa039 jge    0x3aa056
+3aa03b lea    eax,[r9*4+0x0]
+3aa043 movsxd rcx,eax
+3aa046 add    rcx,0xc
+3aa04a add    rcx,r8
+3aa04d add    rsp,0x28
+3aa051 jmp    0x3add74
+3aa056 or     eax,0xffffffff
+3aa059 add    rsp,0x28
+3aa05d ret

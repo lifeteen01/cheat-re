@@ -1,0 +1,36 @@
+316fd0 movss  xmm0,DWORD PTR [rcx]
+316fd4 movss  xmm1,DWORD PTR [rip+0xfffffffffff7c250]        # 0x29322c
+316fdc comiss xmm0,xmm1
+316fdf movss  xmm3,DWORD PTR [rip+0xfffffffffff7c259]        # 0x293240
+316fe7 jbe    0x316ff6
+316fe9 subss  xmm0,xmm3
+316fed comiss xmm0,xmm1
+316ff0 ja     0x316fe9
+316ff2 movss  DWORD PTR [rcx],xmm0
+316ff6 movss  xmm2,DWORD PTR [rip+0xfffffffffff7c26e]        # 0x29326c
+316ffe comiss xmm2,xmm0
+317001 jbe    0x317010
+317003 addss  xmm0,xmm3
+317007 comiss xmm2,xmm0
+31700a ja     0x317003
+31700c movss  DWORD PTR [rcx],xmm0
+317010 movss  xmm0,DWORD PTR [rcx+0x4]
+317015 comiss xmm0,xmm1
+317018 jbe    0x317028
+31701a subss  xmm0,xmm3
+31701e comiss xmm0,xmm1
+317021 ja     0x31701a
+317023 movss  DWORD PTR [rcx+0x4],xmm0
+317028 comiss xmm2,xmm0
+31702b jbe    0x31703b
+31702d addss  xmm0,xmm3
+317031 comiss xmm2,xmm0
+317034 ja     0x31702d
+317036 movss  DWORD PTR [rcx+0x4],xmm0
+31703b ret
+31703c mov    QWORD PTR [rsp+0x8],rbx
+317041 push   rdi
+317042 sub    rsp,0x20
+317046 movss  xmm0,DWORD PTR [rdx]
+31704a mov    rbx,rdx
+31704d mov    rdi,rcx

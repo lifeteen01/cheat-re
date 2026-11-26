@@ -1,0 +1,40 @@
+# Owned scene font and raster boundary
+
+## Fidelity correction: original font assets are locally recoverable
+
+The preserved dump already contains the five font spans referenced by35ccf4.
+Read-only extraction and SFNT name-table inspection identified Stolzl Regular,
+Stolzl Medium, family2's font named`a` (used by icon consumers), Minecraftia and
+Smallest Pixel-7. The exact copied spans, names, native references and hashes are in
+[recovery.json](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/original_ui_assets/recovery.json).
+They are not integrated into the scene. The existing reconstructed
+`frame_dependencies_theme.cpp` also supplies the original color/style initializers,
+while the scene still seeds an authored palette/style.
+
+Consequently, the font/palette mismatch is an unfinished local integration choice;
+it cannot be attributed to missing GameAssembly/UnityPlayer/metadata artifacts.
+The successful owned-resource checks below validate their explicit substitute
+inputs, not original appearance. Prior claims that original font identity was
+unavailable are superseded by this extraction.
+
+[I] `resources.cpp` supplies host-owned resources to the reconstructed routines. Its 95 printable ASCII 5x7 bitmaps are authored directly in the file; no downloaded font, copied sample asset, live game pointer or native executor is involved. Lowercase letters have separate bitmaps. Missing characters use `?`; the recovered lookup builder creates tab and fallback metrics. The font's nominal size is14, advance8 (space5).
+
+[C] The constructor invokes `font_text_add_glyph_39ff7c` for each authored glyph, then `font_text_finish_atlas_3a4b40`. The latter runs recovered white-pixel `3a4f38`, shadow-shape `3a5204`, blur `3a45b4`, and lookup/tab/fallback `3a33c0` routines on the supplied owned atlas. [I] The atlas is128x128; geometry AA is selected rather than texture-line AA, with authored circle lookup and trigonometry tables. The nine recovered rounded UV cells and circle UV feed `DrawShadowsResources`. [U] These host resources do not establish the original sample's font identity, initialized tables or texture fidelity.
+
+[I] The owned atlas fixture selects radius12, inner4, zero offset, blur enabled and exponent1. This exponent is an authored input choice, not proof of the original initialized exponent or texture. [C] With the earlier authored exponent2, recovered approximate power3c8da8 produces `power(0,2)=-4.23193359375` and `power(1,2)=1.0579833984375`; the recovered atlas blur and low-byte alpha conversion then produce wrapped bands. Exponent1 gives exact zero/one endpoints while preserving those recovered routines and the same UVs. The source-backed follow-up [review](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/fidelity/resources_followup_review.md) and isolated actual-routine [probe](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/fidelity/resources_alpha_probe.json) record this diagnosis.
+
+[C] `resource_checks.cpp` identifies these supplied atlas inputs, preserves the literal power results for both exponents, verifies all ten shadow UV bindings and the unchanged circle texel bounds `(48,72,64,88)`, and compares actual recovered RGBA output against retained circle/rounded alpha rows from the isolated exponent1 probe. The circle row follows the exact line used by the recovered convex shadow's outer/inner UV samples; the rounded row crosses the center plateau where exponent2 wrapped from250 to9. These checks test produced data and the host texture copy without changing recovered geometry, power or byte-conversion behavior. [U] They establish this owned fixture's output, not original appearance or unavailable original resource identity.
+
+[C] `Resources::text` invokes `font_text_draw_3a31f8`, which invokes `font_text_raster_3a792c`. `bind_font_text_draw_core` supplies the actual reserve/write/unreserve sink: `draw_core_reserve_3a719c`, `draw_core_write_relative`, and `draw_core_unreserve`. Text geometry therefore occupies the same real `DrawCoreList` vertex/index/command buffers as recovered menu/ESP shapes. There is no parallel simplified draw list. Trace instrumentation wraps the bound sink calls; the raster trace counter counts reached reservations. The constructor records its known atlas-finalization subroutine entries; the trace persists across frames.
+
+[C] Each reset calls recovered `draw_core_reset_3a9258`, `draw_core_push_clip_3a7268`, and `draw_core_push_texture_3a73c4` on every registered list. [I] CPU pixels resize before dimensions are published. Zero dimensions are supported; dimensions above8192 or images exceeding16Mi pixels are rejected. Reset clears per-frame geometry, clip/texture/path state and pixels while preserving cumulative call evidence. Buffers, textures and closures use owned RAII members. The scene contract forbids copying/moving Resources because its bound sink captures its owning object.
+
+[I] The rasterizer consumes each command's index offset, element count, vertex offset, texture key and clip rectangle. It decodes the actual20-byte vertices, interpolates UV/color, bilinearly samples the authored atlas, and alpha blends into RGBA pixels. A top-left edge rule prevents shared triangle diagonals from receiving alpha twice. `presentation_order()` is shared by the frame export and CPU rasterizer; the menu publishes its visible ordered window lists after the independent ESP/background list. Numeric map order remains only the standalone-fixture default before explicit selection. `select_lists` rejects unknown/duplicate keys transactionally; an explicit empty selection draws nothing. Regression checks actual overlapping pixels in both orders and excludes unselected geometry. This selection API is an owned transport, not a claim that the complete original ImGui collector executes. Output packing is `0xAABBGGRR` on the supported little-endian host, i.e. byte order R,G,B,A. Background is `(18,23,30,255)`.
+
+[I] Nonfinite clips, nonfinite or unsafe position/UV coordinates, missing/uninitialized buffer elements, invalid command index ranges and invalid vertex indices are rejected. Unsupported texture keys and callbacks are rejected explicitly and counted; callback addresses are never executed. [U] This is an authored CPU display backend, not the original GPU backend or a claim of pixel-equivalent sampling/FP behavior.
+
+[C] `write_font_snapshot` exports the actual built font's measurement, lookup, glyph and fallback fields with the reconstructed font layout. Font header is at0x30000, advances at0x31000, lookup at0x32000 and glyphs at0x33000. It checks all required ranges before writes. The standalone probe reads this output through recovered `copy_font_text_font` and `renderer_measure_3a3874`; ESP may use the same snapshot for recovered font controllers. Atlas addresses remain numeric resource keys; this API does not export an atlas snapshot.
+
+[I] Link dependencies for this boundary are `font_text_lookup.cpp`, `font_text_atlas.cpp`, `font_text_raster.cpp`, `renderer_helpers_font.cpp`, `drawlist_core_commands.cpp`, and `drawlist_core_channels.cpp`; the whole scene adds its other recovered controller/shape dependencies. The standalone verification uses function/data sections and linker garbage collection to omit unrelated unused wrappers.
+
+[C] Focused verification artifacts and reproducible runner are in [test_scene_resources](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene_resources/verify_resources.py). The probe covers recovered font geometry, snapshot measurement, clipping, textured alpha, shared-edge coverage, malformed triangles/commands, zero/normal/unsafe resizing and three resource lifetimes. Both modes compile with C++20, `-Wall -Wextra -Wpedantic -Werror`; the sanitizer mode adds nonrecovering ASan/UBSan. See `strict.log`, `sanitizer.log`, and `verification.json` for executed results and source hashes. [U] Whole-scene integration and platform runtime checks belong to the parent task.

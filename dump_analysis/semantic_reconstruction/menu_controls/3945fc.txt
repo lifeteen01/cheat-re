@@ -1,0 +1,17 @@
+3945fc	lea    eax,[rcx-0x200]
+394602	cmp    eax,0x8b
+394607	jbe    0x394634
+394609	cmp    ecx,0x1000
+39460f	je     0x394634
+394611	cmp    ecx,0x2000
+394617	je     0x394634
+394619	cmp    ecx,0x4000
+39461f	je     0x394634
+394621	cmp    ecx,0x8000
+394627	je     0x394634
+394629	cmp    ecx,0x800
+39462f	je     0x394634
+394631	xor    al,al
+394633	ret
+394634	mov    al,0x1
+394636	ret

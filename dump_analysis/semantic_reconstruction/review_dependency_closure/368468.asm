@@ -1,0 +1,19 @@
+368468	sub    rsp,0x28
+36846c	mov    rdx,rcx
+36846f	call   0x2caf08
+368474	test   al,al
+368476	je     0x3684a0
+368478	mov    rcx,rdx
+36847b	call   0x369400
+368480	mov    rcx,rax
+368483	mov    r8,rax
+368486	call   0x2caf08
+36848b	test   al,al
+36848d	je     0x3684a0
+36848f	mov    edx,0x1
+368494	mov    rcx,r8
+368497	add    rsp,0x28
+36849b	jmp    0x372bf4
+3684a0	xor    al,al
+3684a2	add    rsp,0x28
+3684a6	ret

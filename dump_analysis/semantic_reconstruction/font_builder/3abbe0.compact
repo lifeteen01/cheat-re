@@ -1,0 +1,47 @@
+3abbe0 mov    QWORD PTR [rsp+0x8],rbx
+3abbe5 push   rdi
+3abbe6 sub    rsp,0x20
+3abbea mov    r10,rcx
+3abbed mov    r11,r8
+3abbf0 mov    ecx,edx
+3abbf2 add    rcx,0x4
+3abbf6 add    rcx,r10
+3abbf9 call   0x3add94
+3abbfe xor    r9d,r9d
+3abc01 cmp    r9w,ax
+3abc05 jae    0x3abc5d
+3abc07 movsx  edi,BYTE PTR [r11]
+3abc0b lea    ebx,[rdx+0xc]
+3abc0e movzx  r9d,ax
+3abc12 xor    r8d,r8d
+3abc15 mov    eax,r8d
+3abc18 shl    eax,0x4
+3abc1b add    eax,ebx
+3abc1d mov    edx,eax
+3abc1f movzx  eax,BYTE PTR [rax+r10*1]
+3abc24 cmp    eax,edi
+3abc26 jne    0x3abc55
+3abc28 movzx  ecx,BYTE PTR [rdx+r10*1+0x1]
+3abc2e movsx  eax,BYTE PTR [r11+0x1]
+3abc33 cmp    ecx,eax
+3abc35 jne    0x3abc55
+3abc37 movzx  ecx,BYTE PTR [rdx+r10*1+0x2]
+3abc3d movsx  eax,BYTE PTR [r11+0x2]
+3abc42 cmp    ecx,eax
+3abc44 jne    0x3abc55
+3abc46 movzx  ecx,BYTE PTR [rdx+r10*1+0x3]
+3abc4c movsx  eax,BYTE PTR [r11+0x3]
+3abc51 cmp    ecx,eax
+3abc53 je     0x3abc6a
+3abc55 inc    r8d
+3abc58 cmp    r8d,r9d
+3abc5b jl     0x3abc15
+3abc5d xor    eax,eax
+3abc5f mov    rbx,QWORD PTR [rsp+0x30]
+3abc64 add    rsp,0x20
+3abc68 pop    rdi
+3abc69 ret
+3abc6a lea    rcx,[r10+0x8]
+3abc6e add    rcx,rdx
+3abc71 call   0x3add74
+3abc76 jmp    0x3abc5f

@@ -1,0 +1,9 @@
+39b558	mov    rax,QWORD PTR [rip+0x6a5c9]        # 0x405b28
+39b55f	mov    ecx,DWORD PTR [rax+0x47a4]
+39b565	cmp    DWORD PTR [rax+0x3f54],ecx
+39b56b	jne    0x39b574
+39b56d	mov    BYTE PTR [rax+0x3f5c],0x1
+39b574	cmp    DWORD PTR [rax+0x3f68],ecx
+39b57a	jne    0x39b583
+39b57c	mov    BYTE PTR [rax+0x3f75],0x1
+39b583	ret

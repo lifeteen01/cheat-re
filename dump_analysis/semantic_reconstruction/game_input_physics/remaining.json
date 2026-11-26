@@ -1,0 +1,381 @@
+{
+  "assigned_roots": [
+    "0x2e2320",
+    "0x2e0f10",
+    "0x2e5e4c",
+    "0x2e8910",
+    "0x329aa0",
+    "0x2e480c",
+    "0x3214f4",
+    "0x32225c"
+  ],
+  "owned_controller_semantics": "implemented with explicit owned int/byte map and typed final effects; no event-only substitute",
+  "native_library_heap_abi_backlog": [
+    {
+      "begin": "0x2d4030",
+      "end": "0x2d405d",
+      "sha256": "42c14600accb24ad65e4e65c95bc64ec82df33d7d408d01de6e4d541ffc17196",
+      "caller_sites": [
+        "0x2e4de2"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d4060",
+      "end": "0x2d4068",
+      "sha256": "0c475e56a3036de7dd88d2bf77f8492f98365b09f1a0cae18e99b7ff532ee7eb",
+      "caller_sites": [
+        "0x2e4c07"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2e4da8",
+      "end": "0x2e4dce",
+      "sha256": "75d7afe71e6c3a7dc6d30d5f69158ef94b46a6ac8363a0e44af8d3e8de377f96",
+      "caller_sites": [
+        "0x2e4c13"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2ced04",
+      "end": "0x2ced2d",
+      "sha256": "a83a02851f6c4e27d7762c43906a851bd06a6103f6bac15c56b02df88d49b8f9",
+      "caller_sites": [
+        "0x2e4c1f"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d79a0",
+      "end": "0x2d79c0",
+      "sha256": "51dd8e9f6314859c63cb5091b3460667ba41103521c6348aa40310f1eab3a58a",
+      "caller_sites": [
+        "0x2e4c4b"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d68a0",
+      "end": "0x2d6929",
+      "sha256": "46b1efc4f00bfac5b1f434d3cdcbe40c710096198b65a66f178c82e04515c422",
+      "caller_sites": [
+        "0x2e4c5c",
+        "0x2e9582"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d7504",
+      "end": "0x2d7535",
+      "sha256": "682046b7206f0b8ac2e16fd50f1f4029676aeace64c1098fc2c2fbde5ed7b49c",
+      "caller_sites": [
+        "0x2d88b8"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d3ff8",
+      "end": "0x2d400f",
+      "sha256": "c5eb75f13e27e88dae428b62b8491e8a7048a886b9a912fc81df805687e1a83a",
+      "caller_sites": [
+        "0x2d879a"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2cee08",
+      "end": "0x2cee41",
+      "sha256": "c11d8e350e319f869788ce4acaf4291f8a0ee33e575f179effdae3f73294d740",
+      "caller_sites": [
+        "0x2e44d7",
+        "0x2e4599"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d7638",
+      "end": "0x2d7658",
+      "sha256": "29b59d7f0950c1952e78dbe961a90bdf1edd6430146b939e4d2de091493891a9",
+      "caller_sites": [
+        "0x2e456f"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d7328",
+      "end": "0x2d73cb",
+      "sha256": "f3d7eedd20fb0808ed179df3d2ca35f29dd29fc78cc364e81d941527e2e8d67e",
+      "caller_sites": [
+        "0x2e4581"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2cc1c0",
+      "end": "0x2cc1cf",
+      "sha256": "e4b7d5a8ede46e77e45dd9fe3ad574a535846e1dcf9c4bd16e83b79191abfb15",
+      "caller_sites": [
+        "0x2e4044"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2e98d8",
+      "end": "0x2e98f0",
+      "sha256": "05e2cc490c3eefa998d527e5af85495e949fa990699d99ee0ba4361432d4fad8",
+      "caller_sites": [
+        "0x2e9319"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2df234",
+      "end": "0x2df23e",
+      "sha256": "29c2878d2d3e73f07aaf27fa78532e07ed07bd24ced05bef701d782a27fb7c9a",
+      "caller_sites": [
+        "0x2e4a86"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2cc530",
+      "end": "0x2cc534",
+      "sha256": "f75638fe0016cf82faddfa60bf6db21d3445dcb56700c1f3c0aae5c3aa912f53",
+      "caller_sites": [
+        "0x2e4ab9"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2ce5d8",
+      "end": "0x2ce5dc",
+      "sha256": "92ca7142687bd5513bea360e328ca1c00c3c3a9b71ffdda7bfc2407de7693978",
+      "caller_sites": [
+        "0x2e4104"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d8ae0",
+      "end": "0x2d8af2",
+      "sha256": "870c9c3341f8e1f5c1668d1d50c5783f954e9a8a9a8487330ec56d74e45f7743",
+      "caller_sites": [
+        "0x2d6d57",
+        "0x2d7591"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2cc144",
+      "end": "0x2cc152",
+      "sha256": "23c119b8a0148bce4bc929ab575ae3f63aa638d429f5c24dc899c07969f26ac7",
+      "caller_sites": [
+        "0x2e94d5"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d8b3c",
+      "end": "0x2d8b73",
+      "sha256": "839c94f88bea694c8d1b6744f6fcf9237ae39ca13f64b66e34105d0018a44950",
+      "caller_sites": [
+        "0x2e9531"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d706c",
+      "end": "0x2d7075",
+      "sha256": "10851444f143d4848ead2f32422188c3b82e1c6898025648e93759fe27911494",
+      "caller_sites": [
+        "0x2e953c"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d6b28",
+      "end": "0x2d6b3b",
+      "sha256": "cd0f5fcb9432ddcd6059429c3f6f015c97ae6e3424c8c9b26cecdb4324272213",
+      "caller_sites": [
+        "0x2e9559"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d796c",
+      "end": "0x2d7987",
+      "sha256": "e0894f4a800be2a59ccd489850d56d651c179b75f1236d43cd2fc3b1ab8de70c",
+      "caller_sites": [
+        "0x2e956c"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d792c",
+      "end": "0x2d7947",
+      "sha256": "f4f3d5cae24c9eaf5e3073fb5aa2865d13573ad2f69a19443dc0636b8d7d4d64",
+      "caller_sites": [
+        "0x2e959a"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d4e00",
+      "end": "0x2d4e17",
+      "sha256": "6fcad0a90724a3cbbb6cd7a5083fcb201eb7d98349e8de63a662c00625b9f508",
+      "caller_sites": [
+        "0x2e95b0"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d7df8",
+      "end": "0x2d7e10",
+      "sha256": "85f2c48990c7fd6a366be349c61ba54543d1b22ce55d13671faea7729cd88f4a",
+      "caller_sites": [
+        "0x2e95cf"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d4df0",
+      "end": "0x2d4dfd",
+      "sha256": "baa29d7a42762631782c0f1834f2bb1e51ceb44f00d43e15091d748644a8d13d",
+      "caller_sites": [
+        "0x2e962e",
+        "0x2e96f7"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d7af8",
+      "end": "0x2d7b1d",
+      "sha256": "6463dde43570b123c7ab4b912d8020132c3345b5aca8b71f9f615fefb2fa2c29",
+      "caller_sites": [
+        "0x2e964e",
+        "0x2e96ad",
+        "0x2e9706"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d4e38",
+      "end": "0x2d4e46",
+      "sha256": "1aa0c80a9714b5b9a08a05a2d42fd95c9b75698fcf5fff074994ce5e0b3b621e",
+      "caller_sites": [
+        "0x2e9669"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2e4f50",
+      "end": "0x2e4f66",
+      "sha256": "93ca3cd1e0e65281459c069b3939fd6b95450b11bc1dbae7d05abbd61884db43",
+      "caller_sites": [
+        "0x2e96dd"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2cd050",
+      "end": "0x2cd0a0",
+      "sha256": "355e5c3e46131e759159312de53b5aa4750b9c24da884f19c2549051a694f4ac",
+      "caller_sites": [
+        "0x2e9714",
+        "0x2e9409"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x3c8918",
+      "end": "0x3c8969",
+      "sha256": "fa5cdf974c1fe93826448726236d7db82e18a29fa55810cbefa7ae12e0369a3c",
+      "caller_sites": [
+        "0x2d759d"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2e9d20",
+      "end": "0x2e9d57",
+      "sha256": "d2fecb5e73358aabc42496fe9086fd7c83f1c64c51d8b6281a1be55d91e1b3f5",
+      "caller_sites": [
+        "0x2e93f1"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2e9b7c",
+      "end": "0x2e9b8c",
+      "sha256": "01a07149caa17c847723af1e69e1e79547c205fa2d460a2378c52d03ec6b8b6a",
+      "caller_sites": [
+        "0x2e4f46"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    },
+    {
+      "begin": "0x2d089c",
+      "end": "0x2d08a7",
+      "sha256": "61bb598f42c71125a1a5fd4a4f6091e9c38b0f2ed3981b65035305ee3d5e9075",
+      "caller_sites": [
+        "0x2d0af1"
+      ],
+      "status": "[U] raw generic/library heap/header/allocator/failure ABI; [I] owned data specialization supplies current controller behavior"
+    }
+  ],
+  "real_callbacks_needed": [
+    "MetadataApi export results for class/method selectors",
+    "actual Cursor consumed RAX word and button consumed AL",
+    "actual Keyboard.get_current/get_keys object addresses",
+    "actual il2cpp_resolve_icall result",
+    "actual GameAssembly+0x3118820 query AL",
+    "actual Unity IgnoreLayerCollision effect",
+    "actual raw byte/scalar/six-argument effects",
+    "actual runtime string/ABI conversion when only fourth_text is known"
+  ],
+  "artifact_blockers": [
+    "matching GameAssembly.dll unavailable locally",
+    "matching UnityPlayer.dll unavailable locally",
+    "matching global-metadata.dat unavailable locally"
+  ],
+  "caller_integration": [
+    {
+      "call_site": "0x3279dc",
+      "helper": "0x2e480c",
+      "context_load": "0x3279b5",
+      "context": "0x3f7410",
+      "dispatcher_load": "0x3279bc",
+      "missing_in_legacy_record": "native context and original fourth pointer bits; target code is not context"
+    },
+    {
+      "call_site": "0x32829b",
+      "helper": "0x32225c",
+      "context_load": "0x32828e",
+      "context": "0x3f7510",
+      "dispatcher_load": "0x328287",
+      "missing_in_legacy_record": "native context; target code is not context"
+    }
+  ],
+  "excluded": [
+    {
+      "range": [
+        "0x2cbd24",
+        "0x2cbef8"
+      ],
+      "role": "context setup/fabrication excluded; detection observation only"
+    },
+    {
+      "rva": "0x3cdbd4",
+      "role": "executor/gadget/restoration execution excluded"
+    }
+  ],
+  "not_claimed": [
+    "working Windows DLL/lifecycle/hooks/real frame path",
+    "native generic heap ABI and its allocation failure prefixes",
+    "unknown native pointer/padding bits",
+    "live game/OS ABI and FP environment"
+  ],
+  "next_work": "STOP further waves/reviews; parent integrates and owns runtime/minimum-DLL priorities"
+}

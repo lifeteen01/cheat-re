@@ -1,0 +1,21 @@
+39f550 rex push rbx
+39f552 sub    rsp,0x20
+39f556 mov    rbx,rcx
+39f559 add    rcx,0x24
+39f55d call   0x2d4870
+39f562 lea    rcx,[rbx+0x2c]
+39f566 call   0x2d4870
+39f56b xor    edx,edx
+39f56d mov    r8d,0x88
+39f573 mov    rcx,rbx
+39f576 call   0x3c8d70
+39f57b mov    rax,rbx
+39f57e mov    BYTE PTR [rbx+0xc],0x1
+39f582 mov    DWORD PTR [rbx+0x18],0x3
+39f589 mov    DWORD PTR [rbx+0x1c],0x1
+39f590 mov    DWORD PTR [rbx+0x44],0x7f7fffff
+39f597 mov    DWORD PTR [rbx+0x50],0x3f800000
+39f59e mov    WORD PTR [rbx+0x54],0xffff
+39f5a4 add    rsp,0x20
+39f5a8 pop    rbx
+39f5a9 ret

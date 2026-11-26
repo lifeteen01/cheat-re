@@ -1,0 +1,3 @@
+390078	xor    edx,edx
+39007a	xor    ecx,ecx
+39007c	jmp    0x39b0cc

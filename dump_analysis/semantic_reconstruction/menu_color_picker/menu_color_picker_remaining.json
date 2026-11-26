@@ -1,0 +1,50 @@
+{
+  "roots": [
+    {
+      "begin": "0x379680",
+      "end": "0x379e60",
+      "status": "concrete_root"
+    },
+    {
+      "begin": "0x389f18",
+      "end": "0x38a3c2",
+      "status": "concrete_released_menu_tooltip"
+    }
+  ],
+  "remaining_reached_local": [
+    {
+      "begin": "0x3c0538",
+      "end": "0x3c2a7f",
+      "site": "0x379a27",
+      "role": "owned_hex_text_editor",
+      "status": "explicit_missing_dependency_unless_supplied",
+      "bytes": 9543
+    }
+  ],
+  "owned_adaptations": [
+    {
+      "range": "377714..377c7c;376760..377712;377ef4..37811c",
+      "role": "private ImGuiIO/context copies and private temporary container lifetime",
+      "implementation": "owned copied bytes; captured used mouse and style fields",
+      "limits": "native allocation failure and unconsumed machine-load failure granularity not claimed"
+    },
+    {
+      "range": "39e280..39e304",
+      "role": "ImGuiTextBuffer formatting/append",
+      "implementation": "MenuColorPickerLogStore owned string keyed buffer address, header logical count synchronized",
+      "limits": "private heap pointer aliases/capacity and native allocator ABI not claimed"
+    },
+    {
+      "range": "378a88..378f1b",
+      "role": "rounded gradient border",
+      "implementation": "concrete reached flags0xf0 and zero corner colors",
+      "limits": "other argument branches unconsumed and unsupported by new interface"
+    },
+    {
+      "range": "3a7654..3a792b",
+      "role": "alpha checkerboard",
+      "implementation": "concrete reached tint0/offset0/rounding0/flags0",
+      "limits": "other argument branches unconsumed and unsupported by new interface"
+    }
+  ]
+}

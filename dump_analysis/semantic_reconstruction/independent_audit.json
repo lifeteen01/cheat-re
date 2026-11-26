@@ -1,0 +1,130 @@
+{
+  "byte_and_call_checks": 26,
+  "checks": [
+    {
+      "claim": "constant-zero helper",
+      "rva": "0x2cd32c",
+      "bytes": "33 c0 c3"
+    },
+    {
+      "claim": "entry-table compare follows FALSE range predicate",
+      "rva": "0x31643e",
+      "bytes": "84 c0 74 e8 eb d4"
+    },
+    {
+      "claim": "desync entry-table compare follows FALSE range predicate",
+      "rva": "0x3164e2",
+      "bytes": "84 c0 74 e8 eb db"
+    },
+    {
+      "claim": "custom method selection skips equal names",
+      "rva": "0x3341b7",
+      "bytes": "85 c0 74 20"
+    },
+    {
+      "claim": "vector comparator returns false for equal and true for unequal/unordered",
+      "rva": "0x2df601",
+      "bytes": "32 c0 c3 b0 01 c3"
+    },
+    {
+      "claim": "approximate root magic seed and signed arithmetic shift",
+      "rva": "0x2e3c9e",
+      "bytes": "b8 df 59 37 5f 66 0f 7e c1 d1 f9 2b c1"
+    },
+    {
+      "claim": "root thunk reaches the sample approximation",
+      "rva": "0x3c8f34",
+      "bytes": "e9 4f ad f1 ff"
+    },
+    {
+      "claim": "class+0x1d8 value is input to method-by-pointer search",
+      "rva": "0x2eaa5d",
+      "bytes": "48 8b 90 d8 01 00 00 48 85 d2 74 39 48 8b c8 e8 ef 9e 04 00"
+    },
+    {
+      "claim": "class resolver namespace/class argument order",
+      "rva": "0x33426b",
+      "bytes": "4c 8b c5 48 8b d6 48 8b c8 e8 af 02 00 00"
+    },
+    {
+      "claim": "TOD_Sky getter immediate",
+      "rva": "0x2f6b7c",
+      "bytes": "48 b8 63 77 7d 65 68 57 44 3e"
+    },
+    {
+      "claim": "Quaternion.Inverse getter immediate",
+      "rva": "0x3738b8",
+      "bytes": "48 b8 7e 56 4f 5f 49 4f 58 3e"
+    },
+    {
+      "claim": "exception-directory byte size is copied without record-size division",
+      "rva": "0x2ce1e0",
+      "bytes": "8b 84 08 a4 00 00 00 89 02"
+    },
+    {
+      "claim": "runtime lookup compares BeginAddress exactly",
+      "rva": "0x2ce221",
+      "bytes": "8b 08 49 3b ca 74 0a"
+    },
+    {
+      "claim": "runtime lookup bounds record index with raw directory Size",
+      "rva": "0x2ce228",
+      "bytes": "41 ff c0 45 3b c1 72 e9"
+    },
+    {
+      "call_site": "0x316082",
+      "target": "0x2f1acc"
+    },
+    {
+      "call_site": "0x3160ce",
+      "target": "0x2f1cc8"
+    },
+    {
+      "call_site": "0x3160a8",
+      "target": "0x2eaa28"
+    },
+    {
+      "call_site": "0x3160f4",
+      "target": "0x2eaa28"
+    },
+    {
+      "call_site": "0x316327",
+      "target": "0x2f3418"
+    },
+    {
+      "call_site": "0x316357",
+      "target": "0x2f3290"
+    },
+    {
+      "call_site": "0x316390",
+      "target": "0x2f3058"
+    },
+    {
+      "call_site": "0x3163b6",
+      "target": "0x316458"
+    },
+    {
+      "call_site": "0x315e8a",
+      "target": "0x2f6b7c"
+    },
+    {
+      "call_site": "0x36a640",
+      "target": "0x367f4c"
+    },
+    {
+      "call_site": "0x36a79f",
+      "target": "0x367950"
+    },
+    {
+      "call_site": "0x339b93",
+      "target": "0x3bd114"
+    }
+  ],
+  "tod_sky_decoded": "TOD_Sky",
+  "quaternion_method_decoded": "Inverse",
+  "zero_reader_config_keys": 390,
+  "culling_value_references_in_supplied_disassembly": [
+    "339b7e\tlea    rdx,[rip+0xad583]        # 0x3e7108"
+  ],
+  "limits": "Static supplied inputs only; no whole-program dynamic absence or live installation claim."
+}

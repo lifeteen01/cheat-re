@@ -1,0 +1,8 @@
+[I] Combined immutable-script ASan/UBSan verification.
+Compile game_root_domain_bindings.cpp
+Compile analysis_checks.cpp
+Compile game_root_domain_checks.cpp
+Link 249 translation units; 246 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

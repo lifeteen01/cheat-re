@@ -1,0 +1,143 @@
+35b850 mov    rax,rsp
+35b853 mov    QWORD PTR [rax+0x8],rbx
+35b857 mov    QWORD PTR [rax+0x10],rdi
+35b85b push   rbp
+35b85c lea    rbp,[rax-0x3f]
+35b860 sub    rsp,0x100
+35b867 movaps XMMWORD PTR [rax-0x18],xmm7
+35b86b mov    edi,0xff
+35b870 movaps XMMWORD PTR [rax-0x28],xmm8
+35b875 xor    r9d,r9d
+35b878 movaps XMMWORD PTR [rax-0x38],xmm9
+35b87d mov    rbx,rcx
+35b880 movaps XMMWORD PTR [rax-0x48],xmm10
+35b885 lea    rcx,[rsp+0x40]
+35b88a movaps XMMWORD PTR [rax-0x58],xmm11
+35b88f lea    r8d,[rdi-0x55]
+35b893 movaps XMMWORD PTR [rax-0x68],xmm12
+35b898 lea    edx,[r9+0x14]
+35b89c movaps xmm12,xmm1
+35b8a0 mov    DWORD PTR [rsp+0x20],edi
+35b8a4 movaps xmm9,xmm3
+35b8a8 movaps xmm11,xmm2
+35b8ac call   0x2db318
+35b8b1 xor    r9d,r9d
+35b8b4 mov    DWORD PTR [rsp+0x20],edi
+35b8b8 lea    rcx,[rbp-0x59]
+35b8bc lea    edx,[r9+0x55]
+35b8c0 lea    r8d,[r9+0x75]
+35b8c4 call   0x2db318
+35b8c9 xor    r9d,r9d
+35b8cc mov    DWORD PTR [rsp+0x20],edi
+35b8d0 lea    edx,[rdi-0x79]
+35b8d3 lea    rcx,[rbp-0x79]
+35b8d7 lea    r8d,[r9+0x51]
+35b8db call   0x2db318
+35b8e0 xor    r9d,r9d
+35b8e3 mov    DWORD PTR [rsp+0x20],edi
+35b8e7 lea    edx,[rdi-0x64]
+35b8ea lea    rcx,[rbp-0x69]
+35b8ee lea    r8d,[r9+0x3e]
+35b8f2 call   0x2db318
+35b8f7 xor    r9d,r9d
+35b8fa mov    DWORD PTR [rsp+0x20],edi
+35b8fe lea    edx,[rdi-0x3c]
+35b901 lea    rcx,[rbp-0x59]
+35b905 lea    r8d,[r9+0x24]
+35b909 call   0x2db318
+35b90e xor    r9d,r9d
+35b911 mov    DWORD PTR [rsp+0x20],edi
+35b915 xor    r8d,r8d
+35b918 lea    rcx,[rbp-0x39]
+35b91c mov    edx,edi
+35b91e call   0x2db318
+35b923 xor    r9d,r9d
+35b926 mov    DWORD PTR [rsp+0x20],edi
+35b92a xor    r8d,r8d
+35b92d lea    rcx,[rsp+0x30]
+35b932 xor    edx,edx
+35b934 call   0x2db318
+35b939 movss  xmm10,DWORD PTR [rbp+0x67]
+35b93f movaps xmm1,xmm10
+35b943 mulss  xmm1,DWORD PTR [rip+0xfffffffffff37761]        # 0x2930ac
+35b94b comiss xmm1,xmm9
+35b94f jb     0x35b958
+35b951 movups xmm0,XMMWORD PTR [rsp+0x40]
+35b956 jmp    0x35b989
+35b958 movaps xmm0,xmm1
+35b95b addss  xmm0,xmm1
+35b95f comiss xmm0,xmm9
+35b963 jb     0x35b96b
+35b965 movups xmm0,XMMWORD PTR [rbp-0x79]
+35b969 jmp    0x35b989
+35b96b mulss  xmm1,DWORD PTR [rip+0xfffffffffff377e5]        # 0x293158
+35b973 comiss xmm1,xmm9
+35b977 jb     0x35b97f
+35b979 movups xmm0,XMMWORD PTR [rbp-0x69]
+35b97d jmp    0x35b989
+35b97f comiss xmm10,xmm9
+35b983 jb     0x35b98e
+35b985 movups xmm0,XMMWORD PTR [rbp-0x59]
+35b989 movups XMMWORD PTR [rsp+0x30],xmm0
+35b98e mov    edx,0x43
+35b993 mov    DWORD PTR [rsp+0x20],edi
+35b997 lea    rcx,[rbp-0x49]
+35b99b lea    r9d,[rdx-0xd]
+35b99f lea    r8d,[rdx-0x5]
+35b9a3 call   0x2db318
+35b9a8 lea    rcx,[rbp-0x49]
+35b9ac call   0x2ef80c
+35b9b1 movss  xmm0,DWORD PTR [rip+0xfffffffffff4c87b]        # 0x2a8234
+35b9b9 movaps xmm2,xmm11
+35b9bd movss  xmm8,DWORD PTR [rbp+0x77]
+35b9c3 movaps xmm1,xmm12
+35b9c7 movss  xmm7,DWORD PTR [rbp+0x6f]
+35b9cc movaps xmm4,xmm8
+35b9d0 addss  xmm4,xmm0
+35b9d4 mov    DWORD PTR [rsp+0x28],eax
+35b9d8 movaps xmm3,xmm7
+35b9db mov    rcx,rbx
+35b9de addss  xmm3,xmm0
+35b9e2 movss  xmm0,DWORD PTR [rip+0xfffffffffff4c83e]        # 0x2a8228
+35b9ea subss  xmm2,xmm0
+35b9ee subss  xmm1,xmm0
+35b9f2 movss  DWORD PTR [rsp+0x20],xmm4
+35b9f8 call   0x35c738
+35b9fd mov    rcx,QWORD PTR [rbp+0x7f]
+35ba01 call   0x2ef80c
+35ba06 movaps xmm0,xmm8
+35ba0a mov    DWORD PTR [rsp+0x28],eax
+35ba0e addss  xmm0,DWORD PTR [rip+0xfffffffffff3183e]        # 0x28d254
+35ba16 movaps xmm3,xmm7
+35ba19 movaps xmm2,xmm11
+35ba1d movaps xmm1,xmm12
+35ba21 mov    rcx,rbx
+35ba24 movss  DWORD PTR [rsp+0x20],xmm0
+35ba2a call   0x35c738
+35ba2f lea    rcx,[rsp+0x30]
+35ba34 call   0x2ef80c
+35ba39 subss  xmm7,DWORD PTR [rip+0xfffffffffff376f3]        # 0x293134
+35ba41 addss  xmm11,DWORD PTR [rip+0xfffffffffff3180a]        # 0x28d254
+35ba4a addss  xmm12,DWORD PTR [rip+0xfffffffffff31801]        # 0x28d254
+35ba53 subss  xmm8,DWORD PTR [rip+0xfffffffffff317f8]        # 0x28d254
+35ba5c mov    DWORD PTR [rsp+0x28],eax
+35ba60 mov    rcx,rbx
+35ba63 mulss  xmm7,xmm9
+35ba68 movaps xmm2,xmm11
+35ba6c movaps xmm1,xmm12
+35ba70 movss  DWORD PTR [rsp+0x20],xmm8
+35ba77 divss  xmm7,xmm10
+35ba7c movaps xmm3,xmm7
+35ba7f call   0x35c738
+35ba84 lea    r11,[rsp+0x100]
+35ba8c mov    rbx,QWORD PTR [r11+0x10]
+35ba90 mov    rdi,QWORD PTR [r11+0x18]
+35ba94 movaps xmm7,XMMWORD PTR [r11-0x10]
+35ba99 movaps xmm8,XMMWORD PTR [r11-0x20]
+35ba9e movaps xmm9,XMMWORD PTR [r11-0x30]
+35baa3 movaps xmm10,XMMWORD PTR [r11-0x40]
+35baa8 movaps xmm11,XMMWORD PTR [r11-0x50]
+35baad movaps xmm12,XMMWORD PTR [r11-0x60]
+35bab2 mov    rsp,r11
+35bab5 pop    rbp
+35bab6 ret

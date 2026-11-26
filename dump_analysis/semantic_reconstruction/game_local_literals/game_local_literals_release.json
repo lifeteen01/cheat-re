@@ -1,0 +1,104 @@
+{
+  "status": "frozen/released",
+  "check": "check_game_local_literals_reconstruction()",
+  "strict": "PASS GCC15 C++20 Werror _GLIBCXX_ASSERTIONS -ffp-contract=off",
+  "sanitize": "PASS ASan/UBSan no-recover",
+  "mutations": "PASS 4 isolated scratch-only detections",
+  "immutable_transitive_inputs": 44,
+  "counts": {
+    "producers": 49,
+    "converter_variants": 15,
+    "ordered_operations": 220,
+    "exact_reached_leaves": 97,
+    "exact_leaf_branches": 36,
+    "requested_audit_envelopes": 97,
+    "envelope_branches": 187,
+    "verified_disassembly_fragments": 307150,
+    "inline_segments": 5,
+    "inline_branches": 41
+  },
+  "owned_files": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_analysis.cpp": "2d43fba3ab2f646fd0204ff3f4bc1d3a56beb6a7eec93ce4fe66271aba5e7d0a",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_analysis.hpp": "95024e71cf58d1c05def051045983b066a1c23d9dc49bfefa3b435aeba412969",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_bindings.cpp": "22f3bd8a9773253afffa15dbd3913f5412f589d86d5db4e103f91a3dddf9214d",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_catalogue.inc": "528a6b58ef539f5855c764546a501b1a1ac7f0a952ada3ee08759e338e9ff5ed",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_checks.cpp": "6c947d0e6954c118282efe85de3c162ead49bd60aa741acb106c8290f57407ec",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_fixture_data.inc": "d71ca3b14d0a7257cd604733c7758cdae1ba677260517b1525118f51f1fa1678",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_local_literals_reconstruction.md": "a90b6e14c895a1c7c0767ebc8beacfa7ae6eef600d3cffac42fc4d895d6f4f36"
+  },
+  "evidence": {
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/byte_audit.json": "a7e63eb67488412dc39c204f0cc29fd111962a24d683d6f14c10d0d2310b5295",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/closure_roots.json": "818df5cc05075aa48f00741b8f801c6c531f593a0af3b414bc925837a52f589c",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/converters.asm": "6c5ac2a7f453cd54359a06e0cf3b943db95a93a58a86ade930fe6e239753a959",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_build.py": "c86e1fe86ce734145b62d021273e15f720710b9ea536ceb9c66fca07db932bbb",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_extract.py": "f34a61fb7baf0dd626a9480d4c16477748ecadd2a265c8d11a6bbab580527edf",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_ledger.py": "7ed371c98635872225af0ead7f9b673f7ca77afd83ec43c1051659814c036500",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_main.cpp": "b9a27a018142a7edf82bf574159032c63dcdef75846803ad45c6e311dc440e33",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_mutations.py": "8c28382b68449238a82754c0c632c51536cd8184d5eb77e349d06539865c25e9",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_release.py": "ccf973d2c8db38ab5b5a12242af5259ed84878be34cfca007baff4379c8200a0",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/generate_catalogue.py": "bfb605583a2fe84d7e092174506bb70501f5427bf22d0df939e44fe01fca4e70",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/getters.asm": "bbaaf67cd94f326a5d44af34499c141e431180ba0fc167c48e3f7029b4a5d2a4",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/literal_catalogue.json": "f71a8010f85afeeec90e434d006fce0b8ebdc008b9d75392adc4799b824bd692",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/mutations.log": "d02fff7922e407b366ab0f8a448ca9b242d00cb991eaca0834d4728bf093adc7",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/reached.asm": "441dc2f1ae4f5cfcac2536ba9280c79c77394facfc8f9754779286d16a1427fa",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/sanitize.log": "3a1601303ef56ed044063a0cc39d762bce9457719952f8ed6ef73aefe3ad9289",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/segment_audit.json": "5e9e1d3d96bf4c6524cc8cf767db6227c3aa5b6b1ea1b6332b5ac6b5d7836d51",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/segment_audit.py": "726d50eef7bf36e6016d2e03538fdb7171abb86cb4789ef4856f74b29dcb0d42",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/segments.asm": "65da2d464ee9dba89cbb8adaad2639c04e89653da76f6ecf8a6b6d33eb2abb33",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/semantic_range_ledger.json": "e4aed2bf1a9439ffe9274e4250e9f6a39d6b911554325a4cc1982fa3ff3551d2",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/sources_sanitize.json": "756ab2a8ac9cd64499d5775712c7257036160dd5ed54ac20eeed9f08a18d9667",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/sources_strict.json": "756ab2a8ac9cd64499d5775712c7257036160dd5ed54ac20eeed9f08a18d9667",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/strict.log": "d01116c3c93f974540f51fc4656075fb69808b16ebfa519f4787df8717b5cb56",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/game_local_literals/mutations/results.json": "b6523c5ba80805b52a7480fd6df46371fb691854618274d3d07ff1661a542ba9"
+  },
+  "remaining_runtime_boundaries": [
+    {
+      "root": "0x2ce718",
+      "site": "0x2ce78b",
+      "callback": "GameDirectEffects.shared.string_new_2ce718",
+      "claim": "U",
+      "requirement": "Matching managed-string effect; no successful default or numeric target execution."
+    },
+    {
+      "root": "0x2cc164",
+      "callback": "GameDirectEffects.shared.export_target OR supplied initial_loader_node",
+      "claim": "I/U",
+      "requirement": "Explicit export input; concrete existing resolver handles supplied copied loader nodes."
+    },
+    {
+      "roots": [
+        "0x366c30",
+        "0x36c274"
+      ],
+      "callback": "GameDirectEffects.action",
+      "claim": "U",
+      "requirement": "Final matching game RPC/action effect after concrete local literal/managed/controller prefixes."
+    },
+    {
+      "callback": "GameLocalLiteralEnvironment.aliases[getter]",
+      "claim": "I/U",
+      "requirement": "Actual mapped copied char scratch required by raw-pointer Projectile.material; owned-only public literal/hash/managed APIs do not invent it."
+    }
+  ],
+  "outside_wave_consumer_controllers": [
+    {
+      "root": "0x2e69d8",
+      "callback": "prior InteractionCalls.action",
+      "claim": "U",
+      "note": "Item RPC enclosing body unchanged; consumed refill/drop literal producers are concrete here."
+    },
+    {
+      "root": "0x2e480c",
+      "callback": "prior InteractionCalls.action",
+      "claim": "U",
+      "note": "Grade enclosing body unchanged; producer2e5958 is concrete here."
+    }
+  ],
+  "artifact_blockers": [
+    "Matching GameAssembly.dll",
+    "Matching UnityPlayer.dll",
+    "Matching global-metadata.dat"
+  ],
+  "expansion_stopped": true,
+  "no_sample_execution": true
+}

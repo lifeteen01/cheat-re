@@ -1,0 +1,64 @@
+{
+  "review_date": "2026-11-24",
+  "scope": "Independent static semantic review plus inspection of existing authored runtime artifacts. No new runtime test. No original sample execution.",
+  "inputs": {
+    "source/reconstructed/README.md": "388d0adcf9b177e31ceec3d67a04f8fc6468b4de8e4268603f85bcfdaf8883b1",
+    "source/windows_base/README.md": "cce33fb88e86cc749726c1bbd937e2d4f92b19529214908ae46463993c28f401",
+    "source/test_scene/menu_evidence.md": "215be87a348e63d6abc49e10f3c916440456cf18b43b745414690de4835693ed",
+    "source/test_scene/menu.cpp": "cd1a19fb2975c8bc681619c0332c1dbd97c90e6ccf8a943c936057cde4054f16",
+    "source/test_scene/scene.hpp": "dc53790d54b6325b8c15adc88991fdd2e97857ea6d6bab7f1a43ed2ae8742aaf",
+    "source/test_scene/host.cpp": "fc38cce31f3298646654a4ce131a0365d818a3f057e520d68f1909e8eefa0de0",
+    "source/test_scene/resources.cpp": "dc4383c00bdbc1100a16604660514f11ef949120174ee8043f7ae7d2aaa8f0b6",
+    "source/test_scene/VALIDATION.md": "3936a7dcc566c27b719dc793943308d5822919dcfcaeee4c84377f0edacf66e1",
+    "source/reconstructed/frame_dependencies_main_menu.cpp": "ec6c25ea92334ea12eaeb076a44a3691e7330f94d1b13b2a2be0311149edbc6b",
+    "source/reconstructed/frame_dependencies_ui_setup.cpp": "4f3e302d525be90426898c34a6d8a4f0e4182f1dfc143717240ddf2afaa34d82",
+    "source/reconstructed/menu_pages_specs.inc": "c189c955cf24c4ffda73ada24d694708063193b41435f7a73cf4e3472ec9466a",
+    "source/reconstructed/menu_controls_checkbox.cpp": "9b5b0b581224f8fb2b5327fc0cec73e64b8d55f9f2b9a0e7685d68e89fdd2ac6",
+    "source/reconstructed/menu_controls_slider.cpp": "43174dde50d58f605d1a8fd178b9c6fcf89c52000bb084d3ac07d98dd912308d",
+    "source/reconstructed/menu_controls_popup.cpp": "5037982b1730ce32ad420a59786dc7a3dac6bbd8d30dffd5d46ed078429581b0",
+    "source/reconstructed/menu_color_picker_analysis.cpp": "62dde7addca5dee583fb4150c70a7b00d98e6e9c98cbfdb69beede1785e6636c",
+    "source/reconstructed/imgui_text_input_process.cpp": "93ae1709611d2c2dff140a7750dd260c2301fd0a0975972d5bc2068c5dd4a7a7",
+    "source/reconstructed/imgui_windows_begin.cpp": "9df1bd5a29c2ba682f420d2c75c73801900dc9b9a6dfeaa48f6952c92f605008",
+    "source/reconstructed/imgui_windows_end.cpp": "fb6c040214daa7ad9fa50336ca2212ce084de6aae1f231538757b92272e03918",
+    "source/reconstructed/font_text_raster.cpp": "b275db9badd7a7410f110b232205c73bc8c79b32271c397348b7c33651c69da9",
+    "dump_analysis/static/cheat_annot.asm": "a83aaa8795f1e97912ec0f79828f9f822f4e46702ffcdea597381d0e0dd97d2c"
+  },
+  "existing_build_evidence": {
+    "strict": {
+      "build_record_sha256": "c411830a4fe10e6976b0b24de5336f5d6c183be47f81c0662212c1dc23093413",
+      "recorded_passed": true,
+      "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene",
+      "recorded_artifact_sha256": "b47adc6f947488e04e6e460ce76fd5a1d98cb75f56ac7342b3541d0c8851ac81",
+      "source_manifest_mismatches": [],
+      "entrypoints_record_sha256": "7cbe8cd70a1c0571908338c532cb81a86e4fbf85f66ba5068decd127a1b5f923"
+    },
+    "sanitizer": {
+      "build_record_sha256": "8da70e3bd6712166401610efa30ad3383e3cfcf2ec19cc17e0e099d77aa8d54d",
+      "recorded_passed": true,
+      "artifact": "dump_analysis/semantic_reconstruction/test_scene/sanitizer/owned_scene",
+      "recorded_artifact_sha256": "72f40841ac13d0a06eee946b9fef30f50e88a9795f9b7beb2e8a9f5f44b967d5",
+      "source_manifest_mismatches": [
+        {
+          "source": "source/test_scene/host.cpp",
+          "recorded_sha256": "06e213e8914ec4aeb9401f4d11794656b3f3ba7eb206a553bb10077f532955a7",
+          "current_sha256": "fc38cce31f3298646654a4ce131a0365d818a3f057e520d68f1909e8eefa0de0"
+        }
+      ],
+      "entrypoints_record_sha256": "7cbe8cd70a1c0571908338c532cb81a86e4fbf85f66ba5068decd127a1b5f923"
+    },
+    "windows": {
+      "build_record_sha256": "605b8c2910198addf19dc9223698ee000393e41f895a9441c14a5ab665629625",
+      "recorded_passed": true,
+      "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe",
+      "recorded_artifact_sha256": "26cb384a1222d78fe8e2e75f20aa77b481235dd3831f3f47e1a2b59d6c1bab05",
+      "source_manifest_mismatches": [
+        {
+          "source": "source/test_scene/host.cpp",
+          "recorded_sha256": "06e213e8914ec4aeb9401f4d11794656b3f3ba7eb206a553bb10077f532955a7",
+          "current_sha256": "fc38cce31f3298646654a4ce131a0365d818a3f057e520d68f1909e8eefa0de0"
+        }
+      ],
+      "entrypoints_record_sha256": "b3db967ac2f73df78f618c4da40241d71375b508e056f123e806a0e5ae83faa1"
+    }
+  }
+}

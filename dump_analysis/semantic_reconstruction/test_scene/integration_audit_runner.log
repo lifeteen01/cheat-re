@@ -1,0 +1,106 @@
+{
+  "full_regression_strict": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "d478c59f1a69be155841465e77734f81d5e8b8ad804f39a0096875cdbf7892f3",
+    "log_sha256": "87ab860f172005f60478d9618bbc524d3f373f36b13a5713e56ea2e0ad2f2297"
+  },
+  "full_regression_sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "3985cce38d84aeb7ada9ddb6164561ba396f9ac95a9041d72ede716fed954a7c",
+    "log_sha256": "baabe04fec08da6bfceb13d16185f86a3d9354382ef0f39b4073ff597692e58a"
+  },
+  "original_inputs": {
+    "passed": true,
+    "entries": 135,
+    "manifest_sha256": "a106b5ad116dfc931b58d6470482a000be8e4f381f39405255e0195271ee94c2"
+  },
+  "cmake_ctest": {
+    "passed": true,
+    "inputs_current": true,
+    "record_pairing_current": true,
+    "snapshot_sha256": "6d347c8ee329235dfc545452b0b71ca48b4155388278fd3399b5c4e234b359b0",
+    "log_sha256": "34c04688eba85d68ae9536fb98542130f80d38bfce5445141ed971103da34f65",
+    "artifact_sha256": "4fdfbce733ea4a62fe83118618e3861fcf30f6d6e73e5e489966298cd882b6c5"
+  },
+  "evidence_pairing_regressions": {
+    "passed": true,
+    "inputs_current": true,
+    "tests": {
+      "baseline_passes": true,
+      "changed_event_bytes_rejected": true,
+      "changed_event_bytes_rejected_restored": true,
+      "changed_runtime_log_rejected": true,
+      "changed_runtime_log_rejected_restored": true,
+      "changed_build_record_rejected": true,
+      "changed_build_record_rejected_restored": true,
+      "frame_submitted_failure_rejected": true,
+      "frame_status_failure_rejected": true,
+      "frame_stopped_at_failure_rejected": true,
+      "ui_preparations_failure_rejected": true,
+      "ui_finalizations_failure_rejected": true,
+      "full_overlay_completions_failure_rejected": true,
+      "cold_menu_graphs_failure_rejected": true,
+      "restored_mode_passes": true
+    },
+    "record_sha256": "0207c642f3d63382ad29ea2a6833bbb0cb11be5f8d70dd109c1755de241e72b8"
+  },
+  "owned_verification_passed": true,
+  "semantic_fidelity": {
+    "source_95_percent_established": false,
+    "percentage": null,
+    "reason": "No complete original-source semantic denominator or matching native runtime oracle",
+    "scope": "Owned menu/ESP subset; typed camera, platform and resource boundaries are not native proof"
+  },
+  "native_windows": {
+    "validated": false
+  },
+  "inside_rust": {
+    "validated": false,
+    "game_bindings": "Needed / To do"
+  },
+  "required_inputs": {
+    "GameAssembly.dll": "Needed / To do",
+    "UnityPlayer.dll": "Needed / To do",
+    "global-metadata.dat": "Needed / To do"
+  },
+  "spoof_executor": {
+    "implemented": false,
+    "validated": false,
+    "scene_call_mode": "ordinary calls"
+  },
+  "windows_imports": {
+    "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe",
+    "artifact_sha256": "ba60ee0c74d8352ae4dfff587645e6c8d20b61ed25b19a5ba698cccf14dc2d4d",
+    "imported_libraries": [
+      "GDI32.dll",
+      "KERNEL32.dll",
+      "msvcrt.dll",
+      "USER32.dll"
+    ],
+    "crt_imports": [
+      "msvcrt.dll"
+    ],
+    "no_crt_imports_met": false,
+    "no_imports_met": false,
+    "no_crt_dependencies_met": false,
+    "dependency_reason": "Scene uses standard-library/runtime facilities and static compiler runtimes",
+    "scope": "Authored Windows demo PE; not an import-free internal base or original DLL"
+  },
+  "overall_requested_base_complete": false,
+  "open_requirements": [
+    "Executable spoofcall context/gate, argument and register restoration",
+    "Freestanding no-CRT runtime and removal/verification of all imports",
+    "Live game hooks, executable original-call forwarding, restoration and lifetime",
+    "Actual new-pipeline Unity GPU resource/upload/submission/cleanup bindings",
+    "Remaining full menu/navigation/search/assets and native frame lifecycle branches",
+    "Live ESP collection/camera/object-layout/history and enabled world branches",
+    "Matching GameAssembly.dll, UnityPlayer.dll, global-metadata.dat and native/game validation",
+    "Original-source equivalence; no fidelity percentage is established"
+  ],
+  "trace_units": "Owned entry/caller/boundary counters; not original instruction coverage",
+  "audit_runner_sha256": "63a713bb8ae126ec37762d315921ddeb2f89e22f7fa4a4ee93e94085ac4f51cb"
+}

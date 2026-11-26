@@ -1,0 +1,14 @@
+
+dump_analysis/unpacked/cheat.unpacked.dll:     file format binary
+
+
+Disassembly of section .data:
+
+0000000000395158 <.data+0x395158>:
+  395158:	48 8b 05 c9 09 07 00                            	mov    rax,QWORD PTR [rip+0x709c9]        # 0x405b28
+  39515f:	48 85 c0                                        	test   rax,rax
+  395162:	74 06                                           	je     0x39516a
+  395164:	ff 80 f4 00 00 00                               	inc    DWORD PTR [rax+0xf4]
+  39516a:	48 8b 05 a7 a8 ee ff                            	mov    rax,QWORD PTR [rip+0xffffffffffeea8a7]        # 0x27fa18
+  395171:	48 8b 15 f0 09 07 00                            	mov    rdx,QWORD PTR [rip+0x709f0]        # 0x405b68
+  395178:	48 ff e0                                        	rex.W jmp rax

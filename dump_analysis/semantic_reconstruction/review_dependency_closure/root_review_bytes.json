@@ -1,0 +1,23 @@
+[
+  {
+    "begin": "0x2dda9c",
+    "end_exclusive": "0x2ddb0d",
+    "bytes": 113,
+    "sha256": "cdc6ce41ce973c35cf511272a80db8cdedefccc493ae00b005b4c5753892e22c",
+    "method": "fresh DLL byte slice ->objdump; never execute sample"
+  },
+  {
+    "begin": "0x2e069c",
+    "end_exclusive": "0x2e071c",
+    "bytes": 128,
+    "sha256": "cbc57425b502944fe4e62fe64d928749a24792a45798128309a3e579f7f113e0",
+    "method": "fresh DLL byte slice ->objdump; never execute sample"
+  },
+  {
+    "begin": "0x2e0e4c",
+    "end_exclusive": "0x2e0e99",
+    "bytes": 77,
+    "sha256": "b98869e3349df3452335b99aa705c4bc10be03b91762e6b89123525313ff0bbe",
+    "method": "fresh DLL byte slice ->objdump; never execute sample"
+  }
+]

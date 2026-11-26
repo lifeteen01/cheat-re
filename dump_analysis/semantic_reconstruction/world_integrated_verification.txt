@@ -1,0 +1,3 @@
+[I] Combined strict GCC15 C++20/Werror build, including released world roots.
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0

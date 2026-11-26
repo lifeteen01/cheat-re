@@ -1,0 +1,5 @@
+392ecc sub    rsp,0x28
+392ed0 call   0x35d200
+392ed5 mov    rax,QWORD PTR [rax+0x298]
+392edc add    rsp,0x28
+392ee0 ret

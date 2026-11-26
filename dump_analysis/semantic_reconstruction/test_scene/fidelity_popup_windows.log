@@ -1,0 +1,19 @@
+Compile windows host.cpp
+Compile windows menu.cpp
+Compile windows menu_lifecycle_checks.cpp
+Compile windows semantic_checks.cpp
+{"passed": true, "mode": "windows", "cache_hits": 143, "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe", "artifact_sha256": "893a1d76d157fe2ff6799bef41abcf59f756a845986341c02832fc2db505375f"}
+{
+  "passed": true,
+  "mode": "windows",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 47.426,
+  "artifact_sha256": "893a1d76d157fe2ff6799bef41abcf59f756a845986341c02832fc2db505375f",
+  "wine_version": "wine-10.0 (Ubuntu 10.0~repack-12ubuntu1)",
+  "isolated_prefix": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_wine_70sf7ne9",
+  "native_windows_validated": false,
+  "inside_rust_validated": false,
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

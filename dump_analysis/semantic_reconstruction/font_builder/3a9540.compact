@@ -1,0 +1,20 @@
+3a9540 mov    r8d,DWORD PTR [rcx+0x14]
+3a9544 cmp    r8d,DWORD PTR [rdx+0x14]
+3a9548 jge    0x3a954e
+3a954a or     eax,0xffffffff
+3a954d ret
+3a954e xor    eax,eax
+3a9550 cmp    r8d,DWORD PTR [rdx+0x14]
+3a9554 setg   al
+3a9557 ret
+3a9558 mov    QWORD PTR [rsp+0x8],rbx
+3a955d mov    QWORD PTR [rsp+0x10],rsi
+3a9562 push   rdi
+3a9563 sub    rsp,0x20
+3a9567 movsxd rdi,edx
+3a956a mov    rbx,rcx
+3a956d cmp    edi,DWORD PTR [rcx+0x4]
+3a9570 jle    0x3a95ac
+3a9572 imul   rcx,rdi,0x110
+3a9579 call   0x395158
+3a957e mov    rdx,QWORD PTR [rbx+0x8]

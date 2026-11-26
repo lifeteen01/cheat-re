@@ -1,0 +1,1323 @@
+[
+  {
+    "category": 5,
+    "site": 3256168,
+    "classes": "DudTimedExplosive",
+    "prefab": "",
+    "exclude": "",
+    "label": "DudTimedExplosive",
+    "gates": [
+      4099688
+    ],
+    "extra": "dud",
+    "berry": -1
+  },
+  {
+    "category": 9,
+    "site": 3256306,
+    "classes": "CCTV_RC",
+    "prefab": "",
+    "exclude": "",
+    "label": "CCTV Camera",
+    "gates": [
+      4091048
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 4,
+    "site": 3256979,
+    "classes": "OreResourceEntity",
+    "prefab": "wood_log_pile/wood-pile.prefab",
+    "exclude": "",
+    "label": "Wood Pile",
+    "gates": [
+      4091688
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 18,
+    "site": 3257121,
+    "classes": "HBHFSensor",
+    "prefab": "",
+    "exclude": "",
+    "label": "HBHF",
+    "gates": [
+      4091288
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 19,
+    "site": 3257259,
+    "classes": "SeismicSensor",
+    "prefab": "",
+    "exclude": "",
+    "label": "Seismic Sensor",
+    "gates": [
+      4091368
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 20,
+    "site": 3257448,
+    "classes": "ElectricBattery",
+    "prefab": "large",
+    "exclude": "",
+    "label": "Large Battery",
+    "gates": [
+      4091208
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 122,
+    "site": 3257680,
+    "classes": "OreResourceEntity",
+    "prefab": "hqm",
+    "exclude": "",
+    "label": "HQMOre",
+    "gates": [
+      4094488,
+      4094328
+    ],
+    "extra": "ore_outer",
+    "berry": -1
+  },
+  {
+    "category": 1,
+    "site": 3257862,
+    "classes": "OreResourceEntity",
+    "prefab": "stone",
+    "exclude": "assets/bundled/prefabs/radtown/ore_stone.prefab",
+    "label": "StoneOre",
+    "gates": [
+      4094408,
+      4094328
+    ],
+    "extra": "ore_outer",
+    "berry": -1
+  },
+  {
+    "category": 2,
+    "site": 3258044,
+    "classes": "OreResourceEntity",
+    "prefab": "metal",
+    "exclude": "assets/bundled/prefabs/radtown/ore_metal.prefab",
+    "label": "MetalOre",
+    "gates": [
+      4094568,
+      4094328
+    ],
+    "extra": "ore_outer",
+    "berry": -1
+  },
+  {
+    "category": 3,
+    "site": 3258226,
+    "classes": "OreResourceEntity",
+    "prefab": "sulfur",
+    "exclude": "assets/bundled/prefabs/radtown/ore_sulfur.prefab",
+    "label": "SulfurOre",
+    "gates": [
+      4094728,
+      4094328
+    ],
+    "extra": "ore_outer",
+    "berry": -1
+  },
+  {
+    "category": 125,
+    "site": 3258368,
+    "classes": "ModularCar",
+    "prefab": "",
+    "exclude": "",
+    "label": "Car",
+    "gates": [
+      4097368
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 114,
+    "site": 3258506,
+    "classes": "TrainEngine",
+    "prefab": "",
+    "exclude": "",
+    "label": "Train",
+    "gates": [
+      4097448
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 12,
+    "site": 3258648,
+    "classes": "Drone",
+    "prefab": "",
+    "exclude": "",
+    "label": "Drones",
+    "gates": [
+      4102648
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 13,
+    "site": 3258929,
+    "classes": "Bike",
+    "prefab": "pedalbike",
+    "exclude": "",
+    "label": "PedalBike",
+    "gates": [
+      4091848
+    ],
+    "extra": "pedal",
+    "berry": -1
+  },
+  {
+    "category": 13,
+    "site": 3258929,
+    "classes": "Bike",
+    "prefab": "pedaltrike",
+    "exclude": "",
+    "label": "PedalTrike",
+    "gates": [
+      4091848
+    ],
+    "extra": "pedal_trike",
+    "berry": -1
+  },
+  {
+    "category": 14,
+    "site": 3259123,
+    "classes": "Bike",
+    "prefab": "motorbike_sidecar",
+    "exclude": "",
+    "label": "MotorBike Sidecar",
+    "gates": [
+      4091768
+    ],
+    "extra": "motor_sidecar",
+    "berry": -1
+  },
+  {
+    "category": 14,
+    "site": 3259123,
+    "classes": "Bike",
+    "prefab": "motorbike.prefab",
+    "exclude": "",
+    "label": "MotorBike",
+    "gates": [
+      4091768
+    ],
+    "extra": "motor",
+    "berry": -1
+  },
+  {
+    "category": 15,
+    "site": 3259257,
+    "classes": "PatrolHelicopter",
+    "prefab": "",
+    "exclude": "",
+    "label": "PatrolHelicopter",
+    "gates": [
+      4100568
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 16,
+    "site": 3259374,
+    "classes": "",
+    "prefab": "heli_crate.prefab",
+    "exclude": "",
+    "label": "heli_crate",
+    "gates": [
+      4100568
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 17,
+    "site": 3259516,
+    "classes": "Recycler",
+    "prefab": "",
+    "exclude": "",
+    "label": "Recycler",
+    "gates": [
+      4093288
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 21,
+    "site": 3259658,
+    "classes": "BradleyAPC",
+    "prefab": "",
+    "exclude": "",
+    "label": "BradleyAPC",
+    "gates": [
+      4100648
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 22,
+    "site": 3259777,
+    "classes": "",
+    "prefab": "bradley_crate",
+    "exclude": "",
+    "label": "bradley_crate",
+    "gates": [
+      4100648
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 23,
+    "site": 3259962,
+    "classes": "SubmarineDuo|BaseSubmarine",
+    "prefab": "",
+    "exclude": "",
+    "label": "Submarine",
+    "gates": [
+      4101208
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 24,
+    "site": 3260098,
+    "classes": "ScrapTransportHelicopter",
+    "prefab": "",
+    "exclude": "",
+    "label": "ScrapHelicopter",
+    "gates": [
+      4101128
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 25,
+    "site": 3260240,
+    "classes": "Minicopter",
+    "prefab": "",
+    "exclude": "",
+    "label": "Minicopter",
+    "gates": [
+      4101048
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 26,
+    "site": 3260373,
+    "classes": "AttackHelicopter",
+    "prefab": "",
+    "exclude": "",
+    "label": "AttackHelicopter",
+    "gates": [
+      4100808
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 27,
+    "site": 3260515,
+    "classes": "Tugboat",
+    "prefab": "",
+    "exclude": "",
+    "label": "Tugboat",
+    "gates": [
+      4100728
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 28,
+    "site": 3260653,
+    "classes": "RHIB",
+    "prefab": "",
+    "exclude": "",
+    "label": "RHIB",
+    "gates": [
+      4100888
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 29,
+    "site": 3260795,
+    "classes": "MotorRowboat",
+    "prefab": "",
+    "exclude": "",
+    "label": "Rowboat",
+    "gates": [
+      4100968
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 30,
+    "site": 3260933,
+    "classes": "CargoShip",
+    "prefab": "",
+    "exclude": "",
+    "label": "Cargoship",
+    "gates": [
+      4100248
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 31,
+    "site": 3261189,
+    "classes": "CollectableEasterEgg",
+    "prefab": "",
+    "exclude": "",
+    "label": "Candy",
+    "gates": [],
+    "extra": "candy",
+    "berry": 6
+  },
+  {
+    "category": 32,
+    "site": 3261189,
+    "classes": "CollectableEasterEgg",
+    "prefab": "collectableegg",
+    "exclude": "",
+    "label": "Egg",
+    "gates": [],
+    "extra": "egg",
+    "berry": 6
+  },
+  {
+    "category": 95,
+    "site": 3261399,
+    "classes": "ItemPickup",
+    "prefab": "advancedblueprintfragment",
+    "exclude": "",
+    "label": "Advanced Fragment",
+    "gates": [
+      4097528
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 96,
+    "site": 3261525,
+    "classes": "ItemPickup",
+    "prefab": "basicblueprintfragment",
+    "exclude": "",
+    "label": "Basic Fragment",
+    "gates": [
+      4097608
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 97,
+    "site": 3261653,
+    "classes": "ItemPickup",
+    "prefab": "keycard_red",
+    "exclude": "",
+    "label": "RedCard",
+    "gates": [
+      4097688
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 57,
+    "site": 3261834,
+    "classes": "CollectibleEntity",
+    "prefab": "wheat-collectable",
+    "exclude": "",
+    "label": "Wheat",
+    "gates": [
+      4097048
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 62,
+    "site": 3261960,
+    "classes": "CollectibleEntity",
+    "prefab": "sunflower-collectable",
+    "exclude": "",
+    "label": "SunFlower",
+    "gates": [
+      4097208
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 63,
+    "site": 3262086,
+    "classes": "CollectibleEntity",
+    "prefab": "rose-collectable",
+    "exclude": "",
+    "label": "Rose",
+    "gates": [
+      4097128
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 64,
+    "site": 3262212,
+    "classes": "CollectibleEntity",
+    "prefab": "orchid-collectable",
+    "exclude": "",
+    "label": "Orchid",
+    "gates": [
+      4097288
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 33,
+    "site": 3262338,
+    "classes": "CollectibleEntity",
+    "prefab": "hemp-collectable",
+    "exclude": "",
+    "label": "Hemp",
+    "gates": [
+      4098248
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 34,
+    "site": 3262491,
+    "classes": "CollectibleEntity",
+    "prefab": "black",
+    "exclude": "",
+    "label": "Black",
+    "gates": [],
+    "extra": "none",
+    "berry": 0
+  },
+  {
+    "category": 35,
+    "site": 3262647,
+    "classes": "CollectibleEntity",
+    "prefab": "blue",
+    "exclude": "",
+    "label": "Blue",
+    "gates": [],
+    "extra": "none",
+    "berry": 1
+  },
+  {
+    "category": 36,
+    "site": 3262803,
+    "classes": "CollectibleEntity",
+    "prefab": "green",
+    "exclude": "",
+    "label": "Green",
+    "gates": [],
+    "extra": "none",
+    "berry": 2
+  },
+  {
+    "category": 37,
+    "site": 3262959,
+    "classes": "CollectibleEntity",
+    "prefab": "red",
+    "exclude": "",
+    "label": "Red",
+    "gates": [],
+    "extra": "none",
+    "berry": 3
+  },
+  {
+    "category": 38,
+    "site": 3263115,
+    "classes": "CollectibleEntity",
+    "prefab": "white",
+    "exclude": "",
+    "label": "White",
+    "gates": [],
+    "extra": "none",
+    "berry": 4
+  },
+  {
+    "category": 39,
+    "site": 3263271,
+    "classes": "CollectibleEntity",
+    "prefab": "yellow",
+    "exclude": "",
+    "label": "Yellow",
+    "gates": [],
+    "extra": "none",
+    "berry": 5
+  },
+  {
+    "category": 40,
+    "site": 3263394,
+    "classes": "CollectibleEntity",
+    "prefab": "stone-collectable",
+    "exclude": "",
+    "label": "StoneCollectable",
+    "gates": [
+      4098328
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 41,
+    "site": 3263520,
+    "classes": "CollectibleEntity",
+    "prefab": "metal",
+    "exclude": "",
+    "label": "MetalCollectable",
+    "gates": [
+      4098408
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 42,
+    "site": 3263646,
+    "classes": "CollectibleEntity",
+    "prefab": "sulfur",
+    "exclude": "",
+    "label": "SulfurCollectable",
+    "gates": [
+      4098488
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 43,
+    "site": 3263774,
+    "classes": "CollectibleEntity",
+    "prefab": "wood",
+    "exclude": "",
+    "label": "WoodCollectable",
+    "gates": [
+      4098568
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 44,
+    "site": 3263902,
+    "classes": "CollectibleEntity",
+    "prefab": "corn",
+    "exclude": "",
+    "label": "CornCollectable",
+    "gates": [
+      4098648
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 45,
+    "site": 3264028,
+    "classes": "CollectibleEntity",
+    "prefab": "mushroom",
+    "exclude": "",
+    "label": "MushroomCollectable",
+    "gates": [
+      4099288
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 46,
+    "site": 3264154,
+    "classes": "CollectibleEntity",
+    "prefab": "pumpkin",
+    "exclude": "",
+    "label": "PumpkinCollectable",
+    "gates": [
+      4099368
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 47,
+    "site": 3264280,
+    "classes": "CollectibleEntity",
+    "prefab": "diesel",
+    "exclude": "",
+    "label": "DieselCollectable",
+    "gates": [
+      4099448
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 48,
+    "site": 3264406,
+    "classes": "CollectibleEntity",
+    "prefab": "potato",
+    "exclude": "",
+    "label": "PotatoCollectable",
+    "gates": [
+      4099528
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 7,
+    "site": 3264544,
+    "classes": "NaturalBeehive",
+    "prefab": "",
+    "exclude": "",
+    "label": "BeeHive",
+    "gates": [
+      4096648
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 6,
+    "site": 3264686,
+    "classes": "BeeSwarmAI",
+    "prefab": "",
+    "exclude": "",
+    "label": "BeeSwarm",
+    "gates": [
+      4096728
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 49,
+    "site": 3264824,
+    "classes": "SupplyDrop",
+    "prefab": "",
+    "exclude": "",
+    "label": "AirDrop",
+    "gates": [
+      4100088
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 50,
+    "site": 3264957,
+    "classes": "HackableLockedCrate",
+    "prefab": "",
+    "exclude": "",
+    "label": "HackableLockedCrate",
+    "gates": [
+      4100328
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 51,
+    "site": 3265157,
+    "classes": "FreeableLootContainer",
+    "prefab": "crate_underwater_advanced.prefab",
+    "exclude": "",
+    "label": "AdvancedWaterCrate",
+    "gates": [
+      4095448
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 52,
+    "site": 3265283,
+    "classes": "FreeableLootContainer",
+    "prefab": "crate_underwater_basic.prefab",
+    "exclude": "",
+    "label": "BasicWaterCrate",
+    "gates": [
+      4095528
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 53,
+    "site": 3265515,
+    "classes": "LootContainer",
+    "prefab": "loot-barrel|loot_barrel",
+    "exclude": "",
+    "label": "Barrel",
+    "gates": [
+      4094808
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 55,
+    "site": 3265643,
+    "classes": "LootContainer",
+    "prefab": "oil_barrel",
+    "exclude": "",
+    "label": "OilBarrel",
+    "gates": [
+      4094888
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 56,
+    "site": 3265769,
+    "classes": "LootContainer",
+    "prefab": "crate_normal_2.prefab",
+    "exclude": "",
+    "label": "NormalCrate",
+    "gates": [
+      4094968
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 58,
+    "site": 3265895,
+    "classes": "LootContainer",
+    "prefab": "crate_normal.prefab",
+    "exclude": "",
+    "label": "MilitaryCrate",
+    "gates": [
+      4095048
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 59,
+    "site": 3266021,
+    "classes": "LootContainer",
+    "prefab": "crate_elite.prefab",
+    "exclude": "",
+    "label": "EliteCrate",
+    "gates": [
+      4095128
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 60,
+    "site": 3266149,
+    "classes": "LootContainer",
+    "prefab": "crate_tools",
+    "exclude": "",
+    "label": "ToolCrate",
+    "gates": [
+      4095208
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 61,
+    "site": 3266324,
+    "classes": "LootContainer",
+    "prefab": "food|trash-pile-1",
+    "exclude": "",
+    "label": "FoodCrate",
+    "gates": [
+      4095288
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 65,
+    "site": 3266450,
+    "classes": "LootContainer",
+    "prefab": "crate_normal_2_medical.prefab",
+    "exclude": "",
+    "label": "MedicalCrate",
+    "gates": [
+      4095368
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 66,
+    "site": 3266576,
+    "classes": "LootContainer",
+    "prefab": "crate_basic.prefab",
+    "exclude": "",
+    "label": "BasicCrate",
+    "gates": [
+      4095608
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 67,
+    "site": 3266714,
+    "classes": "PlayerCorpse",
+    "prefab": "",
+    "exclude": "",
+    "label": "Corpse",
+    "gates": [
+      4093048
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 68,
+    "site": 3266856,
+    "classes": "NPCPlayerCorpse",
+    "prefab": "",
+    "exclude": "",
+    "label": "NPCCorpse",
+    "gates": [
+      4093128
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 69,
+    "site": 3266994,
+    "classes": "BaseCorpse",
+    "prefab": "",
+    "exclude": "",
+    "label": "AnimalCorpse",
+    "gates": [
+      4093208
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 70,
+    "site": 3267130,
+    "classes": "DroppedItemContainer",
+    "prefab": "",
+    "exclude": "",
+    "label": "Backpack",
+    "gates": [
+      4093368
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 71,
+    "site": 3267259,
+    "classes": "DroppedItem",
+    "prefab": "",
+    "exclude": "",
+    "label": "DroppedItem",
+    "gates": [
+      4099688,
+      4099608,
+      4096808
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 73,
+    "site": 3267419,
+    "classes": "AutoTurret",
+    "prefab": "",
+    "exclude": "",
+    "label": "AutoTurret",
+    "gates": [
+      4097768,
+      4101688,
+      4101608
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 74,
+    "site": 3267557,
+    "classes": "BearTrap",
+    "prefab": "",
+    "exclude": "",
+    "label": "BearTrap",
+    "gates": [
+      4096888
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 79,
+    "site": 3267699,
+    "classes": "SnakeHazard",
+    "prefab": "",
+    "exclude": "",
+    "label": "Snake",
+    "gates": [
+      4095768
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 127,
+    "site": 3267831,
+    "classes": "Cow",
+    "prefab": "",
+    "exclude": "",
+    "label": "Cow",
+    "gates": [
+      4096328
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 126,
+    "site": 3267973,
+    "classes": "Sheep",
+    "prefab": "",
+    "exclude": "",
+    "label": "Sheep",
+    "gates": [
+      4096248
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 80,
+    "site": 3268111,
+    "classes": "Tiger",
+    "prefab": "",
+    "exclude": "",
+    "label": "Tiger",
+    "gates": [
+      4095848
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 81,
+    "site": 3268253,
+    "classes": "Panther",
+    "prefab": "",
+    "exclude": "",
+    "label": "Panther",
+    "gates": [
+      4095928
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 82,
+    "site": 3268391,
+    "classes": "Crocodile",
+    "prefab": "",
+    "exclude": "",
+    "label": "Crocodile",
+    "gates": [
+      4096008
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 75,
+    "site": 3268533,
+    "classes": "FlameTurret",
+    "prefab": "",
+    "exclude": "",
+    "label": "FlameTurret",
+    "gates": [
+      4097848
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 76,
+    "site": 3268671,
+    "classes": "TinCanAlarm",
+    "prefab": "",
+    "exclude": "",
+    "label": "TinCanAlarm",
+    "gates": [
+      4103768
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 83,
+    "site": 3272531,
+    "classes": "Landmine",
+    "prefab": "",
+    "exclude": "",
+    "label": "Landmine",
+    "gates": [
+      4097928
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 84,
+    "site": 3272692,
+    "classes": "SamSite",
+    "prefab": "",
+    "exclude": "",
+    "label": "SamSite",
+    "gates": [
+      4098008,
+      4105608
+    ],
+    "extra": "sam_uncached",
+    "berry": -1
+  },
+  {
+    "category": 85,
+    "site": 3273338,
+    "classes": "GunTrap",
+    "prefab": "",
+    "exclude": "",
+    "label": "GunTrap",
+    "gates": [
+      4098168
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 86,
+    "site": 3273516,
+    "classes": "BuildingPrivlidge|BuildingPrivilegeRetro",
+    "prefab": "",
+    "exclude": "",
+    "label": "BuildingPrivlidge",
+    "gates": [
+      4099768
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 124,
+    "site": 3273658,
+    "classes": "StashContainer",
+    "prefab": "",
+    "exclude": "",
+    "label": "Stash",
+    "gates": [
+      4100008
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 88,
+    "site": 3273796,
+    "classes": "SleepingBag",
+    "prefab": "",
+    "exclude": "",
+    "label": "SleepingBag",
+    "gates": [
+      4099848
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 89,
+    "site": 3273938,
+    "classes": "RFReceiver",
+    "prefab": "",
+    "exclude": "",
+    "label": "RFReceiver",
+    "gates": [
+      4100488
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 90,
+    "site": 3274076,
+    "classes": "RFBroadcaster",
+    "prefab": "",
+    "exclude": "",
+    "label": "RFBroadcaster",
+    "gates": [
+      4100408
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 91,
+    "site": 3274360,
+    "classes": "Workbench",
+    "prefab": "workbench2",
+    "exclude": "",
+    "label": "WB2",
+    "gates": [
+      4100168,
+      4101288
+    ],
+    "extra": "workbench2",
+    "berry": -1
+  },
+  {
+    "category": 92,
+    "site": 3274360,
+    "classes": "Workbench",
+    "prefab": "workbench3",
+    "exclude": "",
+    "label": "WB3",
+    "gates": [
+      4100168,
+      4101288
+    ],
+    "extra": "workbench3",
+    "berry": -1
+  },
+  {
+    "category": 93,
+    "site": 3274502,
+    "classes": "Bear",
+    "prefab": "",
+    "exclude": "",
+    "label": "Bear",
+    "gates": [
+      4095688
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 94,
+    "site": 3274621,
+    "classes": "PolarBear",
+    "prefab": "",
+    "exclude": "",
+    "label": "PolarBear",
+    "gates": [
+      4095688
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 100,
+    "site": 3274761,
+    "classes": "Stag",
+    "prefab": "",
+    "exclude": "",
+    "label": "Stag",
+    "gates": [
+      4096088
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 101,
+    "site": 3274936,
+    "classes": "Wolf|Wolf2",
+    "prefab": "",
+    "exclude": "",
+    "label": "Wolf",
+    "gates": [
+      4096168
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 102,
+    "site": 3275064,
+    "classes": "Boar",
+    "prefab": "",
+    "exclude": "",
+    "label": "Boar",
+    "gates": [
+      4096408
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 103,
+    "site": 3275239,
+    "classes": "Horse|RidableHorse",
+    "prefab": "",
+    "exclude": "",
+    "label": "Horse",
+    "gates": [
+      4096488
+    ],
+    "extra": "none",
+    "berry": -1
+  },
+  {
+    "category": 104,
+    "site": 3275367,
+    "classes": "SimpleShark",
+    "prefab": "",
+    "exclude": "",
+    "label": "Shark",
+    "gates": [
+      4096568
+    ],
+    "extra": "none",
+    "berry": -1
+  }
+]

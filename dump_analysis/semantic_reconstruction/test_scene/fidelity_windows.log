@@ -1,0 +1,38 @@
+Compile windows unity_backend_analysis.cpp
+Compile windows world_esp_overlay_worker.cpp
+Compile windows world_esp_overlay_controls.cpp
+Compile windows world_esp_overlay.cpp
+Compile windows world_esp_windows.cpp
+Compile windows world_esp_status.cpp
+Compile windows world_esp_sign_status.cpp
+Compile windows world_esp_overlay_aux.cpp
+Compile windows world_esp_simulation_worker.cpp
+Compile windows world_esp_simulation.cpp
+Compile windows world_esp_overlay_tail.cpp
+Compile windows world_esp_grid.cpp
+Compile windows esp.cpp
+Compile windows esp_root_checks.cpp
+Compile windows frame.cpp
+Compile windows frame_checks.cpp
+Compile windows host.cpp
+Compile windows menu.cpp
+Compile windows menu_lifecycle_checks.cpp
+Compile windows resource_checks.cpp
+Compile windows resources.cpp
+Compile windows scene.cpp
+Compile windows semantic_checks.cpp
+{"passed": true, "mode": "windows", "cache_hits": 124, "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe", "artifact_sha256": "9f6809fd61f51d0681599a66dd913ae726e285c45579a9b088f511423d889023"}
+{
+  "passed": true,
+  "mode": "windows",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 18.456,
+  "artifact_sha256": "9f6809fd61f51d0681599a66dd913ae726e285c45579a9b088f511423d889023",
+  "wine_version": "wine-10.0 (Ubuntu 10.0~repack-12ubuntu1)",
+  "isolated_prefix": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_wine_3t660cbf",
+  "native_windows_validated": false,
+  "inside_rust_validated": false,
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

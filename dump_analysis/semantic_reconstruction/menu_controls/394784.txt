@@ -1,0 +1,27 @@
+394784	sub    rsp,0x28
+394788	mov    rax,QWORD PTR [rip+0x71399]        # 0x405b28
+39478f	mov    r8d,edx
+394792	mov    rdx,QWORD PTR [rax+0x48e8]
+394799	test   rdx,rdx
+39479c	je     0x3947e3
+39479e	mov    rdx,QWORD PTR [rdx+0x378]
+3947a5	test   rdx,rdx
+3947a8	je     0x3947e3
+3947aa	cmp    BYTE PTR [rdx+0xb7],0x0
+3947b1	je     0x3947e3
+3947b3	mov    rcx,QWORD PTR [rcx+0x378]
+3947ba	cmp    rdx,rcx
+3947bd	je     0x3947e3
+3947bf	test   DWORD PTR [rdx+0x14],0x8000000
+3947c6	jne    0x3947d7
+3947c8	test   DWORD PTR [rdx+0x14],0x4000000
+3947cf	je     0x3947e3
+3947d1	test   r8b,0x20
+3947d5	jne    0x3947e3
+3947d7	call   0x3948bc
+3947dc	test   al,al
+3947de	setne  al
+3947e1	jmp    0x3947e5
+3947e3	mov    al,0x1
+3947e5	add    rsp,0x28
+3947e9	ret

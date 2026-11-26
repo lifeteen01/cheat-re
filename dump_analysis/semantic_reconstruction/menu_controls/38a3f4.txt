@@ -1,0 +1,6 @@
+38a3f4	maxss  xmm0,xmm1
+38a3f8	ret
+38a3f9	int3
+38a3fa	int3
+38a3fb	int3
+38a3fc	movss  xmm0,DWORD PTR [rcx]

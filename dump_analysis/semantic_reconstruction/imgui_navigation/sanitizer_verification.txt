@@ -1,0 +1,12 @@
+Compile imgui_navigation_checks.cpp
+Compile imgui_navigation_core.cpp
+Compile imgui_navigation_scoring.cpp
+Compile imgui_navigation_text.cpp
+Compile menu_controls_input.cpp
+Compile menu_controls_math.cpp
+Compile menu_controls_navigation.cpp
+Compile drawlist_core_commands.cpp
+Compile drawlist_core_bindings.cpp
+Compile main.cpp
+Link 10 translation units; 0 content-verified cache hits
+navigation PASS

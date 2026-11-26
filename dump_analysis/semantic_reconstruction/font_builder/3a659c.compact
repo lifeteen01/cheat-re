@@ -1,0 +1,19 @@
+3a659c dec    ecx
+3a659e mov    eax,ecx
+3a65a0 sar    eax,1
+3a65a2 or     eax,ecx
+3a65a4 mov    ecx,eax
+3a65a6 sar    ecx,0x2
+3a65a9 or     ecx,eax
+3a65ab mov    eax,ecx
+3a65ad sar    eax,0x4
+3a65b0 or     eax,ecx
+3a65b2 mov    ecx,eax
+3a65b4 sar    ecx,0x8
+3a65b7 or     ecx,eax
+3a65b9 mov    eax,ecx
+3a65bb sar    eax,0x10
+3a65be or     eax,ecx
+3a65c0 inc    eax
+3a65c2 ret
+3a65c3 int3

@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "mode": "strict",
+  "exit_code": 1,
+  "inputs_unchanged": true,
+  "seconds": 3.357,
+  "captures": {},
+  "artifact_sha256": "b47adc6f947488e04e6e460ce76fd5a1d98cb75f56ac7342b3541d0c8851ac81",
+  "entrypoints": {},
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

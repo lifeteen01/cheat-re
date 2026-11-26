@@ -1,0 +1,31 @@
+332e8c mov    QWORD PTR [rsp+0x8],rbx
+332e91 push   rdi
+332e92 sub    rsp,0x40
+332e96 mov    rdi,rdx
+332e99 lea    rcx,[rsp+0x20]
+332e9e mov    rdx,r8
+332ea1 mov    rbx,r9
+332ea4 call   0x2cc268
+332ea9 mov    rdx,rbx
+332eac lea    rcx,[rsp+0x28]
+332eb1 call   0x2cc268
+332eb6 mov    edx,DWORD PTR [rsp+0x70]
+332eba lea    rcx,[rsp+0x30]
+332ebf call   0x2df370
+332ec4 movups xmm0,XMMWORD PTR [rsp+0x20]
+332ec9 xor    eax,eax
+332ecb mov    rcx,rdi
+332ece movsd  xmm1,QWORD PTR [rsp+0x30]
+332ed4 mov    WORD PTR [rdi+0xd0],ax
+332edb mov    BYTE PTR [rdi+0xd2],al
+332ee1 mov    al,BYTE PTR [rsp+0x5b]
+332ee5 mov    BYTE PTR [rdi+0xd3],al
+332eeb lea    rax,[rsp+0x48]
+332ef0 movups XMMWORD PTR [rdi+0x88],xmm0
+332ef7 mov    QWORD PTR [rdi+0x78],rax
+332efb movsd  QWORD PTR [rdi+0x98],xmm1
+332f03 mov    QWORD PTR [rdi+0x80],0x3
+332f0e mov    rbx,QWORD PTR [rsp+0x50]
+332f13 add    rsp,0x40
+332f17 pop    rdi
+332f18 jmp    0x3cdbd4

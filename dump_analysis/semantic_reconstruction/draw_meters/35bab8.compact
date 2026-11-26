@@ -1,0 +1,128 @@
+35bab8 mov    rax,rsp
+35babb push   rbp
+35babc push   rbx
+35babd push   rsi
+35babe push   rdi
+35babf push   r14
+35bac1 push   r15
+35bac3 lea    rbp,[rax-0x47]
+35bac7 sub    rsp,0xa8
+35bace movaps XMMWORD PTR [rax-0x48],xmm6
+35bad2 mov    ebx,0xff
+35bad7 mov    esi,r8d
+35bada movaps XMMWORD PTR [rax-0x58],xmm7
+35bade mov    r14d,edx
+35bae1 mov    DWORD PTR [rsp+0x20],ebx
+35bae5 mov    r15,rcx
+35bae8 mov    edx,ebx
+35baea xor    r9d,r9d
+35baed lea    rcx,[rbp-0x21]
+35baf1 xor    r8d,r8d
+35baf4 movaps xmm6,xmm3
+35baf7 call   0x2db318
+35bafc xor    r9d,r9d
+35baff mov    DWORD PTR [rsp+0x20],ebx
+35bb03 mov    r8d,ebx
+35bb06 lea    rcx,[rbp-0x51]
+35bb0a xor    edx,edx
+35bb0c call   0x2db318
+35bb11 xor    r9d,r9d
+35bb14 mov    DWORD PTR [rsp+0x20],ebx
+35bb18 mov    r8d,ebx
+35bb1b lea    rcx,[rbp-0x41]
+35bb1f mov    edx,ebx
+35bb21 call   0x2db318
+35bb26 xor    r9d,r9d
+35bb29 mov    DWORD PTR [rsp+0x20],ebx
+35bb2d lea    edx,[rbx-0x61]
+35bb30 lea    rcx,[rbp-0x31]
+35bb34 lea    r8d,[r9+0x53]
+35bb38 call   0x2db318
+35bb3d xor    r9d,r9d
+35bb40 mov    DWORD PTR [rsp+0x20],ebx
+35bb44 xor    r8d,r8d
+35bb47 lea    rcx,[rbp-0x61]
+35bb4b xor    edx,edx
+35bb4d call   0x2db318
+35bb52 movss  xmm7,DWORD PTR [rbp+0x6f]
+35bb57 movaps xmm1,xmm7
+35bb5a mulss  xmm1,DWORD PTR [rip+0xfffffffffff3754a]        # 0x2930ac
+35bb62 comiss xmm1,xmm6
+35bb65 jb     0x35bb6d
+35bb67 movups xmm0,XMMWORD PTR [rbp-0x51]
+35bb6b jmp    0x35bb9b
+35bb6d movaps xmm0,xmm1
+35bb70 addss  xmm0,xmm1
+35bb74 comiss xmm0,xmm6
+35bb77 jb     0x35bb7f
+35bb79 movups xmm0,XMMWORD PTR [rbp-0x41]
+35bb7d jmp    0x35bb9b
+35bb7f mulss  xmm1,DWORD PTR [rip+0xfffffffffff375d1]        # 0x293158
+35bb87 comiss xmm1,xmm6
+35bb8a jb     0x35bb92
+35bb8c movups xmm0,XMMWORD PTR [rbp-0x31]
+35bb90 jmp    0x35bb9b
+35bb92 comiss xmm7,xmm6
+35bb95 jb     0x35bb9f
+35bb97 movups xmm0,XMMWORD PTR [rbp-0x21]
+35bb9b movups XMMWORD PTR [rbp-0x61],xmm0
+35bb9f xor    r9d,r9d
+35bba2 mov    DWORD PTR [rsp+0x20],ebx
+35bba6 xor    r8d,r8d
+35bba9 lea    rcx,[rbp-0x21]
+35bbad xor    edx,edx
+35bbaf call   0x2db318
+35bbb4 mov    rcx,rax
+35bbb7 call   0x2ef80c
+35bbbc mov    edi,DWORD PTR [rbp+0x7f]
+35bbbf mov    rcx,r15
+35bbc2 mov    ebx,DWORD PTR [rbp+0x77]
+35bbc5 movd   xmm2,esi
+35bbc9 movd   xmm1,r14d
+35bbce movd   xmm0,edi
+35bbd2 movd   xmm3,ebx
+35bbd6 cvtdq2ps xmm0,xmm0
+35bbd9 mov    DWORD PTR [rsp+0x28],eax
+35bbdd cvtdq2ps xmm3,xmm3
+35bbe0 cvtdq2ps xmm2,xmm2
+35bbe3 cvtdq2ps xmm1,xmm1
+35bbe6 movss  DWORD PTR [rsp+0x20],xmm0
+35bbec call   0x35c738
+35bbf1 add    ebx,0xfffffffe
+35bbf4 movd   xmm0,ebx
+35bbf8 cvtdq2ps xmm0,xmm0
+35bbfb mulss  xmm0,xmm6
+35bbff divss  xmm0,xmm7
+35bc03 cvttss2si eax,xmm0
+35bc07 cmp    eax,ebx
+35bc09 cmovl  ebx,eax
+35bc0c test   ebx,ebx
+35bc0e jle    0x35bc51
+35bc10 lea    rcx,[rbp-0x61]
+35bc14 call   0x2ef80c
+35bc19 lea    ecx,[rdi-0x2]
+35bc1c movd   xmm3,ebx
+35bc20 movd   xmm0,ecx
+35bc24 lea    ecx,[rsi+0x1]
+35bc27 movd   xmm2,ecx
+35bc2b lea    ecx,[r14+0x1]
+35bc2f movd   xmm1,ecx
+35bc33 mov    rcx,r15
+35bc36 cvtdq2ps xmm0,xmm0
+35bc39 mov    DWORD PTR [rsp+0x28],eax
+35bc3d cvtdq2ps xmm1,xmm1
+35bc40 cvtdq2ps xmm3,xmm3
+35bc43 cvtdq2ps xmm2,xmm2
+35bc46 movss  DWORD PTR [rsp+0x20],xmm0
+35bc4c call   0x35c738
+35bc51 lea    r11,[rsp+0xa8]
+35bc59 movaps xmm6,XMMWORD PTR [r11-0x18]
+35bc5e movaps xmm7,XMMWORD PTR [r11-0x28]
+35bc63 mov    rsp,r11
+35bc66 pop    r15
+35bc68 pop    r14
+35bc6a pop    rdi
+35bc6b pop    rsi
+35bc6c pop    rbx
+35bc6d pop    rbp
+35bc6e ret

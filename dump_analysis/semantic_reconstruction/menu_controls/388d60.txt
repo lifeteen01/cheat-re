@@ -1,0 +1,56 @@
+388d60	rex push rbp
+388d62	push   rbx
+388d63	push   rsi
+388d64	push   rdi
+388d65	mov    rbp,rsp
+388d68	sub    rsp,0x28
+388d6c	movss  xmm1,DWORD PTR [rip+0xfffffffffff04de0]        # 0x28db54
+388d74	mov    rbx,rcx
+388d77	movaps xmm2,xmm1
+388d7a	lea    rcx,[rbp+0x30]
+388d7e	call   0x2cc340
+388d83	movss  xmm1,DWORD PTR [rip+0xfffffffffff206b9]        # 0x2a9444
+388d8b	lea    rcx,[rbp+0x28]
+388d8f	movaps xmm2,xmm1
+388d92	call   0x2cc340
+388d97	call   0x392ecc
+388d9c	mov    edi,DWORD PTR [rip+0x7a02e]        # 0x402dd0
+388da2	lea    rsi,[rax+0x20]
+388da6	jmp    0x388df0
+388da8	mov    edx,edi
+388daa	mov    rcx,rsi
+388dad	call   0x382da8
+388db2	mov    r8,rax
+388db5	lea    rdx,[rbp+0x30]
+388db9	lea    rcx,[rbp+0x38]
+388dbd	call   0x383070
+388dc2	mov    edx,edi
+388dc4	mov    rcx,rsi
+388dc7	movsd  xmm0,QWORD PTR [rax]
+388dcb	movsd  QWORD PTR [rbp+0x30],xmm0
+388dd0	call   0x382da8
+388dd5	mov    r8,rax
+388dd8	lea    rdx,[rbp+0x28]
+388ddc	lea    rcx,[rbp+0x40]
+388de0	call   0x383044
+388de5	inc    edi
+388de7	movsd  xmm0,QWORD PTR [rax]
+388deb	movsd  QWORD PTR [rbp+0x28],xmm0
+388df0	cmp    edi,DWORD PTR [rsi]
+388df2	jl     0x388da8
+388df4	movss  xmm0,DWORD PTR [rip+0xfffffffffff04454]        # 0x28d250
+388dfc	mov    rcx,rbx
+388dff	movss  xmm2,DWORD PTR [rbp+0x2c]
+388e04	movss  xmm1,DWORD PTR [rbp+0x28]
+388e09	addss  xmm2,DWORD PTR [rbp+0x34]
+388e0e	addss  xmm1,DWORD PTR [rbp+0x30]
+388e13	mulss  xmm2,xmm0
+388e17	mulss  xmm1,xmm0
+388e1b	call   0x2cc340
+388e20	mov    rax,rbx
+388e23	add    rsp,0x28
+388e27	pop    rdi
+388e28	pop    rsi
+388e29	pop    rbx
+388e2a	pop    rbp
+388e2b	ret

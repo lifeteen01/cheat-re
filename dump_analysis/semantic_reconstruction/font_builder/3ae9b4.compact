@@ -1,0 +1,9 @@
+3ae9b4 rex push rbx
+3ae9b6 sub    rsp,0x20
+3ae9ba mov    rbx,rcx
+3ae9bd mov    rcx,QWORD PTR [rcx+0x38]
+3ae9c1 call   0x39517c
+3ae9c6 mov    rcx,QWORD PTR [rbx+0x8]
+3ae9ca add    rsp,0x20
+3ae9ce pop    rbx
+3ae9cf jmp    0x39517c

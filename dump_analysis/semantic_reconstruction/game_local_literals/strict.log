@@ -1,0 +1,3 @@
+Compile game_local_literals_bindings.cpp
+Compile game_local_literals_checks.cpp
+PASS GCC15 strict C++20 game local literal fixtures strict

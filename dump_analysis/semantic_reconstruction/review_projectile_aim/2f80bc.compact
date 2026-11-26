@@ -1,0 +1,42 @@
+2f80bc rex push rbx
+2f80be sub    rsp,0x50
+2f80c2 mov    rax,rdx
+2f80c5 movaps XMMWORD PTR [rsp+0x40],xmm7
+2f80ca mov    rbx,rcx
+2f80cd movaps XMMWORD PTR [rsp+0x30],xmm8
+2f80d3 mov    rcx,rax
+2f80d6 lea    rdx,[rsp+0x20]
+2f80db call   0x2df6cc
+2f80e0 movss  xmm0,DWORD PTR [rsp+0x24]
+2f80e6 movss  xmm1,DWORD PTR [rsp+0x20]
+2f80ec movss  xmm2,DWORD PTR [rsp+0x28]
+2f80f2 mulss  xmm0,xmm0
+2f80f6 mulss  xmm1,xmm1
+2f80fa mulss  xmm2,xmm2
+2f80fe addss  xmm0,xmm1
+2f8102 addss  xmm0,xmm2
+2f8106 call   0x2e3c88
+2f810b movaps xmm8,xmm0
+2f810f movss  xmm0,DWORD PTR [rsp+0x24]
+2f8115 call   0x3c8e0c
+2f811a movss  xmm1,DWORD PTR [rsp+0x28]
+2f8120 xorps  xmm1,XMMWORD PTR [rip+0xfffffffffff9b179]        # 0x2932a0
+2f8127 movss  xmm0,DWORD PTR [rsp+0x20]
+2f812d call   0x31a924
+2f8132 movaps xmm7,xmm0
+2f8135 movss  xmm0,DWORD PTR [rsp+0x24]
+2f813b xorps  xmm7,XMMWORD PTR [rip+0xfffffffffff9b15e]        # 0x2932a0
+2f8142 mulss  xmm7,DWORD PTR [rip+0xfffffffffff9b0aa]        # 0x2931f4
+2f814a divss  xmm0,xmm8
+2f814f call   0x31a8e4
+2f8154 mulss  xmm0,DWORD PTR [rip+0xfffffffffff9b098]        # 0x2931f4
+2f815c movaps xmm2,xmm7
+2f815f mov    rcx,rbx
+2f8162 movaps xmm1,xmm0
+2f8165 call   0x2cc340
+2f816a movaps xmm7,XMMWORD PTR [rsp+0x40]
+2f816f mov    rax,rbx
+2f8172 movaps xmm8,XMMWORD PTR [rsp+0x30]
+2f8178 add    rsp,0x50
+2f817c pop    rbx
+2f817d ret

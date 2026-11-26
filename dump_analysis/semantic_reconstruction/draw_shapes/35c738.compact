@@ -1,0 +1,77 @@
+35c738 mov    rax,rsp
+35c73b mov    QWORD PTR [rax+0x8],rbx
+35c73f push   rdi
+35c740 sub    rsp,0x90
+35c747 movaps XMMWORD PTR [rax-0x18],xmm6
+35c74b movaps xmm6,xmm2
+35c74e movaps XMMWORD PTR [rax-0x28],xmm7
+35c752 movaps xmm7,xmm1
+35c755 movaps XMMWORD PTR [rax-0x38],xmm8
+35c75a movaps XMMWORD PTR [rax-0x48],xmm9
+35c75f movaps xmm9,xmm3
+35c763 call   0x35d200
+35c768 xorps  xmm8,xmm8
+35c76c comiss xmm8,xmm7
+35c770 ja     0x35c864
+35c776 comiss xmm8,xmm6
+35c77a ja     0x35c864
+35c780 comiss xmm7,DWORD PTR [rip+0xfffffffffff4bae1]        # 0x2a8268
+35c787 ja     0x35c864
+35c78d comiss xmm6,DWORD PTR [rip+0xfffffffffff4bad0]        # 0x2a8264
+35c794 ja     0x35c864
+35c79a mov    rdi,QWORD PTR [rax+0x298]
+35c7a1 xorps  xmm4,xmm4
+35c7a4 mov    ecx,DWORD PTR [rsp+0xc8]
+35c7ab xorps  xmm3,xmm3
+35c7ae movss  xmm0,DWORD PTR [rip+0xfffffffffff30f2e]        # 0x28d6e4
+35c7b6 mov    eax,ecx
+35c7b8 shr    eax,0x18
+35c7bb xorps  xmm2,xmm2
+35c7be xorps  xmm1,xmm1
+35c7c1 cvtsi2ss xmm4,rax
+35c7c6 mov    eax,ecx
+35c7c8 shr    eax,0x10
+35c7cb movzx  eax,al
+35c7ce cvtsi2ss xmm3,rax
+35c7d3 mov    eax,ecx
+35c7d5 shr    eax,0x8
+35c7d8 movzx  eax,al
+35c7db divss  xmm4,xmm0
+35c7df cvtsi2ss xmm2,rax
+35c7e4 movzx  eax,cl
+35c7e7 lea    rcx,[rsp+0x40]
+35c7ec cvtsi2ss xmm1,rax
+35c7f1 divss  xmm3,xmm0
+35c7f5 divss  xmm1,xmm0
+35c7f9 divss  xmm2,xmm0
+35c7fd movss  DWORD PTR [rsp+0x20],xmm4
+35c803 call   0x2cc350
+35c808 mov    rcx,rax
+35c80b call   0x392260
+35c810 movaps xmm2,xmm6
+35c813 lea    rcx,[rsp+0x30]
+35c818 addss  xmm2,DWORD PTR [rsp+0xc0]
+35c821 movaps xmm1,xmm7
+35c824 mov    ebx,eax
+35c826 addss  xmm1,xmm9
+35c82b call   0x2cc340
+35c830 movaps xmm2,xmm6
+35c833 lea    rcx,[rsp+0x38]
+35c838 movaps xmm1,xmm7
+35c83b call   0x2cc340
+35c840 mov    r9d,ebx
+35c843 mov    DWORD PTR [rsp+0x28],0x0
+35c84b lea    r8,[rsp+0x30]
+35c850 movss  DWORD PTR [rsp+0x20],xmm8
+35c857 lea    rdx,[rsp+0x38]
+35c85c mov    rcx,rdi
+35c85f call   0x3a1244
+35c864 movaps xmm7,XMMWORD PTR [rsp+0x70]
+35c869 lea    r11,[rsp+0x90]
+35c871 mov    rbx,QWORD PTR [r11+0x10]
+35c875 movaps xmm6,XMMWORD PTR [r11-0x10]
+35c87a movaps xmm8,XMMWORD PTR [r11-0x30]
+35c87f movaps xmm9,XMMWORD PTR [r11-0x40]
+35c884 mov    rsp,r11
+35c887 pop    rdi
+35c888 ret

@@ -1,0 +1,87 @@
+3ade50 rex push rbx
+3ade52 push   rbp
+3ade53 push   rsi
+3ade54 push   rdi
+3ade55 push   r12
+3ade57 push   r14
+3ade59 push   r15
+3ade5b sub    rsp,0x30
+3ade5f mov    rbx,rdx
+3ade62 movsxd rsi,r8d
+3ade65 xor    edx,edx
+3ade67 mov    r12,rcx
+3ade6a mov    edi,0x1
+3ade6f test   r8d,r8d
+3ade72 jle    0x3ade83
+3ade74 lea    r8,[rdx+rdx*2]
+3ade78 mov    DWORD PTR [rbx+r8*8+0x14],edx
+3ade7d inc    edx
+3ade7f cmp    edx,esi
+3ade81 jl     0x3ade74
+3ade83 lea    r9,[rip+0xffffffffffffb68e]        # 0x3a9518
+3ade8a mov    r8d,0x18
+3ade90 mov    rdx,rsi
+3ade93 mov    rcx,rbx
+3ade96 call   0x39344c
+3ade9b xor    r14d,r14d
+3ade9e test   esi,esi
+3adea0 jle    0x3adef5
+3adea2 lea    rbp,[r14+r14*2]
+3adea6 mov    r8d,DWORD PTR [rbx+rbp*8+0x4]
+3adeab test   r8d,r8d
+3adeae je     0x3adee1
+3adeb0 mov    r9d,DWORD PTR [rbx+rbp*8+0x8]
+3adeb5 test   r9d,r9d
+3adeb8 je     0x3adee1
+3adeba mov    rdx,r12
+3adebd lea    rcx,[rsp+0x20]
+3adec2 call   0x3a9bb8
+3adec7 mov    rcx,rax
+3adeca cmp    QWORD PTR [rax+0x8],0x0
+3adecf je     0x3aded8
+3aded1 mov    eax,DWORD PTR [rax]
+3aded3 mov    ecx,DWORD PTR [rcx+0x4]
+3aded6 jmp    0x3adee5
+3aded8 mov    ecx,0x7fffffff
+3adedd mov    eax,ecx
+3adedf jmp    0x3adee5
+3adee1 xor    eax,eax
+3adee3 xor    ecx,ecx
+3adee5 inc    r14d
+3adee8 mov    DWORD PTR [rbx+rbp*8+0x10],ecx
+3adeec mov    DWORD PTR [rbx+rbp*8+0xc],eax
+3adef0 cmp    r14d,esi
+3adef3 jl     0x3adea2
+3adef5 lea    r9,[rip+0xffffffffffffb644]        # 0x3a9540
+3adefc mov    r8d,0x18
+3adf02 mov    rdx,rsi
+3adf05 mov    rcx,rbx
+3adf08 call   0x39344c
+3adf0d xor    ecx,ecx
+3adf0f test   esi,esi
+3adf11 jle    0x3adf44
+3adf13 lea    rdx,[rcx+rcx*2]
+3adf17 cmp    DWORD PTR [rbx+rdx*8+0xc],0x7fffffff
+3adf1f jne    0x3adf2f
+3adf21 cmp    DWORD PTR [rbx+rdx*8+0x10],0x7fffffff
+3adf29 jne    0x3adf2f
+3adf2b xor    eax,eax
+3adf2d jmp    0x3adf34
+3adf2f mov    eax,0x1
+3adf34 mov    DWORD PTR [rbx+rdx*8+0x14],eax
+3adf38 neg    eax
+3adf3a sbb    eax,eax
+3adf3c inc    ecx
+3adf3e and    edi,eax
+3adf40 cmp    ecx,esi
+3adf42 jl     0x3adf13
+3adf44 mov    eax,edi
+3adf46 add    rsp,0x30
+3adf4a pop    r15
+3adf4c pop    r14
+3adf4e pop    r12
+3adf50 pop    rdi
+3adf51 pop    rsi
+3adf52 pop    rbp
+3adf53 pop    rbx
+3adf54 ret

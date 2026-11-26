@@ -1,0 +1,2 @@
+Compile menu_color_picker_logging.cpp
+PASS GCC15 strict C++20 color picker controller fixtures strict

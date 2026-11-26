@@ -1,0 +1,10 @@
+{
+  "confidence": "C",
+  "mode": "sanitizer",
+  "content_checked_object_cache": true,
+  "exit_status": 0,
+  "source_changed_during_run": [],
+  "passed": true,
+  "log": "dump_analysis/semantic_reconstruction/test_scene_fidelity_regression_sanitizer_verification.txt",
+  "limit": "Analyst-owned fixture code only; no sample execution or live ABI validation."
+}

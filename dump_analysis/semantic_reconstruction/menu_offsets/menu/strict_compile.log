@@ -1,0 +1,26 @@
+Native menu focused validation, 2026-11-24
+Working directory: /home/john/Desktop/cheat_re
+Compiler: extracted x86_64-w64-mingw32-g++-posix (GCC) 13-posix
+
+1. Default-character-set compile
+dump_analysis/semantic_reconstruction/windows_base/toolchain/usr/bin/x86_64-w64-mingw32-g++-posix -Bdump_analysis/semantic_reconstruction/windows_base/toolchain/usr/bin/ -std=c++20 -Wall -Wextra -Wpedantic -Werror -c source/windows_base/base_menu.cpp -o /tmp/re_base_menu.o
+Exit 0, no diagnostics.
+
+2. Unicode / Windows 10 compile
+dump_analysis/semantic_reconstruction/windows_base/toolchain/usr/bin/x86_64-w64-mingw32-g++-posix -Bdump_analysis/semantic_reconstruction/windows_base/toolchain/usr/bin/ -std=c++20 -Wall -Wextra -Wpedantic -Werror -DUNICODE -D_UNICODE -D_WIN32_WINNT=0x0A00 -c source/windows_base/base_menu.cpp -o /tmp/re_base_menu_unicode.o
+Exit 0, no diagnostics.
+
+3. Menu-only DLL link, undefined symbols forbidden
+dump_analysis/semantic_reconstruction/windows_base/toolchain/usr/bin/x86_64-w64-mingw32-g++-posix -Bdump_analysis/semantic_reconstruction/windows_base/toolchain/usr/bin/ -shared -static -static-libgcc -static-libstdc++ -Wl,--no-undefined /tmp/re_base_menu.o -o /tmp/re_base_menu_link.dll -luser32 -lgdi32 -lcomctl32
+Exit 0, no diagnostics. This DLL was not executed.
+
+Source SHA-256 at handback:
+d41cba3ebe435458216a1633bab647fa595d3f432d31774f3cf188220a83b78d  source/windows_base/base_menu.hpp
+d47b56d763d67228d65050d12f0c8e4ea393fba82a2a08f52d93e0485602ae73  source/windows_base/base_menu.cpp
+
+Output SHA-256 (temporary outputs, compile/link evidence only):
+c5bb6f19901def303b482608aa49730c25798007f9494db735b2791b14f04ba9  /tmp/re_base_menu.o
+e7674fafb030742b4631b2f47b3da653f31a8f495395b9128b9d90275c80ede2  /tmp/re_base_menu_unicode.o
+a83d770ce77742d03ae02075bb46006859b79b03da52d3d2b51cd55bd879aa83  /tmp/re_base_menu_link.dll
+
+Scope: compile and link only. Parent runs integration after this freeze. No game/sample execution, external upload, executor, or game-compatibility claim.

@@ -1,0 +1,6 @@
+Compile frame_dependencies_overlay.cpp
+Compile world_esp_item_names.cpp
+Compile menu_pages_analysis.cpp
+Compile menu_pages_players.cpp
+Link 26 sources
+PASS: GCC15 C++20 menu page fixtures (strict)

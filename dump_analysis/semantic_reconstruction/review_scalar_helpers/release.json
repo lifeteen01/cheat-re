@@ -1,0 +1,37 @@
+{
+  "claim": "C/I",
+  "fixed_findings": [
+    "SG1",
+    "SG2",
+    "SG3",
+    "SG4"
+  ],
+  "source_files": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_helpers_analysis.cpp": "1754547892b943c6f7d312d397920abc55c997f014dfd4c97d2a6250facf0cf1",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_helpers_checks.cpp": "3d3956e6df68d2383f9c6caa714252a6ee6c9470922400fcb6f2b62defcb0c1a",
+    "/home/john/Desktop/cheat_re/source/reconstructed/projectile_leaf_helpers.cpp": "62eb4ef28804fa2984a7af73f3504a0dd298d952b86738a7384590e480046ba5",
+    "/home/john/Desktop/cheat_re/source/reconstructed/projectile_leaf_checks.cpp": "b072a831de71c3b3c3e32f2a6c54449d60094dfc62e63e92540f4b67802f4201"
+  },
+  "unmodified_review_areas": [
+    "unity_math_analysis",
+    "font_producer_analysis",
+    "font_builder_support"
+  ],
+  "reviewed_envelopes": 53,
+  "direct_branches": 198,
+  "independent_literals": 37,
+  "validation": {
+    "strict": "PASS",
+    "ASan_UBSan": "PASS",
+    "isolated_reversions": "SG1-SG4 PASS (reverted copies reject fixtures)"
+  },
+  "limits": [
+    "matching effects/live ABI/excluded executors",
+    "FP flags/traps/environment and other compilers",
+    "unknown stack/home bits",
+    "raw quaternion address aliasing outside by-value API",
+    "shared metadata/reference/getter/container modules not re-audited",
+    "separately owned font builder/parser/packing closure",
+    "parent integration/combined validation"
+  ]
+}

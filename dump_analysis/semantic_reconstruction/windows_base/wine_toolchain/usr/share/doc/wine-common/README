@@ -1,0 +1,64 @@
+## INTRODUCTION
+
+Wine is a program which allows running Microsoft Windows programs
+(including DOS, Windows 3.x, Win32, and Win64 executables) on Unix.
+It consists of a program loader which loads and executes a Microsoft
+Windows binary, and a library (called Winelib) that implements Windows
+API calls using their Unix, X11 or Mac equivalents.  The library may also
+be used for porting Windows code into native Unix executables.
+
+Wine is free software, released under the GNU LGPL; see the file
+LICENSE for the details.
+
+
+## SETUP
+
+Once installed, you can run the `winecfg` configuration tool. See the
+Support area at https://www.winehq.org/ for configuration hints.
+
+
+## RUNNING PROGRAMS
+
+When invoking Wine, you may specify the entire path to the executable,
+or a filename only.
+
+For example, to run Notepad:
+
+```
+wine notepad            (using the search Path as specified in
+wine notepad.exe         the registry to locate the file)
+
+wine c:\\windows\\notepad.exe      (using DOS filename syntax)
+
+wine ~/.wine/drive_c/windows/notepad.exe  (using Unix filename syntax)
+
+wine notepad.exe readme.txt          (calling program with parameters)
+```
+
+Wine is not perfect, so some programs may crash. If that happens you
+will get a crash log that you should attach to your report when filing
+a bug.
+
+
+## GETTING MORE INFORMATION
+
+- **WWW**: A great deal of information about Wine is available from WineHQ at
+	https://www.winehq.org/ : various Wine Guides, application database,
+	bug tracking. This is probably the best starting point.
+
+- **FAQ**: The Wine FAQ is located at https://gitlab.winehq.org/wine/wine/-/wikis/FAQ
+
+- **Wiki**: The Wine Wiki is located at https://gitlab.winehq.org/wine/wine/-/wikis/
+
+- **Gitlab**: Wine development is hosted at https://gitlab.winehq.org
+
+- **Mailing lists**:
+	There are several mailing lists for Wine users and developers; see
+	https://gitlab.winehq.org/wine/wine/-/wikis/Forums for more
+	information.
+
+- **Bugs**: Report bugs to Wine Bugzilla at https://bugs.winehq.org
+	Please search the bugzilla database to check whether your
+	problem is already known or fixed before posting a bug report.
+
+- **IRC**: Online help is available at channel `#WineHQ` on irc.libera.chat.

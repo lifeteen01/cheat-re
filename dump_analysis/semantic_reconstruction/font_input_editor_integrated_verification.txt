@@ -1,0 +1,13 @@
+[I] Combined immutable-script strict verification.
+Compile font_atlas_input_bindings.cpp
+Compile font_atlas_input_checks.cpp
+Compile font_atlas_input_clear.cpp
+Compile font_atlas_input_coverage.cpp
+Compile font_atlas_input_ingestion.cpp
+Compile font_atlas_input_memory.cpp
+Compile font_atlas_input_ranges.cpp
+Compile analysis_checks.cpp
+Link 281 translation units; 273 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

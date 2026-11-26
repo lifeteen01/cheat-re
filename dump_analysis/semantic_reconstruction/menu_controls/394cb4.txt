@@ -1,0 +1,8 @@
+394cb4	mov    rax,QWORD PTR [rip+0x70e6d]        # 0x405b28
+394cbb	cmp    DWORD PTR [rax+0x3f68],ecx
+394cc1	jne    0x394cc9
+394cc3	mov    DWORD PTR [rax+0x3f6c],ecx
+394cc9	cmp    DWORD PTR [rax+0x3f98],ecx
+394ccf	jne    0x394cd8
+394cd1	mov    BYTE PTR [rax+0x3f9c],0x1
+394cd8	ret

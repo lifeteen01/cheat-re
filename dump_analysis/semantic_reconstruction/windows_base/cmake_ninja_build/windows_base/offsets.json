@@ -1,0 +1,1113 @@
+{
+  "schema_version": 1,
+  "profile_id": "historical-cheat-sample-unverified-v1",
+  "game_build": "unknown-historical-build-unverified",
+  "provenance": "Scoped recovered fixed inputs from cheat.unpacked.dll SHA256 ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090; game binaries and metadata unavailable; historical/unverified",
+  "modules": {
+    "GameAssembly.dll": {
+      "sha256": "",
+      "image_size": 0
+    },
+    "UnityPlayer.dll": {
+      "sha256": "",
+      "image_size": 0
+    }
+  },
+  "offsets": {
+    "field.aim_weapon.component.3c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3c"
+    },
+    "field.aim_weapon.held.4d8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x4d8"
+    },
+    "field.aim_weapon.held.4e8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x4e8"
+    },
+    "field.aim_weapon.input.44": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x44"
+    },
+    "field.aim_weapon.local.38": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x38"
+    },
+    "field.aim_weapon.mod.40": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x40"
+    },
+    "field.aim_weapon.mod.44": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x44"
+    },
+    "field.aim_weapon.projectile.304": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x304"
+    },
+    "field.aim_weapon.projectile.3ac": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3ac"
+    },
+    "field.aim_weapon.recoil.18": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x18"
+    },
+    "field.aim_weapon.recoil.1c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x1c"
+    },
+    "field.aim_weapon.recoil.20": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x20"
+    },
+    "field.aim_weapon.recoil.24": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x24"
+    },
+    "field.aim_weapon.recoil.80": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x80"
+    },
+    "field.aim_weapon.view.20": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x20"
+    },
+    "field.aim_weapon.view.218": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x218"
+    },
+    "field.aim_weapon.view.28": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.aim_weapon.view.f0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xf0"
+    },
+    "field.aim_weapon.weapon.220": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x220"
+    },
+    "field.aim_weapon.weapon.224": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x224"
+    },
+    "field.aim_weapon.weapon.228": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x228"
+    },
+    "field.aim_weapon.weapon.304": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x304"
+    },
+    "field.aim_weapon.weapon.3b0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3b0"
+    },
+    "field.aim_weapon.weapon.418": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x418"
+    },
+    "field.aim_weapon.weapon.420": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x420"
+    },
+    "field.aim_weapon.weapon.457": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x457"
+    },
+    "field.attachment_modifier_enabled_byte.230": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x230"
+    },
+    "field.attachment_modifier_scalar.248": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x248"
+    },
+    "field.entity_model_pointer.1d0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x1d0"
+    },
+    "field.entity_prefab_identifier.54": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x54"
+    },
+    "field.entity_validity_qword.48": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x48"
+    },
+    "field.game_receiver_vector_getter.338": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x338"
+    },
+    "field.game_unity_receiver_pointer_getter.200": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x200"
+    },
+    "field.getter_3680d4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x320"
+    },
+    "field.getter_3693b0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x2c0"
+    },
+    "field.getter_3693d4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x2d0"
+    },
+    "field.getter_369400": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x350"
+    },
+    "field.getter_3696e4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x708"
+    },
+    "field.getter_36970c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x2cc"
+    },
+    "field.getter_369738": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x778"
+    },
+    "field.getter_369764": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x300"
+    },
+    "field.getter_36a2c8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x4e8"
+    },
+    "field.getter_36a2f4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x6d0"
+    },
+    "field.getter_371294": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x30"
+    },
+    "field.getter_3715d8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x10"
+    },
+    "field.getter_371604": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x88"
+    },
+    "field.getter_372184": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xd8"
+    },
+    "field.getter_372220": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x2f8"
+    },
+    "field.getter_37236c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x58"
+    },
+    "field.getter_37261c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x20"
+    },
+    "field.getter_372bcc": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x24"
+    },
+    "field.getter_373dc8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.getter_373df4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x20"
+    },
+    "field.getter_373e20": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x30"
+    },
+    "field.getter_373e4c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x50"
+    },
+    "field.getter_374210": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x128"
+    },
+    "field.getter_37423c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x144"
+    },
+    "field.getter_3742ac": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x138"
+    },
+    "field.getter_3742d4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x120"
+    },
+    "field.getter_374300": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x188"
+    },
+    "field.getter_374348": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x40"
+    },
+    "field.hit_bone_identifier.24": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x24"
+    },
+    "field.hit_entity_identifier.38": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x38"
+    },
+    "field.hit_kind_field.40": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x40"
+    },
+    "field.interaction_workers.hit.5c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x5c"
+    },
+    "field.interaction_workers.hit.6c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x6c"
+    },
+    "field.interaction_workers.hit.90": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x90"
+    },
+    "field.interaction_workers.hit.a4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xa4"
+    },
+    "field.interaction_workers.hit.b0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xb0"
+    },
+    "field.interaction_workers.hit.c0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xc0"
+    },
+    "field.interaction_workers.hit.d8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xd8"
+    },
+    "field.interaction_workers.local.600": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x600"
+    },
+    "field.interaction_workers.projectile.3c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3c"
+    },
+    "field.interaction_workers.projectile.40": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x40"
+    },
+    "field.interaction_workers.projectile.44": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x44"
+    },
+    "field.interaction_workers.weapon.304": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x304"
+    },
+    "field.interaction_workers.weapon.3b8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3b8"
+    },
+    "field.maincamera_static_field_camera_slot.38": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x38"
+    },
+    "field.model_bone_transform_array_pointer.50": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x50"
+    },
+    "field.movement.player.4e8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x4e8"
+    },
+    "field.movement.record.28": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.movement.record.30": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x30"
+    },
+    "field.movement_main.ammo.34": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x34"
+    },
+    "field.movement_main.ammo.38": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x38"
+    },
+    "field.movement_main.ammo.3c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3c"
+    },
+    "field.movement_main.component.348": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x348"
+    },
+    "field.movement_main.entity.1d8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x1d8"
+    },
+    "field.movement_main.entity.340": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x340"
+    },
+    "field.movement_main.entity.370": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x370"
+    },
+    "field.movement_main.player.4e8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x4e8"
+    },
+    "field.movement_main.player.7d1": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x7d1"
+    },
+    "field.movement_main.player.7f8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x7f8"
+    },
+    "field.movement_main.projectile.34": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x34"
+    },
+    "field.movement_main.projectile.38": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x38"
+    },
+    "field.movement_main.projectile.3ac": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3ac"
+    },
+    "field.movement_main.projectile.44": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x44"
+    },
+    "field.movement_main.record.28": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.movement_main.record.30": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x30"
+    },
+    "field.movement_main.weapon.3ac": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3ac"
+    },
+    "field.movement_main.weapon.3f8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3f8"
+    },
+    "field.native_camera_position.444": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x444"
+    },
+    "field.orientation_storage_on_related_object.5c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x5c"
+    },
+    "field.player_decimal_identifier_string_reference.640": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x640"
+    },
+    "field.player_display_name_reference.338": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x338"
+    },
+    "field.projectile.ammo.38": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x38"
+    },
+    "field.projectile.ammo.3c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3c"
+    },
+    "field.projectile.ammo.40": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x40"
+    },
+    "field.projectile.ammo.44": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x44"
+    },
+    "field.projectile.component.28": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.projectile.hit.5c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x5c"
+    },
+    "field.projectile.hit.6c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x6c"
+    },
+    "field.projectile.hit.90": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x90"
+    },
+    "field.projectile.hit.a4": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xa4"
+    },
+    "field.projectile.hit.b0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xb0"
+    },
+    "field.projectile.hit.c0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xc0"
+    },
+    "field.projectile.hit.d0": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xd0"
+    },
+    "field.projectile.hit.d8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xd8"
+    },
+    "field.projectile.p.16c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x16c"
+    },
+    "field.projectile.p.178": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x178"
+    },
+    "field.projectile.p.184": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x184"
+    },
+    "field.projectile.p.188": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x188"
+    },
+    "field.projectile.p.190": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x190"
+    },
+    "field.projectile.p.28": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.projectile.p.3c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3c"
+    },
+    "field.projectile.p.44": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x44"
+    },
+    "field.projectile.p.80": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x80"
+    },
+    "field.projectile.p.f8": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0xf8"
+    },
+    "field.projectile.shot.10": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x10"
+    },
+    "field.projectile.shot.20": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x20"
+    },
+    "field.projectile.shot.30": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x30"
+    },
+    "field.projectile.weapon.3ac": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x3ac"
+    },
+    "field.projectile.weapon.428": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x428"
+    },
+    "field.projectile_current_position.178": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x178"
+    },
+    "field.projectile_current_velocity.16c": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x16c"
+    },
+    "field.sky_model.day.10": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x10"
+    },
+    "field.sky_model.inner.10": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x10"
+    },
+    "field.sky_model.player.300": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x300"
+    },
+    "field.sky_model.sky.40": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x40"
+    },
+    "field.sky_model.sky.58": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x58"
+    },
+    "field.sky_model.sky.78": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x78"
+    },
+    "field.sky_model.sky_settings.28": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x28"
+    },
+    "field.weapon_attachment_list.90": {
+      "kind": "field_offset",
+      "module": "",
+      "value": "0x90"
+    },
+    "gameassembly.site_2ddab5": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x5458c90"
+    },
+    "gameassembly.site_2e0e57": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf069320"
+    },
+    "gameassembly.site_2e0f48": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3118820"
+    },
+    "gameassembly.site_2e6a00": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x544b6f0"
+    },
+    "gameassembly.site_2e6ab1": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x544c850"
+    },
+    "gameassembly.site_2e79b0": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x60425f0"
+    },
+    "gameassembly.site_2e7a3f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x60425f0"
+    },
+    "gameassembly.site_2e7d31": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x395f0a0"
+    },
+    "gameassembly.site_2e8675": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf1134b0"
+    },
+    "gameassembly.site_2e883d": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x60425f0"
+    },
+    "gameassembly.site_2f803f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0ee490"
+    },
+    "gameassembly.site_2f8a16": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0ee0a8"
+    },
+    "gameassembly.site_314f31": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf1440e8"
+    },
+    "gameassembly.site_3150c5": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x2bfaec0"
+    },
+    "gameassembly.site_315a2f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0c8518"
+    },
+    "gameassembly.site_315b8f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf1440e8"
+    },
+    "gameassembly.site_31613d": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f464e0"
+    },
+    "gameassembly.site_321805": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x544fe10"
+    },
+    "gameassembly.site_321e1c": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x597e7b0"
+    },
+    "gameassembly.site_3225a6": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x59dede0"
+    },
+    "gameassembly.site_322639": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x5f80bb0"
+    },
+    "gameassembly.site_324922": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf1fc098"
+    },
+    "gameassembly.site_324ed5": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf6b67b8"
+    },
+    "gameassembly.site_324f18": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf6b8c60"
+    },
+    "gameassembly.site_324f5b": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf6b6d68"
+    },
+    "gameassembly.site_325307": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0a7480"
+    },
+    "gameassembly.site_3273e0": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0c90b0"
+    },
+    "gameassembly.site_3276af": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x597e7b0"
+    },
+    "gameassembly.site_32796b": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x395f0a0"
+    },
+    "gameassembly.site_329362": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf1fc098"
+    },
+    "gameassembly.site_329587": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0e86e8"
+    },
+    "gameassembly.site_32971f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0a3650"
+    },
+    "gameassembly.site_329a43": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0083d0"
+    },
+    "gameassembly.site_32a328": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x597e7b0"
+    },
+    "gameassembly.site_32b2bf": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf0ee490"
+    },
+    "gameassembly.site_32b341": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x300df20"
+    },
+    "gameassembly.site_32bd81": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x36586b0"
+    },
+    "gameassembly.site_32bf54": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf39f0a8"
+    },
+    "gameassembly.site_32ce17": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x265bc00"
+    },
+    "gameassembly.site_32cf68": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3fe4a37"
+    },
+    "gameassembly.site_3306d1": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x1cbf9e0"
+    },
+    "gameassembly.site_3306e2": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x1cbfee0"
+    },
+    "gameassembly.site_33094f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf39f0a8"
+    },
+    "gameassembly.site_366515": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f0bd20"
+    },
+    "gameassembly.site_366c66": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3907c80"
+    },
+    "gameassembly.site_366d0a": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x38ea530"
+    },
+    "gameassembly.site_366dc9": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x390c430"
+    },
+    "gameassembly.site_366e82": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x38f9900"
+    },
+    "gameassembly.site_366f2a": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x65c7f60"
+    },
+    "gameassembly.site_3681a3": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3e66250"
+    },
+    "gameassembly.site_3687d0": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x597e7b0"
+    },
+    "gameassembly.site_368ab3": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f83e00"
+    },
+    "gameassembly.site_368b3f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f12dd0"
+    },
+    "gameassembly.site_3692c7": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f1c760"
+    },
+    "gameassembly.site_369353": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3ee0830"
+    },
+    "gameassembly.site_369c57": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3935180"
+    },
+    "gameassembly.site_36a107": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f12dd0"
+    },
+    "gameassembly.site_36a25f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f464e0"
+    },
+    "gameassembly.site_36ad07": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f86850"
+    },
+    "gameassembly.site_36b02b": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x3f37e50"
+    },
+    "gameassembly.site_36b0fd": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x311d680"
+    },
+    "gameassembly.site_36b6fc": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x1657ed0"
+    },
+    "gameassembly.site_36b9c7": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x42c45a0"
+    },
+    "gameassembly.site_36baf3": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x42c72c0"
+    },
+    "gameassembly.site_36bbb7": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x1645940"
+    },
+    "gameassembly.site_36beed": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0xf6b730"
+    },
+    "gameassembly.site_36bf7f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x42c45a0"
+    },
+    "gameassembly.site_36c11f": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x42c2c70"
+    },
+    "gameassembly.site_36c217": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x16670b0"
+    },
+    "gameassembly.site_36c2d1": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x10a2640"
+    },
+    "gameassembly.site_370ba4": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x171e8f0"
+    },
+    "gameassembly.site_37157b": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x44d6360"
+    },
+    "gameassembly.site_372783": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x514a6b0"
+    },
+    "gameassembly.site_3739f2": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x19edb50"
+    },
+    "gameassembly.site_373aa3": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x19f0a00"
+    },
+    "gameassembly.site_373c8e": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x19f3db0"
+    },
+    "gameassembly.site_37419b": {
+      "kind": "module_rva",
+      "module": "GameAssembly.dll",
+      "value": "0x1cd1620"
+    }
+  }
+}

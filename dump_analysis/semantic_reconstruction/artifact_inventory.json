@@ -1,0 +1,872 @@
+{
+  "manifest_filename_matches": [],
+  "minidumps": [
+    {
+      "path": "dump_analysis/dumps/pesieve_cheat/process_4248/powershell.exe.dmp",
+      "module_count": 85,
+      "matching_game_modules": [],
+      "modules": [
+        {
+          "base": "0x7ff618890000",
+          "size": 499712,
+          "name": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        {
+          "base": "0x7ffa83c80000",
+          "size": 2519040,
+          "name": "C:\\Windows\\System32\\ntdll.dll"
+        },
+        {
+          "base": "0x7ffa81fa0000",
+          "size": 831488,
+          "name": "C:\\Windows\\System32\\kernel32.dll"
+        },
+        {
+          "base": "0x7ffa80f40000",
+          "size": 4202496,
+          "name": "C:\\Windows\\System32\\KERNELBASE.dll"
+        },
+        {
+          "base": "0x7ffa82070000",
+          "size": 692224,
+          "name": "C:\\Windows\\System32\\msvcrt.dll"
+        },
+        {
+          "base": "0x7ffa82970000",
+          "size": 888832,
+          "name": "C:\\Windows\\System32\\oleaut32.dll"
+        },
+        {
+          "base": "0x7ffa81480000",
+          "size": 667648,
+          "name": "C:\\Windows\\System32\\msvcp_win.dll"
+        },
+        {
+          "base": "0x7ffa81530000",
+          "size": 1359872,
+          "name": "C:\\Windows\\System32\\ucrtbase.dll"
+        },
+        {
+          "base": "0x7ffa74280000",
+          "size": 122880,
+          "name": "C:\\Windows\\System32\\atl.dll"
+        },
+        {
+          "base": "0x7ffa82ae0000",
+          "size": 3690496,
+          "name": "C:\\Windows\\System32\\combase.dll"
+        },
+        {
+          "base": "0x7ffa835f0000",
+          "size": 1896448,
+          "name": "C:\\Windows\\System32\\user32.dll"
+        },
+        {
+          "base": "0x7ffa83040000",
+          "size": 1146880,
+          "name": "C:\\Windows\\System32\\rpcrt4.dll"
+        },
+        {
+          "base": "0x7ffa818b0000",
+          "size": 159744,
+          "name": "C:\\Windows\\System32\\win32u.dll"
+        },
+        {
+          "base": "0x7ffa82e90000",
+          "size": 770048,
+          "name": "C:\\Windows\\System32\\advapi32.dll"
+        },
+        {
+          "base": "0x7ffa81f60000",
+          "size": 176128,
+          "name": "C:\\Windows\\System32\\gdi32.dll"
+        },
+        {
+          "base": "0x7ffa82f90000",
+          "size": 692224,
+          "name": "C:\\Windows\\System32\\sechost.dll"
+        },
+        {
+          "base": "0x7ffa81be0000",
+          "size": 1679360,
+          "name": "C:\\Windows\\System32\\ole32.dll"
+        },
+        {
+          "base": "0x7ffa81350000",
+          "size": 1216512,
+          "name": "C:\\Windows\\System32\\gdi32full.dll"
+        },
+        {
+          "base": "0x7ffa73bb0000",
+          "size": 446464,
+          "name": "C:\\Windows\\System32\\mscoree.dll"
+        },
+        {
+          "base": "0x7ffa81ae0000",
+          "size": 200704,
+          "name": "C:\\Windows\\System32\\imm32.dll"
+        },
+        {
+          "base": "0x7ffa7fb50000",
+          "size": 110592,
+          "name": "C:\\Windows\\System32\\kernel.appcore.dll"
+        },
+        {
+          "base": "0x7ffa80e80000",
+          "size": 704512,
+          "name": "C:\\Windows\\System32\\bcryptPrimitives.dll"
+        },
+        {
+          "base": "0x7ffa7dfa0000",
+          "size": 688128,
+          "name": "C:\\Windows\\System32\\uxtheme.dll"
+        },
+        {
+          "base": "0x7ffa81b20000",
+          "size": 712704,
+          "name": "C:\\Windows\\System32\\clbcatq.dll"
+        },
+        {
+          "base": "0x7ffa7e920000",
+          "size": 9101312,
+          "name": "C:\\Windows\\System32\\windows.storage.dll"
+        },
+        {
+          "base": "0x7ffa83ab0000",
+          "size": 1028096,
+          "name": "C:\\Windows\\System32\\SHCore.dll"
+        },
+        {
+          "base": "0x7ffa82a50000",
+          "size": 417792,
+          "name": "C:\\Windows\\System32\\shlwapi.dll"
+        },
+        {
+          "base": "0x7ffa7bd30000",
+          "size": 1003520,
+          "name": "C:\\Windows\\System32\\propsys.dll"
+        },
+        {
+          "base": "0x7ffa821b0000",
+          "size": 7962624,
+          "name": "C:\\Windows\\System32\\shell32.dll"
+        },
+        {
+          "base": "0x7ffa690a0000",
+          "size": 61440,
+          "name": "C:\\Windows\\System32\\linkinfo.dll"
+        },
+        {
+          "base": "0x7ffa80da0000",
+          "size": 167936,
+          "name": "C:\\Windows\\System32\\profapi.dll"
+        },
+        {
+          "base": "0x7ffa74780000",
+          "size": 167936,
+          "name": "C:\\Windows\\System32\\srvcli.dll"
+        },
+        {
+          "base": "0x7ffa7fe10000",
+          "size": 299008,
+          "name": "C:\\Windows\\System32\\sspicli.dll"
+        },
+        {
+          "base": "0x7ffa809a0000",
+          "size": 335872,
+          "name": "C:\\Windows\\System32\\cfgmgr32.dll"
+        },
+        {
+          "base": "0x7ffa6a530000",
+          "size": 94208,
+          "name": "C:\\Windows\\System32\\virtdisk.dll"
+        },
+        {
+          "base": "0x7ffa63ec0000",
+          "size": 692224,
+          "name": "C:\\Windows\\System32\\ntshrui.dll"
+        },
+        {
+          "base": "0x7ffa72980000",
+          "size": 77824,
+          "name": "C:\\Windows\\System32\\cscapi.dll"
+        },
+        {
+          "base": "0x7ffa7c6d0000",
+          "size": 745472,
+          "name": "C:\\Windows\\System32\\policymanager.dll"
+        },
+        {
+          "base": "0x7ffa80d70000",
+          "size": 172032,
+          "name": "C:\\Windows\\System32\\bcrypt.dll"
+        },
+        {
+          "base": "0x7ffa7fc80000",
+          "size": 221184,
+          "name": "C:\\Windows\\System32\\ntmarta.dll"
+        },
+        {
+          "base": "0x7ffa730e0000",
+          "size": 634880,
+          "name": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll"
+        },
+        {
+          "base": "0x7ffa64b10000",
+          "size": 45056,
+          "name": "C:\\Windows\\System32\\version.dll"
+        },
+        {
+          "base": "0x7ffa36e10000",
+          "size": 10108928,
+          "name": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll"
+        },
+        {
+          "base": "0x7ffa74270000",
+          "size": 49152,
+          "name": "C:\\Windows\\System32\\VCRUNTIME140_1_CLR0400.dll"
+        },
+        {
+          "base": "0x7ffa72850000",
+          "size": 839680,
+          "name": "C:\\Windows\\System32\\ucrtbase_clr0400.dll"
+        },
+        {
+          "base": "0x7ffa73b90000",
+          "size": 110592,
+          "name": "C:\\Windows\\System32\\VCRUNTIME140_CLR0400.dll"
+        },
+        {
+          "base": "0x7ffa357b0000",
+          "size": 23449600,
+          "name": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\924e6db108935ec2ad12d0992d572588\\mscorlib.ni.dll"
+        },
+        {
+          "base": "0x7ffa80400000",
+          "size": 110592,
+          "name": "C:\\Windows\\System32\\cryptsp.dll"
+        },
+        {
+          "base": "0x7ffa7fab0000",
+          "size": 233472,
+          "name": "C:\\Windows\\System32\\rsaenh.dll"
+        },
+        {
+          "base": "0x7ffa80420000",
+          "size": 49152,
+          "name": "C:\\Windows\\System32\\CRYPTBASE.dll"
+        },
+        {
+          "base": "0x7ffa35680000",
+          "size": 1241088,
+          "name": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll"
+        },
+        {
+          "base": "0x7ffa82ac0000",
+          "size": 32768,
+          "name": "C:\\Windows\\System32\\psapi.dll"
+        },
+        {
+          "base": "0x7ffa741f0000",
+          "size": 118784,
+          "name": "C:\\Windows\\System32\\amsi.dll"
+        },
+        {
+          "base": "0x7ffa81820000",
+          "size": 532480,
+          "name": "C:\\Windows\\System32\\wintrust.dll"
+        },
+        {
+          "base": "0x7ffa81690000",
+          "size": 1564672,
+          "name": "C:\\Windows\\System32\\crypt32.dll"
+        },
+        {
+          "base": "0x7ffa80480000",
+          "size": 77824,
+          "name": "C:\\Windows\\System32\\msasn1.dll"
+        },
+        {
+          "base": "0x7ffa80190000",
+          "size": 151552,
+          "name": "C:\\Windows\\System32\\gpapi.dll"
+        },
+        {
+          "base": "0x7ffa80500000",
+          "size": 434176,
+          "name": "C:\\Windows\\System32\\wldp.dll"
+        },
+        {
+          "base": "0x7ffa73b70000",
+          "size": 94208,
+          "name": "C:\\Windows\\System32\\appidapi.dll"
+        },
+        {
+          "base": "0x7ffa72810000",
+          "size": 233472,
+          "name": "C:\\Windows\\System32\\srpapi.dll"
+        },
+        {
+          "base": "0x7ffa35310000",
+          "size": 3584000,
+          "name": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll"
+        },
+        {
+          "base": "0x7ffa81a50000",
+          "size": 524288,
+          "name": "C:\\Windows\\System32\\ws2_32.dll"
+        },
+        {
+          "base": "0x7ffa727c0000",
+          "size": 323584,
+          "name": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll"
+        },
+        {
+          "base": "0x7ffa7dd30000",
+          "size": 53248,
+          "name": "C:\\Windows\\System32\\secur32.dll"
+        },
+        {
+          "base": "0x7ffa6ff30000",
+          "size": 1949696,
+          "name": "C:\\Windows\\System32\\urlmon.dll"
+        },
+        {
+          "base": "0x7ffa72b50000",
+          "size": 2899968,
+          "name": "C:\\Windows\\System32\\iertutil.dll"
+        },
+        {
+          "base": "0x7ffa7f6a0000",
+          "size": 53248,
+          "name": "C:\\Windows\\System32\\netutils.dll"
+        },
+        {
+          "base": "0x7ffa2a960000",
+          "size": 27209728,
+          "name": "C:\\lab\\rt\\cheat.dll"
+        },
+        {
+          "base": "0x29c194d0000",
+          "size": 323584,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll"
+        },
+        {
+          "base": "0x29c19840000",
+          "size": 3584000,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll"
+        },
+        {
+          "base": "0x29c7f560000",
+          "size": 122880,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Security\\v4.0_3.0.0.0__31bf3856ad364e35\\Microsoft.PowerShell.Security.dll"
+        },
+        {
+          "base": "0x29c7f5a0000",
+          "size": 434176,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.PowerShell.ConsoleHost\\v4.0_3.0.0.0__31bf3856ad364e35\\Microsoft.PowerShell.ConsoleHost.dll"
+        },
+        {
+          "base": "0x29c7f670000",
+          "size": 106496,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Configuration.Install\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Configuration.Install.dll"
+        },
+        {
+          "base": "0x29c7f800000",
+          "size": 147456,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.Management.Infrastructure\\v4.0_1.0.0.0__31bf3856ad364e35\\Microsoft.Management.Infrastructure.dll"
+        },
+        {
+          "base": "0x29c7f830000",
+          "size": 139264,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Numerics\\v4.0_4.0.0.0__b77a5c561934e089\\System.Numerics.dll"
+        },
+        {
+          "base": "0x29c7f8d0000",
+          "size": 425984,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.DirectoryServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.DirectoryServices.dll"
+        },
+        {
+          "base": "0x29c7f960000",
+          "size": 1556480,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll"
+        },
+        {
+          "base": "0x29c7fce0000",
+          "size": 417792,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Management\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Management.dll"
+        },
+        {
+          "base": "0x29c7fd50000",
+          "size": 6709248,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Management.Automation\\v4.0_3.0.0.0__31bf3856ad364e35\\System.Management.Automation.dll"
+        },
+        {
+          "base": "0x29c803c0000",
+          "size": 3571712,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll"
+        },
+        {
+          "base": "0x29c80730000",
+          "size": 417792,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Configuration\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Configuration.dll"
+        },
+        {
+          "base": "0x29c80820000",
+          "size": 499712,
+          "name": "C:\\Program Files\\WindowsPowerShell\\Modules\\PSReadLine\\2.0.0\\Microsoft.PowerShell.PSReadLine.dll"
+        },
+        {
+          "base": "0x29c808a0000",
+          "size": 483328,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.CSharp\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\Microsoft.CSharp.dll"
+        },
+        {
+          "base": "0x29c809c0000",
+          "size": 2646016,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Xml\\v4.0_4.0.0.0__b77a5c561934e089\\System.XML.dll"
+        },
+        {
+          "base": "0x29c81300000",
+          "size": 7012352,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\v4.0_3.0.0.0__31bf3856ad364e35\\Microsoft.PowerShell.Commands.Utility.dll"
+        }
+      ]
+    },
+    {
+      "path": "dump_analysis/dumps/pesieve_hooks_full/process_6608/powershell.exe.dmp",
+      "module_count": 85,
+      "matching_game_modules": [],
+      "modules": [
+        {
+          "base": "0x7ff618890000",
+          "size": 499712,
+          "name": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        {
+          "base": "0x7ffa83c80000",
+          "size": 2519040,
+          "name": "C:\\Windows\\System32\\ntdll.dll"
+        },
+        {
+          "base": "0x7ffa81fa0000",
+          "size": 831488,
+          "name": "C:\\Windows\\System32\\kernel32.dll"
+        },
+        {
+          "base": "0x7ffa80f40000",
+          "size": 4202496,
+          "name": "C:\\Windows\\System32\\KERNELBASE.dll"
+        },
+        {
+          "base": "0x7ffa82070000",
+          "size": 692224,
+          "name": "C:\\Windows\\System32\\msvcrt.dll"
+        },
+        {
+          "base": "0x7ffa82970000",
+          "size": 888832,
+          "name": "C:\\Windows\\System32\\oleaut32.dll"
+        },
+        {
+          "base": "0x7ffa81480000",
+          "size": 667648,
+          "name": "C:\\Windows\\System32\\msvcp_win.dll"
+        },
+        {
+          "base": "0x7ffa74280000",
+          "size": 122880,
+          "name": "C:\\Windows\\System32\\atl.dll"
+        },
+        {
+          "base": "0x7ffa81530000",
+          "size": 1359872,
+          "name": "C:\\Windows\\System32\\ucrtbase.dll"
+        },
+        {
+          "base": "0x7ffa835f0000",
+          "size": 1896448,
+          "name": "C:\\Windows\\System32\\user32.dll"
+        },
+        {
+          "base": "0x7ffa818b0000",
+          "size": 159744,
+          "name": "C:\\Windows\\System32\\win32u.dll"
+        },
+        {
+          "base": "0x7ffa82ae0000",
+          "size": 3690496,
+          "name": "C:\\Windows\\System32\\combase.dll"
+        },
+        {
+          "base": "0x7ffa81f60000",
+          "size": 176128,
+          "name": "C:\\Windows\\System32\\gdi32.dll"
+        },
+        {
+          "base": "0x7ffa83040000",
+          "size": 1146880,
+          "name": "C:\\Windows\\System32\\rpcrt4.dll"
+        },
+        {
+          "base": "0x7ffa81350000",
+          "size": 1216512,
+          "name": "C:\\Windows\\System32\\gdi32full.dll"
+        },
+        {
+          "base": "0x7ffa82e90000",
+          "size": 770048,
+          "name": "C:\\Windows\\System32\\advapi32.dll"
+        },
+        {
+          "base": "0x7ffa82f90000",
+          "size": 692224,
+          "name": "C:\\Windows\\System32\\sechost.dll"
+        },
+        {
+          "base": "0x7ffa81be0000",
+          "size": 1679360,
+          "name": "C:\\Windows\\System32\\ole32.dll"
+        },
+        {
+          "base": "0x7ffa73bb0000",
+          "size": 446464,
+          "name": "C:\\Windows\\System32\\mscoree.dll"
+        },
+        {
+          "base": "0x7ffa81ae0000",
+          "size": 200704,
+          "name": "C:\\Windows\\System32\\imm32.dll"
+        },
+        {
+          "base": "0x7ffa7fb50000",
+          "size": 110592,
+          "name": "C:\\Windows\\System32\\kernel.appcore.dll"
+        },
+        {
+          "base": "0x7ffa80e80000",
+          "size": 704512,
+          "name": "C:\\Windows\\System32\\bcryptPrimitives.dll"
+        },
+        {
+          "base": "0x7ffa7dfa0000",
+          "size": 688128,
+          "name": "C:\\Windows\\System32\\uxtheme.dll"
+        },
+        {
+          "base": "0x7ffa81b20000",
+          "size": 712704,
+          "name": "C:\\Windows\\System32\\clbcatq.dll"
+        },
+        {
+          "base": "0x7ffa7e920000",
+          "size": 9101312,
+          "name": "C:\\Windows\\System32\\windows.storage.dll"
+        },
+        {
+          "base": "0x7ffa83ab0000",
+          "size": 1028096,
+          "name": "C:\\Windows\\System32\\SHCore.dll"
+        },
+        {
+          "base": "0x7ffa82a50000",
+          "size": 417792,
+          "name": "C:\\Windows\\System32\\shlwapi.dll"
+        },
+        {
+          "base": "0x7ffa7bd30000",
+          "size": 1003520,
+          "name": "C:\\Windows\\System32\\propsys.dll"
+        },
+        {
+          "base": "0x7ffa821b0000",
+          "size": 7962624,
+          "name": "C:\\Windows\\System32\\shell32.dll"
+        },
+        {
+          "base": "0x7ffa690a0000",
+          "size": 61440,
+          "name": "C:\\Windows\\System32\\linkinfo.dll"
+        },
+        {
+          "base": "0x7ffa80da0000",
+          "size": 167936,
+          "name": "C:\\Windows\\System32\\profapi.dll"
+        },
+        {
+          "base": "0x7ffa74780000",
+          "size": 167936,
+          "name": "C:\\Windows\\System32\\srvcli.dll"
+        },
+        {
+          "base": "0x7ffa7fe10000",
+          "size": 299008,
+          "name": "C:\\Windows\\System32\\sspicli.dll"
+        },
+        {
+          "base": "0x7ffa809a0000",
+          "size": 335872,
+          "name": "C:\\Windows\\System32\\cfgmgr32.dll"
+        },
+        {
+          "base": "0x7ffa6a530000",
+          "size": 94208,
+          "name": "C:\\Windows\\System32\\virtdisk.dll"
+        },
+        {
+          "base": "0x7ffa63ec0000",
+          "size": 692224,
+          "name": "C:\\Windows\\System32\\ntshrui.dll"
+        },
+        {
+          "base": "0x7ffa72980000",
+          "size": 77824,
+          "name": "C:\\Windows\\System32\\cscapi.dll"
+        },
+        {
+          "base": "0x7ffa7c6d0000",
+          "size": 745472,
+          "name": "C:\\Windows\\System32\\policymanager.dll"
+        },
+        {
+          "base": "0x7ffa80d70000",
+          "size": 172032,
+          "name": "C:\\Windows\\System32\\bcrypt.dll"
+        },
+        {
+          "base": "0x7ffa7fc80000",
+          "size": 221184,
+          "name": "C:\\Windows\\System32\\ntmarta.dll"
+        },
+        {
+          "base": "0x7ffa730e0000",
+          "size": 634880,
+          "name": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll"
+        },
+        {
+          "base": "0x7ffa64b10000",
+          "size": 45056,
+          "name": "C:\\Windows\\System32\\version.dll"
+        },
+        {
+          "base": "0x7ffa36e10000",
+          "size": 10108928,
+          "name": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll"
+        },
+        {
+          "base": "0x7ffa74270000",
+          "size": 49152,
+          "name": "C:\\Windows\\System32\\VCRUNTIME140_1_CLR0400.dll"
+        },
+        {
+          "base": "0x7ffa72850000",
+          "size": 839680,
+          "name": "C:\\Windows\\System32\\ucrtbase_clr0400.dll"
+        },
+        {
+          "base": "0x7ffa73b90000",
+          "size": 110592,
+          "name": "C:\\Windows\\System32\\VCRUNTIME140_CLR0400.dll"
+        },
+        {
+          "base": "0x7ffa357b0000",
+          "size": 23449600,
+          "name": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\924e6db108935ec2ad12d0992d572588\\mscorlib.ni.dll"
+        },
+        {
+          "base": "0x7ffa80400000",
+          "size": 110592,
+          "name": "C:\\Windows\\System32\\cryptsp.dll"
+        },
+        {
+          "base": "0x7ffa7fab0000",
+          "size": 233472,
+          "name": "C:\\Windows\\System32\\rsaenh.dll"
+        },
+        {
+          "base": "0x7ffa80420000",
+          "size": 49152,
+          "name": "C:\\Windows\\System32\\CRYPTBASE.dll"
+        },
+        {
+          "base": "0x7ffa35680000",
+          "size": 1241088,
+          "name": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll"
+        },
+        {
+          "base": "0x7ffa82ac0000",
+          "size": 32768,
+          "name": "C:\\Windows\\System32\\psapi.dll"
+        },
+        {
+          "base": "0x7ffa741f0000",
+          "size": 118784,
+          "name": "C:\\Windows\\System32\\amsi.dll"
+        },
+        {
+          "base": "0x7ffa81820000",
+          "size": 532480,
+          "name": "C:\\Windows\\System32\\wintrust.dll"
+        },
+        {
+          "base": "0x7ffa81690000",
+          "size": 1564672,
+          "name": "C:\\Windows\\System32\\crypt32.dll"
+        },
+        {
+          "base": "0x7ffa80480000",
+          "size": 77824,
+          "name": "C:\\Windows\\System32\\msasn1.dll"
+        },
+        {
+          "base": "0x7ffa80190000",
+          "size": 151552,
+          "name": "C:\\Windows\\System32\\gpapi.dll"
+        },
+        {
+          "base": "0x7ffa80500000",
+          "size": 434176,
+          "name": "C:\\Windows\\System32\\wldp.dll"
+        },
+        {
+          "base": "0x7ffa73b70000",
+          "size": 94208,
+          "name": "C:\\Windows\\System32\\appidapi.dll"
+        },
+        {
+          "base": "0x7ffa72810000",
+          "size": 233472,
+          "name": "C:\\Windows\\System32\\srpapi.dll"
+        },
+        {
+          "base": "0x7ffa35310000",
+          "size": 3584000,
+          "name": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll"
+        },
+        {
+          "base": "0x7ffa81a50000",
+          "size": 524288,
+          "name": "C:\\Windows\\System32\\ws2_32.dll"
+        },
+        {
+          "base": "0x7ffa727c0000",
+          "size": 323584,
+          "name": "C:\\Windows\\Microsoft.Net\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll"
+        },
+        {
+          "base": "0x7ffa7dd30000",
+          "size": 53248,
+          "name": "C:\\Windows\\System32\\secur32.dll"
+        },
+        {
+          "base": "0x7ffa6ff30000",
+          "size": 1949696,
+          "name": "C:\\Windows\\System32\\urlmon.dll"
+        },
+        {
+          "base": "0x7ffa72b50000",
+          "size": 2899968,
+          "name": "C:\\Windows\\System32\\iertutil.dll"
+        },
+        {
+          "base": "0x7ffa7f6a0000",
+          "size": 53248,
+          "name": "C:\\Windows\\System32\\netutils.dll"
+        },
+        {
+          "base": "0x7ffa2e5a0000",
+          "size": 20865024,
+          "name": "C:\\lab\\rt\\simple_raknet_hooks.dll"
+        },
+        {
+          "base": "0x24dfa6a0000",
+          "size": 434176,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.PowerShell.ConsoleHost\\v4.0_3.0.0.0__31bf3856ad364e35\\Microsoft.PowerShell.ConsoleHost.dll"
+        },
+        {
+          "base": "0x24dfa770000",
+          "size": 122880,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Security\\v4.0_3.0.0.0__31bf3856ad364e35\\Microsoft.PowerShell.Security.dll"
+        },
+        {
+          "base": "0x24dfa900000",
+          "size": 139264,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Numerics\\v4.0_4.0.0.0__b77a5c561934e089\\System.Numerics.dll"
+        },
+        {
+          "base": "0x24dfa950000",
+          "size": 147456,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.Management.Infrastructure\\v4.0_1.0.0.0__31bf3856ad364e35\\Microsoft.Management.Infrastructure.dll"
+        },
+        {
+          "base": "0x24dfa9a0000",
+          "size": 106496,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Configuration.Install\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Configuration.Install.dll"
+        },
+        {
+          "base": "0x24dfa9f0000",
+          "size": 323584,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll"
+        },
+        {
+          "base": "0x24dfaa40000",
+          "size": 1556480,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll"
+        },
+        {
+          "base": "0x24dfabc0000",
+          "size": 425984,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.DirectoryServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.DirectoryServices.dll"
+        },
+        {
+          "base": "0x24dfac30000",
+          "size": 417792,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Management\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Management.dll"
+        },
+        {
+          "base": "0x24dface0000",
+          "size": 417792,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Configuration\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Configuration.dll"
+        },
+        {
+          "base": "0x24dfae30000",
+          "size": 6709248,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Management.Automation\\v4.0_3.0.0.0__31bf3856ad364e35\\System.Management.Automation.dll"
+        },
+        {
+          "base": "0x24dfb4a0000",
+          "size": 3571712,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll"
+        },
+        {
+          "base": "0x24dfba10000",
+          "size": 499712,
+          "name": "C:\\Program Files\\WindowsPowerShell\\Modules\\PSReadLine\\2.0.0\\Microsoft.PowerShell.PSReadLine.dll"
+        },
+        {
+          "base": "0x24dfbaa0000",
+          "size": 2646016,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Xml\\v4.0_4.0.0.0__b77a5c561934e089\\System.XML.dll"
+        },
+        {
+          "base": "0x24dfbd30000",
+          "size": 3584000,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll"
+        },
+        {
+          "base": "0x24dfc300000",
+          "size": 483328,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.CSharp\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\Microsoft.CSharp.dll"
+        },
+        {
+          "base": "0x24dfca30000",
+          "size": 7012352,
+          "name": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\Microsoft.PowerShell.Commands.Utility\\v4.0_3.0.0.0__31bf3856ad364e35\\Microsoft.PowerShell.Commands.Utility.dll"
+        }
+      ]
+    }
+  ],
+  "confidence": "C",
+  "scope": "Manifest filenames and minidump ModuleListStream records only.",
+  "limitations": "Unlisted/manual images, encrypted payload contents and matching-build ABI identities are not inferred."
+}

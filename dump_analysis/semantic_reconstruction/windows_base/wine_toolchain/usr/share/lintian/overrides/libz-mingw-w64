@@ -1,0 +1,6 @@
+# For now files are in /usr/${target}
+libz-mingw-w64: file-in-unusual-dir
+libz-mingw-w64: non-standard-dir-in-usr
+
+# DLLs exported via Samba need to be executable (see #796224)
+libz-mingw-w64: executable-not-elf-or-script [usr/*-w64-mingw32/lib/*.dll]

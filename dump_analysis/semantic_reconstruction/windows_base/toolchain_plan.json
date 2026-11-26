@@ -1,0 +1,63 @@
+{
+  "repository": "configured Ubuntu resolute repositories",
+  "purpose": "Local extracted Windows x64 cross toolchain; no system install",
+  "packages": [
+    {
+      "Package": "g++-mingw-w64-x86-64-posix",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/g++-mingw-w64-x86-64-posix_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "Size": "14701014",
+      "SHA256": "52c3613f386e462ae71105d1a0b2a48d866ccb048ad253acff629c5a2291252d"
+    },
+    {
+      "Package": "gcc-mingw-w64-x86-64-posix",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/gcc-mingw-w64-x86-64-posix_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "Size": "35401298",
+      "SHA256": "0855fa1d4a618550faac3a3e4352aa3226833b28184ad3c3b496a68a22c4eda2"
+    },
+    {
+      "Package": "gcc-mingw-w64-x86-64-posix-runtime",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/gcc-mingw-w64-x86-64-posix-runtime_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "Size": "14036962",
+      "SHA256": "aca6b438e0b55b11cedcf1170a1ee26e7979e34192e34f6e6389e560908a5bfc"
+    },
+    {
+      "Package": "gcc-mingw-w64-base",
+      "Version": "13.2.0-6ubuntu1+26.1",
+      "Filename": "pool/universe/g/gcc-mingw-w64/gcc-mingw-w64-base_13.2.0-6ubuntu1+26.1_amd64.deb",
+      "Size": "188046",
+      "SHA256": "a30c07e807e9874ea93909448c5d6d37f9569ebe60ad32de8e490aad198538a3"
+    },
+    {
+      "Package": "mingw-w64-common",
+      "Version": "13.0.0-2ubuntu1",
+      "Filename": "pool/universe/m/mingw-w64/mingw-w64-common_13.0.0-2ubuntu1_all.deb",
+      "Size": "6143818",
+      "SHA256": "da9b2cb14134ca0ef3a31302df50295a2dd6fee7aa4fd888b11c6f72f8ab939e"
+    },
+    {
+      "Package": "mingw-w64-x86-64-dev",
+      "Version": "13.0.0-2ubuntu1",
+      "Filename": "pool/universe/m/mingw-w64/mingw-w64-x86-64-dev_13.0.0-2ubuntu1_all.deb",
+      "Size": "5292150",
+      "SHA256": "da40b9e2ae89d98d44b547a9e4fd01862858edb176bade9f12ad143e7ae7efe4"
+    },
+    {
+      "Package": "binutils-mingw-w64-x86-64",
+      "Version": "2.45.90.20260125-1ubuntu1+13.3",
+      "Filename": "pool/universe/b/binutils-mingw-w64/binutils-mingw-w64-x86-64_2.45.90.20260125-1ubuntu1+13.3_amd64.deb",
+      "Size": "3097918",
+      "SHA256": "f835050ed5b7fedf8f3242610fda1eb55b5472b72624f9a88de90c610b465552"
+    },
+    {
+      "Package": "binutils-mingw-w64-base",
+      "Version": "2.45.90.20260125-1ubuntu1+13.3",
+      "Filename": "pool/universe/b/binutils-mingw-w64/binutils-mingw-w64-base_2.45.90.20260125-1ubuntu1+13.3_amd64.deb",
+      "Size": "163218",
+      "SHA256": "f3dbbe4aec206d7078987c9ba3286df20a5fab4ed8c63b0f0d31969c26bdfcbf"
+    }
+  ],
+  "bytes": 79024424
+}

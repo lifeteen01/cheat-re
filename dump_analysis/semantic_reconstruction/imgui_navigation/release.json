@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "source/reconstructed/imgui_navigation_analysis.hpp": "4b1574377d84515d251d191a8ca969fe37bf8e89bd29069e957a48fcde2e29de",
+    "source/reconstructed/imgui_navigation_checks.cpp": "fb8920eb57f3398e708af844234d39b8afc41ae57e4c5503741770220114269e",
+    "source/reconstructed/imgui_navigation_core.cpp": "537a238df3edcccf01754b00a46f6305c626fe179003821d0816962dbc5e75f4",
+    "source/reconstructed/imgui_navigation_internal.hpp": "0f6d02ddb4d257de56e0b59281917768f7fd1e6e4fc1ee69a3c7f7b6cec50874",
+    "source/reconstructed/imgui_navigation_reconstruction.md": "63dab26c522aba478abe1239163611e7f0b861d539fe31bee3517740a8661d0a",
+    "source/reconstructed/imgui_navigation_scoring.cpp": "4028a1610098a98d76a60c61954f000e933865d55c67057a05614188876216ad",
+    "source/reconstructed/imgui_navigation_text.cpp": "e082abec69360c79dfed9a10122cc22303ee290bc5ca979c909604e0cfe6c4c7"
+  },
+  "strict": "verification.txt",
+  "sanitizer": "sanitizer_verification.txt",
+  "byte_audit": "audit.json",
+  "limit": "Copied input/navigation state, numeric allocation effects, no sample execution or live ABI"
+}

@@ -1,0 +1,13 @@
+Compile frame_dependencies_analysis.cpp
+Compile frame_dependencies_configuration.cpp
+Compile frame_dependencies_ui_setup.cpp
+Compile frame_dependencies_menu.cpp
+Compile frame_dependencies_main_menu.cpp
+Compile frame_dependencies_overlay.cpp
+Compile frame_residuals_raid.cpp
+Compile frame_preview_analysis.cpp
+Compile frame_preview_geometry.cpp
+Compile frame_preview_widgets.cpp
+Compile frame_residuals_checks.cpp
+Link 36 sources
+PASS: GCC15 C++20 frame residual/preview fixtures (sanitize)

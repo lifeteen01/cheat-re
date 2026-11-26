@@ -1,0 +1,10 @@
+39b52c	mov    rax,QWORD PTR [rip+0x6a5f5]        # 0x405b28
+39b533	xor    edx,edx
+39b535	mov    DWORD PTR [rax+0x3f54],ecx
+39b53b	mov    BYTE PTR [rax+0x3f5c],dl
+39b541	test   ecx,ecx
+39b543	je     0x39b554
+39b545	cmp    DWORD PTR [rax+0x3f58],ecx
+39b54b	je     0x39b554
+39b54d	mov    QWORD PTR [rax+0x3f60],rdx
+39b554	ret

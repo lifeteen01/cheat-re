@@ -1,0 +1,11 @@
+37ca80	sub    rsp,0x38
+37ca84	movaps XMMWORD PTR [rsp+0x20],xmm6
+37ca89	lea    rdx,[rsp+0x50]
+37ca8e	movaps xmm6,xmm1
+37ca91	call   0x378940
+37ca96	mov    rcx,rax
+37ca99	movaps xmm1,xmm6
+37ca9c	call   0x394b40
+37caa1	movaps xmm6,XMMWORD PTR [rsp+0x20]
+37caa6	add    rsp,0x38
+37caaa	ret

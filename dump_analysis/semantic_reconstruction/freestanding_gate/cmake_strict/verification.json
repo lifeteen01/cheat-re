@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "sources_before": {
+    "source/freestanding/gate.h": "d53c2a938aa4871029d433003432fbd9c87887d5c98338495e3b4d85f5f50ef1",
+    "source/freestanding/gate.cpp": "338abf9580919ff3881dc96642b5bb448f12a9a798992f101bcde537e51d2742",
+    "source/freestanding/gate_x64.S": "53b47ae34ab250d3a61b575c526905eb15c3dcd5956a8f2fcf09a678cb1afb98",
+    "source/freestanding/checks.cpp": "cecfa221b271da95d181c0236580c8f5a37de05079483cf3820ab6e80439880d",
+    "source/freestanding/checks_x64.S": "ab6d95446a10e2772fb0c1b2d6dcd60d9e8f6a6079236d39576805465921da2e",
+    "source/freestanding/CMakeLists.txt": "6cc00d7f2e571ef0819158df27ec887ebc5ea60be7452f48cba3578a00d00082"
+  },
+  "sources_after": {
+    "source/freestanding/gate.h": "d53c2a938aa4871029d433003432fbd9c87887d5c98338495e3b4d85f5f50ef1",
+    "source/freestanding/gate.cpp": "338abf9580919ff3881dc96642b5bb448f12a9a798992f101bcde537e51d2742",
+    "source/freestanding/gate_x64.S": "53b47ae34ab250d3a61b575c526905eb15c3dcd5956a8f2fcf09a678cb1afb98",
+    "source/freestanding/checks.cpp": "cecfa221b271da95d181c0236580c8f5a37de05079483cf3820ab6e80439880d",
+    "source/freestanding/checks_x64.S": "ab6d95446a10e2772fb0c1b2d6dcd60d9e8f6a6079236d39576805465921da2e",
+    "source/freestanding/CMakeLists.txt": "6cc00d7f2e571ef0819158df27ec887ebc5ea60be7452f48cba3578a00d00082"
+  },
+  "steps": [
+    {
+      "step": "configure",
+      "exit_code": 0,
+      "command": [
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/cmake",
+        "-S",
+        "/home/john/Desktop/cheat_re/source/freestanding",
+        "-B",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/build",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/ninja",
+        "-DCMAKE_CXX_COMPILER=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/bin/x86_64-linux-gnu-g++-15",
+        "-DCMAKE_ASM_COMPILER=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/bin/x86_64-linux-gnu-g++-15",
+        "-DCMAKE_CXX_FLAGS=--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain -B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15/ -B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15/ -L/usr/lib/x86_64-linux-gnu",
+        "-DCMAKE_ASM_FLAGS=--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain -B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15/ -B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15/ -L/usr/lib/x86_64-linux-gnu"
+      ],
+      "log": "dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/configure.log",
+      "log_sha256": "954baba6fa11a8b8fada9c6dd23b2bb3c2e022d7dd8d873c2bb7938238330498"
+    },
+    {
+      "step": "build",
+      "exit_code": 0,
+      "command": [
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/cmake",
+        "--build",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/build",
+        "--parallel",
+        "2"
+      ],
+      "log": "dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/build.log",
+      "log_sha256": "8c35b1682f73592d30612d7b0fabdb384fcfff35cb5a076cb48b85b1368aa794"
+    },
+    {
+      "step": "ctest",
+      "exit_code": 0,
+      "command": [
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/ctest",
+        "--test-dir",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/build",
+        "--output-on-failure"
+      ],
+      "log": "dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/ctest.log",
+      "log_sha256": "1119476a75d9bbc3fc5d9de2657257061db349a37e85580bb09088499c1e55f8"
+    }
+  ],
+  "artifact": "dump_analysis/semantic_reconstruction/freestanding_gate/cmake_strict/build/owned_gate_checks",
+  "artifact_sha256": "9ade73916a07b748bc139786ceb14878fde5da7c3b5bf065a80e2afedf72ac5d",
+  "scope": "Standalone Linux CMake/CTest owned executor component only"
+}

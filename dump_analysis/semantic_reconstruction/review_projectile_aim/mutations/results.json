@@ -1,0 +1,44 @@
+[
+  {
+    "reversion": "P1_prepare_after_random",
+    "detected": true,
+    "message": "projectile fixture line 105",
+    "exit_code": 1
+  },
+  {
+    "reversion": "P2_final_ray",
+    "detected": true,
+    "message": "projectile fixture line 145",
+    "exit_code": 1
+  },
+  {
+    "reversion": "P3_cached_hit",
+    "detected": true,
+    "message": "projectile fixture line 9",
+    "exit_code": 1
+  },
+  {
+    "reversion": "A1_atomic_angles",
+    "detected": true,
+    "message": "second scalar angle store fails at its own RVA",
+    "exit_code": 1
+  },
+  {
+    "reversion": "A2_reloaded_receiver",
+    "detected": true,
+    "message": "captured retained target survives callback mutation",
+    "exit_code": 1
+  },
+  {
+    "reversion": "A3_atomic_recoil",
+    "detected": true,
+    "message": "aim/weapon numerical fixture",
+    "exit_code": 1
+  },
+  {
+    "reversion": "A4_normalized_bones",
+    "detected": true,
+    "message": "aim/weapon numerical fixture",
+    "exit_code": 1
+  }
+]

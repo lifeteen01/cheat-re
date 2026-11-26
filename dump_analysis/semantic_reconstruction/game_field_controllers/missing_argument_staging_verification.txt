@@ -1,0 +1,3 @@
+Compile missing_argument_staging.cpp
+Link 284 translation units; 283 content-verified cache hits
+FAIL: shared direct getter stages known one-argument fields before its effect

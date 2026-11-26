@@ -1,0 +1,26 @@
+362200 rex push rbx
+362202 sub    rsp,0x30
+362206 movss  xmm0,DWORD PTR [r8+0xc]
+36220c movaps xmm4,xmm3
+36220f subss  xmm0,DWORD PTR [rdx+0xc]
+362214 movss  xmm3,DWORD PTR [r8+0x8]
+36221a mov    rbx,rcx
+36221d subss  xmm3,DWORD PTR [rdx+0x8]
+362222 movss  xmm2,DWORD PTR [r8+0x4]
+362228 subss  xmm2,DWORD PTR [rdx+0x4]
+36222d movss  xmm1,DWORD PTR [r8]
+362232 subss  xmm1,DWORD PTR [rdx]
+362236 mulss  xmm0,xmm4
+36223a mulss  xmm3,xmm4
+36223e addss  xmm0,DWORD PTR [rdx+0xc]
+362243 mulss  xmm2,xmm4
+362247 addss  xmm3,DWORD PTR [rdx+0x8]
+36224c mulss  xmm1,xmm4
+362250 addss  xmm2,DWORD PTR [rdx+0x4]
+362255 movss  DWORD PTR [rsp+0x20],xmm0
+36225b addss  xmm1,DWORD PTR [rdx]
+36225f call   0x2d484c
+362264 mov    rax,rbx
+362267 add    rsp,0x30
+36226b pop    rbx
+36226c ret

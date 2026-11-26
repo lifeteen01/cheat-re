@@ -1,0 +1,4 @@
+Compile metadata_argument_bindings.cpp
+Compile shared_argument_probe.cpp
+Link 2 translation units; 0 content-verified cache hits
+PASS shared one/two/index argument probe

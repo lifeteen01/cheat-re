@@ -1,0 +1,5 @@
+38bb6c mov    rax,r8
+38bb6f ret
+38bb70 movsxd rax,edx
+38bb73 add    rax,QWORD PTR [rcx+0x8]
+38bb77 ret

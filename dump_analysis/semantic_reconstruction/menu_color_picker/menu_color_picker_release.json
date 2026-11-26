@@ -1,0 +1,45 @@
+{
+  "state": "frozen_released_parent_owned",
+  "files": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_analysis.hpp": "f18fba4f2af5e68bce663f9a1ee1c89e318e95f063f03167de7d45ce31143680",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_internal.hpp": "dbe957ee454da4702450d2d36e531c43951718a287f0d83025cb15aca5176436",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_analysis.cpp": "62dde7addca5dee583fb4150c70a7b00d98e6e9c98cbfdb69beede1785e6636c",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_math.cpp": "4dd0ef2ff8a5182dc50538378d12bdb743f13f1143d3dc4cb4ce1c0c5bfe4627",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_logging.cpp": "5ea80de09ce7b59bf6f8771e64cfbd229aed7da9d31dbf4873e2c9b10d0da796",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_components.cpp": "17cd090ea20582867a81495f30f755cc241ba34a2aa67591c7a7151da0ba0b0f",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_geometry.cpp": "c4cc0d9dcadd56ef4ed89f490e6d336bb98c83da72d63dea56d6be675beba30e",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_checks.cpp": "780eeff859ef94189bac421c9074c8f25ecef52b5a8f66e08854d3280aa92859",
+    "/home/john/Desktop/cheat_re/source/reconstructed/menu_color_picker_reconstruction.md": "d4da37a77d47a5c80bfa1b16b8a1597aabcfae4035be77fd75872265ce8e256f"
+  },
+  "check": "rust_internal_re::check_menu_color_picker_reconstruction()",
+  "validation": {
+    "strict_GCC15_CXX20_Werror_ffp_contract_off": "PASS",
+    "ASan_UBSan_nonrecovering": "PASS",
+    "all_input_disassembly_fragments_checked": 307150,
+    "independent_envelopes": 42,
+    "literal_loaders_decoders": 7
+  },
+  "remaining_reached_local": [
+    {
+      "begin": "0x3c0538",
+      "end": "0x3c2a7f",
+      "role": "owned hex editor",
+      "status": "explicit typed missing dependency unless supplied"
+    }
+  ],
+  "adaptations": [
+    "private IO/context temporary container allocation and copied-byte failure granularity",
+    "owned log ImGuiTextBuffer storage; private heap-pointer aliases unclaimed",
+    "reached rounded/checkerboard specializations only",
+    "host CRT format/scan on owned bytes; locale equivalence unclaimed"
+  ],
+  "evidence": [
+    "verification.txt",
+    "sanitizer_verification.txt",
+    "sources_strict.json",
+    "sources_sanitize.json",
+    "byte_audit.json",
+    "menu_color_picker_literal_audit.json",
+    "menu_color_picker_remaining.json"
+  ]
+}

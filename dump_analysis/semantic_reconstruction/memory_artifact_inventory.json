@@ -1,0 +1,2096 @@
+{
+  "confidence": "C",
+  "scope": "Only supplied minidump MemoryList/Memory64List bytes; read-only.",
+  "limits": "PE candidates require MZ/PE and e_lfanew64..65536. Header-erased, encrypted, uncaptured or incompatible images are not excluded. Metadata magic/version and names do not alone establish a matching artifact/ABI.",
+  "minidumps": [
+    {
+      "path": "dump_analysis/dumps/pesieve_cheat/process_4248/powershell.exe.dmp",
+      "memory_regions": 958,
+      "mapped_bytes": 207941632,
+      "pe_headers": [
+        {
+          "base": "0x29c01cdbaf8",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c19490000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c194d0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x48810",
+            100
+          ],
+          "export_name": "System.Transactions.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c19620000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c19840000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x34dbb0",
+            380
+          ],
+          "export_name": "System.Data.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7e9c0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7ef00000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f060000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f550000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f560000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f5a0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f610000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f670000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f800000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f830000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f8d0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7f960000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7fce0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c7fd50000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c803c0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c80730000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c80820000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c808a0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c809c0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x29c81300000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ff618890000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa2a960000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa35310000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x34dbb0",
+            380
+          ],
+          "export_name": "System.Data.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa35680000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x11f230",
+            116
+          ],
+          "export_name": "clrjit.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa357b0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa36e10000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x90a780",
+            4000
+          ],
+          "export_name": "clr.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa63ec0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x99470",
+            572
+          ],
+          "export_name": "ntshrui.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa64b10000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5d60",
+            608
+          ],
+          "export_name": "VERSION.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa690a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x8520",
+            480
+          ],
+          "export_name": "LINKINFO.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa6a530000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xee70",
+            988
+          ],
+          "export_name": "VirtDisk.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa6ff30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x165b10",
+            5732
+          ],
+          "export_name": "urlmon.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa727c0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x48810",
+            100
+          ],
+          "export_name": "System.Transactions.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72810000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x28170",
+            864
+          ],
+          "export_name": "srpapi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72850000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xb8570",
+            27456
+          ],
+          "export_name": "ucrtbase_clr0400.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72980000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xcfd0",
+            288
+          ],
+          "export_name": "CSCAPI.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72b50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x2937d0",
+            4808
+          ],
+          "export_name": "iertutil.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa730e0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x8a540",
+            3784
+          ],
+          "export_name": "mscoreei.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa73b70000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x10290",
+            548
+          ],
+          "export_name": "appidapi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa73b90000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x14340",
+            2108
+          ],
+          "export_name": "VCRUNTIME140_CLR0400.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa73bb0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5dd20",
+            3712
+          ],
+          "export_name": "mscoree.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa741f0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x142b0",
+            428
+          ],
+          "export_name": "Amsi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa74270000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x6c90",
+            148
+          ],
+          "export_name": "VCRUNTIME140_1_CLR0400.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa74280000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x15660",
+            1752
+          ],
+          "export_name": "ATL.DLL",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa74780000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x1a2b0",
+            2080
+          ],
+          "export_name": "srvcli.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7bd30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xdf110",
+            8836
+          ],
+          "export_name": "PROPSYS.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7c6d0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa76f0",
+            8608
+          ],
+          "export_name": "policymanager.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7dd30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5d60",
+            6088
+          ],
+          "export_name": "Secur32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7dfa0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x95cc0",
+            3548
+          ],
+          "export_name": "UxTheme.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7e920000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x81a350",
+            27592
+          ],
+          "export_name": "Windows.Storage.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7f6a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x8220",
+            720
+          ],
+          "export_name": "netutils.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fab0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x2f7f0",
+            700
+          ],
+          "export_name": "RSAENH.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fb50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xf9e0",
+            9856
+          ],
+          "export_name": "AppCore.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fc80000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x2b1b0",
+            1812
+          ],
+          "export_name": "NTMARTA.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fe10000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x3e4d0",
+            3764
+          ],
+          "export_name": "SspiCli.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80190000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x1cd10",
+            2124
+          ],
+          "export_name": "GPAPI.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80400000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x13ce0",
+            1884
+          ],
+          "export_name": "CRYPTSP.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80420000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5ee0",
+            364
+          ],
+          "export_name": "CRYPTBASE.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80480000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xcf70",
+            4624
+          ],
+          "export_name": "MSASN1.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80500000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5e990",
+            1552
+          ],
+          "export_name": "Wldp.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa809a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x446e0",
+            9916
+          ],
+          "export_name": "CFGMGR32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80d70000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x22cb0",
+            2040
+          ],
+          "export_name": "bcrypt.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80da0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x21010",
+            120
+          ],
+          "export_name": "profapi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80e80000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa1d70",
+            432
+          ],
+          "export_name": "bcryptPrimitives.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80f40000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x391ab0",
+            65644
+          ],
+          "export_name": "KERNELBASE.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81350000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xfa9b0",
+            29032
+          ],
+          "export_name": "gdi32full.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81480000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x6ebb0",
+            121888
+          ],
+          "export_name": "msvcp_win.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81530000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x128a20",
+            54544
+          ],
+          "export_name": "ucrtbase.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81690000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x15dcf0",
+            13184
+          ],
+          "export_name": "CRYPT32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81820000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x72b30",
+            5972
+          ],
+          "export_name": "WINTRUST.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa818b0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x109b0",
+            57248
+          ],
+          "export_name": "win32u.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81a50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x60070",
+            6812
+          ],
+          "export_name": "WS2_32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81ae0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x23e40",
+            4180
+          ],
+          "export_name": "IMM32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81b20000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x9af90",
+            1044
+          ],
+          "export_name": "CLBCatQ.DLL",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81be0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x101280",
+            30868
+          ],
+          "export_name": "ole32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81f60000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x18580",
+            41676
+          ],
+          "export_name": "GDI32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81fa0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa65f0",
+            60780
+          ],
+          "export_name": "KERNEL32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82070000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x94680",
+            28348
+          ],
+          "export_name": "msvcrt.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa821b0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x718da0",
+            24680
+          ],
+          "export_name": "SHELL32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82970000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xc2120",
+            11140
+          ],
+          "export_name": "OLEAUT32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82a50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x54e90",
+            18460
+          ],
+          "export_name": "SHLWAPI.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82ac0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x26e0",
+            860
+          ],
+          "export_name": "PSAPI.DLL",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82ae0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x32a290",
+            15952
+          ],
+          "export_name": "combase.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82e90000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa0d50",
+            29940
+          ],
+          "export_name": "ADVAPI32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82f90000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x95cd0",
+            8036
+          ],
+          "export_name": "SECHOST.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa83040000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xfb460",
+            18916
+          ],
+          "export_name": "RPCRT4.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa835f0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xc77e0",
+            31644
+          ],
+          "export_name": "USER32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa83ab0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xddc20",
+            3708
+          ],
+          "export_name": "SHCORE.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa83c80000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x1b8100",
+            80335
+          ],
+          "export_name": "ntdll.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        }
+      ],
+      "metadata_magic_hits": [],
+      "clear_name_hits": [
+        {
+          "address": "0xe5d440fdc0",
+          "needle_hex": "556e697479506c617965722e646c6c00"
+        }
+      ]
+    },
+    {
+      "path": "dump_analysis/dumps/pesieve_hooks_full/process_6608/powershell.exe.dmp",
+      "memory_regions": 953,
+      "mapped_bytes": 202829824,
+      "pe_headers": [
+        {
+          "base": "0x24d808be958",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24d808bf588",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24df8710000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa530000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa6a0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa710000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa770000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa790000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa900000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa940000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa950000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa9a0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfa9f0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x48810",
+            100
+          ],
+          "export_name": "System.Transactions.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfaa40000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfabc0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfac30000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfacd0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dface0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfae30000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfb4a0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfba10000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfbaa0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfbd30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x34dbb0",
+            380
+          ],
+          "export_name": "System.Data.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfc1a0000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfc300000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x24dfca30000",
+          "machine": "0x14c",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ff618890000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa2e5a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x82ff28",
+            223
+          ],
+          "export_name": "simple_raknet_hooks.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa35310000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x34dbb0",
+            380
+          ],
+          "export_name": "System.Data.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa35680000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x11f230",
+            116
+          ],
+          "export_name": "clrjit.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa357b0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x0",
+            0
+          ],
+          "export_name": null,
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa36e10000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x90a780",
+            4000
+          ],
+          "export_name": "clr.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa63ec0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x99470",
+            572
+          ],
+          "export_name": "ntshrui.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa64b10000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5d60",
+            608
+          ],
+          "export_name": "VERSION.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa690a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x8520",
+            480
+          ],
+          "export_name": "LINKINFO.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa6a530000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xee70",
+            988
+          ],
+          "export_name": "VirtDisk.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa6ff30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x165b10",
+            5732
+          ],
+          "export_name": "urlmon.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa727c0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x48810",
+            100
+          ],
+          "export_name": "System.Transactions.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72810000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x28170",
+            864
+          ],
+          "export_name": "srpapi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72850000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xb8570",
+            27456
+          ],
+          "export_name": "ucrtbase_clr0400.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72980000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xcfd0",
+            288
+          ],
+          "export_name": "CSCAPI.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa72b50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x2937d0",
+            4808
+          ],
+          "export_name": "iertutil.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa730e0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x8a540",
+            3784
+          ],
+          "export_name": "mscoreei.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa73b70000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x10290",
+            548
+          ],
+          "export_name": "appidapi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa73b90000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x14340",
+            2108
+          ],
+          "export_name": "VCRUNTIME140_CLR0400.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa73bb0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5dd20",
+            3712
+          ],
+          "export_name": "mscoree.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa741f0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x142b0",
+            428
+          ],
+          "export_name": "Amsi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa74270000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x6c90",
+            148
+          ],
+          "export_name": "VCRUNTIME140_1_CLR0400.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa74280000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x15660",
+            1752
+          ],
+          "export_name": "ATL.DLL",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa74780000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x1a2b0",
+            2080
+          ],
+          "export_name": "srvcli.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7bd30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xdf110",
+            8836
+          ],
+          "export_name": "PROPSYS.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7c6d0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa76f0",
+            8608
+          ],
+          "export_name": "policymanager.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7dd30000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5d60",
+            6088
+          ],
+          "export_name": "Secur32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7dfa0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x95cc0",
+            3548
+          ],
+          "export_name": "UxTheme.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7e920000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x81a350",
+            27592
+          ],
+          "export_name": "Windows.Storage.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7f6a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x8220",
+            720
+          ],
+          "export_name": "netutils.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fab0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x2f7f0",
+            700
+          ],
+          "export_name": "RSAENH.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fb50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xf9e0",
+            9856
+          ],
+          "export_name": "AppCore.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fc80000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x2b1b0",
+            1812
+          ],
+          "export_name": "NTMARTA.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa7fe10000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x3e4d0",
+            3764
+          ],
+          "export_name": "SspiCli.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80190000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x1cd10",
+            2124
+          ],
+          "export_name": "GPAPI.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80400000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x13ce0",
+            1884
+          ],
+          "export_name": "CRYPTSP.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80420000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5ee0",
+            364
+          ],
+          "export_name": "CRYPTBASE.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80480000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xcf70",
+            4624
+          ],
+          "export_name": "MSASN1.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80500000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x5e990",
+            1552
+          ],
+          "export_name": "Wldp.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa809a0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x446e0",
+            9916
+          ],
+          "export_name": "CFGMGR32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80d70000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x22cb0",
+            2040
+          ],
+          "export_name": "bcrypt.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80da0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x21010",
+            120
+          ],
+          "export_name": "profapi.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80e80000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa1d70",
+            432
+          ],
+          "export_name": "bcryptPrimitives.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa80f40000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x391ab0",
+            65644
+          ],
+          "export_name": "KERNELBASE.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81350000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xfa9b0",
+            29032
+          ],
+          "export_name": "gdi32full.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81480000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x6ebb0",
+            121888
+          ],
+          "export_name": "msvcp_win.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81530000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x128a20",
+            54544
+          ],
+          "export_name": "ucrtbase.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81690000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x15dcf0",
+            13184
+          ],
+          "export_name": "CRYPT32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81820000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x72b30",
+            5972
+          ],
+          "export_name": "WINTRUST.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa818b0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x109b0",
+            57248
+          ],
+          "export_name": "win32u.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81a50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x60070",
+            6812
+          ],
+          "export_name": "WS2_32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81ae0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x23e40",
+            4180
+          ],
+          "export_name": "IMM32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81b20000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x9af90",
+            1044
+          ],
+          "export_name": "CLBCatQ.DLL",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81be0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x101280",
+            30868
+          ],
+          "export_name": "ole32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81f60000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x18580",
+            41676
+          ],
+          "export_name": "GDI32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa81fa0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa65f0",
+            60780
+          ],
+          "export_name": "KERNEL32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82070000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x94680",
+            28348
+          ],
+          "export_name": "msvcrt.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa821b0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x718da0",
+            24680
+          ],
+          "export_name": "SHELL32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82970000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xc2120",
+            11140
+          ],
+          "export_name": "OLEAUT32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82a50000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x54e90",
+            18460
+          ],
+          "export_name": "SHLWAPI.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82ac0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x26e0",
+            860
+          ],
+          "export_name": "PSAPI.DLL",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82ae0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x32a290",
+            15952
+          ],
+          "export_name": "combase.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82e90000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xa0d50",
+            29940
+          ],
+          "export_name": "ADVAPI32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa82f90000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x95cd0",
+            8036
+          ],
+          "export_name": "SECHOST.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa83040000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xfb460",
+            18916
+          ],
+          "export_name": "RPCRT4.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa835f0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xc77e0",
+            31644
+          ],
+          "export_name": "USER32.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa83ab0000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0xddc20",
+            3708
+          ],
+          "export_name": "SHCORE.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        },
+        {
+          "base": "0x7ffa83c80000",
+          "machine": "0x8664",
+          "export_directory": [
+            "0x1b8100",
+            80335
+          ],
+          "export_name": "ntdll.dll",
+          "il2cpp_exports": [],
+          "export_scan_complete": true
+        }
+      ],
+      "metadata_magic_hits": [],
+      "clear_name_hits": [
+        {
+          "address": "0x7ffa2e5fc890",
+          "needle_hex": "470061006d00650041007300730065006d0062006c0079002e0064006c006c000000"
+        },
+        {
+          "address": "0x7ffa2e5fd848",
+          "needle_hex": "55006e0069007400790050006c0061007900650072002e0064006c006c000000"
+        }
+      ]
+    }
+  ]
+}

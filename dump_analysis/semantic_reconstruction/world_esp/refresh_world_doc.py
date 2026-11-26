@@ -1,0 +1,21 @@
+from pathlib import Path
+import json
+p=Path('source/reconstructed/world_esp_reconstruction.md');s=p.read_text()
+a=s.index('[U] **The full ESP objective');z=s.index('\n## Concrete interfaces',a)
+s=s[:a]+'''[C/I] `replay_world_overlay_3098a4` now composes the entire overlay root in native order, including auxiliary windows/status, four weapon simulation branches/cache, player iteration/inventory tooltip, labels/alerts/view/skeleton, and handcuff/history tail. All three root ranges have concrete controller/calculation coverage. [U] This is not a complete pixel renderer: sample-local ImGui/font/icon/raster callees and native container internals remain separately attributed dependencies. Six label-widget settings are copied typed inputs. True Unity/game calls remain typed required boundaries; missing required data/callbacks throw `WorldEspMissingInput` at the observed call site.
+
+[U] The simulation format at `30d722` passes three doubles for four conversions, and `30e429` passes one. Their omitted values come from retained native argument slots/registers. This interface requires copied fourth/remaining-three argument bits before hashing/cache publication, including when trajectory drawing is disabled. It does not invent zero values. Complete reconstruction of the full renderer and propagation of all caller scratch states remains open.''' +s[z:]
+s=s.replace('[U] Widget settings lookup and font-cache/style-global replay are not completed.','[C/I] Font selection is a required callback over copied current-font/global state. The helper captures nominal size+14, writes line-size/nominal to+64, measures with actual font/FLT_MAX/zero-wrap, and restores current-font and current-nominal/original-nominal after text or successful icon. [U] Native widget lookup and the font-selector/raster callees remain untranslated.')
+s=s.replace('[U] Weapon/cache/branch dispatch in the root is unfinished.','[C/I] `replay_world_simulation_worker_30cf87` implements all four native branch priorities, repeated attachment reads, speed/drag/gravity/qualification calculations, hash cache lookup/construction with shared3,601-table builder, and enabled-draw dispatch. [U] Omitted native format arguments remain explicit copied scratch inputs.')
+i=s.index('| Handcuff tail and registry/grid refresh')
+rows='''| `replay_world_overlay_3098a4` | [C/I] Crosshair/FOV/radar window/decorations precede local/camera/transform guards. Battle/save/code/fishing/tracers/time/status/sign/auth, violation/teleport/warning windows, simulation/player loops and tail run in native order. Raster commands retain actual native helper arguments. |
+| `replay_world_player_overlay_30ea17` | [C/I] Player validity, handcuff accumulation, bones/quad, special-NPC health/range/snapline, general filters/looking/radar/key transitions, six labels, view and skeleton; per-frame handcuff/tooltip reset. Snapshot name/identifier/item chains preserve separate encoding rules. Required widget settings/game outputs are explicit. |
+| Inventory tooltip and player actions | [C/I] Exact adaptive scale, Hotbar/Clothing headings, invalid-slot compression, condition strips, images/count shadows/separator; one tooltip per frame. Looking/name/held/aim warning order, friend/enemy keys, selected snapline and three-line player-view geometry. |
+| Auxiliary windows and status | [C/I] Literal positions/conditions/reset latches/style offsets/flags/current positions; code expiry count capture, Unity Round/time thresholds, desync/status spacing, sign dimension/class branches, authorization/key/code/crafting labels, teleport distance/count/path. [U] ImGui primitives remain sample-local dependencies. |
+'''
+s=s[:i]+rows+s[i:]
+a=s.index('| Range | Bytes | Disposition |');z=s.index('\n[C] Evidence:',a)
+r=json.loads(Path('dump_analysis/semantic_reconstruction/world_esp/audit.json').read_text())['ranges']
+s=s[:a]+'| Range | Bytes | Disposition |\n|---|---:|---|\n'+'\n'.join(f"| `{x['begin']}..{x['end']}` | {x['bytes']} | {x['status']} |" for x in r)+'\n'+s[z:]
+s=s.replace('missing-callback stops, and contiguous range coverage.','missing-callback stops, four-branch cache dispatch/order and omitted-vararg failures, full overlay pre-guard crosshair/window/dispatch/empty-player/tail order, copied font-scale restoration, and contiguous range coverage.')
+p.write_text(s)

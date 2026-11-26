@@ -1,0 +1,533 @@
+{
+  "confidence": "C",
+  "source_sha256": "8b99e96007c673f43f60c320a0b54125e28e3faf076317dc91e1cbc38b3a6de2",
+  "descriptor_count": 28,
+  "descriptors": [
+    {
+      "rva": "0x3680d4",
+      "end_exclusive": "0x3680fd",
+      "offset": "0x320",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3680e2",
+          "0x3680e8"
+        ],
+        [
+          "0x3680e6",
+          "0x3680f8"
+        ]
+      ],
+      "range_sha256": "13c09f7b6c7e5da8e2d0c77ffb8a2304ef228859e5a859d39e4880383fc1acfb"
+    },
+    {
+      "rva": "0x3693b0",
+      "end_exclusive": "0x3693d4",
+      "offset": "0x2c0",
+      "kind": "byte",
+      "invalid_bits": "0x0",
+      "instructions": 11,
+      "branches": [
+        [
+          "0x3693be",
+          "0x3693cf"
+        ]
+      ],
+      "range_sha256": "989b82960fff7d989de40e7d4804ebbe367c0890cc945b96b858c02ec2103d69"
+    },
+    {
+      "rva": "0x3693d4",
+      "end_exclusive": "0x3693ff",
+      "offset": "0x2d0",
+      "kind": "scalar",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3693e2",
+          "0x3693e9"
+        ],
+        [
+          "0x3693e7",
+          "0x3693fa"
+        ]
+      ],
+      "range_sha256": "4e7e13f69ace1c361c8b4073088aa522c4eb15337a8b4f681edcb056c1f351fe"
+    },
+    {
+      "rva": "0x369400",
+      "end_exclusive": "0x369429",
+      "offset": "0x350",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x36940e",
+          "0x369414"
+        ],
+        [
+          "0x369412",
+          "0x369424"
+        ]
+      ],
+      "range_sha256": "c21f322db9f7436f1017b52c578406724ba3de5fb2073d2da28502b90d36c2ad"
+    },
+    {
+      "rva": "0x3696e4",
+      "end_exclusive": "0x36970c",
+      "offset": "0x708",
+      "kind": "raw_u32",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3696f2",
+          "0x3696f8"
+        ],
+        [
+          "0x3696f6",
+          "0x369707"
+        ]
+      ],
+      "range_sha256": "2624cad214aa73ea40f986251699674614bc23ccb05f382615f411987f78027a"
+    },
+    {
+      "rva": "0x36970c",
+      "end_exclusive": "0x369737",
+      "offset": "0x2cc",
+      "kind": "scalar",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x36971a",
+          "0x369721"
+        ],
+        [
+          "0x36971f",
+          "0x369732"
+        ]
+      ],
+      "range_sha256": "3bf1dd26a7283f5baeab82a48d6820ce9bd5bb8bc75e7faebcce607b0bfe3707"
+    },
+    {
+      "rva": "0x369738",
+      "end_exclusive": "0x369761",
+      "offset": "0x778",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x369746",
+          "0x36974c"
+        ],
+        [
+          "0x36974a",
+          "0x36975c"
+        ]
+      ],
+      "range_sha256": "f339cff32f8cf0de734fd0012069f029119de1c5ca1daada902a25ffdf312ca8"
+    },
+    {
+      "rva": "0x369764",
+      "end_exclusive": "0x36978d",
+      "offset": "0x300",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x369772",
+          "0x369778"
+        ],
+        [
+          "0x369776",
+          "0x369788"
+        ]
+      ],
+      "range_sha256": "5204699f9718d9c0d1d616895aae65487e44fddbe484ae340c6ce175ee0847af"
+    },
+    {
+      "rva": "0x36a2c8",
+      "end_exclusive": "0x36a2f1",
+      "offset": "0x4e8",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x36a2d6",
+          "0x36a2dc"
+        ],
+        [
+          "0x36a2da",
+          "0x36a2ec"
+        ]
+      ],
+      "range_sha256": "db09106d1a84c51f0fcc23d2a704ce17807ba4499eb6496ac3ee73cda0a9c529"
+    },
+    {
+      "rva": "0x36a2f4",
+      "end_exclusive": "0x36a31d",
+      "offset": "0x6d0",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x36a302",
+          "0x36a308"
+        ],
+        [
+          "0x36a306",
+          "0x36a318"
+        ]
+      ],
+      "range_sha256": "f9e6c3d7bf1387d3847c3e3db6ccb95b452a2414b157ef6c783f043f9399222e"
+    },
+    {
+      "rva": "0x371294",
+      "end_exclusive": "0x3712bc",
+      "offset": "0x30",
+      "kind": "raw_u32",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3712a2",
+          "0x3712a8"
+        ],
+        [
+          "0x3712a6",
+          "0x3712b7"
+        ]
+      ],
+      "range_sha256": "e208596fad2c3d2195a4a2ae98d40f88dacd90aa711893f2b11fb14698d5a488"
+    },
+    {
+      "rva": "0x3715d8",
+      "end_exclusive": "0x371601",
+      "offset": "0x10",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3715e6",
+          "0x3715ec"
+        ],
+        [
+          "0x3715ea",
+          "0x3715fc"
+        ]
+      ],
+      "range_sha256": "e2f6b8164e40e18245673fbb5771a2912f778ae180df8c9514b667f65da8407b"
+    },
+    {
+      "rva": "0x371604",
+      "end_exclusive": "0x37162d",
+      "offset": "0x88",
+      "kind": "raw_u32",
+      "invalid_bits": "0xffffffff",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x371612",
+          "0x371619"
+        ],
+        [
+          "0x371617",
+          "0x371628"
+        ]
+      ],
+      "range_sha256": "e72c827787d8b01d8a769585167668018cd72823c195c2a450294f6e29aa9809"
+    },
+    {
+      "rva": "0x372184",
+      "end_exclusive": "0x3721b4",
+      "offset": "0xd8",
+      "kind": "predicate",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x372192",
+          "0x3721af"
+        ]
+      ],
+      "range_sha256": "46098355c7e1765ebcd112c0b7f7c680c5b0f996648ae6afd2062689a29956df"
+    },
+    {
+      "rva": "0x372220",
+      "end_exclusive": "0x372249",
+      "offset": "0x2f8",
+      "kind": "raw_u32",
+      "invalid_bits": "0xffffffff",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x37222e",
+          "0x372235"
+        ],
+        [
+          "0x372233",
+          "0x372244"
+        ]
+      ],
+      "range_sha256": "df0efdffe16ebaccfb1eb195580c7ca310bb18c007b7638f813789acbb3ebe11"
+    },
+    {
+      "rva": "0x37236c",
+      "end_exclusive": "0x372395",
+      "offset": "0x58",
+      "kind": "raw_u32",
+      "invalid_bits": "0xffffffff",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x37237a",
+          "0x372381"
+        ],
+        [
+          "0x37237f",
+          "0x372390"
+        ]
+      ],
+      "range_sha256": "b212ceb1e61f644dba75492c8278171f5b205e937a201cb9048c558bf993975c"
+    },
+    {
+      "rva": "0x37261c",
+      "end_exclusive": "0x372644",
+      "offset": "0x20",
+      "kind": "raw_u32",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x37262a",
+          "0x372630"
+        ],
+        [
+          "0x37262e",
+          "0x37263f"
+        ]
+      ],
+      "range_sha256": "631046b44e67474738d5069973e8bbc2b9996c72ccf9c3ad1a340e49dfc71ec8"
+    },
+    {
+      "rva": "0x372bcc",
+      "end_exclusive": "0x372bf4",
+      "offset": "0x24",
+      "kind": "raw_u32",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x372bda",
+          "0x372be0"
+        ],
+        [
+          "0x372bde",
+          "0x372bef"
+        ]
+      ],
+      "range_sha256": "c0c29019835e62487dd1abf2ec0635466daf7ec9bd9d4506d79a2e400a3a09af"
+    },
+    {
+      "rva": "0x373dc8",
+      "end_exclusive": "0x373df1",
+      "offset": "0x28",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x373dd6",
+          "0x373ddc"
+        ],
+        [
+          "0x373dda",
+          "0x373dec"
+        ]
+      ],
+      "range_sha256": "f0e53a3c28cb15181e08a13c9e93e6759c1a8ce616b8d1cb672c36f315152389"
+    },
+    {
+      "rva": "0x373df4",
+      "end_exclusive": "0x373e1d",
+      "offset": "0x20",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x373e02",
+          "0x373e08"
+        ],
+        [
+          "0x373e06",
+          "0x373e18"
+        ]
+      ],
+      "range_sha256": "69a85507e4a912ad20c03a90e065d7b9578248ef42b9aab06bf57645db2e4ac5"
+    },
+    {
+      "rva": "0x373e20",
+      "end_exclusive": "0x373e49",
+      "offset": "0x30",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x373e2e",
+          "0x373e34"
+        ],
+        [
+          "0x373e32",
+          "0x373e44"
+        ]
+      ],
+      "range_sha256": "fefefe3c42b410d4f41151bf22e54bb084dfe76796848e6b8a49302f421a01ef"
+    },
+    {
+      "rva": "0x373e4c",
+      "end_exclusive": "0x373e75",
+      "offset": "0x50",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x373e5a",
+          "0x373e60"
+        ],
+        [
+          "0x373e5e",
+          "0x373e70"
+        ]
+      ],
+      "range_sha256": "4373eb18171432ed05b16d78c50dfa6abf9e902683369a7ff1a4d57d7b4c4175"
+    },
+    {
+      "rva": "0x374210",
+      "end_exclusive": "0x374239",
+      "offset": "0x128",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x37421e",
+          "0x374224"
+        ],
+        [
+          "0x374222",
+          "0x374234"
+        ]
+      ],
+      "range_sha256": "650b448012a4d777b683ae73f2d34aac370063c5f5ba08166545735c8eba86bd"
+    },
+    {
+      "rva": "0x37423c",
+      "end_exclusive": "0x374267",
+      "offset": "0x144",
+      "kind": "scalar",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x37424a",
+          "0x374251"
+        ],
+        [
+          "0x37424f",
+          "0x374262"
+        ]
+      ],
+      "range_sha256": "d2d10494a1d6c825a749f0a3a3dc480cce5220dc3f0cb414dcbbee9c76dc00f1"
+    },
+    {
+      "rva": "0x3742ac",
+      "end_exclusive": "0x3742d4",
+      "offset": "0x138",
+      "kind": "raw_u32",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3742ba",
+          "0x3742c0"
+        ],
+        [
+          "0x3742be",
+          "0x3742cf"
+        ]
+      ],
+      "range_sha256": "5833e40992348519f1851ae2ec5a324b4c9954e11809ff10a2e85023c51f0170"
+    },
+    {
+      "rva": "0x3742d4",
+      "end_exclusive": "0x3742fd",
+      "offset": "0x120",
+      "kind": "pointer",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x3742e2",
+          "0x3742e8"
+        ],
+        [
+          "0x3742e6",
+          "0x3742f8"
+        ]
+      ],
+      "range_sha256": "a37029bce678aaf07670331c066c399082ee8534cd81ab7cc21ea8b7ffe2a3d8"
+    },
+    {
+      "rva": "0x374300",
+      "end_exclusive": "0x37432b",
+      "offset": "0x188",
+      "kind": "scalar",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x37430e",
+          "0x374315"
+        ],
+        [
+          "0x374313",
+          "0x374326"
+        ]
+      ],
+      "range_sha256": "7856364b779e2b009d10423e13f76b679a28a325e9de53d0d4d1954af1b4e70b"
+    },
+    {
+      "rva": "0x374348",
+      "end_exclusive": "0x374370",
+      "offset": "0x40",
+      "kind": "raw_u32",
+      "invalid_bits": "0x0",
+      "instructions": 13,
+      "branches": [
+        [
+          "0x374356",
+          "0x37435c"
+        ],
+        [
+          "0x37435a",
+          "0x37436b"
+        ]
+      ],
+      "range_sha256": "e249b36cb726450c64312497a36927cf56619d629a8f3950bc1b8deba4590eee"
+    }
+  ],
+  "semantics_review": "Guard/default paths, offset, load width, raw ID/sentinel handling, bool COMISS/SETA, shared base aliases and four binder argument projections reviewed against source and native bytes.",
+  "limits": "Owned snapshot bounds/status adaptations; signaling-NaN FP exception behavior and live game ABI are not asserted."
+}

@@ -1,0 +1,4 @@
+392f34	mov    rax,QWORD PTR [rip+0x72bed]        # 0x405b28
+392f3b	mov    rcx,QWORD PTR [rax+0x3f08]
+392f42	movss  xmm0,DWORD PTR [rcx+0x28]
+392f47	ret

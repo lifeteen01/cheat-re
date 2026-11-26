@@ -1,0 +1,13 @@
+003f3750 PsGetPermanentSiloContext
+004b6f60 KeFlushCurrentTbImmediately
+004f7568 HalpFlushTLB
+009b1b04 PpCheckInDriverDatabase
+009b1c98 PiLookupInDDBCache
+00ef5690 MmUnloadedDrivers
+00f8c5e0 PiDDBLock
+00fc64c8 MmPteBase
+00fc7ab0 PsInitialSystemProcess
+00fc7b88 MmPhysicalMemoryBlock
+00fc7c38 MmPfnDatabase
+00fd0940 PspHostSiloGlobals
+00fdb490 PiDDBCacheTable

@@ -1,0 +1,27 @@
+3926b8	mov    QWORD PTR [rsp+0x8],rbx
+3926bd	push   rdi
+3926be	sub    rsp,0x20
+3926c2	mov    ebx,edx
+3926c4	mov    rdi,rcx
+3926c7	test   edx,0xf800
+3926cd	je     0x3926d6
+3926cf	call   0x390810
+3926d4	mov    ebx,eax
+3926d6	mov    ecx,ebx
+3926d8	call   0x394354
+3926dd	test   al,al
+3926df	je     0x3926f3
+3926e1	movsxd rax,ebx
+3926e4	mov    ecx,DWORD PTR [rdi+rax*4+0x100]
+3926eb	cmp    ecx,0xffffffff
+3926ee	cmove  ecx,ebx
+3926f1	jmp    0x3926f5
+3926f3	mov    ecx,ebx
+3926f5	mov    rbx,QWORD PTR [rsp+0x30]
+3926fa	add    rdi,0xe2c
+392701	movsxd rax,ecx
+392704	shl    rax,0x4
+392708	add    rax,rdi
+39270b	add    rsp,0x20
+39270f	pop    rdi
+392710	ret

@@ -1,0 +1,45 @@
+[I] Combined immutable-script ASan/UBSan verification.
+Compile movement_main_analysis.cpp
+Compile game_helpers_analysis.cpp
+Compile metadata_argument_bindings.cpp
+Compile game_root_helpers.cpp
+Compile game_root_domain_bindings.cpp
+Compile imgui_text_input_activation.cpp
+Compile imgui_text_input_analysis.cpp
+Compile imgui_text_input_bindings.cpp
+Compile imgui_text_input_branch_checks.cpp
+Compile imgui_text_input_checks.cpp
+Compile imgui_text_input_codec.cpp
+Compile imgui_text_input_commit.cpp
+Compile imgui_text_input_controller_checks.cpp
+Compile imgui_text_input_edit.cpp
+Compile imgui_text_input_effect_checks.cpp
+Compile imgui_text_input_event_checks.cpp
+Compile imgui_text_input_events.cpp
+Compile imgui_text_input_font_checks.cpp
+Compile imgui_text_input_fonts.cpp
+Compile imgui_text_input_history_checks.cpp
+Compile imgui_text_input_keys.cpp
+Compile imgui_text_input_layout.cpp
+Compile imgui_text_input_process.cpp
+Compile imgui_text_input_render.cpp
+Compile imgui_text_input_storage.cpp
+Compile font_atlas_input_bindings.cpp
+Compile font_atlas_input_checks.cpp
+Compile font_atlas_input_clear.cpp
+Compile font_atlas_input_coverage.cpp
+Compile font_atlas_input_ingestion.cpp
+Compile font_atlas_input_memory.cpp
+Compile font_atlas_input_ranges.cpp
+Compile game_field_controller_bindings.cpp
+Compile game_field_controller_checks.cpp
+Compile game_field_controllers.cpp
+Compile analysis_checks.cpp
+Compile movement_main_checks.cpp
+Compile metadata_argument_checks.cpp
+Compile game_root_helper_checks.cpp
+Compile game_root_domain_checks.cpp
+Link 284 translation units; 244 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

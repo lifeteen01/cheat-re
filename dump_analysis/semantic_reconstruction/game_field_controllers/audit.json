@@ -1,0 +1,668 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "root_ranges": [
+    {
+      "begin": "0x32308c",
+      "end_exclusive": "0x3230cf",
+      "bytes": 67,
+      "instructions": 20,
+      "sha256": "9b5ef06fc1b6177dc7b881d69e1086a9165593ec3ce0d4fe3dcc7dc524ca78ba",
+      "calls": [
+        {
+          "site": "0x3230a4",
+          "target": "0x3164fc",
+          "instruction": "call   0x3164fc"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x3230ab",
+          "target": "0x3230bd",
+          "instruction": "jne    0x3230bd"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x368244",
+      "end_exclusive": "0x36827e",
+      "bytes": 58,
+      "instructions": 18,
+      "sha256": "1f44348ea04663c7377370b197bdd41427d5cc9ac2f0d321bd0a0e131cc7d1ed",
+      "calls": [
+        {
+          "site": "0x36824b",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x368257",
+          "target": "0x369400",
+          "instruction": "call   0x369400"
+        },
+        {
+          "site": "0x368262",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x368252",
+          "target": "0x368277",
+          "instruction": "je     0x368277"
+        },
+        {
+          "site": "0x368269",
+          "target": "0x368277",
+          "instruction": "je     0x368277"
+        },
+        {
+          "site": "0x368272",
+          "target": "0x372ba4",
+          "instruction": "jmp    0x372ba4"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x368468",
+      "end_exclusive": "0x3684a7",
+      "bytes": 63,
+      "instructions": 19,
+      "sha256": "3bdc60161ebf081dee95796b36f519cc4ff0d345da92b15c8cd94d097a0078c3",
+      "calls": [
+        {
+          "site": "0x36846f",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x36847b",
+          "target": "0x369400",
+          "instruction": "call   0x369400"
+        },
+        {
+          "site": "0x368486",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x368476",
+          "target": "0x3684a0",
+          "instruction": "je     0x3684a0"
+        },
+        {
+          "site": "0x36848d",
+          "target": "0x3684a0",
+          "instruction": "je     0x3684a0"
+        },
+        {
+          "site": "0x36849b",
+          "target": "0x372bf4",
+          "instruction": "jmp    0x372bf4"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x3691c0",
+      "end_exclusive": "0x36920a",
+      "bytes": 74,
+      "instructions": 24,
+      "sha256": "a960306783faf8e81e20277fc980ac2ff265f0affd19fc25c7e90f54dc41eb72",
+      "calls": [
+        {
+          "site": "0x3691cc",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3691d8",
+          "target": "0x369298",
+          "instruction": "call   0x369298"
+        },
+        {
+          "site": "0x3691e3",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3691f2",
+          "target": "0x373a68",
+          "instruction": "call   0x373a68"
+        },
+        {
+          "site": "0x3691fc",
+          "target": "0x3c7bbc",
+          "instruction": "call   0x3c7bbc"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x3691d3",
+          "target": "0x3691f9",
+          "instruction": "je     0x3691f9"
+        },
+        {
+          "site": "0x3691ea",
+          "target": "0x3691f9",
+          "instruction": "je     0x3691f9"
+        },
+        {
+          "site": "0x3691f7",
+          "target": "0x369201",
+          "instruction": "jmp    0x369201"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x36a1e4",
+      "end_exclusive": "0x36a20a",
+      "bytes": 38,
+      "instructions": 11,
+      "sha256": "4d6d196d886138047f68035d56a69261ddf5c7c7098d063bc7a6ecfd28adadd2",
+      "calls": [
+        {
+          "site": "0x36a1eb",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x36a1f2",
+          "target": "0x36a1f9",
+          "instruction": "jne    0x36a1f9"
+        },
+        {
+          "site": "0x36a205",
+          "target": "0x369df4",
+          "instruction": "jmp    0x369df4"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x3714c4",
+      "end_exclusive": "0x37154a",
+      "bytes": 134,
+      "instructions": 43,
+      "sha256": "acae983873ddfb5af5926acc3e2e6f01d6f4bc272356498387106a938afb78da",
+      "calls": [
+        {
+          "site": "0x3714d6",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3714e2",
+          "target": "0x37154c",
+          "instruction": "call   0x37154c"
+        },
+        {
+          "site": "0x3714ed",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3714f9",
+          "target": "0x37261c",
+          "instruction": "call   0x37261c"
+        },
+        {
+          "site": "0x371502",
+          "target": "0x3719e8",
+          "instruction": "call   0x3719e8"
+        },
+        {
+          "site": "0x37150d",
+          "target": "0x371828",
+          "instruction": "call   0x371828"
+        },
+        {
+          "site": "0x371519",
+          "target": "0x37236c",
+          "instruction": "call   0x37236c"
+        },
+        {
+          "site": "0x371525",
+          "target": "0x37236c",
+          "instruction": "call   0x37236c"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x3714dd",
+          "target": "0x371538",
+          "instruction": "je     0x371538"
+        },
+        {
+          "site": "0x3714f4",
+          "target": "0x371538",
+          "instruction": "je     0x371538"
+        },
+        {
+          "site": "0x371509",
+          "target": "0x371516",
+          "instruction": "jne    0x371516"
+        },
+        {
+          "site": "0x371514",
+          "target": "0x371538",
+          "instruction": "je     0x371538"
+        },
+        {
+          "site": "0x371520",
+          "target": "0x371533",
+          "instruction": "je     0x371533"
+        },
+        {
+          "site": "0x371536",
+          "target": "0x37153a",
+          "instruction": "jmp    0x37153a"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x371688",
+      "end_exclusive": "0x3716df",
+      "bytes": 87,
+      "instructions": 28,
+      "sha256": "9ee7229447e5525efa8c2347b8c8055b280948e59a0c5fb048153b461afe1839",
+      "calls": [
+        {
+          "site": "0x371691",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x37169d",
+          "target": "0x37154c",
+          "instruction": "call   0x37154c"
+        },
+        {
+          "site": "0x3716a8",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3716b4",
+          "target": "0x37261c",
+          "instruction": "call   0x37261c"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x371698",
+          "target": "0x3716d7",
+          "instruction": "je     0x3716d7"
+        },
+        {
+          "site": "0x3716af",
+          "target": "0x3716d7",
+          "instruction": "je     0x3716d7"
+        },
+        {
+          "site": "0x3716be",
+          "target": "0x3716d2",
+          "instruction": "je     0x3716d2"
+        },
+        {
+          "site": "0x3716c5",
+          "target": "0x3716d2",
+          "instruction": "je     0x3716d2"
+        },
+        {
+          "site": "0x3716d5",
+          "target": "0x3716d9",
+          "instruction": "jmp    0x3716d9"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x3717c0",
+      "end_exclusive": "0x371826",
+      "bytes": 102,
+      "instructions": 32,
+      "sha256": "88fc30b05b92a87c35b9facb9fa018edcede9a5d03f04a1aabb76636488c55c9",
+      "calls": [
+        {
+          "site": "0x3717cd",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3717d9",
+          "target": "0x37154c",
+          "instruction": "call   0x37154c"
+        },
+        {
+          "site": "0x3717e4",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x3717f0",
+          "target": "0x37261c",
+          "instruction": "call   0x37261c"
+        },
+        {
+          "site": "0x371806",
+          "target": "0x37236c",
+          "instruction": "call   0x37236c"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x3717d4",
+          "target": "0x371819",
+          "instruction": "je     0x371819"
+        },
+        {
+          "site": "0x3717eb",
+          "target": "0x371819",
+          "instruction": "je     0x371819"
+        },
+        {
+          "site": "0x3717fa",
+          "target": "0x371803",
+          "instruction": "je     0x371803"
+        },
+        {
+          "site": "0x371801",
+          "target": "0x371819",
+          "instruction": "jne    0x371819"
+        },
+        {
+          "site": "0x371817",
+          "target": "0x37181b",
+          "instruction": "jmp    0x37181b"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x371df4",
+      "end_exclusive": "0x371e5a",
+      "bytes": 102,
+      "instructions": 32,
+      "sha256": "5caa358e2076fc7e42ec0568b23cf98a6f73b327ad501130030a7e2a718bfe36",
+      "calls": [
+        {
+          "site": "0x371e01",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x371e0d",
+          "target": "0x37154c",
+          "instruction": "call   0x37154c"
+        },
+        {
+          "site": "0x371e18",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x371e24",
+          "target": "0x37261c",
+          "instruction": "call   0x37261c"
+        },
+        {
+          "site": "0x371e3a",
+          "target": "0x37236c",
+          "instruction": "call   0x37236c"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x371e08",
+          "target": "0x371e4d",
+          "instruction": "je     0x371e4d"
+        },
+        {
+          "site": "0x371e1f",
+          "target": "0x371e4d",
+          "instruction": "je     0x371e4d"
+        },
+        {
+          "site": "0x371e2e",
+          "target": "0x371e37",
+          "instruction": "je     0x371e37"
+        },
+        {
+          "site": "0x371e35",
+          "target": "0x371e4d",
+          "instruction": "jne    0x371e4d"
+        },
+        {
+          "site": "0x371e4b",
+          "target": "0x371e4f",
+          "instruction": "jmp    0x371e4f"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x372bf4",
+      "end_exclusive": "0x372c1b",
+      "bytes": 39,
+      "instructions": 14,
+      "sha256": "37b4e99442253ffdc57d80dbc7d21b6cfe4117e0759898e457ad0ab158dd8c77",
+      "calls": [
+        {
+          "site": "0x372bff",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x372c0b",
+          "target": "0x372bcc",
+          "instruction": "call   0x372bcc"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x372c06",
+          "target": "0x372c15",
+          "instruction": "je     0x372c15"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x373eb4",
+      "end_exclusive": "0x373f09",
+      "bytes": 85,
+      "instructions": 21,
+      "sha256": "7e235af747a3ce951bfcdcfd63d52b2712c13e1f11bf59fd0944a7f3f9f9acf9",
+      "calls": [
+        {
+          "site": "0x373ebb",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x373ec2",
+          "target": "0x373f04",
+          "instruction": "je     0x373f04"
+        },
+        {
+          "site": "0x373ecc",
+          "target": "0x373edb",
+          "instruction": "jne    0x373edb"
+        },
+        {
+          "site": "0x373ee3",
+          "target": "0x373ef2",
+          "instruction": "jne    0x373ef2"
+        },
+        {
+          "site": "0x373ef4",
+          "target": "0x373f04",
+          "instruction": "je     0x373f04"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    },
+    {
+      "begin": "0x372ba4",
+      "end_exclusive": "0x372bca",
+      "bytes": 38,
+      "instructions": 11,
+      "sha256": "aa4dd49fa1cb269939046a7a8e7726587bf4207b6a886ac2df7e9e775c3b0ac3",
+      "calls": [
+        {
+          "site": "0x372bab",
+          "target": "0x2caf08",
+          "instruction": "call   0x2caf08"
+        }
+      ],
+      "branches_and_tails": [
+        {
+          "site": "0x372bb2",
+          "target": "0x372bb9",
+          "instruction": "jne    0x372bb9"
+        },
+        {
+          "site": "0x372bc5",
+          "target": "0x372bf4",
+          "instruction": "jmp    0x372bf4"
+        }
+      ],
+      "status": "C: concrete root; I: typed output projection and shared folds"
+    }
+  ],
+  "root_bytes": 887,
+  "root_instructions": 273,
+  "shared_hook_kind_guard": {
+    "begin": "0x3164fc",
+    "end_exclusive": "0x316504",
+    "bytes": 8,
+    "instructions": 3,
+    "sha256": "3db4d49e7649805c8d399c06547fc78ccc69931f3f065d143bfcc2b5e232290a",
+    "calls": [],
+    "branches_and_tails": []
+  },
+  "shared_argument_staging_callers": [
+    {
+      "wrapper": "0x368a84",
+      "end_exclusive": "0x368b0f",
+      "executor": "0x2cb9fc",
+      "context": "0x3feb70",
+      "flags": "0x3feb60",
+      "target_cell": "0x3feb58",
+      "game_offset": "0x3f83e00",
+      "native_sha256": "110ca84d2be7b605191c99eef83c77c199b9c8c1fdbe068a7039dc690b8196e3"
+    },
+    {
+      "wrapper": "0x37154c",
+      "end_exclusive": "0x3715d7",
+      "executor": "0x2cb9fc",
+      "context": "0x400b60",
+      "flags": "0x400b50",
+      "target_cell": "0x400b48",
+      "game_offset": "0x44d6360",
+      "native_sha256": "684f6ce195ea59c2ce705e5301971bd05f81c81df4df64230d485d51dcd49f98"
+    },
+    {
+      "wrapper": "0x368b10",
+      "end_exclusive": "0x368b9b",
+      "executor": "0x2cb9fc",
+      "context": "0x3fe7b0",
+      "flags": "0x3fe7a0",
+      "target_cell": "0x3fe798",
+      "game_offset": "0x3f12dd0",
+      "native_sha256": "8eae85a421c6535b3834e108dfa327455f3b3531ec355aa5da15ad4227ec6955"
+    },
+    {
+      "wrapper": "0x369298",
+      "end_exclusive": "0x369323",
+      "executor": "0x2cb9fc",
+      "context": "0x3fea80",
+      "flags": "0x3fea70",
+      "target_cell": "0x3fea68",
+      "game_offset": "0x3f1c760",
+      "native_sha256": "0734b869883bed9469975a50313180689f14b8b625ab0a80ccc15d87b0b8f0f6"
+    },
+    {
+      "wrapper": "0x372754",
+      "end_exclusive": "0x3727df",
+      "executor": "0x2cb9fc",
+      "context": "0x400d40",
+      "flags": "0x400d30",
+      "target_cell": "0x400d28",
+      "game_offset": "0x514a6b0",
+      "native_sha256": "ee38e9234f7372673683a7b705433042ed78d660be1c8d33936416d565da3ec3"
+    },
+    {
+      "wrapper": "0x369c1c",
+      "end_exclusive": "0x369cdc",
+      "executor": "0x2d2094",
+      "context": "0x3fe8a0",
+      "flags": "0x3fe890",
+      "target_cell": "0x3fe888",
+      "game_offset": "0x3935180",
+      "native_sha256": "7f3c96d7eea85dc4831fe269b2c59e0b7cfcbc3f771ec3c51cb4167f96d1ce11"
+    },
+    {
+      "wrapper": "0x3739c4",
+      "end_exclusive": "0x373a65",
+      "executor": "0x2d2094",
+      "context": "0x401880",
+      "flags": "0x401870",
+      "target_cell": "0x401868",
+      "game_offset": "0x19edb50",
+      "native_sha256": "0dada3441ee8e3b777fa26a4346a764879236e776feb3fca4332c4508eb96ca8"
+    },
+    {
+      "wrapper": "0x373a68",
+      "end_exclusive": "0x373b28",
+      "executor": "0x2d2094",
+      "context": "0x401a60",
+      "flags": "0x401a50",
+      "target_cell": "0x401a48",
+      "game_offset": "0x19f0a00",
+      "native_sha256": "f1f035017e569b2268c2fd1a7e8b87c189cb76368ddd0639a6c431dbd197fcfb"
+    },
+    {
+      "wrapper": "0x369324",
+      "end_exclusive": "0x3693af",
+      "executor": "0x2cb9fc",
+      "context": "0x3fe990",
+      "flags": "0x3fe980",
+      "target_cell": "0x3fe978",
+      "game_offset": "0x3ee0830",
+      "native_sha256": "d2b920a0bd39e1165ccad6d3d2a100343d1c2ea506caa081fb71242020e665e8"
+    },
+    {
+      "wrapper": "0x32b308",
+      "end_exclusive": "0x32b3a6",
+      "executor": "0x32b1c8",
+      "context": "0x3f7820",
+      "flags": "0x3f7818",
+      "target_cell": "0x3f7810",
+      "game_offset": "0x300df20",
+      "native_sha256": "0f84a47dd6c7d7498a4d60b6d9cb21e62594ed0e6e14153c4dd511c1e483855f"
+    }
+  ],
+  "shared_packers": [
+    "2cb9fc..2cba4f",
+    "2d2094..2d2106",
+    "32b1c8..32b239"
+  ],
+  "scope": "Twelve local controllers, copied-byte hook installation and shared argument composition",
+  "limits": [
+    "Typed vector output instead of arbitrary raw output aliases",
+    "Actual matching game effects remain supplied; no numeric pointer executes",
+    "Unknown native pointer/type/return bytes remain span-gated and unmaterialized"
+  ]
+}

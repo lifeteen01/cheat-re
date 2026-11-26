@@ -1,0 +1,73 @@
+3ae8c4 rex push rbx
+3ae8c6 push   rbp
+3ae8c7 push   rsi
+3ae8c8 push   rdi
+3ae8c9 push   r12
+3ae8cb push   r14
+3ae8cd push   r15
+3ae8cf sub    rsp,0x30
+3ae8d3 mov    rdi,rcx
+3ae8d6 mov    ebp,r9d
+3ae8d9 mov    ecx,0x48
+3ae8de mov    ebx,r8d
+3ae8e1 mov    r14,rdx
+3ae8e4 call   0x395158
+3ae8e9 mov    r12d,DWORD PTR [rsp+0x98]
+3ae8f1 mov    r15d,ebx
+3ae8f4 sub    r15d,r12d
+3ae8f7 mov    rsi,rax
+3ae8fa movsxd rcx,r15d
+3ae8fd shl    rcx,0x4
+3ae901 call   0x395158
+3ae906 mov    r9,rax
+3ae909 test   rsi,rsi
+3ae90c je     0x3ae995
+3ae912 test   rax,rax
+3ae915 je     0x3ae990
+3ae917 mov    rcx,QWORD PTR [rsp+0xa0]
+3ae91f mov    r8d,ebp
+3ae922 mov    QWORD PTR [rdi],rcx
+3ae925 mov    edx,r15d
+3ae928 mov    QWORD PTR [rdi+0x38],rax
+3ae92c mov    ecx,ebx
+3ae92e mov    eax,DWORD PTR [rsp+0x90]
+3ae935 test   eax,eax
+3ae937 mov    DWORD PTR [rdi+0x10],ebx
+3ae93a cmovne ecx,eax
+3ae93d mov    DWORD PTR [rdi+0x14],ebp
+3ae940 mov    DWORD PTR [rdi+0x18],ecx
+3ae943 sub    r8d,r12d
+3ae946 mov    rcx,rsi
+3ae949 mov    QWORD PTR [rdi+0x30],r14
+3ae94d mov    QWORD PTR [rdi+0x8],rsi
+3ae951 mov    DWORD PTR [rdi+0x1c],r12d
+3ae955 mov    DWORD PTR [rdi+0x24],0x1
+3ae95c mov    DWORD PTR [rdi+0x28],0x1
+3ae963 mov    DWORD PTR [rdi+0x20],0x0
+3ae96a mov    DWORD PTR [rsp+0x20],r15d
+3ae96f call   0x3adda4
+3ae974 test   r14,r14
+3ae977 je     0x3ae989
+3ae979 imul   ebx,ebp
+3ae97c xor    edx,edx
+3ae97e mov    rcx,r14
+3ae981 movsxd r8,ebx
+3ae984 call   0x3c8d70
+3ae989 mov    eax,0x1
+3ae98e jmp    0x3ae9a4
+3ae990 mov    rcx,rsi
+3ae993 jmp    0x3ae99d
+3ae995 test   r9,r9
+3ae998 je     0x3ae9a2
+3ae99a mov    rcx,r9
+3ae99d call   0x39517c
+3ae9a2 xor    eax,eax
+3ae9a4 add    rsp,0x30
+3ae9a8 pop    r15
+3ae9aa pop    r14
+3ae9ac pop    r12
+3ae9ae pop    rdi
+3ae9af pop    rsi
+3ae9b0 pop    rbp
+3ae9b1 pop    rbx
+3ae9b2 ret

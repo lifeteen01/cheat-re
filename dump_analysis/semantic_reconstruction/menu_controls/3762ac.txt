@@ -1,0 +1,6 @@
+3762ac	cmp    ecx,r8d
+3762af	mov    eax,ecx
+3762b1	cmovg  eax,r8d
+3762b5	cmp    ecx,edx
+3762b7	cmovl  eax,edx
+3762ba	ret

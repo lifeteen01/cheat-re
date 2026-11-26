@@ -1,0 +1,32 @@
+38f85c	xorps  xmm4,xmm4
+38f85f	ucomiss xmm1,xmm4
+38f862	jp     0x38f86c
+38f864	jne    0x38f86c
+38f866	mov    eax,0x1
+38f86b	ret
+38f86c	comiss xmm0,xmm1
+38f86f	jb     0x38f874
+38f871	xor    eax,eax
+38f873	ret
+38f874	comiss xmm4,xmm3
+38f877	jb     0x38f885
+38f879	comiss xmm2,xmm0
+38f87c	jbe    0x38f871
+38f87e	comiss xmm1,xmm2
+38f881	jb     0x38f871
+38f883	jmp    0x38f866
+38f885	or     eax,0xffffffff
+38f888	comiss xmm2,xmm0
+38f88b	jbe    0x38f891
+38f88d	mov    ecx,eax
+38f88f	jmp    0x38f89d
+38f891	subss  xmm0,xmm2
+38f895	divss  xmm0,xmm3
+38f899	cvttss2si ecx,xmm0
+38f89d	comiss xmm2,xmm1
+38f8a0	ja     0x38f8ae
+38f8a2	subss  xmm1,xmm2
+38f8a6	divss  xmm1,xmm3
+38f8aa	cvttss2si eax,xmm1
+38f8ae	sub    eax,ecx
+38f8b0	ret

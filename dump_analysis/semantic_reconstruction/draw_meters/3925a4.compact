@@ -1,0 +1,8 @@
+3925a4 sub    rsp,0x28
+3925a8 mov    rcx,QWORD PTR [rip+0x73579]        # 0x405b28
+3925af xor    edx,edx
+3925b1 add    rcx,0x48d8
+3925b8 call   0x38bb84
+3925bd mov    rcx,QWORD PTR [rax]
+3925c0 add    rsp,0x28
+3925c4 jmp    0x39256c

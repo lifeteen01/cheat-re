@@ -1,0 +1,67 @@
+{
+  "translation_units": 17,
+  "source_count": 45,
+  "sources": {
+    "dump_analysis/semantic_reconstruction/game_input_physics/driver.cpp": "0393e0ecdb7db763966d9d749ccf37cf769d2836519cb4b657b115ce80824bae",
+    "source/reconstructed/aim_weapon_analysis.hpp": "ff5629d56450eae93b6483daee3a7fbdaf043e0ea6050480607ede2b9b20d71f",
+    "source/reconstructed/analysis_failure.hpp": "9d13cebeb9d06f857fed3fe6804634c05b5c296d974435768ecb24bca46b83a3",
+    "source/reconstructed/entities_analysis.hpp": "c1f3a9ad7186a1d8bde1ffb0710cc5cb80c5c960aedd145fc093ea6994908ba9",
+    "source/reconstructed/field_getters_analysis.hpp": "d7d772fb5ed6bca84c8ed72a10181adc9f783643985621b834c8d5caf53dc133",
+    "source/reconstructed/frame_dependencies_analysis.hpp": "5ba226f6974847f5ab29be4be5d704c9a0570e05020a502e5d456167a83f1965",
+    "source/reconstructed/game_aux_helpers_analysis.hpp": "5cfd421dcdb37e12b44c4dee7e4ffe0a8dfab9cac47032a6aa335f01e2a6fd67",
+    "source/reconstructed/game_base_analysis.hpp": "7de5f5ca6e3ffa719ae0ee80ec90218257c1989762b2217f52ab07c9f4d46d86",
+    "source/reconstructed/game_input_physics_analysis.hpp": "1eb94030b7eb83377b8592d878267d34d32a5c98cc9b991fc63ce2ccf34660a7",
+    "source/reconstructed/game_input_physics_arguments.cpp": "28d4575b2666aea55933a626d85f852730af04e33ebbc26ad04690ffe3c8aa39",
+    "source/reconstructed/game_input_physics_arguments_checks.cpp": "f0755514a2a779779ba01493bc7a97a79f453afc49648c1ac41c6b3f60b85a83",
+    "source/reconstructed/game_input_physics_bindings.cpp": "c34b35ef5509530f689da69575bf45e16d334bb3e9c86f63b30ca9c6004394b7",
+    "source/reconstructed/game_input_physics_checks.cpp": "992abb10a7def8a2839df0e6e1259d1ffa0023b8a0e7241555b8474bd4c1cc45",
+    "source/reconstructed/game_input_physics_coverage.cpp": "d150c5211b323250aae00e4b832bdd0793ee1548175bbc7262ab5c8e8d768292",
+    "source/reconstructed/game_input_physics_fixture.cpp": "dae91943d44c50c45d36283f59edc2c35458c51054abc04bee590e121df1bb64",
+    "source/reconstructed/game_input_physics_fixture.hpp": "5c4c4586066a72fda542aeeb5bfa7e18d0a7c44006d98b72f05d2aa96a795042",
+    "source/reconstructed/game_input_physics_internal.hpp": "3b5e9b97c095fb85cd279f2463b9142141c243e7b945343de055848ef04e18bc",
+    "source/reconstructed/game_input_physics_keys.cpp": "5969a78fb687abc35445ce6c10122e4fb9b8bf8bf0de7d8b050de32a15ae2cf9",
+    "source/reconstructed/game_input_physics_literals.cpp": "4af5622fdcd281dd30a46af1595b6c925bb926dc246807ceff344d9be21e4b43",
+    "source/reconstructed/game_input_physics_metadata.cpp": "20a132c1fea4c6381963511ec54c87a66caaf8285af17a1b93e563db4e29ea0a",
+    "source/reconstructed/game_input_physics_metadata_checks.cpp": "bffa258517c550c1f6e5648da28949d7454dd40a1d71a65f4ce3576acf916642",
+    "source/reconstructed/game_input_physics_pe.cpp": "4de2ed91e3b5d9dc92b4e730d548f82a63aa1607f8795a75f592b1c39302cc1e",
+    "source/reconstructed/game_input_physics_queries.cpp": "91a941e321ec7aec97fc84740b1aa7c60170717d5344a631697a13cb2e817f45",
+    "source/reconstructed/game_input_physics_queries_checks.cpp": "14b4a37746415fe7cb43138a0987ae43523a06ebb918e445b400ab3fe92dcf26",
+    "source/reconstructed/game_input_physics_specs.inc": "dfe1c54f71488e745c4fa5b5ab8dd8daf772c539266cddfc6ce7fee4bbebfcdf",
+    "source/reconstructed/hooks_analysis.hpp": "e77b69e7fc8099e340df06471d0ee3cbbb249c32977714ed1680bd058001973f",
+    "source/reconstructed/interaction_workers.hpp": "4f919378a747853fc06b96b1f8fe53c652088d89befee7694070d79d948c7dd1",
+    "source/reconstructed/internal_analysis.hpp": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee",
+    "source/reconstructed/launcher_analysis.hpp": "a5fb7073e0efda2911f7cb3e2856c6e3d0954b649cd6bf951de3e4525882cb68",
+    "source/reconstructed/metadata_analysis.cpp": "38187b9f5f20e10a10ca2aa91c973b2035dda979c37f362149407e1068ad2b07",
+    "source/reconstructed/metadata_analysis.hpp": "c2a911d47102dea04281595ec498af958170b7a8794f23e0b9c96c7f02833e61",
+    "source/reconstructed/metadata_argument_bindings.cpp": "c3f9775e823cf6d66c4faec2f57b40b902db7a25581f9b5cafcaf603e8627ed8",
+    "source/reconstructed/metadata_argument_bindings.hpp": "d3ded5720d64d298eae698bf6490cb2eae7a6893b9f13e1550be2ea94885039b",
+    "source/reconstructed/metadata_export_analysis.hpp": "195fa13dd93dd66f787c967e8d5e4ad4846059272b9462fad47d5e7cabcc776f",
+    "source/reconstructed/metadata_signature_analysis.hpp": "6b530436f86a79d9dfb255e60df36a339c47fcd1128d89f0d0a4a4e643498815",
+    "source/reconstructed/metadata_wrapper_analysis.hpp": "0666fcce193411f929556d36de4363f2195b35bd9c33abf869da3338e032c677",
+    "source/reconstructed/movement_analysis.hpp": "ee7fdc443261d2c813d53b7f9f092acf66880d12527f426b28f5b5a57ecfbd04",
+    "source/reconstructed/movement_main_analysis.hpp": "f9ac54ded4eb19903fbbef5d9ceff332147eef5d067e6e23f08d018dca49a6ca",
+    "source/reconstructed/projectile_analysis.hpp": "4c97f5b0161032b0bfca9668e7f6aa201bb2d22b7a1cbe18e532b1e8deeea442",
+    "source/reconstructed/registry_analysis.cpp": "e00195050a92eca999ca252d7c161d2cba8f772b918a06985537903cc453ef34",
+    "source/reconstructed/registry_analysis.hpp": "eca104446e6dc06c1e36fe7ce9f7f0411836973c72a0451c994acb882352093c",
+    "source/reconstructed/renderer_helpers_analysis.hpp": "b35e36865dd4e6826df394092b6d65078140736097e4cbe2d1c723e0cc2b8a22",
+    "source/reconstructed/server_analysis.hpp": "741d72f3cd5e33c17d6786e9b3e1d9462114256d3e6d58cd1b0abf4df47d2b2e",
+    "source/reconstructed/snapshot_bindings.hpp": "d4c916a94f9a63e59e1ea98dfcb1d4fce121563ae01d2aa76fa9034f832899dd",
+    "source/reconstructed/unity_backend_analysis.hpp": "966116103963c7b6a05d1effaa5dd837098619de0a5953186b636fe9101ab18a"
+  },
+  "runs": {
+    "strict": {
+      "exit_code": 0,
+      "seconds": 17.163,
+      "sources_unchanged": true
+    },
+    "sanitize": {
+      "exit_code": 0,
+      "seconds": 25.335,
+      "sources_unchanged": true
+    }
+  },
+  "preserved_inputs": {
+    "exit_code": 0,
+    "pass_count": 135
+  }
+}

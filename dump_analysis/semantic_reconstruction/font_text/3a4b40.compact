@@ -1,0 +1,87 @@
+3a4b40 mov    QWORD PTR [rsp+0x18],rbx
+3a4b45 push   rbp
+3a4b46 push   rsi
+3a4b47 push   rdi
+3a4b48 sub    rsp,0x60
+3a4b4c mov    rbx,rcx
+3a4b4f call   0x3a4f38
+3a4b54 mov    rcx,rbx
+3a4b57 call   0x3a5008
+3a4b5c mov    rcx,rbx
+3a4b5f call   0x3a5204
+3a4b64 xor    edi,edi
+3a4b66 lea    rbp,[rbx+0x68]
+3a4b6a cmp    DWORD PTR [rbp+0x0],edi
+3a4b6d jle    0x3a4c66
+3a4b73 mov    edx,edi
+3a4b75 mov    rcx,rbp
+3a4b78 call   0x38bb9c
+3a4b7d mov    rsi,rax
+3a4b80 cmp    QWORD PTR [rax+0x18],0x0
+3a4b85 je     0x3a4c5b
+3a4b8b cmp    DWORD PTR [rax+0x8],0x0
+3a4b8f je     0x3a4c5b
+3a4b95 lea    rcx,[rsp+0x88]
+3a4b9d call   0x2d4870
+3a4ba2 lea    rcx,[rsp+0x80]
+3a4baa call   0x2d4870
+3a4baf lea    r9,[rsp+0x80]
+3a4bb7 mov    rdx,rsi
+3a4bba lea    r8,[rsp+0x88]
+3a4bc2 mov    rcx,rbx
+3a4bc5 call   0x3a37c8
+3a4bca movzx  eax,WORD PTR [rsi+0x2]
+3a4bce xor    edx,edx
+3a4bd0 movss  xmm0,DWORD PTR [rsi+0xc]
+3a4bd5 movss  xmm5,DWORD PTR [rsi+0x14]
+3a4bda movss  xmm1,DWORD PTR [rsp+0x84]
+3a4be3 movss  xmm3,DWORD PTR [rsi+0x10]
+3a4be8 movzx  r8d,WORD PTR [rsi+0x8]
+3a4bed mov    rcx,QWORD PTR [rsi+0x18]
+3a4bf1 movss  DWORD PTR [rsp+0x58],xmm0
+3a4bf7 movss  xmm0,DWORD PTR [rsp+0x80]
+3a4c00 movss  DWORD PTR [rsp+0x50],xmm1
+3a4c06 movss  xmm1,DWORD PTR [rsp+0x8c]
+3a4c0f movss  DWORD PTR [rsp+0x48],xmm0
+3a4c15 movss  xmm0,DWORD PTR [rsp+0x88]
+3a4c1e movss  DWORD PTR [rsp+0x40],xmm1
+3a4c24 movss  DWORD PTR [rsp+0x38],xmm0
+3a4c2a movd   xmm4,eax
+3a4c2e movzx  eax,WORD PTR [rsi]
+3a4c31 cvtdq2ps xmm4,xmm4
+3a4c34 movd   xmm2,eax
+3a4c38 cvtdq2ps xmm2,xmm2
+3a4c3b addss  xmm4,xmm5
+3a4c3f addss  xmm2,DWORD PTR [rsi+0x10]
+3a4c44 movss  DWORD PTR [rsp+0x30],xmm4
+3a4c4a movss  DWORD PTR [rsp+0x28],xmm2
+3a4c50 movss  DWORD PTR [rsp+0x20],xmm5
+3a4c56 call   0x39ff7c
+3a4c5b inc    edi
+3a4c5d cmp    edi,DWORD PTR [rbp+0x0]
+3a4c60 jl     0x3a4b73
+3a4c66 xor    edi,edi
+3a4c68 lea    rsi,[rbx+0x58]
+3a4c6c cmp    DWORD PTR [rsi],edi
+3a4c6e jle    0x3a4c9b
+3a4c70 mov    edx,edi
+3a4c72 mov    rcx,rsi
+3a4c75 call   0x38bb84
+3a4c7a mov    rcx,QWORD PTR [rax]
+3a4c7d cmp    BYTE PTR [rcx+0x60],0x0
+3a4c81 je     0x3a4c95
+3a4c83 mov    edx,edi
+3a4c85 mov    rcx,rsi
+3a4c88 call   0x38bb84
+3a4c8d mov    rcx,QWORD PTR [rax]
+3a4c90 call   0x3a33c0
+3a4c95 inc    edi
+3a4c97 cmp    edi,DWORD PTR [rsi]
+3a4c99 jl     0x3a4c70
+3a4c9b mov    BYTE PTR [rbx+0x28],0x1
+3a4c9f mov    rbx,QWORD PTR [rsp+0x90]
+3a4ca7 add    rsp,0x60
+3a4cab pop    rdi
+3a4cac pop    rsi
+3a4cad pop    rbp
+3a4cae ret

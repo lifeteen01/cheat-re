@@ -1,0 +1,66 @@
+FRAME 0 visible=1 boxes=3 lists=356
+boxes 123,176-834,191
+category_favorites 33,383-75,425
+category_unavailable_1077571992 33,333-75,375
+category_unavailable_1158324760 33,183-75,225
+category_unavailable_1420490409 33,83-75,125
+category_unavailable_267208860 33,233-75,275
+category_unavailable_4036573512 33,133-75,175
+category_unavailable_608356700 33,283-75,325
+color_preview 772,147-796,162
+distance 478.5,238-834,244
+esp 123,147-834,162
+names 123,205-834,220
+search 177,12-869,69
+FRAME 1 visible=1 boxes=3 lists=356
+boxes 123,176-834,191
+category_favorites 33,383-75,425
+category_unavailable_1077571992 33,333-75,375
+category_unavailable_1158324760 33,183-75,225
+category_unavailable_1420490409 33,83-75,125
+category_unavailable_267208860 33,233-75,275
+category_unavailable_4036573512 33,133-75,175
+category_unavailable_608356700 33,283-75,325
+color_preview 772,147-796,162
+distance 478.5,238-834,244
+esp 123,147-834,162
+names 123,205-834,220
+search 177,12-869,69
+FRAME 2 visible=1 boxes=3 lists=356
+boxes 123,176-834,191
+category_favorites 33,383-75,425
+category_unavailable_1077571992 33,333-75,375
+category_unavailable_1158324760 33,183-75,225
+category_unavailable_1420490409 33,83-75,125
+category_unavailable_267208860 33,233-75,275
+category_unavailable_4036573512 33,133-75,175
+category_unavailable_608356700 33,283-75,325
+color_preview 772,147-796,162
+distance 478.5,238-834,244
+esp 123,147-834,162
+names 123,205-834,220
+search 177,12-869,69
+FrameLifecycle::external_menu_request=3
+frame_main_menu_35fc8b=4
+frame_menu_page_388b4c=3
+menu_color_popup_hover_386932=4
+menu_controls_apply=16
+menu_controls_button_behavior_3bc7e0=12
+menu_controls_checkbox_3bd114=12
+menu_controls_color_386438=4
+menu_controls_slider_3c4478=4
+menu_controls_slider_float_3c43f4=4
+menu_detail::checkbox@3bd114=12
+menu_detail::color@386438=4
+menu_detail::slider@3c4478=4
+owned_menu_balanced_window_focus_style_group_stacks=3
+owned_menu_cold_graph_21_pages=1
+owned_menu_cold_original_control=309
+owned_menu_constructor_position_60=354
+owned_menu_finish_frame=3
+owned_menu_prepare_frame=3
+owned_menu_random_range_binding=1
+owned_menu_random_range_context=1
+replay_frame_menu_35d5ac=4
+replay_menu_page_3354b4=4
+replay_menu_page_35013c=4

@@ -1,0 +1,160 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "requested_envelopes": 94,
+  "checked_branch_destinations": 923,
+  "root_blocks": [
+    {
+      "begin": "0x3c0538",
+      "end": "0x3c0f13",
+      "claim": "C",
+      "source": "imgui_text_input_activation.cpp",
+      "scope": "layout, reuse, initialization, ownership and hint gates"
+    },
+    {
+      "begin": "0x3c0e9e",
+      "end": "0x3c0f13",
+      "claim": "C/I",
+      "source": "imgui_text_input_fonts.cpp",
+      "scope": "password copied scalars plus authoritative owned glyph/explicit alias"
+    },
+    {
+      "begin": "0x3c0f1c",
+      "end": "0x3c1b6d",
+      "claim": "C",
+      "source": "imgui_text_input_process.cpp",
+      "scope": "mouse, queue, named shortcuts, clipboard, Enter/Escape"
+    },
+    {
+      "begin": "0x3c1b6d",
+      "end": "0x3c2075",
+      "claim": "C/I",
+      "source": "imgui_text_input_commit.cpp",
+      "scope": "callbacks, minimal owned undo diff, deactivated buffer, bounded copying"
+    },
+    {
+      "begin": "0x3c2075",
+      "end": "0x3c2941",
+      "claim": "C",
+      "source": "imgui_text_input_render.cpp",
+      "scope": "frame/selection/text/scroll/IME outputs"
+    },
+    {
+      "begin": "0x3c2941",
+      "end": "0x3c2a7f",
+      "claim": "C",
+      "source": "imgui_text_input_render.cpp",
+      "scope": "child/group end, logging, labels, edited and return flags"
+    },
+    {
+      "begin": "0x3c2a80",
+      "end": "0x3c2c44",
+      "claim": "C",
+      "source": "imgui_text_input_codec.cpp",
+      "scope": "literal character filter"
+    },
+    {
+      "begin": "0x3c690c",
+      "end": "0x3c7a48",
+      "claim": "C/I",
+      "source": "imgui_text_input_edit.cpp",
+      "scope": "literal named-token dispatch; no ordinary-character insertion; owned edit/history data"
+    },
+    {
+      "begin": "0x3c5ed4",
+      "end": "0x3c6418",
+      "claim": "C/I",
+      "source": "imgui_text_input_edit.cpp",
+      "scope": "owned undo records and native shared-pool room/eviction conditions"
+    },
+    {
+      "begin": "0x398a98",
+      "end": "0x398b01",
+      "claim": "C/I",
+      "source": "imgui_text_input_fonts.cpp",
+      "scope": "font push and owned numeric vector stack/texture domain"
+    },
+    {
+      "begin": "0x39881c",
+      "end": "0x398876",
+      "claim": "C/I",
+      "source": "imgui_text_input_fonts.cpp",
+      "scope": "font pop, default selection and texture restore"
+    },
+    {
+      "begin": "0x39b290",
+      "end": "0x39b345",
+      "claim": "C",
+      "source": "imgui_text_input_fonts.cpp",
+      "scope": "current font/size/UV/table writes; reused window metric helper"
+    },
+    {
+      "begin": "0x38cd28",
+      "end": "0x38cdc2",
+      "claim": "C/I",
+      "source": "imgui_text_input_events.cpp",
+      "scope": "wheel guards, wrapping ID, known28-byte event, owned vector reserve"
+    }
+  ],
+  "owned_adaptations": [
+    {
+      "range": "3c5ed4..3c7b93",
+      "scope": "third-party STB private storage, owned diff history, array access and insertion/deletion",
+      "limits": "No native private pool/heap pointer alias ABI equivalence; bounded checked inputs, authoritative owned state after import."
+    },
+    {
+      "range": "37a69c/37a958/37acd4/37ad04/37a658",
+      "scope": "private vector allocation/relocation and exported text descriptors",
+      "limits": "Owned initialized payload copied; unused native capacity bytes not invented; arbitrary allocation reentry pointer aliases not claimed."
+    },
+    {
+      "range": "3bc268/3c2c44/3c1d40..3c1dc7",
+      "scope": "owned synchronous callback data/string/capacity",
+      "limits": "Arbitrary foreign pointer replacement and raw overlapping native buffer ABI excluded."
+    }
+  ],
+  "reused_local_bindings": [
+    {
+      "rva": "0x3c04d0",
+      "owner": "imgui_navigation_text.cpp",
+      "required": "concrete deactivation controller, auto-composed if absent in supplied controls"
+    },
+    {
+      "rva": "0x3997ac",
+      "owner": "imgui_window_details_analysis.hpp",
+      "required": "supplied ImguiWindowsApi.nav_highlight_3997ac; missing binder fails"
+    },
+    {
+      "rva": "0x38e9c4/0x390a88",
+      "owner": "imgui_windows_*",
+      "required": "shared owned window state/API for multiline path"
+    },
+    {
+      "rva": "0x394e5c",
+      "owner": "menu_color_picker_logging.cpp",
+      "required": "shared owned MenuColorPickerLogStore when logging reached"
+    },
+    {
+      "rva": "0x3a31f8/0x3a1244/0x3a1148/0x3a73c4/0x3a6e84",
+      "owner": "font_text_*/drawlist_core_*/menu_render_bindings.*",
+      "required": "owned geometry/text effects and reused texture controller"
+    }
+  ],
+  "untranslated_editor_root_callbacks": [],
+  "remaining_limits": [
+    {
+      "claim": "U",
+      "range": "native pointer/heap aliases of adapted library internals",
+      "reason": "Declared adaptation, not a remaining unknown sample-local controller."
+    },
+    {
+      "claim": "U",
+      "range": "matching Unity/IL2CPP/game ABI and OS clipboard/IME",
+      "reason": "Matching artifacts unavailable; external leaves remain explicit owned effects."
+    },
+    {
+      "claim": "U",
+      "range": "3c0538..3c2a7f exhaustive path equivalence",
+      "reason": "Byte/branch audit and representative fixtures; no sample differential execution. Multiline renderer tested separately, full concrete child-window integration not exhaustively exercised."
+    }
+  ]
+}

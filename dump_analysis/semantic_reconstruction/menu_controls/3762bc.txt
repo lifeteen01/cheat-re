@@ -1,0 +1,6 @@
+3762bc	comiss xmm1,xmm0
+3762bf	ja     0x3762c8
+3762c1	minss  xmm2,xmm0
+3762c5	movaps xmm1,xmm2
+3762c8	movaps xmm0,xmm1
+3762cb	ret

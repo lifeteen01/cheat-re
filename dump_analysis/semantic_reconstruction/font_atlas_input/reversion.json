@@ -1,0 +1,9 @@
+{
+  "mutation": "move source config data-pointer read before native allocation/store instead of literal39fe0f",
+  "exit_code": 1,
+  "seconds": 36.308,
+  "expected_diagnostic": "data length/source reloads, no invented tail byte, ellipsis and pixel mutation",
+  "observed_diagnostic": "data length/source reloads, no invented tail byte, ellipsis and pixel mutation",
+  "delivered_source_unchanged": true,
+  "result": "PASS"
+}

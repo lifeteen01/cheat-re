@@ -1,0 +1,45 @@
+3aa628 rex push rbp
+3aa62a push   rbx
+3aa62b push   rsi
+3aa62c push   rdi
+3aa62d lea    rbp,[rsp-0x3f]
+3aa632 sub    rsp,0x98
+3aa639 xorps  xmm0,xmm0
+3aa63c mov    QWORD PTR [rbp-0x39],0x1
+3aa644 xorps  xmm1,xmm1
+3aa647 mov    QWORD PTR [rbp-0x11],0x0
+3aa64f mov    rbx,r8
+3aa652 mov    DWORD PTR [rbp-0x9],0x0
+3aa659 lea    r8,[rbp-0x39]
+3aa65d mov    QWORD PTR [rbp-0x1],0x0
+3aa665 movups XMMWORD PTR [rbp-0x31],xmm0
+3aa669 mov    edi,edx
+3aa66b mov    rsi,rcx
+3aa66e movdqu XMMWORD PTR [rbp-0x21],xmm1
+3aa673 mov    DWORD PTR [rbp+0x2f],0x0
+3aa67a movups XMMWORD PTR [rbp+0x7],xmm0
+3aa67e movdqu XMMWORD PTR [rbp+0x17],xmm1
+3aa683 call   0x3ac84c
+3aa688 test   eax,eax
+3aa68a je     0x3aa6b7
+3aa68c movsxd rax,DWORD PTR [rbp-0x9]
+3aa690 imul   rcx,rax,0xe
+3aa694 call   0x395158
+3aa699 lea    r8,[rbp-0x1]
+3aa69d mov    QWORD PTR [rbx],rax
+3aa6a0 mov    edx,edi
+3aa6a2 mov    QWORD PTR [rbp+0x27],rax
+3aa6a6 mov    rcx,rsi
+3aa6a9 call   0x3ac84c
+3aa6ae test   eax,eax
+3aa6b0 je     0x3aa6b7
+3aa6b2 mov    eax,DWORD PTR [rbp+0x2f]
+3aa6b5 jmp    0x3aa6c0
+3aa6b7 mov    QWORD PTR [rbx],0x0
+3aa6be xor    eax,eax
+3aa6c0 add    rsp,0x98
+3aa6c7 pop    rdi
+3aa6c8 pop    rsi
+3aa6c9 pop    rbx
+3aa6ca pop    rbp
+3aa6cb ret

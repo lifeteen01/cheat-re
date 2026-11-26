@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "compiler_sha256": "e6718f7e0c7d057c3ff77b550c603da9bc4030e3ede3c053705acce1293dbe4d",
+  "objects": {
+    "dump_analysis/semantic_reconstruction/freestanding_gate/strict/gate_x64.S.o": "b6965b43bde03a9361bf26a91c67a817ea7db80e3585f09f20c0d6fcc8c503cf",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/strict/checks_x64.S.o": "071ecc1524b165058554e85ec1704d8042d9facf38605e4f312629567b5f3156",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/strict/gate.cpp.o": "c54aa00ac39846c6d77923b9ed280c7bb13663e7d0e5ca95ccf283f7d4ec109d",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/strict/checks.cpp.o": "e2df9a4488583aec900d083eab241d775114f7d89375ef6740622c5545eefb1a"
+  },
+  "build_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "link_map_sha256": null,
+  "artifacts": {
+    "dump_analysis/semantic_reconstruction/freestanding_gate/strict/owned_gate_checks": "4bb701b0826314f5023394adb21e5a25c3f49a418b51339a4e66fcaded48c0ce"
+  },
+  "executor_audit": {
+    "passed": true,
+    "instruction_count": 126,
+    "restore_reference_verified": true,
+    "comparison": "ordered mnemonics/registers/operands/direct-branch destinations; relocated restore LEA",
+    "original_bytes_checked": true,
+    "dump_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090"
+  },
+  "dll_imports": null,
+  "host_imports_are_separate": null,
+  "dll_linked_archive_members": false,
+  "gate_object_undefined": "                 U re_gate_capture\n",
+  "seconds": 4.211,
+  "runtime_log_sha256": "6a6ddad09e2c754f5a997f155bd048461c8497e7190a41bd1f1467d1a84aeba3",
+  "original_manifest_entries": 135,
+  "scope": "Recovered executor component only; supplied owned context/targets. Hosted driver is separate.",
+  "full_context_selection_implemented": false,
+  "scene_uses_executor": false,
+  "overall_base_no_crt_no_imports": false
+}

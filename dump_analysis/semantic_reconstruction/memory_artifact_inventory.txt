@@ -1,0 +1,2 @@
+dump_analysis/dumps/pesieve_cheat/process_4248/powershell.exe.dmp regions 958 PEs 93 IL2CPP export images 0 plausible metadata headers 0 clear-name hits 1
+dump_analysis/dumps/pesieve_hooks_full/process_6608/powershell.exe.dmp regions 953 PEs 94 IL2CPP export images 0 plausible metadata headers 0 clear-name hits 2

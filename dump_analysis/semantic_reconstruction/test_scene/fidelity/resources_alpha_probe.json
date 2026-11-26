@@ -1,0 +1,46 @@
+{
+  "source": "#include \"font_text_analysis.hpp\"\n#include <iostream>\nint main() {\n using namespace rust_internal_re;\n for (float exponent : {1.0f,2.0f}) {\n  std::cout << \"exponent=\" << exponent << \" pow(0)=\" << font_text_power_3c8da8(0,exponent) << \" pow(1)=\" << font_text_power_3c8da8(1,exponent) << '\\n';\n  FontTextAtlas a;a.width=a.height=128;a.flags=4;a.uv_scale={1.f/128,1.f/128};a.radius=12;a.inner=4;a.exponent=exponent;a.blur=true;\n  a.rgba.emplace(128*128,0x00ffffffu);a.rectangles={{2,2,120,0,0,0,{},0},{32,32,0,64,0,0,{},0},{48,48,40,64,0,0,{},0}};\n  a.white_rect=0;a.round_rect=1;a.circle_rect=2;font_text_shapes_3a5204(a);\n  std::cout << \"circle texel UV bounds=\";for(float uv:a.circle)std::cout<<uv*128<<',';std::cout<<\"\\nrounded texel UV0=\";for(float uv:a.rounded[0])std::cout<<uv*128<<',';\n  std::cout << \"\\ncircle alpha row y=88 x=48..64:\";for(unsigned x=48;x<=64;++x)std::cout << ' ' << ((*a.rgba)[88*128+x]>>24);\n  std::cout << \"\\nrounded alpha row y=80 x=2..18:\";for(unsigned x=2;x<=18;++x)std::cout << ' ' << ((*a.rgba)[80*128+x]>>24);\n  std::cout << '\\n';\n }\n}\n",
+  "command": [
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/bin/x86_64-linux-gnu-g++-15",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15/",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15/",
+    "-L/usr/lib/x86_64-linux-gnu",
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "-Isource/reconstructed",
+    "-x",
+    "c++",
+    "-",
+    "-x",
+    "none",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/strict/libreconstructed.a",
+    "-o",
+    "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/fidelity/resources_alpha_probe"
+  ],
+  "build_exit": 0,
+  "run_exit": 0,
+  "inputs_before": {
+    "source/test_scene/resources.cpp": "dc4383c00bdbc1100a16604660514f11ef949120174ee8043f7ae7d2aaa8f0b6",
+    "source/reconstructed/font_text_atlas.cpp": "8b0fab75ca84b0396ba6fcb2081ff304695688fb96dbe24440c308b28b9f7ead",
+    "source/reconstructed/draw_shadows_controllers.cpp": "60f6bfba503800076e7ba43dbeb1f8a60e1423166edde658ea04bc2878817e66",
+    "source/reconstructed/draw_shadows_geometry.cpp": "147a4d0da2ec00c20d151c669cd4ffaa835b61d1aadaa6326580757b6af27691",
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime/01_menu_and_esp_window.png": "a4437dcbc9560a98660cf1bf200814589c772a74de03cae82e726e6f5c731fc4",
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime/03_color_changes_esp_window.png": "626f1ef195376f62984f3a2b47511af0db08fed200d55643b89065311cc5e10f"
+  },
+  "inputs_after": {
+    "source/test_scene/resources.cpp": "dc4383c00bdbc1100a16604660514f11ef949120174ee8043f7ae7d2aaa8f0b6",
+    "source/reconstructed/font_text_atlas.cpp": "8b0fab75ca84b0396ba6fcb2081ff304695688fb96dbe24440c308b28b9f7ead",
+    "source/reconstructed/draw_shadows_controllers.cpp": "60f6bfba503800076e7ba43dbeb1f8a60e1423166edde658ea04bc2878817e66",
+    "source/reconstructed/draw_shadows_geometry.cpp": "147a4d0da2ec00c20d151c669cd4ffaa835b61d1aadaa6326580757b6af27691",
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime/01_menu_and_esp_window.png": "a4437dcbc9560a98660cf1bf200814589c772a74de03cae82e726e6f5c731fc4",
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime/03_color_changes_esp_window.png": "626f1ef195376f62984f3a2b47511af0db08fed200d55643b89065311cc5e10f"
+  }
+}

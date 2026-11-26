@@ -1,0 +1,7 @@
+["/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/cmake", "-S", "/home/john/Desktop/cheat_re/source", "-B", "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_ninja_build", "-G", "Ninja", "-DCMAKE_MAKE_PROGRAM=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/ninja", "-DCMAKE_TOOLCHAIN_FILE=/home/john/Desktop/cheat_re/source/windows_base/mingw-x64.cmake", "-DCMAKE_BUILD_TYPE=Release", "-DRE_BUILD_WINDOWS_BASE=ON", "-DRE_BUILD_OFFLINE_RECONSTRUCTION=OFF"]
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_ninja_build
+["/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/cmake", "--build", "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_ninja_build", "--parallel", "2"]
+[1/2] Building CXX object windows_base/CMakeFiles/re_base.dir/base_dll.cpp.obj
+[2/2] Linking CXX shared library windows_base/re_base.dll

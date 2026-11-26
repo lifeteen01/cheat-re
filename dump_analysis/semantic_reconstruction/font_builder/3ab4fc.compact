@@ -1,0 +1,24 @@
+3ab4fc rex push rbx
+3ab4fe sub    rsp,0x40
+3ab502 movaps xmm3,xmm1
+3ab505 mov    rbx,rcx
+3ab508 call   0x3ab3e0
+3ab50d addss  xmm3,DWORD PTR [rbx+0x10]
+3ab512 addss  xmm2,DWORD PTR [rbx+0x14]
+3ab517 xor    eax,eax
+3ab519 mov    dl,0x1
+3ab51b mov    DWORD PTR [rsp+0x38],eax
+3ab51f mov    rcx,rbx
+3ab522 mov    DWORD PTR [rsp+0x30],eax
+3ab526 mov    DWORD PTR [rsp+0x28],eax
+3ab52a cvttss2si r9d,xmm2
+3ab52f mov    DWORD PTR [rsp+0x20],eax
+3ab533 cvttss2si r8d,xmm3
+3ab538 movss  DWORD PTR [rbx+0x10],xmm3
+3ab53d movss  DWORD PTR [rbx+0x8],xmm3
+3ab542 movss  DWORD PTR [rbx+0x14],xmm2
+3ab547 movss  DWORD PTR [rbx+0xc],xmm2
+3ab54c call   0x3ab558
+3ab551 add    rsp,0x40
+3ab555 pop    rbx
+3ab556 ret

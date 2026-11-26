@@ -1,0 +1,889 @@
+{
+  "scope": "Every row in Unity backend cache-operation catalog; superset of the minimum frame path, not every callback in repository",
+  "source": "source/reconstructed/unity_backend_cache_specs.inc",
+  "source_sha256": "5062a675b79dbc259df5eea2107acb9bde5a08411adbf05fea5833ba3a5dd469",
+  "rows": [
+    {
+      "rva": "0x2cd7f4",
+      "resolver": "0x2cc174",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x2ce718",
+      "resolver": "0x2cc164",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x2cea84",
+      "resolver": "0x2cc16c",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x2e071c",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Time",
+      "method_or_export": "get_deltaTime",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x2e09f0",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Screen",
+      "method_or_export": "get_height",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x2e0af0",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Screen",
+      "method_or_export": "get_width",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x2e68b8",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem.Controls",
+      "class": "ButtonControl",
+      "method_or_export": "get_isPressed",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3346e8",
+      "resolver": "0x2cc174",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x335358",
+      "resolver": "0x2cc16c",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x36c8c4",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Camera",
+      "method_or_export": "get_pixelRect",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x373138",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "GameObject",
+      "method_or_export": "Find",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x373378",
+      "resolver": "0x33416c",
+      "namespace": "UnityEngine",
+      "class": "GameObject",
+      "method_or_export": "GetComponent",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x373744",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "GameObject",
+      "method_or_export": "set_active",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x375abc",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "AssetBundle",
+      "method_or_export": "LoadAsset_Internal",
+      "count": "2",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x375c08",
+      "resolver": "0x376154",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.AssetBundle::LoadFromMemory_Internal_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x375e6c",
+      "resolver": "0x2cc174",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x376084",
+      "resolver": "0x3caed0",
+      "namespace": "",
+      "class": "GameAssembly.dll",
+      "method_or_export": "il2cpp_array_new",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x376154",
+      "resolver": "0x3caed0",
+      "namespace": "",
+      "class": "GameAssembly.dll",
+      "method_or_export": "il2cpp_resolve_icall",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x376214",
+      "resolver": "0x2cc16c",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af01c",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af0bc",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af13c",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af1c8",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af264",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af2e4",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af3a4",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af424",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "AssetBundle",
+      "method_or_export": "LoadAsset_Internal",
+      "count": "2",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af54c",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "AssetBundle",
+      "method_or_export": "LoadAsset_Internal",
+      "count": "2",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af674",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af6f4",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af774",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af814",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af8b4",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3af940",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b0500",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b0580",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b0600",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b0680",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b0730",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b07e0",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b086c",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b08f8",
+      "resolver": "0x333d10",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b1980",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "RenderTexture",
+      "method_or_export": "Create",
+      "count": "0",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b1dc4",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.Rendering",
+      "class": "CommandBuffer",
+      "method_or_export": "DisableScissorRect",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b1edc",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.Rendering",
+      "class": "CommandBuffer",
+      "method_or_export": "EnableScissorRect",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2004",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "Graphics",
+      "method_or_export": "ExecuteCommandBuffer",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2120",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_backButton",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b223c",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_forwardButton",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2358",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_leftButton",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2474",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_middleButton",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2590",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_current",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2698",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Pointer",
+      "method_or_export": "get_position",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b27f8",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_rightButton",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2914",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine.InputSystem",
+      "class": "Mouse",
+      "method_or_export": "get_scroll",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b2a30",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Time",
+      "method_or_export": "get_unscaledDeltaTime",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3614",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "Matrix4x4",
+      "method_or_export": "Ortho",
+      "count": "6",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3798",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility::PinSystemObjectAndGetAddress",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b383c",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "RenderTexture",
+      "method_or_export": "Release",
+      "count": "0",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b39dc",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "RenderTexture",
+      "method_or_export": "set_height",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3b04",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.Mesh::InternalSetIndexBufferData_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3bdc",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.Mesh::SetIndexBufferParams_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3c90",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine.Rendering",
+      "class": "CommandBuffer",
+      "method_or_export": "SetRenderTarget",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3dbc",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.RectTransform::set_sizeDelta_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3e5c",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.Mesh::SetAllSubMeshesAtOnceFromNativeArray_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b3f38",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.Mesh::InternalSetVertexBufferData_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4010",
+      "resolver": "0x3b4d28",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "UnityEngine.Mesh::SetVertexBufferParamsFromPtr_Injected",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b40d0",
+      "resolver": "0x333bf4",
+      "namespace": "UnityEngine",
+      "class": "RenderTexture",
+      "method_or_export": "set_width",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b45c4",
+      "resolver": "0x333a2c",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4824",
+      "resolver": "0x3b106c",
+      "namespace": "UnityEngine.Rendering",
+      "class": "RenderTargetIdentifier",
+      "method_or_export": ".ctor",
+      "count": "1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4a20",
+      "resolver": "0x3339ec",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4a98",
+      "resolver": "0x333a24",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4b20",
+      "resolver": "0x2ee70c",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4b98",
+      "resolver": "0x2dee4c",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4c10",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Texture2D",
+      "method_or_export": "GetImageDataSize",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4d28",
+      "resolver": "0x3caed0",
+      "namespace": "",
+      "class": "GameAssembly.dll",
+      "method_or_export": "il2cpp_resolve_icall",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4de8",
+      "resolver": "0x3339dc",
+      "namespace": "",
+      "class": "",
+      "method_or_export": "",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    },
+    {
+      "rva": "0x3b4e60",
+      "resolver": "0x3349ac",
+      "namespace": "UnityEngine",
+      "class": "Texture2D",
+      "method_or_export": "GetWritableImageData",
+      "count": "-1",
+      "live_adapter_status": "not_implemented_or_validated",
+      "existing_code": "sample-local cache/selector/control logic; typed external operation still required",
+      "priority": "candidate: determine exact minimum-path reachability before implementation"
+    }
+  ],
+  "callback_interfaces": [
+    {
+      "name": "UnityApi.resolve_target",
+      "status": "snapshot metadata resolver exists; live export/signature bridge missing"
+    },
+    {
+      "name": "UnityApi.resolve_class",
+      "status": "copied-data class selector exists; live IL2CPP bridge missing"
+    },
+    {
+      "name": "UnityApi.copied_pointer",
+      "status": "Snapshot reads exist; verified live object/array memory adapter missing"
+    },
+    {
+      "name": "UnityApi.external",
+      "status": "typed callback only for actual Unity/game operations; no live implementation"
+    },
+    {
+      "name": "UnityApi.detect_context",
+      "status": "detection-only; executable spoof context is excluded, not a callback to fake successfully"
+    },
+    {
+      "name": "UnityFrameApi.finalized_draw_data_3924bc",
+      "status": "owned buffer conversion exists; runtime frame/ownership bridge missing"
+    },
+    {
+      "name": "UnityFrameApi.embedded_bytes",
+      "status": "copied resource contract; real resource mapping/lifetime must be bound"
+    }
+  ],
+  "limitations": [
+    "This is a full catalog inventory, not a claim every operation is mandatory for minimum frame",
+    "No callback marked implemented solely because a fixture supplied a result",
+    "Required live signatures/layouts remain blocked by matching game artifacts"
+  ]
+}

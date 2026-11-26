@@ -1,0 +1,32 @@
+39045c	sub    rsp,0x28
+390460	movss  xmm0,DWORD PTR [rcx+0xc]
+390465	mov    r8,rcx
+390468	call   0x3789fc
+39046d	movss  xmm3,DWORD PTR [rip+0xffffffffffefd26f]        # 0x28d6e4
+390475	movss  xmm2,DWORD PTR [rip+0xffffffffffefcdd3]        # 0x28d250
+39047d	mulss  xmm0,xmm3
+390481	addss  xmm0,xmm2
+390485	cvttss2si edx,xmm0
+390489	movss  xmm0,DWORD PTR [rcx+0x8]
+39048e	shl    edx,0x8
+390491	call   0x3789fc
+390496	mulss  xmm0,xmm3
+39049a	addss  xmm0,xmm2
+39049e	cvttss2si eax,xmm0
+3904a2	movss  xmm0,DWORD PTR [rcx+0x4]
+3904a7	or     eax,edx
+3904a9	shl    eax,0x8
+3904ac	call   0x3789fc
+3904b1	mulss  xmm0,xmm3
+3904b5	addss  xmm0,xmm2
+3904b9	cvttss2si ecx,xmm0
+3904bd	movss  xmm0,DWORD PTR [r8]
+3904c2	or     eax,ecx
+3904c4	shl    eax,0x8
+3904c7	call   0x3789fc
+3904cc	mulss  xmm0,xmm3
+3904d0	addss  xmm0,xmm2
+3904d4	cvttss2si ecx,xmm0
+3904d8	or     eax,ecx
+3904da	add    rsp,0x28
+3904de	ret

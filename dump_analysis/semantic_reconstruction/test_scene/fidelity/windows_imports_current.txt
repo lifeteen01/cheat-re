@@ -1,0 +1,23 @@
+
+[C] Authored artifact: dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe
+41f10810ca15e6528a4ac009a2af9b5c8b4cd43688cb4e701fc5f63371bf1d80  dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe
+	DLL Name: GDI32.dll
+	DLL Name: KERNEL32.dll
+	DLL Name: msvcrt.dll
+	DLL Name: USER32.dll
+
+[C] Authored artifact: dump_analysis/semantic_reconstruction/windows_base/build/re_base.dll
+ac8ac4cc2af1d8503625e8ab28ae725eb9046da01bd6a1813ee170c97557f0ec  dump_analysis/semantic_reconstruction/windows_base/build/re_base.dll
+	DLL Name: bcrypt.dll
+	DLL Name: COMCTL32.dll
+	DLL Name: GDI32.dll
+	DLL Name: KERNEL32.dll
+	DLL Name: msvcrt.dll
+	DLL Name: USER32.dll
+
+[C] Authored artifact: dump_analysis/semantic_reconstruction/windows_base/build/windows_host_checks.exe
+bf19f38f8f80cddaea00ac12ca4b1480d32985bf7a171a5e0aed6fe0a4400ee0  dump_analysis/semantic_reconstruction/windows_base/build/windows_host_checks.exe
+	DLL Name: GDI32.dll
+	DLL Name: KERNEL32.dll
+	DLL Name: msvcrt.dll
+	DLL Name: USER32.dll

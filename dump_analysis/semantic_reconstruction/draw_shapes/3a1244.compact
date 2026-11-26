@@ -1,0 +1,42 @@
+3a1244 test   r9d,0xff000000
+3a124b je     0x3a12d7
+3a1251 push   rbx
+3a1252 push   rbp
+3a1253 push   rsi
+3a1254 push   rdi
+3a1255 sub    rsp,0x38
+3a1259 movss  xmm0,DWORD PTR [rip+0xffffffffffeebfef]        # 0x28d250
+3a1261 mov    edi,r9d
+3a1264 comiss xmm0,DWORD PTR [rsp+0x80]
+3a126c mov    rsi,r8
+3a126f mov    rbp,rdx
+3a1272 mov    rbx,rcx
+3a1275 ja     0x3a12ad
+3a1277 mov    ecx,DWORD PTR [rsp+0x88]
+3a127e mov    eax,ecx
+3a1280 and    eax,0x1f0
+3a1285 cmp    eax,0x100
+3a128a je     0x3a12ad
+3a128c movss  xmm3,DWORD PTR [rsp+0x80]
+3a1295 mov    DWORD PTR [rsp+0x20],ecx
+3a1299 mov    rcx,rbx
+3a129c call   0x3a6b78
+3a12a1 mov    edx,edi
+3a12a3 mov    rcx,rbx
+3a12a6 call   0x378a14
+3a12ab jmp    0x3a12cf
+3a12ad mov    edx,0x6
+3a12b2 mov    rcx,rbx
+3a12b5 lea    r8d,[rdx-0x2]
+3a12b9 call   0x3a719c
+3a12be mov    r9d,edi
+3a12c1 mov    r8,rsi
+3a12c4 mov    rdx,rbp
+3a12c7 mov    rcx,rbx
+3a12ca call   0x3a6ec8
+3a12cf add    rsp,0x38
+3a12d3 pop    rdi
+3a12d4 pop    rsi
+3a12d5 pop    rbp
+3a12d6 pop    rbx
+3a12d7 ret

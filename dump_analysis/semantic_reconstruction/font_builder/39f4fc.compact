@@ -1,0 +1,23 @@
+39f4fc mov    QWORD PTR [rsp+0x10],rbx
+39f501 push   rdi
+39f502 sub    rsp,0x20
+39f506 mov    rdi,rcx
+39f509 add    rcx,0x10
+39f50d call   0x2d4870
+39f512 xor    eax,eax
+39f514 mov    DWORD PTR [rdi+0x4],0xffffffff
+39f51b xorps  xmm2,xmm2
+39f51e mov    DWORD PTR [rdi],eax
+39f520 xorps  xmm1,xmm1
+39f523 mov    QWORD PTR [rdi+0x8],rax
+39f527 lea    rcx,[rsp+0x30]
+39f52c call   0x2cc340
+39f531 mov    rbx,QWORD PTR [rsp+0x38]
+39f536 movsd  xmm0,QWORD PTR [rax]
+39f53a mov    rax,rdi
+39f53d movsd  QWORD PTR [rdi+0x10],xmm0
+39f542 mov    QWORD PTR [rdi+0x18],0x0
+39f549 
+39f54a add    rsp,0x20
+39f54e pop    rdi
+39f54f ret

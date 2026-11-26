@@ -1,0 +1,22 @@
+---
+IAT at: ab000, size: 1000, thunks: 3, is_terminated: 1, in_main: 0
+---
+ab000,7ffa81fde6e0,kernel32.AreFileApisANSI #38
+ab018,7ffa83d56930,kernelbase.FlsGetValue2 #431
+ab090,7ffa80f59c50,kernelbase.LCMapStringEx #1065
+---
+IAT at: 7c7000, size: c10, thunks: d, is_terminated: 1, in_main: 1
+---
+7c7000,7ffa80d7e760,bcrypt.BCryptImportKeyPair #40
+7c7010,7ffa81ff78e0,kernel32.GetConsoleMode #555
+7c7020,7ffa82eb7300,advapi32.RegOpenKeyExW #1649
+7c7030,7ffa83646980,user32.CharLowerBuffW #1558
+7c7040,7ffa823b1410,shell32.ShellExecuteW #578
+7c7050,7ffa81a73850,ws2_32.WSAStartup #115
+7c7060,7ffa81fcfe60,kernel32.GetSystemTimeAsFileTime #800
+7c7070,7ffa83ca5c50,kernel32.HeapAlloc #898
+7c7078,7ffa81fc2e70,kernel32.HeapFree #902
+7c7080,7ffa81fe1410,kernel32.FatalExit #405
+7c7088,7ffa81fe28f0,kernel32.LoadLibraryA #1018
+7c7090,7ffa81fdbd30,kernel32.GetModuleHandleA #680
+7c7098,7ffa81fd2130,kernel32.GetProcAddress #739

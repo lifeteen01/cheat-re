@@ -1,0 +1,19 @@
+3945c0	rex push rbx
+3945c2	sub    rsp,0x20
+3945c6	mov    rax,QWORD PTR [rip+0x7155b]        # 0x405b28
+3945cd	mov    ebx,edx
+3945cf	movsxd r8,ecx
+3945d2	cmp    BYTE PTR [r8+rax*1+0x3766],0x0
+3945db	je     0x3945f3
+3945dd	call   0x395250
+3945e2	mov    ecx,eax
+3945e4	mov    edx,ebx
+3945e6	call   0x39bf0c
+3945eb	test   al,al
+3945ed	je     0x3945f3
+3945ef	mov    al,0x1
+3945f1	jmp    0x3945f5
+3945f3	xor    al,al
+3945f5	add    rsp,0x20
+3945f9	pop    rbx
+3945fa	ret

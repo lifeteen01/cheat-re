@@ -1,0 +1,70 @@
+3a9110 mov    rax,rsp
+3a9113 push   rbx
+3a9114 push   rbp
+3a9115 push   rsi
+3a9116 push   rdi
+3a9117 sub    rsp,0x98
+3a911e movss  xmm0,DWORD PTR [rip+0xffffffffffee412a]        # 0x28d250
+3a9126 lea    rbx,[rcx+0x78]
+3a912a movaps XMMWORD PTR [rax-0x38],xmm6
+3a912e mov    rsi,rdx
+3a9131 movaps XMMWORD PTR [rax-0x48],xmm7
+3a9135 mov    rcx,rbx
+3a9138 movaps XMMWORD PTR [rax-0x58],xmm8
+3a913d movaps XMMWORD PTR [rax-0x68],xmm9
+3a9142 movaps xmm9,xmm2
+3a9146 comiss xmm0,xmm9
+3a914a movaps XMMWORD PTR [rax-0x78],xmm10
+3a914f movaps xmm10,xmm3
+3a9153 movaps XMMWORD PTR [rsp+0x30],xmm11
+3a9159 jbe    0x3a9165
+3a915b call   0x37a658
+3a9160 jmp    0x3a91f1
+3a9165 mov    edi,DWORD PTR [rsp+0xe8]
+3a916c movss  xmm8,DWORD PTR [rsp+0xe0]
+3a9176 lea    edx,[rdi+0x1]
+3a9179 add    edx,DWORD PTR [rbx]
+3a917b call   0x37a758
+3a9180 xor    ebp,ebp
+3a9182 test   edi,edi
+3a9184 js     0x3a91f1
+3a9186 movd   xmm11,edi
+3a918b subss  xmm8,xmm10
+3a9190 cvtdq2ps xmm11,xmm11
+3a9194 movd   xmm7,ebp
+3a9198 cvtdq2ps xmm7,xmm7
+3a919b divss  xmm7,xmm11
+3a91a0 mulss  xmm7,xmm8
+3a91a5 addss  xmm7,xmm10
+3a91aa movaps xmm0,xmm7
+3a91ad call   0x3c8e6c
+3a91b2 movaps xmm6,xmm0
+3a91b5 movaps xmm0,xmm7
+3a91b8 mulss  xmm6,xmm9
+3a91bd addss  xmm6,DWORD PTR [rsi+0x4]
+3a91c2 call   0x3c899c
+3a91c7 mulss  xmm0,xmm9
+3a91cc lea    rcx,[rsp+0x20]
+3a91d1 movaps xmm2,xmm6
+3a91d4 addss  xmm0,DWORD PTR [rsi]
+3a91d8 movaps xmm1,xmm0
+3a91db call   0x2cc340
+3a91e0 mov    rdx,rax
+3a91e3 mov    rcx,rbx
+3a91e6 call   0x37a658
+3a91eb inc    ebp
+3a91ed cmp    ebp,edi
+3a91ef jle    0x3a9194
+3a91f1 movaps xmm7,XMMWORD PTR [rsp+0x70]
+3a91f6 lea    r11,[rsp+0x98]
+3a91fe movaps xmm6,XMMWORD PTR [r11-0x18]
+3a9203 movaps xmm8,XMMWORD PTR [r11-0x38]
+3a9208 movaps xmm9,XMMWORD PTR [r11-0x48]
+3a920d movaps xmm10,XMMWORD PTR [r11-0x58]
+3a9212 movaps xmm11,XMMWORD PTR [r11-0x68]
+3a9217 mov    rsp,r11
+3a921a pop    rdi
+3a921b pop    rsi
+3a921c pop    rbp
+3a921d pop    rbx
+3a921e ret

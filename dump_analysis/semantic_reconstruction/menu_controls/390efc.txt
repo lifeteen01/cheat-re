@@ -1,0 +1,117 @@
+390efc	rex push rbx
+390efe	push   rbp
+390eff	push   rsi
+390f00	push   rdi
+390f01	push   r14
+390f03	push   r15
+390f05	sub    rsp,0x38
+390f09	mov    rsi,QWORD PTR [rip+0x74c18]        # 0x405b28
+390f10	mov    r14,QWORD PTR [rsi+0x3f08]
+390f17	lea    r15,[rsi+0x48a0]
+390f1e	mov    rcx,r15
+390f21	call   0x39e348
+390f26	cmp    BYTE PTR [r14+0x141],0x0
+390f2e	mov    rbp,rax
+390f31	je     0x390f38
+390f33	call   0x391184
+390f38	lea    rbx,[rbp+0x4]
+390f3c	lea    rdi,[r14+0x118]
+390f43	mov    r8,rbx
+390f46	mov    rdx,rdi
+390f49	lea    rcx,[rsp+0x70]
+390f4e	call   0x383044
+390f53	mov    r8,rax
+390f56	lea    rcx,[rsp+0x20]
+390f5b	mov    rdx,rbx
+390f5e	call   0x2db388
+390f63	movsd  xmm0,QWORD PTR [rbx]
+390f67	lea    rdx,[rbp+0xc]
+390f6b	mov    r8,rdi
+390f6e	movsd  QWORD PTR [r14+0x100],xmm0
+390f77	lea    rcx,[rsp+0x70]
+390f7c	call   0x383044
+390f81	movsd  xmm0,QWORD PTR [rax]
+390f85	movsd  QWORD PTR [rdi],xmm0
+390f89	movss  xmm1,DWORD PTR [rbp+0x14]
+390f8e	movss  DWORD PTR [r14+0x144],xmm1
+390f97	movss  xmm0,DWORD PTR [rbp+0x18]
+390f9c	movss  DWORD PTR [r14+0x14c],xmm0
+390fa5	movsd  xmm1,QWORD PTR [rbp+0x1c]
+390faa	movsd  QWORD PTR [r14+0x128],xmm1
+390fb3	mov    eax,DWORD PTR [rbp+0x24]
+390fb6	mov    DWORD PTR [r14+0x138],eax
+390fbd	cmp    BYTE PTR [rsi+0x5c90],0x0
+390fc4	je     0x390fd0
+390fc6	mov    DWORD PTR [rsi+0x5cc0],0xff7fffff
+390fd0	cmp    BYTE PTR [rbp+0x2e],0x0
+390fd4	je     0x3910d3
+390fda	movss  xmm1,DWORD PTR [rbp+0x24]
+390fdf	movss  xmm0,DWORD PTR [r14+0x13c]
+390fe8	call   0x38a3f4
+390fed	lea    rdx,[rsp+0x70]
+390ff2	movss  DWORD PTR [r14+0x138],xmm0
+390ffb	lea    rcx,[rsp+0x20]
+391000	call   0x378940
+391005	movss  xmm1,DWORD PTR [rip+0xfffffffffff02253]        # 0x293260
+39100d	mov    rcx,rax
+391010	call   0x394b40
+391015	mov    ebx,0x1
+39101a	lea    rcx,[rsp+0x20]
+39101f	mov    r9d,ebx
+391022	xor    r8d,r8d
+391025	xor    edx,edx
+391027	call   0x3948dc
+39102c	mov    ecx,DWORD PTR [rsi+0x3f68]
+391032	cmp    DWORD PTR [rbp+0x28],ecx
+391035	je     0x391047
+391037	cmp    DWORD PTR [rsi+0x3f6c],ecx
+39103d	jne    0x391047
+39103f	test   ecx,ecx
+391041	je     0x391047
+391043	mov    dl,bl
+391045	jmp    0x391049
+391047	xor    dl,dl
+391049	cmp    BYTE PTR [rbp+0x2c],0x0
+39104d	jne    0x391057
+39104f	cmp    BYTE PTR [rsi+0x3f9c],bl
+391055	je     0x391059
+391057	xor    bl,bl
+391059	test   dl,dl
+39105b	je     0x391065
+39105d	mov    DWORD PTR [rsi+0x47a4],ecx
+391063	jmp    0x391075
+391065	test   bl,bl
+391067	je     0x391075
+391069	mov    eax,DWORD PTR [rsi+0x3f98]
+39106f	mov    DWORD PTR [rsi+0x47a4],eax
+391075	movups xmm0,XMMWORD PTR [rsp+0x20]
+39107a	movdqu XMMWORD PTR [rsi+0x47b0],xmm0
+391082	cmp    BYTE PTR [rbp+0x2d],0x0
+391086	jne    0x391099
+391088	cmp    DWORD PTR [rsi+0x3f54],0x0
+39108f	je     0x391099
+391091	bts    DWORD PTR [rsi+0x47ac],0x7
+391099	test   dl,dl
+39109b	je     0x3910ad
+39109d	cmp    BYTE PTR [rsi+0x3f79],0x0
+3910a4	je     0x3910ad
+3910a6	or     DWORD PTR [rsi+0x47ac],0x4
+3910ad	mov    edx,DWORD PTR [rsi+0x47ac]
+3910b3	mov    eax,edx
+3910b5	or     eax,0x20
+3910b8	mov    DWORD PTR [rsi+0x47ac],eax
+3910be	test   bl,bl
+3910c0	je     0x3910d3
+3910c2	cmp    ecx,DWORD PTR [rsi+0x3f98]
+3910c8	je     0x3910d3
+3910ca	or     edx,0x60
+3910cd	mov    DWORD PTR [rsi+0x47ac],edx
+3910d3	mov    rcx,r15
+3910d6	add    rsp,0x38
+3910da	pop    r15
+3910dc	pop    r14
+3910de	pop    rdi
+3910df	pop    rsi
+3910e0	pop    rbp
+3910e1	pop    rbx
+3910e2	jmp    0x39eea0

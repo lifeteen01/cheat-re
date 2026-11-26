@@ -1,0 +1,2 @@
+Compile reverted_I1.cpp
+PASS isolated reversion I1 rejected: checks_I1: /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/review_interaction/patched_interaction_workers_checks.cpp:122: void rust_internal_re::check_interaction_workers_reconstruction(): Assertion `(bits==after&&f.number(0x2cbd24)==setups)&& "I1 captured wrapper flags survive resolver reentry"' failed.

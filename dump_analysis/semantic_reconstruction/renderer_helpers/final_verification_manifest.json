@@ -1,0 +1,18 @@
+{
+  "strict": "renderer helper fixtures passed",
+  "asan_ubsan": "renderer helper fixtures passed",
+  "sources": {
+    "renderer_helpers_analysis.hpp": "b35e36865dd4e6826df394092b6d65078140736097e4cbe2d1c723e0cc2b8a22",
+    "renderer_helpers_background.cpp": "01e6a27993159de85e3c4cf4b0c016a714b673c82bdab87974b426e98993396a",
+    "renderer_helpers_checks.cpp": "4d1d955d263d1c9a29d2050551b7d261709495cb3d0759d0b89ab758b4017a6b",
+    "renderer_helpers_coverage.cpp": "e69b66c0925e59fa6716a5829fee6cec9fbf029ab1ec84f687dc5b7d4e6007ba",
+    "renderer_helpers_font.cpp": "3fe8e6b11891f1fbe0a356a9cdc1e3036f7d35bec1250908807f547c938bed80",
+    "renderer_helpers_icons.cpp": "76d2fbd037e69b08cb6af323df1ab561e3f33216fe6b5c528c7f8fbc966db410",
+    "renderer_helpers_reconstruction.md": "0d21466412039abc85b182c84ff1ea372756d93feda73b4fdd7f993ded15a54b",
+    "renderer_helpers_unity.cpp": "57ede240426d4bfda00d449fde30433722d4f8e22e6f8a985cdf7281b72b24cf",
+    "renderer_helpers_unity.hpp": "7d3a5d10c9fee109fef30de17d9181c37036729203575cb7fba3729f1c640b78",
+    "renderer_helpers_widgets.cpp": "82a4c6770e60bce4e48a2e6ba8adb22f2fd4a1fa5e39edd49ef64b70aa6eec38",
+    "renderer_helpers_world.cpp": "25b83139973a739419552e6ee30b632f78d9807bb3502b7f5f1a9088f9a7bd91",
+    "renderer_helpers_world.hpp": "f3c239c9cf7a2a71367cae38ebe3c3321882f99913b58a816393f95c7d9865c3"
+  }
+}

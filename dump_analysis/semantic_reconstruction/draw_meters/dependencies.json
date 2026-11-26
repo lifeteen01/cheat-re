@@ -1,0 +1,336 @@
+[
+  {
+    "target": "0x2cc350",
+    "status": "released owned fourfloat constructor",
+    "sites": [
+      "0x2d4861",
+      "0x35c803"
+    ]
+  },
+  {
+    "target": "0x2e0198",
+    "status": "releasedunity_math concrete cachedwrapper; actual Unityresult remains typed",
+    "sites": [
+      "0x35ad27",
+      "0x35ad5f",
+      "0x35ad97",
+      "0x35add3",
+      "0x35b3ef"
+    ]
+  },
+  {
+    "target": "0x2dff68",
+    "status": "releasedunity_math concrete cachedwrapper; actual Unityresult remains typed",
+    "sites": [
+      "0x35ad3c",
+      "0x35ad75",
+      "0x35adac",
+      "0x35ade9"
+    ]
+  },
+  {
+    "target": "0x2cc340",
+    "status": "released owned Vec2 constructor",
+    "sites": [
+      "0x35ad56",
+      "0x35ad8f",
+      "0x35adca",
+      "0x35ae02",
+      "0x35b1fd",
+      "0x35b211",
+      "0x35b2c2",
+      "0x35b2e6",
+      "0x35b381",
+      "0x35b395",
+      "0x35b440",
+      "0x35b45d",
+      "0x35c82b",
+      "0x35c83b",
+      "0x362506",
+      "0x36251a",
+      "0x362605",
+      "0x362619",
+      "0x3626d5",
+      "0x3626e9",
+      "0x362739",
+      "0x362750"
+    ]
+  },
+  {
+    "target": "0x3612f8",
+    "status": "HSV wrapper with original argument/color order",
+    "sites": [
+      "0x35ae4d"
+    ]
+  },
+  {
+    "target": "0x392ecc",
+    "status": "currentwindow marking/reload and +298list",
+    "sites": [
+      "0x35ae5b",
+      "0x35aec2",
+      "0x35aef0"
+    ]
+  },
+  {
+    "target": "0x2ef80c",
+    "status": "released font_text colorconversion",
+    "sites": [
+      "0x35ae68",
+      "0x35aecf",
+      "0x35aefd",
+      "0x35b9ac",
+      "0x35ba01",
+      "0x35ba34",
+      "0x35bbb7",
+      "0x35bc14",
+      "0x3624b1",
+      "0x3625e9",
+      "0x3626c3",
+      "0x36271d"
+    ]
+  },
+  {
+    "target": "0x3a1084",
+    "status": "fourpoint pathfill and alpha gate through releasedshape/core",
+    "sites": [
+      "0x35ae8d"
+    ]
+  },
+  {
+    "target": "0x2d484c",
+    "status": "fourfloat constructor wrapper/return through owned values",
+    "sites": [
+      "0x35aebd",
+      "0x36134c",
+      "0x36225f"
+    ]
+  },
+  {
+    "target": "0x3a01f4",
+    "status": "releaseddraw_shapes line",
+    "sites": [
+      "0x35aeeb",
+      "0x35af19",
+      "0x362701"
+    ]
+  },
+  {
+    "target": "0x3925a4",
+    "status": "foreground firstviewport lookup then39256c",
+    "sites": [
+      "0x35b14c"
+    ]
+  },
+  {
+    "target": "0x3a1244",
+    "status": "releaseddraw_shapes filledrectangle",
+    "sites": [
+      "0x35b232",
+      "0x35b34b",
+      "0x35c85f",
+      "0x36253a",
+      "0x362639"
+    ]
+  },
+  {
+    "target": "0x2e5a44",
+    "status": "ordered clamp with literal sourceoperand MINSS",
+    "sites": [
+      "0x35b2ae",
+      "0x362446"
+    ]
+  },
+  {
+    "target": "0x3a1148",
+    "status": "releaseddraw_shapes outlinedrectangle",
+    "sites": [
+      "0x35b3be",
+      "0x35b4b4",
+      "0x362777"
+    ]
+  },
+  {
+    "target": "0x3926ac",
+    "status": "context+8 pointer getter",
+    "sites": [
+      "0x35b3cd"
+    ]
+  },
+  {
+    "target": "0x2db318",
+    "status": "literal integer color/255 constructor folded with fixed supplied native colors",
+    "sites": [
+      "0x35b595",
+      "0x35b5fa",
+      "0x35b8ac",
+      "0x35b8c4",
+      "0x35b8db",
+      "0x35b8f2",
+      "0x35b909",
+      "0x35b91e",
+      "0x35b934",
+      "0x35b9a3",
+      "0x35baf7",
+      "0x35bb0c",
+      "0x35bb21",
+      "0x35bb38",
+      "0x35bb4d",
+      "0x35bbaf",
+      "0x35c9a2",
+      "0x35ca1b",
+      "0x35ca7d",
+      "0x3623bf",
+      "0x3623d4",
+      "0x3623f1",
+      "0x362409",
+      "0x3626bb"
+    ]
+  },
+  {
+    "target": "0x35ac38",
+    "status": "ring100segments, repeated typed trig, optionalHSV, rawquad and halfalphaedges",
+    "sites": [
+      "0x35b5dd",
+      "0x35b651",
+      "0x35c9fb",
+      "0x35ca63",
+      "0x35cae7"
+    ]
+  },
+  {
+    "target": "0x35c738",
+    "status": "floatrect window/bounds/style folded through released shapes",
+    "sites": [
+      "0x35b9f8",
+      "0x35ba2a",
+      "0x35ba7f",
+      "0x35bbec",
+      "0x35bc4c"
+    ]
+  },
+  {
+    "target": "0x35d200",
+    "status": "currentwindow mark/reload fold",
+    "sites": [
+      "0x35c763",
+      "0x36239c",
+      "0x392ed0"
+    ]
+  },
+  {
+    "target": "0x392260",
+    "status": "native stylealpha conversion folded through releasedcolor",
+    "sites": [
+      "0x35c80b"
+    ]
+  },
+  {
+    "target": "0x3904e0",
+    "status": "HSV six sector switch and unordered default",
+    "sites": [
+      "0x361326"
+    ]
+  },
+  {
+    "target": "0x362fc0",
+    "status": "ceil thunk to literal3c8918",
+    "sites": [
+      "0x362496"
+    ]
+  },
+  {
+    "target": "0x362200",
+    "status": "fourfloat interpolation retaining grouping",
+    "sites": [
+      "0x3625c5"
+    ]
+  },
+  {
+    "target": "0x3c8918",
+    "status": "literalbit ceil folded in segmented controller",
+    "sites": [
+      "0x362fc0"
+    ]
+  },
+  {
+    "target": "0x3c8a6c",
+    "status": "integer-significand float remainder, subnormal/zero/nonfinite branches",
+    "sites": [
+      "0x390539"
+    ]
+  },
+  {
+    "target": "0x39045c",
+    "status": "released font_text colorpacking",
+    "sites": [
+      "0x39228b"
+    ]
+  },
+  {
+    "target": "0x38c6f0",
+    "status": "copy13foregroundliteralbytes",
+    "sites": [
+      "0x39257f"
+    ]
+  },
+  {
+    "target": "0x39eb2c",
+    "status": "conditional13byte decode wrapper",
+    "sites": [
+      "0x392587"
+    ]
+  },
+  {
+    "target": "0x392dcc",
+    "status": "releasedrenderer concrete lazylist allocation/reset/texture/clip/framecheck",
+    "sites": [
+      "0x392597"
+    ]
+  },
+  {
+    "target": "0x38bb84",
+    "status": "releasedrenderer vectorindex",
+    "sites": [
+      "0x3925b8"
+    ]
+  },
+  {
+    "target": "0x39256c",
+    "status": "literal foreground name decode and index1\u2192reused392dcc",
+    "sites": [
+      "0x3925c4"
+    ]
+  },
+  {
+    "target": "0x2ce59c",
+    "status": "name finalbyte predicate",
+    "sites": [
+      "0x39eb35"
+    ]
+  },
+  {
+    "target": "0x39e77c",
+    "status": "literal13byte XORdecode",
+    "sites": [
+      "0x39eb44"
+    ]
+  },
+  {
+    "target": "0x378a40",
+    "status": "releaseddrawlist_core pathappend",
+    "sites": [
+      "0x3a10a6",
+      "0x3a10b1",
+      "0x3a10bc",
+      "0x3a10c9"
+    ]
+  },
+  {
+    "target": "0x378a14",
+    "status": "releaseddraw_shapes pathfill",
+    "sites": [
+      "0x3a10d5"
+    ]
+  }
+]

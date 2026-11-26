@@ -1,0 +1,19 @@
+{
+  "native_begin": "0x2ce718",
+  "native_end_exclusive": "0x2ce790",
+  "native_bytes": 120,
+  "native_sha256": "697239bb5f7ec33a26ffbb03a78b3f1a2e2d65e61d002ef76b69e4fb0fbcb347",
+  "confirmed_order": [
+    "2ce756 dispatcher read",
+    "2ce76a bit2 commit",
+    "2ce770 observer",
+    "2ce775 dispatcher reload",
+    "2ce78b shared one-argument packaging"
+  ],
+  "strict_baseline": "dump_analysis/semantic_reconstruction/runtime_sky_integrated_verification.txt",
+  "reversion_exit": 1,
+  "expected_regression": "managed string missing dispatcher precedes flag2 and context observation",
+  "detected": true,
+  "production_sources_unchanged": true,
+  "limit": "Owned snapshot fixtures and fresh disassembly; no sample execution"
+}

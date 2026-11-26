@@ -1,0 +1,40 @@
+kind,name,reason,evidence,counted
+derived_aggregate_component,projectile_analysis.cpp:hit+0x7c,derived from counted 0x6c + 16; no separate dump input,source/reconstructed/projectile_analysis.cpp:327,no
+derived_aggregate_component,projectile_analysis.cpp:hit+0xac,derived from counted 0xa4 + 8; no separate dump input,source/reconstructed/projectile_analysis.cpp:335,no
+derived_aggregate_component,projectile_analysis.cpp:hit+0x64,derived from counted 0x5c + 8; no separate dump input,source/reconstructed/projectile_analysis.cpp:336,no
+derived_aggregate_component,projectile_analysis.cpp:p+0x180,derived from counted 0x178 + 8; no separate dump input,source/reconstructed/projectile_analysis.cpp:363,no
+derived_aggregate_component,projectile_analysis.cpp:p+0x180,derived from counted 0x178 + 8; no separate dump input,source/reconstructed/projectile_analysis.cpp:371,no
+derived_aggregate_component,projectile_analysis.cpp:hit+0x7c,derived from counted 0x6c + 16; no separate dump input,source/reconstructed/projectile_analysis.cpp:445,no
+derived_aggregate_component,aim_weapon_analysis.cpp:input+0x48,derived from counted 0x44 + 4; no separate dump input,source/reconstructed/aim_weapon_analysis.cpp:400,no
+derived_aggregate_component,aim_weapon_analysis.cpp:input+0x48,derived from counted 0x44 + 4; no separate dump input,source/reconstructed/aim_weapon_analysis.cpp:434,no
+derived_aggregate_component,aim_weapon_analysis.cpp:input+0x48,derived from counted 0x44 + 4; no separate dump input,source/reconstructed/aim_weapon_analysis.cpp:438,no
+derived_aggregate_component,movement_analysis.cpp:record+0x38,derived from counted 0x30 + 8; no separate dump input,source/reconstructed/movement_analysis.cpp:89,no
+derived_aggregate_component,interaction_workers.cpp:hit+0x78,derived from counted 0x6c + 12; no separate dump input,source/reconstructed/interaction_workers.cpp:694,no
+metadata_name_resolved_method,UnityEngine.Time.get_fixedDeltaTime,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x2e081c,no
+metadata_name_resolved_method,UnityEngine.Time.get_smoothDeltaTime,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x2e0bf0,no
+metadata_name_resolved_method,UnityEngine.Time.get_time,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x2e6240,no
+metadata_name_resolved_method,UnityEngine.Vector3.Lerp,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x31492c,no
+metadata_name_resolved_method,UnityEngine.Time.get_realtimeSinceStartup,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x31581c,no
+metadata_name_resolved_method,UnityEngine.Camera.get_main,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x315924,no
+metadata_name_resolved_method,UnityEngine.Component.get_transform,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x315a54,no
+metadata_name_resolved_method,UnityEngine.Behaviour.get_enabled,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x3247cc,no
+metadata_name_resolved_method,UnityEngine.Component.get_transform,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x3297f0,no
+metadata_name_resolved_method,UnityEngine.RaycastHit.get_transform,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x329920,no
+metadata_name_resolved_method,UnityEngine.Component.get_transform,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x32be08,no
+metadata_name_resolved_method,UnityEngine.Component.get_transform,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x330700,no
+metadata_name_resolved_method,UnityEngine.Camera.get_cullingMask,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x36c79c,no
+metadata_name_resolved_method,UnityEngine.Camera.set_cullingMask,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x36cbe4,no
+metadata_name_resolved_method,UnityEngine.Behaviour.set_enabled,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x36ce18,no
+metadata_name_resolved_method,UnityEngine.Component.get_gameObject,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x370508,no
+metadata_name_resolved_method,UnityEngine.BoxCollider.set_size,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x370968,no
+metadata_name_resolved_method,UnityEngine.Quaternion.Inverse,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x3738cc,no
+metadata_name_resolved_method,.PlayerWalkMovement.%adb7a5f1f195e60174cae56fc8b24e1362215881,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x373f0c,no
+metadata_name_resolved_method,UnityEngine.Transform.InverseTransformDirection,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x374bf8,no
+metadata_name_resolved_method,UnityEngine.Transform.InverseTransformPoint,address found by runtime metadata/class/method lookup; wrapper/cache RVAs belong to the cheat,source/reconstructed/game_runtime_wrappers_specs.inc wrapper 0x374d60,no
+module_base,GameAssembly/UnityPlayer process base,located at runtime; ASLR address is not a per-build offset input,source/reconstructed/game_root_helpers.md,no
+export_resolution,IL2CPP named exports,PE export name lookup supplies current target addresses,source/reconstructed/metadata_export_reconstruction.md,no
+signature_resolution,UnityPlayer allocation/free targets,signature scanning and decoded matches derive target addresses; signatures may separately need maintenance,source/03_stack_spoof_spoofcall.md,no
+metadata_layout,IL2CPP/managed container headers,"engine/runtime ABI layout, not counted as Rust game-field dump inputs in this inventory",source/reconstructed/metadata_resolution.md,no
+cheat_state,"configuration globals, saved originals and dispatch contexts",cheat-owned addresses are not game-update offsets,dump_analysis/C_vmp/cfg_users.json,no
+runtime_pointer,"decoded references, pointer-chain results and selected entities",derived at runtime from fixed inputs; output addresses are not additional dump inputs,source/reconstructed/04_esp_entities.cpp,no
+non_offset_input,"obfuscated names, patterns, bone/item IDs and decode constants",not numeric offsets; may independently require maintenance when game content or obfuscation changes,source/01_hooks.md,no

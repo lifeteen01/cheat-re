@@ -1,0 +1,29 @@
+{
+  "captures": {
+    "dump_analysis/semantic_reconstruction/menu_offsets/screenshots/menu-about.png": {
+      "sha256": "76643086b4ec519dfc1073ad0e04f5f9f8027887d283ff43c05c7210e38c1ceb",
+      "size": [
+        728,
+        554
+      ],
+      "origin": "actual authored Win32 menu under Wine10/Xvfb; GetWindowDC/BitBlt capture"
+    },
+    "dump_analysis/semantic_reconstruction/menu_offsets/screenshots/menu-general.png": {
+      "sha256": "8997ed5da5bb603d547c8685fb337705df29da4f492f8ffdf280b19587f5d3cc",
+      "size": [
+        728,
+        554
+      ],
+      "origin": "actual authored Win32 menu under Wine10/Xvfb; GetWindowDC/BitBlt capture"
+    },
+    "dump_analysis/semantic_reconstruction/menu_offsets/screenshots/menu-offsets.png": {
+      "sha256": "e42d2571119ede7825f0cb4aee219d4ddf2e9952b390eb1220d6e05f6cb85a20",
+      "size": [
+        728,
+        554
+      ],
+      "origin": "actual authored Win32 menu under Wine10/Xvfb; GetWindowDC/BitBlt capture"
+    }
+  },
+  "scope": "owned test window only; not native Windows or in-game screenshot"
+}

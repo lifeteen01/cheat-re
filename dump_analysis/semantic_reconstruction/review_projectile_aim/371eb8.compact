@@ -1,0 +1,34 @@
+371eb8 mov    QWORD PTR [rsp+0x8],rbx
+371ebd push   rdi
+371ebe sub    rsp,0x20
+371ec2 mov    rbx,rcx
+371ec5 call   0x2caf08
+371eca test   al,al
+371ecc je     0x371f17
+371ece mov    rcx,rbx
+371ed1 call   0x37154c
+371ed6 mov    rcx,rax
+371ed9 mov    rdi,rax
+371edc call   0x2caf08
+371ee1 test   al,al
+371ee3 je     0x371f17
+371ee5 mov    rcx,rdi
+371ee8 call   0x37261c
+371eed cmp    eax,0x1a65e87c
+371ef2 je     0x371f02
+371ef4 cmp    eax,0xb18f8a5b
+371ef9 je     0x371f02
+371efb cmp    eax,0xbd092660
+371f00 jne    0x371f17
+371f02 mov    rcx,rdi
+371f05 call   0x37236c
+371f0a xor    ecx,ecx
+371f0c test   eax,eax
+371f0e cmovne rbx,rcx
+371f12 mov    rax,rbx
+371f15 jmp    0x371f19
+371f17 xor    eax,eax
+371f19 mov    rbx,QWORD PTR [rsp+0x30]
+371f1e add    rsp,0x20
+371f22 pop    rdi
+371f23 ret

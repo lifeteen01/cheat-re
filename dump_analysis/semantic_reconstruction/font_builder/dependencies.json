@@ -1,0 +1,2120 @@
+[
+  {
+    "target": "0x2cc340",
+    "sites": [
+      "0x3a5a0e",
+      "0x3a5a29",
+      "0x3a617a",
+      "0x39f52c"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "Vec2 construction",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x2d0d60",
+    "sites": [
+      "0x3a5c58"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x2d4870",
+    "sites": [
+      "0x39f50d",
+      "0x3a4b9d",
+      "0x3a4baa"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x2d93d4",
+    "sites": [
+      "0x3a8c3c"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x2db3a0",
+    "sites": [
+      "0x3a5a44",
+      "0x3a5a4d",
+      "0x3a5dab",
+      "0x3a5db4",
+      "0x3a4dca"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x2e3ef0",
+    "sites": [
+      "0x3ac77c",
+      "0x3acb75",
+      "0x3acb81"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "bitwise float absolute",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x336624",
+    "sites": [
+      "0x3a64ef",
+      "0x3a64f8",
+      "0x3a6501",
+      "0x3a650b",
+      "0x3a4eac"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x364e8c",
+    "sites": [
+      "0x3a5d50"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3762bc",
+    "sites": [
+      "0x39ffbf"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "ordered float clamp",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3788ec",
+    "sites": [
+      "0x3a5d6b",
+      "0x3a5d92"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x379578",
+    "sites": [
+      "0x3a5da2",
+      "0x3a629b",
+      "0x3a3e25",
+      "0x3a3e2d",
+      "0x3a3e36"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x37ad64",
+    "sites": [
+      "0x3a5a7c"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x37ad94",
+    "sites": [
+      "0x3a003f"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x37ae24",
+    "sites": [
+      "0x3a5dcc"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x38bb78",
+    "sites": [
+      "0x3a5f2e",
+      "0x3a63ca"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x38bb84",
+    "sites": [
+      "0x3a5b08",
+      "0x3a4c75",
+      "0x3a4c88"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x38bb9c",
+    "sites": [
+      "0x3a5b78",
+      "0x3a5c28",
+      "0x3a5d89",
+      "0x3a4e10",
+      "0x3a4e20",
+      "0x3a4e71",
+      "0x3a4e83",
+      "0x3a4b78"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x38bba8",
+    "sites": [
+      "0x3a5e67"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3930ac",
+    "sites": [
+      "0x3a6347",
+      "0x3a6368",
+      "0x39ffef"
+    ],
+    "classification": "local concrete",
+    "description": "float truncation",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3930e8",
+    "sites": [
+      "0x3ae3d0",
+      "0x3ae405",
+      "0x3ae679",
+      "0x3ae69c"
+    ],
+    "classification": "local concrete",
+    "description": "native floor",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39344c",
+    "sites": [
+      "0x3ade96",
+      "0x3adf08"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "stable rectangle comparator sort (owned stable_sort)",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x395158",
+    "sites": [
+      "0x3a618e",
+      "0x3aa694",
+      "0x3aa7ac",
+      "0x3aae19",
+      "0x3ac167",
+      "0x3ac3d6",
+      "0x3ac5e0",
+      "0x3a9cfc",
+      "0x3a9d34",
+      "0x3ae8e4",
+      "0x3ae901"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "typed owned allocation key; no raw execution",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39517c",
+    "sites": [
+      "0x3aae61",
+      "0x3aae6e",
+      "0x3aae9f",
+      "0x3aaeae",
+      "0x3ac1b8",
+      "0x3ac55a",
+      "0x3ac821",
+      "0x3a9f90",
+      "0x3a9f98",
+      "0x3ae99d",
+      "0x3ae9c1",
+      "0x3aef7f",
+      "0x3aef87"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "typed owned release key; no raw execution",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39e884",
+    "sites": [
+      "0x3aa0a8",
+      "0x3aa0ce",
+      "0x3aa0f4",
+      "0x3aa11a",
+      "0x3aa140",
+      "0x3aa166",
+      "0x3aa18c",
+      "0x3aa1b2",
+      "0x3aa225"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39eee8",
+    "sites": [
+      "0x3a8c88"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f28c",
+    "sites": [
+      "0x3a5bb2",
+      "0x3a5bd3",
+      "0x3a6119",
+      "0x3a4e99"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "signed integer maximum",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f4fc",
+    "sites": [
+      "0x39fce4"
+    ],
+    "classification": "local concrete",
+    "description": "rectangle constructor",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f610",
+    "sites": [
+      "0x3a5aca",
+      "0x3a5c16",
+      "0x3a5d38",
+      "0x3a5e33",
+      "0x3a60c9",
+      "0x3a61dc",
+      "0x3a62b9"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f620",
+    "sites": [
+      "0x3a5ad8",
+      "0x3a5e8b",
+      "0x3a61cc",
+      "0x3a62d4"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f640",
+    "sites": [
+      "0x3a5e51",
+      "0x3a4e03",
+      "0x3a4e3a",
+      "0x3a4e5e"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f650",
+    "sites": [
+      "0x3aa0a0"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f668",
+    "sites": [
+      "0x3aa0c6"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f680",
+    "sites": [
+      "0x3aa0ec"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f698",
+    "sites": [
+      "0x3aa112"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f6b0",
+    "sites": [
+      "0x3aa138"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f6c8",
+    "sites": [
+      "0x3aa15e"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f6e0",
+    "sites": [
+      "0x3aa184"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f6f8",
+    "sites": [
+      "0x3aa1aa"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39f710",
+    "sites": [
+      "0x3aa21d"
+    ],
+    "classification": "known-byte literal tag fold",
+    "description": "literal_tags.json; native5byte copy/decrypt gives the explicit SFNT table name",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39fcc8",
+    "sites": [
+      "0x3a4cdb",
+      "0x3a4d00",
+      "0x3a4ef3",
+      "0x3a4f24"
+    ],
+    "classification": "local concrete",
+    "description": "append rectangle",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x39ff7c",
+    "sites": [
+      "0x3a64a4",
+      "0x3a4c56"
+    ],
+    "classification": "local concrete",
+    "description": "glyph append and staged surface reads",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a33c0",
+    "sites": [
+      "0x3a4c90"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "font_text glyph lookup/advance table",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a3770",
+    "sites": [
+      "0x3a4f0b"
+    ],
+    "classification": "local concrete",
+    "description": "circle dimension wrapper",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a3778",
+    "sites": [
+      "0x3a4f16"
+    ],
+    "classification": "local concrete",
+    "description": "circle dimension",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a37c8",
+    "sites": [
+      "0x3a4bc5"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "font_text rectangle UV",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a3858",
+    "sites": [
+      "0x3a4edb"
+    ],
+    "classification": "local concrete",
+    "description": "rounded dimension",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a3e10",
+    "sites": [
+      "0x3a597a"
+    ],
+    "classification": "local concrete",
+    "description": "clear output fold",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a3e64",
+    "sites": [
+      "0x3a5a3a"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "frozen support pixel clear",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4380",
+    "sites": [
+      "0x3a5c45",
+      "0x3a5c6a"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4734",
+    "sites": [
+      "0x3a4f01",
+      "0x3a378c"
+    ],
+    "classification": "local concrete",
+    "description": "literal8",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a47bc",
+    "sites": [
+      "0x3a5b8f"
+    ],
+    "classification": "local concrete",
+    "description": "default range pointer",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a498c",
+    "sites": [
+      "0x3a4ee5",
+      "0x3a3861"
+    ],
+    "classification": "local concrete",
+    "description": "literal2",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4b40",
+    "sites": [
+      "0x3a64e6"
+    ],
+    "classification": "local concrete",
+    "description": "atlas finalization stages",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4cb0",
+    "sites": [
+      "0x3a59ed"
+    ],
+    "classification": "local concrete",
+    "description": "ensure custom rectangles",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4d18",
+    "sites": [
+      "0x3a6223"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "frozen support opacity LUT",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4d50",
+    "sites": [
+      "0x3a6263"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "owned LUT application fold, frozen support arithmetic",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4db0",
+    "sites": [
+      "0x3a60b5"
+    ],
+    "classification": "local concrete",
+    "description": "pack custom rectangles",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a4f38",
+    "sites": [
+      "0x3a4b4f"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "font_text white pixels",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a5008",
+    "sites": [
+      "0x3a4b57"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "font_text line atlas",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a5204",
+    "sites": [
+      "0x3a4b5f"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "font_text shape atlas",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a5950",
+    "sites": [
+      "0x3a637f"
+    ],
+    "classification": "local concrete",
+    "description": "begin config fold",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a659c",
+    "sites": [
+      "0x3a6142"
+    ],
+    "classification": "local concrete",
+    "description": "next power of two",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a7f74",
+    "sites": [
+      "0x3a5cd5",
+      "0x3a5ce0"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a8bd4",
+    "sites": [
+      "0x3a5ca3"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a8c20",
+    "sites": [
+      "0x3a5d5f"
+    ],
+    "classification": "local concrete",
+    "description": "ascending bitset enumeration",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9330",
+    "sites": [
+      "0x3a0047"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9380",
+    "sites": [
+      "0x3a64de"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a93c0",
+    "sites": [
+      "0x3a8c47"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9430",
+    "sites": [
+      "0x39fcfc"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a98a8",
+    "sites": [
+      "0x3a5a66"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a98d8",
+    "sites": [
+      "0x3a5dc0",
+      "0x3a4dd7"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a990c",
+    "sites": [
+      "0x3a5a9e"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9914",
+    "sites": [
+      "0x3a5a86"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a991c",
+    "sites": [
+      "0x3a5dd5",
+      "0x3a4de1"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9928",
+    "sites": [
+      "0x3a5dec"
+    ],
+    "classification": "owned container/bitset adaptation",
+    "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+    "tags": [
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a992c",
+    "sites": [
+      "0x3a9bd2"
+    ],
+    "classification": "local concrete",
+    "description": "skyline best position",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9b2c",
+    "sites": [
+      "0x3a99ba",
+      "0x3a9a96"
+    ],
+    "classification": "local concrete",
+    "description": "skyline minimum y/waste",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9bb8",
+    "sites": [
+      "0x3adec2"
+    ],
+    "classification": "local concrete",
+    "description": "skyline place",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3a9c70",
+    "sites": [
+      "0x3aef05"
+    ],
+    "classification": "local concrete",
+    "description": "flatten contours",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aa4f0",
+    "sites": [
+      "0x3aa739",
+      "0x3ae4bb"
+    ],
+    "classification": "local concrete",
+    "description": "glyf offset",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aa578",
+    "sites": [
+      "0x3ae4b1"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 bounds",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaf08",
+    "sites": [
+      "0x3ad8b3",
+      "0x3ada8d",
+      "0x3a9f4a"
+    ],
+    "classification": "local concrete",
+    "description": "optional point store",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaf1c",
+    "sites": [
+      "0x3aa29e",
+      "0x3aaf52",
+      "0x3ab02b",
+      "0x3ab0c9",
+      "0x3ab123",
+      "0x3ab14b",
+      "0x3ab16f",
+      "0x3ab1d6",
+      "0x3ab244",
+      "0x3ab25c",
+      "0x3ab2d6",
+      "0x3ab626",
+      "0x3ab632",
+      "0x3ac963",
+      "0x3acafd"
+    ],
+    "classification": "local concrete",
+    "description": "buffer get8",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaf3c",
+    "sites": [
+      "0x3ab01c",
+      "0x3ab046",
+      "0x3ab0bf",
+      "0x3ab0e0",
+      "0x3ab0ec",
+      "0x3ab2b5",
+      "0x3ab2c3",
+      "0x3ab2e7",
+      "0x3acfca"
+    ],
+    "classification": "local concrete",
+    "description": "buffer get n",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaf74",
+    "sites": [
+      "0x3ab1bb",
+      "0x3ab616"
+    ],
+    "classification": "local concrete",
+    "description": "buffer peek",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaf8c",
+    "sites": [
+      "0x3aa3ee",
+      "0x3ab066",
+      "0x3ab109",
+      "0x3ab65f",
+      "0x3abd5f"
+    ],
+    "classification": "local concrete",
+    "description": "buffer range",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aafe4",
+    "sites": [
+      "0x3aa2aa",
+      "0x3aa3bd",
+      "0x3aa405",
+      "0x3ab086",
+      "0x3ab0b5",
+      "0x3ab23b",
+      "0x3ab607",
+      "0x3abd93"
+    ],
+    "classification": "local concrete",
+    "description": "buffer seek",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaff4",
+    "sites": [
+      "0x3aa295",
+      "0x3ab03e",
+      "0x3ab051",
+      "0x3ab0d9",
+      "0x3ab1cc",
+      "0x3ab253",
+      "0x3acec7",
+      "0x3acfa5"
+    ],
+    "classification": "local concrete",
+    "description": "buffer skip",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aaffc",
+    "sites": [
+      "0x3aa2b7",
+      "0x3aa2c4",
+      "0x3aa2f1",
+      "0x3aa2fe",
+      "0x3aa3ca",
+      "0x3aa412",
+      "0x3abd9e"
+    ],
+    "classification": "local concrete",
+    "description": "CFF index",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab080",
+    "sites": [
+      "0x3abc93"
+    ],
+    "classification": "local concrete",
+    "description": "CFF index count",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab09c",
+    "sites": [
+      "0x3aa2dc",
+      "0x3ab27d",
+      "0x3abcda",
+      "0x3ac8f8"
+    ],
+    "classification": "local concrete",
+    "description": "CFF index get",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab11c",
+    "sites": [
+      "0x3ab202",
+      "0x3ab6bf",
+      "0x3acfaf"
+    ],
+    "classification": "local concrete",
+    "description": "CFF number",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab1b4",
+    "sites": [
+      "0x3ab60e"
+    ],
+    "classification": "local concrete",
+    "description": "CFF skip operand",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab20c",
+    "sites": [
+      "0x3acd73"
+    ],
+    "classification": "local concrete",
+    "description": "CID glyph subrs",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab324",
+    "sites": [
+      "0x3aa986",
+      "0x3aab01"
+    ],
+    "classification": "local concrete",
+    "description": "TT close contour",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab3e0",
+    "sites": [
+      "0x3ab508",
+      "0x3ad24a"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 close contour",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab428",
+    "sites": [
+      "0x3acaa4",
+      "0x3acbd7",
+      "0x3acc2a",
+      "0x3acc82",
+      "0x3accd7",
+      "0x3acd0b",
+      "0x3ace1f",
+      "0x3acf51",
+      "0x3ad099",
+      "0x3ad10d",
+      "0x3ad219"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 relative cubic",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab4bc",
+    "sites": [
+      "0x3ac9e0",
+      "0x3aca03",
+      "0x3aca33",
+      "0x3ace4c",
+      "0x3acefa"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 relative line",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab4fc",
+    "sites": [
+      "0x3ace90"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 relative move",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab558",
+    "sites": [
+      "0x3ab41d",
+      "0x3ab4aa",
+      "0x3ab4f2",
+      "0x3ab54c"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 vertex/bounds",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab5f0",
+    "sites": [
+      "0x3ab69c"
+    ],
+    "classification": "local concrete",
+    "description": "dictionary lookup",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab67c",
+    "sites": [
+      "0x3aa31c",
+      "0x3aa334",
+      "0x3aa34c",
+      "0x3aa364",
+      "0x3abd3d",
+      "0x3abd80"
+    ],
+    "classification": "local concrete",
+    "description": "dictionary integers",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ab6e0",
+    "sites": [
+      "0x3ac74f"
+    ],
+    "classification": "local concrete",
+    "description": "fill active edges",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3abbe0",
+    "sites": [
+      "0x3aa0b6",
+      "0x3aa0dc",
+      "0x3aa102",
+      "0x3aa128",
+      "0x3aa14e",
+      "0x3aa174",
+      "0x3aa19a",
+      "0x3aa1c0",
+      "0x3aa233",
+      "0x3aa42c"
+    ],
+    "classification": "local concrete",
+    "description": "find table",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3abc78",
+    "sites": [
+      "0x3ad176"
+    ],
+    "classification": "local concrete",
+    "description": "subroutine bias/lookup",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3abd04",
+    "sites": [
+      "0x3aa387",
+      "0x3ab29f"
+    ],
+    "classification": "local concrete",
+    "description": "private dictionary subrs",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3abdc8",
+    "sites": [
+      "0x3aeca5"
+    ],
+    "classification": "local concrete",
+    "description": "horizontal prefilter",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3abfd4",
+    "sites": [
+      "0x3ab79e",
+      "0x3ab7c4",
+      "0x3aba6c",
+      "0x3abab6",
+      "0x3abb0b",
+      "0x3abb4d",
+      "0x3abb79"
+    ],
+    "classification": "local concrete",
+    "description": "clipped edge area",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac0fc",
+    "sites": [
+      "0x3ac276"
+    ],
+    "classification": "owned local pool adaptation",
+    "description": "raster heap allocation",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac1a4",
+    "sites": [
+      "0x3ac80f"
+    ],
+    "classification": "owned local pool adaptation",
+    "description": "raster heap cleanup",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac1cc",
+    "sites": [
+      "0x3ac6a7"
+    ],
+    "classification": "owned local pool adaptation",
+    "description": "raster heap free",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac1d8",
+    "sites": [
+      "0x3a9fe6"
+    ],
+    "classification": "local concrete",
+    "description": "is SFNT font",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac254",
+    "sites": [
+      "0x3ac6f3"
+    ],
+    "classification": "local concrete",
+    "description": "new active edge",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac318",
+    "sites": [
+      "0x3aa08b",
+      "0x3aa248",
+      "0x3aa25c",
+      "0x3aa27a",
+      "0x3aafa5",
+      "0x3ab30b",
+      "0x3abce9",
+      "0x3abdad"
+    ],
+    "classification": "local concrete",
+    "description": "new buffer",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac32c",
+    "sites": [
+      "0x3aead6",
+      "0x3aeae1"
+    ],
+    "classification": "local concrete",
+    "description": "oversampling shift",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac354",
+    "sites": [
+      "0x3ab888",
+      "0x3ab9cb"
+    ],
+    "classification": "local concrete",
+    "description": "position trapezoid",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac370",
+    "sites": [
+      "0x3aef75"
+    ],
+    "classification": "local concrete",
+    "description": "contours to edges",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac57c",
+    "sites": [
+      "0x3ac552"
+    ],
+    "classification": "local concrete",
+    "description": "scanline rasterizer",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ac84c",
+    "sites": [
+      "0x3aa5ba",
+      "0x3aa683",
+      "0x3aa6a9"
+    ],
+    "classification": "local concrete",
+    "description": "Type2 interpreter",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ad2c0",
+    "sites": [
+      "0x3ab937"
+    ],
+    "classification": "local concrete",
+    "description": "triangle area",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ad2d0",
+    "sites": [
+      "0x3ac516"
+    ],
+    "classification": "local concrete",
+    "description": "edge sort dispatcher",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ad394",
+    "sites": [
+      "0x3ad2dc",
+      "0x3ad4d4"
+    ],
+    "classification": "local concrete",
+    "description": "edge quicksort",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ad4f0",
+    "sites": [
+      "0x3ad799",
+      "0x3a9e2a"
+    ],
+    "classification": "local concrete",
+    "description": "cubic flatten",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ad8f8",
+    "sites": [
+      "0x3ada32",
+      "0x3ada7e",
+      "0x3a9ebd"
+    ],
+    "classification": "local concrete",
+    "description": "quadratic flatten",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3adad8",
+    "sites": [
+      "0x3ab571",
+      "0x3ab584",
+      "0x3ab592"
+    ],
+    "classification": "local concrete",
+    "description": "track vertex bounds",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3adb1c",
+    "sites": [
+      "0x3aecda"
+    ],
+    "classification": "local concrete",
+    "description": "vertical prefilter",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3add54",
+    "sites": [
+      "0x3aa9f6",
+      "0x3aaa5b",
+      "0x3aaaa7",
+      "0x3ab37f",
+      "0x3ab3c7",
+      "0x3ab5b5"
+    ],
+    "classification": "local concrete",
+    "description": "set vertex",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3add74",
+    "sites": [
+      "0x3aa011",
+      "0x3aa021",
+      "0x3aa031",
+      "0x3aa4b3",
+      "0x3aa54d",
+      "0x3aa559",
+      "0x3abc71",
+      "0x3ae1c0",
+      "0x3ae1ec",
+      "0x3ae204",
+      "0x3ae230"
+    ],
+    "classification": "local concrete",
+    "description": "big endian32",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3add94",
+    "sites": [
+      "0x3aa43e",
+      "0x3aa45e",
+      "0x3aa483",
+      "0x3aa49a",
+      "0x3aa4db",
+      "0x3aa51f",
+      "0x3aa52f",
+      "0x3aa756",
+      "0x3aa77a",
+      "0x3aa78f",
+      "0x3aaa0d",
+      "0x3aab53",
+      "0x3aab60",
+      "0x3aab78",
+      "0x3aab8d",
+      "0x3aabfa",
+      "0x3aac1c",
+      "0x3aac3c",
+      "0x3aac5a",
+      "0x3aac72",
+      "0x3aac8c",
+      "0x3aaca6",
+      "0x3abbf9",
+      "0x3adf9a",
+      "0x3adfaf",
+      "0x3adfe1",
+      "0x3adff7",
+      "0x3ae01c",
+      "0x3ae048",
+      "0x3ae055",
+      "0x3ae061",
+      "0x3ae087",
+      "0x3ae09e",
+      "0x3ae0dc",
+      "0x3ae123",
+      "0x3ae13b",
+      "0x3ae15f",
+      "0x3ae182",
+      "0x3ae267",
+      "0x3ae287",
+      "0x3ae2a6",
+      "0x3ae4db",
+      "0x3ae4f8",
+      "0x3ae517",
+      "0x3ae536",
+      "0x3ae56f",
+      "0x3ae594",
+      "0x3ae5d4",
+      "0x3ae5fb",
+      "0x3aefbf",
+      "0x3aefef",
+      "0x3aeffe"
+    ],
+    "classification": "local concrete",
+    "description": "big endian16",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3adda4",
+    "sites": [
+      "0x3ae96f"
+    ],
+    "classification": "local concrete",
+    "description": "skyline init",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ade50",
+    "sites": [
+      "0x3a60e8",
+      "0x3a4e4c"
+    ],
+    "classification": "local concrete",
+    "description": "pack rectangles",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3adf58",
+    "sites": [
+      "0x3ade16"
+    ],
+    "classification": "local concrete",
+    "description": "pack rectangles",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3adf78",
+    "sites": [
+      "0x3a5cb2",
+      "0x3a5f38",
+      "0x3aeb47"
+    ],
+    "classification": "local concrete",
+    "description": "cmap lookup",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae244",
+    "sites": [
+      "0x3a5b51"
+    ],
+    "classification": "local concrete",
+    "description": "font offset wrapper",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae24c",
+    "sites": [
+      "0x3a6310"
+    ],
+    "classification": "local concrete",
+    "description": "vertical metrics",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae2b8",
+    "sites": [
+      "0x3aebe8"
+    ],
+    "classification": "local concrete",
+    "description": "bitmap box wrapper",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae308",
+    "sites": [
+      "0x3a5f8f",
+      "0x3ae2fe",
+      "0x3ae822"
+    ],
+    "classification": "local concrete",
+    "description": "bitmap box",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae484",
+    "sites": [
+      "0x3ae34e"
+    ],
+    "classification": "local concrete",
+    "description": "glyph box",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae550",
+    "sites": [
+      "0x3aeb8b"
+    ],
+    "classification": "local concrete",
+    "description": "horizontal metrics",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae614",
+    "sites": [
+      "0x3aad17",
+      "0x3ae7c6"
+    ],
+    "classification": "local concrete",
+    "description": "TT/CFF shape dispatch",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae624",
+    "sites": [
+      "0x3a641f"
+    ],
+    "classification": "local concrete",
+    "description": "packed glyph quad",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae780",
+    "sites": [
+      "0x3a5b5f"
+    ],
+    "classification": "local concrete",
+    "description": "font init wrapper",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae788",
+    "sites": [
+      "0x3aec70"
+    ],
+    "classification": "local concrete",
+    "description": "make glyph bitmap",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae8c4",
+    "sites": [
+      "0x3a60a9"
+    ],
+    "classification": "local concrete",
+    "description": "PackBegin",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae9b4",
+    "sites": [
+      "0x3a6292"
+    ],
+    "classification": "local concrete",
+    "description": "PackEnd",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3ae9d4",
+    "sites": [
+      "0x3a620e"
+    ],
+    "classification": "local concrete",
+    "description": "render ranges into rectangles",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aee98",
+    "sites": [
+      "0x3ae88a"
+    ],
+    "classification": "local concrete",
+    "description": "raster entry",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aefac",
+    "sites": [
+      "0x3a5f01",
+      "0x3aea93"
+    ],
+    "classification": "local concrete",
+    "description": "em scale",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3aefdc",
+    "sites": [
+      "0x3a5eeb",
+      "0x3a62f0",
+      "0x3aea78"
+    ],
+    "classification": "local concrete",
+    "description": "pixel height scale",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3c8918",
+    "sites": [
+      "0x3ae434",
+      "0x3ae460"
+    ],
+    "classification": "local concrete",
+    "description": "native ceil",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3c899c",
+    "sites": [
+      "0x3a37a5"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "font_text literal cosine",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3c8d4c",
+    "sites": [
+      "0x3aae3c",
+      "0x3aae54"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "bounded forward byte-copy fold",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3c8d70",
+    "sites": [
+      "0x3a5a95",
+      "0x3a5aac",
+      "0x3a5de3",
+      "0x3a5dfa",
+      "0x3a6084",
+      "0x3a61a6",
+      "0x3a4df0",
+      "0x3abe0a",
+      "0x3ac66b",
+      "0x3ac682",
+      "0x3adb5e",
+      "0x3ae984"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "bounded zero/copy loops",
+    "tags": [
+      "C",
+      "I"
+    ]
+  },
+  {
+    "target": "0x3c8f34",
+    "sites": [
+      "0x3a6032",
+      "0x3aace6",
+      "0x3aad03",
+      "0x3ad5c6",
+      "0x3ad5e2",
+      "0x3ad5fb",
+      "0x3ad618",
+      "0x3ad823",
+      "0x3ad83d",
+      "0x3ad858",
+      "0x3ad875"
+    ],
+    "classification": "shared concrete or explicit owned effect",
+    "description": "sample_sqrt_2e3c88",
+    "tags": [
+      "C",
+      "I"
+    ]
+  }
+]

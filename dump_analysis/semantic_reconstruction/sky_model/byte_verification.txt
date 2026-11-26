@@ -1,0 +1,25 @@
+{
+  "sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "constant_colors": {
+    "0x3ecc38": {
+      "hex": "00000000000000000000000000000000",
+      "floats": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "0x3ecbd8": {
+      "hex": "00000000000000000000000000000000",
+      "floats": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}
+0x32f408 1724 bytes verified; 56 internal branch targets audited
+0x36a464 2066 bytes verified; 39 internal branch targets audited

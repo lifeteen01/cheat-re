@@ -1,0 +1,32 @@
+33480c mov    QWORD PTR [rsp+0x8],rbx
+334811 push   rdi
+334812 sub    rsp,0x20
+334816 mov    eax,DWORD PTR [rip+0xc56d4]        # 0x3f9ef0
+33481c mov    rbx,rdx
+33481f mov    rdi,rcx
+334822 test   al,0x1
+334824 jne    0x334846
+334826 or     eax,0x1
+334829 mov    DWORD PTR [rip+0xc56c1],eax        # 0x3f9ef0
+33482f call   0x3339e4
+334834 mov    r8,rax
+334837 mov    QWORD PTR [rip+0xc56aa],rax        # 0x3f9ee8
+33483e mov    eax,DWORD PTR [rip+0xc56ac]        # 0x3f9ef0
+334844 jmp    0x33484d
+334846 mov    r8,QWORD PTR [rip+0xc569b]        # 0x3f9ee8
+33484d test   al,0x2
+33484f jne    0x334870
+334851 mov    rcx,QWORD PTR [rip+0xa1608]        # 0x3d5e60
+334858 lea    rdx,[rip+0xc56a1]        # 0x3f9f00
+33485f or     eax,0x2
+334862 xor    r9d,r9d
+334865 mov    DWORD PTR [rip+0xc5685],eax        # 0x3f9ef0
+33486b call   0x2cbd24
+334870 mov    rcx,QWORD PTR [rip+0xa15e9]        # 0x3d5e60
+334877 lea    rdx,[rip+0xc5682]        # 0x3f9f00
+33487e mov    r9,rbx
+334881 mov    r8,rdi
+334884 mov    rbx,QWORD PTR [rsp+0x30]
+334889 add    rsp,0x20
+33488d pop    rdi
+33488e jmp    0x2d2094

@@ -1,0 +1,16 @@
+{
+  "confidence": "C",
+  "strict": "dump_analysis/semantic_reconstruction/roots_domain_integrated_verification.txt",
+  "sanitizer": "dump_analysis/semantic_reconstruction/roots_domain_sanitizer_verification.txt",
+  "same_source_set": true,
+  "sources": {
+    "source/reconstructed/game_root_domain_bindings.cpp": "89bb3e9b68f08ff4561ecf1746dedd48a15116d68a1ba6c77c60cb9758c9e865",
+    "source/reconstructed/game_root_domain_bindings.hpp": "d37e365150cda94e2d1783604c233a4c2802a43cd766be71df0b634ae964e63a",
+    "source/reconstructed/game_root_domain_checks.cpp": "82ca9f3e97afb07a413696c46fbb6c6b9d3ac17642eda971107088347a602fd3",
+    "source/reconstructed/game_root_helper_checks.cpp": "d6d4f5e3be62279b451e9346659ad1bc82ce2d0927c0ec8b67610f16ef9dd01d",
+    "source/reconstructed/game_root_helpers.cpp": "9c6dadb6a356f4a5b7787f1b7fffe3a3ee145dd9a23308464420d6ae542d30de",
+    "source/reconstructed/game_root_helpers.hpp": "8f45398e98a5294d833100b03148b7275b66d51c573775424899b90fcf92d652",
+    "source/reconstructed/game_root_helpers.md": "7fc7f1067c05ea29eaff094d660fd23fb8117a4f4681f704093da9c9ae0597f0"
+  },
+  "limits": "Owned copied data and typed effects only; matching game/IL2CPP and executable context/ABI excluded."
+}

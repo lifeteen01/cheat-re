@@ -1,0 +1,3 @@
+Compile sky_without_root_order.cpp
+Link 289 translation units; 288 content-verified cache hits
+FAIL: managed string missing dispatcher precedes flag2 and context observation

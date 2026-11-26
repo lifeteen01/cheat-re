@@ -1,0 +1,43 @@
+2d9328	mov    DWORD PTR [rsp+0x10],edx
+2d932c	push   rbx
+2d932d	push   rsi
+2d932e	push   rdi
+2d932f	sub    rsp,0x30
+2d9333	lea    rdi,[rcx+0x40]
+2d9337	mov    rbx,r8
+2d933a	mov    rsi,rcx
+2d933d	lea    r8,[rsp+0x58]
+2d9342	mov    rcx,rdi
+2d9345	lea    rdx,[rsp+0x50]
+2d934a	call   0x2d8880
+2d934f	lea    rdx,[rsp+0x68]
+2d9354	mov    rcx,rdi
+2d9357	call   0x2d86b8
+2d935c	mov    rdx,rax
+2d935f	lea    rcx,[rsp+0x50]
+2d9364	call   0x2cc534
+2d9369	test   al,al
+2d936b	jne    0x2d9397
+2d936d	lea    rcx,[rsp+0x50]
+2d9372	call   0x2d4da0
+2d9377	mov    rdx,rbx
+2d937a	lea    rdi,[rax+0x8]
+2d937e	mov    rcx,rdi
+2d9381	call   0x2cef30
+2d9386	test   al,al
+2d9388	jne    0x2d93b3
+2d938a	mov    rdx,rbx
+2d938d	mov    rcx,rdi
+2d9390	call   0x2d4c24
+2d9395	jmp    0x2d93ac
+2d9397	mov    r9,rbx
+2d939a	lea    r8,[rsp+0x58]
+2d939f	lea    rdx,[rsp+0x20]
+2d93a4	mov    rcx,rdi
+2d93a7	call   0x2d2728
+2d93ac	mov    BYTE PTR [rsi+0x84],0x1
+2d93b3	add    rsp,0x30
+2d93b7	pop    rdi
+2d93b8	pop    rsi
+2d93b9	pop    rbx
+2d93ba	ret

@@ -1,0 +1,18 @@
+3b5890	mov    QWORD PTR [rsp+0x8],rbx
+3b5895	push   rdi
+3b5896	sub    rsp,0x20
+3b589a	mov    rax,QWORD PTR [rip+0x50287]        # 0x405b28
+3b58a1	mov    rbx,QWORD PTR [rax+0x3f08]
+3b58a8	mov    rdi,QWORD PTR [rax+0x4b48]
+3b58af	mov    rcx,rbx
+3b58b2	movups xmm0,XMMWORD PTR [rbx+0x238]
+3b58b9	lea    rdx,[rdi+0x148]
+3b58c0	movdqu XMMWORD PTR [rdi+0x168],xmm0
+3b58c8	call   0x3b563c
+3b58cd	movzx  r8d,WORD PTR [rdi+0x21e]
+3b58d5	mov    rdx,QWORD PTR [rbx+0x298]
+3b58dc	mov    rcx,QWORD PTR [rdi+0x198]
+3b58e3	mov    rbx,QWORD PTR [rsp+0x30]
+3b58e8	add    rsp,0x20
+3b58ec	pop    rdi
+3b58ed	jmp    0x3a8094

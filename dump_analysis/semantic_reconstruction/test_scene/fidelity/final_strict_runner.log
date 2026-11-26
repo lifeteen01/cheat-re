@@ -1,0 +1,11 @@
+{"passed": true, "mode": "strict", "cache_hits": 150, "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene", "artifact_sha256": "87e4f252706d2c3c5aba1d71e7b0779b3f42a7444e053bacff97952d9b8ee1a4"}
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 40.996,
+  "artifact_sha256": "87e4f252706d2c3c5aba1d71e7b0779b3f42a7444e053bacff97952d9b8ee1a4",
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

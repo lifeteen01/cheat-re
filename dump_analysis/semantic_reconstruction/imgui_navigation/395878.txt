@@ -1,0 +1,6 @@
+395878 sub    rsp,0x28
+39587c mov    rax,QWORD PTR [rip+0x702a5]        # 0x405b28
+395883 mov    BYTE PTR [rax+0x4941],0x0
+39588a call   0x395258
+39588f add    rsp,0x28
+395893 jmp    0x39676c

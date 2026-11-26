@@ -1,0 +1,265 @@
+{
+  "strict": {
+    "passed": true,
+    "checks": {
+      "reported_pass": true,
+      "inputs_current": true,
+      "unit_set_current": true,
+      "artifact_current": true,
+      "verification_runner_current": true,
+      "build_record_paired": true,
+      "runtime_evidence_paired": true,
+      "captures_current": true,
+      "capture_set_current": true,
+      "traces_match_record": true,
+      "required_entries_executed": true,
+      "all_21_cold_page_entries": true,
+      "observed_output_checks": true,
+      "frame_counts_present": true
+    },
+    "observed_changes": {
+      "baseline_boxes_and_native_name_passes": true,
+      "checkbox_suppresses_output": true,
+      "picker_changes_geometry_not_projection": true,
+      "editor_paste_changes_color_and_geometry": true,
+      "recovered_color_popup_lifecycle": true,
+      "export_and_display_share_selected_order": true,
+      "hidden_menu_excludes_window_lists": true,
+      "shared_lifecycle_once_and_cold_graph_once": true,
+      "menu_consumes_recovered_io": true,
+      "copied_client_install_supplies_saved_target": true,
+      "slider_filters_and_restores_entities": true,
+      "camera_and_entities_change_projection": true,
+      "offsets_change_actual_labels": true,
+      "resize_stages_exist": true,
+      "owned_frame_submission_not_native_gpu": true
+    },
+    "frames": 217,
+    "platform_paints": 0,
+    "png_captures": 11,
+    "translation_units": 151,
+    "artifact_sha256": "2c308374a00ae4623d4021b31d936483d6f708e3b53d1360311a8c341da2dd14",
+    "verification_sha256": "9f2bfbe281b5dee674820521edefb86b0264f5a231df91dc633e2b44d9808841",
+    "events_sha256": "3965bbf9c4dffbe42cc6687268bd217af7c2077604366384ef9d1e2d592f3b4b",
+    "entrypoints_sha256": "1aaa06f9629728e87657c9a8ae5b4bfca09ec3ed32e0d2791e7f1406c2607efc"
+  },
+  "sanitizer": {
+    "passed": true,
+    "checks": {
+      "reported_pass": true,
+      "inputs_current": true,
+      "unit_set_current": true,
+      "artifact_current": true,
+      "verification_runner_current": true,
+      "build_record_paired": true,
+      "runtime_evidence_paired": true,
+      "captures_current": true,
+      "capture_set_current": true,
+      "traces_match_record": true,
+      "required_entries_executed": true,
+      "all_21_cold_page_entries": true,
+      "observed_output_checks": true,
+      "frame_counts_present": true
+    },
+    "observed_changes": {
+      "baseline_boxes_and_native_name_passes": true,
+      "checkbox_suppresses_output": true,
+      "picker_changes_geometry_not_projection": true,
+      "editor_paste_changes_color_and_geometry": true,
+      "recovered_color_popup_lifecycle": true,
+      "export_and_display_share_selected_order": true,
+      "hidden_menu_excludes_window_lists": true,
+      "shared_lifecycle_once_and_cold_graph_once": true,
+      "menu_consumes_recovered_io": true,
+      "copied_client_install_supplies_saved_target": true,
+      "slider_filters_and_restores_entities": true,
+      "camera_and_entities_change_projection": true,
+      "offsets_change_actual_labels": true,
+      "resize_stages_exist": true,
+      "owned_frame_submission_not_native_gpu": true
+    },
+    "frames": 217,
+    "platform_paints": 0,
+    "png_captures": 11,
+    "translation_units": 151,
+    "artifact_sha256": "d9d60634d033b90f473a54442717e0cd92442bb2cc011a23fea4028b30ea9564",
+    "verification_sha256": "d52fd118592fa15f69686f74ead222ff2a9c1556f9e5f829ce708b4a3de661f5",
+    "events_sha256": "3965bbf9c4dffbe42cc6687268bd217af7c2077604366384ef9d1e2d592f3b4b",
+    "entrypoints_sha256": "1aaa06f9629728e87657c9a8ae5b4bfca09ec3ed32e0d2791e7f1406c2607efc"
+  },
+  "windows": {
+    "passed": true,
+    "checks": {
+      "reported_pass": true,
+      "inputs_current": true,
+      "unit_set_current": true,
+      "artifact_current": true,
+      "verification_runner_current": true,
+      "build_record_paired": true,
+      "runtime_evidence_paired": true,
+      "captures_current": true,
+      "capture_set_current": true,
+      "traces_match_record": true,
+      "required_entries_executed": true,
+      "all_21_cold_page_entries": true,
+      "observed_output_checks": true,
+      "frame_counts_present": true,
+      "wine_not_mislabelled_native": true,
+      "actual_window_capture_pairs": true
+    },
+    "observed_changes": {
+      "baseline_boxes_and_native_name_passes": true,
+      "checkbox_suppresses_output": true,
+      "picker_changes_geometry_not_projection": true,
+      "editor_paste_changes_color_and_geometry": true,
+      "recovered_color_popup_lifecycle": true,
+      "export_and_display_share_selected_order": true,
+      "hidden_menu_excludes_window_lists": true,
+      "shared_lifecycle_once_and_cold_graph_once": true,
+      "menu_consumes_recovered_io": true,
+      "copied_client_install_supplies_saved_target": true,
+      "slider_filters_and_restores_entities": true,
+      "camera_and_entities_change_projection": true,
+      "offsets_change_actual_labels": true,
+      "resize_stages_exist": true,
+      "owned_frame_submission_not_native_gpu": true
+    },
+    "frames": 221,
+    "platform_paints": 221,
+    "png_captures": 22,
+    "translation_units": 151,
+    "artifact_sha256": "ba60ee0c74d8352ae4dfff587645e6c8d20b61ed25b19a5ba698cccf14dc2d4d",
+    "verification_sha256": "1b2e988683004366ebd3f3231dbfd20d333a90bf6015440d98934cbfb26d4439",
+    "events_sha256": "9886f32765854741b2e211105bf598a0b8d58c79357dc8f93203fddb21073cb6",
+    "entrypoints_sha256": "33414d47c5bf5c5d9cba64aeed2058b80157a499965cb92e045ec9321d484910"
+  },
+  "full_regression_strict": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "d478c59f1a69be155841465e77734f81d5e8b8ad804f39a0096875cdbf7892f3",
+    "log_sha256": "87ab860f172005f60478d9618bbc524d3f373f36b13a5713e56ea2e0ad2f2297"
+  },
+  "full_regression_sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "3985cce38d84aeb7ada9ddb6164561ba396f9ac95a9041d72ede716fed954a7c",
+    "log_sha256": "baabe04fec08da6bfceb13d16185f86a3d9354382ef0f39b4073ff597692e58a"
+  },
+  "original_inputs": {
+    "passed": true,
+    "entries": 135,
+    "manifest_sha256": "a106b5ad116dfc931b58d6470482a000be8e4f381f39405255e0195271ee94c2"
+  },
+  "cmake_ctest": {
+    "passed": true,
+    "inputs_current": true,
+    "record_pairing_current": true,
+    "snapshot_sha256": "6d347c8ee329235dfc545452b0b71ca48b4155388278fd3399b5c4e234b359b0",
+    "log_sha256": "34c04688eba85d68ae9536fb98542130f80d38bfce5445141ed971103da34f65",
+    "artifact_sha256": "4fdfbce733ea4a62fe83118618e3861fcf30f6d6e73e5e489966298cd882b6c5"
+  },
+  "evidence_pairing_regressions": {
+    "passed": true,
+    "inputs_current": true,
+    "tests": {
+      "baseline_passes": true,
+      "changed_event_bytes_rejected": true,
+      "changed_event_bytes_rejected_restored": true,
+      "changed_runtime_log_rejected": true,
+      "changed_runtime_log_rejected_restored": true,
+      "changed_build_record_rejected": true,
+      "changed_build_record_rejected_restored": true,
+      "frame_submitted_failure_rejected": true,
+      "frame_status_failure_rejected": true,
+      "frame_stopped_at_failure_rejected": true,
+      "ui_preparations_failure_rejected": true,
+      "ui_finalizations_failure_rejected": true,
+      "full_overlay_completions_failure_rejected": true,
+      "cold_menu_graphs_failure_rejected": true,
+      "restored_mode_passes": true
+    },
+    "record_sha256": "e5125a99ba747f09842ffb4f1a68128659dff6342941c41045a56a6a4e4e7bef"
+  },
+  "freestanding_gate_component": {
+    "passed": true,
+    "modes": {
+      "strict": {
+        "passed": true,
+        "inputs_current": true,
+        "record_sha256": "469a9096ef5ae1710832b34d6ffdc2a1e59569d93163d786cc6c81a87904258c"
+      },
+      "sanitizer": {
+        "passed": true,
+        "inputs_current": true,
+        "record_sha256": "a75459835ae1ce05dde92e1c89f49c825a3232e2b5a16d2bc4cfab80d20ab1db"
+      },
+      "windows": {
+        "passed": true,
+        "inputs_current": true,
+        "record_sha256": "6a6ae80db6009267baf4fd8fc1ead262b02e164e4203653f512ef17655115bf2"
+      }
+    },
+    "mutation_controls_current": true,
+    "standalone_cmake_current": true,
+    "scope": "Executor component only; supplied contexts; existing scene/base still ordinary and CRT-backed"
+  },
+  "owned_verification_passed": true,
+  "semantic_fidelity": {
+    "source_95_percent_established": false,
+    "percentage": null,
+    "reason": "No complete original-source semantic denominator or matching native runtime oracle",
+    "scope": "Owned menu/ESP subset; typed camera, platform and resource boundaries are not native proof"
+  },
+  "native_windows": {
+    "validated": false
+  },
+  "inside_rust": {
+    "validated": false,
+    "game_bindings": "Needed / To do"
+  },
+  "required_inputs": {
+    "GameAssembly.dll": "Needed / To do",
+    "UnityPlayer.dll": "Needed / To do",
+    "global-metadata.dat": "Needed / To do"
+  },
+  "spoof_executor": {
+    "component_implemented": true,
+    "full_context_selection_implemented": false,
+    "scene_uses_executor": false,
+    "live_stack_spoofing_validated": false,
+    "scene_call_mode": "ordinary calls"
+  },
+  "windows_imports": {
+    "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe",
+    "artifact_sha256": "ba60ee0c74d8352ae4dfff587645e6c8d20b61ed25b19a5ba698cccf14dc2d4d",
+    "imported_libraries": [
+      "GDI32.dll",
+      "KERNEL32.dll",
+      "msvcrt.dll",
+      "USER32.dll"
+    ],
+    "crt_imports": [
+      "msvcrt.dll"
+    ],
+    "no_crt_imports_met": false,
+    "no_imports_met": false,
+    "no_crt_dependencies_met": false,
+    "dependency_reason": "Scene uses standard-library/runtime facilities and static compiler runtimes",
+    "scope": "Authored Windows demo PE; not an import-free internal base or original DLL"
+  },
+  "overall_requested_base_complete": false,
+  "open_requirements": [
+    "Freestanding native context/scanner selection, live unwind validation and gate integration",
+    "Freestanding no-CRT runtime and removal/verification of all imports",
+    "Live game hooks, executable original-call forwarding, restoration and lifetime",
+    "Actual new-pipeline Unity GPU resource/upload/submission/cleanup bindings",
+    "Remaining full menu/navigation/search/assets and native frame lifecycle branches",
+    "Live ESP collection/camera/object-layout/history and enabled world branches",
+    "Matching GameAssembly.dll, UnityPlayer.dll, global-metadata.dat and native/game validation",
+    "Original-source equivalence; no fidelity percentage is established"
+  ],
+  "trace_units": "Owned entry/caller/boundary counters; not original instruction coverage",
+  "audit_runner_sha256": "18cf422fa2f8f4d445cde2230835ecb5b4d9e623afe33aff93e9e8c9ac045553"
+}

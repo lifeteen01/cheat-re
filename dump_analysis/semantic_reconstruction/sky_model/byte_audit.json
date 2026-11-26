@@ -1,0 +1,1179 @@
+{
+  "sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "start": "0x32f408",
+      "stop_exclusive": "0x32fac4",
+      "all_bytes_match": true,
+      "covered_bytes": 1724,
+      "branch_count": 56,
+      "branches": [
+        [
+          "0x32f432",
+          "jne    0x32f452"
+        ],
+        [
+          "0x32f450",
+          "jmp    0x32f459"
+        ],
+        [
+          "0x32f463",
+          "jne    0x32f483"
+        ],
+        [
+          "0x32f497",
+          "je     0x32f4c3"
+        ],
+        [
+          "0x32f4ae",
+          "je     0x32f4cb"
+        ],
+        [
+          "0x32f4c1",
+          "jmp    0x32f4cb"
+        ],
+        [
+          "0x32f4db",
+          "je     0x32f506"
+        ],
+        [
+          "0x32f4eb",
+          "je     0x32f502"
+        ],
+        [
+          "0x32f504",
+          "jne    0x32f52d"
+        ],
+        [
+          "0x32f50d",
+          "je     0x32f52d"
+        ],
+        [
+          "0x32f51d",
+          "je     0x32f52d"
+        ],
+        [
+          "0x32f53f",
+          "je     0x32f59e"
+        ],
+        [
+          "0x32f54f",
+          "jb     0x32f561"
+        ],
+        [
+          "0x32f568",
+          "je     0x32f58a"
+        ],
+        [
+          "0x32f575",
+          "jp     0x32f579"
+        ],
+        [
+          "0x32f577",
+          "je     0x32f59e"
+        ],
+        [
+          "0x32f588",
+          "jmp    0x32f59e"
+        ],
+        [
+          "0x32f591",
+          "je     0x32f59e"
+        ],
+        [
+          "0x32f5a6",
+          "jne    0x32f5bd"
+        ],
+        [
+          "0x32f5c9",
+          "je     0x32f620"
+        ],
+        [
+          "0x32f5d5",
+          "je     0x32f61c"
+        ],
+        [
+          "0x32f5e5",
+          "je     0x32f61c"
+        ],
+        [
+          "0x32f5f5",
+          "je     0x32f61c"
+        ],
+        [
+          "0x32f61e",
+          "jne    0x32f668"
+        ],
+        [
+          "0x32f627",
+          "je     0x32f668"
+        ],
+        [
+          "0x32f633",
+          "je     0x32f668"
+        ],
+        [
+          "0x32f643",
+          "je     0x32f668"
+        ],
+        [
+          "0x32f653",
+          "je     0x32f668"
+        ],
+        [
+          "0x32f66f",
+          "je     0x32f6af"
+        ],
+        [
+          "0x32f67b",
+          "jne    0x32f689"
+        ],
+        [
+          "0x32f684",
+          "jmp    0x32f72f"
+        ],
+        [
+          "0x32f699",
+          "je     0x32f6a7"
+        ],
+        [
+          "0x32f6a5",
+          "jmp    0x32f6b2"
+        ],
+        [
+          "0x32f6ad",
+          "jmp    0x32f6b8"
+        ],
+        [
+          "0x32f6ba",
+          "jne    0x32f72f"
+        ],
+        [
+          "0x32f6d1",
+          "je     0x32f6e1"
+        ],
+        [
+          "0x32f6e8",
+          "je     0x32f722"
+        ],
+        [
+          "0x32f6f4",
+          "je     0x32f722"
+        ],
+        [
+          "0x32f704",
+          "je     0x32f722"
+        ],
+        [
+          "0x32f714",
+          "je     0x32f722"
+        ],
+        [
+          "0x32f729",
+          "je     0x32faa7"
+        ],
+        [
+          "0x32f749",
+          "jne    0x32f7e9"
+        ],
+        [
+          "0x32f7eb",
+          "jne    0x32f88a"
+        ],
+        [
+          "0x32f88c",
+          "jne    0x32f92b"
+        ],
+        [
+          "0x32f933",
+          "jne    0x32f96e"
+        ],
+        [
+          "0x32f937",
+          "jne    0x32f95f"
+        ],
+        [
+          "0x32f96c",
+          "jmp    0x32f9ab"
+        ],
+        [
+          "0x32f971",
+          "jne    0x32f9bd"
+        ],
+        [
+          "0x32f975",
+          "js     0x32f99e"
+        ],
+        [
+          "0x32f9c4",
+          "jne    0x32f9eb"
+        ],
+        [
+          "0x32fa13",
+          "jne    0x32fa3a"
+        ],
+        [
+          "0x32fa57",
+          "je     0x32fa67"
+        ],
+        [
+          "0x32fa6e",
+          "je     0x32faa7"
+        ],
+        [
+          "0x32fa7a",
+          "je     0x32faa7"
+        ],
+        [
+          "0x32fa8a",
+          "je     0x32faa7"
+        ],
+        [
+          "0x32fa9a",
+          "je     0x32faa7"
+        ]
+      ],
+      "calls": [
+        [
+          "0x32f444",
+          "call   0x2ce5d8"
+        ],
+        [
+          "0x32f47e",
+          "call   0x2cbd24"
+        ],
+        [
+          "0x32f48a",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f4e4",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f516",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f52d",
+          "call   0x2e069c"
+        ],
+        [
+          "0x32f538",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f554",
+          "call   0x36c670"
+        ],
+        [
+          "0x32f57c",
+          "call   0x36caa8"
+        ],
+        [
+          "0x32f599",
+          "call   0x36caa8"
+        ],
+        [
+          "0x32f5b8",
+          "call   0x2cb3a4"
+        ],
+        [
+          "0x32f5ce",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f5de",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f5ee",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f62c",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f63c",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f64c",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f692",
+          "call   0x2e89e4"
+        ],
+        [
+          "0x32f6c9",
+          "call   0x2cb9fc"
+        ],
+        [
+          "0x32f6ed",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f6fd",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f70d",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32f73c",
+          "call   0x2cb9fc"
+        ],
+        [
+          "0x32f760",
+          "call   0x2cc730"
+        ],
+        [
+          "0x32f768",
+          "call   0x2cdca4"
+        ],
+        [
+          "0x32f778",
+          "call   0x32f210"
+        ],
+        [
+          "0x32f780",
+          "call   0x2dd160"
+        ],
+        [
+          "0x32f791",
+          "call   0x32f1f4"
+        ],
+        [
+          "0x32f799",
+          "call   0x2cde34"
+        ],
+        [
+          "0x32f7a9",
+          "call   0x32f1c4"
+        ],
+        [
+          "0x32f7b1",
+          "call   0x2d866c"
+        ],
+        [
+          "0x32f7bc",
+          "call   0x334224"
+        ],
+        [
+          "0x32f7d4",
+          "call   0x3349ac"
+        ],
+        [
+          "0x32f802",
+          "call   0x2cc730"
+        ],
+        [
+          "0x32f80a",
+          "call   0x2cdca4"
+        ],
+        [
+          "0x32f81a",
+          "call   0x32f300"
+        ],
+        [
+          "0x32f822",
+          "call   0x3204bc"
+        ],
+        [
+          "0x32f832",
+          "call   0x32f2e4"
+        ],
+        [
+          "0x32f83a",
+          "call   0x2cde34"
+        ],
+        [
+          "0x32f84a",
+          "call   0x32f2b4"
+        ],
+        [
+          "0x32f852",
+          "call   0x2d866c"
+        ],
+        [
+          "0x32f85d",
+          "call   0x334224"
+        ],
+        [
+          "0x32f875",
+          "call   0x3349ac"
+        ],
+        [
+          "0x32f8a3",
+          "call   0x2cc730"
+        ],
+        [
+          "0x32f8ab",
+          "call   0x2cdca4"
+        ],
+        [
+          "0x32f8bb",
+          "call   0x32f3f0"
+        ],
+        [
+          "0x32f8c3",
+          "call   0x2e9bb4"
+        ],
+        [
+          "0x32f8d3",
+          "call   0x32f3d4"
+        ],
+        [
+          "0x32f8db",
+          "call   0x2cde34"
+        ],
+        [
+          "0x32f8eb",
+          "call   0x32f368"
+        ],
+        [
+          "0x32f8f3",
+          "call   0x2d866c"
+        ],
+        [
+          "0x32f8fe",
+          "call   0x334224"
+        ],
+        [
+          "0x32f916",
+          "call   0x3349ac"
+        ],
+        [
+          "0x32f95a",
+          "call   0x2cbd24"
+        ],
+        [
+          "0x32f999",
+          "call   0x2cbd24"
+        ],
+        [
+          "0x32f9b2",
+          "call   0x321994"
+        ],
+        [
+          "0x32f9e6",
+          "call   0x2cbd24"
+        ],
+        [
+          "0x32fa01",
+          "call   0x32f118"
+        ],
+        [
+          "0x32fa35",
+          "call   0x2cbd24"
+        ],
+        [
+          "0x32fa4f",
+          "call   0x2cb9fc"
+        ],
+        [
+          "0x32fa73",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32fa83",
+          "call   0x2caf08"
+        ],
+        [
+          "0x32fa93",
+          "call   0x2caf08"
+        ]
+      ]
+    },
+    {
+      "start": "0x36a464",
+      "stop_exclusive": "0x36ac76",
+      "all_bytes_match": true,
+      "covered_bytes": 2066,
+      "branch_count": 39,
+      "branches": [
+        [
+          "0x36a495",
+          "je     0x36ac5a"
+        ],
+        [
+          "0x36a4b0",
+          "je     0x36ac5a"
+        ],
+        [
+          "0x36a502",
+          "je     0x36ac5a"
+        ],
+        [
+          "0x36a522",
+          "je     0x36ac5a"
+        ],
+        [
+          "0x36a534",
+          "jle    0x36ac5a"
+        ],
+        [
+          "0x36a554",
+          "je     0x36ac4c"
+        ],
+        [
+          "0x36a56f",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a5c0",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a611",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a62c",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a675",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a71a",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a76e",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a78e",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a7f1",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a809",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a824",
+          "je     0x36ac47"
+        ],
+        [
+          "0x36a870",
+          "jne    0x36a8bb"
+        ],
+        [
+          "0x36a8b5",
+          "jne    0x36a8bb"
+        ],
+        [
+          "0x36a8b9",
+          "jmp    0x36a8bd"
+        ],
+        [
+          "0x36a8c1",
+          "je     0x36a8d2"
+        ],
+        [
+          "0x36a8e3",
+          "jne    0x36ac47"
+        ],
+        [
+          "0x36a902",
+          "je     0x36ac25"
+        ],
+        [
+          "0x36a919",
+          "jne    0x36ab99"
+        ],
+        [
+          "0x36a921",
+          "je     0x36ab22"
+        ],
+        [
+          "0x36a92a",
+          "je     0x36aad9"
+        ],
+        [
+          "0x36a933",
+          "je     0x36aa8d"
+        ],
+        [
+          "0x36a93c",
+          "je     0x36aa41"
+        ],
+        [
+          "0x36a945",
+          "je     0x36a9f5"
+        ],
+        [
+          "0x36a94e",
+          "je     0x36a9a7"
+        ],
+        [
+          "0x36a953",
+          "jne    0x36ac25"
+        ],
+        [
+          "0x36a9a2",
+          "jmp    0x36ab69"
+        ],
+        [
+          "0x36a9f0",
+          "jmp    0x36ab69"
+        ],
+        [
+          "0x36aa3c",
+          "jmp    0x36ab69"
+        ],
+        [
+          "0x36aa88",
+          "jmp    0x36ab69"
+        ],
+        [
+          "0x36aad4",
+          "jmp    0x36ab69"
+        ],
+        [
+          "0x36ab20",
+          "jmp    0x36ab69"
+        ],
+        [
+          "0x36ab93",
+          "je     0x36ac25"
+        ],
+        [
+          "0x36ac54",
+          "jl     0x36a53a"
+        ]
+      ],
+      "calls": [
+        [
+          "0x36a48e",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a49e",
+          "call   0x369764"
+        ],
+        [
+          "0x36a4a9",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a4c2",
+          "call   0x367ca0"
+        ],
+        [
+          "0x36a4ca",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a4dd",
+          "call   0x367b00"
+        ],
+        [
+          "0x36a4e5",
+          "call   0x320494"
+        ],
+        [
+          "0x36a4f0",
+          "call   0x334204"
+        ],
+        [
+          "0x36a4fb",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a50b",
+          "call   0x3151bc"
+        ],
+        [
+          "0x36a51b",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a54d",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a55d",
+          "call   0x370754"
+        ],
+        [
+          "0x36a568",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a580",
+          "call   0x367ea0"
+        ],
+        [
+          "0x36a588",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a59b",
+          "call   0x367e28"
+        ],
+        [
+          "0x36a5a3",
+          "call   0x2cdccc"
+        ],
+        [
+          "0x36a5ae",
+          "call   0x334224"
+        ],
+        [
+          "0x36a5b9",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a5d1",
+          "call   0x367f0c"
+        ],
+        [
+          "0x36a5d9",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a5ec",
+          "call   0x367ed8"
+        ],
+        [
+          "0x36a5f4",
+          "call   0x2e9c54"
+        ],
+        [
+          "0x36a5ff",
+          "call   0x334224"
+        ],
+        [
+          "0x36a60a",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a61a",
+          "call   0x36b2d4"
+        ],
+        [
+          "0x36a625",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a640",
+          "call   0x367f4c"
+        ],
+        [
+          "0x36a648",
+          "call   0x2d85f4"
+        ],
+        [
+          "0x36a650",
+          "call   0x2ce5dc"
+        ],
+        [
+          "0x36a65b",
+          "call   0x368280"
+        ],
+        [
+          "0x36a663",
+          "call   0x373248"
+        ],
+        [
+          "0x36a66e",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a682",
+          "call   0x3747d4"
+        ],
+        [
+          "0x36a6a0",
+          "call   0x375140"
+        ],
+        [
+          "0x36a6ac",
+          "call   0x374aa4"
+        ],
+        [
+          "0x36a6c2",
+          "call   0x37527c"
+        ],
+        [
+          "0x36a6d2",
+          "call   0x367fc4"
+        ],
+        [
+          "0x36a6da",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a6f0",
+          "call   0x367f88"
+        ],
+        [
+          "0x36a6f8",
+          "call   0x2d85f4"
+        ],
+        [
+          "0x36a706",
+          "call   0x372efc"
+        ],
+        [
+          "0x36a713",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a72b",
+          "call   0x367918"
+        ],
+        [
+          "0x36a733",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a746",
+          "call   0x3678e4"
+        ],
+        [
+          "0x36a74e",
+          "call   0x2e9c54"
+        ],
+        [
+          "0x36a75c",
+          "call   0x372efc"
+        ],
+        [
+          "0x36a767",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a777",
+          "call   0x36b2d4"
+        ],
+        [
+          "0x36a787",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a79f",
+          "call   0x367950"
+        ],
+        [
+          "0x36a7a7",
+          "call   0x2cdd44"
+        ],
+        [
+          "0x36a7af",
+          "call   0x2ce5dc"
+        ],
+        [
+          "0x36a7ba",
+          "call   0x368370"
+        ],
+        [
+          "0x36a7c5",
+          "call   0x367fe0"
+        ],
+        [
+          "0x36a7d0",
+          "call   0x36ad9c"
+        ],
+        [
+          "0x36a7da",
+          "call   0x370fac"
+        ],
+        [
+          "0x36a7ea",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a7fa",
+          "call   0x370e84"
+        ],
+        [
+          "0x36a802",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a812",
+          "call   0x37361c"
+        ],
+        [
+          "0x36a81d",
+          "call   0x2caf08"
+        ],
+        [
+          "0x36a838",
+          "call   0x367990"
+        ],
+        [
+          "0x36a840",
+          "call   0x3204bc"
+        ],
+        [
+          "0x36a855",
+          "call   0x2d7e18"
+        ],
+        [
+          "0x36a85d",
+          "call   0x2cd7ec"
+        ],
+        [
+          "0x36a868",
+          "call   0x3ca960"
+        ],
+        [
+          "0x36a87d",
+          "call   0x3679ac"
+        ],
+        [
+          "0x36a885",
+          "call   0x2cdd44"
+        ],
+        [
+          "0x36a89a",
+          "call   0x2d7e18"
+        ],
+        [
+          "0x36a8a2",
+          "call   0x2cd7ec"
+        ],
+        [
+          "0x36a8ad",
+          "call   0x3ca960"
+        ],
+        [
+          "0x36a8cd",
+          "call   0x2cc4f4"
+        ],
+        [
+          "0x36a8dc",
+          "call   0x2cc4f4"
+        ],
+        [
+          "0x36a964",
+          "call   0x367d34"
+        ],
+        [
+          "0x36a96c",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a97f",
+          "call   0x367d14"
+        ],
+        [
+          "0x36a987",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36a99d",
+          "call   0x2f1644"
+        ],
+        [
+          "0x36a9b2",
+          "call   0x367cf8"
+        ],
+        [
+          "0x36a9ba",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36a9cd",
+          "call   0x367cd8"
+        ],
+        [
+          "0x36a9d5",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36a9eb",
+          "call   0x2f14d8"
+        ],
+        [
+          "0x36aa00",
+          "call   0x367be8"
+        ],
+        [
+          "0x36aa08",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36aa1b",
+          "call   0x367bc8"
+        ],
+        [
+          "0x36aa23",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36aa37",
+          "call   0x2f13e8"
+        ],
+        [
+          "0x36aa4c",
+          "call   0x367bac"
+        ],
+        [
+          "0x36aa54",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36aa67",
+          "call   0x367b8c"
+        ],
+        [
+          "0x36aa6f",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36aa83",
+          "call   0x2f0bd4"
+        ],
+        [
+          "0x36aa98",
+          "call   0x367b70"
+        ],
+        [
+          "0x36aaa0",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36aab3",
+          "call   0x367b50"
+        ],
+        [
+          "0x36aabb",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36aacf",
+          "call   0x2f1250"
+        ],
+        [
+          "0x36aae4",
+          "call   0x367b34"
+        ],
+        [
+          "0x36aaec",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36aaff",
+          "call   0x367a1c"
+        ],
+        [
+          "0x36ab07",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36ab1b",
+          "call   0x2f10cc"
+        ],
+        [
+          "0x36ab2d",
+          "call   0x367a00"
+        ],
+        [
+          "0x36ab35",
+          "call   0x2cde34"
+        ],
+        [
+          "0x36ab48",
+          "call   0x3679c8"
+        ],
+        [
+          "0x36ab50",
+          "call   0x2cdcf4"
+        ],
+        [
+          "0x36ab64",
+          "call   0x2f1004"
+        ],
+        [
+          "0x36ab6c",
+          "call   0x2d8464"
+        ],
+        [
+          "0x36ab74",
+          "call   0x2ce5dc"
+        ],
+        [
+          "0x36ab85",
+          "call   0x375abc"
+        ],
+        [
+          "0x36aba4",
+          "call   0x3710dc"
+        ],
+        [
+          "0x36abc2",
+          "call   0x367d50"
+        ],
+        [
+          "0x36abca",
+          "call   0x3203f4"
+        ],
+        [
+          "0x36abd2",
+          "call   0x2ce5dc"
+        ],
+        [
+          "0x36abe2",
+          "call   0x370d64"
+        ],
+        [
+          "0x36ac00",
+          "call   0x367d68"
+        ],
+        [
+          "0x36ac08",
+          "call   0x3203f4"
+        ],
+        [
+          "0x36ac10",
+          "call   0x2ce5dc"
+        ],
+        [
+          "0x36ac20",
+          "call   0x370d64"
+        ],
+        [
+          "0x36ac30",
+          "call   0x37301c"
+        ],
+        [
+          "0x36ac42",
+          "call   0x37301c"
+        ]
+      ]
+    }
+  ],
+  "constant_colors": {
+    "0x3ecc38": {
+      "hex": "00000000000000000000000000000000",
+      "floats": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "0x3ecbd8": {
+      "hex": "00000000000000000000000000000000",
+      "floats": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

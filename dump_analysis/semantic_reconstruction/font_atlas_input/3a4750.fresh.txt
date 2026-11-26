@@ -1,0 +1,17 @@
+3a4750 sub    rsp,0x28
+3a4754 cmp    WORD PTR [rip+0x619e4],0x0        # 0x406140
+3a475c jne    0x3a47a8
+3a475e movzx  eax,WORD PTR [rip+0xffffffffffedb2c3]        # 0x27fa28
+3a4765 lea    r9,[rip+0x619ec]        # 0x406158
+3a476c movups xmm0,XMMWORD PTR [rip+0xffffffffffedb2b7]        # 0x27fa2a
+3a4773 lea    rdx,[rip+0xfffffffffff05bb6]        # 0x2aa330
+3a477a mov    r8d,0x9c4
+3a4780 movsd  xmm1,QWORD PTR [rip+0xffffffffffedb2b0]        # 0x27fa38
+3a4788 mov    ecx,0x4e00
+3a478d movups XMMWORD PTR [rip+0x619ae],xmm0        # 0x406142
+3a4794 mov    WORD PTR [rip+0x619a5],ax        # 0x406140
+3a479b movsd  QWORD PTR [rip+0x619ad],xmm1        # 0x406150
+3a47a3 call   0x3a8bec
+3a47a8 lea    rax,[rip+0x61991]        # 0x406140
+3a47af add    rsp,0x28
+3a47b3 ret

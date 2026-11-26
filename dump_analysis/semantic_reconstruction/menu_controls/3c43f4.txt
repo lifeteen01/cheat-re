@@ -1,0 +1,16 @@
+3c43f4	movss  DWORD PTR [rsp+0x20],xmm3
+3c43fa	movss  DWORD PTR [rsp+0x18],xmm2
+3c4400	mov    r11,rsp
+3c4403	sub    rsp,0x48
+3c4407	mov    eax,DWORD PTR [rsp+0x78]
+3c440b	lea    r9,[r11+0x18]
+3c440f	mov    DWORD PTR [rsp+0x30],eax
+3c4413	mov    r8,rdx
+3c4416	mov    rax,QWORD PTR [rsp+0x70]
+3c441b	mov    edx,0x8
+3c4420	mov    QWORD PTR [r11-0x20],rax
+3c4424	lea    rax,[r11+0x20]
+3c4428	mov    QWORD PTR [r11-0x28],rax
+3c442c	call   0x3c4478
+3c4431	add    rsp,0x48
+3c4435	ret

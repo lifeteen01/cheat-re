@@ -1,0 +1,46 @@
+[I] Combined immutable-script strict verification.
+Compile menu_tooltip_analysis.cpp
+Compile game_root_helpers.cpp
+Compile draw_meters_bindings.cpp
+Compile draw_meters_checks.cpp
+Compile draw_meters_controllers.cpp
+Compile draw_meters_coverage.cpp
+Compile draw_meters_helpers.cpp
+Compile draw_shadows_checks.cpp
+Compile draw_shadows_clipping.cpp
+Compile draw_shadows_controllers.cpp
+Compile draw_shadows_geometry.cpp
+Compile imgui_windows_checks.cpp
+Compile imgui_windows_decorations.cpp
+Compile menu_color_picker_analysis.cpp
+Compile menu_color_picker_checks.cpp
+Compile menu_color_picker_components.cpp
+Compile menu_color_picker_geometry.cpp
+Compile menu_color_picker_logging.cpp
+Compile menu_color_picker_math.cpp
+Compile imgui_window_details_base.cpp
+Compile imgui_window_details_bindings.cpp
+Compile imgui_window_details_checks.cpp
+Compile imgui_window_details_columns.cpp
+Compile imgui_window_details_grips.cpp
+Compile imgui_window_details_log.cpp
+Compile imgui_window_details_lookup.cpp
+Compile imgui_window_details_position.cpp
+Compile imgui_window_details_resize.cpp
+Compile imgui_window_details_scrollbar.cpp
+Compile imgui_window_details_title.cpp
+Compile draw_shapes_bindings.cpp
+Compile draw_shapes_checks.cpp
+Compile draw_shapes_coverage.cpp
+Compile draw_shapes_geometry.cpp
+Compile draw_shapes_paths.cpp
+Compile world_render_bindings.cpp
+Compile menu_render_bindings.cpp
+Compile analysis_checks.cpp
+Compile world_render_binding_checks.cpp
+Compile menu_tooltip_checks.cpp
+Compile game_root_helper_checks.cpp
+Link 247 translation units; 206 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

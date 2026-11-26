@@ -1,0 +1,20 @@
+3ab3e0 sub    rsp,0x48
+3ab3e4 movss  xmm1,DWORD PTR [rcx+0x8]
+3ab3e9 ucomiss xmm1,DWORD PTR [rcx+0x10]
+3ab3ed jp     0x3ab3fe
+3ab3ef jne    0x3ab3fe
+3ab3f1 movss  xmm0,DWORD PTR [rcx+0xc]
+3ab3f6 ucomiss xmm0,DWORD PTR [rcx+0x14]
+3ab3fa jp     0x3ab3fe
+3ab3fc je     0x3ab422
+3ab3fe cvttss2si r9d,DWORD PTR [rcx+0xc]
+3ab404 xor    eax,eax
+3ab406 mov    dl,0x2
+3ab408 mov    DWORD PTR [rsp+0x38],eax
+3ab40c mov    DWORD PTR [rsp+0x30],eax
+3ab410 mov    DWORD PTR [rsp+0x28],eax
+3ab414 mov    DWORD PTR [rsp+0x20],eax
+3ab418 cvttss2si r8d,xmm1
+3ab41d call   0x3ab558
+3ab422 add    rsp,0x48
+3ab426 ret

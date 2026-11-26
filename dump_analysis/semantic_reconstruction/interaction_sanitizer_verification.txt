@@ -1,0 +1,1 @@
+PASS: GCC 15 C++20 strict interaction fixtures; INTERACTION_SANITIZE=1

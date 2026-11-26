@@ -1,0 +1,4 @@
+39b704	mov    rax,QWORD PTR [rip+0x6a41d]        # 0x405b28
+39b70b	or     DWORD PTR [rax+0x4790],0x1
+39b712	movss  DWORD PTR [rax+0x4794],xmm0
+39b71a	ret

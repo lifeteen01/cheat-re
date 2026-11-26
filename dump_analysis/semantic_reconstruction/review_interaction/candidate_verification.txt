@@ -1,0 +1,16 @@
+Compile patched_interaction_workers.cpp
+Compile patched_interaction_workers_checks.cpp
+Compile 04_esp_entities.cpp
+Compile game_base_analysis.cpp
+Compile aim_weapon_analysis.cpp
+Compile 05_server_observable.cpp
+Compile projectile_analysis.cpp
+Compile launcher_analysis.cpp
+Compile trajectory_cache_analysis.cpp
+Compile snapshot_bindings.cpp
+Compile field_getters_analysis.cpp
+Compile metadata_analysis.cpp
+Compile metadata_export_analysis.cpp
+Compile registry_analysis.cpp
+Compile check_main.cpp
+PASS GCC15 strict C++20 independent interaction review fixtures candidate

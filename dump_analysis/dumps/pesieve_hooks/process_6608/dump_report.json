@@ -1,0 +1,69 @@
+ {
+  "pid" : 6608,
+  "output_dir" : "process_6608",
+  "dumped" : 
+  {
+   "total" : 6,
+   "dumped" : 6
+  },
+  "dumps" : [
+   {
+    "module" : "7ffa83c80000",
+    "module_size" : "267000",
+    "dump_file" : "7ffa83c80000.ntdll.dll",
+    "tags_file" : "7ffa83c80000.ntdll.dll.tag",
+    "imports_file" : "7ffa83c80000.ntdll.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffa36e10000",
+    "module_size" : "9a4000",
+    "dump_file" : "7ffa36e10000.clr.dll",
+    "tags_file" : "7ffa36e10000.clr.dll.tag",
+    "imports_file" : "7ffa36e10000.clr.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffa2e5a0000",
+    "module_size" : "13e6000",
+    "dump_file" : "7ffa2e5a0000.simple_raknet_hooks.dll",
+    "imports_file" : "7ffa2e5a0000.simple_raknet_hooks.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "24d808be958",
+    "module_size" : "1a36a8",
+    "dump_file" : "24d808be958.dll",
+    "imp_rec_result" : "IMP_NOT_FOUND",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "24d80000000",
+    "module_size" : "a62000",
+    "dump_file" : "24d80000000.shc",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 1,
+    "status" : 1
+   },
+   {
+    "module" : "24dfa940000",
+    "module_size" : "1000",
+    "dump_file" : "24dfa940000.dll",
+    "imp_rec_result" : "IMP_NOT_FOUND",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   }
+  ]
+ }

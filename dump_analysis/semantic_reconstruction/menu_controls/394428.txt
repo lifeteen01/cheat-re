@@ -1,0 +1,19 @@
+394428	rex push rbx
+39442a	sub    rsp,0x20
+39442e	mov    rax,QWORD PTR [rip+0x716f3]        # 0x405b28
+394435	mov    ebx,edx
+394437	movsxd r8,ecx
+39443a	cmp    BYTE PTR [r8+rax*1+0xe10],0x0
+394443	je     0x39445b
+394445	call   0x395250
+39444a	mov    ecx,eax
+39444c	mov    edx,ebx
+39444e	call   0x39bf0c
+394453	test   al,al
+394455	je     0x39445b
+394457	mov    al,0x1
+394459	jmp    0x39445d
+39445b	xor    al,al
+39445d	add    rsp,0x20
+394461	pop    rbx
+394462	ret

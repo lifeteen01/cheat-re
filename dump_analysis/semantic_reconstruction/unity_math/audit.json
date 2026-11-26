@@ -1,0 +1,286 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x2dff68",
+      "end_exclusive": "0x2e0080",
+      "instructions": 66,
+      "bytes": 280,
+      "sha256": "bb6725ca613476ef9f6b2661d5f876c149c97655358c1e2d5ee22f915020ef20"
+    },
+    {
+      "begin": "0x2e0198",
+      "end_exclusive": "0x2e02b0",
+      "instructions": 66,
+      "bytes": 280,
+      "sha256": "41fd516b874fba3f797c2a064e2efc0592db4ae2d99853e6726f18963be66cb8"
+    },
+    {
+      "begin": "0x2e3d5c",
+      "end_exclusive": "0x2e3e91",
+      "instructions": 71,
+      "bytes": 309,
+      "sha256": "ad8d6eb2f6474911ac0354856260f85de649c8915b084a07e363b3bb8885da00"
+    },
+    {
+      "begin": "0x2de97c",
+      "end_exclusive": "0x2de9d3",
+      "instructions": 19,
+      "bytes": 87,
+      "sha256": "36ca4903a9cea9ebd6289e3f0bc047d5725253e3d2fb2a46a482689e3b202c99"
+    },
+    {
+      "begin": "0x2de9d4",
+      "end_exclusive": "0x2dea4c",
+      "instructions": 25,
+      "bytes": 120,
+      "sha256": "1b705e73258943c4bea24bfba151807aba905690f8849c8d130bc9e4f01548a8"
+    },
+    {
+      "begin": "0x2ddbf8",
+      "end_exclusive": "0x2ddc00",
+      "instructions": 3,
+      "bytes": 8,
+      "sha256": "f577e99a0790e066f710ef4010befe90f64e939da43b31afa106a37b2bc21dc8"
+    },
+    {
+      "begin": "0x2dcfd4",
+      "end_exclusive": "0x2dd034",
+      "instructions": 32,
+      "bytes": 96,
+      "sha256": "751aaab814b5b5a02e88394b501d3aba051cdeac7b901087542cfefffbb9c60b"
+    },
+    {
+      "begin": "0x2d8114",
+      "end_exclusive": "0x2d8144",
+      "instructions": 16,
+      "bytes": 48,
+      "sha256": "0afcbd795f8663b76a3b81fa904144b01bacd8993e6fc05cb02f1943656a500c"
+    }
+  ],
+  "branches": [
+    [
+      "0x2dff82",
+      "jne    0x2e0034"
+    ],
+    [
+      "0x2e0032",
+      "jmp    0x2e003b"
+    ],
+    [
+      "0x2e003d",
+      "jne    0x2e005e"
+    ],
+    [
+      "0x2e007b",
+      "jmp    0x2de97c"
+    ],
+    [
+      "0x2e01b2",
+      "jne    0x2e0264"
+    ],
+    [
+      "0x2e0262",
+      "jmp    0x2e026b"
+    ],
+    [
+      "0x2e026d",
+      "jne    0x2e028e"
+    ],
+    [
+      "0x2e02ab",
+      "jmp    0x2de97c"
+    ],
+    [
+      "0x2e3d84",
+      "jne    0x2e3e33"
+    ],
+    [
+      "0x2e3e31",
+      "jmp    0x2e3e3a"
+    ],
+    [
+      "0x2e3e3c",
+      "jne    0x2e3e5d"
+    ],
+    [
+      "0x2e3e8c",
+      "jmp    0x2de9d4"
+    ],
+    [
+      "0x2de9ce",
+      "jmp    0x3cdbb0"
+    ],
+    [
+      "0x2dea47",
+      "jmp    0x3cdbb0"
+    ],
+    [
+      "0x2dd001",
+      "jl     0x2dcfda"
+    ],
+    [
+      "0x2dd031",
+      "jl     0x2dd00a"
+    ],
+    [
+      "0x2d8141",
+      "jl     0x2d811a"
+    ]
+  ],
+  "calls": [
+    [
+      "0x2dff99",
+      "call   0x2cc730"
+    ],
+    [
+      "0x2dffa1",
+      "call   0x2cdca4"
+    ],
+    [
+      "0x2dffb9",
+      "call   0x2dfad0"
+    ],
+    [
+      "0x2dffc1",
+      "call   0x2dd0e8"
+    ],
+    [
+      "0x2dffd6",
+      "call   0x2df95c"
+    ],
+    [
+      "0x2dffde",
+      "call   0x2cde0c"
+    ],
+    [
+      "0x2dfff3",
+      "call   0x2df838"
+    ],
+    [
+      "0x2dfffb",
+      "call   0x2d84b4"
+    ],
+    [
+      "0x2e0006",
+      "call   0x334224"
+    ],
+    [
+      "0x2e001d",
+      "call   0x3349ac"
+    ],
+    [
+      "0x2e0059",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x2e01c9",
+      "call   0x2cc730"
+    ],
+    [
+      "0x2e01d1",
+      "call   0x2cdca4"
+    ],
+    [
+      "0x2e01e9",
+      "call   0x2dfaf8"
+    ],
+    [
+      "0x2e01f1",
+      "call   0x2dd0e8"
+    ],
+    [
+      "0x2e0206",
+      "call   0x2df994"
+    ],
+    [
+      "0x2e020e",
+      "call   0x2cde0c"
+    ],
+    [
+      "0x2e0223",
+      "call   0x2df864"
+    ],
+    [
+      "0x2e022b",
+      "call   0x2d84b4"
+    ],
+    [
+      "0x2e0236",
+      "call   0x334224"
+    ],
+    [
+      "0x2e024d",
+      "call   0x3349ac"
+    ],
+    [
+      "0x2e0289",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x2e3d9b",
+      "call   0x2cc730"
+    ],
+    [
+      "0x2e3da3",
+      "call   0x2cdca4"
+    ],
+    [
+      "0x2e3db8",
+      "call   0x2dfbb4"
+    ],
+    [
+      "0x2e3dc0",
+      "call   0x2d84b4"
+    ],
+    [
+      "0x2e3dd5",
+      "call   0x2dfa58"
+    ],
+    [
+      "0x2e3ddd",
+      "call   0x2cde0c"
+    ],
+    [
+      "0x2e3df2",
+      "call   0x2df93c"
+    ],
+    [
+      "0x2e3dfa",
+      "call   0x2dd110"
+    ],
+    [
+      "0x2e3e05",
+      "call   0x334224"
+    ],
+    [
+      "0x2e3e1c",
+      "call   0x3349ac"
+    ],
+    [
+      "0x2e3e58",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x2de98d",
+      "call   0x2ddbf8"
+    ],
+    [
+      "0x2de9c4",
+      "call   0x3cdbd4"
+    ],
+    [
+      "0x2de9ed",
+      "call   0x2ddbf8"
+    ],
+    [
+      "0x2de9fa",
+      "call   0x2ddbf8"
+    ],
+    [
+      "0x2dea38",
+      "call   0x3cdbd4"
+    ]
+  ],
+  "limits": "Byte provenance, boundary and branch inventory only. Unknown stack/return bytes unmaterialized; context/executor execution excluded. Default atlas builder3a59bc remains local closure."
+}

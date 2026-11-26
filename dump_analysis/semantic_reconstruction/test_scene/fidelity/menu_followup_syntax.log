@@ -1,0 +1,7 @@
+/home/john/Desktop/cheat_re/source/test_scene/menu_lifecycle_checks.cpp: In function ‘void owned_scene::check_menu_lifecycle()’:
+/home/john/Desktop/cheat_re/source/test_scene/menu_lifecycle_checks.cpp:39:38: error: no match for ‘operator==’ (operand types are ‘const rust_internal_re::Vec2’ and ‘const rust_internal_re::Vec2’)
+   39 |                 routed.menu.io_mouse == routed.frame.io.mouse_position &&
+      |                 ~~~~~~~~~~~~~~~~~~~~ ^~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |                           |
+      |                             |                           const rust_internal_re::Vec2
+      |                             const rust_internal_re::Vec2

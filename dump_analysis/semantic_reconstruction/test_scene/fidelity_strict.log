@@ -1,0 +1,12 @@
+Compile strict semantic_checks.cpp
+{"passed": true, "mode": "strict", "cache_hits": 121, "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene", "artifact_sha256": "816ff7b79f5616aa42cdd63ed543bd2c49b7c66e3130cf0331fa03105fa8c181"}
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 7.296,
+  "artifact_sha256": "816ff7b79f5616aa42cdd63ed543bd2c49b7c66e3130cf0331fa03105fa8c181",
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

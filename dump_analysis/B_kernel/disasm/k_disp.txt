@@ -1,0 +1,901 @@
+
+<KsecDispatch>:
+285c0: mov    QWORD PTR [rsp+0x8],rbx
+285c5: push   rbp
+285c6: push   rsi
+285c7: push   rdi
+285c8: push   r12
+285ca: push   r13
+285cc: push   r14
+285ce: push   r15
+285d0: sub    rsp,0x50
+285d4: mov    rsi,QWORD PTR [rdx+0xb8]
+285db: mov    rbx,rdx
+285de: movzx  r8d,BYTE PTR [rsi]
+285e2: cmp    r8d,0xe
+285e6: jne    0x287ed ; KsecDispatch+22d
+285ec: mov    ebp,DWORD PTR [rsi+0x18]
+285ef: xor    r15d,r15d
+285f2: mov    eax,ebp
+285f4: and    al,0x3
+285f6: cmp    al,0x2
+285f8: jne    0x28732 ; KsecDispatch+172
+285fe: cmp    DWORD PTR [rsi+0x8],r15d
+28602: je     0x28732 ; KsecDispatch+172
+28608: mov    rcx,QWORD PTR [rdx+0x8]
+2860c: test   BYTE PTR [rcx+0xa],0x5
+28610: jne    0x287dd ; KsecDispatch+21d
+28616: mov    DWORD PTR [rsp+0x28],0x40000010
+2861e: lea    r8d,[r15+0x1]
+28622: xor    r9d,r9d
+28625: mov    DWORD PTR [rsp+0x20],r15d
+2862a: xor    edx,edx
+2862c: rex.W call QWORD PTR [rip+0xffffffffffff8b95]        # 0x211c8 ; __imp_MmMapLockedPagesSpecifyCache
+28633: nop    DWORD PTR [rax+rax*1+0x0]
+28638: mov    r14,rax
+2863b: mov    rax,QWORD PTR [rbx+0x8]
+2863f: mov    edi,DWORD PTR [rax+0x28]
+28642: test   r14,r14
+28645: je     0x289a4 ; KsecDispatch+3e4
+2864b: mov    r12d,DWORD PTR [rsi+0x10]
+2864f: mov    rcx,rbx
+28652: mov    rsi,QWORD PTR [rbx+0x18]
+28656: mov    DWORD PTR [rsp+0x98],r15d
+2865e: rex.W call QWORD PTR [rip+0xffffffffffff8b73]        # 0x211d8 ; __imp_IoGetRequestorProcess
+28665: nop    DWORD PTR [rax+rax*1+0x0]
+2866a: mov    r13,rax
+2866d: cmp    ebp,0x39006a
+28673: je     0x2873e ; KsecDispatch+17e
+28679: mov    eax,ebp
+2867b: sub    eax,0x390038
+28680: je     0x28af6 ; KsecDispatch+536
+28686: sub    eax,0x20
+28689: je     0x28840 ; KsecDispatch+280
+2868f: sub    eax,0x17
+28692: je     0x287bc ; KsecDispatch+1fc
+28698: cmp    eax,0x7f91 ; KsecRemoveValidAddressCommon+441
+2869d: je     0x289df ; KsecDispatch+41f
+286a3: mov    r10,QWORD PTR [rip+0xffffffffffff6016]        # 0x1e6c0 ; ?gKsecpDeviceControlExtension@@3PEAU_KSEC_DEVICE_CONTROL_EX_FUNCTIONS@@EA
+286aa: test   r10,r10
+286ad: je     0x289b2 ; KsecDispatch+3f2
+286b3: cmp    QWORD PTR [r10],r15
+286b6: je     0x289b2 ; KsecDispatch+3f2
+286bc: movzx  eax,BYTE PTR [rbx+0x40]
+286c0: lea    r9,[rsp+0x98]
+286c8: mov    BYTE PTR [rsp+0x28],al
+286cc: mov    r8,r14
+286cf: mov    DWORD PTR [rsp+0x98],edi
+286d6: mov    edx,r12d
+286d9: mov    rax,QWORD PTR [r10]
+286dc: mov    rcx,rsi
+286df: mov    DWORD PTR [rsp+0x20],ebp
+286e3: call   0x12780 ; _guard_dispatch_icall
+286e8: mov    esi,eax
+286ea: mov    edi,esi
+286ec: cmp    esi,0x103
+286f2: je     0x287e6 ; KsecDispatch+226
+286f8: mov    eax,DWORD PTR [rsp+0x98]
+286ff: mov    QWORD PTR [rbx+0x38],rax
+28703: xor    edx,edx
+28705: mov    DWORD PTR [rbx+0x30],edi
+28708: mov    rcx,rbx
+2870b: rex.W call QWORD PTR [rip+0xffffffffffff8abe]        # 0x211d0 ; __imp_IofCompleteRequest
+28712: nop    DWORD PTR [rax+rax*1+0x0]
+28717: mov    eax,edi
+28719: mov    rbx,QWORD PTR [rsp+0x90]
+28721: add    rsp,0x50
+28725: pop    r15
+28727: pop    r14
+28729: pop    r13
+2872b: pop    r12
+2872d: pop    rdi
+2872e: pop    rsi
+2872f: pop    rbp
+28730: ret
+28731: int3
+28732: mov    r14,QWORD PTR [rdx+0x18]
+28736: mov    edi,DWORD PTR [rsi+0x8]
+28739: jmp    0x2864b ; KsecDispatch+8b
+2873e: lea    rcx,[rsp+0xa0]
+28746: call   0x31a0 ; ??0KsecddLsaStateRef@@QEAA@XZ
+2874b: lea    rcx,[rsp+0xa0]
+28753: call   0x4df0 ; ?IsValid@KsecddLsaStateRef@@QEAA_NXZ
+28758: lea    rcx,[rsp+0xa0]
+28760: test   al,al
+28762: je     0x288cd ; KsecDispatch+30d
+28768: mov    DWORD PTR [rbx+0x30],0x103
+2876f: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28774: lea    rcx,[rsp+0xa0]
+2877c: mov    rdi,rax
+2877f: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28784: mov    r9,rdi
+28787: xor    r8d,r8d
+2878a: mov    rdx,rbx
+2878d: lea    rcx,[rax+0x20]
+28791: rex.W call QWORD PTR [rip+0xffffffffffff8bf8]        # 0x21390 ; __imp_IoCsqInsertIrpEx
+28798: nop    DWORD PTR [rax+rax*1+0x0]
+2879d: mov    rcx,rdi
+287a0: call   0x49b0 ; KSecDereferenceListEntry+40
+287a5: lea    rcx,[rsp+0xa0]
+287ad: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+287b2: mov    eax,0x103
+287b7: jmp    0x28719 ; KsecDispatch+159
+287bc: mov    rcx,QWORD PTR [rbx+0xb8]
+287c3: test   rcx,rcx
+287c6: je     0x288e6 ; KsecDispatch+326
+287cc: mov    edx,DWORD PTR [rcx+0x10]
+287cf: mov    rcx,QWORD PTR [rcx+0x20]
+287d3: call   0x46a0 ; KsecIoctlHandleFunctionReturn
+287d8: jmp    0x286e8 ; KsecDispatch+128
+287dd: mov    r14,QWORD PTR [rcx+0x18]
+287e1: jmp    0x2863b ; KsecDispatch+7b
+287e6: mov    eax,esi
+287e8: jmp    0x28719 ; KsecDispatch+159
+287ed: cmp    r8d,0x10
+287f1: ja     0x28980 ; KsecDispatch+3c0
+287f7: lea    rdx,[rip+0xfffffffffffd7802]        # 0x0
+287fe: mov    ecx,DWORD PTR [rdx+r8*4+0x1ad00] ; ??_C@_1CC@FCCBMONP@?$AAM?$AAa?$AAx?$AAE?$AAn?$AAt?$AAr?$AAi?$AAe?$AAs?$AAS?$AAt?$AAo?$AAr?$AAe@+1e0
+28806: add    rcx,rdx
+28809: jmp    rcx
+2880b: int3
+2880c: int3
+2880d: int3
+2880e: int3
+2880f: xor    r15d,r15d
+28812: mov    edi,r15d
+28815: mov    QWORD PTR [rbx+0x38],r15
+28819: jmp    0x28703 ; KsecDispatch+143
+2881e: cmp    DWORD PTR [rsi+0x10],0x5
+28822: mov    ecx,DWORD PTR [rsi+0x8]
+28825: je     0x2890f ; KsecDispatch+34f
+2882b: mov    edi,0xc0000003
+28830: mov    edx,0x38
+28835: mov    eax,ecx
+28837: mov    QWORD PTR [rbx+rdx*1],rax
+2883b: jmp    0x28703 ; KsecDispatch+143
+28840: cmp    BYTE PTR [rbx+0x40],0x1
+28844: jne    0x288e6 ; KsecDispatch+326
+2884a: test   r13,r13
+2884d: je     0x288e6 ; KsecDispatch+326
+28853: test   rsi,rsi
+28856: je     0x288e6 ; KsecDispatch+326
+2885c: mov    rcx,rbx
+2885f: rex.W call QWORD PTR [rip+0xffffffffffff8982]        # 0x211e8 ; __imp_IoIs32bitProcess
+28866: nop    DWORD PTR [rax+rax*1+0x0]
+2886b: test   al,al
+2886d: jne    0x288dc ; KsecDispatch+31c
+2886f: cmp    r12d,0x8
+28873: jne    0x288e6 ; KsecDispatch+326
+28875: mov    rdx,QWORD PTR [rsi]
+28878: mov    rcx,r13
+2887b: mov    QWORD PTR [rsp+0x40],rdx
+28880: call   0x5df4 ; KsecRemoveValidVm
+28885: mov    rdi,rax
+28888: test   rax,rax
+2888b: je     0x288e6 ; KsecDispatch+326
+2888d: mov    r9d,0x8000 ; SspiMarshalAuthIdentity+50
+28893: mov    QWORD PTR [rsp+0xa8],r15
+2889b: lea    r8,[rsp+0xa8]
+288a3: mov    rcx,rax
+288a6: lea    rdx,[rsp+0x40]
+288ab: rex.W call QWORD PTR [rip+0xffffffffffff893e]        # 0x211f0 ; __imp_ZwFreeVirtualMemory
+288b2: nop    DWORD PTR [rax+rax*1+0x0]
+288b7: mov    rcx,rdi
+288ba: mov    esi,eax
+288bc: rex.W call QWORD PTR [rip+0xffffffffffff8bad]        # 0x21470 ; __imp_ZwClose
+288c3: nop    DWORD PTR [rax+rax*1+0x0]
+288c8: jmp    0x286ea ; KsecDispatch+12a
+288cd: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+288d2: mov    edi,0xc00002fe
+288d7: jmp    0x286f8 ; KsecDispatch+138
+288dc: cmp    r12d,0x4
+288e0: jne    0x288e6 ; KsecDispatch+326
+288e2: mov    edx,DWORD PTR [rsi]
+288e4: jmp    0x28878 ; KsecDispatch+2b8
+288e6: mov    edi,0xc000000d
+288eb: jmp    0x286f8 ; KsecDispatch+138
+288f0: xor    r15d,r15d
+288f3: mov    edi,0xc0000011
+288f8: mov    QWORD PTR [rbx+0x38],r15
+288fc: jmp    0x28703 ; KsecDispatch+143
+28901: mov    eax,DWORD PTR [rsi+0x8]
+28904: xor    r15d,r15d
+28907: mov    edi,r15d
+2890a: jmp    0x286ff ; KsecDispatch+13f
+2890f: mov    rax,QWORD PTR [rbx+0x18]
+28913: xor    r15d,r15d
+28916: mov    ecx,0x18
+2891b: mov    edi,r15d
+2891e: mov    DWORD PTR [rax+0x10],0x1
+28925: mov    WORD PTR [rax+0x14],0x0
+2892b: mov    QWORD PTR [rax],r15
+2892e: mov    QWORD PTR [rax+0x8],r15
+28932: jmp    0x28830 ; KsecDispatch+270
+28937: cmp    DWORD PTR [rsi+0x10],0x4
+2893b: mov    ecx,DWORD PTR [rsi+0x8]
+2893e: je     0x28947 ; KsecDispatch+387
+28940: mov    edi,0xc0000003
+28945: jmp    0x2895c ; KsecDispatch+39c
+28947: mov    rax,QWORD PTR [rbx+0x18]
+2894b: xor    r15d,r15d
+2894e: mov    ecx,0x8
+28953: mov    edi,r15d
+28956: mov    DWORD PTR [rax],0x39
+2895c: mov    edx,0x38
+28961: mov    eax,ecx
+28963: mov    QWORD PTR [rbx+rdx*1],rax
+28967: jmp    0x28703 ; KsecDispatch+143
+2896c: call   0xd788 ; KsecShutdown
+28971: xor    r15d,r15d
+28974: mov    edi,r15d
+28977: mov    QWORD PTR [rbx+0x38],r15
+2897b: jmp    0x28703 ; KsecDispatch+143
+28980: cmp    DWORD PTR [rip+0xffffffffffff5d65],0x0        # 0x1e6ec ; DebugInfoLevel
+28987: je     0x2899a ; KsecDispatch+3da
+28989: lea    rdx,[rip+0xfffffffffffefa70]        # 0x18400 ; ??_C@_0CC@LOABCLHF@Unexpected?5driver?5function?3?50x?$CF@
+28990: mov    ecx,0x1
+28995: call   0x2e008 ; LsapDebugOut
+2899a: mov    edi,0xc000000d
+2899f: jmp    0x28703 ; KsecDispatch+143
+289a4: mov    edi,0xc000009a
+289a9: mov    QWORD PTR [rbx+0x38],r15
+289ad: jmp    0x28703 ; KsecDispatch+143
+289b2: cmp    DWORD PTR [rip+0xffffffffffff5d33],r15d        # 0x1e6ec ; DebugInfoLevel
+289b9: mov    edi,0xc0000002
+289be: mov    esi,edi
+289c0: je     0x286ea ; KsecDispatch+12a
+289c6: mov    r8d,ebp
+289c9: lea    rdx,[rip+0xfffffffffffefa58]        # 0x18428 ; ??_C@_0CE@PNONBHEN@No?5extension?5to?5handle?5IOCTL?50x@
+289d0: mov    ecx,0x4
+289d5: call   0x2e008 ; LsapDebugOut
+289da: jmp    0x286f8 ; KsecDispatch+138
+289df: lea    rcx,[rsp+0xa0]
+289e7: call   0x31a0 ; ??0KsecddLsaStateRef@@QEAA@XZ
+289ec: lea    rcx,[rsp+0xa0]
+289f4: call   0x4df0 ; ?IsValid@KsecddLsaStateRef@@QEAA_NXZ
+289f9: lea    rcx,[rsp+0xa0]
+28a01: test   al,al
+28a03: je     0x288cd ; KsecDispatch+30d
+28a09: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28a0e: mov    rsi,rax
+28a11: cmp    QWORD PTR [rax],r15
+28a14: jne    0x28adf ; KsecDispatch+51f
+28a1a: test   r14,r14
+28a1d: je     0x28ac8 ; KsecDispatch+508
+28a23: cmp    edi,0x4
+28a26: jb     0x28ac8 ; KsecDispatch+508
+28a2c: rex.W call QWORD PTR [rip+0xffffffffffff87fd]        # 0x21230 ; __imp_PsGetCurrentProcess
+28a33: nop    DWORD PTR [rax+rax*1+0x0]
+28a38: mov    rcx,rax
+28a3b: mov    QWORD PTR [rsi],rax
+28a3e: rex.W call QWORD PTR [rip+0xffffffffffff879b]        # 0x211e0 ; __imp_ObfReferenceObject
+28a45: nop    DWORD PTR [rax+rax*1+0x0]
+28a4a: mov    dl,0x1
+28a4c: movzx  ecx,dl
+28a4f: call   0x3d78 ; CreateClient
+28a54: mov    edi,eax
+28a56: test   eax,eax
+28a58: jns    0x28a6c ; KsecDispatch+4ac
+28a5a: lea    rcx,[rsp+0xa0]
+28a62: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28a67: jmp    0x286f8 ; KsecDispatch+138
+28a6c: mov    rcx,QWORD PTR [rsi]
+28a6f: lea    rax,[rsi+0x8]
+28a73: mov    QWORD PTR [rsp+0x30],rax
+28a78: mov    r9d,0x478
+28a7e: mov    BYTE PTR [rsp+0x28],r15b
+28a83: xor    r8d,r8d
+28a86: mov    edx,0x200
+28a8b: mov    QWORD PTR [rsp+0x20],r15
+28a90: rex.W call QWORD PTR [rip+0xffffffffffff86d1]        # 0x21168 ; __imp_ObOpenObjectByPointer
+28a97: nop    DWORD PTR [rax+rax*1+0x0]
+28a9c: mov    esi,eax
+28a9e: test   eax,eax
+28aa0: js     0x28ab6 ; KsecDispatch+4f6
+28aa2: mov    eax,DWORD PTR [rip+0xffffffffffff5af0]        # 0x1e598 ; KsecSystemProcessId
+28aa8: mov    DWORD PTR [r14],eax
+28aab: mov    DWORD PTR [rsp+0x98],0x4
+28ab6: lea    rcx,[rsp+0xa0]
+28abe: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28ac3: jmp    0x286ea ; KsecDispatch+12a
+28ac8: lea    rcx,[rsp+0xa0]
+28ad0: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28ad5: mov    edi,0xc0000023
+28ada: jmp    0x286f8 ; KsecDispatch+138
+28adf: lea    rcx,[rsp+0xa0]
+28ae7: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28aec: mov    edi,0xc00000bb
+28af1: jmp    0x286f8 ; KsecDispatch+138
+28af6: test   rsi,rsi
+28af9: je     0x288e6 ; KsecDispatch+326
+28aff: cmp    r12d,0x10
+28b03: jne    0x288e6 ; KsecDispatch+326
+28b09: mov    rdx,QWORD PTR [rsi+0x8]
+28b0d: mov    ecx,DWORD PTR [rsi]
+28b0f: call   0x26b60 ; KsecRegisterExtension
+28b14: jmp    0x286e8 ; KsecDispatch+128
+28b19: int3
+28b1a: int3
+28b1b: int3
+28b1c: int3
+28b1d: int3
+28b1e: int3
+28b1f: int3
+28b20: mov    QWORD PTR [rsp+0x20],rsi
+28b25: push   rbp
+28b26: push   rdi
+28b27: push   r12
+28b29: push   r13
+28b2b: push   r14
+28b2d: lea    rbp,[rsp-0x37]
+28b32: sub    rsp,0xd0
+28b39: mov    rax,QWORD PTR [rip+0xffffffffffff5740]        # 0x1e280 ; __security_cookie
+28b40: xor    rax,rsp
+28b43: mov    QWORD PTR [rbp+0x2f],rax
+28b47: xor    r12d,r12d
+28b4a: mov    esi,edx
+28b4c: mov    QWORD PTR [rbp-0x51],r12
+28b50: mov    rdi,rcx
+28b53: mov    DWORD PTR [rbp-0x3d],r12d
+28b57: mov    QWORD PTR [rbp-0x29],r12
+28b5b: test   rcx,rcx
+28b5e: je     0x28eb3 ; KsecDispatch+8f3
+28b64: cmp    QWORD PTR [rcx],r12
+28b67: je     0x28eb3 ; KsecDispatch+8f3
+28b6d: mov    r14b,0x1
+28b70: xor    ecx,ecx
+28b72: mov    QWORD PTR [rsp+0x108],rbx
+28b7a: rex.W call QWORD PTR [rip+0xffffffffffff847f]        # 0x21000 ; __imp_KeQueryPerformanceCounter
+28b81: nop    DWORD PTR [rax+rax*1+0x0]
+28b86: lea    rcx,[rbp-0x39]
+28b8a: mov    r13,rax
+28b8d: call   0x31a0 ; ??0KsecddLsaStateRef@@QEAA@XZ
+28b92: lea    rcx,[rbp-0x39]
+28b96: call   0x4df0 ; ?IsValid@KsecddLsaStateRef@@QEAA_NXZ
+28b9b: lea    rcx,[rbp-0x39]
+28b9f: test   al,al
+28ba1: je     0x28f56 ; KsecDispatch+996
+28ba7: mov    QWORD PTR [rsp+0x110],r15
+28baf: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28bb4: mov    r15,rax
+28bb7: mov    QWORD PTR [rbp-0x59],r12
+28bbb: lea    rax,[rbp-0x59]
+28bbf: mov    r9d,0x200
+28bc5: mov    r8b,0x1
+28bc8: mov    QWORD PTR [rsp+0x20],rax
+28bcd: mov    edx,0xc
+28bd2: mov    rcx,0xfffffffffffffffe
+28bd9: rex.W call QWORD PTR [rip+0xffffffffffff8618]        # 0x211f8 ; __imp_ZwOpenThreadTokenEx
+28be0: nop    DWORD PTR [rax+rax*1+0x0]
+28be5: mov    ebx,eax
+28be7: cmp    eax,0xc000007c
+28bec: jne    0x28c12 ; KsecDispatch+652
+28bee: lea    r9,[rbp-0x59]
+28bf2: mov    edx,0xc
+28bf7: mov    rcx,0xffffffffffffffff
+28bfe: mov    r8d,0x200
+28c04: rex.W call QWORD PTR [rip+0xffffffffffff85f5]        # 0x21200 ; __imp_ZwOpenProcessTokenEx
+28c0b: nop    DWORD PTR [rax+rax*1+0x0]
+28c10: mov    ebx,eax
+28c12: test   ebx,ebx
+28c14: js     0x28fa8 ; KsecDispatch+9e8
+28c1a: mov    rcx,QWORD PTR [rbp-0x59]
+28c1e: lea    rax,[rbp-0x31]
+28c22: mov    r9d,0x4
+28c28: mov    DWORD PTR [rbp-0x41],r12d
+28c2c: lea    r8,[rbp-0x41]
+28c30: mov    DWORD PTR [rbp-0x31],r12d
+28c34: mov    QWORD PTR [rsp+0x20],rax
+28c39: lea    edx,[r9+0x4]
+28c3d: rex.W call QWORD PTR [rip+0xffffffffffff85c4]        # 0x21208 ; __imp_ZwQueryInformationToken
+28c44: nop    DWORD PTR [rax+rax*1+0x0]
+28c49: mov    ebx,eax
+28c4b: test   eax,eax
+28c4d: js     0x28f83 ; KsecDispatch+9c3
+28c53: cmp    DWORD PTR [rbp-0x41],0x2
+28c57: je     0x28f95 ; KsecDispatch+9d5
+28c5d: mov    rcx,QWORD PTR [rbp-0x59]
+28c61: lea    rax,[rbp+0x1f]
+28c65: xor    r9d,r9d
+28c68: mov    QWORD PTR [rbp+0x17],rax
+28c6c: lea    rax,[rbp-0x19]
+28c70: mov    DWORD PTR [rbp+0x27],0x1
+28c77: mov    QWORD PTR [rsp+0x28],rax
+28c7c: lea    r8,[rbp-0x11]
+28c80: mov    DWORD PTR [rsp+0x20],0x2
+28c88: lea    edx,[r9+0xc]
+28c8c: mov    DWORD PTR [rbp+0x1f],0xc
+28c93: mov    DWORD PTR [rbp+0x23],0x2
+28c9a: mov    QWORD PTR [rbp-0x11],0x30
+28ca2: mov    QWORD PTR [rbp+0x7],0x200
+28caa: mov    QWORD PTR [rbp-0x9],r12
+28cae: mov    QWORD PTR [rbp-0x1],r12
+28cb2: mov    QWORD PTR [rbp+0xf],r12
+28cb6: mov    QWORD PTR [rbp-0x19],r12
+28cba: rex.W call QWORD PTR [rip+0xffffffffffff854f]        # 0x21210 ; __imp_ZwDuplicateToken
+28cc1: nop    DWORD PTR [rax+rax*1+0x0]
+28cc6: mov    rcx,QWORD PTR [rbp-0x59]
+28cca: mov    ebx,eax
+28ccc: rex.W call QWORD PTR [rip+0xffffffffffff879d]        # 0x21470 ; __imp_ZwClose
+28cd3: nop    DWORD PTR [rax+rax*1+0x0]
+28cd8: test   ebx,ebx
+28cda: js     0x28fa8 ; KsecDispatch+9e8
+28ce0: mov    rdx,QWORD PTR [rbp-0x19]
+28ce4: mov    QWORD PTR [rbp-0x59],rdx
+28ce8: mov    r8,QWORD PTR [r15+0x8]
+28cec: lea    r9,[rbp-0x29]
+28cf0: mov    DWORD PTR [rsp+0x30],0x3
+28cf8: mov    rcx,0xffffffffffffffff
+28cff: mov    DWORD PTR [rsp+0x28],r12d
+28d04: mov    DWORD PTR [rsp+0x20],r12d
+28d09: rex.W call QWORD PTR [rip+0xffffffffffff8508]        # 0x21218 ; __imp_ZwDuplicateObject
+28d10: nop    DWORD PTR [rax+rax*1+0x0]
+28d15: mov    ebx,eax
+28d17: test   eax,eax
+28d19: js     0x28fa8 ; KsecDispatch+9e8
+28d1f: mov    rax,QWORD PTR [rdi+0xe0]
+28d26: lea    r8,[rbp-0x3d]
+28d2a: lea    rdx,[rbp-0x51]
+28d2e: mov    rcx,rdi
+28d31: call   0x12780 ; _guard_dispatch_icall
+28d36: mov    ebx,eax
+28d38: test   eax,eax
+28d3a: js     0x28fa8 ; KsecDispatch+9e8
+28d40: xor    ecx,ecx
+28d42: mov    DWORD PTR [rdi+0x10],esi
+28d45: rex.W call QWORD PTR [rip+0xffffffffffff82b4]        # 0x21000 ; __imp_KeQueryPerformanceCounter
+28d4c: nop    DWORD PTR [rax+rax*1+0x0]
+28d51: mov    ecx,DWORD PTR [rdi+0x10]
+28d54: mov    QWORD PTR [rdi+0x18],rax
+28d58: mov    rax,QWORD PTR [rbp-0x51]
+28d5c: mov    DWORD PTR [rax+0x8],ecx
+28d5f: mov    rcx,QWORD PTR [rbp-0x51]
+28d63: mov    eax,DWORD PTR [rbp-0x3d]
+28d66: mov    DWORD PTR [rcx+0x28],eax
+28d69: mov    rcx,QWORD PTR [rbp-0x51]
+28d6d: mov    rax,QWORD PTR [rbp-0x29]
+28d71: mov    QWORD PTR [rcx+0x20],rax
+28d75: mov    rax,QWORD PTR [rbp-0x51]
+28d79: mov    ecx,DWORD PTR [rip+0xffffffffffff5819]        # 0x1e598 ; KsecSystemProcessId
+28d7f: mov    QWORD PTR [rax+0x10],rcx
+28d83: rex.W call QWORD PTR [rip+0xffffffffffff82de]        # 0x21068 ; __imp_PsGetCurrentThreadId
+28d8a: nop    DWORD PTR [rax+rax*1+0x0]
+28d8f: mov    ecx,eax
+28d91: mov    rax,QWORD PTR [rbp-0x51]
+28d95: mov    QWORD PTR [rax+0x18],rcx
+28d99: lea    rcx,[rbp-0x49]
+28d9d: mov    r15,QWORD PTR [rbp-0x51]
+28da1: call   0x31a0 ; ??0KsecddLsaStateRef@@QEAA@XZ
+28da6: lea    rcx,[rbp-0x49]
+28daa: call   0x4df0 ; ?IsValid@KsecddLsaStateRef@@QEAA_NXZ
+28daf: lea    rcx,[rbp-0x49]
+28db3: test   al,al
+28db5: je     0x28f9e ; KsecDispatch+9de
+28dbb: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28dc0: lea    rcx,[rip+0xffffffffffff5a09]        # 0x1e7d0 ; KsecKsecAsyncPerfCounterSet+10
+28dc7: mov    rbx,rax
+28dca: rex.W call QWORD PTR [rip+0xffffffffffff8527]        # 0x212f8 ; __imp_ExAllocateFromLookasideListEx
+28dd1: nop    DWORD PTR [rax+rax*1+0x0]
+28dd6: mov    rdx,rax
+28dd9: test   rax,rax
+28ddc: je     0x28f73 ; KsecDispatch+9b3
+28de2: mov    QWORD PTR [rax+0x10],r15
+28de6: lea    r8,[rbx+0xa8]
+28ded: mov    QWORD PTR [rdx+0x20],rdi
+28df1: lea    rax,[rip+0x3ef8]        # 0x2ccf0 ; CreateClient+180 ; AsyncSspiHandleIoctlIpcResponse
+28df8: test   r14b,r14b
+28dfb: lea    rcx,[rbx+0xb0]
+28e02: cmove  rax,r12
+28e06: mov    QWORD PTR [rdx+0x18],rax
+28e0a: mov    QWORD PTR [r15],r12
+28e0d: rex.W call QWORD PTR [rip+0xffffffffffff859c]        # 0x213b0 ; __imp_ExInterlockedInsertTailList
+28e14: nop    DWORD PTR [rax+rax*1+0x0]
+28e19: mov    rcx,rbx
+28e1c: call   0x4db0 ; KsecGetCurrentAsyncPerfCounterSet
+28e21: lock inc QWORD PTR [rax]
+28e25: lea    rcx,[rbp-0x49]
+28e29: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28e2e: add    rax,0x60
+28e32: cmp    QWORD PTR [rax],rax
+28e35: je     0x28f62 ; KsecDispatch+9a2
+28e3b: mov    rcx,rbx
+28e3e: call   0x49b0 ; KSecDereferenceListEntry+40
+28e43: lea    rcx,[rbp-0x49]
+28e47: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28e4c: mov    ebx,r12d
+28e4f: test   r14b,r14b
+28e52: jne    0x28f05 ; KsecDispatch+945
+28e58: mov    r12,QWORD PTR [rdi+0x18]
+28e5c: lea    rcx,[rbp-0x21]
+28e60: call   0x31a0 ; ??0KsecddLsaStateRef@@QEAA@XZ
+28e65: lea    rcx,[rbp-0x21]
+28e69: call   0x4df0 ; ?IsValid@KsecddLsaStateRef@@QEAA_NXZ
+28e6e: test   al,al
+28e70: je     0x28ef9 ; KsecDispatch+939
+28e76: lea    rcx,[rbp-0x21]
+28e7a: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28e7f: mov    rcx,rax
+28e82: call   0x4db0 ; KsecGetCurrentAsyncPerfCounterSet
+28e87: cmp    esi,0x2
+28e8a: je     0x28ebb ; KsecDispatch+8fb
+28e8c: test   esi,esi
+28e8e: je     0x28f45 ; KsecDispatch+985
+28e94: sub    esi,0x1
+28e97: je     0x28feb ; KsecDispatch+a2b
+28e9d: cmp    esi,0x2
+28ea0: jne    0x28ef9 ; KsecDispatch+939
+28ea2: lea    rsi,[rax+0x70]
+28ea6: lea    r14,[rax+0x78]
+28eaa: lea    r15,[rax+0x80]
+28eb1: jmp    0x28ec7 ; KsecDispatch+907
+28eb3: xor    r14b,r14b
+28eb6: jmp    0x28b70 ; KsecDispatch+5b0
+28ebb: lea    rsi,[rax+0x28]
+28ebf: lea    r14,[rax+0x30]
+28ec3: lea    r15,[rax+0x38]
+28ec7: test   rsi,rsi
+28eca: je     0x28ef9 ; KsecDispatch+939
+28ecc: test   r14,r14
+28ecf: je     0x28ef9 ; KsecDispatch+939
+28ed1: test   r15,r15
+28ed4: je     0x28ef9 ; KsecDispatch+939
+28ed6: xor    ecx,ecx
+28ed8: rex.W call QWORD PTR [rip+0xffffffffffff8121]        # 0x21000 ; __imp_KeQueryPerformanceCounter
+28edf: nop    DWORD PTR [rax+rax*1+0x0]
+28ee4: lock inc QWORD PTR [rsi]
+28ee8: mov    rcx,rax
+28eeb: sub    rcx,r13
+28eee: lock add QWORD PTR [r14],rcx
+28ef2: sub    rax,r12
+28ef5: lock add QWORD PTR [r15],rax
+28ef9: lea    rcx,[rbp-0x21]
+28efd: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28f02: mov    DWORD PTR [rdi+0x14],ebx
+28f05: lea    rcx,[rbp-0x39]
+28f09: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28f0e: mov    r15,QWORD PTR [rsp+0x110]
+28f16: mov    eax,ebx
+28f18: mov    rbx,QWORD PTR [rsp+0x108]
+28f20: mov    rcx,QWORD PTR [rbp+0x2f]
+28f24: xor    rcx,rsp
+28f27: call   0x126a0 ; __security_check_cookie
+28f2c: mov    rsi,QWORD PTR [rsp+0x118]
+28f34: add    rsp,0xd0
+28f3b: pop    r14
+28f3d: pop    r13
+28f3f: pop    r12
+28f41: pop    rdi
+28f42: pop    rbp
+28f43: ret
+28f44: int3
+28f45: lea    rsi,[rax+0x58]
+28f49: lea    r14,[rax+0x60]
+28f4d: lea    r15,[rax+0x68]
+28f51: jmp    0x28ec7 ; KsecDispatch+907
+28f56: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28f5b: mov    eax,0xc00002fe
+28f60: jmp    0x28f18 ; KsecDispatch+958
+28f62: lea    rcx,[rbp-0x49]
+28f66: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28f6b: mov    ebx,r12d
+28f6e: jmp    0x28e4f ; KsecDispatch+88f
+28f73: lea    rcx,[rbp-0x49]
+28f77: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28f7c: mov    ebx,0xc000009a
+28f81: jmp    0x28fa8 ; KsecDispatch+9e8
+28f83: mov    rcx,QWORD PTR [rbp-0x59]
+28f87: rex.W call QWORD PTR [rip+0xffffffffffff84e2]        # 0x21470 ; __imp_ZwClose
+28f8e: nop    DWORD PTR [rax+rax*1+0x0]
+28f93: jmp    0x28fa8 ; KsecDispatch+9e8
+28f95: mov    rdx,QWORD PTR [rbp-0x59]
+28f99: jmp    0x28ce8 ; KsecDispatch+728
+28f9e: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+28fa3: mov    ebx,0xc00002fe
+28fa8: mov    rdx,QWORD PTR [rbp-0x29]
+28fac: test   rdx,rdx
+28faf: je     0x28e4f ; KsecDispatch+88f
+28fb5: lea    rcx,[rbp-0x39]
+28fb9: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+28fbe: mov    DWORD PTR [rsp+0x30],0x1
+28fc6: xor    r9d,r9d
+28fc9: mov    DWORD PTR [rsp+0x28],r12d
+28fce: xor    r8d,r8d
+28fd1: mov    DWORD PTR [rsp+0x20],r12d
+28fd6: mov    rcx,QWORD PTR [rax+0x8]
+28fda: rex.W call QWORD PTR [rip+0xffffffffffff8237]        # 0x21218 ; __imp_ZwDuplicateObject
+28fe1: nop    DWORD PTR [rax+rax*1+0x0]
+28fe6: jmp    0x28e4f ; KsecDispatch+88f
+28feb: lea    rsi,[rax+0x40]
+28fef: lea    r14,[rax+0x48]
+28ff3: lea    r15,[rax+0x50]
+28ff7: jmp    0x28ec7 ; KsecDispatch+907
+28ffc: int3
+28ffd: int3
+28ffe: int3
+28fff: int3
+29000: int3
+29001: int3
+29002: int3
+29003: int3
+29004: int3
+29005: int3
+29006: int3
+29007: int3
+29008: int3
+29009: int3
+2900a: int3
+2900b: int3
+2900c: int3
+2900d: int3
+2900e: int3
+2900f: int3
+
+<ProcessSecurityContextUnMarshalResponse>:
+29010: rex push rbx
+29012: push   rsi
+29013: push   rdi
+29014: push   r12
+29016: push   r13
+29018: sub    rsp,0x40
+2901c: mov    rbx,rdx
+2901f: mov    rdi,rcx
+29022: cmp    r8d,0x50
+29026: jb     0x29431 ; ProcessSecurityContextUnMarshalResponse+421
+2902c: mov    rdx,QWORD PTR [rcx+0x60]
+29030: mov    rax,QWORD PTR [rbx+0x30]
+29034: mov    esi,r8d
+29037: mov    QWORD PTR [rdx],rax
+2903a: mov    rax,QWORD PTR [rbx+0x38]
+2903e: mov    QWORD PTR [rdx+0x8],rax
+29042: mov    rdx,QWORD PTR [rcx+0x70]
+29046: mov    eax,DWORD PTR [rbx+0x40]
+29049: mov    DWORD PTR [rdx],eax
+2904b: mov    rcx,QWORD PTR [rbx+0x20]
+2904f: cmp    rsi,rcx
+29052: jb     0x29431 ; ProcessSecurityContextUnMarshalResponse+421
+29058: mov    rdx,rcx
+2905b: test   rcx,rcx
+2905e: je     0x290b9 ; ProcessSecurityContextUnMarshalResponse+a9
+29060: add    rcx,rbx
+29063: mov    QWORD PTR [rbx+0x20],rcx
+29067: mov    rdx,rcx
+2906a: test   rcx,rcx
+2906d: je     0x290b9 ; ProcessSecurityContextUnMarshalResponse+a9
+2906f: mov    rax,QWORD PTR [rcx+0x8]
+29073: cmp    rsi,rax
+29076: jb     0x29431 ; ProcessSecurityContextUnMarshalResponse+421
+2907c: test   rax,rax
+2907f: je     0x2908c ; ProcessSecurityContextUnMarshalResponse+7c
+29081: add    rax,rbx
+29084: mov    QWORD PTR [rcx+0x8],rax
+29088: mov    rdx,QWORD PTR [rbx+0x20]
+2908c: movups xmm0,XMMWORD PTR [rdx]
+2908f: movups XMMWORD PTR [rdi+0xb8],xmm0
+29096: mov    rax,QWORD PTR [rdi+0xc0]
+2909d: test   rax,rax
+290a0: jne    0x2934f ; ProcessSecurityContextUnMarshalResponse+33f
+290a6: mov    rdx,QWORD PTR [rbx+0x20]
+290aa: mov    rcx,rax
+290ad: mov    r8d,DWORD PTR [rdx]
+290b0: mov    rdx,QWORD PTR [rdx+0x8]
+290b4: call   0x12800 ; memmove
+290b9: mov    rcx,QWORD PTR [rdi+0x78]
+290bd: test   rcx,rcx
+290c0: jne    0x29492 ; ProcessSecurityContextUnMarshalResponse+482
+290c6: mov    rcx,QWORD PTR [rbx+0x18]
+290ca: cmp    rsi,rcx
+290cd: jb     0x29431 ; ProcessSecurityContextUnMarshalResponse+421
+290d3: mov    rdx,rcx
+290d6: test   rcx,rcx
+290d9: je     0x290e5 ; ProcessSecurityContextUnMarshalResponse+d5
+290db: add    rcx,rbx
+290de: mov    QWORD PTR [rbx+0x18],rcx
+290e2: mov    rdx,rcx
+290e5: xor    r13d,r13d
+290e8: test   rcx,rcx
+290eb: je     0x2915a ; ProcessSecurityContextUnMarshalResponse+14a
+290ed: mov    r8,QWORD PTR [rdi+0x50]
+290f1: test   r8,r8
+290f4: je     0x2949e ; ProcessSecurityContextUnMarshalResponse+48e
+290fa: mov    eax,DWORD PTR [rcx+0x4]
+290fd: cmp    DWORD PTR [r8+0x4],eax
+29101: jb     0x294a9 ; ProcessSecurityContextUnMarshalResponse+499
+29107: mov    rax,QWORD PTR [rcx+0x8]
+2910b: cmp    rsi,rax
+2910e: jb     0x29431 ; ProcessSecurityContextUnMarshalResponse+421
+29114: test   rax,rax
+29117: je     0x29124 ; ProcessSecurityContextUnMarshalResponse+114
+29119: add    rax,rbx
+2911c: mov    QWORD PTR [rcx+0x8],rax
+29120: mov    rdx,QWORD PTR [rbx+0x18]
+29124: mov    r8d,r13d
+29127: cmp    DWORD PTR [rdx+0x4],r13d
+2912b: jbe    0x2915a ; ProcessSecurityContextUnMarshalResponse+14a
+2912d: nop    DWORD PTR [rax]
+29130: mov    rax,QWORD PTR [rdx+0x8]
+29134: mov    r9d,r8d
+29137: mov    r10d,DWORD PTR [rax+r9*8+0x4]
+2913c: lea    rdx,[rax+r9*8]
+29140: lea    eax,[r10-0x4]
+29144: cmp    eax,0x1
+29147: jbe    0x2940e ; ProcessSecurityContextUnMarshalResponse+3fe
+2914d: mov    rdx,QWORD PTR [rbx+0x18]
+29151: inc    r8d
+29154: cmp    r8d,DWORD PTR [rdx+0x4]
+29158: jb     0x29130 ; ProcessSecurityContextUnMarshalResponse+120
+2915a: mov    r12d,r13d
+2915d: cmp    DWORD PTR [rdi+0x14],r13d
+29161: jl     0x29171 ; ProcessSecurityContextUnMarshalResponse+161
+29163: mov    eax,DWORD PTR [rbx+0x28]
+29166: shr    eax,0xd
+29169: and    al,0x1
+2916b: mov    BYTE PTR [rdi+0xb0],al
+29171: mov    rcx,QWORD PTR [rbx+0x10]
+29175: mov    QWORD PTR [rsp+0x38],r14
+2917a: mov    QWORD PTR [rsp+0x30],r15
+2917f: cmp    rsi,rcx
+29182: jb     0x293f6 ; ProcessSecurityContextUnMarshalResponse+3e6
+29188: mov    rdx,rcx
+2918b: test   rcx,rcx
+2918e: je     0x29281 ; ProcessSecurityContextUnMarshalResponse+271
+29194: add    rcx,rbx
+29197: mov    QWORD PTR [rbx+0x10],rcx
+2919b: mov    rdx,rcx
+2919e: test   rcx,rcx
+291a1: je     0x29281 ; ProcessSecurityContextUnMarshalResponse+271
+291a7: mov    rax,QWORD PTR [rcx+0x8]
+291ab: cmp    rsi,rax
+291ae: jb     0x293f6 ; ProcessSecurityContextUnMarshalResponse+3e6
+291b4: test   rax,rax
+291b7: je     0x291c4 ; ProcessSecurityContextUnMarshalResponse+1b4
+291b9: add    rax,rbx
+291bc: mov    QWORD PTR [rcx+0x8],rax
+291c0: mov    rdx,QWORD PTR [rbx+0x10]
+291c4: cmp    QWORD PTR [rdx+0x8],r13
+291c8: je     0x29200 ; ProcessSecurityContextUnMarshalResponse+1f0
+291ca: mov    r8d,r13d
+291cd: cmp    r8d,DWORD PTR [rdx+0x4]
+291d1: jae    0x29200 ; ProcessSecurityContextUnMarshalResponse+1f0
+291d3: mov    r9d,r8d
+291d6: shl    r9,0x4
+291da: add    r9,QWORD PTR [rdx+0x8]
+291de: mov    rax,QWORD PTR [r9+0x8]
+291e2: cmp    rsi,rax
+291e5: jb     0x293f6 ; ProcessSecurityContextUnMarshalResponse+3e6
+291eb: test   rax,rax
+291ee: je     0x291fb ; ProcessSecurityContextUnMarshalResponse+1eb
+291f0: add    rax,rbx
+291f3: mov    QWORD PTR [r9+0x8],rax
+291f7: mov    rdx,QWORD PTR [rbx+0x10]
+291fb: inc    r8d
+291fe: jmp    0x291cd ; ProcessSecurityContextUnMarshalResponse+1bd
+29200: mov    r8,QWORD PTR [rdi+0x68]
+29204: mov    ecx,DWORD PTR [r8+0x4]
+29208: cmp    ecx,DWORD PTR [rdx+0x4]
+2920b: jb     0x29281 ; ProcessSecurityContextUnMarshalResponse+271
+2920d: test   DWORD PTR [rdi+0x58],0x100
+29214: jne    0x294b4 ; ProcessSecurityContextUnMarshalResponse+4a4
+2921a: mov    esi,r13d
+2921d: mov    rax,QWORD PTR [rbx+0x10]
+29221: cmp    esi,DWORD PTR [rax+0x4]
+29224: jae    0x29281 ; ProcessSecurityContextUnMarshalResponse+271
+29226: mov    r14,QWORD PTR [rax+0x8]
+2922a: mov    rax,QWORD PTR [rdi+0x68]
+2922e: mov    edx,esi
+29230: shl    rdx,0x4
+29234: add    r14,rdx
+29237: mov    r15,QWORD PTR [rax+0x8]
+2923b: add    r15,rdx
+2923e: cmp    QWORD PTR [r14+0x8],r13
+29242: jne    0x29256 ; ProcessSecurityContextUnMarshalResponse+246
+29244: mov    eax,DWORD PTR [r14+0x4]
+29248: inc    esi
+2924a: mov    DWORD PTR [r15+0x4],eax
+2924e: mov    eax,DWORD PTR [r14]
+29251: mov    DWORD PTR [r15],eax
+29254: jmp    0x2921d ; ProcessSecurityContextUnMarshalResponse+20d
+29256: test   DWORD PTR [rdi+0x58],0x100
+2925d: jne    0x294ec ; ProcessSecurityContextUnMarshalResponse+4dc
+29263: mov    eax,DWORD PTR [r14]
+29266: cmp    DWORD PTR [r15],eax
+29269: jb     0x293f6 ; ProcessSecurityContextUnMarshalResponse+3e6
+2926f: mov    r8d,DWORD PTR [r14]
+29272: mov    rdx,QWORD PTR [r14+0x8]
+29276: mov    rcx,QWORD PTR [r15+0x8]
+2927a: call   0x12800 ; memmove
+2927f: jmp    0x29244 ; ProcessSecurityContextUnMarshalResponse+234
+29281: movups xmm0,XMMWORD PTR [rdi+0xb8]
+29288: mov    r14d,DWORD PTR [rdi+0xc8]
+2928f: mov    rbx,QWORD PTR [rdi+0x60]
+29293: mov    QWORD PTR [rsp+0x78],rbp
+29298: lea    rbp,[rdi+0x38]
+2929c: movaps XMMWORD PTR [rsp+0x20],xmm0
+292a1: cmp    DWORD PTR [rdi+0x14],r13d
+292a5: jl     0x293b9 ; ProcessSecurityContextUnMarshalResponse+3a9
+292ab: cmp    BYTE PTR [rdi+0xb0],r13b
+292b2: je     0x293d8 ; ProcessSecurityContextUnMarshalResponse+3c8
+292b8: mov    r15,QWORD PTR [rbx+0x8]
+292bc: test   r15,r15
+292bf: je     0x29452 ; ProcessSecurityContextUnMarshalResponse+442
+292c5: mov    rsi,QWORD PTR [rbx]
+292c8: test   rsi,rsi
+292cb: je     0x29452 ; ProcessSecurityContextUnMarshalResponse+442
+292d1: lea    rcx,[rsp+0x70]
+292d6: mov    QWORD PTR [rsp+0x88],r13
+292de: call   0x31a0 ; ??0KsecddLsaStateRef@@QEAA@XZ
+292e3: lea    rcx,[rsp+0x70]
+292e8: call   0x4df0 ; ?IsValid@KsecddLsaStateRef@@QEAA_NXZ
+292ed: lea    rcx,[rsp+0x70]
+292f2: test   al,al
+292f4: je     0x29443 ; ProcessSecurityContextUnMarshalResponse+433
+292fa: call   0x5700 ; ??CKsecddLsaStateRef@@QEAAPEAU_KSECDDLSASTATE@@XZ
+292ff: mov    rcx,rax
+29302: cmp    QWORD PTR [rax+0x1d0],r13
+29309: je     0x293fd ; ProcessSecurityContextUnMarshalResponse+3ed
+2930f: mov    eax,DWORD PTR [rax+0x1d8]
+29315: cmp    rsi,rax
+29318: jae    0x2947e ; ProcessSecurityContextUnMarshalResponse+46e
+2931e: lfence
+29321: mov    rax,QWORD PTR [rcx+0x1d0]
+29328: mov    rcx,QWORD PTR [rax+rsi*8]
+2932c: test   rcx,rcx
+2932f: je     0x29542 ; ProcessSecurityContextUnMarshalResponse+532
+29335: mov    rax,QWORD PTR [rcx+0x10]
+29339: test   rax,rax
+2933c: jne    0x2937c ; ProcessSecurityContextUnMarshalResponse+36c
+2933e: lea    rcx,[rsp+0x70]
+29343: mov    esi,0x80090302
+29348: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+2934d: jmp    0x293b1 ; ProcessSecurityContextUnMarshalResponse+3a1
+2934f: mov    ecx,DWORD PTR [rdi+0xb8]
+29355: call   0x4fa0 ; SecAllocateForcePool
+2935a: mov    QWORD PTR [rdi+0xc0],rax
+29361: test   rax,rax
+29364: jne    0x290a6 ; ProcessSecurityContextUnMarshalResponse+96
+2936a: mov    eax,0xc000009a
+2936f: add    rsp,0x40
+29373: pop    r13
+29375: pop    r12
+29377: pop    rdi
+29378: pop    rsi
+29379: pop    rbx
+2937a: ret
+2937b: int3
+2937c: lea    r8,[rsp+0x88]
+29384: mov    rcx,r15
+29387: lea    rdx,[rsp+0x20]
+2938c: call   0x12780 ; _guard_dispatch_icall
+29391: lea    rcx,[rsp+0x70]
+29396: mov    esi,eax
+29398: call   0x36b0 ; ??1KsecddLsaStateRef@@QEAA@XZ
+2939d: test   esi,esi
+2939f: js     0x29457 ; ProcessSecurityContextUnMarshalResponse+447
+293a5: mov    rax,QWORD PTR [rsp+0x88]
+293ad: mov    QWORD PTR [rbx+0x8],rax
+293b1: test   esi,esi
+293b3: js     0x29457 ; ProcessSecurityContextUnMarshalResponse+447
+293b9: mov    rbp,QWORD PTR [rsp+0x78]
+293be: mov    eax,r12d
+293c1: mov    r14,QWORD PTR [rsp+0x38]
+293c6: mov    r15,QWORD PTR [rsp+0x30]
+293cb: add    rsp,0x40
+293cf: pop    r13
+293d1: pop    r12
+293d3: pop    rdi
+293d4: pop    rsi
+293d5: pop    rbx
+293d6: ret
+293d7: int3
+293d8: test   rbp,rbp
+293db: je     0x293b9 ; ProcessSecurityContextUnMarshalResponse+3a9
+293dd: mov    rcx,QWORD PTR [rdi+0x88]
+293e4: cmp    QWORD PTR [rbx+0x8],rcx
+293e8: jne    0x293b9 ; ProcessSecurityContextUnMarshalResponse+3a9
+293ea: movups xmm0,XMMWORD PTR [rdi+0x90]
+293f1: movups XMMWORD PTR [rbx],xmm0
+293f4: jmp    0x293b9 ; ProcessSecurityContextUnMarshalResponse+3a9
+293f6: mov    eax,0xc0000023
+293fb: jmp    0x293c1 ; ProcessSecurityContextUnMarshalResponse+3b1
+293fd: rex.W
+293fe: .byte 0x8d
+293ff: rex.WR

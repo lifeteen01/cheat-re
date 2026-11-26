@@ -1,0 +1,43 @@
+32bd4c mov    QWORD PTR [rsp+0x8],rbx
+32bd51 mov    QWORD PTR [rsp+0x10],rsi
+32bd56 push   rdi
+32bd57 sub    rsp,0x40
+32bd5b mov    edx,DWORD PTR [rip+0xcbe6f]        # 0x3f7bd0
+32bd61 mov    dil,r9b
+32bd64 movaps XMMWORD PTR [rsp+0x30],xmm6
+32bd69 mov    rsi,r8
+32bd6c movaps xmm6,xmm1
+32bd6f mov    rbx,rcx
+32bd72 test   dl,0x1
+32bd75 jne    0x32bd97
+32bd77 mov    r8,QWORD PTR [rip+0xab182]        # 0x3d6f00
+32bd7e or     edx,0x1
+32bd81 add    r8,0x36586b0
+32bd88 mov    DWORD PTR [rip+0xcbe42],edx        # 0x3f7bd0
+32bd8e mov    QWORD PTR [rip+0xcbe33],r8        # 0x3f7bc8
+32bd95 jmp    0x32bd9e
+32bd97 mov    r8,QWORD PTR [rip+0xcbe2a]        # 0x3f7bc8
+32bd9e test   dl,0x2
+32bda1 jne    0x32bdc2
+32bda3 mov    rcx,QWORD PTR [rip+0xaa0b6]        # 0x3d5e60
+32bdaa or     edx,0x2
+32bdad mov    DWORD PTR [rip+0xcbe1d],edx        # 0x3f7bd0
+32bdb3 xor    r9d,r9d
+32bdb6 lea    rdx,[rip+0xcbe23]        # 0x3f7be0
+32bdbd call   0x2cbd24
+32bdc2 mov    rcx,rbx
+32bdc5 call   0x3c7bbc
+32bdca mov    rcx,QWORD PTR [rip+0xaa08f]        # 0x3d5e60
+32bdd1 lea    rdx,[rip+0xcbe08]        # 0x3f7be0
+32bdd8 movaps xmm3,xmm6
+32bddb mov    BYTE PTR [rsp+0x28],dil
+32bde0 mov    r8,rbx
+32bde3 mov    QWORD PTR [rsp+0x20],rsi
+32bde8 call   0x32b7a0
+32bded mov    rsi,QWORD PTR [rsp+0x58]
+32bdf2 mov    rax,rbx
+32bdf5 mov    rbx,QWORD PTR [rsp+0x50]
+32bdfa movaps xmm6,XMMWORD PTR [rsp+0x30]
+32bdff add    rsp,0x40
+32be03 pop    rdi
+32be04 ret

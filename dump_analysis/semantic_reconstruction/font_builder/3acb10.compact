@@ -1,0 +1,55 @@
+3acb10 sub    r9d,0x1
+3acb14 je     0x3acc51
+3acb1a sub    r9d,0x1
+3acb1e je     0x3acbf5
+3acb24 cmp    r9d,0x1
+3acb28 jne    0x3ad256
+3acb2e cmp    esi,0xb
+3acb31 jl     0x3ad256
+3acb37 movss  xmm7,DWORD PTR [rbp-0x68]
+3acb3c movaps xmm8,xmm14
+3acb40 addss  xmm8,xmm11
+3acb45 movaps xmm9,xmm13
+3acb49 addss  xmm9,xmm12
+3acb4e addss  xmm8,xmm15
+3acb53 addss  xmm9,DWORD PTR [rbp-0x7c]
+3acb59 addss  xmm8,DWORD PTR [rbp-0x78]
+3acb5f addss  xmm9,DWORD PTR [rbp-0x74]
+3acb65 addss  xmm8,DWORD PTR [rbp-0x70]
+3acb6b addss  xmm9,DWORD PTR [rbp-0x6c]
+3acb71 movaps xmm0,xmm8
+3acb75 call   0x2e3ef0
+3acb7a movaps xmm6,xmm0
+3acb7d movaps xmm0,xmm9
+3acb81 call   0x2e3ef0
+3acb86 comiss xmm6,xmm0
+3acb89 jbe    0x3acba2
+3acb8b movaps xmm8,xmm7
+3acb8f movaps xmm7,xmm9
+3acb93 movss  xmm9,DWORD PTR [rip+0xffffffffffee6704]        # 0x2932a0
+3acb9a 
+3acb9c xorps  xmm7,xmm9
+3acba0 jmp    0x3acbaf
+3acba2 movss  xmm9,DWORD PTR [rip+0xffffffffffee66f5]        # 0x2932a0
+3acba9 
+3acbab xorps  xmm8,xmm9
+3acbaf movss  xmm0,DWORD PTR [rbp-0x7c]
+3acbb4 movaps xmm3,xmm14
+3acbb8 movss  DWORD PTR [rsp+0x30],xmm0
+3acbbe movaps xmm2,xmm13
+3acbc2 movss  DWORD PTR [rsp+0x28],xmm15
+3acbc9 movaps xmm1,xmm11
+3acbcd mov    rcx,r12
+3acbd0 movss  DWORD PTR [rsp+0x20],xmm12
+3acbd7 call   0x3ab428
+3acbdc movss  xmm1,DWORD PTR [rbp-0x78]
+3acbe1 movss  xmm2,DWORD PTR [rbp-0x74]
+3acbe6 movss  xmm3,DWORD PTR [rbp-0x70]
+3acbeb movss  xmm6,DWORD PTR [rbp-0x6c]
+3acbf0 jmp    0x3accf5
+3acbf5 cmp    esi,0x9
+3acbf8 jl     0x3ad256
+3acbfe movss  xmm6,DWORD PTR [rbp-0x74]
+3acc03 movaps xmm7,xmm13
+3acc07 movss  DWORD PTR [rsp+0x30],xmm10
+3acc0e movaps xmm2,xmm7

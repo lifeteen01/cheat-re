@@ -1,0 +1,38 @@
+39bf0c	mov    QWORD PTR [rsp+0x8],rbx
+39bf11	push   rdi
+39bf12	sub    rsp,0x20
+39bf16	mov    ebx,edx
+39bf18	mov    edi,ecx
+39bf1a	call   0x3945fc
+39bf1f	test   al,al
+39bf21	je     0x39bf70
+39bf23	mov    rcx,QWORD PTR [rip+0x69bfe]        # 0x405b28
+39bf2a	cmp    BYTE PTR [rcx+0x477c],0x0
+39bf31	je     0x39bf4a
+39bf33	cmp    ebx,DWORD PTR [rcx+0x3f68]
+39bf39	je     0x39bf4a
+39bf3b	test   ebx,ebx
+39bf3d	je     0x39bf4a
+39bf3f	lea    eax,[rdi-0x200]
+39bf45	cmp    eax,0x68
+39bf48	jbe    0x39bf6c
+39bf4a	mov    edx,edi
+39bf4c	call   0x392798
+39bf51	test   ebx,ebx
+39bf53	jne    0x39bf5d
+39bf55	cmp    BYTE PTR [rax+0x8],bl
+39bf58	sete   al
+39bf5b	jmp    0x39bf72
+39bf5d	cmp    DWORD PTR [rax],ebx
+39bf5f	je     0x39bf70
+39bf61	cmp    BYTE PTR [rax+0x8],0x0
+39bf65	jne    0x39bf6c
+39bf67	cmp    DWORD PTR [rax],0xffffffff
+39bf6a	jmp    0x39bf58
+39bf6c	xor    al,al
+39bf6e	jmp    0x39bf72
+39bf70	mov    al,0x1
+39bf72	mov    rbx,QWORD PTR [rsp+0x30]
+39bf77	add    rsp,0x20
+39bf7b	pop    rdi
+39bf7c	ret

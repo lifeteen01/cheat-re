@@ -1,0 +1,4 @@
+frame_world_controllers strict
+exit_code 0
+changed_files 0
+frame/world controller fixture groups8 PASS

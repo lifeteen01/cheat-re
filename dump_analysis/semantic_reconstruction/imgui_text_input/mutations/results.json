@@ -1,0 +1,23 @@
+[
+  {
+    "case": "ordinary_insertion",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  active root filters and consumes queue but native dispatcher drops ordinary tokens",
+    "original_sha256": "cffbae1721e6b988adf37e214d21ff8ded8b47a2872e6e3276d72c530067a6e8"
+  },
+  {
+    "case": "event_id_prefix",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  event counter wraps before allocation callback",
+    "original_sha256": "4f547ae3b59b46ab5ba10ad87b70c3724488ae6762c34a5590edc332f2219c38"
+  },
+  {
+    "case": "stale_password_glyph",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  password uses owned glyph scalar/alias and concrete push/pop despite stale raw glyph array",
+    "original_sha256": "a0f0fe4f83ef3ad063157735ae44e246a7547c0c205dd2713dfa621e99c519e7"
+  }
+]

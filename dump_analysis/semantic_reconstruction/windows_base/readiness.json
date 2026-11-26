@@ -1,0 +1,114 @@
+{
+  "priority": "Minimum Windows x64 DLL base; exhaustive reconstruction is backlog",
+  "audit_stage": "All three final implementation waves released and integrated; required combined checks passed",
+  "milestones": {
+    "dll_compiles_links": {
+      "achieved": true,
+      "evidence": [
+        "windows_base/build/verification.json",
+        "windows_base/cmake_verification.json"
+      ],
+      "scope": "Windows x64 DLL with native menu/configuration and13 C exports; verified PE/imports"
+    },
+    "dll_initializes": {
+      "achieved": false,
+      "reason": "Authored DLL initializes, hooks, renders/handles controlled input, restores and unloads under Wine10/Xvfb in a fresh owned prefix; native Windows validation remains pending",
+      "compatibility_runtime_observed": true,
+      "native_windows_validated": false,
+      "compatibility_evidence": "windows_base/wine_runtime/verification.json"
+    },
+    "base_functions_in_game": {
+      "achieved": false,
+      "reason": "Matching artifacts, real game/Unity adapters, actual game hook and authorized runtime observations remain required"
+    }
+  },
+  "offline_verification": {
+    "strict": "dump_analysis/semantic_reconstruction/menu_offsets_integrated_sources.json",
+    "sanitizer": "dump_analysis/semantic_reconstruction/menu_offsets_sanitizer_sources.json",
+    "same_unchanged_inputs": true,
+    "captured_inputs": 455,
+    "translation_units": 328,
+    "preserved_inputs": 135,
+    "limit": "Offline fixtures only; no sample/game execution or live ABI proof"
+  },
+  "categories": {
+    "implemented_verified": [
+      "All released modules integrated in offline library/check runner; recorded scoped semantics",
+      "Windows x64 platform DLL compile/link/export/import inspections",
+      "Portable recovered rectangle geometry to actual input-dependent pixels: strict/sanitizer",
+      "Authored Windows PE owned-host/DLL test passes under Wine10/Xvfb: load/init/hook/original/input/screen pixels/restore/reinit/window loss/unload; no sample/game code",
+      "Native menu General/Offsets/About, real appearance controls/filter/Apply/Save/Reload",
+      "Versioned strict JSON profile:219 context keys, 28 owned getter consumers and18 numeric direct resolvers; real edits change reads/resolution",
+      "Last-good retention, Unicode paths, atomic Windows save and unverified-build refusal tested under Wine"
+    ],
+    "implemented_awaiting_integration_or_verification": [
+      "Native Windows execution of authored host and DLL still required; Wine compatibility-runtime execution has passed",
+      "Optional context-specific Movement helper composition, seven private Sky material wrapper bindings and copied-state sharing remain unbound feature integration"
+    ],
+    "missing_implementations_runtime_bindings": [
+      "Real game/Unity callbacks and managed/native resource and object-storage adapters",
+      "Actual Client.LateUpdate resolution, ABI-correct original and game-hook lifecycle",
+      "Game rendering/input integration and resource teardown/unpin",
+      "Exact optional unbound domains and generic ABI ranges retained in their ledgers"
+    ],
+    "blocked_by_unavailable_game_artifacts": [
+      "Matching GameAssembly.dll",
+      "Matching UnityPlayer.dll",
+      "Paired global-metadata.dat"
+    ]
+  },
+  "awaiting_active_wave_integration": [],
+  "artifacts_needed": [
+    {
+      "file": "GameAssembly.dll",
+      "status": "Needed / To do",
+      "requirement": "Exact running game build, Windows x64 PE; version/hash/export set, native code, metadata correspondence and object/method ABI"
+    },
+    {
+      "file": "UnityPlayer.dll",
+      "status": "Needed / To do",
+      "requirement": "Same game installation/build; engine version, native rendering/input/resource interfaces"
+    },
+    {
+      "file": "global-metadata.dat",
+      "status": "Needed / To do",
+      "requirement": "Paired with that GameAssembly.dll; identities, signatures, type/field/method layouts; not an unrelated version"
+    }
+  ],
+  "user_artifact_confirmation": "None downloaded yet; do not ask for another local directory",
+  "next_dependency_order": [
+    "Run authored owned-window lifecycle/hook/frame test on native Windows x64; Wine10/Xvfb version already passes",
+    "Obtain and hash the three matching artifacts; verify their common build",
+    "Derive minimum ordinary-ABI metadata/invocation/object/resource adapters; no spoof executor or successful context placeholder",
+    "Resolve and implement actual game frame hook, original forwarding, restoration and cleanup",
+    "Observe a single minimal in-game frame/render/input path in an authorized test environment before optional features"
+  ],
+  "callback_inventory": "dump_analysis/semantic_reconstruction/windows_base/minimum_path_callbacks.json",
+  "optional_backlog_policy": "Optional aim/automation/world/material/config/library branches and exhaustive reconstruction reviews do not delay minimum base",
+  "audit": "source/BASE_READINESS.md",
+  "compatibility_runtime_verification": {
+    "record": "dump_analysis/semantic_reconstruction/windows_base/wine_runtime/verification.json",
+    "passed": true,
+    "fresh_owned_prefix": true,
+    "system_install": false,
+    "actual_game_callbacks_implemented": 0,
+    "in_game_validated": false
+  },
+  "goal_status": "blocked",
+  "goal_complete": false,
+  "blocker_audit": "dump_analysis/semantic_reconstruction/windows_base/blocker_audit.json",
+  "latest_user_objective": "Usable DLL menu and one-file offsets",
+  "latest_user_objective_record": "source/MENU_OFFSETS_GOAL.md",
+  "menu_offsets_status": "complete within the declared native menu/profile owned-host scope",
+  "menu_profile": {
+    "entries": 219,
+    "field_contexts": 142,
+    "reference_site_contexts": 77,
+    "distinct_historical_fields": 77,
+    "distinct_historical_rvas": 64,
+    "file": "source/windows_base/offsets.json",
+    "current_game_verified": false
+  },
+  "latest_user_objective_status": "complete within the declared native menu/profile owned-host scope",
+  "latest_user_objective_acceptance": "dump_analysis/semantic_reconstruction/menu_offsets/acceptance.json"
+}

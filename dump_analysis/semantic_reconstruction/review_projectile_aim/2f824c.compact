@@ -1,0 +1,163 @@
+2f824c mov    rax,rsp
+2f824f push   rbp
+2f8250 push   rbx
+2f8251 push   rsi
+2f8252 push   rdi
+2f8253 push   r14
+2f8255 lea    rbp,[rax-0x5f]
+2f8259 sub    rsp,0xe0
+2f8260 cmp    BYTE PTR [rip+0xdfd51],0x0        # 0x3d7fb8
+2f8267 movaps XMMWORD PTR [rax-0x38],xmm6
+2f826b movaps XMMWORD PTR [rax-0x48],xmm7
+2f826f movaps XMMWORD PTR [rax-0x58],xmm8
+2f8274 movaps XMMWORD PTR [rax-0x68],xmm9
+2f8279 movaps XMMWORD PTR [rax-0x78],xmm10
+2f827e je     0x2f84bb
+2f8284 call   0x2dda9c
+2f8289 mov    rcx,rax
+2f828c mov    r14,rax
+2f828f call   0x2caf08
+2f8294 test   al,al
+2f8296 je     0x2f84bb
+2f829c mov    rcx,r14
+2f829f call   0x368a84
+2f82a4 mov    rcx,rax
+2f82a7 mov    rsi,rax
+2f82aa call   0x2caf08
+2f82af test   al,al
+2f82b1 je     0x2f84bb
+2f82b7 mov    rcx,rsi
+2f82ba call   0x371464
+2f82bf mov    rcx,rax
+2f82c2 mov    rbx,rax
+2f82c5 call   0x2caf08
+2f82ca test   al,al
+2f82cc je     0x2f84bb
+2f82d2 mov    rcx,rbx
+2f82d5 call   0x36b938
+2f82da mov    rcx,rax
+2f82dd mov    rdi,rax
+2f82e0 call   0x2caf08
+2f82e5 test   al,al
+2f82e7 je     0x2f84bb
+2f82ed movss  xmm8,DWORD PTR [rbx+0x3ac]
+2f82f6 mov    rcx,rsi
+2f82f9 call   0x37154c
+2f82fe mov    rcx,rax
+2f8301 mov    rdx,rax
+2f8304 call   0x2caf08
+2f8309 test   al,al
+2f830b je     0x2f8328
+2f830d mov    rcx,rdx
+2f8310 call   0x37261c
+2f8315 cmp    eax,0x34b73d71
+2f831a jne    0x2f8328
+2f831c mov    rcx,rbx
+2f831f call   0x36b504
+2f8324 movaps xmm8,xmm0
+2f8328 movss  xmm9,DWORD PTR [rdi+0x44]
+2f832e movss  xmm10,DWORD PTR [rdi+0x40]
+2f8334 call   0x2e02b0
+2f8339 mov    rcx,rax
+2f833c mov    rdi,rax
+2f833f call   0x2caf08
+2f8344 test   al,al
+2f8346 je     0x2f84bb
+2f834c mov    rcx,rdi
+2f834f call   0x2e0e9c
+2f8354 test   al,al
+2f8356 je     0x2f84bb
+2f835c lea    rdx,[rbp-0x79]
+2f8360 mov    rcx,rdi
+2f8363 call   0x369790
+2f8368 lea    rcx,[rbp-0x59]
+2f836c call   0x3c7bbc
+2f8371 mov    rdx,rax
+2f8374 lea    rcx,[rbp-0x79]
+2f8378 call   0x2df5b0
+2f837d test   al,al
+2f837f jne    0x2f84bb
+2f8385 call   0x2e6a6c
+2f838a lea    rdx,[rbp-0x29]
+2f838e mov    rcx,r14
+2f8391 mov    ebx,eax
+2f8393 call   0x369164
+2f8398 xorps  xmm6,xmm6
+2f839b lea    rdx,[rbp-0x69]
+2f839f xorps  xmm3,xmm3
+2f83a2 movss  DWORD PTR [rsp+0x20],xmm6
+2f83a8 mov    r8d,ebx
+2f83ab mov    ecx,DWORD PTR [rax+0x8]
+2f83ae movsd  xmm0,QWORD PTR [rax]
+2f83b2 mov    DWORD PTR [rbp-0x61],ecx
+2f83b5 mov    ecx,DWORD PTR [rbp-0x71]
+2f83b8 movsd  QWORD PTR [rbp-0x69],xmm0
+2f83bd movsd  xmm0,QWORD PTR [rbp-0x79]
+2f83c2 mov    DWORD PTR [rbp-0x51],ecx
+2f83c5 lea    rcx,[rbp-0x59]
+2f83c9 movsd  QWORD PTR [rbp-0x59],xmm0
+2f83ce call   0x2e2320
+2f83d3 mov    cl,BYTE PTR [rip+0xdfc7f]        # 0x3d8058
+2f83d9 test   al,al
+2f83db jne    0x2f83e5
+2f83dd test   cl,cl
+2f83df je     0x2f84bb
+2f83e5 cmp    BYTE PTR [rip+0xeda8d],0x0        # 0x3e5e79
+2f83ec jne    0x2f83f6
+2f83ee test   cl,cl
+2f83f0 jne    0x2f84bb
+2f83f6 lea    rdx,[rbp-0x39]
+2f83fa mov    rcx,r14
+2f83fd call   0x369164
+2f8402 mov    r8d,0x7
+2f8408 lea    rdx,[rbp-0x29]
+2f840c mov    rcx,rdi
+2f840f call   0x368be8
+2f8414 movss  xmm2,DWORD PTR [rip+0xfffffffffff9ae40]        # 0x29325c
+2f841c lea    rcx,[rbp-0x59]
+2f8420 xorps  xmm3,xmm3
+2f8423 xorps  xmm1,xmm1
+2f8426 mov    rbx,rax
+2f8429 call   0x3c7ba8
+2f842e mov    r8,rax
+2f8431 lea    rdx,[rbp-0x49]
+2f8435 mov    rcx,rbx
+2f8438 call   0x2df708
+2f843d lea    rdx,[rbp-0x49]
+2f8441 lea    rcx,[rbp-0x39]
+2f8445 call   0x2dff30
+2f844a movss  xmm6,DWORD PTR [rip+0xdee9a]        # 0x3d72ec
+2f8452 addss  xmm9,xmm10
+2f8457 addss  xmm6,DWORD PTR [rip+0xfffffffffff95681]        # 0x28dae0
+2f845f mov    rcx,rsi
+2f8462 movaps xmm7,xmm0
+2f8465 mulss  xmm9,xmm8
+2f846a mulss  xmm6,DWORD PTR [rip+0xfffffffffff9568a]        # 0x28dafc
+2f8472 mulss  xmm9,DWORD PTR [rip+0xfffffffffff9567d]        # 0x28daf8
+2f847b addss  xmm6,DWORD PTR [rip+0xfffffffffff95661]        # 0x28dae4
+2f8483 mulss  xmm6,xmm9
+2f8488 call   0x32bb60
+2f848d addss  xmm0,xmm6
+2f8491 comiss xmm0,xmm7
+2f8494 jbe    0x2f84bb
+2f8496 movss  xmm0,DWORD PTR [rip+0xfffffffffff95d2e]        # 0x28e1cc
+2f849e comiss xmm0,DWORD PTR [rip+0xebdaf]        # 0x3e4254
+2f84a5 jbe    0x2f84bb
+2f84a7 movss  xmm0,DWORD PTR [rip+0xfffffffffff9ac21]        # 0x2930d0
+2f84af comiss xmm0,DWORD PTR [rip+0xdee36]        # 0x3d72ec
+2f84b6 setae  al
+2f84b9 jmp    0x2f84bd
+2f84bb xor    al,al
+2f84bd lea    r11,[rsp+0xe0]
+2f84c5 movaps xmm6,XMMWORD PTR [r11-0x10]
+2f84ca movaps xmm7,XMMWORD PTR [r11-0x20]
+2f84cf movaps xmm8,XMMWORD PTR [r11-0x30]
+2f84d4 movaps xmm9,XMMWORD PTR [r11-0x40]
+2f84d9 movaps xmm10,XMMWORD PTR [r11-0x50]
+2f84de mov    rsp,r11
+2f84e1 pop    r14
+2f84e3 pop    rdi
+2f84e4 pop    rsi
+2f84e5 pop    rbx
+2f84e6 pop    rbp
+2f84e7 ret

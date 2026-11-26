@@ -1,0 +1,1844 @@
+{
+  "image": "dump_analysis/unpacked/cheat.unpacked.dll",
+  "sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x2cc340",
+      "end": "0x2cc34d",
+      "bytes": 13,
+      "instructions": 4,
+      "status": "[C/I] Vec2 constructor expressed by owned position/UV values",
+      "ret_sites": [
+        "0x2cc34c"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x2cc350",
+      "end": "0x2cc36d",
+      "bytes": 29,
+      "instructions": 7,
+      "status": "[C/I] four-float constructor expressed by owned clip values",
+      "ret_sites": [
+        "0x2cc36c"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x2db3a0",
+      "end": "0x2db3ad",
+      "bytes": 13,
+      "instructions": 5,
+      "status": "[C/I] zero16 constructor included in complete command zeroing",
+      "ret_sites": [
+        "0x2db3ac"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x362efc",
+      "end": "0x362f25",
+      "bytes": 41,
+      "instructions": 15,
+      "status": "[C] signed half truncation, wrapping1.5 growth, zero\u21928 and signed max(required,candidate)",
+      "ret_sites": [
+        "0x362f24"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    },
+    {
+      "begin": "0x37a658",
+      "end": "0x37a69b",
+      "bytes": 67,
+      "instructions": 22,
+      "status": "[C/I] Address vector push/growth",
+      "ret_sites": [
+        "0x37a69a"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37a6f8",
+      "end": "0x37a757",
+      "bytes": 95,
+      "instructions": 28,
+      "status": "[C/I]2-byte index reserve, logical-size copy; owned allocation adaptation",
+      "ret_sites": [
+        "0x37a756"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37a758",
+      "end": "0x37a7b9",
+      "bytes": 97,
+      "instructions": 28,
+      "status": "[C/I]8-byte reserve, logical-size copy; owned allocation adaptation",
+      "ret_sites": [
+        "0x37a7b8"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37a888",
+      "end": "0x37a8ee",
+      "bytes": 102,
+      "instructions": 29,
+      "status": "[C/I]20-byte vertex reserve, logical-size copy; owned allocation adaptation",
+      "ret_sites": [
+        "0x37a8ed"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37a9b8",
+      "end": "0x37aa19",
+      "bytes": 97,
+      "instructions": 28,
+      "status": "[C/I]16-byte clip reserve, logical-size copy; owned allocation adaptation",
+      "ret_sites": [
+        "0x37aa18"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37aa1c",
+      "end": "0x37aa7a",
+      "bytes": 94,
+      "instructions": 27,
+      "status": "[C/I]56-byte command reserve, logical-size copy; owned allocation adaptation",
+      "ret_sites": [
+        "0x37aa79"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37ad04",
+      "end": "0x37ad34",
+      "bytes": 48,
+      "instructions": 16,
+      "status": "[C/I] uint16 index vector resize/growth",
+      "ret_sites": [
+        "0x37ad33"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37ad34",
+      "end": "0x37ad64",
+      "bytes": 48,
+      "instructions": 16,
+      "status": "[C/I]8-byte Address/Vec2 vector resize/growth",
+      "ret_sites": [
+        "0x37ad63"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37adc4",
+      "end": "0x37adf4",
+      "bytes": 48,
+      "instructions": 16,
+      "status": "[C/I]20-byte vertex vector resize/growth",
+      "ret_sites": [
+        "0x37adf3"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37ae54",
+      "end": "0x37ae84",
+      "bytes": 48,
+      "instructions": 16,
+      "status": "[C/I]16-byte clip vector resize/growth",
+      "ret_sites": [
+        "0x37ae83"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x37ae84",
+      "end": "0x37aeb4",
+      "bytes": 48,
+      "instructions": 16,
+      "status": "[C/I]56-byte command vector resize/growth",
+      "ret_sites": [
+        "0x37aeb3"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x38a3f4",
+      "end": "0x38a3f9",
+      "bytes": 5,
+      "instructions": 2,
+      "status": "[C] source-operand MAXSS preserved in clip clamp",
+      "ret_sites": [
+        "0x38a3f8"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x38bb84",
+      "end": "0x38bb90",
+      "bytes": 12,
+      "instructions": 4,
+      "status": "[C] prior renderer_helpers signed32 index*8/data+8",
+      "ret_sites": [
+        "0x38bb8f"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x38bb90",
+      "end": "0x38bb9c",
+      "bytes": 12,
+      "instructions": 4,
+      "status": "[C/I] owned command index stride56",
+      "ret_sites": [
+        "0x38bb9b"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x38bb9c",
+      "end": "0x38bba8",
+      "bytes": 12,
+      "instructions": 4,
+      "status": "[C/I] owned channel index stride32",
+      "ret_sites": [
+        "0x38bba7"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x395158",
+      "end": "0x39517b",
+      "bytes": 35,
+      "instructions": 7,
+      "status": "[C/I/U] optional context allocation counter increment before typed allocator(target,user,size)",
+      "ret_sites": [],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    },
+    {
+      "begin": "0x39517c",
+      "end": "0x3951a1",
+      "bytes": 37,
+      "instructions": 8,
+      "status": "[C/I/U] nonnull optional-context counter decrement; null still calls typed free(target,user,object)",
+      "ret_sites": [],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    },
+    {
+      "begin": "0x39e324",
+      "end": "0x39e333",
+      "bytes": 15,
+      "instructions": 6,
+      "status": "[C/I] last command index(size-1) stride56; underflow stops analysis",
+      "ret_sites": [
+        "0x39e332"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": false
+    },
+    {
+      "begin": "0x39eea0",
+      "end": "0x39eea3",
+      "bytes": 3,
+      "instructions": 2,
+      "status": "[C/I] wrapping logical command/vector decrement; underflow stops analysis",
+      "ret_sites": [
+        "0x39eea2"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    },
+    {
+      "begin": "0x39ef2c",
+      "end": "0x39ef90",
+      "bytes": 100,
+      "instructions": 29,
+      "status": "[C/I] growth then exact56-byte command append",
+      "ret_sites": [
+        "0x39ef8f"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x39f030",
+      "end": "0x39f077",
+      "bytes": 71,
+      "instructions": 23,
+      "status": "[C/I]16-byte clip vector push/growth",
+      "ret_sites": [
+        "0x39f076"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x39f294",
+      "end": "0x39f2bf",
+      "bytes": 43,
+      "instructions": 14,
+      "status": "[C] zero all56 command bytes",
+      "ret_sites": [
+        "0x39f2be"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x39fd18",
+      "end": "0x39fd68",
+      "bytes": 80,
+      "instructions": 19,
+      "status": "[C/I] zero native command, copy28-byte header, current index offset, append",
+      "ret_sites": [
+        "0x39fd67"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a0168",
+      "end": "0x3a01f3",
+      "bytes": 139,
+      "instructions": 42,
+      "status": "[C/I] alpha gate, temporary texture, reserve6/4, rectangle, texture pop",
+      "ret_sites": [
+        "0x3a01f2"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a3c30",
+      "end": "0x3a3c3e",
+      "bytes": 14,
+      "instructions": 3,
+      "status": "[C] splitter current0/count1",
+      "ret_sites": [
+        "0x3a3c3d"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a65c4",
+      "end": "0x3a684c",
+      "bytes": 648,
+      "instructions": 190,
+      "status": "[C/I] full channel0 switch/trim, header/callback merge, offset rewrite, ordered concatenation/header repair",
+      "ret_sites": [
+        "0x3a684b"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a6e84",
+      "end": "0x3a6ec8",
+      "bytes": 68,
+      "instructions": 19,
+      "status": "[C/I] texture stack pop, empty\u21920/header/change",
+      "ret_sites": [],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a7020",
+      "end": "0x3a7199",
+      "bytes": 377,
+      "instructions": 95,
+      "status": "[C/I] exact4 vertices position/UV/color and6 low16 indices, write-cursor/current-index updates",
+      "ret_sites": [
+        "0x3a7198"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a719c",
+      "end": "0x3a7223",
+      "bytes": 135,
+      "instructions": 42,
+      "status": "[C/I] unsigned wrapping threshold65536/flag8 vertex offset rollover, ordered command/count/cursors",
+      "ret_sites": [
+        "0x3a7222"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a7224",
+      "end": "0x3a7268",
+      "bytes": 68,
+      "instructions": 20,
+      "status": "[C/I] element count and logical size subtraction; actual cursors retained",
+      "ret_sites": [],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a7268",
+      "end": "0x3a7360",
+      "bytes": 248,
+      "instructions": 59,
+      "status": "[C/I] ordered clip intersections, source-operand MAXSS and push/header/change",
+      "ret_sites": [],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a73c4",
+      "end": "0x3a7400",
+      "bytes": 60,
+      "instructions": 15,
+      "status": "[C/I] texture stack push/header/change controller",
+      "ret_sites": [],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a8094",
+      "end": "0x3a815d",
+      "bytes": 201,
+      "instructions": 56,
+      "status": "[C/I] descriptor save/load with shared allocation, current channel/index cursor/header repair",
+      "ret_sites": [
+        "0x3a813f",
+        "0x3a815c"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a8d94",
+      "end": "0x3a8e27",
+      "bytes": 147,
+      "instructions": 46,
+      "status": "[C/I] full clip change/bitwise header match/contiguous-command merge and callback guard",
+      "ret_sites": [
+        "0x3a8e26"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a8e28",
+      "end": "0x3a8ebf",
+      "bytes": 151,
+      "instructions": 40,
+      "status": "[C/I] full texture change/header match/contiguous-command merge and callback guard",
+      "ret_sites": [
+        "0x3a8ebe"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a8ec0",
+      "end": "0x3a8eea",
+      "bytes": 42,
+      "instructions": 9,
+      "status": "[C/I] zero current vertex and append/update vertex offset",
+      "ret_sites": [
+        "0x3a8ee9"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a9220",
+      "end": "0x3a9258",
+      "bytes": 56,
+      "instructions": 19,
+      "status": "[C/I] trim trailing zero-element/no-callback commands",
+      "ret_sites": [
+        "0x3a9257"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a9258",
+      "end": "0x3a931b",
+      "bytes": 195,
+      "instructions": 50,
+      "status": "[C/I] merge if splitcount>1, logical vector/header/cursor reset, sharedflags/default command/fringe1",
+      "ret_sites": [
+        "0x3a931a"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a93cc",
+      "end": "0x3a942e",
+      "bytes": 98,
+      "instructions": 27,
+      "status": "[C/I] arbitrary-position command erase by overlap shift and decrement",
+      "ret_sites": [
+        "0x3a942d"
+      ],
+      "bound": ".pdata BeginAddress/EndAddress",
+      "implemented": true
+    },
+    {
+      "begin": "0x3a9908",
+      "end": "0x3a990b",
+      "bytes": 3,
+      "instructions": 2,
+      "status": "[C/I] logical vector size assignment; malformed sizes stop analysis",
+      "ret_sites": [
+        "0x3a990a"
+      ],
+      "bound": "exact leaf/thunk end",
+      "implemented": true
+    }
+  ],
+  "implemented_ranges": 36,
+  "implemented_bytes": 3852,
+  "instruction_lines_byte_checked": 1129,
+  "branches": [
+    {
+      "body": "0x362efc",
+      "site": "0x362f06",
+      "kind": "je",
+      "target": "0x362f15",
+      "within": true
+    },
+    {
+      "body": "0x362efc",
+      "site": "0x362f13",
+      "kind": "jmp",
+      "target": "0x362f1a",
+      "within": true
+    },
+    {
+      "body": "0x37a658",
+      "site": "0x37a66d",
+      "kind": "jne",
+      "target": "0x37a680",
+      "within": true
+    },
+    {
+      "body": "0x37a658",
+      "site": "0x37a671",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x37a658",
+      "site": "0x37a67b",
+      "kind": "call",
+      "target": "0x37a758",
+      "within": false
+    },
+    {
+      "body": "0x37a6f8",
+      "site": "0x37a710",
+      "kind": "jle",
+      "target": "0x37a747",
+      "within": true
+    },
+    {
+      "body": "0x37a6f8",
+      "site": "0x37a718",
+      "kind": "call",
+      "target": "0x395158",
+      "within": false
+    },
+    {
+      "body": "0x37a6f8",
+      "site": "0x37a727",
+      "kind": "je",
+      "target": "0x37a740",
+      "within": true
+    },
+    {
+      "body": "0x37a6f8",
+      "site": "0x37a732",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x37a6f8",
+      "site": "0x37a73b",
+      "kind": "call",
+      "target": "0x39517c",
+      "within": false
+    },
+    {
+      "body": "0x37a758",
+      "site": "0x37a770",
+      "kind": "jle",
+      "target": "0x37a7a9",
+      "within": true
+    },
+    {
+      "body": "0x37a758",
+      "site": "0x37a779",
+      "kind": "call",
+      "target": "0x395158",
+      "within": false
+    },
+    {
+      "body": "0x37a758",
+      "site": "0x37a788",
+      "kind": "je",
+      "target": "0x37a7a2",
+      "within": true
+    },
+    {
+      "body": "0x37a758",
+      "site": "0x37a794",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x37a758",
+      "site": "0x37a79d",
+      "kind": "call",
+      "target": "0x39517c",
+      "within": false
+    },
+    {
+      "body": "0x37a888",
+      "site": "0x37a8a0",
+      "kind": "jle",
+      "target": "0x37a8de",
+      "within": true
+    },
+    {
+      "body": "0x37a888",
+      "site": "0x37a8aa",
+      "kind": "call",
+      "target": "0x395158",
+      "within": false
+    },
+    {
+      "body": "0x37a888",
+      "site": "0x37a8b9",
+      "kind": "je",
+      "target": "0x37a8d7",
+      "within": true
+    },
+    {
+      "body": "0x37a888",
+      "site": "0x37a8c9",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x37a888",
+      "site": "0x37a8d2",
+      "kind": "call",
+      "target": "0x39517c",
+      "within": false
+    },
+    {
+      "body": "0x37a9b8",
+      "site": "0x37a9d0",
+      "kind": "jle",
+      "target": "0x37aa09",
+      "within": true
+    },
+    {
+      "body": "0x37a9b8",
+      "site": "0x37a9d9",
+      "kind": "call",
+      "target": "0x395158",
+      "within": false
+    },
+    {
+      "body": "0x37a9b8",
+      "site": "0x37a9e8",
+      "kind": "je",
+      "target": "0x37aa02",
+      "within": true
+    },
+    {
+      "body": "0x37a9b8",
+      "site": "0x37a9f4",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x37a9b8",
+      "site": "0x37a9fd",
+      "kind": "call",
+      "target": "0x39517c",
+      "within": false
+    },
+    {
+      "body": "0x37aa1c",
+      "site": "0x37aa34",
+      "kind": "jle",
+      "target": "0x37aa6a",
+      "within": true
+    },
+    {
+      "body": "0x37aa1c",
+      "site": "0x37aa3a",
+      "kind": "call",
+      "target": "0x395158",
+      "within": false
+    },
+    {
+      "body": "0x37aa1c",
+      "site": "0x37aa49",
+      "kind": "je",
+      "target": "0x37aa63",
+      "within": true
+    },
+    {
+      "body": "0x37aa1c",
+      "site": "0x37aa55",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x37aa1c",
+      "site": "0x37aa5e",
+      "kind": "call",
+      "target": "0x39517c",
+      "within": false
+    },
+    {
+      "body": "0x37ad04",
+      "site": "0x37ad16",
+      "kind": "jle",
+      "target": "0x37ad27",
+      "within": true
+    },
+    {
+      "body": "0x37ad04",
+      "site": "0x37ad18",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x37ad04",
+      "site": "0x37ad22",
+      "kind": "call",
+      "target": "0x37a6f8",
+      "within": false
+    },
+    {
+      "body": "0x37ad34",
+      "site": "0x37ad46",
+      "kind": "jle",
+      "target": "0x37ad57",
+      "within": true
+    },
+    {
+      "body": "0x37ad34",
+      "site": "0x37ad48",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x37ad34",
+      "site": "0x37ad52",
+      "kind": "call",
+      "target": "0x37a758",
+      "within": false
+    },
+    {
+      "body": "0x37adc4",
+      "site": "0x37add6",
+      "kind": "jle",
+      "target": "0x37ade7",
+      "within": true
+    },
+    {
+      "body": "0x37adc4",
+      "site": "0x37add8",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x37adc4",
+      "site": "0x37ade2",
+      "kind": "call",
+      "target": "0x37a888",
+      "within": false
+    },
+    {
+      "body": "0x37ae54",
+      "site": "0x37ae66",
+      "kind": "jle",
+      "target": "0x37ae77",
+      "within": true
+    },
+    {
+      "body": "0x37ae54",
+      "site": "0x37ae68",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x37ae54",
+      "site": "0x37ae72",
+      "kind": "call",
+      "target": "0x37a9b8",
+      "within": false
+    },
+    {
+      "body": "0x37ae84",
+      "site": "0x37ae96",
+      "kind": "jle",
+      "target": "0x37aea7",
+      "within": true
+    },
+    {
+      "body": "0x37ae84",
+      "site": "0x37ae98",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x37ae84",
+      "site": "0x37aea2",
+      "kind": "call",
+      "target": "0x37aa1c",
+      "within": false
+    },
+    {
+      "body": "0x395158",
+      "site": "0x395162",
+      "kind": "je",
+      "target": "0x39516a",
+      "within": true
+    },
+    {
+      "body": "0x39517c",
+      "site": "0x39517f",
+      "kind": "je",
+      "target": "0x395193",
+      "within": true
+    },
+    {
+      "body": "0x39517c",
+      "site": "0x39518b",
+      "kind": "je",
+      "target": "0x395193",
+      "within": true
+    },
+    {
+      "body": "0x39ef2c",
+      "site": "0x39ef41",
+      "kind": "jne",
+      "target": "0x39ef54",
+      "within": true
+    },
+    {
+      "body": "0x39ef2c",
+      "site": "0x39ef45",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x39ef2c",
+      "site": "0x39ef4f",
+      "kind": "call",
+      "target": "0x37aa1c",
+      "within": false
+    },
+    {
+      "body": "0x39f030",
+      "site": "0x39f045",
+      "kind": "jne",
+      "target": "0x39f058",
+      "within": true
+    },
+    {
+      "body": "0x39f030",
+      "site": "0x39f049",
+      "kind": "call",
+      "target": "0x362efc",
+      "within": false
+    },
+    {
+      "body": "0x39f030",
+      "site": "0x39f053",
+      "kind": "call",
+      "target": "0x37a9b8",
+      "within": false
+    },
+    {
+      "body": "0x39f294",
+      "site": "0x39f29d",
+      "kind": "call",
+      "target": "0x2db3a0",
+      "within": false
+    },
+    {
+      "body": "0x39fd18",
+      "site": "0x39fd26",
+      "kind": "call",
+      "target": "0x39f294",
+      "within": false
+    },
+    {
+      "body": "0x39fd18",
+      "site": "0x39fd5d",
+      "kind": "call",
+      "target": "0x39ef2c",
+      "within": false
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a018e",
+      "kind": "je",
+      "target": "0x3a01e6",
+      "within": true
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a019a",
+      "kind": "je",
+      "target": "0x3a01a1",
+      "within": true
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a019c",
+      "kind": "call",
+      "target": "0x3a73c4",
+      "within": false
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a01ad",
+      "kind": "call",
+      "target": "0x3a719c",
+      "within": false
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a01d4",
+      "kind": "call",
+      "target": "0x3a7020",
+      "within": false
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a01dc",
+      "kind": "je",
+      "target": "0x3a01e6",
+      "within": true
+    },
+    {
+      "body": "0x3a0168",
+      "site": "0x3a01e1",
+      "kind": "call",
+      "target": "0x3a6e84",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a65e7",
+      "kind": "jle",
+      "target": "0x3a6837",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a65f0",
+      "kind": "call",
+      "target": "0x3a8094",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a65f8",
+      "kind": "call",
+      "target": "0x3a9220",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a660c",
+      "kind": "jle",
+      "target": "0x3a662d",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6611",
+      "kind": "jle",
+      "target": "0x3a662d",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6616",
+      "kind": "call",
+      "target": "0x39e324",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6621",
+      "kind": "je",
+      "target": "0x3a662f",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a662b",
+      "kind": "jmp",
+      "target": "0x3a6632",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a663c",
+      "kind": "jle",
+      "target": "0x3a6724",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6649",
+      "kind": "call",
+      "target": "0x38bb9c",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6654",
+      "kind": "jle",
+      "target": "0x3a66d1",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6659",
+      "kind": "call",
+      "target": "0x39e324",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6662",
+      "kind": "jne",
+      "target": "0x3a667b",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6667",
+      "kind": "call",
+      "target": "0x39e324",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6671",
+      "kind": "jne",
+      "target": "0x3a667b",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6676",
+      "kind": "call",
+      "target": "0x39eea0",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a667e",
+      "kind": "jle",
+      "target": "0x3a66e1",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6683",
+      "kind": "je",
+      "target": "0x3a66d1",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a668a",
+      "kind": "call",
+      "target": "0x38bb90",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a669e",
+      "kind": "call",
+      "target": "0x3c8d14",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66a5",
+      "kind": "jne",
+      "target": "0x3a66cc",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66ac",
+      "kind": "jne",
+      "target": "0x3a66cc",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66b3",
+      "kind": "jne",
+      "target": "0x3a66cc",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66c7",
+      "kind": "call",
+      "target": "0x3a93cc",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66d4",
+      "kind": "jle",
+      "target": "0x3a66e1",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66d9",
+      "kind": "call",
+      "target": "0x39e324",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a66f1",
+      "kind": "jle",
+      "target": "0x3a6712",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6710",
+      "kind": "jl",
+      "target": "0x3a66f3",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6719",
+      "kind": "jl",
+      "target": "0x3a6642",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a672c",
+      "kind": "call",
+      "target": "0x37ae84",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a673d",
+      "kind": "call",
+      "target": "0x37ad04",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a676e",
+      "kind": "jle",
+      "target": "0x3a67c6",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6777",
+      "kind": "call",
+      "target": "0x38bb9c",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6782",
+      "kind": "je",
+      "target": "0x3a679d",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6795",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67a1",
+      "kind": "je",
+      "target": "0x3a67bd",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67b5",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67c4",
+      "kind": "jl",
+      "target": "0x3a6770",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67ce",
+      "kind": "je",
+      "target": "0x3a67de",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67d3",
+      "kind": "call",
+      "target": "0x39e324",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67dc",
+      "kind": "je",
+      "target": "0x3a67e6",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a67e1",
+      "kind": "call",
+      "target": "0x39fd18",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6800",
+      "kind": "jne",
+      "target": "0x3a6815",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6813",
+      "kind": "jmp",
+      "target": "0x3a6830",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a681f",
+      "kind": "call",
+      "target": "0x3c8d14",
+      "within": false
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a6826",
+      "kind": "je",
+      "target": "0x3a6830",
+      "within": true
+    },
+    {
+      "body": "0x3a65c4",
+      "site": "0x3a682b",
+      "kind": "call",
+      "target": "0x39fd18",
+      "within": false
+    },
+    {
+      "body": "0x3a6e84",
+      "site": "0x3a6e98",
+      "kind": "call",
+      "target": "0x39eea0",
+      "within": false
+    },
+    {
+      "body": "0x3a6e84",
+      "site": "0x3a6ea1",
+      "kind": "je",
+      "target": "0x3a6eaf",
+      "within": true
+    },
+    {
+      "body": "0x3a6e84",
+      "site": "0x3a6ec3",
+      "kind": "jmp",
+      "target": "0x3a8e28",
+      "within": false
+    },
+    {
+      "body": "0x3a7020",
+      "site": "0x3a704b",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x3a7020",
+      "site": "0x3a705f",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x3a7020",
+      "site": "0x3a7078",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x3a7020",
+      "site": "0x3a708c",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x3a7020",
+      "site": "0x3a70c1",
+      "kind": "jl",
+      "target": "0x3a70ad",
+      "within": true
+    },
+    {
+      "body": "0x3a7020",
+      "site": "0x3a70e7",
+      "kind": "jl",
+      "target": "0x3a70d3",
+      "within": true
+    },
+    {
+      "body": "0x3a719c",
+      "site": "0x3a71bb",
+      "kind": "jb",
+      "target": "0x3a71d1",
+      "within": true
+    },
+    {
+      "body": "0x3a719c",
+      "site": "0x3a71c1",
+      "kind": "je",
+      "target": "0x3a71d1",
+      "within": true
+    },
+    {
+      "body": "0x3a719c",
+      "site": "0x3a71cc",
+      "kind": "call",
+      "target": "0x3a8ec0",
+      "within": false
+    },
+    {
+      "body": "0x3a719c",
+      "site": "0x3a71ea",
+      "kind": "call",
+      "target": "0x37adc4",
+      "within": false
+    },
+    {
+      "body": "0x3a719c",
+      "site": "0x3a7209",
+      "kind": "call",
+      "target": "0x37ad04",
+      "within": false
+    },
+    {
+      "body": "0x3a7224",
+      "site": "0x3a724c",
+      "kind": "call",
+      "target": "0x3a9908",
+      "within": false
+    },
+    {
+      "body": "0x3a7224",
+      "site": "0x3a7263",
+      "kind": "jmp",
+      "target": "0x3a9908",
+      "within": false
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a729e",
+      "kind": "call",
+      "target": "0x2cc350",
+      "within": false
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a72aa",
+      "kind": "je",
+      "target": "0x3a7307",
+      "within": true
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a72cf",
+      "kind": "jbe",
+      "target": "0x3a72d9",
+      "within": true
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a72e1",
+      "kind": "jbe",
+      "target": "0x3a72eb",
+      "within": true
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a72f3",
+      "kind": "jbe",
+      "target": "0x3a72f8",
+      "within": true
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a7300",
+      "kind": "jbe",
+      "target": "0x3a7316",
+      "within": true
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a7305",
+      "kind": "jmp",
+      "target": "0x3a7316",
+      "within": true
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a7316",
+      "kind": "call",
+      "target": "0x38a3f4",
+      "within": false
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a7326",
+      "kind": "call",
+      "target": "0x38a3f4",
+      "within": false
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a7338",
+      "kind": "call",
+      "target": "0x39f030",
+      "within": false
+    },
+    {
+      "body": "0x3a7268",
+      "site": "0x3a735b",
+      "kind": "jmp",
+      "target": "0x3a8d94",
+      "within": false
+    },
+    {
+      "body": "0x3a73c4",
+      "site": "0x3a73e2",
+      "kind": "call",
+      "target": "0x37a658",
+      "within": false
+    },
+    {
+      "body": "0x3a73c4",
+      "site": "0x3a73fb",
+      "kind": "jmp",
+      "target": "0x3a8e28",
+      "within": false
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a80a6",
+      "kind": "je",
+      "target": "0x3a8157",
+      "within": true
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a810d",
+      "kind": "je",
+      "target": "0x3a814f",
+      "within": true
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a811d",
+      "kind": "je",
+      "target": "0x3a814f",
+      "within": true
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a812a",
+      "kind": "jne",
+      "target": "0x3a8140",
+      "within": true
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a8146",
+      "kind": "call",
+      "target": "0x3c8d14",
+      "within": false
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a814d",
+      "kind": "je",
+      "target": "0x3a8157",
+      "within": true
+    },
+    {
+      "body": "0x3a8094",
+      "site": "0x3a8152",
+      "kind": "call",
+      "target": "0x39fd18",
+      "within": false
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8db7",
+      "kind": "je",
+      "target": "0x3a8dd6",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8dc2",
+      "kind": "jne",
+      "target": "0x3a8dcf",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8dcd",
+      "kind": "je",
+      "target": "0x3a8e14",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8dcf",
+      "kind": "call",
+      "target": "0x39fd18",
+      "within": false
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8dd4",
+      "kind": "jmp",
+      "target": "0x3a8e1e",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8dd9",
+      "kind": "jle",
+      "target": "0x3a8e14",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8deb",
+      "kind": "call",
+      "target": "0x3c8d14",
+      "within": false
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8df2",
+      "kind": "jne",
+      "target": "0x3a8e14",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8e00",
+      "kind": "jne",
+      "target": "0x3a8e14",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8e08",
+      "kind": "jne",
+      "target": "0x3a8e14",
+      "within": true
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8e0d",
+      "kind": "call",
+      "target": "0x39eea0",
+      "within": false
+    },
+    {
+      "body": "0x3a8d94",
+      "site": "0x3a8e12",
+      "kind": "jmp",
+      "target": "0x3a8e1e",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e4a",
+      "kind": "je",
+      "target": "0x3a8e61",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e58",
+      "kind": "je",
+      "target": "0x3a8ea3",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e5a",
+      "kind": "call",
+      "target": "0x39fd18",
+      "within": false
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e5f",
+      "kind": "jmp",
+      "target": "0x3a8eaf",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e64",
+      "kind": "jle",
+      "target": "0x3a8ea3",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e7a",
+      "kind": "call",
+      "target": "0x3c8d14",
+      "within": false
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e81",
+      "kind": "jne",
+      "target": "0x3a8ea3",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e8f",
+      "kind": "jne",
+      "target": "0x3a8ea3",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e97",
+      "kind": "jne",
+      "target": "0x3a8ea3",
+      "within": true
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8e9c",
+      "kind": "call",
+      "target": "0x39eea0",
+      "within": false
+    },
+    {
+      "body": "0x3a8e28",
+      "site": "0x3a8ea1",
+      "kind": "jmp",
+      "target": "0x3a8eaf",
+      "within": true
+    },
+    {
+      "body": "0x3a8ec0",
+      "site": "0x3a8ed8",
+      "kind": "jne",
+      "target": "0x39fd18",
+      "within": false
+    },
+    {
+      "body": "0x3a9220",
+      "site": "0x3a922b",
+      "kind": "jmp",
+      "target": "0x3a924e",
+      "within": true
+    },
+    {
+      "body": "0x3a9220",
+      "site": "0x3a923a",
+      "kind": "jne",
+      "target": "0x3a9252",
+      "within": true
+    },
+    {
+      "body": "0x3a9220",
+      "site": "0x3a9242",
+      "kind": "jne",
+      "target": "0x3a9252",
+      "within": true
+    },
+    {
+      "body": "0x3a9220",
+      "site": "0x3a9247",
+      "kind": "call",
+      "target": "0x39eea0",
+      "within": false
+    },
+    {
+      "body": "0x3a9220",
+      "site": "0x3a9250",
+      "kind": "jg",
+      "target": "0x3a922d",
+      "within": true
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a9273",
+      "kind": "jle",
+      "target": "0x3a9280",
+      "within": true
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a927b",
+      "kind": "call",
+      "target": "0x3a65c4",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a9285",
+      "kind": "call",
+      "target": "0x37ae84",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a9290",
+      "kind": "call",
+      "target": "0x37ad04",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a929b",
+      "kind": "call",
+      "target": "0x37adc4",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a92ce",
+      "kind": "call",
+      "target": "0x37ae54",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a92d9",
+      "kind": "call",
+      "target": "0x37ad34",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a92e4",
+      "kind": "call",
+      "target": "0x37ad34",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a92ec",
+      "kind": "call",
+      "target": "0x3a3c30",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a92f6",
+      "kind": "call",
+      "target": "0x39f294",
+      "within": false
+    },
+    {
+      "body": "0x3a9258",
+      "site": "0x3a9301",
+      "kind": "call",
+      "target": "0x39ef2c",
+      "within": false
+    },
+    {
+      "body": "0x3a93cc",
+      "site": "0x3a9415",
+      "kind": "call",
+      "target": "0x3c8d4c",
+      "within": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+392ca4	mov    rax,QWORD PTR [rip+0x72e7d]        # 0x405b28
+392cab	add    rax,0x37d0
+392cb1	ret
+392cb2	int3

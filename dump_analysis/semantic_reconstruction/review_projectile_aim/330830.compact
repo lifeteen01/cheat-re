@@ -1,0 +1,65 @@
+330830 mov    rax,rsp
+330833 mov    QWORD PTR [rax+0x8],rbx
+330837 push   rdi
+330838 sub    rsp,0x60
+33083c movaps XMMWORD PTR [rax-0x18],xmm6
+330840 mov    rbx,rdx
+330843 movaps XMMWORD PTR [rax-0x28],xmm7
+330847 movaps xmm6,xmm3
+33084a movss  xmm7,DWORD PTR [r8+0x8]
+330850 mov    rdi,rcx
+330853 subss  xmm7,DWORD PTR [rdx+0x8]
+330858 movaps XMMWORD PTR [rax-0x38],xmm8
+33085d movss  xmm8,DWORD PTR [r8+0x4]
+330863 subss  xmm8,DWORD PTR [rdx+0x4]
+330869 movaps XMMWORD PTR [rax-0x48],xmm9
+33086e movss  xmm9,DWORD PTR [r8]
+330873 movaps xmm1,xmm7
+330876 subss  xmm9,DWORD PTR [rdx]
+33087b mulss  xmm1,xmm7
+33087f movaps xmm2,xmm8
+330883 mulss  xmm2,xmm8
+330888 movaps xmm0,xmm9
+33088c mulss  xmm0,xmm9
+330891 addss  xmm2,xmm0
+330895 xorps  xmm0,xmm0
+330898 addss  xmm2,xmm1
+33089c ucomiss xmm2,xmm0
+33089f jp     0x3308a3
+3308a1 je     0x3308b4
+3308a3 comiss xmm6,xmm0
+3308a6 jb     0x3308c6
+3308a8 movaps xmm0,xmm6
+3308ab mulss  xmm0,xmm6
+3308af comiss xmm0,xmm2
+3308b2 jb     0x3308c6
+3308b4 movsd  xmm0,QWORD PTR [r8]
+3308b9 movsd  QWORD PTR [rcx],xmm0
+3308bd mov    eax,DWORD PTR [r8+0x8]
+3308c1 mov    DWORD PTR [rcx+0x8],eax
+3308c4 jmp    0x33090d
+3308c6 movaps xmm0,xmm2
+3308c9 call   0x2e3c88
+3308ce divss  xmm7,xmm0
+3308d2 mov    rcx,rdi
+3308d5 divss  xmm8,xmm0
+3308da divss  xmm9,xmm0
+3308df mulss  xmm7,xmm6
+3308e3 mulss  xmm8,xmm6
+3308e8 addss  xmm7,DWORD PTR [rbx+0x8]
+3308ed mulss  xmm9,xmm6
+3308f2 addss  xmm8,DWORD PTR [rbx+0x4]
+3308f8 addss  xmm9,DWORD PTR [rbx]
+3308fd movaps xmm3,xmm7
+330900 movaps xmm2,xmm8
+330904 movaps xmm1,xmm9
+330908 call   0x3c7ba8
+33090d mov    rbx,QWORD PTR [rsp+0x70]
+330912 mov    rax,rdi
+330915 movaps xmm6,XMMWORD PTR [rsp+0x50]
+33091a movaps xmm7,XMMWORD PTR [rsp+0x40]
+33091f movaps xmm8,XMMWORD PTR [rsp+0x30]
+330925 movaps xmm9,XMMWORD PTR [rsp+0x20]
+33092b add    rsp,0x60
+33092f pop    rdi
+330930 ret

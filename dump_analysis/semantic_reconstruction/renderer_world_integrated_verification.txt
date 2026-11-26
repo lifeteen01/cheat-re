@@ -1,0 +1,8 @@
+[I] Combined immutable-script strict verification.
+/home/john/Desktop/cheat_re/source/reconstructed/world_snapshot_binding_checks.cpp: In function ‘void rust_internal_re::check_world_snapshot_bindings()’:
+/home/john/Desktop/cheat_re/source/reconstructed/world_snapshot_binding_checks.cpp:28:51: error: missing initializer for member ‘rust_internal_re::GameHelperEnvironment::direction_scratch’ [-Werror=missing-field-initializers]
+   28 |     GameHelperEnvironment env{base,0,base+0x410000};env.visibility=&visibility;
+      |                                                   ^
+cc1plus: all warnings being treated as errors
+EXIT_STATUS=1
+SOURCE_SET_UNCHANGED=True

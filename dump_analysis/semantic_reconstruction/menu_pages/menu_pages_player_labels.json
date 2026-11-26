@@ -1,0 +1,245 @@
+[
+  {
+    "site": "0x34d83b",
+    "join": "0x34d884",
+    "labels": [
+      "Search..",
+      "Поиск..",
+      "搜尋.."
+    ]
+  },
+  {
+    "site": "0x34e0da",
+    "join": "0x34e11d",
+    "labels": [
+      "Neutral",
+      "Нейтральный",
+      "中立"
+    ]
+  },
+  {
+    "site": "0x34e12c",
+    "join": "0x34e16b",
+    "labels": [
+      "Friendly",
+      "Дружелюбный",
+      "友好"
+    ]
+  },
+  {
+    "site": "0x34e17a",
+    "join": "0x34e1bc",
+    "labels": [
+      "Enemy",
+      "Враг",
+      "敌人"
+    ]
+  },
+  {
+    "site": "0x34e20e",
+    "join": "0x34e251",
+    "labels": [
+      "Custom status",
+      "Пользовательский статус",
+      "自定义状态"
+    ]
+  },
+  {
+    "site": "0x34e284",
+    "join": "0x34e2c7",
+    "labels": [
+      "Name: %s",
+      "Имя: %s",
+      "名称: %s"
+    ]
+  },
+  {
+    "site": "0x34e2dc",
+    "join": "0x34e31f",
+    "labels": [
+      "Steam ID: %s",
+      "Пар ID: %s",
+      "蒸汽 ID: %s"
+    ]
+  },
+  {
+    "site": "0x34e333",
+    "join": "0x34e376",
+    "labels": [
+      "Team ID: %s",
+      "ID команды: %s",
+      "队伍 ID: %s"
+    ]
+  },
+  {
+    "site": "0x34e38d",
+    "join": "0x34e3d0",
+    "labels": [
+      "Last Known Grid : %s",
+      "Последняя известная сетка : %s",
+      "发现的位置 : %s"
+    ]
+  },
+  {
+    "site": "0x34e60b",
+    "join": "0x34e654",
+    "labels": [
+      "Search..",
+      "Поиск..",
+      "搜尋.."
+    ]
+  },
+  {
+    "site": "0x34eebc",
+    "join": "0x34eeff",
+    "labels": [
+      "Neutral",
+      "Нейтральный",
+      "中立"
+    ]
+  },
+  {
+    "site": "0x34ef0e",
+    "join": "0x34ef4d",
+    "labels": [
+      "Friendly",
+      "Дружелюбный",
+      "友好"
+    ]
+  },
+  {
+    "site": "0x34ef5c",
+    "join": "0x34ef9e",
+    "labels": [
+      "Enemy",
+      "Враг",
+      "敌人"
+    ]
+  },
+  {
+    "site": "0x34eff0",
+    "join": "0x34f033",
+    "labels": [
+      "Custom status",
+      "Пользовательский статус",
+      "自定义状态"
+    ]
+  },
+  {
+    "site": "0x34f066",
+    "join": "0x34f0a9",
+    "labels": [
+      "Name: %s",
+      "Имя: %s",
+      "名称: %s"
+    ]
+  },
+  {
+    "site": "0x34f0be",
+    "join": "0x34f101",
+    "labels": [
+      "Steam ID: %s",
+      "Пар ID: %s",
+      "蒸汽 ID: %s"
+    ]
+  },
+  {
+    "site": "0x34f115",
+    "join": "0x34f158",
+    "labels": [
+      "Team ID: %s",
+      "ID команды: %s",
+      "队伍 ID: %s"
+    ]
+  },
+  {
+    "site": "0x34f16f",
+    "join": "0x34f1b2",
+    "labels": [
+      "Last Known Grid : %s",
+      "Последняя известная сетка : %s",
+      "发现的位置 : %s"
+    ]
+  },
+  {
+    "site": "0x34f418",
+    "join": "0x34f466",
+    "labels": [
+      "Search..",
+      "Поиск..",
+      "搜尋.."
+    ]
+  },
+  {
+    "site": "0x34fccd",
+    "join": "0x34fd10",
+    "labels": [
+      "Neutral",
+      "Нейтральный",
+      "中立"
+    ]
+  },
+  {
+    "site": "0x34fd1f",
+    "join": "0x34fd5e",
+    "labels": [
+      "Friendly",
+      "Дружелюбный",
+      "友好"
+    ]
+  },
+  {
+    "site": "0x34fd6d",
+    "join": "0x34fdaf",
+    "labels": [
+      "Enemy",
+      "Враг",
+      "敌人"
+    ]
+  },
+  {
+    "site": "0x34fe01",
+    "join": "0x34fe44",
+    "labels": [
+      "Custom status",
+      "Пользовательский статус",
+      "自定义状态"
+    ]
+  },
+  {
+    "site": "0x34fe77",
+    "join": "0x34feba",
+    "labels": [
+      "Name: %s",
+      "Имя: %s",
+      "名称: %s"
+    ]
+  },
+  {
+    "site": "0x34fecf",
+    "join": "0x34ff12",
+    "labels": [
+      "Steam ID: %s",
+      "Пар ID: %s",
+      "蒸汽 ID: %s"
+    ]
+  },
+  {
+    "site": "0x34ff26",
+    "join": "0x34ff69",
+    "labels": [
+      "Team ID: %s",
+      "ID команды: %s",
+      "队伍 ID: %s"
+    ]
+  },
+  {
+    "site": "0x34ff80",
+    "join": "0x34ffc3",
+    "labels": [
+      "Last Known Grid : %s",
+      "Последняя известная сетка : %s",
+      "发现的位置 : %s"
+    ]
+  }
+]

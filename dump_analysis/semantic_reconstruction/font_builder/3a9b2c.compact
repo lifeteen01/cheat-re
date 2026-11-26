@@ -1,0 +1,52 @@
+3a9b2c rex push rbx
+3a9b2e push   rbp
+3a9b2f push   rsi
+3a9b30 push   r14
+3a9b32 push   r15
+3a9b34 lea    ebp,[r8+r9*1]
+3a9b38 xor    ebx,ebx
+3a9b3a xor    r10d,r10d
+3a9b3d xor    esi,esi
+3a9b3f mov    r15d,r9d
+3a9b42 mov    r14d,r8d
+3a9b45 mov    r11,rdx
+3a9b48 cmp    DWORD PTR [rdx],ebp
+3a9b4a jge    0x3a9ba3
+3a9b4c lea    r9,[r11+0x8]
+3a9b50 mov    rax,QWORD PTR [r9]
+3a9b53 mov    ecx,DWORD PTR [rax]
+3a9b55 cmp    DWORD PTR [r11+0x4],ebx
+3a9b59 jle    0x3a9b7a
+3a9b5b mov    r8d,DWORD PTR [r11+0x4]
+3a9b5f mov    edx,r14d
+3a9b62 sub    r8d,ebx
+3a9b65 mov    ebx,DWORD PTR [r11+0x4]
+3a9b69 imul   r8d,esi
+3a9b6d cmp    DWORD PTR [r11],r14d
+3a9b70 cmovge edx,DWORD PTR [r11]
+3a9b74 sub    ecx,edx
+3a9b76 add    esi,ecx
+3a9b78 jmp    0x3a9b98
+3a9b7a sub    ecx,DWORD PTR [r11]
+3a9b7d mov    edx,r15d
+3a9b80 sub    edx,esi
+3a9b82 mov    r8d,ebx
+3a9b85 lea    eax,[rcx+rsi*1]
+3a9b88 cmp    eax,r15d
+3a9b8b cmovle edx,ecx
+3a9b8e sub    r8d,DWORD PTR [r11+0x4]
+3a9b92 add    esi,edx
+3a9b94 imul   r8d,edx
+3a9b98 mov    r11,QWORD PTR [r9]
+3a9b9b add    r10d,r8d
+3a9b9e cmp    DWORD PTR [r11],ebp
+3a9ba1 jl     0x3a9b4c
+3a9ba3 mov    rcx,QWORD PTR [rsp+0x50]
+3a9ba8 mov    eax,ebx
+3a9baa mov    DWORD PTR [rcx],r10d
+3a9bad pop    r15
+3a9baf pop    r14
+3a9bb1 pop    rsi
+3a9bb2 pop    rbp
+3a9bb3 pop    rbx
+3a9bb4 ret

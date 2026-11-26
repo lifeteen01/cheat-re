@@ -1,0 +1,3 @@
+3926ac	mov    rax,QWORD PTR [rip+0x73475]        # 0x405b28
+3926b3	add    rax,0x8
+3926b7	ret

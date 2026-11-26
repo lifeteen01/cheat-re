@@ -1,0 +1,4 @@
+# I know but well...
+clang-format-21: manpage-has-useless-whatis-entry *usr/share/man/man1/clang-format-diff-21.1.gz*
+clang-format-21: manpage-has-useless-whatis-entry *usr/share/man/man1/clang-format-21.1.gz*
+

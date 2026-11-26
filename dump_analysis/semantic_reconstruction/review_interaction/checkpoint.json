@@ -1,0 +1,29 @@
+{
+  "state": "scratch_candidate_validated_waiting_parent_GO",
+  "source_files_edited": false,
+  "findings": [
+    "I1 captured flags across resolver reentry",
+    "I2 transfer UID/count before category filtering"
+  ],
+  "limits": [
+    "L1 owned class-name snapshot cannot represent delayed byte mutation",
+    "not exhaustive floating NaN-payload/container/foreign-effect proof"
+  ],
+  "checks": {
+    "candidate_strict": "PASS",
+    "candidate_asan_ubsan": "PASS",
+    "isolated_reversion_I1": "rejected intended assertion",
+    "isolated_reversion_I2": "rejected intended assertion"
+  },
+  "artifacts": {
+    "patched_interaction_workers.cpp": "944c99bc2ccacce39c3070587c0e9a75948717c000e1d90e5dd496078075663a",
+    "patched_interaction_workers_checks.cpp": "23bb9a97ef53238799f0ccac8288c70dd8e618223f4fee67dcd4486ab11ea585",
+    "findings.md": "38fa5a96d981d1c00b6f8e2628c4e2dd642854fcd33040ff0709ff3372675e8e",
+    "review.md": "6961869751dacb2aa95003b83b53c5df1acb5ddcf111e87b8023c618feaa70b3",
+    "byte_audit.json": "ca978e1b0caa0329e92dfa1f78630b003eb6d5f5ecbe2fafedcc865738f05c48",
+    "candidate_verification.txt": "fcf6f95ce682853cbc51286e864878de2d7a48152a95893bb5e77a6e3c4e8b70",
+    "sanitizer_verification.txt": "4ed7f29a824b3bc63d7e7151aec4778b78b0fbabf4dd8ca5c9b7af074ff0fe60",
+    "reversion_I1.txt": "e7d8350fe1fe5cbbd38e34d770b420d9ab7d0e40162c71dc4b8c3b1549aae049",
+    "reversion_I2.txt": "8ddb44eeb8a5ac31fe8b719b523854a7b26e20f0b6b52bac1bafa6c247aa236e"
+  }
+}

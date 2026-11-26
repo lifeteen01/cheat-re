@@ -1,0 +1,24 @@
+33479c sub    rsp,0x28
+3347a0 mov    eax,DWORD PTR [rip+0xc50ba]        # 0x3f9860
+3347a6 test   al,0x1
+3347a8 jne    0x3347ca
+3347aa or     eax,0x1
+3347ad mov    DWORD PTR [rip+0xc50ad],eax        # 0x3f9860
+3347b3 call   0x3339fc
+3347b8 mov    r8,rax
+3347bb mov    QWORD PTR [rip+0xc5096],rax        # 0x3f9858
+3347c2 mov    eax,DWORD PTR [rip+0xc5098]        # 0x3f9860
+3347c8 jmp    0x3347d1
+3347ca mov    r8,QWORD PTR [rip+0xc5087]        # 0x3f9858
+3347d1 test   al,0x2
+3347d3 jne    0x3347f4
+3347d5 mov    rcx,QWORD PTR [rip+0xa1684]        # 0x3d5e60
+3347dc lea    rdx,[rip+0xc508d]        # 0x3f9870
+3347e3 or     eax,0x2
+3347e6 xor    r9d,r9d
+3347e9 mov    DWORD PTR [rip+0xc5071],eax        # 0x3f9860
+3347ef call   0x2cbd24
+3347f4 mov    rcx,QWORD PTR [rip+0xa1665]        # 0x3d5e60
+3347fb lea    rdx,[rip+0xc506e]        # 0x3f9870
+334802 add    rsp,0x28
+334806 jmp    0x2dda18

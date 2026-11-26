@@ -1,0 +1,100 @@
+2d2728	rex push rbp
+2d272a	push   rbx
+2d272b	push   rsi
+2d272c	push   rdi
+2d272d	push   r12
+2d272f	push   r13
+2d2731	push   r14
+2d2733	push   r15
+2d2735	mov    rbp,rsp
+2d2738	sub    rsp,0x58
+2d273c	mov    r14,rdx
+2d273f	mov    rsi,rcx
+2d2742	mov    rdx,r9
+2d2745	mov    rcx,r8
+2d2748	mov    rdi,r9
+2d274b	mov    r13,r8
+2d274e	call   0x2cb3a4
+2d2753	mov    rdx,rax
+2d2756	mov    rcx,rsi
+2d2759	mov    rbx,rax
+2d275c	call   0x2cf0e4
+2d2761	mov    r9,rax
+2d2764	lea    rdx,[rbp-0x30]
+2d2768	mov    r8,rbx
+2d276b	mov    rcx,rsi
+2d276e	mov    r12,rax
+2d2771	call   0x2d07d4
+2d2776	mov    r8,QWORD PTR [rbp-0x28]
+2d277a	lea    r15,[rsi+0x8]
+2d277e	test   r8,r8
+2d2781	je     0x2d27a7
+2d2783	lea    rdx,[rbp-0x38]
+2d2787	mov    rcx,r15
+2d278a	call   0x2d7504
+2d278f	lea    r8,[rbp+0x48]
+2d2793	mov    BYTE PTR [rbp+0x48],0x0
+2d2797	mov    rdx,rax
+2d279a	mov    rcx,r14
+2d279d	call   0x2cee08
+2d27a2	jmp    0x2d2860
+2d27a7	mov    rcx,rsi
+2d27aa	call   0x2d6d00
+2d27af	mov    rcx,rdi
+2d27b2	call   0x2cb3a4
+2d27b7	mov    rcx,r13
+2d27ba	mov    rdi,rax
+2d27bd	call   0x2cb3a4
+2d27c2	mov    rcx,r15
+2d27c5	mov    rbx,rax
+2d27c8	call   0x2cd324
+2d27cd	mov    rdx,rax
+2d27d0	lea    rcx,[rbp-0x20]
+2d27d4	mov    r9,rdi
+2d27d7	mov    r8,rbx
+2d27da	call   0x2ceba8
+2d27df	mov    rcx,rsi
+2d27e2	call   0x2d6d44
+2d27e7	test   al,al
+2d27e9	je     0x2d281a
+2d27eb	mov    rcx,rsi
+2d27ee	call   0x2d7610
+2d27f3	mov    rcx,QWORD PTR [rbp-0x18]
+2d27f7	add    rcx,0x10
+2d27fb	call   0x2cb3a4
+2d2800	mov    r8,rax
+2d2803	lea    rdx,[rbp-0x30]
+2d2807	mov    r9,r12
+2d280a	mov    rcx,rsi
+2d280d	call   0x2d07d4
+2d2812	movups xmm0,XMMWORD PTR [rax]
+2d2815	movdqu XMMWORD PTR [rbp-0x30],xmm0
+2d281a	lea    rcx,[rbp-0x20]
+2d281e	call   0x2d7638
+2d2823	mov    r8,QWORD PTR [rbp-0x30]
+2d2827	mov    r9,rax
+2d282a	mov    rdx,r12
+2d282d	mov    rcx,rsi
+2d2830	call   0x2d7328
+2d2835	mov    r8,rax
+2d2838	lea    rdx,[rbp-0x38]
+2d283c	mov    rcx,r15
+2d283f	call   0x2d7504
+2d2844	lea    r8,[rbp+0x48]
+2d2848	mov    BYTE PTR [rbp+0x48],0x1
+2d284c	mov    rdx,rax
+2d284f	mov    rcx,r14
+2d2852	call   0x2cee08
+2d2857	lea    rcx,[rbp-0x20]
+2d285b	call   0x2d49cc
+2d2860	mov    rax,r14
+2d2863	add    rsp,0x58
+2d2867	pop    r15
+2d2869	pop    r14
+2d286b	pop    r13
+2d286d	pop    r12
+2d286f	pop    rdi
+2d2870	pop    rsi
+2d2871	pop    rbx
+2d2872	pop    rbp
+2d2873	ret

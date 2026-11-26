@@ -1,0 +1,12 @@
+PASS: recovered text geometry, font snapshot, clip, alpha, edge coverage, invalid triangles, resize, lifecycle
+[C] 01_menu_and_esp: boxes=3 names=3 selected=4
+[C] 02_checkbox_esp_off: boxes=0 names=0 selected=0
+[C] 03_color_changes_esp: boxes=3 names=3 selected=4
+[C] 04_slider_filters_esp: boxes=0 names=0 selected=0
+[C] 05_hotkey_menu_hidden: boxes=4 names=4 selected=5
+[C] 06_camera_moved: boxes=4 names=4 selected=5
+[C] 07_entities_moved: boxes=4 names=4 selected=5
+[C] 08_offset_reload_changes_labels: boxes=4 names=4 selected=5
+[C] 09_small_clipped_scene: boxes=4 names=4 selected=5
+[C] 10_resized_scene: boxes=4 names=4 selected=5
+FAIL: Minimization retained slider capture across same-size restoration

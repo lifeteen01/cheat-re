@@ -1,0 +1,11 @@
+---
+IAT at: b59000, size: 1000, thunks: 8, is_terminated: 1, in_main: 1
+---
+b59000,7ffa81fd15c0,kernel32.CreateThread #277
+b59010,7ffa81fcfe60,kernel32.GetSystemTimeAsFileTime #800
+b59020,7ffa83ca5c50,kernel32.HeapAlloc #898
+b59028,7ffa81fc2e70,kernel32.HeapFree #902
+b59030,7ffa81fe1410,kernel32.FatalExit #405
+b59038,7ffa81fe28f0,kernel32.LoadLibraryA #1018
+b59040,7ffa81fdbd30,kernel32.GetModuleHandleA #680
+b59048,7ffa81fd2130,kernel32.GetProcAddress #739

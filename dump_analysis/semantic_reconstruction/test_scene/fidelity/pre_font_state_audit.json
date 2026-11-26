@@ -1,0 +1,54 @@
+{
+  "full_regression_strict": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "b613c09486933d059b8d66661fde620d43102207cf64e581d9ce4d6327648990",
+    "log_sha256": "daf870f9f943d92e4e51b01b78b74d4d643c4b135cc3c5909b679702b82a8b30"
+  },
+  "full_regression_sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "87207d39933598438e81c09f7c3034ae8b1ce2b1c953e42c2610f4e7cd4ecaab",
+    "log_sha256": "1d6c760a44a77a5d4432f9af8b73c1e85bfe3dea4766731f5cceeb4a63a6d527"
+  },
+  "original_inputs": {
+    "passed": true,
+    "entries": 135,
+    "manifest_sha256": "a106b5ad116dfc931b58d6470482a000be8e4f381f39405255e0195271ee94c2"
+  },
+  "cmake_ctest": {
+    "passed": true,
+    "inputs_current": true,
+    "record_pairing_current": true,
+    "snapshot_sha256": "21d1e1f3a64f590b0b76b04f671d44e193f3a2f741ae0fd0cb0d5a637a23a2e7",
+    "log_sha256": "96ea69f8d952ecf56bcd9c308bc64e8160f69e5bf7213e78cc031cf2913209be",
+    "artifact_sha256": "35065dcf356aae7e019341c7347cf3e980480515f3e82a668c45c8e3aefa8503"
+  },
+  "owned_verification_passed": true,
+  "semantic_fidelity": {
+    "source_95_percent_established": false,
+    "percentage": null,
+    "reason": "No complete original-source semantic denominator or matching native runtime oracle",
+    "scope": "Owned menu/ESP subset; typed camera, platform and resource boundaries are not native proof"
+  },
+  "native_windows": {
+    "validated": false
+  },
+  "inside_rust": {
+    "validated": false,
+    "game_bindings": "Needed / To do"
+  },
+  "required_inputs": {
+    "GameAssembly.dll": "Needed / To do",
+    "UnityPlayer.dll": "Needed / To do",
+    "global-metadata.dat": "Needed / To do"
+  },
+  "spoof_executor": {
+    "implemented": false,
+    "validated": false,
+    "scene_call_mode": "ordinary calls"
+  },
+  "trace_units": "Owned entry/caller/boundary counters; not original instruction coverage"
+}

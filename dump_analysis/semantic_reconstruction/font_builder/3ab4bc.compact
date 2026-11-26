@@ -1,0 +1,16 @@
+3ab4bc sub    rsp,0x48
+3ab4c0 addss  xmm1,DWORD PTR [rcx+0x10]
+3ab4c5 addss  xmm2,DWORD PTR [rcx+0x14]
+3ab4ca xor    eax,eax
+3ab4cc mov    dl,0x2
+3ab4ce mov    DWORD PTR [rsp+0x38],eax
+3ab4d2 mov    DWORD PTR [rsp+0x30],eax
+3ab4d6 mov    DWORD PTR [rsp+0x28],eax
+3ab4da cvttss2si r9d,xmm2
+3ab4df mov    DWORD PTR [rsp+0x20],eax
+3ab4e3 cvttss2si r8d,xmm1
+3ab4e8 movss  DWORD PTR [rcx+0x10],xmm1
+3ab4ed movss  DWORD PTR [rcx+0x14],xmm2
+3ab4f2 call   0x3ab558
+3ab4f7 add    rsp,0x48
+3ab4fb ret

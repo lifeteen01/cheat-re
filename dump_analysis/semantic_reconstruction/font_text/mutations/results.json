@@ -1,0 +1,26 @@
+[
+  {
+    "mutation": "outer_byte_reservation",
+    "fixture_detected": true,
+    "exit_code": 1,
+    "message": "native write outside reserved copied buffer"
+  },
+  {
+    "mutation": "colored_alpha",
+    "fixture_detected": true,
+    "exit_code": 1,
+    "message": "colored glyph keeps alpha"
+  },
+  {
+    "mutation": "rounded_reverse",
+    "fixture_detected": true,
+    "exit_code": 1,
+    "message": "rounded UV edge reuse/reversal"
+  },
+  {
+    "mutation": "NaN_horizontal_cull",
+    "fixture_detected": true,
+    "exit_code": 1,
+    "message": "unordered horizontal cull"
+  }
+]

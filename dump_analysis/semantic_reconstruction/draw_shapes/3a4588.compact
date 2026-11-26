@@ -1,0 +1,15 @@
+3a4588 mov    edx,ecx
+3a458a cmp    ecx,0xffffffff
+3a458d jne    0x3a4595
+3a458f mov    eax,0xf0
+3a4594 ret
+3a4595 lea    eax,[rcx-0x1]
+3a4598 cmp    eax,0xe
+3a459b ja     0x3a45a3
+3a459d shl    edx,0x4
+3a45a0 mov    eax,edx
+3a45a2 ret
+3a45a3 mov    eax,edx
+3a45a5 or     eax,0xf0
+3a45aa test   edx,0x1f0
+3a45b0 cmovne eax,edx

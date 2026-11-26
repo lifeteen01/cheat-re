@@ -1,0 +1,16 @@
+{
+  "strict": "GCC15.2 C++20 -Wall -Wextra -Wpedantic -Werror -D_GLIBCXX_ASSERTIONS -ffp-contract=off: PASS",
+  "sanitizers": "ASan+UBSan, static runtimes, -fno-sanitize-recover=all: PASS",
+  "checks": "check_font_text_reconstruction():50 expectation calls (51 occurrences including helper definition)",
+  "mutation_checks": "4 isolated source-copy mutations rejected",
+  "sample_execution": false,
+  "source_sha256": {
+    "source/reconstructed/font_text_analysis.hpp": "7c8130ad72695301fc4297c47fed41598a50fa6bd0d85b46b13be9bdd3c30e25",
+    "source/reconstructed/font_text_atlas.cpp": "e67b23053fd753cbc95a467b2aeee26efab0daacbb63e68ccd05ba3ad2d85b3b",
+    "source/reconstructed/font_text_checks.cpp": "6e9b57c80f7864b2d486fa4df6ba02cf5b9df52ceb833cf5118499330bb60463",
+    "source/reconstructed/font_text_controllers.cpp": "673012852959195d9dbbdefef08f93dc31901bbe31bbb15096226f1e90e06f6f",
+    "source/reconstructed/font_text_lookup.cpp": "d37af6c7fe5e673b9ff0b1e1a10cafe44004b84113ad02a0bc1d0de3dc3162d2",
+    "source/reconstructed/font_text_raster.cpp": "b275db9badd7a7410f110b232205c73bc8c79b32271c397348b7c33651c69da9",
+    "source/reconstructed/font_text_reconstruction.md": "52de1dae03b706c1a017e333aea26da1a1a5fc563fc8d8988b27fd0d33e94ff8"
+  }
+}

@@ -1,0 +1,6 @@
+2e5a44 comiss xmm1,xmm0
+2e5a47 ja     0x2e5a50
+2e5a49 movaps xmm1,xmm2
+2e5a4c minss  xmm1,xmm0
+2e5a50 movaps xmm0,xmm1
+2e5a53 ret

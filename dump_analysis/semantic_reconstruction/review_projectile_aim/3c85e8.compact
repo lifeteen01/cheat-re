@@ -1,0 +1,45 @@
+3c85e8 sub    rsp,0x48
+3c85ec xor    eax,eax
+3c85ee movaps XMMWORD PTR [rsp+0x30],xmm6
+3c85f3 movaps XMMWORD PTR [rsp+0x20],xmm7
+3c85f8 xorps  xmm1,xmm1
+3c85fb comiss xmm1,xmm0
+3c85fe xorps  xmm7,xmm7
+3c8601 seta   al
+3c8604 cvtsi2ss xmm7,eax
+3c8608 call   0x2e372c
+3c860d movsd  xmm2,QWORD PTR [rip+0xffffffffffee537b]        # 0x2ad990
+3c8615 movaps xmm6,xmm0
+3c8618 xorps  xmm1,xmm1
+3c861b cvtss2sd xmm1,xmm6
+3c861f subsd  xmm2,xmm1
+3c8623 cvtpd2ps xmm0,xmm2
+3c8627 call   0x3c8f34
+3c862c xorps  xmm2,xmm2
+3c862f addss  xmm7,xmm7
+3c8633 movaps xmm1,xmm6
+3c8636 movaps xmm4,xmm0
+3c8639 mulss  xmm1,DWORD PTR [rip+0xffffffffffee558f]        # 0x2adbd0
+3c8641 cvtss2sd xmm2,xmm1
+3c8645 addsd  xmm2,QWORD PTR [rip+0xffffffffffee5523]        # 0x2adb70
+3c864d cvtpd2ps xmm1,xmm2
+3c8651 mulss  xmm1,xmm6
+3c8655 cvtps2pd xmm3,xmm1
+3c8658 subsd  xmm3,QWORD PTR [rip+0xffffffffffee5528]        # 0x2adb88
+3c8660 cvtpd2ps xmm1,xmm3
+3c8664 mulss  xmm1,xmm6
+3c8668 movaps xmm6,XMMWORD PTR [rsp+0x30]
+3c866d cvtps2pd xmm2,xmm1
+3c8670 xorps  xmm1,xmm1
+3c8673 addsd  xmm2,QWORD PTR [rip+0xffffffffffee552d]        # 0x2adba8
+3c867b cvtpd2ps xmm0,xmm2
+3c867f movsd  xmm2,QWORD PTR [rip+0xffffffffffee5529]        # 0x2adbb0
+3c8687 mulss  xmm4,xmm0
+3c868b cvtss2sd xmm1,xmm4
+3c868f subsd  xmm2,xmm1
+3c8693 cvtpd2ps xmm0,xmm2
+3c8697 mulss  xmm7,xmm0
+3c869b subss  xmm0,xmm7
+3c869f movaps xmm7,XMMWORD PTR [rsp+0x20]
+3c86a4 add    rsp,0x48
+3c86a8 ret

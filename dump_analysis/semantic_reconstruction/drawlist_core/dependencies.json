@@ -1,0 +1,345 @@
+[
+  {
+    "target": "0x2cc340",
+    "status": "[C/I] Vec2 constructor expressed by owned position/UV values",
+    "sites": [
+      "0x3a704b",
+      "0x3a705f",
+      "0x3a7078",
+      "0x3a708c"
+    ]
+  },
+  {
+    "target": "0x2cc350",
+    "status": "[C/I] four-float constructor expressed by owned clip values",
+    "sites": [
+      "0x3a729e"
+    ]
+  },
+  {
+    "target": "0x2db3a0",
+    "status": "[C/I] zero16 constructor included in complete command zeroing",
+    "sites": [
+      "0x39f29d"
+    ]
+  },
+  {
+    "target": "0x362efc",
+    "status": "[C] signed half truncation, wrapping1.5 growth, zero\u21928 and signed max(required,candidate)",
+    "sites": [
+      "0x37a671",
+      "0x37ad18",
+      "0x37ad48",
+      "0x37add8",
+      "0x37ae68",
+      "0x37ae98",
+      "0x39ef45",
+      "0x39f049"
+    ]
+  },
+  {
+    "target": "0x37a658",
+    "status": "[C/I] Address vector push/growth",
+    "sites": [
+      "0x3a73e2"
+    ]
+  },
+  {
+    "target": "0x37a6f8",
+    "status": "[C/I]2-byte index reserve, logical-size copy; owned allocation adaptation",
+    "sites": [
+      "0x37ad22"
+    ]
+  },
+  {
+    "target": "0x37a758",
+    "status": "[C/I]8-byte reserve, logical-size copy; owned allocation adaptation",
+    "sites": [
+      "0x37a67b",
+      "0x37ad52"
+    ]
+  },
+  {
+    "target": "0x37a888",
+    "status": "[C/I]20-byte vertex reserve, logical-size copy; owned allocation adaptation",
+    "sites": [
+      "0x37ade2"
+    ]
+  },
+  {
+    "target": "0x37a9b8",
+    "status": "[C/I]16-byte clip reserve, logical-size copy; owned allocation adaptation",
+    "sites": [
+      "0x37ae72",
+      "0x39f053"
+    ]
+  },
+  {
+    "target": "0x37aa1c",
+    "status": "[C/I]56-byte command reserve, logical-size copy; owned allocation adaptation",
+    "sites": [
+      "0x37aea2",
+      "0x39ef4f"
+    ]
+  },
+  {
+    "target": "0x37ad04",
+    "status": "[C/I] uint16 index vector resize/growth",
+    "sites": [
+      "0x3a673d",
+      "0x3a7209",
+      "0x3a9290"
+    ]
+  },
+  {
+    "target": "0x37ad34",
+    "status": "[C/I]8-byte Address/Vec2 vector resize/growth",
+    "sites": [
+      "0x3a92d9",
+      "0x3a92e4"
+    ]
+  },
+  {
+    "target": "0x37adc4",
+    "status": "[C/I]20-byte vertex vector resize/growth",
+    "sites": [
+      "0x3a71ea",
+      "0x3a929b"
+    ]
+  },
+  {
+    "target": "0x37ae54",
+    "status": "[C/I]16-byte clip vector resize/growth",
+    "sites": [
+      "0x3a92ce"
+    ]
+  },
+  {
+    "target": "0x37ae84",
+    "status": "[C/I]56-byte command vector resize/growth",
+    "sites": [
+      "0x3a672c",
+      "0x3a9285"
+    ]
+  },
+  {
+    "target": "0x38a3f4",
+    "status": "[C] source-operand MAXSS preserved in clip clamp",
+    "sites": [
+      "0x3a7316",
+      "0x3a7326"
+    ]
+  },
+  {
+    "target": "0x38bb90",
+    "status": "[C/I] owned command index stride56",
+    "sites": [
+      "0x3a668a"
+    ]
+  },
+  {
+    "target": "0x38bb9c",
+    "status": "[C/I] owned channel index stride32",
+    "sites": [
+      "0x3a6649",
+      "0x3a6777"
+    ]
+  },
+  {
+    "target": "0x395158",
+    "status": "[C/I/U] optional context allocation counter increment before typed allocator(target,user,size)",
+    "sites": [
+      "0x37a718",
+      "0x37a779",
+      "0x37a8aa",
+      "0x37a9d9",
+      "0x37aa3a"
+    ]
+  },
+  {
+    "target": "0x39517c",
+    "status": "[C/I/U] nonnull optional-context counter decrement; null still calls typed free(target,user,object)",
+    "sites": [
+      "0x37a73b",
+      "0x37a79d",
+      "0x37a8d2",
+      "0x37a9fd",
+      "0x37aa5e"
+    ]
+  },
+  {
+    "target": "0x39e324",
+    "status": "[C/I] last command index(size-1) stride56; underflow stops analysis",
+    "sites": [
+      "0x3a6616",
+      "0x3a6659",
+      "0x3a6667",
+      "0x3a66d9",
+      "0x3a67d3"
+    ]
+  },
+  {
+    "target": "0x39eea0",
+    "status": "[C/I] wrapping logical command/vector decrement; underflow stops analysis",
+    "sites": [
+      "0x3a6676",
+      "0x3a6e98",
+      "0x3a8e0d",
+      "0x3a8e9c",
+      "0x3a9247"
+    ]
+  },
+  {
+    "target": "0x39ef2c",
+    "status": "[C/I] growth then exact56-byte command append",
+    "sites": [
+      "0x39fd5d",
+      "0x3a9301"
+    ]
+  },
+  {
+    "target": "0x39f030",
+    "status": "[C/I]16-byte clip vector push/growth",
+    "sites": [
+      "0x3a7338"
+    ]
+  },
+  {
+    "target": "0x39f294",
+    "status": "[C] zero all56 command bytes",
+    "sites": [
+      "0x39fd26",
+      "0x3a92f6"
+    ]
+  },
+  {
+    "target": "0x39fd18",
+    "status": "[C/I] zero native command, copy28-byte header, current index offset, append",
+    "sites": [
+      "0x3a67e1",
+      "0x3a682b",
+      "0x3a8152",
+      "0x3a8dcf",
+      "0x3a8e5a",
+      "0x3a8ed8"
+    ]
+  },
+  {
+    "target": "0x3a3c30",
+    "status": "[C] splitter current0/count1",
+    "sites": [
+      "0x3a92ec"
+    ]
+  },
+  {
+    "target": "0x3a65c4",
+    "status": "[C/I] full channel0 switch/trim, header/callback merge, offset rewrite, ordered concatenation/header repair",
+    "sites": [
+      "0x3a927b"
+    ]
+  },
+  {
+    "target": "0x3a6e84",
+    "status": "[C/I] texture stack pop, empty\u21920/header/change",
+    "sites": [
+      "0x3a01e1"
+    ]
+  },
+  {
+    "target": "0x3a7020",
+    "status": "[C/I] exact4 vertices position/UV/color and6 low16 indices, write-cursor/current-index updates",
+    "sites": [
+      "0x3a01d4"
+    ]
+  },
+  {
+    "target": "0x3a719c",
+    "status": "[C/I] unsigned wrapping threshold65536/flag8 vertex offset rollover, ordered command/count/cursors",
+    "sites": [
+      "0x3a01ad"
+    ]
+  },
+  {
+    "target": "0x3a73c4",
+    "status": "[C/I] texture stack push/header/change controller",
+    "sites": [
+      "0x3a019c"
+    ]
+  },
+  {
+    "target": "0x3a8094",
+    "status": "[C/I] descriptor save/load with shared allocation, current channel/index cursor/header repair",
+    "sites": [
+      "0x3a65f0"
+    ]
+  },
+  {
+    "target": "0x3a8d94",
+    "status": "[C/I] full clip change/bitwise header match/contiguous-command merge and callback guard",
+    "sites": [
+      "0x3a735b"
+    ]
+  },
+  {
+    "target": "0x3a8e28",
+    "status": "[C/I] full texture change/header match/contiguous-command merge and callback guard",
+    "sites": [
+      "0x3a6ec3",
+      "0x3a73fb"
+    ]
+  },
+  {
+    "target": "0x3a8ec0",
+    "status": "[C/I] zero current vertex and append/update vertex offset",
+    "sites": [
+      "0x3a71cc"
+    ]
+  },
+  {
+    "target": "0x3a9220",
+    "status": "[C/I] trim trailing zero-element/no-callback commands",
+    "sites": [
+      "0x3a65f8"
+    ]
+  },
+  {
+    "target": "0x3a93cc",
+    "status": "[C/I] arbitrary-position command erase by overlap shift and decrement",
+    "sites": [
+      "0x3a66c7"
+    ]
+  },
+  {
+    "target": "0x3a9908",
+    "status": "[C/I] logical vector size assignment; malformed sizes stop analysis",
+    "sites": [
+      "0x3a724c",
+      "0x3a7263"
+    ]
+  },
+  {
+    "target": "0x3c8d14",
+    "status": "[I/U] host memcmp/memmove implements reached equality/overlap copying; full CRT body not credited",
+    "sites": [
+      "0x3a669e",
+      "0x3a681f",
+      "0x3a8146",
+      "0x3a8deb",
+      "0x3a8e7a"
+    ]
+  },
+  {
+    "target": "0x3c8d4c",
+    "status": "[I/U] host memcmp/memmove implements reached equality/overlap copying; full CRT body not credited",
+    "sites": [
+      "0x37a732",
+      "0x37a794",
+      "0x37a8c9",
+      "0x37a9f4",
+      "0x37aa55",
+      "0x3a6795",
+      "0x3a67b5",
+      "0x3a9415"
+    ]
+  }
+]

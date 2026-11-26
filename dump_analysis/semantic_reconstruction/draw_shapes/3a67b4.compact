@@ -1,0 +1,74 @@
+3a67b4 ret
+3a67b5 call   0x3c8d4c
+3a67ba add    r15,rbx
+3a67bd inc    r14d
+3a67c0 cmp    r14d,DWORD PTR [rbp+0x4]
+3a67c4 jl     0x3a6770
+3a67c6 xor    ebx,ebx
+3a67c8 mov    QWORD PTR [rdi+0x50],r15
+3a67cc cmp    DWORD PTR [rdi],ebx
+3a67ce je     0x3a67de
+3a67d0 mov    rcx,rdi
+3a67d3 call   0x39e324
+3a67d8 cmp    QWORD PTR [rax+0x28],rbx
+3a67dc je     0x3a67e6
+3a67de mov    rcx,rdi
+3a67e1 call   0x39fd18
+3a67e6 movsxd rax,DWORD PTR [rdi]
+3a67e9 lea    rdx,[rdi+0x88]
+3a67f0 imul   rcx,rax,0x38
+3a67f4 mov    rax,QWORD PTR [rdi+0x8]
+3a67f8 lea    r9,[rcx+rax*1]
+3a67fc cmp    DWORD PTR [rcx+rax*1-0x18],ebx
+3a6800 jne    0x3a6815
+3a6802 movups xmm0,XMMWORD PTR [rdx]
+3a6805 movups XMMWORD PTR [r9-0x38],xmm0
+3a680a movups xmm1,XMMWORD PTR [rdx+0xc]
+3a680e movups XMMWORD PTR [r9-0x2c],xmm1
+3a6813 jmp    0x3a6830
+3a6815 mov    r8d,0x1c
+3a681b lea    rcx,[r9-0x38]
+3a681f call   0x3c8d14
+3a6824 test   eax,eax
+3a6826 je     0x3a6830
+3a6828 mov    rcx,rdi
+3a682b call   0x39fd18
+3a6830 mov    DWORD PTR [rbp+0x4],0x1
+3a6837 mov    rbx,QWORD PTR [rsp+0x70]
+3a683c add    rsp,0x20
+3a6840 pop    r15
+3a6842 pop    r14
+3a6844 pop    r13
+3a6846 pop    r12
+3a6848 pop    rdi
+3a6849 pop    rsi
+3a684a pop    rbp
+3a684b ret
+3a684c mov    rax,rsp
+3a684f push   rbx
+3a6850 push   rbp
+3a6851 push   rsi
+3a6852 push   rdi
+3a6853 push   r12
+3a6855 push   r14
+3a6857 push   r15
+3a6859 sub    rsp,0x90
+3a6860 movss  xmm0,DWORD PTR [rip+0xffffffffffee69e8]        # 0x28d250
+3a6868 mov    rdi,rdx
+3a686b movaps XMMWORD PTR [rax-0x48],xmm6
+3a686f mov    rsi,rcx
+3a6872 movaps XMMWORD PTR [rax-0x58],xmm7
+3a6876 movaps XMMWORD PTR [rax-0x68],xmm8
+3a687b movaps XMMWORD PTR [rax-0x78],xmm9
+3a6880 movaps xmm9,xmm2
+3a6884 comiss xmm0,xmm9
+3a6888 movaps XMMWORD PTR [rsp+0x40],xmm10
+3a688e movaps xmm10,xmm3
+3a6892 jbe    0x3a689d
+3a6894 add    rcx,0x78
+3a6898 jmp    0x3a6a94
+3a689d mov    eax,DWORD PTR [rsp+0xf8]
+3a68a4 test   eax,eax
+3a68a6 jle    0x3a68c0
+3a68a8 movss  xmm0,DWORD PTR [rsp+0xf0]
+3a68b1 mov    DWORD PTR [rsp+0x28],eax

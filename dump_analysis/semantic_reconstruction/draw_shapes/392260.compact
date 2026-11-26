@@ -1,0 +1,11 @@
+392260 sub    rsp,0x38
+392264 movdqu xmm0,XMMWORD PTR [rcx]
+392268 mov    rax,QWORD PTR [rip+0x738b9]        # 0x405b28
+39226f lea    rcx,[rsp+0x20]
+392274 movups XMMWORD PTR [rsp+0x20],xmm0
+392279 shufps xmm0,xmm0,0xff
+39227d mulss  xmm0,DWORD PTR [rax+0x37d0]
+392285 movss  DWORD PTR [rsp+0x2c],xmm0
+39228b call   0x39045c
+392290 add    rsp,0x38
+392294 ret

@@ -1,0 +1,2 @@
+Compile reverted_I2.cpp
+PASS isolated reversion I2 rejected: checks_I2: /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/review_interaction/patched_interaction_workers_checks.cpp:139: void rust_internal_re::check_interaction_workers_reconstruction(): Assertion `(result.status==InteractionStatus::snapshot_bounds&& !f.number(0x2e6a84))&&"I2 transfer UID read precedes category rejection"' failed.

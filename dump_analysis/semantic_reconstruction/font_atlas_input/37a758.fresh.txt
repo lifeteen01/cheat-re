@@ -1,0 +1,28 @@
+37a758 mov    QWORD PTR [rsp+0x8],rbx
+37a75d mov    QWORD PTR [rsp+0x10],rsi
+37a762 push   rdi
+37a763 sub    rsp,0x20
+37a767 movsxd rdi,edx
+37a76a mov    rbx,rcx
+37a76d cmp    edi,DWORD PTR [rcx+0x4]
+37a770 jle    0x37a7a9
+37a772 mov    rcx,rdi
+37a775 shl    rcx,0x3
+37a779 call   0x395158
+37a77e mov    rdx,QWORD PTR [rbx+0x8]
+37a782 mov    rsi,rax
+37a785 test   rdx,rdx
+37a788 je     0x37a7a2
+37a78a movsxd r8,DWORD PTR [rbx]
+37a78d mov    rcx,rax
+37a790 shl    r8,0x3
+37a794 call   0x3c8d4c
+37a799 mov    rcx,QWORD PTR [rbx+0x8]
+37a79d call   0x39517c
+37a7a2 mov    QWORD PTR [rbx+0x8],rsi
+37a7a6 mov    DWORD PTR [rbx+0x4],edi
+37a7a9 mov    rbx,QWORD PTR [rsp+0x30]
+37a7ae mov    rsi,QWORD PTR [rsp+0x38]
+37a7b3 add    rsp,0x20
+37a7b7 pop    rdi
+37a7b8 ret

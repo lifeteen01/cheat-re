@@ -1,0 +1,167 @@
+3abdc8 test   r8d,r8d
+3abdcb jle    0x3abfd0
+3abdd1 push   rbp
+3abdd2 push   rbx
+3abdd3 push   rsi
+3abdd4 push   rdi
+3abdd5 push   r12
+3abdd7 push   r13
+3abdd9 push   r14
+3abddb push   r15
+3abddd mov    rbp,rsp
+3abde0 sub    rsp,0x38
+3abde4 mov    r14d,DWORD PTR [rbp+0x68]
+3abde8 mov    ebx,edx
+3abdea sub    ebx,r14d
+3abded mov    QWORD PTR [rbp-0x18],0x0
+3abdf4 
+3abdf5 mov    esi,r8d
+3abdf8 movsxd r12,r9d
+3abdfb mov    r15d,edx
+3abdfe mov    rdi,rcx
+3abe01 mov    r8,r14
+3abe04 lea    rcx,[rbp-0x18]
+3abe08 xor    edx,edx
+3abe0a call   0x3c8d70
+3abe0f xor    r10d,r10d
+3abe12 mov    eax,r14d
+3abe15 sub    eax,0x2
+3abe18 je     0x3abf52
+3abe1e sub    eax,0x1
+3abe21 je     0x3abf0b
+3abe27 sub    eax,0x1
+3abe2a je     0x3abec5
+3abe30 xor    r9d,r9d
+3abe33 cmp    eax,0x1
+3abe36 je     0x3abe7d
+3abe38 test   ebx,ebx
+3abe3a js     0x3abfaf
+3abe40 movsxd rax,r9d
+3abe43 lea    r8,[rdi+rax*1]
+3abe47 and    eax,0x7
+3abe4a movzx  edx,BYTE PTR [r8]
+3abe4e mov    ecx,edx
+3abe50 movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3abe55 sub    ecx,eax
+3abe57 lea    eax,[r9+r14*1]
+3abe5b and    eax,0x7
+3abe5e add    r10d,ecx
+3abe61 inc    r9d
+3abe64 mov    BYTE PTR [rbp+rax*1-0x18],dl
+3abe68 xor    edx,edx
+3abe6a mov    eax,r10d
+3abe6d div    r14d
+3abe70 mov    BYTE PTR [r8],al
+3abe73 cmp    r9d,ebx
+3abe76 jle    0x3abe40
+3abe78 jmp    0x3abfaf
+3abe7d test   ebx,ebx
+3abe7f js     0x3abfaf
+3abe85 movsxd rax,r9d
+3abe88 lea    r8,[rdi+rax*1]
+3abe8c and    eax,0x7
+3abe8f movzx  edx,BYTE PTR [r8]
+3abe93 mov    ecx,edx
+3abe95 movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3abe9a sub    ecx,eax
+3abe9c lea    eax,[r9+0x5]
+3abea0 and    eax,0x7
+3abea3 add    r10d,ecx
+3abea6 inc    r9d
+3abea9 mov    BYTE PTR [rbp+rax*1-0x18],dl
+3abead mov    eax,0xcccccccd
+3abeb2 mul    r10d
+3abeb5 shr    edx,0x2
+3abeb8 mov    BYTE PTR [r8],dl
+3abebb cmp    r9d,ebx
+3abebe jle    0x3abe85
+3abec0 jmp    0x3abfaf
+3abec5 xor    r9d,r9d
+3abec8 test   ebx,ebx
+3abeca js     0x3abfaf
+3abed0 movsxd rax,r9d
+3abed3 lea    r8,[rdi+rax*1]
+3abed7 and    eax,0x7
+3abeda movzx  edx,BYTE PTR [r8]
+3abede mov    ecx,edx
+3abee0 movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3abee5 sub    ecx,eax
+3abee7 lea    eax,[r9+0x4]
+3abeeb and    eax,0x7
+3abeee add    r10d,ecx
+3abef1 inc    r9d
+3abef4 mov    BYTE PTR [rbp+rax*1-0x18],dl
+3abef8 mov    eax,r10d
+3abefb shr    eax,0x2
+3abefe mov    BYTE PTR [r8],al
+3abf01 cmp    r9d,ebx
+3abf04 jle    0x3abed0
+3abf06 jmp    0x3abfaf
+3abf0b xor    r9d,r9d
+3abf0e test   ebx,ebx
+3abf10 js     0x3abfaf
+3abf16 movsxd rax,r9d
+3abf19 lea    r8,[rdi+rax*1]
+3abf1d and    eax,0x7
+3abf20 movzx  edx,BYTE PTR [r8]
+3abf24 mov    ecx,edx
+3abf26 movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3abf2b sub    ecx,eax
+3abf2d lea    eax,[r9+0x3]
+3abf31 and    eax,0x7
+3abf34 add    r10d,ecx
+3abf37 inc    r9d
+3abf3a mov    BYTE PTR [rbp+rax*1-0x18],dl
+3abf3e mov    eax,0xaaaaaaab
+3abf43 mul    r10d
+3abf46 shr    edx,1
+3abf48 mov    BYTE PTR [r8],dl
+3abf4b cmp    r9d,ebx
+3abf4e jle    0x3abf16
+3abf50 jmp    0x3abfaf
+3abf52 xor    r9d,r9d
+3abf55 test   ebx,ebx
+3abf57 js     0x3abfaf
+3abf59 movsxd rax,r9d
+3abf5c lea    r8,[rdi+rax*1]
+3abf60 and    eax,0x7
+3abf63 movzx  edx,BYTE PTR [r8]
+3abf67 mov    ecx,edx
+3abf69 movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3abf6e sub    ecx,eax
+3abf70 lea    eax,[r9+0x2]
+3abf74 and    eax,0x7
+3abf77 add    r10d,ecx
+3abf7a inc    r9d
+3abf7d mov    BYTE PTR [rbp+rax*1-0x18],dl
+3abf81 mov    eax,r10d
+3abf84 shr    eax,1
+3abf86 mov    BYTE PTR [r8],al
+3abf89 cmp    r9d,ebx
+3abf8c jle    0x3abf59
+3abf8e jmp    0x3abfaf
+3abf90 movsxd rcx,r9d
+3abf93 xor    edx,edx
+3abf95 mov    rax,rcx
+3abf98 and    eax,0x7
+3abf9b movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3abfa0 sub    r10d,eax
+3abfa3 mov    eax,r10d
+3abfa6 div    r14d
+3abfa9 inc    r9d
+3abfac mov    BYTE PTR [rdi+rcx*1],al
+3abfaf cmp    r9d,r15d
+3abfb2 jl     0x3abf90
+3abfb4 add    rdi,r12
+3abfb7 sub    esi,0x1
+3abfba jne    0x3abe01
+3abfc0 add    rsp,0x38
+3abfc4 pop    r15
+3abfc6 pop    r14
+3abfc8 pop    r13
+3abfca pop    r12
+3abfcc pop    rdi
+3abfcd pop    rsi
+3abfce pop    rbx
+3abfcf pop    rbp
+3abfd0 ret

@@ -1,0 +1,1590 @@
+[
+  {
+    "target": "0x2cad38",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccd83",
+      "0x2ccd92"
+    ]
+  },
+  {
+    "target": "0x2cae08",
+    "status": "[C/I/U] full signature C0505EDA target/context cache; matching dimension leaf required",
+    "sites": [
+      "0x2cce25"
+    ]
+  },
+  {
+    "target": "0x2cae88",
+    "status": "[C/I/U] full signature3A81CD35 target/context cache; matching dimension leaf required",
+    "sites": [
+      "0x2cce16"
+    ]
+  },
+  {
+    "target": "0x2caf08",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc96a",
+      "0x2ccc1e"
+    ]
+  },
+  {
+    "target": "0x2caf28",
+    "status": "[C/I/U] full export-named load cache and managed-string conversion order; matching Unity leaf required",
+    "sites": [
+      "0x2ccdfa"
+    ]
+  },
+  {
+    "target": "0x2cb3a4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2eec9c"
+    ]
+  },
+  {
+    "target": "0x2cb9fc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cae80",
+      "0x2caf00",
+      "0x2cccf7",
+      "0x2cd867",
+      "0x2ceaf7"
+    ]
+  },
+  {
+    "target": "0x2cba50",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cb03b"
+    ]
+  },
+  {
+    "target": "0x2cbc08",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc9e5",
+      "0x2cca25"
+    ]
+  },
+  {
+    "target": "0x2cbc80",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc99a"
+    ]
+  },
+  {
+    "target": "0x2cbce8",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc92c"
+    ]
+  },
+  {
+    "target": "0x2cbd24",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cae65",
+      "0x2caee5",
+      "0x2cb015",
+      "0x2ccce1",
+      "0x2cd84c",
+      "0x2ceadc",
+      "0x375cf4"
+    ]
+  },
+  {
+    "target": "0x2cc16c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ceaa0"
+    ]
+  },
+  {
+    "target": "0x2cc174",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cd810"
+    ]
+  },
+  {
+    "target": "0x2cc2cc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc9d2",
+      "0x2cca12",
+      "0x2ccd74"
+    ]
+  },
+  {
+    "target": "0x2cc330",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc9a3"
+    ]
+  },
+  {
+    "target": "0x2cc340",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccac5",
+      "0x2ccadb",
+      "0x2ccafb",
+      "0x2ccb18",
+      "0x361806",
+      "0x36185b",
+      "0x3618be",
+      "0x361921",
+      "0x361984",
+      "0x3619eb",
+      "0x361a52",
+      "0x361ab9",
+      "0x361b20",
+      "0x361d77",
+      "0x361dcc",
+      "0x361e2b",
+      "0x361e8a",
+      "0x361ee9",
+      "0x361f4c",
+      "0x361faf",
+      "0x362012",
+      "0x362075",
+      "0x38f7de",
+      "0x3a3802",
+      "0x3a383f",
+      "0x3a38df",
+      "0x3a4ff4",
+      "0x3a513d",
+      "0x3a5181",
+      "0x3a5270",
+      "0x3a5287",
+      "0x3a535d",
+      "0x3a5648",
+      "0x3a56b2",
+      "0x3a704b",
+      "0x3a705f",
+      "0x3a7078",
+      "0x3a708c"
+    ]
+  },
+  {
+    "target": "0x2cc350",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a51d1",
+      "0x3a55d2",
+      "0x3a5906",
+      "0x3a729e"
+    ]
+  },
+  {
+    "target": "0x2cc4f4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc9ee",
+      "0x2cca2e",
+      "0x2ccd9b",
+      "0x2ccda4",
+      "0x2cce58"
+    ]
+  },
+  {
+    "target": "0x2cc534",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc944"
+    ]
+  },
+  {
+    "target": "0x2cc54c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc951",
+      "0x2cca37"
+    ]
+  },
+  {
+    "target": "0x2cc5d8",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cafb0"
+    ]
+  },
+  {
+    "target": "0x2cc64c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccc80"
+    ]
+  },
+  {
+    "target": "0x2cc66c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccd60"
+    ]
+  },
+  {
+    "target": "0x2cc6cc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2caf96"
+    ]
+  },
+  {
+    "target": "0x2cc6e4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccc66"
+    ]
+  },
+  {
+    "target": "0x2cc700",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccd48"
+    ]
+  },
+  {
+    "target": "0x2cc730",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2caf7c"
+    ]
+  },
+  {
+    "target": "0x2cc738",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccc4c"
+    ]
+  },
+  {
+    "target": "0x2cc754",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccdc9"
+    ]
+  },
+  {
+    "target": "0x2cc78c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2caf5f"
+    ]
+  },
+  {
+    "target": "0x2cc7a8",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccdb1"
+    ]
+  },
+  {
+    "target": "0x2cc8ac",
+    "status": "[C/I] bundle nonzero/implicit predicate",
+    "sites": [
+      "0x2ccb72"
+    ]
+  },
+  {
+    "target": "0x2cca48",
+    "status": "[C/I/U] positive requested square/default dimensions, half extents, actual image request",
+    "sites": [
+      "0x2cc988"
+    ]
+  },
+  {
+    "target": "0x2ccb6c",
+    "status": "[C/I/U] one-attempt embedded bundle load at35c0 length21514e; actual Unity effect required",
+    "sites": [
+      "0x2ccd33"
+    ]
+  },
+  {
+    "target": "0x2ccbdc",
+    "status": "[C/I/U] concrete class resolution then guarded class-type/runtime-type chain; matching exports required",
+    "sites": [
+      "0x2ccddc"
+    ]
+  },
+  {
+    "target": "0x2ccc0c",
+    "status": "[C/I/U] complete range gate/exact-count metadata cache/target/context flag ordering; detection-only context; matching Unity leaf required",
+    "sites": [
+      "0x2cc8bc",
+      "0x2cc976",
+      "0x2ccbbf",
+      "0x2cce0a"
+    ]
+  },
+  {
+    "target": "0x2ccd14",
+    "status": "[C/I/U] complete path/type/load/validity/two-dimension/read/write ordering; matching Unity effects required",
+    "sites": [
+      "0x2cc9af"
+    ]
+  },
+  {
+    "target": "0x2cd050",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a5314",
+      "0x3a5674"
+    ]
+  },
+  {
+    "target": "0x2cd324",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2eec8f"
+    ]
+  },
+  {
+    "target": "0x2cd7ec",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccde8",
+      "0x3617a1",
+      "0x36182e",
+      "0x361899",
+      "0x3618fc",
+      "0x36195f",
+      "0x3619c2",
+      "0x361a29",
+      "0x361a90",
+      "0x361af7",
+      "0x361b5e",
+      "0x361d38",
+      "0x361d9f",
+      "0x361e06",
+      "0x361e65",
+      "0x361ec4",
+      "0x361f23",
+      "0x361f86",
+      "0x361fe9",
+      "0x36204c",
+      "0x3620af"
+    ]
+  },
+  {
+    "target": "0x2cd7f4",
+    "status": "[U] parent class_get_type export wrapper",
+    "sites": [
+      "0x2ccbed"
+    ]
+  },
+  {
+    "target": "0x2cdca4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2caf84"
+    ]
+  },
+  {
+    "target": "0x2cdccc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccd50"
+    ]
+  },
+  {
+    "target": "0x2cdcf4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccc88"
+    ]
+  },
+  {
+    "target": "0x2cdd44",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccdd1",
+      "0x2f7533"
+    ]
+  },
+  {
+    "target": "0x2cdd6c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2caf9e"
+    ]
+  },
+  {
+    "target": "0x2cdd94",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccd68"
+    ]
+  },
+  {
+    "target": "0x2cde0c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2caf67",
+      "0x2cafb8"
+    ]
+  },
+  {
+    "target": "0x2cde34",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccc54",
+      "0x2ccc6e",
+      "0x2ccdb9",
+      "0x2f724b"
+    ]
+  },
+  {
+    "target": "0x2cde84",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cc938"
+    ]
+  },
+  {
+    "target": "0x2ce5dc",
+    "status": "[U] parent managed-string conversion wrapper dependency",
+    "sites": [
+      "0x2cb01d"
+    ]
+  },
+  {
+    "target": "0x2ce718",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ce5dc"
+    ]
+  },
+  {
+    "target": "0x2cea84",
+    "status": "[U] parent type_get_object export wrapper",
+    "sites": [
+      "0x2ccbfe"
+    ]
+  },
+  {
+    "target": "0x2ceb10",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2eecab"
+    ]
+  },
+  {
+    "target": "0x2cef38",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f6206",
+      "0x2f7256",
+      "0x2f73c2",
+      "0x2f753e",
+      "0x2f76e6",
+      "0x2f7922"
+    ]
+  },
+  {
+    "target": "0x2d0a44",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ee0f4",
+      "0x2ee104",
+      "0x2ee170",
+      "0x2ee180",
+      "0x2ee1ec",
+      "0x2ee1fc",
+      "0x2ee268",
+      "0x2ee278",
+      "0x2ee2e4",
+      "0x2ee2f4",
+      "0x2ee360",
+      "0x2ee370"
+    ]
+  },
+  {
+    "target": "0x2d182c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ee13a",
+      "0x2ee1b6",
+      "0x2ee232",
+      "0x2ee2ae",
+      "0x2ee32a",
+      "0x2ee3a6"
+    ]
+  },
+  {
+    "target": "0x2d4194",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2db3fc",
+      "0x2db48d"
+    ]
+  },
+  {
+    "target": "0x2d4870",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a4b9d",
+      "0x3a4baa",
+      "0x3a554d",
+      "0x3a5556",
+      "0x3a58b1",
+      "0x3a58bd"
+    ]
+  },
+  {
+    "target": "0x2d9ab0",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2eecdb"
+    ]
+  },
+  {
+    "target": "0x2db318",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x36181f",
+      "0x361d90"
+    ]
+  },
+  {
+    "target": "0x2db3a0",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x38a4bc",
+      "0x38a4c5",
+      "0x38a4ce",
+      "0x38a4d7",
+      "0x38a4e0",
+      "0x38a4e9",
+      "0x39f29d"
+    ]
+  },
+  {
+    "target": "0x2db3ec",
+    "status": "[C/I] copies key,side20,raw24..2b,byte2c into owned record",
+    "sites": [
+      "0x2db480"
+    ]
+  },
+  {
+    "target": "0x2e9c54",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f61fb",
+      "0x2f73b7",
+      "0x2f76db",
+      "0x2f7917"
+    ]
+  },
+  {
+    "target": "0x2eecfc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x38a4f5"
+    ]
+  },
+  {
+    "target": "0x2ef7dc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3614ac",
+      "0x3614c4"
+    ]
+  },
+  {
+    "target": "0x2ef80c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x36183a",
+      "0x3618a5",
+      "0x361908",
+      "0x36196b",
+      "0x3619ce",
+      "0x361a35",
+      "0x361a9c",
+      "0x361b03",
+      "0x361b6a",
+      "0x361dab",
+      "0x361e12",
+      "0x361e71",
+      "0x361ed0",
+      "0x361f2f",
+      "0x361f92",
+      "0x361ff5",
+      "0x362058",
+      "0x3620bb"
+    ]
+  },
+  {
+    "target": "0x2ef9d8",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x392e68"
+    ]
+  },
+  {
+    "target": "0x2f20e0",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f61f3"
+    ]
+  },
+  {
+    "target": "0x2f20fc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f7243"
+    ]
+  },
+  {
+    "target": "0x2f2118",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f73af"
+    ]
+  },
+  {
+    "target": "0x2f2134",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f752b"
+    ]
+  },
+  {
+    "target": "0x2f2150",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f76d3"
+    ]
+  },
+  {
+    "target": "0x2f216c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2f790f"
+    ]
+  },
+  {
+    "target": "0x2f61e0",
+    "status": "[C/I] literal Indicator3 predicate; encoded literal storage replaced by decoded value",
+    "sites": [
+      "0x2ee118"
+    ]
+  },
+  {
+    "target": "0x2f7230",
+    "status": "[C/I] literal DisplayName predicate",
+    "sites": [
+      "0x2ee194"
+    ]
+  },
+  {
+    "target": "0x2f739c",
+    "status": "[C/I] literal HeldEntity predicate",
+    "sites": [
+      "0x2ee210"
+    ]
+  },
+  {
+    "target": "0x2f7518",
+    "status": "[C/I] literal Indicator predicate",
+    "sites": [
+      "0x2ee28c"
+    ]
+  },
+  {
+    "target": "0x2f76c0",
+    "status": "[C/I] literal Indicator0 predicate",
+    "sites": [
+      "0x2ee308"
+    ]
+  },
+  {
+    "target": "0x2f78fc",
+    "status": "[C/I] literal Indicator2 predicate",
+    "sites": [
+      "0x2ee384"
+    ]
+  },
+  {
+    "target": "0x32b1c8",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375d0f"
+    ]
+  },
+  {
+    "target": "0x333bf4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cafd9"
+    ]
+  },
+  {
+    "target": "0x333d10",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2cae29",
+      "0x2caea9"
+    ]
+  },
+  {
+    "target": "0x334224",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccbe0",
+      "0x2ccc93"
+    ]
+  },
+  {
+    "target": "0x334a90",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x2ccca5"
+    ]
+  },
+  {
+    "target": "0x35d200",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x36138d",
+      "0x361bff"
+    ]
+  },
+  {
+    "target": "0x35d220",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3613c5",
+      "0x3613e5",
+      "0x3613fd",
+      "0x36141a",
+      "0x361437",
+      "0x361454",
+      "0x3614d0",
+      "0x3614f6",
+      "0x36150e",
+      "0x36152b",
+      "0x361548",
+      "0x361565",
+      "0x3615d1",
+      "0x3615f1",
+      "0x361609",
+      "0x361626",
+      "0x361643",
+      "0x361660",
+      "0x3616cc",
+      "0x3616ec",
+      "0x361704",
+      "0x361721",
+      "0x36173e",
+      "0x36175b",
+      "0x361c23",
+      "0x361c48",
+      "0x361c6d",
+      "0x361c8f",
+      "0x361cb1",
+      "0x361cd3"
+    ]
+  },
+  {
+    "target": "0x35d31c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x361d21"
+    ]
+  },
+  {
+    "target": "0x362efc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x37a671",
+      "0x39ef45",
+      "0x39f049"
+    ]
+  },
+  {
+    "target": "0x375770",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375c4d"
+    ]
+  },
+  {
+    "target": "0x375900",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375d1e"
+    ]
+  },
+  {
+    "target": "0x375930",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375c45"
+    ]
+  },
+  {
+    "target": "0x3759cc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375c28"
+    ]
+  },
+  {
+    "target": "0x375a54",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375ca8"
+    ]
+  },
+  {
+    "target": "0x375c08",
+    "status": "[U] parent Unity embedded bundle wrapper; consume existing implementation",
+    "sites": [
+      "0x2ccbaf"
+    ]
+  },
+  {
+    "target": "0x375ee4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375c5b"
+    ]
+  },
+  {
+    "target": "0x37600c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375c30"
+    ]
+  },
+  {
+    "target": "0x37605c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375cb0"
+    ]
+  },
+  {
+    "target": "0x376154",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x375cb8"
+    ]
+  },
+  {
+    "target": "0x3762ac",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a57e6",
+      "0x3a5809"
+    ]
+  },
+  {
+    "target": "0x3762cc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a32c2",
+      "0x3a32d8",
+      "0x3a53b2",
+      "0x3a5706"
+    ]
+  },
+  {
+    "target": "0x37897c",
+    "status": "[C] blank bytes20,9",
+    "sites": [
+      "0x3a3a7f"
+    ]
+  },
+  {
+    "target": "0x379578",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a3410",
+      "0x3a341c"
+    ]
+  },
+  {
+    "target": "0x37a658",
+    "status": "[U] texture Address-vector push/grow",
+    "sites": [
+      "0x3a73e2"
+    ]
+  },
+  {
+    "target": "0x37a758",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x37a67b"
+    ]
+  },
+  {
+    "target": "0x37a9b8",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x39f053"
+    ]
+  },
+  {
+    "target": "0x37aa1c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x39ef4f"
+    ]
+  },
+  {
+    "target": "0x37ad04",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a673d",
+      "0x3a7209",
+      "0x3a9290"
+    ]
+  },
+  {
+    "target": "0x37ad34",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a92d9",
+      "0x3a92e4"
+    ]
+  },
+  {
+    "target": "0x37ad94",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a34de"
+    ]
+  },
+  {
+    "target": "0x37adc4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a71ea",
+      "0x3a929b"
+    ]
+  },
+  {
+    "target": "0x37ae54",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a92ce"
+    ]
+  },
+  {
+    "target": "0x37ae84",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a672c",
+      "0x3a9285"
+    ]
+  },
+  {
+    "target": "0x38019c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3939e4"
+    ]
+  },
+  {
+    "target": "0x38a3f4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a3296",
+      "0x3a32ac",
+      "0x3a39b0",
+      "0x3a5387",
+      "0x3a53a2",
+      "0x3a56db",
+      "0x3a56f6",
+      "0x3a7316",
+      "0x3a7326"
+    ]
+  },
+  {
+    "target": "0x38a4ac",
+    "status": "[C/I] full constructor observable writes: zero c8 then shared-data pointer+38",
+    "sites": [
+      "0x392e21"
+    ]
+  },
+  {
+    "target": "0x38a528",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x38a501"
+    ]
+  },
+  {
+    "target": "0x38bb6c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x392e0d"
+    ]
+  },
+  {
+    "target": "0x38bb78",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a3457",
+      "0x3a3533",
+      "0x3a364f",
+      "0x3a365e"
+    ]
+  },
+  {
+    "target": "0x38bb84",
+    "status": "[C] signed32 index*8 added to vector+8",
+    "sites": [
+      "0x3921ac",
+      "0x3a4c75",
+      "0x3a4c88"
+    ]
+  },
+  {
+    "target": "0x38bb90",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a668a"
+    ]
+  },
+  {
+    "target": "0x38bb9c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a4b78",
+      "0x3a5296",
+      "0x3a561b",
+      "0x3a6649",
+      "0x3a6777"
+    ]
+  },
+  {
+    "target": "0x38bbdc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a5151",
+      "0x3a5195"
+    ]
+  },
+  {
+    "target": "0x38c6cc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x392177"
+    ]
+  },
+  {
+    "target": "0x391c50",
+    "status": "[C/I] first NUL or ## cutoff before supplied end",
+    "sites": [
+      "0x38f7c6"
+    ]
+  },
+  {
+    "target": "0x392164",
+    "status": "[C/I] literal ##Background and index0",
+    "sites": [
+      "0x3921b8"
+    ]
+  },
+  {
+    "target": "0x392198",
+    "status": "[C/I] first viewport lookup and background draw-list dispatch; NOT a font selector",
+    "sites": [
+      "0x2ccaa1"
+    ]
+  },
+  {
+    "target": "0x392dcc",
+    "status": "[C/I/U] full lazy draw-list/create/reset/texture/clip/frame controller; local callees tracked separately",
+    "sites": [
+      "0x39218c"
+    ]
+  },
+  {
+    "target": "0x39357c",
+    "status": "[C] full literal table decoder/error/consumption; missing bytes explicit",
+    "sites": [
+      "0x3a398c",
+      "0x3a3b24"
+    ]
+  },
+  {
+    "target": "0x395158",
+    "status": "[U] ImGui allocation dispatcher; use existing owned allocator boundary",
+    "sites": [
+      "0x392dff"
+    ]
+  },
+  {
+    "target": "0x39e324",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a6616",
+      "0x3a6659",
+      "0x3a6667",
+      "0x3a66d9",
+      "0x3a67d3"
+    ]
+  },
+  {
+    "target": "0x39eb2c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x39217f"
+    ]
+  },
+  {
+    "target": "0x39eea0",
+    "status": "[U] remove/merge last draw command",
+    "sites": [
+      "0x3a6676",
+      "0x3a6e98",
+      "0x3a8e0d",
+      "0x3a8e9c"
+    ]
+  },
+  {
+    "target": "0x39ef2c",
+    "status": "[U] append native initial command",
+    "sites": [
+      "0x39fd5d",
+      "0x3a9301"
+    ]
+  },
+  {
+    "target": "0x39f030",
+    "status": "[U] clip float4-vector push/grow",
+    "sites": [
+      "0x3a7338"
+    ]
+  },
+  {
+    "target": "0x39f28c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a33fe"
+    ]
+  },
+  {
+    "target": "0x39f294",
+    "status": "[U] zero default draw command",
+    "sites": [
+      "0x39fd26",
+      "0x3a92f6"
+    ]
+  },
+  {
+    "target": "0x39f604",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a3474",
+      "0x3a3544"
+    ]
+  },
+  {
+    "target": "0x39f630",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a33f2",
+      "0x3a3448",
+      "0x3a3465"
+    ]
+  },
+  {
+    "target": "0x39fd18",
+    "status": "[U] append native draw command",
+    "sites": [
+      "0x3a67e1",
+      "0x3a682b",
+      "0x3a8dcf",
+      "0x3a8e5a"
+    ]
+  },
+  {
+    "target": "0x39ff7c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a4c56"
+    ]
+  },
+  {
+    "target": "0x3a0168",
+    "status": "[U] image alpha gate/texture switch/reserve6indices4vertices/quad/texture pop",
+    "sites": [
+      "0x2ccb3c"
+    ]
+  },
+  {
+    "target": "0x3a31f8",
+    "status": "[U] font text renderer and glyph geometry",
+    "sites": [
+      "0x36188a",
+      "0x3618ed",
+      "0x361950",
+      "0x3619b3",
+      "0x361a1a",
+      "0x361a81",
+      "0x361ae8",
+      "0x361b4f",
+      "0x361b9a",
+      "0x361df7",
+      "0x361e56",
+      "0x361eb5",
+      "0x361f14",
+      "0x361f77",
+      "0x361fda",
+      "0x36203d",
+      "0x3620a0",
+      "0x3620e7"
+    ]
+  },
+  {
+    "target": "0x3a33c0",
+    "status": "[U] font glyph raster/quad renderer dependency",
+    "sites": [
+      "0x3a4c90"
+    ]
+  },
+  {
+    "target": "0x3a3770",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a57a2"
+    ]
+  },
+  {
+    "target": "0x3a3778",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a5798"
+    ]
+  },
+  {
+    "target": "0x3a37c8",
+    "status": "[U] font glyph lookup dependency",
+    "sites": [
+      "0x3a4bc5",
+      "0x3a556d",
+      "0x3a58d7"
+    ]
+  },
+  {
+    "target": "0x3a3858",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a541e"
+    ]
+  },
+  {
+    "target": "0x3a3874",
+    "status": "[C/I] full font-advance/scale/maxwidth/wrap/newline/remaining measurement, no fabricated glyph metrics",
+    "sites": [
+      "0x3617d2",
+      "0x361d65",
+      "0x38f818"
+    ]
+  },
+  {
+    "target": "0x3a3a70",
+    "status": "[C] native byte blanks then one newline skip",
+    "sites": [
+      "0x3a3959"
+    ]
+  },
+  {
+    "target": "0x3a3aa4",
+    "status": "[C/I] full native wrapping word/blank/punctuation widths and forced-byte-progress",
+    "sites": [
+      "0x3a392a"
+    ]
+  },
+  {
+    "target": "0x3a3c30",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a92ec"
+    ]
+  },
+  {
+    "target": "0x3a43ac",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a56c1"
+    ]
+  },
+  {
+    "target": "0x3a43d0",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a536d"
+    ]
+  },
+  {
+    "target": "0x3a44d4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a35a2",
+      "0x3a35b9",
+      "0x3a3609"
+    ]
+  },
+  {
+    "target": "0x3a4520",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a34b8",
+      "0x3a34f4",
+      "0x3a369c"
+    ]
+  },
+  {
+    "target": "0x3a4554",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a35f0",
+      "0x3a3618"
+    ]
+  },
+  {
+    "target": "0x3a45b4",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a5410",
+      "0x3a5763"
+    ]
+  },
+  {
+    "target": "0x3a4734",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a5603"
+    ]
+  },
+  {
+    "target": "0x3a473c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a4f47",
+      "0x3a502b"
+    ]
+  },
+  {
+    "target": "0x3a498c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a52ac"
+    ]
+  },
+  {
+    "target": "0x3a4abc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a3433"
+    ]
+  },
+  {
+    "target": "0x3a4b10",
+    "status": "[C] blank codepoints20,9,3000",
+    "sites": [
+      "0x3a3b75"
+    ]
+  },
+  {
+    "target": "0x3a4f38",
+    "status": "[U] font atlas build dependency",
+    "sites": [
+      "0x3a4b4f"
+    ]
+  },
+  {
+    "target": "0x3a5008",
+    "status": "[U] font atlas build dependency",
+    "sites": [
+      "0x3a4b57"
+    ]
+  },
+  {
+    "target": "0x3a5204",
+    "status": "[U] font atlas build dependency",
+    "sites": [
+      "0x3a4b5f"
+    ]
+  },
+  {
+    "target": "0x3a658c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a53ca",
+      "0x3a571e"
+    ]
+  },
+  {
+    "target": "0x3a65c4",
+    "status": "[U] splitter merge",
+    "sites": [
+      "0x3a927b"
+    ]
+  },
+  {
+    "target": "0x3a6e84",
+    "status": "[U] texture pop/header update",
+    "sites": [
+      "0x3a01e1"
+    ]
+  },
+  {
+    "target": "0x3a7020",
+    "status": "[U] image rectangle primitive index/vertex writes",
+    "sites": [
+      "0x3a01d4"
+    ]
+  },
+  {
+    "target": "0x3a719c",
+    "status": "[U] primitive reserve/16-bit vertex limit and index/vertex buffer growth",
+    "sites": [
+      "0x3a01ad"
+    ]
+  },
+  {
+    "target": "0x3a7268",
+    "status": "[U] clip clamp/intersect/push/header\u21923a8d94",
+    "sites": [
+      "0x392e7a"
+    ]
+  },
+  {
+    "target": "0x3a73c4",
+    "status": "[U] push texture stack and header update\u21923a8e28",
+    "sites": [
+      "0x392e56",
+      "0x3a019c"
+    ]
+  },
+  {
+    "target": "0x3a792c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a3320"
+    ]
+  },
+  {
+    "target": "0x3a8094",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a65f0"
+    ]
+  },
+  {
+    "target": "0x3a8160",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a355d",
+      "0x3a356d"
+    ]
+  },
+  {
+    "target": "0x3a8d94",
+    "status": "[U] clip-change draw-command merge/new-command controller",
+    "sites": [
+      "0x3a735b"
+    ]
+  },
+  {
+    "target": "0x3a8e28",
+    "status": "[U] texture-change draw-command merge/new-command controller",
+    "sites": [
+      "0x3a6ec3",
+      "0x3a73fb"
+    ]
+  },
+  {
+    "target": "0x3a8ec0",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a71cc"
+    ]
+  },
+  {
+    "target": "0x3a9220",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a65f8"
+    ]
+  },
+  {
+    "target": "0x3a9258",
+    "status": "[U] reset draw list; includes splitter merge when count>1, vector sizes, header/init command",
+    "sites": [
+      "0x392e46"
+    ]
+  },
+  {
+    "target": "0x3a9330",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a34c9",
+      "0x3a34e6",
+      "0x3a3629"
+    ]
+  },
+  {
+    "target": "0x3a93cc",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a66c7"
+    ]
+  },
+  {
+    "target": "0x3c899c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a5779"
+    ]
+  },
+  {
+    "target": "0x3c8d14",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a669e",
+      "0x3a681f",
+      "0x3a8deb",
+      "0x3a8e7a"
+    ]
+  },
+  {
+    "target": "0x3c8d4c",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a6795",
+      "0x3a67b5"
+    ]
+  },
+  {
+    "target": "0x3c8d70",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x38a511",
+      "0x3a507f",
+      "0x3a5093",
+      "0x3a50af",
+      "0x3a50e9"
+    ]
+  },
+  {
+    "target": "0x3ca904",
+    "status": "[U] separate helper/standard-container/export body; no completion inferred",
+    "sites": [
+      "0x3a323f",
+      "0x3a38c3"
+    ]
+  }
+]

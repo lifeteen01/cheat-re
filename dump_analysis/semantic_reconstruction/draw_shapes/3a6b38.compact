@@ -1,0 +1,15 @@
+3a6b38 sub    rsp,0x38
+3a6b3c movss  xmm0,DWORD PTR [rip+0xffffffffffee670c]        # 0x28d250
+3a6b44 comiss xmm0,xmm2
+3a6b47 jbe    0x3a6b56
+3a6b49 add    rcx,0x78
+3a6b4d add    rsp,0x38
+3a6b51 jmp    0x37a658
+3a6b56 mov    eax,DWORD PTR [rsp+0x60]
+3a6b5a shl    eax,0x2
+3a6b5d shl    r9d,0x2
+3a6b61 mov    DWORD PTR [rsp+0x28],0x0
+3a6b69 mov    DWORD PTR [rsp+0x20],eax
+3a6b6d call   0x3a8eec
+3a6b72 add    rsp,0x38
+3a6b76 ret

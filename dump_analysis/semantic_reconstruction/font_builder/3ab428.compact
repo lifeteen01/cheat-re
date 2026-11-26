@@ -1,0 +1,33 @@
+3ab428 sub    rsp,0x58
+3ab42c movaps xmm5,xmm2
+3ab42f movaps XMMWORD PTR [rsp+0x40],xmm6
+3ab434 addss  xmm5,DWORD PTR [rcx+0x14]
+3ab439 movaps xmm6,xmm1
+3ab43c mov    r11,rcx
+3ab43f addss  xmm6,DWORD PTR [rcx+0x10]
+3ab444 cvttss2si edx,xmm5
+3ab448 movaps xmm4,xmm6
+3ab44b movaps xmm2,xmm5
+3ab44e addss  xmm2,DWORD PTR [rsp+0x80]
+3ab457 addss  xmm4,xmm3
+3ab45b cvttss2si r10d,xmm6
+3ab460 cvttss2si eax,xmm2
+3ab464 movaps xmm1,xmm4
+3ab467 movaps xmm0,xmm2
+3ab46a addss  xmm1,DWORD PTR [rsp+0x88]
+3ab473 addss  xmm0,DWORD PTR [rsp+0x90]
+3ab47c mov    DWORD PTR [rsp+0x38],eax
+3ab480 movss  DWORD PTR [rcx+0x10],xmm1
+3ab485 movss  DWORD PTR [rcx+0x14],xmm0
+3ab48a cvttss2si ecx,xmm4
+3ab48e cvttss2si r9d,xmm0
+3ab493 mov    DWORD PTR [rsp+0x30],ecx
+3ab497 mov    rcx,r11
+3ab49a mov    DWORD PTR [rsp+0x28],edx
+3ab49e mov    dl,0x4
+3ab4a0 mov    DWORD PTR [rsp+0x20],r10d
+3ab4a5 cvttss2si r8d,xmm1
+3ab4aa call   0x3ab558
+3ab4af movaps xmm6,XMMWORD PTR [rsp+0x40]
+3ab4b4 add    rsp,0x58
+3ab4b8 ret

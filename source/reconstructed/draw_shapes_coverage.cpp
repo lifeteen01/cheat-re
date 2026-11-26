@@ -1,0 +1,48 @@
+#include "draw_shapes_analysis.hpp"
+namespace rust_internal_re {
+re::ReSpan<const RendererCoverage> draw_shapes_coverage() {
+    static constexpr RendererCoverage ranges[]{
+        {0x320cd0, 0x320cf6, "[C/I] literal repeated degree wrap"},
+        {0x35a804, 0x35a8bd, "[C/I] polygon wrapper/window/style/count"},
+        {0x35aa88, 0x35aad5, "[C/I] literal rotation grouping"},
+        {0x35af6c, 0x35b03a, "[C/I] outline circle wrapper/window/style"},
+        {0x35b03c, 0x35b0fb, "[C/I] filled circle wrapper/window/style"},
+        {0x35b684, 0x35b84e, "[C/I] integer health bar/ordered thresholds/CVTT64-low32 width"},
+        {0x35c25c, 0x35c30b, "[C/I] line wrapper/window/style"},
+        {0x35c30c, 0x35c578, "[C/I] layered glow/style/retained window/base line"},
+        {0x35c578, 0x35c736, "[C/I] custom ring/flags/optional direction stroke"},
+        {0x35c738, 0x35c889, "[C/I] float rectangle/window/bounds/style"},
+        {0x35c88c, 0x35c937, "[C/I] triangle wrapper/window/style"},
+        {0x35d200, 0x35d21d, "[C/I] current window mark and reload"},
+        {0x35d4c8, 0x35d5a9, "[C/I] three-point scaled configuration and rotation"},
+        {0x362270, 0x3622c0, "[C/I] literal44-byte ring configuration"},
+        {0x3622c0, 0x36230f, "[C/I] degree wrap/typed Unity sine then cosine"},
+        {0x378a14, 0x378a3d, "[C/I] path fill/clear"},
+        {0x392260, 0x392295, "[C/I] style alpha multiplication then color packing"},
+        {0x3930e8, 0x39310d, "[C/I] literal CVTT floor"},
+        {0x398758, 0x39878c, "[C/I] path stroke/clear"},
+        {0x39f7ac, 0x39f872, "[C/I] outlined circle"},
+        {0x39f874, 0x39f926, "[C/I] filled circle"},
+        {0x39f928, 0x39fcc8, "[C/I] convex AA fringe and nonAA fan"},
+        {0x3a01f4, 0x3a0294, "[C/I] half-pixel line/path stroke"},
+        {0x3a0294, 0x3a1082, "[C/I] polyline AA thin/thick/textured and nonAA geometry"},
+        {0x3a1148, 0x3a1244, "[C/I] outlined rectangle"},
+        {0x3a1244, 0x3a12d8, "[C/I] filled rectangle"},
+        {0x3a12d8, 0x3a140e, "[C/I] four-corner gradient"},
+        {0x3a3338, 0x3a3391, "[C/I] triangle/path fill"},
+        {0x3a4588, 0x3a45b4, "[C/I] old/new corner flag mapping"},
+        {0x3a6594, 0x3a6599, "[C/I] literal RSQRTSS"},
+        {0x3a684c, 0x3a6b37, "[C/I] automatic and explicit arc selector"},
+        {0x3a6b38, 0x3a6b77, "[C/I] fast12 arc mapping"},
+        {0x3a6b78, 0x3a6e32, "[C/I] rounded rectangle corner path"},
+        {0x3a6ec8, 0x3a7020, "[C/I] whiteUV primitive rectangle vertices and indices"},
+        {0x3a8cb4, 0x3a8d37, "[C/I] circle segment recommendation"},
+        {0x3a8eec, 0x3a910f, "[C/I] fast48 table arc"},
+        {0x3a9110, 0x3a921f, "[C/I] polynomial explicit arc"},
+        {0x3c852c, 0x3c85e7, "[C/I] literal polynomial acos"},
+        {0x3c8918, 0x3c899a, "[C/I] literal bitwise ceil"},
+        {0x3c8e6c, 0x3c8f33, "[C/I] literal polynomial sine"},
+    };
+    return ranges;
+}
+} // namespace rust_internal_re

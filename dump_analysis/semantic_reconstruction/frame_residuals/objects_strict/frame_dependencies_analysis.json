@@ -1,0 +1,30 @@
+{
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-Wl,--gc-sections",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15",
+    "-L/usr/lib/x86_64-linux-gnu",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed"
+  ],
+  "dependencies": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/frame_dependencies_analysis.cpp": "0bd7daf2f41e33c17fad4be0967c28d1eb648be7be5603c91633bafe2273e42c",
+    "/home/john/Desktop/cheat_re/source/reconstructed/frame_dependencies_analysis.hpp": "5ba226f6974847f5ab29be4be5d704c9a0570e05020a502e5d456167a83f1965",
+    "/home/john/Desktop/cheat_re/source/reconstructed/unity_backend_analysis.hpp": "966116103963c7b6a05d1effaa5dd837098619de0a5953186b636fe9101ab18a",
+    "/home/john/Desktop/cheat_re/source/reconstructed/entities_analysis.hpp": "c1f3a9ad7186a1d8bde1ffb0710cc5cb80c5c960aedd145fc093ea6994908ba9",
+    "/home/john/Desktop/cheat_re/source/reconstructed/internal_analysis.hpp": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_signature_analysis.hpp": "6b530436f86a79d9dfb255e60df36a339c47fcd1128d89f0d0a4a4e643498815",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_analysis.hpp": "c2a911d47102dea04281595ec498af958170b7a8794f23e0b9c96c7f02833e61"
+  }
+}

@@ -1,0 +1,11 @@
+36b434 sub    rsp,0x28
+36b438 mov    rdx,rcx
+36b43b call   0x2caf08
+36b440 test   al,al
+36b442 je     0x36b452
+36b444 mov    BYTE PTR [rdx+0x457],0x0
+36b44b mov    BYTE PTR [rdx+0x3b0],0x1
+36b452 add    rsp,0x28
+36b456 ret
+36b457 int3
+36b458 rex push rbx

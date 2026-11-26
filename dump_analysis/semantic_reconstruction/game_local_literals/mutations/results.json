@@ -1,0 +1,30 @@
+[
+  {
+    "case": "full_width_store",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  full-width later store failure retains earlier QWORD and does not partially overwrite failing DWORD",
+    "original_sha256": "2d43fba3ab2f646fd0204ff3f4bc1d3a56beb6a7eec93ce4fe66271aba5e7d0a"
+  },
+  {
+    "case": "signed_compare",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  comparison uses signed int8 difference, not unsigned strcmp ordering",
+    "original_sha256": "2d43fba3ab2f646fd0204ff3f4bc1d3a56beb6a7eec93ce4fe66271aba5e7d0a"
+  },
+  {
+    "case": "conditional_decode",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  zero guard byte skips XOR after actual constructor copies",
+    "original_sha256": "2d43fba3ab2f646fd0204ff3f4bc1d3a56beb6a7eec93ce4fe66271aba5e7d0a"
+  },
+  {
+    "case": "owned_text_terminator",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  owned unterminated RPC text stops at managed leaf after staging instead of inventing a terminator",
+    "original_sha256": "22f3bd8a9773253afffa15dbd3913f5412f589d86d5db4e103f91a3dddf9214d"
+  }
+]

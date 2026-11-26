@@ -1,0 +1,62 @@
+39290c	mov    rax,rsp
+39290f	mov    QWORD PTR [rax+0x8],rbx
+392913	push   rdi
+392914	sub    rsp,0x30
+392918	mov    edi,ecx
+39291a	movaps XMMWORD PTR [rax-0x18],xmm6
+39291e	mov    ecx,0x8
+392923	lea    r8,[rax+0x10]
+392927	lea    rdx,[rax+0x18]
+39292b	call   0x392d54
+392930	mov    rax,QWORD PTR [rip+0x731f1]        # 0x405b28
+392937	cmp    DWORD PTR [rax+0x491c],0x3
+39293e	mov    eax,edi
+392940	jne    0x39295e
+392942	neg    eax
+392944	sbb    ebx,ebx
+392946	and    ebx,0x2
+392949	add    ebx,0x26f
+39294f	neg    edi
+392951	sbb    edi,edi
+392953	and    edi,0x2
+392956	add    edi,0x270
+39295c	jmp    0x392978
+39295e	neg    eax
+392960	sbb    ebx,ebx
+392962	and    ebx,0x2
+392965	add    ebx,0x201
+39296b	neg    edi
+39296d	sbb    edi,edi
+39296f	and    edi,0x2
+392972	add    edi,0x202
+392978	movss  xmm2,DWORD PTR [rsp+0x48]
+39297e	mov    ecx,edi
+392980	movss  xmm1,DWORD PTR [rsp+0x50]
+392986	call   0x3927d0
+39298b	movss  xmm2,DWORD PTR [rsp+0x48]
+392991	mov    ecx,ebx
+392993	movss  xmm1,DWORD PTR [rsp+0x50]
+392999	movd   xmm6,eax
+39299d	cvtdq2ps xmm6,xmm6
+3929a0	call   0x3927d0
+3929a5	movd   xmm0,eax
+3929a9	cvtdq2ps xmm0,xmm0
+3929ac	subss  xmm6,xmm0
+3929b0	ucomiss xmm6,DWORD PTR [rip+0xffffffffffefa895]        # 0x28d24c
+3929b7	jp     0x3929bb
+3929b9	je     0x3929d4
+3929bb	mov    ecx,ebx
+3929bd	call   0x394228
+3929c2	test   al,al
+3929c4	je     0x3929d4
+3929c6	mov    ecx,edi
+3929c8	call   0x394228
+3929cd	test   al,al
+3929cf	je     0x3929d4
+3929d1	xorps  xmm6,xmm6
+3929d4	mov    rbx,QWORD PTR [rsp+0x40]
+3929d9	movaps xmm0,xmm6
+3929dc	movaps xmm6,XMMWORD PTR [rsp+0x20]
+3929e1	add    rsp,0x30
+3929e5	pop    rdi
+3929e6	ret

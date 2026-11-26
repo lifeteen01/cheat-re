@@ -1,0 +1,46 @@
+{
+  "sources_unchanged": true,
+  "source_count": 41,
+  "owned_deliverables": [
+    "source/reconstructed/font_builder_analysis.hpp",
+    "source/reconstructed/font_builder_cff.cpp",
+    "source/reconstructed/font_builder_cff_checks.cpp",
+    "source/reconstructed/font_builder_checks.cpp",
+    "source/reconstructed/font_builder_controller.cpp",
+    "source/reconstructed/font_builder_coverage.cpp",
+    "source/reconstructed/font_builder_finish.cpp",
+    "source/reconstructed/font_builder_fixture.hpp",
+    "source/reconstructed/font_builder_internal.hpp",
+    "source/reconstructed/font_builder_outline.cpp",
+    "source/reconstructed/font_builder_owned.cpp",
+    "source/reconstructed/font_builder_owned_checks.cpp",
+    "source/reconstructed/font_builder_packing.cpp",
+    "source/reconstructed/font_builder_packing_checks.cpp",
+    "source/reconstructed/font_builder_raster.cpp",
+    "source/reconstructed/font_builder_reconstruction.md",
+    "source/reconstructed/font_builder_sfnt.cpp",
+    "source/reconstructed/font_builder_sfnt_checks.cpp"
+  ],
+  "results": {
+    "strict": {
+      "exit_code": 0,
+      "elapsed_seconds": 25.366,
+      "log": "dump_analysis/semantic_reconstruction/font_builder/strict_verification.txt",
+      "output": "font_builder SFNT checks passed"
+    },
+    "sanitizer": {
+      "exit_code": 0,
+      "elapsed_seconds": 37.253,
+      "log": "dump_analysis/semantic_reconstruction/font_builder/sanitizer_verification.txt",
+      "output": "font_builder SFNT checks passed"
+    },
+    "oracle": {
+      "exit_code": 0,
+      "elapsed_seconds": 12.867,
+      "log": "dump_analysis/semantic_reconstruction/font_builder/oracle_verification.txt",
+      "output": "packing6000 batches /32 TrueType +4 CFF raster oracle cases PASS"
+    }
+  },
+  "preserved_input_count": 135,
+  "preserved_input_mismatches": []
+}

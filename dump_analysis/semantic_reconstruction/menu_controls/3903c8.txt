@@ -1,0 +1,55 @@
+3903c8	rex push rbx
+3903ca	push   rbp
+3903cb	push   rsi
+3903cc	push   rdi
+3903cd	push   r14
+3903cf	sub    rsp,0x20
+3903d3	mov    rsi,QWORD PTR [rip+0x7574e]        # 0x405b28
+3903da	mov    r14b,dl
+3903dd	add    rsi,0x48b0
+3903e4	mov    rbp,rcx
+3903e7	cmp    DWORD PTR [rsi],0x0
+3903ea	je     0x390450
+3903ec	xor    ebx,ebx
+3903ee	test   rcx,rcx
+3903f1	je     0x390442
+3903f3	cmp    ebx,DWORD PTR [rsi]
+3903f5	jge    0x390450
+3903f7	mov    edx,ebx
+3903f9	mov    rcx,rsi
+3903fc	call   0x38bb90
+390401	mov    rcx,QWORD PTR [rax+0x8]
+390405	test   rcx,rcx
+390408	je     0x39043c
+39040a	test   DWORD PTR [rcx+0x14],0x1000000
+390411	jne    0x39043c
+390413	mov    edi,ebx
+390415	mov    edx,edi
+390417	mov    rcx,rsi
+39041a	call   0x38bb90
+39041f	mov    rdx,QWORD PTR [rax+0x8]
+390423	test   rdx,rdx
+390426	je     0x390434
+390428	mov    rcx,rbp
+39042b	call   0x3948bc
+390430	test   al,al
+390432	jne    0x39043c
+390434	inc    edi
+390436	cmp    edi,DWORD PTR [rsi]
+390438	jl     0x390415
+39043a	jmp    0x390446
+39043c	inc    ebx
+39043e	cmp    ebx,DWORD PTR [rsi]
+390440	jl     0x3903f7
+390442	cmp    ebx,DWORD PTR [rsi]
+390444	jge    0x390450
+390446	mov    dl,r14b
+390449	mov    ecx,ebx
+39044b	call   0x39031c
+390450	add    rsp,0x20
+390454	pop    r14
+390456	pop    rdi
+390457	pop    rsi
+390458	pop    rbp
+390459	pop    rbx
+39045a	ret

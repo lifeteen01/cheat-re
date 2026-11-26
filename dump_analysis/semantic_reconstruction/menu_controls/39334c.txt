@@ -1,0 +1,52 @@
+39334c	mov    QWORD PTR [rsp+0x8],rbx
+393351	not    r8d
+393354	mov    r11,rcx
+393357	mov    r9d,r8d
+39335a	test   rdx,rdx
+39335d	je     0x3933a4
+39335f	mov    r10b,0x23
+393362	lea    rbx,[rip+0xfffffffffff161c7]        # 0x2a9530
+393369	movzx  eax,BYTE PTR [r11]
+39336d	mov    rcx,r11
+393370	inc    r11
+393373	dec    rdx
+393376	cmp    al,r10b
+393379	jne    0x39338e
+39337b	cmp    rdx,0x2
+39337f	jb     0x39338e
+393381	cmp    BYTE PTR [r11],r10b
+393384	jne    0x39338e
+393386	cmp    BYTE PTR [rcx+0x2],r10b
+39338a	cmove  r9d,r8d
+39338e	movzx  ecx,r9b
+393392	xor    rcx,rax
+393395	shr    r9d,0x8
+393399	xor    r9d,DWORD PTR [rbx+rcx*4]
+39339d	test   rdx,rdx
+3933a0	jne    0x393369
+3933a2	jmp    0x3933e5
+3933a4	mov    al,BYTE PTR [rcx]
+3933a6	lea    rdx,[rcx+0x1]
+3933aa	test   al,al
+3933ac	je     0x3933e5
+3933ae	mov    r10b,0x23
+3933b1	lea    rbx,[rip+0xfffffffffff16178]        # 0x2a9530
+3933b8	cmp    al,r10b
+3933bb	jne    0x3933ca
+3933bd	cmp    BYTE PTR [rdx],r10b
+3933c0	jne    0x3933ca
+3933c2	cmp    BYTE PTR [rdx+0x1],r10b
+3933c6	cmove  r9d,r8d
+3933ca	movzx  ecx,r9b
+3933ce	movzx  eax,al
+3933d1	xor    rcx,rax
+3933d4	shr    r9d,0x8
+3933d8	mov    al,BYTE PTR [rdx]
+3933da	inc    rdx
+3933dd	xor    r9d,DWORD PTR [rbx+rcx*4]
+3933e1	test   al,al
+3933e3	jne    0x3933b8
+3933e5	mov    rbx,QWORD PTR [rsp+0x8]
+3933ea	not    r9d
+3933ed	mov    eax,r9d
+3933f0	ret

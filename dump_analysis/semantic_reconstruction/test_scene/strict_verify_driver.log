@@ -1,0 +1,12 @@
+Compile strict host.cpp
+{"passed": true, "mode": "strict", "cache_hits": 117, "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene", "artifact_sha256": "a78209125b0ee933b5b3ba6ba0ead75b6515014f1180726718b211b1f316c043"}
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 5.49,
+  "artifact_sha256": "a78209125b0ee933b5b3ba6ba0ead75b6515014f1180726718b211b1f316c043",
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

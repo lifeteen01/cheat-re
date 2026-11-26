@@ -1,0 +1,32 @@
+{
+  "definition": "Unique numeric fixed GameAssembly RVAs plus recovered game-field starts covered by this inventory. Resolver outputs are excluded.",
+  "gameassembly_fixed_rvas": 64,
+  "gameassembly_reference_sites": 77,
+  "game_field_start_values": 77,
+  "manual_update_numeric_values": 141,
+  "auto_or_derived_exclusion_rows": 39,
+  "unclassified_literal_values_not_counted": 982,
+  "upper_bound_on_all_game_update_dependencies": null,
+  "completeness": "Verified scoped inventory, not a proven complete upper bound. Unknown ownership is excluded, not silently treated as game fields.",
+  "duplicate_rule": "Numeric values are deduplicated; identical offsets on different receiver types can require independent updates. CSV preserves observed contexts.",
+  "update_rule": "Fixed inputs need build validation and may change; this does not claim every value changes on every patch. Caches do not make hardcoded targets self-updating.",
+  "source_hashes": {
+    "dump_analysis/unpacked/cheat.unpacked.dll": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+    "dump_analysis/static/cheat_annot.asm": "a83aaa8795f1e97912ec0f79828f9f822f4e46702ffcdea597381d0e0dd97d2c",
+    "dump_analysis/static/cheat_text.asm": "98e3426d2085b1f24cd6354155c9d2642011ffe5a28706456d8c92484e9abb42",
+    "source/reconstructed/field_getters_analysis.cpp": "8b99e96007c673f43f60c320a0b54125e28e3faf076317dc91e1cbc38b3a6de2",
+    "source/reconstructed/projectile_analysis.cpp": "8714fcc86c294970e9a85762b7638a34c1aaf6d455764d7bab9e54c1a52b930f",
+    "source/reconstructed/aim_weapon_analysis.cpp": "0db1c0c211d2c5e82e05016d9fd639e2d690dc7858252bf5689ab9b3a7c2d7db",
+    "source/reconstructed/movement_analysis.cpp": "274ce5c26513b055f0718bc0199480807c6a04ccb0ff253ead37bd567e58d18e",
+    "source/reconstructed/movement_main_analysis.cpp": "5619baae1699434b0465f4912605843903e99c49c4b73a0cf57795ebd4ce8a01",
+    "source/reconstructed/interaction_workers.cpp": "944c99bc2ccacce39c3070587c0e9a75948717c000e1d90e5dd496078075663a",
+    "source/reconstructed/sky_model_analysis.cpp": "95d2bea97872e2b1a9622c1c7e059f0127599768c61d3c72c019e06e4c9f8d1c",
+    "source/reconstructed/game_runtime_wrappers_specs.inc": "e54829a53b3544394a91369ee36d8bc86eaf34e61a8c0daf1c2229f012b6806e"
+  },
+  "scope_limits": [
+    "Direct module scan follows the established GameAssembly base global 0x3d6f00 within supplied pdata ranges.",
+    "Fields cover the audited getter catalogue, listed recovered controller receiver roles, and explicitly reviewed extra starts.",
+    "All remaining literal ownerships are unclassified and excluded. Matching game metadata is unavailable.",
+    "Automatic method/export/signature resolution outputs, cheat RVAs, ABI headers and derived aggregate components are excluded."
+  ]
+}

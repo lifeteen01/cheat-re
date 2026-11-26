@@ -1,0 +1,295 @@
+{
+  "exclusive_ranges": [
+    {
+      "begin": "0x315c34",
+      "end": "0x3163d5",
+      "role": "embedded4-byte token parsing and hook setup controller",
+      "state": "Owned by hook_setup agent; not this subtask"
+    },
+    {
+      "begin": "0x36e55c",
+      "end": "0x36f5cc",
+      "role": "raid entry rendering",
+      "state": "typed required sample-local boundary in implemented36f788 lifecycle; not foreign/completed"
+    },
+    {
+      "begin": "0x2cce78",
+      "end": "0x2ccef2",
+      "role": "connected-state transition and stale stack copies",
+      "state": "untranslated local branch; must preserve indeterminate copied bytes"
+    },
+    {
+      "begin": "0x31aa90",
+      "end": "0x31aaf8",
+      "role": "nested frame container clear/deletion",
+      "state": "untranslated local container entry; no vector-clear equivalence claimed"
+    },
+    {
+      "begin": "0x31ab60",
+      "end": "0x31abc8",
+      "role": "nested frame container clear/deletion",
+      "state": "untranslated local container entry; no vector-clear equivalence claimed"
+    },
+    {
+      "begin": "0x31acb0",
+      "end": "0x31acd0",
+      "role": "wrapper clears both2187d0 nested objects",
+      "state": "untranslated local container entry"
+    },
+    {
+      "begin": "0x369040",
+      "end": "0x369164",
+      "role": "display name including streamer branch",
+      "state": "typed required input to inventory overlay; existing raw-name reader is not full branch"
+    },
+    {
+      "begin": "0x372398",
+      "end": "0x37261b",
+      "role": "inventory item display name",
+      "state": "typed required input to inventory overlay; no complete existing implementation found"
+    },
+    {
+      "begin": "0x365038",
+      "end": "0x365815",
+      "role": "ESP preview renderer",
+      "state": "required sample-local FrameMainMenuApi::preview_365038 boundary"
+    },
+    {
+      "begin": "0x3bd114",
+      "end": "0x3bde22",
+      "role": "custom checkbox/color/key control",
+      "state": "required sample-local FrameMainMenuApi::widget boundary"
+    },
+    {
+      "begin": "0x3be2ec",
+      "end": "0x3bf007",
+      "role": "custom combo control",
+      "state": "required sample-local FrameMainMenuApi::widget boundary"
+    },
+    {
+      "begin": "0x387d18",
+      "end": "0x3889e0",
+      "role": "multiselect control",
+      "state": "required sample-local FrameMainMenuApi::widget boundary"
+    }
+  ],
+  "integration_only": [
+    "369324/37224c/3722f0/371c38: game_helpers agent owns; bind typed outputs",
+    "28 raw field getters: bind_frame_inventory_fields now concrete",
+    "314bb4 record_kind: bind_target_registry available",
+    "metadata export aliases: bind_metadata_wrappers available"
+  ],
+  "continuation_priority": [
+    "21 menu page bodies in NEW menu_pages_* files; exact extents in main_menu_page_closure",
+    "Custom checkbox/combo/multiselect/preview365038 bodies and full primitive inventory",
+    "36e55c..36f5cc raid renderer",
+    "2cce78..2ccef2 connected transition",
+    "31aa90/31ab60/31acb0 native nested clear closure",
+    "369040 and372398 naming closure or concrete existing bindings"
+  ],
+  "main_menu_page_closure": [
+    {
+      "thunk": "0x3354c0",
+      "target": "0x359098",
+      "pdata_extent": [
+        "0x359098",
+        "0x35a474"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x3353d0",
+      "target": "0x336868",
+      "pdata_extent": [
+        "0x336868",
+        "0x337e5f"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x3353dc",
+      "target": "0x337e7c",
+      "pdata_extent": [
+        "0x337e7c",
+        "0x338f14"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x3353e8",
+      "target": "0x338f30",
+      "pdata_extent": [
+        "0x338f30",
+        "0x33a6a9"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x3353f4",
+      "target": "0x33a6f8",
+      "pdata_extent": [
+        "0x33a6f8",
+        "0x33ac32"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335400",
+      "target": "0x33ac78",
+      "pdata_extent": [
+        "0x33ac78",
+        "0x33c738"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x33540c",
+      "target": "0x33c768",
+      "pdata_extent": [
+        "0x33c768",
+        "0x33e6d8"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335418",
+      "target": "0x33e738",
+      "pdata_extent": [
+        "0x33e738",
+        "0x340081"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335424",
+      "target": "0x3400b0",
+      "pdata_extent": [
+        "0x3400b0",
+        "0x341b70"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335430",
+      "target": "0x341bd8",
+      "pdata_extent": [
+        "0x341bd8",
+        "0x34296d"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x33543c",
+      "target": "0x3429f4",
+      "pdata_extent": [
+        "0x3429f4",
+        "0x3452c4"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335448",
+      "target": "0x3455b4",
+      "pdata_extent": [
+        "0x3455b4",
+        "0x346c80"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335454",
+      "target": "0x346ccc",
+      "pdata_extent": [
+        "0x346ccc",
+        "0x3483ea"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335460",
+      "target": "0x34841c",
+      "pdata_extent": [
+        "0x34841c",
+        "0x349d97"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x33546c",
+      "target": "0x349db4",
+      "pdata_extent": [
+        "0x349db4",
+        "0x34adf7"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335478",
+      "target": "0x34aedc",
+      "pdata_extent": [
+        "0x34aedc",
+        "0x34c3a2"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335484",
+      "target": "0x34c4b0",
+      "pdata_extent": [
+        "0x34c4b0",
+        "0x34d62c"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x335490",
+      "target": "0x34d784",
+      "pdata_extent": [
+        "0x34d784",
+        "0x34e43b"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x33549c",
+      "target": "0x34e554",
+      "pdata_extent": [
+        "0x34e554",
+        "0x34f21d"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x3354a8",
+      "target": "0x34f35c",
+      "pdata_extent": [
+        "0x34f35c",
+        "0x350033"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    },
+    {
+      "thunk": "0x3354b4",
+      "target": "0x35013c",
+      "pdata_extent": [
+        "0x35013c",
+        "0x350434"
+      ],
+      "state": "sample-local menu page body; not translated in this checkpoint"
+    }
+  ],
+  "controller_translated_ranges": [
+    "35f1c7..35f203",
+    "35fc8b..3612f7",
+    "37f990..37fb14",
+    "37eff0..37f88a",
+    "389830..389db4",
+    "3893b0..38982e",
+    "388b4c..388c0b",
+    "386fa4..38724c",
+    "3872e8..3873ee",
+    "384df0..3853b0",
+    "3873f0..3874d2",
+    "389e84..389f18"
+  ]
+}

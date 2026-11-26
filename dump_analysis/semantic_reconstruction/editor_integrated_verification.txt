@@ -1,0 +1,26 @@
+[I] Combined immutable-script strict verification.
+Compile imgui_text_input_activation.cpp
+Compile imgui_text_input_analysis.cpp
+Compile imgui_text_input_bindings.cpp
+Compile imgui_text_input_branch_checks.cpp
+Compile imgui_text_input_checks.cpp
+Compile imgui_text_input_codec.cpp
+Compile imgui_text_input_commit.cpp
+Compile imgui_text_input_controller_checks.cpp
+Compile imgui_text_input_edit.cpp
+Compile imgui_text_input_effect_checks.cpp
+Compile imgui_text_input_event_checks.cpp
+Compile imgui_text_input_events.cpp
+Compile imgui_text_input_font_checks.cpp
+Compile imgui_text_input_fonts.cpp
+Compile imgui_text_input_history_checks.cpp
+Compile imgui_text_input_keys.cpp
+Compile imgui_text_input_layout.cpp
+Compile imgui_text_input_process.cpp
+Compile imgui_text_input_render.cpp
+Compile imgui_text_input_storage.cpp
+Compile analysis_checks.cpp
+Link 274 translation units; 253 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

@@ -1,0 +1,9 @@
+3a3c64 rex push rbx
+3a3c66 sub    rsp,0x20
+3a3c6a mov    rbx,rcx
+3a3c6d add    rcx,0x58
+3a3c71 call   0x3a9344
+3a3c76 mov    BYTE PTR [rbx+0x28],0x0
+3a3c7a add    rsp,0x20
+3a3c7e pop    rbx
+3a3c7f ret

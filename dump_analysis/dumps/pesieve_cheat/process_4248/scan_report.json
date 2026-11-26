@@ -1,0 +1,99 @@
+ {
+  "pid" : 4248,
+  "is_64_bit" : 1,
+  "is_managed" : 1,
+  "main_image_path" : "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "used_reflection" : 0,
+  "scanner_version" : "0.4.1.1",
+  "scanned" : 
+  {
+   "total" : 85,
+   "skipped" : 0,
+   "modified" : 
+   {
+    "total" : 5,
+    "patched" : 3,
+    "iat_hooked" : 0,
+    "replaced" : 0,
+    "hdr_modified" : 0,
+    "implanted_pe" : 2,
+    "implanted_shc" : 0,
+    "unreachable_file" : 0,
+    "other" : 0
+   },
+   "errors" : 0
+  },
+  "scans" : [
+   {
+    "code_scan" : {
+     "status" : 1,
+     "module" : "7ffa83c80000",
+     "module_size" : "267000",
+     "module_file" : "C:\\Windows\\System32\\ntdll.dll",
+     "scanned_sections" : 2,
+     "patches" : 1
+    }
+   },
+   {
+    "code_scan" : {
+     "status" : 1,
+     "module" : "7ffa36e10000",
+     "module_size" : "9a4000",
+     "module_file" : "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+     "scanned_sections" : 1,
+     "patches" : 22
+    }
+   },
+   {
+    "code_scan" : {
+     "status" : 1,
+     "module" : "7ffa2a960000",
+     "module_size" : "19f3000",
+     "module_file" : "C:\\lab\\rt\\cheat.dll",
+     "scanned_sections" : 3,
+     "unpacked_sections" : 2
+    }
+   },
+   {
+    "workingset_scan" : {
+     "status" : 1,
+     "module" : "29c01410000",
+     "module_size" : "9b2000",
+     "has_pe" : 1,
+     "has_shellcode" : 1,
+     "is_listed_module" : 0,
+     "protection" : "4",
+     "mapping_type" : "MEM_PRIVATE",
+     "pe_artefacts" : {
+      "pe_base_offset" : "8cbaf8",
+      "nt_file_hdr" : "8cbb7c",
+      "sections_hdrs" : "8cbc70",
+      "sections_count" : 3,
+      "is_dll" : 1,
+      "is_64_bit" : 0
+     }
+    }
+   },
+   {
+    "workingset_scan" : {
+     "status" : 1,
+     "module" : "29c19490000",
+     "module_size" : "1000",
+     "has_pe" : 1,
+     "has_shellcode" : 0,
+     "is_listed_module" : 0,
+     "protection" : "4",
+     "mapping_type" : "MEM_MAPPED",
+     "mapped_name" : "",
+     "pe_artefacts" : {
+      "pe_base_offset" : "0",
+      "nt_file_hdr" : "84",
+      "sections_hdrs" : "178",
+      "sections_count" : 3,
+      "is_dll" : 1,
+      "is_64_bit" : 0
+     }
+    }
+   }
+  ]
+ }

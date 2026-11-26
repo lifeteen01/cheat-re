@@ -1,0 +1,17 @@
+3a8bec xor    r11d,r11d
+3a8bef test   r8d,r8d
+3a8bf2 jle    0x3a8c18
+3a8bf4 movzx  eax,cx
+3a8bf7 add    ax,WORD PTR [rdx+r11*2]
+3a8bfc mov    WORD PTR [r9+0x2],ax
+3a8c01 mov    WORD PTR [r9],ax
+3a8c05 add    r9,0x4
+3a8c09 movsx  eax,WORD PTR [rdx+r11*2]
+3a8c0e inc    r11d
+3a8c11 add    ecx,eax
+3a8c13 cmp    r11d,r8d
+3a8c16 jl     0x3a8bf4
+3a8c18 xor    eax,eax
+3a8c1a mov    WORD PTR [r9],ax
+3a8c1e ret
+3a8c1f int3

@@ -1,0 +1,56 @@
+[
+  {
+    "input": 0.0,
+    "input_bits": "0x0",
+    "result": 3.363987162418603e-20,
+    "result_bits": "0x1f1edc1c"
+  },
+  {
+    "input": 1.0,
+    "input_bits": "0x3f800000",
+    "result": 1.0000044107437134,
+    "result_bits": "0x3f800025"
+  },
+  {
+    "input": 4.0,
+    "input_bits": "0x40800000",
+    "result": 2.0000088214874268,
+    "result_bits": "0x40000025"
+  },
+  {
+    "input": 25.0,
+    "input_bits": "0x41c80000",
+    "result": 5.000018119812012,
+    "result_bits": "0x40a00026"
+  },
+  {
+    "input": 100.0,
+    "input_bits": "0x42c80000",
+    "result": 10.000036239624023,
+    "result_bits": "0x41200026"
+  },
+  {
+    "input": 42.25,
+    "input_bits": "0x42290000",
+    "result": 6.500028610229492,
+    "result_bits": "0x40d0003c"
+  },
+  {
+    "input": 1000000.0,
+    "input_bits": "0x49742400",
+    "result": 1000.00439453125,
+    "result_bits": "0x447a0048"
+  },
+  {
+    "input": 2.0,
+    "input_bits": "0x40000000",
+    "result": 1.41421377658844,
+    "result_bits": "0x3fb504f5"
+  },
+  {
+    "input": 9.999999974752427e-07,
+    "input_bits": "0x358637bd",
+    "result": 0.001000000862404704,
+    "result_bits": "0x3a831276"
+  }
+]

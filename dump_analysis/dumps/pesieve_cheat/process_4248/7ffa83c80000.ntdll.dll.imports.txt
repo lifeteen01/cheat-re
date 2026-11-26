@@ -1,0 +1,8 @@
+---
+IAT at: 1d23a8, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+1d23a8,7ffa8102fcd0,kernelbase.ReleaseActCtx #1510
+---
+IAT at: 1d2760, size: 10, thunks: 1, is_terminated: 1, in_main: 0
+---
+1d2760,7ffa81fccd70,kernel32.BaseThreadInitThunk #75

@@ -1,0 +1,384 @@
+{
+  "npc": {
+    "bones": [
+      {
+        "bone": 47,
+        "query": "0x30f18c",
+        "projection": "0x30f1ba"
+      },
+      {
+        "bone": 46,
+        "query": "0x30f1d9",
+        "projection": "0x30f207"
+      },
+      {
+        "bone": 14,
+        "query": "0x30f226",
+        "projection": "0x30f254"
+      },
+      {
+        "bone": 59,
+        "query": "0x30f273",
+        "projection": "0x30f2a1"
+      },
+      {
+        "bone": 56,
+        "query": "0x30f2c0",
+        "projection": "0x30f2ee"
+      },
+      {
+        "bone": 55,
+        "query": "0x30f30d",
+        "projection": "0x30f33b"
+      },
+      {
+        "bone": 19,
+        "query": "0x30f35a",
+        "projection": "0x30f388"
+      },
+      {
+        "bone": 20,
+        "query": "0x30f3a7",
+        "projection": "0x30f3d5"
+      },
+      {
+        "bone": 23,
+        "query": "0x30f3f4",
+        "projection": "0x30f422"
+      },
+      {
+        "bone": 8,
+        "query": "0x30f441",
+        "projection": "0x30f46f"
+      },
+      {
+        "bone": 10,
+        "query": "0x30f48e",
+        "projection": "0x30f4bc"
+      },
+      {
+        "bone": 3,
+        "query": "0x30f4db",
+        "projection": "0x30f509"
+      },
+      {
+        "bone": 11,
+        "query": "0x30f528",
+        "projection": "0x30f556"
+      },
+      {
+        "bone": 4,
+        "query": "0x30f575",
+        "projection": "0x30f5a3"
+      },
+      {
+        "bone": 1,
+        "query": "0x30f5c2",
+        "projection": "0x30f5f0"
+      },
+      {
+        "bone": 7,
+        "query": "0x30f60f",
+        "projection": "0x30f63d"
+      },
+      {
+        "bone": 5,
+        "query": "0x30f65c",
+        "projection": "0x30f68a"
+      },
+      {
+        "bone": 12,
+        "query": "0x30f6a9",
+        "projection": "0x30f6d7"
+      },
+      {
+        "bone": 0,
+        "query": "0x30f6f3",
+        "projection": "0x30f721"
+      }
+    ],
+    "edges": [
+      {
+        "site": "0x30f796",
+        "first": 0,
+        "second": 1
+      },
+      {
+        "site": "0x30f803",
+        "first": 2,
+        "second": 1
+      },
+      {
+        "site": "0x30f870",
+        "first": 1,
+        "second": 5
+      },
+      {
+        "site": "0x30f8dd",
+        "first": 3,
+        "second": 4
+      },
+      {
+        "site": "0x30f94a",
+        "first": 1,
+        "second": 6
+      },
+      {
+        "site": "0x30f9b7",
+        "first": 7,
+        "second": 8
+      },
+      {
+        "site": "0x30fa24",
+        "first": 2,
+        "second": 9
+      },
+      {
+        "site": "0x30fa91",
+        "first": 12,
+        "second": 10
+      },
+      {
+        "site": "0x30fafe",
+        "first": 11,
+        "second": 13
+      },
+      {
+        "site": "0x30fb6b",
+        "first": 2,
+        "second": 14
+      },
+      {
+        "site": "0x30fbd8",
+        "first": 11,
+        "second": 14
+      },
+      {
+        "site": "0x30fc45",
+        "first": 10,
+        "second": 9
+      },
+      {
+        "site": "0x30fcb2",
+        "first": 7,
+        "second": 6
+      },
+      {
+        "site": "0x30fd1f",
+        "first": 4,
+        "second": 5
+      },
+      {
+        "site": "0x30fd8c",
+        "first": 2,
+        "second": 18
+      },
+      {
+        "site": "0x30fdf9",
+        "first": 15,
+        "second": 18
+      },
+      {
+        "site": "0x30fe66",
+        "first": 16,
+        "second": 13
+      },
+      {
+        "site": "0x30fed3",
+        "first": 17,
+        "second": 12
+      }
+    ]
+  },
+  "player": {
+    "bones": [
+      {
+        "bone": 53,
+        "query": "0x31346a",
+        "projection": "0x313498"
+      },
+      {
+        "bone": 52,
+        "query": "0x3134b7",
+        "projection": "0x3134e5"
+      },
+      {
+        "bone": 20,
+        "query": "0x313504",
+        "projection": "0x31352f"
+      },
+      {
+        "bone": 65,
+        "query": "0x31354e",
+        "projection": "0x31357c"
+      },
+      {
+        "bone": 62,
+        "query": "0x31359b",
+        "projection": "0x3135c9"
+      },
+      {
+        "bone": 61,
+        "query": "0x3135e8",
+        "projection": "0x313616"
+      },
+      {
+        "bone": 25,
+        "query": "0x313635",
+        "projection": "0x313663"
+      },
+      {
+        "bone": 26,
+        "query": "0x313682",
+        "projection": "0x3136b0"
+      },
+      {
+        "bone": 29,
+        "query": "0x3136cf",
+        "projection": "0x3136fd"
+      },
+      {
+        "bone": 14,
+        "query": "0x31371c",
+        "projection": "0x31374a"
+      },
+      {
+        "bone": 16,
+        "query": "0x313769",
+        "projection": "0x313797"
+      },
+      {
+        "bone": 3,
+        "query": "0x3137b6",
+        "projection": "0x3137e4"
+      },
+      {
+        "bone": 17,
+        "query": "0x313803",
+        "projection": "0x313831"
+      },
+      {
+        "bone": 4,
+        "query": "0x313850",
+        "projection": "0x31387e"
+      },
+      {
+        "bone": 1,
+        "query": "0x31389d",
+        "projection": "0x3138cb"
+      },
+      {
+        "bone": 7,
+        "query": "0x3138ea",
+        "projection": "0x313918"
+      },
+      {
+        "bone": 5,
+        "query": "0x313937",
+        "projection": "0x313965"
+      },
+      {
+        "bone": 18,
+        "query": "0x313984",
+        "projection": "0x3139b2"
+      },
+      {
+        "bone": 0,
+        "query": "0x3139ce",
+        "projection": "0x3139fc"
+      }
+    ],
+    "edges": [
+      {
+        "site": "0x313a6e",
+        "first": 0,
+        "second": 1
+      },
+      {
+        "site": "0x313ad2",
+        "first": 2,
+        "second": 1
+      },
+      {
+        "site": "0x313b3c",
+        "first": 1,
+        "second": 5
+      },
+      {
+        "site": "0x313ba6",
+        "first": 3,
+        "second": 4
+      },
+      {
+        "site": "0x313c10",
+        "first": 1,
+        "second": 6
+      },
+      {
+        "site": "0x313c7a",
+        "first": 7,
+        "second": 8
+      },
+      {
+        "site": "0x313cde",
+        "first": 2,
+        "second": 9
+      },
+      {
+        "site": "0x313d48",
+        "first": 12,
+        "second": 10
+      },
+      {
+        "site": "0x313db2",
+        "first": 11,
+        "second": 13
+      },
+      {
+        "site": "0x313e16",
+        "first": 2,
+        "second": 14
+      },
+      {
+        "site": "0x313e80",
+        "first": 11,
+        "second": 14
+      },
+      {
+        "site": "0x313eea",
+        "first": 10,
+        "second": 9
+      },
+      {
+        "site": "0x313f54",
+        "first": 7,
+        "second": 6
+      },
+      {
+        "site": "0x313fbe",
+        "first": 4,
+        "second": 5
+      },
+      {
+        "site": "0x314022",
+        "first": 2,
+        "second": 18
+      },
+      {
+        "site": "0x31408c",
+        "first": 15,
+        "second": 18
+      },
+      {
+        "site": "0x3140f6",
+        "first": 16,
+        "second": 13
+      },
+      {
+        "site": "0x314160",
+        "first": 17,
+        "second": 12
+      }
+    ]
+  }
+}

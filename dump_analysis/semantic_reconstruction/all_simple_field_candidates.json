@@ -1,0 +1,1758 @@
+[
+  {
+    "rva": "0x3680d4",
+    "offset": "0x320",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3571924,
+        "sub    rsp,0x28"
+      ],
+      [
+        3571928,
+        "mov    r8,rcx"
+      ],
+      [
+        3571931,
+        "call   0x2caf08"
+      ],
+      [
+        3571936,
+        "test   al,al"
+      ],
+      [
+        3571938,
+        "jne    0x3680e8"
+      ],
+      [
+        3571940,
+        "xor    eax,eax"
+      ],
+      [
+        3571942,
+        "jmp    0x3680f8"
+      ],
+      [
+        3571944,
+        "mov    edx,0x320"
+      ],
+      [
+        3571949,
+        "mov    rcx,r8"
+      ],
+      [
+        3571952,
+        "call   0x2dee3c"
+      ],
+      [
+        3571957,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3571960,
+        "add    rsp,0x28"
+      ],
+      [
+        3571964,
+        "ret"
+      ]
+    ],
+    "range": [
+      3571924,
+      3571965
+    ]
+  },
+  {
+    "rva": "0x3693b0",
+    "offset": "0x2c0",
+    "read": "mov    al,BYTE PTR [rax]",
+    "instructions": [
+      [
+        3576752,
+        "sub    rsp,0x28"
+      ],
+      [
+        3576756,
+        "mov    r8,rcx"
+      ],
+      [
+        3576759,
+        "call   0x2caf08"
+      ],
+      [
+        3576764,
+        "test   al,al"
+      ],
+      [
+        3576766,
+        "je     0x3693cf"
+      ],
+      [
+        3576768,
+        "mov    edx,0x2c0"
+      ],
+      [
+        3576773,
+        "mov    rcx,r8"
+      ],
+      [
+        3576776,
+        "call   0x2dee3c"
+      ],
+      [
+        3576781,
+        "mov    al,BYTE PTR [rax]"
+      ],
+      [
+        3576783,
+        "add    rsp,0x28"
+      ],
+      [
+        3576787,
+        "ret"
+      ]
+    ],
+    "range": [
+      3576752,
+      3576788
+    ]
+  },
+  {
+    "rva": "0x3693d4",
+    "offset": "0x2d0",
+    "read": "movss  xmm0,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3576788,
+        "sub    rsp,0x28"
+      ],
+      [
+        3576792,
+        "mov    r8,rcx"
+      ],
+      [
+        3576795,
+        "call   0x2caf08"
+      ],
+      [
+        3576800,
+        "test   al,al"
+      ],
+      [
+        3576802,
+        "jne    0x3693e9"
+      ],
+      [
+        3576804,
+        "xorps  xmm0,xmm0"
+      ],
+      [
+        3576807,
+        "jmp    0x3693fa"
+      ],
+      [
+        3576809,
+        "mov    edx,0x2d0"
+      ],
+      [
+        3576814,
+        "mov    rcx,r8"
+      ],
+      [
+        3576817,
+        "call   0x2dee3c"
+      ],
+      [
+        3576822,
+        "movss  xmm0,DWORD PTR [rax]"
+      ],
+      [
+        3576826,
+        "add    rsp,0x28"
+      ],
+      [
+        3576830,
+        "ret"
+      ]
+    ],
+    "range": [
+      3576788,
+      3576831
+    ]
+  },
+  {
+    "rva": "0x369400",
+    "offset": "0x350",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3576832,
+        "sub    rsp,0x28"
+      ],
+      [
+        3576836,
+        "mov    r8,rcx"
+      ],
+      [
+        3576839,
+        "call   0x2caf08"
+      ],
+      [
+        3576844,
+        "test   al,al"
+      ],
+      [
+        3576846,
+        "jne    0x369414"
+      ],
+      [
+        3576848,
+        "xor    eax,eax"
+      ],
+      [
+        3576850,
+        "jmp    0x369424"
+      ],
+      [
+        3576852,
+        "mov    edx,0x350"
+      ],
+      [
+        3576857,
+        "mov    rcx,r8"
+      ],
+      [
+        3576860,
+        "call   0x2dee3c"
+      ],
+      [
+        3576865,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3576868,
+        "add    rsp,0x28"
+      ],
+      [
+        3576872,
+        "ret"
+      ]
+    ],
+    "range": [
+      3576832,
+      3576873
+    ]
+  },
+  {
+    "rva": "0x3696e4",
+    "offset": "0x708",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3577572,
+        "sub    rsp,0x28"
+      ],
+      [
+        3577576,
+        "mov    r8,rcx"
+      ],
+      [
+        3577579,
+        "call   0x2caf08"
+      ],
+      [
+        3577584,
+        "test   al,al"
+      ],
+      [
+        3577586,
+        "jne    0x3696f8"
+      ],
+      [
+        3577588,
+        "xor    eax,eax"
+      ],
+      [
+        3577590,
+        "jmp    0x369707"
+      ],
+      [
+        3577592,
+        "mov    edx,0x708"
+      ],
+      [
+        3577597,
+        "mov    rcx,r8"
+      ],
+      [
+        3577600,
+        "call   0x2dee3c"
+      ],
+      [
+        3577605,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3577607,
+        "add    rsp,0x28"
+      ],
+      [
+        3577611,
+        "ret"
+      ]
+    ],
+    "range": [
+      3577572,
+      3577612
+    ]
+  },
+  {
+    "rva": "0x36970c",
+    "offset": "0x2cc",
+    "read": "movss  xmm0,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3577612,
+        "sub    rsp,0x28"
+      ],
+      [
+        3577616,
+        "mov    r8,rcx"
+      ],
+      [
+        3577619,
+        "call   0x2caf08"
+      ],
+      [
+        3577624,
+        "test   al,al"
+      ],
+      [
+        3577626,
+        "jne    0x369721"
+      ],
+      [
+        3577628,
+        "xorps  xmm0,xmm0"
+      ],
+      [
+        3577631,
+        "jmp    0x369732"
+      ],
+      [
+        3577633,
+        "mov    edx,0x2cc"
+      ],
+      [
+        3577638,
+        "mov    rcx,r8"
+      ],
+      [
+        3577641,
+        "call   0x2dee3c"
+      ],
+      [
+        3577646,
+        "movss  xmm0,DWORD PTR [rax]"
+      ],
+      [
+        3577650,
+        "add    rsp,0x28"
+      ],
+      [
+        3577654,
+        "ret"
+      ]
+    ],
+    "range": [
+      3577612,
+      3577655
+    ]
+  },
+  {
+    "rva": "0x369738",
+    "offset": "0x778",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3577656,
+        "sub    rsp,0x28"
+      ],
+      [
+        3577660,
+        "mov    r8,rcx"
+      ],
+      [
+        3577663,
+        "call   0x2caf08"
+      ],
+      [
+        3577668,
+        "test   al,al"
+      ],
+      [
+        3577670,
+        "jne    0x36974c"
+      ],
+      [
+        3577672,
+        "xor    eax,eax"
+      ],
+      [
+        3577674,
+        "jmp    0x36975c"
+      ],
+      [
+        3577676,
+        "mov    edx,0x778"
+      ],
+      [
+        3577681,
+        "mov    rcx,r8"
+      ],
+      [
+        3577684,
+        "call   0x2dee3c"
+      ],
+      [
+        3577689,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3577692,
+        "add    rsp,0x28"
+      ],
+      [
+        3577696,
+        "ret"
+      ]
+    ],
+    "range": [
+      3577656,
+      3577697
+    ]
+  },
+  {
+    "rva": "0x369764",
+    "offset": "0x300",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3577700,
+        "sub    rsp,0x28"
+      ],
+      [
+        3577704,
+        "mov    r8,rcx"
+      ],
+      [
+        3577707,
+        "call   0x2caf08"
+      ],
+      [
+        3577712,
+        "test   al,al"
+      ],
+      [
+        3577714,
+        "jne    0x369778"
+      ],
+      [
+        3577716,
+        "xor    eax,eax"
+      ],
+      [
+        3577718,
+        "jmp    0x369788"
+      ],
+      [
+        3577720,
+        "mov    edx,0x300"
+      ],
+      [
+        3577725,
+        "mov    rcx,r8"
+      ],
+      [
+        3577728,
+        "call   0x2dee3c"
+      ],
+      [
+        3577733,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3577736,
+        "add    rsp,0x28"
+      ],
+      [
+        3577740,
+        "ret"
+      ]
+    ],
+    "range": [
+      3577700,
+      3577741
+    ]
+  },
+  {
+    "rva": "0x36a2c8",
+    "offset": "0x4e8",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3580616,
+        "sub    rsp,0x28"
+      ],
+      [
+        3580620,
+        "mov    r8,rcx"
+      ],
+      [
+        3580623,
+        "call   0x2caf08"
+      ],
+      [
+        3580628,
+        "test   al,al"
+      ],
+      [
+        3580630,
+        "jne    0x36a2dc"
+      ],
+      [
+        3580632,
+        "xor    eax,eax"
+      ],
+      [
+        3580634,
+        "jmp    0x36a2ec"
+      ],
+      [
+        3580636,
+        "mov    edx,0x4e8"
+      ],
+      [
+        3580641,
+        "mov    rcx,r8"
+      ],
+      [
+        3580644,
+        "call   0x2dee3c"
+      ],
+      [
+        3580649,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3580652,
+        "add    rsp,0x28"
+      ],
+      [
+        3580656,
+        "ret"
+      ]
+    ],
+    "range": [
+      3580616,
+      3580657
+    ]
+  },
+  {
+    "rva": "0x36a2f4",
+    "offset": "0x6d0",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3580660,
+        "sub    rsp,0x28"
+      ],
+      [
+        3580664,
+        "mov    r8,rcx"
+      ],
+      [
+        3580667,
+        "call   0x2caf08"
+      ],
+      [
+        3580672,
+        "test   al,al"
+      ],
+      [
+        3580674,
+        "jne    0x36a308"
+      ],
+      [
+        3580676,
+        "xor    eax,eax"
+      ],
+      [
+        3580678,
+        "jmp    0x36a318"
+      ],
+      [
+        3580680,
+        "mov    edx,0x6d0"
+      ],
+      [
+        3580685,
+        "mov    rcx,r8"
+      ],
+      [
+        3580688,
+        "call   0x2dee3c"
+      ],
+      [
+        3580693,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3580696,
+        "add    rsp,0x28"
+      ],
+      [
+        3580700,
+        "ret"
+      ]
+    ],
+    "range": [
+      3580660,
+      3580701
+    ]
+  },
+  {
+    "rva": "0x371294",
+    "offset": "0x30",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3609236,
+        "sub    rsp,0x28"
+      ],
+      [
+        3609240,
+        "mov    r8,rcx"
+      ],
+      [
+        3609243,
+        "call   0x2caf08"
+      ],
+      [
+        3609248,
+        "test   al,al"
+      ],
+      [
+        3609250,
+        "jne    0x3712a8"
+      ],
+      [
+        3609252,
+        "xor    eax,eax"
+      ],
+      [
+        3609254,
+        "jmp    0x3712b7"
+      ],
+      [
+        3609256,
+        "mov    edx,0x30"
+      ],
+      [
+        3609261,
+        "mov    rcx,r8"
+      ],
+      [
+        3609264,
+        "call   0x2dee3c"
+      ],
+      [
+        3609269,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3609271,
+        "add    rsp,0x28"
+      ],
+      [
+        3609275,
+        "ret"
+      ]
+    ],
+    "range": [
+      3609236,
+      3609276
+    ]
+  },
+  {
+    "rva": "0x3715d8",
+    "offset": "0x10",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3610072,
+        "sub    rsp,0x28"
+      ],
+      [
+        3610076,
+        "mov    r8,rcx"
+      ],
+      [
+        3610079,
+        "call   0x2caf08"
+      ],
+      [
+        3610084,
+        "test   al,al"
+      ],
+      [
+        3610086,
+        "jne    0x3715ec"
+      ],
+      [
+        3610088,
+        "xor    eax,eax"
+      ],
+      [
+        3610090,
+        "jmp    0x3715fc"
+      ],
+      [
+        3610092,
+        "mov    edx,0x10"
+      ],
+      [
+        3610097,
+        "mov    rcx,r8"
+      ],
+      [
+        3610100,
+        "call   0x2dee3c"
+      ],
+      [
+        3610105,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3610108,
+        "add    rsp,0x28"
+      ],
+      [
+        3610112,
+        "ret"
+      ]
+    ],
+    "range": [
+      3610072,
+      3610113
+    ]
+  },
+  {
+    "rva": "0x371604",
+    "offset": "0x88",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3610116,
+        "sub    rsp,0x28"
+      ],
+      [
+        3610120,
+        "mov    r8,rcx"
+      ],
+      [
+        3610123,
+        "call   0x2caf08"
+      ],
+      [
+        3610128,
+        "test   al,al"
+      ],
+      [
+        3610130,
+        "jne    0x371619"
+      ],
+      [
+        3610132,
+        "or     eax,0xffffffff"
+      ],
+      [
+        3610135,
+        "jmp    0x371628"
+      ],
+      [
+        3610137,
+        "mov    edx,0x88"
+      ],
+      [
+        3610142,
+        "mov    rcx,r8"
+      ],
+      [
+        3610145,
+        "call   0x2dee3c"
+      ],
+      [
+        3610150,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3610152,
+        "add    rsp,0x28"
+      ],
+      [
+        3610156,
+        "ret"
+      ]
+    ],
+    "range": [
+      3610116,
+      3610157
+    ]
+  },
+  {
+    "rva": "0x372184",
+    "offset": "0xd8",
+    "read": "movss  xmm0,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3613060,
+        "sub    rsp,0x28"
+      ],
+      [
+        3613064,
+        "mov    r8,rcx"
+      ],
+      [
+        3613067,
+        "call   0x2caf08"
+      ],
+      [
+        3613072,
+        "test   al,al"
+      ],
+      [
+        3613074,
+        "je     0x3721af"
+      ],
+      [
+        3613076,
+        "mov    edx,0xd8"
+      ],
+      [
+        3613081,
+        "mov    rcx,r8"
+      ],
+      [
+        3613084,
+        "call   0x2dee3c"
+      ],
+      [
+        3613089,
+        "movss  xmm0,DWORD PTR [rax]"
+      ],
+      [
+        3613093,
+        "comiss xmm0,DWORD PTR [rip+0xfffffffffff1b0a0]        # 0x28d24c"
+      ],
+      [
+        3613100,
+        "seta   al"
+      ],
+      [
+        3613103,
+        "add    rsp,0x28"
+      ],
+      [
+        3613107,
+        "ret"
+      ]
+    ],
+    "range": [
+      3613060,
+      3613108
+    ]
+  },
+  {
+    "rva": "0x372220",
+    "offset": "0x2f8",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3613216,
+        "sub    rsp,0x28"
+      ],
+      [
+        3613220,
+        "mov    r8,rcx"
+      ],
+      [
+        3613223,
+        "call   0x2caf08"
+      ],
+      [
+        3613228,
+        "test   al,al"
+      ],
+      [
+        3613230,
+        "jne    0x372235"
+      ],
+      [
+        3613232,
+        "or     eax,0xffffffff"
+      ],
+      [
+        3613235,
+        "jmp    0x372244"
+      ],
+      [
+        3613237,
+        "mov    edx,0x2f8"
+      ],
+      [
+        3613242,
+        "mov    rcx,r8"
+      ],
+      [
+        3613245,
+        "call   0x2dee3c"
+      ],
+      [
+        3613250,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3613252,
+        "add    rsp,0x28"
+      ],
+      [
+        3613256,
+        "ret"
+      ]
+    ],
+    "range": [
+      3613216,
+      3613257
+    ]
+  },
+  {
+    "rva": "0x37236c",
+    "offset": "0x58",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3613548,
+        "sub    rsp,0x28"
+      ],
+      [
+        3613552,
+        "mov    r8,rcx"
+      ],
+      [
+        3613555,
+        "call   0x2caf08"
+      ],
+      [
+        3613560,
+        "test   al,al"
+      ],
+      [
+        3613562,
+        "jne    0x372381"
+      ],
+      [
+        3613564,
+        "or     eax,0xffffffff"
+      ],
+      [
+        3613567,
+        "jmp    0x372390"
+      ],
+      [
+        3613569,
+        "mov    edx,0x58"
+      ],
+      [
+        3613574,
+        "mov    rcx,r8"
+      ],
+      [
+        3613577,
+        "call   0x2dee3c"
+      ],
+      [
+        3613582,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3613584,
+        "add    rsp,0x28"
+      ],
+      [
+        3613588,
+        "ret"
+      ]
+    ],
+    "range": [
+      3613548,
+      3613589
+    ]
+  },
+  {
+    "rva": "0x37261c",
+    "offset": "0x20",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3614236,
+        "sub    rsp,0x28"
+      ],
+      [
+        3614240,
+        "mov    r8,rcx"
+      ],
+      [
+        3614243,
+        "call   0x2caf08"
+      ],
+      [
+        3614248,
+        "test   al,al"
+      ],
+      [
+        3614250,
+        "jne    0x372630"
+      ],
+      [
+        3614252,
+        "xor    eax,eax"
+      ],
+      [
+        3614254,
+        "jmp    0x37263f"
+      ],
+      [
+        3614256,
+        "mov    edx,0x20"
+      ],
+      [
+        3614261,
+        "mov    rcx,r8"
+      ],
+      [
+        3614264,
+        "call   0x2dee3c"
+      ],
+      [
+        3614269,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3614271,
+        "add    rsp,0x28"
+      ],
+      [
+        3614275,
+        "ret"
+      ]
+    ],
+    "range": [
+      3614236,
+      3614276
+    ]
+  },
+  {
+    "rva": "0x372bcc",
+    "offset": "0x24",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3615692,
+        "sub    rsp,0x28"
+      ],
+      [
+        3615696,
+        "mov    r8,rcx"
+      ],
+      [
+        3615699,
+        "call   0x2caf08"
+      ],
+      [
+        3615704,
+        "test   al,al"
+      ],
+      [
+        3615706,
+        "jne    0x372be0"
+      ],
+      [
+        3615708,
+        "xor    eax,eax"
+      ],
+      [
+        3615710,
+        "jmp    0x372bef"
+      ],
+      [
+        3615712,
+        "mov    edx,0x24"
+      ],
+      [
+        3615717,
+        "mov    rcx,r8"
+      ],
+      [
+        3615720,
+        "call   0x2dee3c"
+      ],
+      [
+        3615725,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3615727,
+        "add    rsp,0x28"
+      ],
+      [
+        3615731,
+        "ret"
+      ]
+    ],
+    "range": [
+      3615692,
+      3615732
+    ]
+  },
+  {
+    "rva": "0x373dc8",
+    "offset": "0x28",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3620296,
+        "sub    rsp,0x28"
+      ],
+      [
+        3620300,
+        "mov    r8,rcx"
+      ],
+      [
+        3620303,
+        "call   0x2caf08"
+      ],
+      [
+        3620308,
+        "test   al,al"
+      ],
+      [
+        3620310,
+        "jne    0x373ddc"
+      ],
+      [
+        3620312,
+        "xor    eax,eax"
+      ],
+      [
+        3620314,
+        "jmp    0x373dec"
+      ],
+      [
+        3620316,
+        "mov    edx,0x28"
+      ],
+      [
+        3620321,
+        "mov    rcx,r8"
+      ],
+      [
+        3620324,
+        "call   0x2dee3c"
+      ],
+      [
+        3620329,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3620332,
+        "add    rsp,0x28"
+      ],
+      [
+        3620336,
+        "ret"
+      ]
+    ],
+    "range": [
+      3620296,
+      3620337
+    ]
+  },
+  {
+    "rva": "0x373df4",
+    "offset": "0x20",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3620340,
+        "sub    rsp,0x28"
+      ],
+      [
+        3620344,
+        "mov    r8,rcx"
+      ],
+      [
+        3620347,
+        "call   0x2caf08"
+      ],
+      [
+        3620352,
+        "test   al,al"
+      ],
+      [
+        3620354,
+        "jne    0x373e08"
+      ],
+      [
+        3620356,
+        "xor    eax,eax"
+      ],
+      [
+        3620358,
+        "jmp    0x373e18"
+      ],
+      [
+        3620360,
+        "mov    edx,0x20"
+      ],
+      [
+        3620365,
+        "mov    rcx,r8"
+      ],
+      [
+        3620368,
+        "call   0x2dee3c"
+      ],
+      [
+        3620373,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3620376,
+        "add    rsp,0x28"
+      ],
+      [
+        3620380,
+        "ret"
+      ]
+    ],
+    "range": [
+      3620340,
+      3620381
+    ]
+  },
+  {
+    "rva": "0x373e20",
+    "offset": "0x30",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3620384,
+        "sub    rsp,0x28"
+      ],
+      [
+        3620388,
+        "mov    r8,rcx"
+      ],
+      [
+        3620391,
+        "call   0x2caf08"
+      ],
+      [
+        3620396,
+        "test   al,al"
+      ],
+      [
+        3620398,
+        "jne    0x373e34"
+      ],
+      [
+        3620400,
+        "xor    eax,eax"
+      ],
+      [
+        3620402,
+        "jmp    0x373e44"
+      ],
+      [
+        3620404,
+        "mov    edx,0x30"
+      ],
+      [
+        3620409,
+        "mov    rcx,r8"
+      ],
+      [
+        3620412,
+        "call   0x2dee3c"
+      ],
+      [
+        3620417,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3620420,
+        "add    rsp,0x28"
+      ],
+      [
+        3620424,
+        "ret"
+      ]
+    ],
+    "range": [
+      3620384,
+      3620425
+    ]
+  },
+  {
+    "rva": "0x373e4c",
+    "offset": "0x50",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3620428,
+        "sub    rsp,0x28"
+      ],
+      [
+        3620432,
+        "mov    r8,rcx"
+      ],
+      [
+        3620435,
+        "call   0x2caf08"
+      ],
+      [
+        3620440,
+        "test   al,al"
+      ],
+      [
+        3620442,
+        "jne    0x373e60"
+      ],
+      [
+        3620444,
+        "xor    eax,eax"
+      ],
+      [
+        3620446,
+        "jmp    0x373e70"
+      ],
+      [
+        3620448,
+        "mov    edx,0x50"
+      ],
+      [
+        3620453,
+        "mov    rcx,r8"
+      ],
+      [
+        3620456,
+        "call   0x2dee3c"
+      ],
+      [
+        3620461,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3620464,
+        "add    rsp,0x28"
+      ],
+      [
+        3620468,
+        "ret"
+      ]
+    ],
+    "range": [
+      3620428,
+      3620469
+    ]
+  },
+  {
+    "rva": "0x374210",
+    "offset": "0x128",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3621392,
+        "sub    rsp,0x28"
+      ],
+      [
+        3621396,
+        "mov    r8,rcx"
+      ],
+      [
+        3621399,
+        "call   0x2caf08"
+      ],
+      [
+        3621404,
+        "test   al,al"
+      ],
+      [
+        3621406,
+        "jne    0x374224"
+      ],
+      [
+        3621408,
+        "xor    eax,eax"
+      ],
+      [
+        3621410,
+        "jmp    0x374234"
+      ],
+      [
+        3621412,
+        "mov    edx,0x128"
+      ],
+      [
+        3621417,
+        "mov    rcx,r8"
+      ],
+      [
+        3621420,
+        "call   0x2dee3c"
+      ],
+      [
+        3621425,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3621428,
+        "add    rsp,0x28"
+      ],
+      [
+        3621432,
+        "ret"
+      ]
+    ],
+    "range": [
+      3621392,
+      3621433
+    ]
+  },
+  {
+    "rva": "0x37423c",
+    "offset": "0x144",
+    "read": "movss  xmm0,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3621436,
+        "sub    rsp,0x28"
+      ],
+      [
+        3621440,
+        "mov    r8,rcx"
+      ],
+      [
+        3621443,
+        "call   0x2caf08"
+      ],
+      [
+        3621448,
+        "test   al,al"
+      ],
+      [
+        3621450,
+        "jne    0x374251"
+      ],
+      [
+        3621452,
+        "xorps  xmm0,xmm0"
+      ],
+      [
+        3621455,
+        "jmp    0x374262"
+      ],
+      [
+        3621457,
+        "mov    edx,0x144"
+      ],
+      [
+        3621462,
+        "mov    rcx,r8"
+      ],
+      [
+        3621465,
+        "call   0x2dee3c"
+      ],
+      [
+        3621470,
+        "movss  xmm0,DWORD PTR [rax]"
+      ],
+      [
+        3621474,
+        "add    rsp,0x28"
+      ],
+      [
+        3621478,
+        "ret"
+      ]
+    ],
+    "range": [
+      3621436,
+      3621479
+    ]
+  },
+  {
+    "rva": "0x3742ac",
+    "offset": "0x138",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3621548,
+        "sub    rsp,0x28"
+      ],
+      [
+        3621552,
+        "mov    r8,rcx"
+      ],
+      [
+        3621555,
+        "call   0x2caf08"
+      ],
+      [
+        3621560,
+        "test   al,al"
+      ],
+      [
+        3621562,
+        "jne    0x3742c0"
+      ],
+      [
+        3621564,
+        "xor    eax,eax"
+      ],
+      [
+        3621566,
+        "jmp    0x3742cf"
+      ],
+      [
+        3621568,
+        "mov    edx,0x138"
+      ],
+      [
+        3621573,
+        "mov    rcx,r8"
+      ],
+      [
+        3621576,
+        "call   0x2dee3c"
+      ],
+      [
+        3621581,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3621583,
+        "add    rsp,0x28"
+      ],
+      [
+        3621587,
+        "ret"
+      ]
+    ],
+    "range": [
+      3621548,
+      3621588
+    ]
+  },
+  {
+    "rva": "0x3742d4",
+    "offset": "0x120",
+    "read": "mov    rax,QWORD PTR [rax]",
+    "instructions": [
+      [
+        3621588,
+        "sub    rsp,0x28"
+      ],
+      [
+        3621592,
+        "mov    r8,rcx"
+      ],
+      [
+        3621595,
+        "call   0x2caf08"
+      ],
+      [
+        3621600,
+        "test   al,al"
+      ],
+      [
+        3621602,
+        "jne    0x3742e8"
+      ],
+      [
+        3621604,
+        "xor    eax,eax"
+      ],
+      [
+        3621606,
+        "jmp    0x3742f8"
+      ],
+      [
+        3621608,
+        "mov    edx,0x120"
+      ],
+      [
+        3621613,
+        "mov    rcx,r8"
+      ],
+      [
+        3621616,
+        "call   0x2dee3c"
+      ],
+      [
+        3621621,
+        "mov    rax,QWORD PTR [rax]"
+      ],
+      [
+        3621624,
+        "add    rsp,0x28"
+      ],
+      [
+        3621628,
+        "ret"
+      ]
+    ],
+    "range": [
+      3621588,
+      3621629
+    ]
+  },
+  {
+    "rva": "0x374300",
+    "offset": "0x188",
+    "read": "movss  xmm0,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3621632,
+        "sub    rsp,0x28"
+      ],
+      [
+        3621636,
+        "mov    r8,rcx"
+      ],
+      [
+        3621639,
+        "call   0x2caf08"
+      ],
+      [
+        3621644,
+        "test   al,al"
+      ],
+      [
+        3621646,
+        "jne    0x374315"
+      ],
+      [
+        3621648,
+        "xorps  xmm0,xmm0"
+      ],
+      [
+        3621651,
+        "jmp    0x374326"
+      ],
+      [
+        3621653,
+        "mov    edx,0x188"
+      ],
+      [
+        3621658,
+        "mov    rcx,r8"
+      ],
+      [
+        3621661,
+        "call   0x2dee3c"
+      ],
+      [
+        3621666,
+        "movss  xmm0,DWORD PTR [rax]"
+      ],
+      [
+        3621670,
+        "add    rsp,0x28"
+      ],
+      [
+        3621674,
+        "ret"
+      ]
+    ],
+    "range": [
+      3621632,
+      3621675
+    ]
+  },
+  {
+    "rva": "0x374348",
+    "offset": "0x40",
+    "read": "mov    eax,DWORD PTR [rax]",
+    "instructions": [
+      [
+        3621704,
+        "sub    rsp,0x28"
+      ],
+      [
+        3621708,
+        "mov    r8,rcx"
+      ],
+      [
+        3621711,
+        "call   0x2caf08"
+      ],
+      [
+        3621716,
+        "test   al,al"
+      ],
+      [
+        3621718,
+        "jne    0x37435c"
+      ],
+      [
+        3621720,
+        "xor    eax,eax"
+      ],
+      [
+        3621722,
+        "jmp    0x37436b"
+      ],
+      [
+        3621724,
+        "mov    edx,0x40"
+      ],
+      [
+        3621729,
+        "mov    rcx,r8"
+      ],
+      [
+        3621732,
+        "call   0x2dee3c"
+      ],
+      [
+        3621737,
+        "mov    eax,DWORD PTR [rax]"
+      ],
+      [
+        3621739,
+        "add    rsp,0x28"
+      ],
+      [
+        3621743,
+        "ret"
+      ]
+    ],
+    "range": [
+      3621704,
+      3621744
+    ]
+  }
+]

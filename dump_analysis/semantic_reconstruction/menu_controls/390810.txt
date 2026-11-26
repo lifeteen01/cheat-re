@@ -1,0 +1,26 @@
+390810	cmp    edx,0x1000
+390816	jne    0x39081e
+390818	mov    eax,0x288
+39081d	ret
+39081e	cmp    edx,0x2000
+390824	jne    0x39082c
+390826	mov    eax,0x289
+39082b	ret
+39082c	cmp    edx,0x4000
+390832	jne    0x39083a
+390834	mov    eax,0x28a
+390839	ret
+39083a	cmp    edx,0x8000
+390840	jne    0x390848
+390842	mov    eax,0x28b
+390847	ret
+390848	cmp    edx,0x800
+39084e	jne    0x390860
+390850	mov    al,BYTE PTR [rcx+0x79]
+390853	neg    al
+390855	sbb    eax,eax
+390857	and    eax,0x3
+39085a	add    eax,0x288
+39085f	ret
+390860	mov    eax,edx
+390862	ret

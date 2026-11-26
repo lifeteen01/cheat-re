@@ -1,0 +1,28 @@
+335040 rex push rbx
+335042 sub    rsp,0x20
+335046 mov    eax,DWORD PTR [rip+0xc5444]        # 0x3fa490
+33504c mov    rbx,rcx
+33504f test   al,0x1
+335051 jne    0x335073
+335053 or     eax,0x1
+335056 mov    DWORD PTR [rip+0xc5434],eax        # 0x3fa490
+33505c call   0x3339ec
+335061 mov    r8,rax
+335064 mov    QWORD PTR [rip+0xc541d],rax        # 0x3fa488
+33506b mov    eax,DWORD PTR [rip+0xc541f]        # 0x3fa490
+335071 jmp    0x33507a
+335073 mov    r8,QWORD PTR [rip+0xc540e]        # 0x3fa488
+33507a test   al,0x2
+33507c jne    0x33509d
+33507e mov    rcx,QWORD PTR [rip+0xa0ddb]        # 0x3d5e60
+335085 lea    rdx,[rip+0xc5414]        # 0x3fa4a0
+33508c or     eax,0x2
+33508f xor    r9d,r9d
+335092 mov    DWORD PTR [rip+0xc53f8],eax        # 0x3fa490
+335098 call   0x2cbd24
+33509d mov    rcx,QWORD PTR [rip+0xa0dbc]        # 0x3d5e60
+3350a4 lea    rdx,[rip+0xc53f5]        # 0x3fa4a0
+3350ab mov    r8,rbx
+3350ae add    rsp,0x20
+3350b2 pop    rbx
+3350b3 jmp    0x2cb9fc

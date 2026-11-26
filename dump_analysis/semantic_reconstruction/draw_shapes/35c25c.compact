@@ -1,0 +1,50 @@
+35c25c rex push rbx
+35c25e push   rbp
+35c25f push   rsi
+35c260 push   rdi
+35c261 sub    rsp,0x48
+35c265 mov    ebx,r9d
+35c268 mov    rsi,r8
+35c26b mov    rbp,rdx
+35c26e call   0x35d200
+35c273 movss  xmm0,DWORD PTR [rip+0xfffffffffff31469]        # 0x28d6e4
+35c27b lea    rcx,[rsp+0x30]
+35c280 xorps  xmm4,xmm4
+35c283 xorps  xmm3,xmm3
+35c286 xorps  xmm2,xmm2
+35c289 xorps  xmm1,xmm1
+35c28c mov    rdi,QWORD PTR [rax+0x298]
+35c293 mov    eax,ebx
+35c295 shr    eax,0x18
+35c298 cvtsi2ss xmm4,rax
+35c29d mov    eax,ebx
+35c29f shr    eax,0x10
+35c2a2 movzx  eax,al
+35c2a5 cvtsi2ss xmm3,rax
+35c2aa mov    eax,ebx
+35c2ac shr    eax,0x8
+35c2af movzx  eax,al
+35c2b2 divss  xmm4,xmm0
+35c2b6 cvtsi2ss xmm2,rax
+35c2bb movzx  eax,bl
+35c2be cvtsi2ss xmm1,rax
+35c2c3 divss  xmm3,xmm0
+35c2c7 divss  xmm1,xmm0
+35c2cb divss  xmm2,xmm0
+35c2cf movss  DWORD PTR [rsp+0x20],xmm4
+35c2d5 call   0x2cc350
+35c2da mov    rcx,rax
+35c2dd call   0x392260
+35c2e2 movss  xmm0,DWORD PTR [rsp+0x90]
+35c2eb mov    r9d,eax
+35c2ee mov    r8,rsi
+35c2f1 movss  DWORD PTR [rsp+0x20],xmm0
+35c2f7 mov    rdx,rbp
+35c2fa mov    rcx,rdi
+35c2fd call   0x3a01f4
+35c302 add    rsp,0x48
+35c306 pop    rdi
+35c307 pop    rsi
+35c308 pop    rbp
+35c309 pop    rbx
+35c30a ret

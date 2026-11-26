@@ -1,0 +1,1259 @@
+[
+  {
+    "wrapper": 2938868,
+    "end": 2938988,
+    "flags": 4022352,
+    "target": 4022344,
+    "context": 4022368,
+    "resolver": 2933108,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 2942744,
+    "end": 2942864,
+    "flags": 4021872,
+    "target": 4021864,
+    "context": 4021888,
+    "resolver": 2933092,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 2943620,
+    "end": 2943740,
+    "flags": 4022112,
+    "target": 4022104,
+    "context": 4022128,
+    "resolver": 2933100,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3016476,
+    "end": 3016731,
+    "flags": 4027600,
+    "target": 4027592,
+    "context": 4027616,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x2dfb04",
+        "get_deltaTime"
+      ],
+      [
+        "0x2df9b0",
+        "UnityEngine"
+      ],
+      [
+        "0x2df898",
+        "Time"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3017200,
+    "end": 3017455,
+    "flags": 4028080,
+    "target": 4028072,
+    "context": 4028096,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x2dfb40",
+        "get_height"
+      ],
+      [
+        "0x2df9e8",
+        "UnityEngine"
+      ],
+      [
+        "0x2df8c8",
+        "Screen"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3017456,
+    "end": 3017711,
+    "flags": 4027840,
+    "target": 4027832,
+    "context": 4027856,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x2dfb5c",
+        "get_width"
+      ],
+      [
+        "0x2dfa04",
+        "UnityEngine"
+      ],
+      [
+        "0x2df8e8",
+        "Screen"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3041464,
+    "end": 3041749,
+    "flags": 4080464,
+    "target": 4080456,
+    "context": 4080480,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x2e574c",
+        "get_isPressed"
+      ],
+      [
+        "0x2e5590",
+        "UnityEngine.InputSystem.Controls"
+      ],
+      [
+        "0x2e5434",
+        "ButtonControl"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3360488,
+    "end": 3360608,
+    "flags": 4171376,
+    "target": 4171368,
+    "context": 4171392,
+    "resolver": 2933108,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3363672,
+    "end": 3363792,
+    "flags": 4171136,
+    "target": 4171128,
+    "context": 4171152,
+    "resolver": 2933100,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3590340,
+    "end": 3590705,
+    "flags": 4193584,
+    "target": 4193576,
+    "context": 4193600,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x36c5e8",
+        "get_pixelRect"
+      ],
+      [
+        "0x36c568",
+        "UnityEngine"
+      ],
+      [
+        "0x36c4d0",
+        "Camera"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3617080,
+    "end": 3617352,
+    "flags": 4199600,
+    "target": 4199592,
+    "context": 4199616,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x372ee0",
+        "UnityEngine"
+      ],
+      [
+        "0x372e34",
+        "name"
+      ],
+      [
+        "0x372d50",
+        "Find"
+      ],
+      [
+        "0x372c74",
+        "GameObject"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3617656,
+    "end": 3617923,
+    "flags": 4199360,
+    "target": 4199352,
+    "context": 4199376,
+    "resolver": 0,
+    "signature": 0,
+    "strings": [
+      [
+        "0x372e70",
+        "UnityEngine"
+      ],
+      [
+        "0x372d84",
+        "GetComponent"
+      ],
+      [
+        "0x372cac",
+        "GameObject"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3618628,
+    "end": 3618944,
+    "flags": 4198880,
+    "target": 4198872,
+    "context": 4198896,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x372ec4",
+        "set_active"
+      ],
+      [
+        "0x372de0",
+        "UnityEngine"
+      ],
+      [
+        "0x372d04",
+        "GameObject"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3627708,
+    "end": 3628037,
+    "flags": 4205600,
+    "target": 4205592,
+    "context": 4205616,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x375aa0",
+        "UnityEngine"
+      ],
+      [
+        "0x3759b4",
+        "LoadAsset_Internal"
+      ],
+      [
+        "0x375914",
+        "AssetBundle"
+      ]
+    ],
+    "reflection_cache": 2619816
+  },
+  {
+    "wrapper": 3628040,
+    "end": 3628335,
+    "flags": 4205360,
+    "target": 4205352,
+    "context": 4205376,
+    "resolver": 3629396,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3759cc",
+        "Byte"
+      ],
+      [
+        "0x375930",
+        "System"
+      ],
+      [
+        "0x375a54",
+        "UnityEngine.AssetBundle::LoadFromMemory_Internal_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3628652,
+    "end": 3628772,
+    "flags": 4204880,
+    "target": 4204872,
+    "context": 4204896,
+    "resolver": 2933108,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3629188,
+    "end": 3629395,
+    "flags": 4204400,
+    "target": 4204392,
+    "context": 4204416,
+    "resolver": 0,
+    "signature": 0,
+    "strings": [
+      [
+        "0x375a20",
+        "il2cpp_array_new"
+      ],
+      [
+        "0x375984",
+        "GameAssembly.dll"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3629396,
+    "end": 3629588,
+    "flags": 4204160,
+    "target": 4204152,
+    "context": 4204176,
+    "resolver": 0,
+    "signature": 0,
+    "strings": [
+      [
+        "0x375a38",
+        "il2cpp_resolve_icall"
+      ],
+      [
+        "0x37599c",
+        "GameAssembly.dll"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3629588,
+    "end": 3629708,
+    "flags": 4204640,
+    "target": 4204632,
+    "context": 4204656,
+    "resolver": 2933100,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3862556,
+    "end": 3862714,
+    "flags": 4250112,
+    "target": 4250104,
+    "context": 4250128,
+    "resolver": 3357968,
+    "signature": 3252923877,
+    "strings": []
+  },
+  {
+    "wrapper": 3862716,
+    "end": 3862841,
+    "flags": 4255184,
+    "target": 4255176,
+    "context": 4255200,
+    "resolver": 3357968,
+    "signature": 324410004,
+    "strings": []
+  },
+  {
+    "wrapper": 3862844,
+    "end": 3862983,
+    "flags": 4253264,
+    "target": 4253256,
+    "context": 4253280,
+    "resolver": 3357968,
+    "signature": 3306758132,
+    "strings": []
+  },
+  {
+    "wrapper": 3862984,
+    "end": 3863138,
+    "flags": 4253984,
+    "target": 4253976,
+    "context": 4254000,
+    "resolver": 3357968,
+    "signature": 3580850844,
+    "strings": []
+  },
+  {
+    "wrapper": 3863140,
+    "end": 3863265,
+    "flags": 4253024,
+    "target": 4253016,
+    "context": 4253040,
+    "resolver": 3357968,
+    "signature": 2253373605,
+    "strings": []
+  },
+  {
+    "wrapper": 3863268,
+    "end": 3863457,
+    "flags": 4254944,
+    "target": 4254936,
+    "context": 4254960,
+    "resolver": 3357968,
+    "signature": 1582302239,
+    "strings": []
+  },
+  {
+    "wrapper": 3863460,
+    "end": 3863585,
+    "flags": 4250864,
+    "target": 4250856,
+    "context": 4250880,
+    "resolver": 3357968,
+    "signature": 3044155023,
+    "strings": []
+  },
+  {
+    "wrapper": 3863588,
+    "end": 3863881,
+    "flags": 4252784,
+    "target": 4252776,
+    "context": 4252800,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b170c",
+        "UnityEngine"
+      ],
+      [
+        "0x3b11ec",
+        "LoadAsset_Internal"
+      ],
+      [
+        "0x3b0c04",
+        "AssetBundle"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3863884,
+    "end": 3864177,
+    "flags": 4252544,
+    "target": 4252536,
+    "context": 4252560,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1728",
+        "UnityEngine"
+      ],
+      [
+        "0x3b1204",
+        "LoadAsset_Internal"
+      ],
+      [
+        "0x3b0c20",
+        "AssetBundle"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3864180,
+    "end": 3864305,
+    "flags": 4251344,
+    "target": 4251336,
+    "context": 4251360,
+    "resolver": 3357968,
+    "signature": 74604041,
+    "strings": []
+  },
+  {
+    "wrapper": 3864308,
+    "end": 3864433,
+    "flags": 4251584,
+    "target": 4251576,
+    "context": 4251600,
+    "resolver": 3357968,
+    "signature": 587731287,
+    "strings": []
+  },
+  {
+    "wrapper": 3864436,
+    "end": 3864594,
+    "flags": 4254704,
+    "target": 4254696,
+    "context": 4254720,
+    "resolver": 3357968,
+    "signature": 3432228482,
+    "strings": []
+  },
+  {
+    "wrapper": 3864596,
+    "end": 3864755,
+    "flags": 4254464,
+    "target": 4254456,
+    "context": 4254480,
+    "resolver": 3357968,
+    "signature": 5329254,
+    "strings": []
+  },
+  {
+    "wrapper": 3864756,
+    "end": 3864896,
+    "flags": 4254224,
+    "target": 4254216,
+    "context": 4254240,
+    "resolver": 3357968,
+    "signature": 4080121046,
+    "strings": []
+  },
+  {
+    "wrapper": 3864896,
+    "end": 3865035,
+    "flags": 4253744,
+    "target": 4253736,
+    "context": 4253760,
+    "resolver": 3357968,
+    "signature": 747188916,
+    "strings": []
+  },
+  {
+    "wrapper": 3867904,
+    "end": 3868029,
+    "flags": 4252064,
+    "target": 4252056,
+    "context": 4252080,
+    "resolver": 3357968,
+    "signature": 1504449661,
+    "strings": []
+  },
+  {
+    "wrapper": 3868032,
+    "end": 3868157,
+    "flags": 4251824,
+    "target": 4251816,
+    "context": 4251840,
+    "resolver": 3357968,
+    "signature": 3452725142,
+    "strings": []
+  },
+  {
+    "wrapper": 3868160,
+    "end": 3868285,
+    "flags": 4251104,
+    "target": 4251096,
+    "context": 4251120,
+    "resolver": 3357968,
+    "signature": 3466347668,
+    "strings": []
+  },
+  {
+    "wrapper": 3868288,
+    "end": 3868461,
+    "flags": 4249632,
+    "target": 4249624,
+    "context": 4249648,
+    "resolver": 3357968,
+    "signature": 3249771871,
+    "strings": []
+  },
+  {
+    "wrapper": 3868464,
+    "end": 3868604,
+    "flags": 4250632,
+    "target": 4250624,
+    "context": 4250640,
+    "resolver": 3357968,
+    "signature": 3463527815,
+    "strings": []
+  },
+  {
+    "wrapper": 3868640,
+    "end": 3868780,
+    "flags": 4252304,
+    "target": 4252296,
+    "context": 4252320,
+    "resolver": 3357968,
+    "signature": 3232778143,
+    "strings": []
+  },
+  {
+    "wrapper": 3868780,
+    "end": 3868919,
+    "flags": 4249872,
+    "target": 4249864,
+    "context": 4249888,
+    "resolver": 3357968,
+    "signature": 333989360,
+    "strings": []
+  },
+  {
+    "wrapper": 3868920,
+    "end": 3869059,
+    "flags": 4253504,
+    "target": 4253496,
+    "context": 4253520,
+    "resolver": 3357968,
+    "signature": 2667000050,
+    "strings": []
+  },
+  {
+    "wrapper": 3873152,
+    "end": 3873427,
+    "flags": 4248912,
+    "target": 4248904,
+    "context": 4248928,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1744",
+        "UnityEngine"
+      ],
+      [
+        "0x3b1238",
+        "Create"
+      ],
+      [
+        "0x3b0c58",
+        "RenderTexture"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3874244,
+    "end": 3874523,
+    "flags": 4247296,
+    "target": 4247288,
+    "context": 4247312,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b151c",
+        "DisableScissorRect"
+      ],
+      [
+        "0x3b1258",
+        "UnityEngine.Rendering"
+      ],
+      [
+        "0x3b0c7c",
+        "CommandBuffer"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3874524,
+    "end": 3874819,
+    "flags": 4247056,
+    "target": 4247048,
+    "context": 4247072,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1534",
+        "EnableScissorRect"
+      ],
+      [
+        "0x3b1274",
+        "UnityEngine.Rendering"
+      ],
+      [
+        "0x3b0ca0",
+        "CommandBuffer"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3874820,
+    "end": 3875101,
+    "flags": 4248192,
+    "target": 4248184,
+    "context": 4248208,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1760",
+        "UnityEngine"
+      ],
+      [
+        "0x3b1290",
+        "ExecuteCommandBuffer"
+      ],
+      [
+        "0x3b0cc4",
+        "Graphics"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3875104,
+    "end": 3875386,
+    "flags": 4244416,
+    "target": 4244408,
+    "context": 4244432,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1550",
+        "get_backButton"
+      ],
+      [
+        "0x3b12ac",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0ce0",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3875388,
+    "end": 3875670,
+    "flags": 4244656,
+    "target": 4244648,
+    "context": 4244672,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1580",
+        "get_forwardButton"
+      ],
+      [
+        "0x3b12c8",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0cf8",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3875672,
+    "end": 3875954,
+    "flags": 4243696,
+    "target": 4243688,
+    "context": 4243712,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b159c",
+        "get_leftButton"
+      ],
+      [
+        "0x3b12e4",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0d10",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3875956,
+    "end": 3876238,
+    "flags": 4244176,
+    "target": 4244168,
+    "context": 4244192,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b15cc",
+        "get_middleButton"
+      ],
+      [
+        "0x3b1300",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0d28",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3876240,
+    "end": 3876504,
+    "flags": 4243456,
+    "target": 4243448,
+    "context": 4243472,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b15e4",
+        "get_current"
+      ],
+      [
+        "0x3b131c",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0d40",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3876504,
+    "end": 3876786,
+    "flags": 4242976,
+    "target": 4242968,
+    "context": 4242992,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1600",
+        "get_position"
+      ],
+      [
+        "0x3b1338",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0d58",
+        "Pointer"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3876856,
+    "end": 3877138,
+    "flags": 4243936,
+    "target": 4243928,
+    "context": 4243952,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1624",
+        "get_rightButton"
+      ],
+      [
+        "0x3b1354",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0d6c",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3877140,
+    "end": 3877422,
+    "flags": 4243216,
+    "target": 4243208,
+    "context": 4243232,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1634",
+        "get_scroll"
+      ],
+      [
+        "0x3b1370",
+        "UnityEngine.InputSystem"
+      ],
+      [
+        "0x3b0d84",
+        "Mouse"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3877424,
+    "end": 3877688,
+    "flags": 4244896,
+    "target": 4244888,
+    "context": 4244912,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1650",
+        "get_unscaledDeltaTime"
+      ],
+      [
+        "0x3b138c",
+        "UnityEngine"
+      ],
+      [
+        "0x3b0d9c",
+        "Time"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3880468,
+    "end": 3880853,
+    "flags": 4250392,
+    "target": 4250384,
+    "context": 4250400,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b17b4",
+        "UnityEngine"
+      ],
+      [
+        "0x3b1454",
+        "Ortho"
+      ],
+      [
+        "0x3b0e64",
+        "Matrix4x4"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3880856,
+    "end": 3881020,
+    "flags": 4246816,
+    "target": 4246808,
+    "context": 4246832,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b0e80",
+        "Unity.Collections.LowLevel.Unsafe.UnsafeUtility::PinSystemObjectAndGetAddress"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3881020,
+    "end": 3881295,
+    "flags": 4248672,
+    "target": 4248664,
+    "context": 4248688,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b17d0",
+        "UnityEngine"
+      ],
+      [
+        "0x3b146c",
+        "Release"
+      ],
+      [
+        "0x3b0ebc",
+        "RenderTexture"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3881436,
+    "end": 3881732,
+    "flags": 4249392,
+    "target": 4249384,
+    "context": 4249408,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b17ec",
+        "UnityEngine"
+      ],
+      [
+        "0x3b1480",
+        "set_height"
+      ],
+      [
+        "0x3b0ee0",
+        "RenderTexture"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3881732,
+    "end": 3881947,
+    "flags": 4246096,
+    "target": 4246088,
+    "context": 4246112,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b0f04",
+        "UnityEngine.Mesh::InternalSetIndexBufferData_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3881948,
+    "end": 3882127,
+    "flags": 4246336,
+    "target": 4246328,
+    "context": 4246352,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b0f38",
+        "UnityEngine.Mesh::SetIndexBufferParams_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3882128,
+    "end": 3882425,
+    "flags": 4247536,
+    "target": 4247528,
+    "context": 4247552,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1808",
+        "UnityEngine.Rendering"
+      ],
+      [
+        "0x3b16a8",
+        "rt"
+      ],
+      [
+        "0x3b149c",
+        "SetRenderTarget"
+      ],
+      [
+        "0x3b0f5c",
+        "CommandBuffer"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3882428,
+    "end": 3882586,
+    "flags": 4247960,
+    "target": 4247952,
+    "context": 4247968,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b0f80",
+        "UnityEngine.RectTransform::set_sizeDelta_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3882588,
+    "end": 3882800,
+    "flags": 4245616,
+    "target": 4245608,
+    "context": 4245632,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b0fb0",
+        "UnityEngine.Mesh::SetAllSubMeshesAtOnceFromNativeArray_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3882808,
+    "end": 3883021,
+    "flags": 4245856,
+    "target": 4245848,
+    "context": 4245872,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b0fe0",
+        "UnityEngine.Mesh::InternalSetVertexBufferData_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3883024,
+    "end": 3883215,
+    "flags": 4246576,
+    "target": 4246568,
+    "context": 4246592,
+    "resolver": 3886376,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1014",
+        "UnityEngine.Mesh::SetVertexBufferParamsFromPtr_Injected"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3883216,
+    "end": 3883512,
+    "flags": 4249152,
+    "target": 4249144,
+    "context": 4249168,
+    "resolver": 3357684,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b1824",
+        "UnityEngine"
+      ],
+      [
+        "0x3b14ac",
+        "set_width"
+      ],
+      [
+        "0x3b1048",
+        "RenderTexture"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3884484,
+    "end": 3884619,
+    "flags": 4241296,
+    "target": 4241288,
+    "context": 4241312,
+    "resolver": 0,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3885092,
+    "end": 3885232,
+    "flags": 4248432,
+    "target": 4248424,
+    "context": 4248448,
+    "resolver": 0,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3885600,
+    "end": 3885720,
+    "flags": 4242496,
+    "target": 4242488,
+    "context": 4242512,
+    "resolver": 3357164,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3885720,
+    "end": 3885854,
+    "flags": 4241776,
+    "target": 4241768,
+    "context": 4241792,
+    "resolver": 3357220,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3885856,
+    "end": 3885976,
+    "flags": 4241536,
+    "target": 4241528,
+    "context": 4241552,
+    "resolver": 3073804,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3885976,
+    "end": 3886096,
+    "flags": 4242256,
+    "target": 4242248,
+    "context": 4242272,
+    "resolver": 3010124,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3886096,
+    "end": 3886375,
+    "flags": 4245376,
+    "target": 4245368,
+    "context": 4245392,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b16c0",
+        "GetImageDataSize"
+      ],
+      [
+        "0x3b14c8",
+        "UnityEngine"
+      ],
+      [
+        "0x3b119c",
+        "Texture2D"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3886376,
+    "end": 3886568,
+    "flags": 4242736,
+    "target": 4242728,
+    "context": 4242752,
+    "resolver": 0,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b14e4",
+        "il2cpp_resolve_icall"
+      ],
+      [
+        "0x3b11b8",
+        "GameAssembly.dll"
+      ]
+    ]
+  },
+  {
+    "wrapper": 3886568,
+    "end": 3886688,
+    "flags": 4242016,
+    "target": 4242008,
+    "context": 4242032,
+    "resolver": 3357148,
+    "signature": 0,
+    "strings": []
+  },
+  {
+    "wrapper": 3886688,
+    "end": 3886982,
+    "flags": 4245136,
+    "target": 4245128,
+    "context": 4245152,
+    "resolver": 3361196,
+    "signature": 0,
+    "strings": [
+      [
+        "0x3b16d8",
+        "GetWritableImageData"
+      ],
+      [
+        "0x3b1500",
+        "UnityEngine"
+      ],
+      [
+        "0x3b11d0",
+        "Texture2D"
+      ]
+    ]
+  }
+]

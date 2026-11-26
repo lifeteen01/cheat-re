@@ -1,0 +1,63 @@
+3a9bb8 rex push rbx
+3a9bba push   rbp
+3a9bbb push   rsi
+3a9bbc push   rdi
+3a9bbd sub    rsp,0x38
+3a9bc1 mov    rbx,rcx
+3a9bc4 mov    ebp,r9d
+3a9bc7 lea    rcx,[rsp+0x20]
+3a9bcc mov    esi,r8d
+3a9bcf mov    rdi,rdx
+3a9bd2 call   0x3a992c
+3a9bd7 xor    r11d,r11d
+3a9bda movups xmm0,XMMWORD PTR [rax]
+3a9bdd movdqu XMMWORD PTR [rbx],xmm0
+3a9be1 mov    r10,QWORD PTR [rbx+0x8]
+3a9be5 test   r10,r10
+3a9be8 je     0x3a9c5d
+3a9bea mov    ecx,DWORD PTR [rbx+0x4]
+3a9bed add    ecx,ebp
+3a9bef cmp    ecx,DWORD PTR [rdi+0x4]
+3a9bf2 jg     0x3a9c5d
+3a9bf4 mov    rdx,QWORD PTR [rdi+0x20]
+3a9bf8 test   rdx,rdx
+3a9bfb je     0x3a9c5d
+3a9bfd mov    r8d,DWORD PTR [rbx]
+3a9c00 mov    rax,QWORD PTR [rdx+0x8]
+3a9c04 mov    DWORD PTR [rdx],r8d
+3a9c07 mov    DWORD PTR [rdx+0x4],ecx
+3a9c0a mov    QWORD PTR [rdi+0x20],rax
+3a9c0e mov    rcx,QWORD PTR [r10]
+3a9c11 cmp    DWORD PTR [rcx],r8d
+3a9c14 jge    0x3a9c22
+3a9c16 lea    rax,[rcx+0x8]
+3a9c1a mov    rcx,QWORD PTR [rax]
+3a9c1d mov    QWORD PTR [rax],rdx
+3a9c20 jmp    0x3a9c25
+3a9c22 mov    QWORD PTR [r10],rdx
+3a9c25 cmp    QWORD PTR [rcx+0x8],r11
+3a9c29 je     0x3a9c4d
+3a9c2b lea    r10d,[r8+rsi*1]
+3a9c2f mov    r9,QWORD PTR [rcx+0x8]
+3a9c33 cmp    DWORD PTR [r9],r10d
+3a9c36 jg     0x3a9c4d
+3a9c38 mov    rax,QWORD PTR [rdi+0x20]
+3a9c3c mov    QWORD PTR [rcx+0x8],rax
+3a9c40 mov    QWORD PTR [rdi+0x20],rcx
+3a9c44 mov    rcx,r9
+3a9c47 cmp    QWORD PTR [r9+0x8],r11
+3a9c4b jne    0x3a9c2f
+3a9c4d lea    eax,[r8+rsi*1]
+3a9c51 mov    QWORD PTR [rdx+0x8],rcx
+3a9c55 cmp    DWORD PTR [rcx],eax
+3a9c57 jge    0x3a9c61
+3a9c59 mov    DWORD PTR [rcx],eax
+3a9c5b jmp    0x3a9c61
+3a9c5d mov    QWORD PTR [rbx+0x8],r11
+3a9c61 mov    rax,rbx
+3a9c64 add    rsp,0x38
+3a9c68 pop    rdi
+3a9c69 pop    rsi
+3a9c6a pop    rbp
+3a9c6b pop    rbx
+3a9c6c ret

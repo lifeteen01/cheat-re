@@ -1,0 +1,7 @@
+3a4b28 movss  xmm0,DWORD PTR [rcx+0x4]
+3a4b2d movss  xmm1,DWORD PTR [rcx]
+3a4b31 mulss  xmm0,DWORD PTR [rdx+0x4]
+3a4b36 mulss  xmm1,DWORD PTR [rdx]
+3a4b3a addss  xmm0,xmm1
+3a4b3e ret
+3a4b3f int3

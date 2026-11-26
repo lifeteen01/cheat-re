@@ -1,0 +1,7 @@
+[I] Combined immutable-script ASan/UBSan verification.
+Compile draw_shapes_checks.cpp
+Link 328 translation units; 327 content-verified cache hits
+frame/world controller fixture groups8 PASS
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

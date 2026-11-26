@@ -1,0 +1,3 @@
+["/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/wine_toolchain/usr/lib/x86_64-linux-gnu/wine/wine", "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/build/windows_host_checks.exe", "Z:\\home\\john\\Desktop\\cheat_re\\dump_analysis\\semantic_reconstruction\\windows_base\\build\\re_base.dll"]
+PASS: Windows DLL load/init/hook/original/input/pixels/restore/target-loss/unload (owned host only)
+PASS: native menu controls/filter/edit/save/reload +219-key external profile/Unicode/last-good/identity refusal

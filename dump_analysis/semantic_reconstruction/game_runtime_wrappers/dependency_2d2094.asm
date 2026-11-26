@@ -1,0 +1,24 @@
+2d2094	mov    QWORD PTR [rsp+0x8],rbx
+2d2099	push   rdi
+2d209a	sub    rsp,0x30
+2d209e	mov    rdi,rdx
+2d20a1	lea    rcx,[rsp+0x20]
+2d20a6	mov    rdx,r8
+2d20a9	mov    rbx,r9
+2d20ac	call   0x2cc268
+2d20b1	mov    rdx,rbx
+2d20b4	lea    rcx,[rsp+0x28]
+2d20b9	call   0x2cc268
+2d20be	movzx  eax,WORD PTR [rsp+0x4a]
+2d20c3	mov    rcx,rdi
+2d20c6	movups xmm0,XMMWORD PTR [rsp+0x20]
+2d20cb	mov    WORD PTR [rdi+0xd2],ax
+2d20d2	lea    rax,[rsp+0x38]
+2d20d7	mov    QWORD PTR [rdi+0x78],rax
+2d20db	movdqu XMMWORD PTR [rdi+0x88],xmm0
+2d20e3	mov    WORD PTR [rdi+0xd0],0x0
+2d20ec	mov    QWORD PTR [rdi+0x80],0x2
+2d20f7	mov    rbx,QWORD PTR [rsp+0x40]
+2d20fc	add    rsp,0x30
+2d2100	pop    rdi
+2d2101	jmp    0x3cdbd4

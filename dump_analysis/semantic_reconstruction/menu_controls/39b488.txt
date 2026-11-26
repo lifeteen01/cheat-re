@@ -1,0 +1,41 @@
+39b488	rex push rbx
+39b48a	push   rbp
+39b48b	push   rsi
+39b48c	push   rdi
+39b48d	sub    rsp,0x38
+39b491	mov    rbx,QWORD PTR [rip+0x6a690]        # 0x405b28
+39b498	mov    rdi,rdx
+39b49b	mov    esi,ecx
+39b49d	cmp    QWORD PTR [rbx+0x48e8],rdx
+39b4a4	je     0x39b4ae
+39b4a6	mov    rcx,rdx
+39b4a9	call   0x39b6d8
+39b4ae	movsxd r8,DWORD PTR [rdi+0x158]
+39b4b5	mov    eax,DWORD PTR [rbx+0x4784]
+39b4bb	mov    rbp,r8
+39b4be	mov    DWORD PTR [rbx+0x48f0],esi
+39b4c4	mov    DWORD PTR [rbx+0x4920],r8d
+39b4cb	mov    DWORD PTR [rbx+0x48f4],eax
+39b4d1	mov    DWORD PTR [rdi+r8*4+0x3a0],esi
+39b4d9	cmp    DWORD PTR [rbx+0x47a4],esi
+39b4df	jne    0x39b504
+39b4e1	lea    r8,[rbx+0x47c0]
+39b4e8	mov    rdx,rdi
+39b4eb	lea    rcx,[rsp+0x20]
+39b4f0	call   0x39e1e0
+39b4f5	add    rbp,rbp
+39b4f8	movups xmm0,XMMWORD PTR [rax]
+39b4fb	movdqu XMMWORD PTR [rdi+rbp*8+0x3a8],xmm0
+39b504	mov    eax,DWORD PTR [rbx+0x3f90]
+39b50a	sub    eax,0x2
+39b50d	cmp    eax,0x1
+39b510	jbe    0x39b51b
+39b512	mov    BYTE PTR [rbx+0x4926],0x1
+39b519	jmp    0x39b522
+39b51b	mov    BYTE PTR [rbx+0x4927],0x1
+39b522	add    rsp,0x38
+39b526	pop    rdi
+39b527	pop    rsi
+39b528	pop    rbp
+39b529	pop    rbx
+39b52a	ret

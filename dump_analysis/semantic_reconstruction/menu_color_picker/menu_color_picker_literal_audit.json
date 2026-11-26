@@ -1,0 +1,47 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "literals": [
+    {
+      "name": "alpha",
+      "loader": "0x3786e8",
+      "cipher": "565449525a3c",
+      "decoded": "616c70686100"
+    },
+    {
+      "name": "hue",
+      "loader": "0x378718",
+      "cipher": "5f4d5c3a",
+      "decoded": "68756500"
+    },
+    {
+      "name": "sv",
+      "loader": "0x378724",
+      "cipher": "444e39",
+      "decoded": "737600"
+    },
+    {
+      "name": "hex",
+      "loader": "0x37873c",
+      "cipher": "141b70544b49493e",
+      "decoded": "2323496e70757400"
+    },
+    {
+      "name": "format",
+      "loader": "0x378700",
+      "cipher": "12080b621e0c0f661a70731a6674771e47",
+      "decoded": "2530325825303258253032582530325800"
+    },
+    {
+      "name": "scan",
+      "loader": "0x378750",
+      "cipher": "12080b621e0c0f661a70731a6674771e47",
+      "decoded": "2530325825303258253032582530325800"
+    },
+    {
+      "name": "log_format",
+      "loader": "0x38c774",
+      "cipher": "12124a1f15164e3e",
+      "decoded": "252a73252e2a7300"
+    }
+  ]
+}

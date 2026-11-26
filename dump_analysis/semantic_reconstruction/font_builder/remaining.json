@@ -1,0 +1,421 @@
+{
+  "untranslated_parser_metric_packing_raster_algorithms": [],
+  "adapted_local_resource_ranges": [
+    {
+      "begin": "0x3ac0fc",
+      "end": "0x3ac1d8",
+      "description": "Native hheap allocation/free/cleanup policy replaced by owned stable-lifetime Active records; no native pool addresses, chunk counters, resource-failure ABI, or execution fabricated.",
+      "tags": [
+        "I",
+        "U"
+      ]
+    },
+    {
+      "begin": "0x39344c",
+      "end": "0x393460",
+      "description": "Native CRT sort dispatcher39344c\u21923c8df4..3c8e0b\u21923c7ee0..3c80e7\u21923c821c..3c84ae is an owned stable sort; comparator tie behavior verified, native scratch-allocation ABI adapted.",
+      "tags": [
+        "I",
+        "U"
+      ]
+    }
+  ],
+  "owned_container_entries": [
+    {
+      "begin": "0x2d0d60",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x2d0d67",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "46ba792d4a6fb8db1350d1e742a8d88471e5e7839875089230134739eac89ef3"
+    },
+    {
+      "begin": "0x2d4870",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x2d487b",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "06333eef75398cc88d83d7f31df4f01d89cb3307fea68609abcfd715c96c083d"
+    },
+    {
+      "begin": "0x2d93d4",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x2d93d9",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "fc46ea8acdf166d47f2230b3d3975fbd0a4a0f5c898b7c2b2ec854359cb94b85"
+    },
+    {
+      "begin": "0x2db3a0",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x2db3ad",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "cc000c542882960acc8a64ad8c1af3d434c997d08c17c28b911fa7de4f1dbf40"
+    },
+    {
+      "begin": "0x336624",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x33663b",
+      "bounds": "pdata",
+      "sha256": "c0daea2e648a84c808d6239c9380a9229423e3f37a56291bc1bd2e7402768516"
+    },
+    {
+      "begin": "0x364e8c",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x364eed",
+      "bounds": "pdata",
+      "sha256": "cdc08f6f9c1cda7ab8550cf9d6c12270cf2ac8ca890136237fd5c57467ab981e"
+    },
+    {
+      "begin": "0x3788ec",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3788f1",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "e98b01c6062682e0035e3d136166d5f00f97406106cb9b5c969e5b64c992234a"
+    },
+    {
+      "begin": "0x379578",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3795a4",
+      "bounds": "pdata",
+      "sha256": "7d1a064666b8b5234467cf6e719c4dc7677b83292d51b19a41f62f5463b45ac0"
+    },
+    {
+      "begin": "0x37ad64",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x37ad94",
+      "bounds": "pdata",
+      "sha256": "3a67bfd3d3af318d6198f54dec29c946b8c3261492c8c5f9634cfb623e49db07"
+    },
+    {
+      "begin": "0x37ad94",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x37adc4",
+      "bounds": "pdata",
+      "sha256": "1b550977a4b76e2c55bdbe99843bcb7923cbdbb5c4595abcf3499e2aeec6dab8"
+    },
+    {
+      "begin": "0x37ae24",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x37ae54",
+      "bounds": "pdata",
+      "sha256": "ad6a93239c25c4b6295e4b3455fb7e75f334c61443aeacadf7ca27c6bd243893"
+    },
+    {
+      "begin": "0x38bb78",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x38bb84",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "8b80ad523b0849eab4437b15852658e8129413a6f4d4c461f8a6ec7d532398ed"
+    },
+    {
+      "begin": "0x38bb84",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x38bb90",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "004b9f516f09412c44ad82fb853cc5c71c3f1f0e0ae92c89dee15912041e9db5"
+    },
+    {
+      "begin": "0x38bb9c",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x38bba8",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "32cf3c9b1c2640d5148fc73c8815fcb63aa31d4f000a4b570ce15ac5fb0803fa"
+    },
+    {
+      "begin": "0x38bba8",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x38bbb4",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "42a00b50ef9a75c3171c799bafb7af4ba95b78a90a49b970af99b6dc39063ac4"
+    },
+    {
+      "begin": "0x39eee8",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x39ef29",
+      "bounds": "pdata",
+      "sha256": "f7f22cc837b9deacf4e36deba0b363276eaa4f7cfc9b1a95a6316ffeb8b87dcf"
+    },
+    {
+      "begin": "0x39f610",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x39f61f",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "1f147c5db785d5e9e44ffe9fa0caf67d6028767b116c6a8346ad0701b0235097"
+    },
+    {
+      "begin": "0x39f620",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x39f62f",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "4a18eb6d7e3a4199ca0617eb82b754e59097184ad7b4474dd9a12a62449ace58"
+    },
+    {
+      "begin": "0x39f640",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x39f650",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "f4707aa491388a5ff0e14e3d4e2a6869c8f4f41a226ebf4685261dc5d835de27"
+    },
+    {
+      "begin": "0x3a4380",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a43ab",
+      "bounds": "pdata",
+      "sha256": "b1dcab394e55bbc5f1a720db17959649a5b0394ebb5ec22edcd3b54498e49070"
+    },
+    {
+      "begin": "0x3a7f74",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a7f7d",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "789f4095c84019da80946c6adf411e773508eb0fd89c33634ef524a8215db2b7"
+    },
+    {
+      "begin": "0x3a8bd4",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a8bea",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "8977fe0f3dc715cc1e810eed9130c9839294e08aa1b1ff8ad6c4f0183a3561f7"
+    },
+    {
+      "begin": "0x3a9330",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a9343",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "33b5a4e737ec860ae934b7304157496f5b221ef1bdc6420114a77c9dbea2486c"
+    },
+    {
+      "begin": "0x3a9380",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a93c0",
+      "bounds": "pdata",
+      "sha256": "7f56720c253574ab568b168ac77a8af11873a5214db7be234c7e50ad12bdc8b5"
+    },
+    {
+      "begin": "0x3a93c0",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a93cc",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "bdcdf9b6e3e899a818f50637e04773c9b561b767ffe0b7fb4de3b24b3e81c00f"
+    },
+    {
+      "begin": "0x3a9430",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a9480",
+      "bounds": "pdata",
+      "sha256": "8fb34d91b3cc2cc2f55c236832c7db9ec378ffc86658c6b16afc385718f72dc1"
+    },
+    {
+      "begin": "0x3a98a8",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a98d8",
+      "bounds": "pdata",
+      "sha256": "7fb0e2ab51a012f9011287e8a76ec79d474e080f552e88df74c33756778812e1"
+    },
+    {
+      "begin": "0x3a98d8",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a9908",
+      "bounds": "pdata",
+      "sha256": "f0a711f8e7da0ebc94305646f59e2b0bda4dd6c8efc0169b3ed500bafc039c44"
+    },
+    {
+      "begin": "0x3a990c",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a9912",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "414a02449421ac2318a6f8556cb7fa20c1825042b1af7a2e22f4c19470051880"
+    },
+    {
+      "begin": "0x3a9914",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a991b",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "cd1fb63138af7a7c6de541e449c0cca9a642479cf70b4d2a1e3936c6bc6e54dc"
+    },
+    {
+      "begin": "0x3a991c",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a9925",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "badbce6570c38179f358b9435907bfbf9eea6bb8a25c5916c56d7b1cc11b608b"
+    },
+    {
+      "begin": "0x3a9928",
+      "description": "numeric descriptors/slots and native allocation ABI replaced by bounded owned containers; no fabricated Snapshot addresses",
+      "tags": [
+        "I",
+        "U"
+      ],
+      "end": "0x3a992c",
+      "bounds": "explicit straight-line return/tail jump",
+      "sha256": "d0728e6bf4b55d2e02311e23746de997b1a6a9201c57d68a4f10d307b7704973"
+    }
+  ],
+  "explicit_effects": [
+    {
+      "target": "0x395158",
+      "description": "allocate_owned returns a mapped numeric key; persistent alpha and literal two PackBegin calls retained.",
+      "tags": [
+        "I"
+      ]
+    },
+    {
+      "target": "0x39517c",
+      "description": "free_39517c observes literal explicit pixel/font/PackEnd release order.",
+      "tags": [
+        "I"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "description": "Original font/atlas native container ABI and transient allocation counts/failures are adapted; no fabricated Snapshot vector addresses/counters. Exact pdata or straight-line return/tail-jump bounds are supplied for each adapted container helper. Full nested allocation/CRT ABI equivalence is not claimed.",
+      "tags": [
+        "U"
+      ]
+    },
+    {
+      "description": "Font bytes are a copied bounded span from config data pointer/size; currentfont allocation/import/decompression upstream of the already-configured atlas is outside3a59bc reachability.",
+      "tags": [
+        "I",
+        "U"
+      ]
+    },
+    {
+      "description": "Physical read exhaustion, recursion/point/config/font/pixel bounds and native filter kernels>8 stop explicit missing analysis; they are not attributed as extra native font rejections.",
+      "tags": [
+        "I",
+        "U"
+      ]
+    },
+    {
+      "description": "Floating-point exception flags, FTZ/DAZ, allocation failures of adapted temporary containers and live platform/game ABI remain unverified. Numeric code pointers are never executed.",
+      "tags": [
+        "U"
+      ]
+    }
+  ]
+}

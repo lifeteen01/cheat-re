@@ -1,0 +1,848 @@
+[
+  {
+    "target": "0x35d200",
+    "sites": [
+      "0x36138d",
+      "0x361bff"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x35d220",
+    "sites": [
+      "0x3613c5",
+      "0x3613e5",
+      "0x3613fd",
+      "0x36141a",
+      "0x361437",
+      "0x361454",
+      "0x3614d0",
+      "0x3614f6",
+      "0x36150e",
+      "0x36152b",
+      "0x361548",
+      "0x361565",
+      "0x3615d1",
+      "0x3615f1",
+      "0x361609",
+      "0x361626",
+      "0x361643",
+      "0x361660",
+      "0x3616cc",
+      "0x3616ec",
+      "0x361704",
+      "0x361721",
+      "0x36173e",
+      "0x36175b",
+      "0x361c23",
+      "0x361c48",
+      "0x361c6d",
+      "0x361c8f",
+      "0x361cb1",
+      "0x361cd3"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x2ef7dc",
+    "sites": [
+      "0x3614ac",
+      "0x3614c4"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x2cd7ec",
+    "sites": [
+      "0x3617a1",
+      "0x36182e",
+      "0x361899",
+      "0x3618fc",
+      "0x36195f",
+      "0x3619c2",
+      "0x361a29",
+      "0x361a90",
+      "0x361af7",
+      "0x361b5e",
+      "0x361d38",
+      "0x361d9f",
+      "0x361e06",
+      "0x361e65",
+      "0x361ec4",
+      "0x361f23",
+      "0x361f86",
+      "0x361fe9",
+      "0x36204c",
+      "0x3620af"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a3874",
+    "sites": [
+      "0x3617d2",
+      "0x361d65"
+    ],
+    "status": "[C/I]",
+    "implementation": "Reused concrete renderer_helpers_font.cpp implementation; copied metrics are required."
+  },
+  {
+    "target": "0x2cc340",
+    "sites": [
+      "0x361806",
+      "0x36185b",
+      "0x3618be",
+      "0x361921",
+      "0x361984",
+      "0x3619eb",
+      "0x361a52",
+      "0x361ab9",
+      "0x361b20",
+      "0x361d77",
+      "0x361dcc",
+      "0x361e2b",
+      "0x361e8a",
+      "0x361ee9",
+      "0x361f4c",
+      "0x361faf",
+      "0x362012",
+      "0x362075",
+      "0x3a3802",
+      "0x3a383f",
+      "0x3a4ff4",
+      "0x3a513d",
+      "0x3a5181",
+      "0x3a5270",
+      "0x3a5287",
+      "0x3a535d",
+      "0x3a5648",
+      "0x3a56b2",
+      "0x3a4459",
+      "0x3a448f"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x2db318",
+    "sites": [
+      "0x36181f",
+      "0x361d90"
+    ],
+    "status": "[C/I]",
+    "implementation": "Observed fixed outline constructor(0,0,0,255) folded to packed blackFF; arbitrary final float4 color conversion implemented2ef80c."
+  },
+  {
+    "target": "0x2ef80c",
+    "sites": [
+      "0x36183a",
+      "0x3618a5",
+      "0x361908",
+      "0x36196b",
+      "0x3619ce",
+      "0x361a35",
+      "0x361a9c",
+      "0x361b03",
+      "0x361b6a",
+      "0x361dab",
+      "0x361e12",
+      "0x361e71",
+      "0x361ed0",
+      "0x361f2f",
+      "0x361f92",
+      "0x361ff5",
+      "0x362058",
+      "0x3620bb"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a31f8",
+    "sites": [
+      "0x36188a",
+      "0x3618ed",
+      "0x361950",
+      "0x3619b3",
+      "0x361a1a",
+      "0x361a81",
+      "0x361ae8",
+      "0x361b4f",
+      "0x361b9a",
+      "0x361df7",
+      "0x361e56",
+      "0x361eb5",
+      "0x361f14",
+      "0x361f77",
+      "0x361fda",
+      "0x36203d",
+      "0x3620a0",
+      "0x3620e7"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x35d31c",
+    "sites": [
+      "0x361d21",
+      "0x35d23b",
+      "0x35d249",
+      "0x35d257",
+      "0x35d30d"
+    ],
+    "status": "[I/U]",
+    "implementation": "Preinitialized FrameMenuState fonts model32byte worker. copy_font_text_worker requires actual copied worker; null native lazy allocation fails explicitly because allocation bytes are uninitialized.38a3c4 tail-jumps3c8c70; allocator ABI is not executed."
+  },
+  {
+    "target": "0x3ca904",
+    "sites": [
+      "0x3a323f",
+      "0x3a79ac"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal byte fill/search/NUL scan represented by bounded owned-memory operations; CRT ABI/SIMD implementation not replayed."
+  },
+  {
+    "target": "0x38a3f4",
+    "sites": [
+      "0x3a3296",
+      "0x3a32ac",
+      "0x3a5387",
+      "0x3a53a2",
+      "0x3a56db",
+      "0x3a56f6",
+      "0x3a4476",
+      "0x3a4483",
+      "0x3a44b1"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3762cc",
+    "sites": [
+      "0x3a32c2",
+      "0x3a32d8",
+      "0x3a53b2",
+      "0x3a5706",
+      "0x3a44b9"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a792c",
+    "sites": [
+      "0x3a3320"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x39f630",
+    "sites": [
+      "0x3a33f2",
+      "0x3a3448",
+      "0x3a3465"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x39f28c",
+    "sites": [
+      "0x3a33fe"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x379578",
+    "sites": [
+      "0x3a3410",
+      "0x3a341c"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3a4abc",
+    "sites": [
+      "0x3a3433"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x38bb78",
+    "sites": [
+      "0x3a3457",
+      "0x3a3533",
+      "0x3a364f",
+      "0x3a365e"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x39f604",
+    "sites": [
+      "0x3a3474",
+      "0x3a3544"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3a4520",
+    "sites": [
+      "0x3a34b8",
+      "0x3a34f4",
+      "0x3a369c",
+      "0x3a7c38",
+      "0x3a816a"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a9330",
+    "sites": [
+      "0x3a34c9",
+      "0x3a34e6",
+      "0x3a3629",
+      "0x3a0047"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x37ad94",
+    "sites": [
+      "0x3a34de",
+      "0x3a003f"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3a8160",
+    "sites": [
+      "0x3a355d",
+      "0x3a356d"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a44d4",
+    "sites": [
+      "0x3a35a2",
+      "0x3a35b9",
+      "0x3a3609"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a4554",
+    "sites": [
+      "0x3a35f0",
+      "0x3a3618",
+      "0x3a44fa"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a4f38",
+    "sites": [
+      "0x3a4b4f"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a5008",
+    "sites": [
+      "0x3a4b57"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a5204",
+    "sites": [
+      "0x3a4b5f"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x38bb9c",
+    "sites": [
+      "0x3a4b78",
+      "0x3a5296",
+      "0x3a561b"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x2d4870",
+    "sites": [
+      "0x3a4b9d",
+      "0x3a4baa",
+      "0x3a554d",
+      "0x3a5556",
+      "0x3a58b1",
+      "0x3a58bd"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x3a37c8",
+    "sites": [
+      "0x3a4bc5",
+      "0x3a556d",
+      "0x3a58d7"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x39ff7c",
+    "sites": [
+      "0x3a4c56"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x38bb84",
+    "sites": [
+      "0x3a4c75",
+      "0x3a4c88"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3a33c0",
+    "sites": [
+      "0x3a4c90"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a473c",
+    "sites": [
+      "0x3a4f47",
+      "0x3a502b"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3c8d70",
+    "sites": [
+      "0x3a507f",
+      "0x3a5093",
+      "0x3a50af",
+      "0x3a50e9"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal byte fill/search/NUL scan represented by bounded owned-memory operations; CRT ABI/SIMD implementation not replayed."
+  },
+  {
+    "target": "0x38bbdc",
+    "sites": [
+      "0x3a5151",
+      "0x3a5195"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x2cc350",
+    "sites": [
+      "0x3a51d1",
+      "0x3a55d2",
+      "0x3a5906"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x3a498c",
+    "sites": [
+      "0x3a52ac",
+      "0x3a3861"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x2cd050",
+    "sites": [
+      "0x3a5314",
+      "0x3a5674",
+      "0x3a45ea"
+    ],
+    "status": "[I]",
+    "implementation": "Native stack allocation/probe replaced by bounded owned float vectors; no executable stack is constructed."
+  },
+  {
+    "target": "0x3a43d0",
+    "sites": [
+      "0x3a536d"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a658c",
+    "sites": [
+      "0x3a53ca",
+      "0x3a571e"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a45b4",
+    "sites": [
+      "0x3a5410",
+      "0x3a5763"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a3858",
+    "sites": [
+      "0x3a541e"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a4734",
+    "sites": [
+      "0x3a5603",
+      "0x3a378c"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a43ac",
+    "sites": [
+      "0x3a56c1"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3c899c",
+    "sites": [
+      "0x3a5779",
+      "0x3a37a5"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a3778",
+    "sites": [
+      "0x3a5798"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3a3770",
+    "sites": [
+      "0x3a57a2"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3762ac",
+    "sites": [
+      "0x3a57e6",
+      "0x3a5809"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3c8cf0",
+    "sites": [
+      "0x3a7a1d",
+      "0x3a7ab6"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal byte fill/search/NUL scan represented by bounded owned-memory operations; CRT ABI/SIMD implementation not replayed."
+  },
+  {
+    "target": "0x3a3aa4",
+    "sites": [
+      "0x3a7a45",
+      "0x3a7b8a"
+    ],
+    "status": "[C/I]",
+    "implementation": "Reused concrete renderer_helpers_font.cpp implementation; copied metrics are required."
+  },
+  {
+    "target": "0x3a3a70",
+    "sites": [
+      "0x3a7a50",
+      "0x3a7bad"
+    ],
+    "status": "[C/I]",
+    "implementation": "Reused concrete renderer_helpers_font.cpp implementation; copied metrics are required."
+  },
+  {
+    "target": "0x3a719c",
+    "sites": [
+      "0x3a7b16"
+    ],
+    "status": "[C/I]",
+    "implementation": "Typed FontTextSink bound to DrawCoreStore; actual owned geometry/command/cursor effects. Native final shrink folded into unreserve3a7224."
+  },
+  {
+    "target": "0x39357c",
+    "sites": [
+      "0x3a7bf9"
+    ],
+    "status": "[C/I]",
+    "implementation": "Reused concrete renderer_helpers_font.cpp implementation; copied metrics are required."
+  },
+  {
+    "target": "0x38bb90",
+    "sites": [
+      "0x3a7f0a"
+    ],
+    "status": "[C/I]",
+    "implementation": "Typed FontTextSink bound to DrawCoreStore; actual owned geometry/command/cursor effects. Native final shrink folded into unreserve3a7224."
+  },
+  {
+    "target": "0x3a97b8",
+    "sites": [
+      "0x3a4add"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3a96cc",
+    "sites": [
+      "0x3a4af6"
+    ],
+    "status": "[C/I]",
+    "implementation": "Owned vector resize/index/back/clear/fill or signed maximum adaptation; numeric pointers not executed."
+  },
+  {
+    "target": "0x3762bc",
+    "sites": [
+      "0x39ffbf"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3930ac",
+    "sites": [
+      "0x39ffef"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3367e4",
+    "sites": [
+      "0x3a43bb",
+      "0x3a4414",
+      "0x3a4433",
+      "0x3a4469"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x3a6554",
+    "sites": [
+      "0x3a43c6",
+      "0x3a449f"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x2ef9d8",
+    "sites": [
+      "0x3a43ee"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x38bc08",
+    "sites": [
+      "0x3a4405",
+      "0x3a4423"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x2e3ef0",
+    "sites": [
+      "0x3a443d",
+      "0x3a444a"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal Vec2/float4 construction/arithmetic/zero/absolute mask folded into owned scalar values."
+  },
+  {
+    "target": "0x3a461c",
+    "sites": [
+      "0x3a4600",
+      "0x3a460e"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3c8f34",
+    "sites": [
+      "0x3a6579"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x3367b8",
+    "sites": [
+      "0x35d28e",
+      "0x35d29d",
+      "0x35d2b1",
+      "0x35d2c5",
+      "0x35d2d9",
+      "0x35d2f4"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x38a3c4",
+    "sites": [
+      "0x35d32f"
+    ],
+    "status": "[I/U]",
+    "implementation": "Preinitialized FrameMenuState fonts model32byte worker. copy_font_text_worker requires actual copied worker; null native lazy allocation fails explicitly because allocation bytes are uninitialized.38a3c4 tail-jumps3c8c70; allocator ABI is not executed."
+  },
+  {
+    "target": "0x2cb3a4",
+    "sites": [
+      "0x35d33c",
+      "0x2cd4f9"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal capacity>15 and identity pointer operation folded into NUL string acquisition."
+  },
+  {
+    "target": "0x2cd464",
+    "sites": [
+      "0x2cd4ed"
+    ],
+    "status": "[C/I]",
+    "implementation": "Literal capacity>15 and identity pointer operation folded into NUL string acquisition."
+  },
+  {
+    "target": "0x3789fc",
+    "sites": [
+      "0x390468",
+      "0x390491",
+      "0x3904ac",
+      "0x3904c7"
+    ],
+    "status": "[C/I]",
+    "implementation": "Concrete controller/math/lookup/atlas/color/string operation in font_text module; aliases folded."
+  },
+  {
+    "target": "0x364a9c",
+    "sites": [
+      "0x364b0b"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x2d86b8",
+    "sites": [
+      "0x364b18"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x2cc534",
+    "sites": [
+      "0x364b24",
+      "0x364b74"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x2d87b0",
+    "sites": [
+      "0x364b38",
+      "0x364b69"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x2d7d90",
+    "sites": [
+      "0x364b47"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x3360f8",
+    "sites": [
+      "0x364b5a"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x3360cc",
+    "sites": [
+      "0x364b84"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  },
+  {
+    "target": "0x2d4da0",
+    "sites": [
+      "0x364b91"
+    ],
+    "status": "[I]",
+    "implementation": "Native font-bucket/RB-tree/vector data operations replaced by existing FrameFontBucket map/request list;364aec hit/miss/dedup/result branches concretely implemented in font_text_select. Native container allocator/header ABI is not asserted."
+  }
+]

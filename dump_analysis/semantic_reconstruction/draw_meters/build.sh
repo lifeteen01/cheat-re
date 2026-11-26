@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+re_root=/home/john/Desktop/cheat_re
+re_tc="$re_root/dump_analysis/semantic_reconstruction/toolchain"
+re_build="$re_root/dump_analysis/semantic_reconstruction/draw_meters/build"
+mkdir -p "$re_build"
+re_extra=()
+if [[ "${1:-}" == sanitize ]]; then
+ re_extra=(-fsanitize=address,undefined -static-libasan -static-libubsan -fno-sanitize-recover=all -fno-omit-frame-pointer)
+fi
+"$re_tc/usr/bin/x86_64-linux-gnu-g++-15" --sysroot="$re_tc" -B"$re_tc/usr/lib/gcc/x86_64-linux-gnu/15/" -B"$re_tc/usr/libexec/gcc/x86_64-linux-gnu/15/" -L/usr/lib/x86_64-linux-gnu \
+ -std=c++20 -Wall -Wextra -Wpedantic -Werror -D_GLIBCXX_ASSERTIONS -ffp-contract=off -O1 -g -ffunction-sections -fdata-sections "${re_extra[@]}" \
+ -I"$re_root/source/reconstructed" "$re_root"/source/reconstructed/draw_meters_*.cpp "$re_root"/source/reconstructed/draw_shapes_{geometry,paths}.cpp \
+ "$re_root/source/reconstructed/drawlist_core_commands.cpp" "$re_root/source/reconstructed/drawlist_core_bindings.cpp" "$re_root/source/reconstructed/drawlist_core_channels.cpp" "$re_root/source/reconstructed/renderer_helpers_background.cpp" "$re_root/source/reconstructed/renderer_helpers_widgets.cpp" "$re_root/source/reconstructed/unity_math_analysis.cpp" "$re_root/source/reconstructed/metadata_analysis.cpp" "$re_root/source/reconstructed/font_text_atlas.cpp" \
+ "$re_root/source/reconstructed/font_text_controllers.cpp" "$re_root/source/reconstructed/world_esp_analysis.cpp" \
+ "$re_root/dump_analysis/semantic_reconstruction/draw_meters/driver.cpp" -Wl,--gc-sections -o "$re_build/checks${1:-}"
+"$re_build/checks${1:-}"

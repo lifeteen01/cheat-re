@@ -1,0 +1,45 @@
+3adda4 mov    QWORD PTR [rsp+0x8],rbx
+3adda9 push   rdi
+3addaa sub    rsp,0x20
+3addae mov    ebx,edx
+3addb0 mov    r10,rcx
+3addb3 mov    edx,DWORD PTR [rsp+0x50]
+3addb7 xor    eax,eax
+3addb9 mov    r11,r9
+3addbc mov    edi,r8d
+3addbf lea    ecx,[rdx-0x1]
+3addc2 test   ecx,ecx
+3addc4 jle    0x3adde4
+3addc6 lea    r9d,[rax+0x1]
+3addca add    rax,rax
+3addcd movsxd r8,r9d
+3addd0 shl    r8,0x4
+3addd4 add    r8,r11
+3addd7 mov    QWORD PTR [r11+rax*8+0x8],r8
+3adddc mov    eax,r9d
+3adddf cmp    r9d,ecx
+3adde2 jl     0x3addc6
+3adde4 cdqe
+3adde6 lea    r9,[r10+0x28]
+3addea add    rax,rax
+3added mov    rcx,r10
+3addf0 mov    QWORD PTR [r11+rax*8+0x8],0x0
+3addf9 mov    DWORD PTR [r10+0x14],edx
+3addfd xor    edx,edx
+3addff mov    QWORD PTR [r10+0xc],0x1
+3ade07 mov    QWORD PTR [r10+0x20],r11
+3ade0b mov    QWORD PTR [r10+0x18],r9
+3ade0f mov    DWORD PTR [r10],ebx
+3ade12 mov    DWORD PTR [r10+0x4],edi
+3ade16 call   0x3adf58
+3ade1b lea    rax,[r10+0x38]
+3ade1f mov    DWORD PTR [r9],0x0
+3ade26 mov    DWORD PTR [rax],ebx
+3ade28 mov    rbx,QWORD PTR [rsp+0x30]
+3ade2d mov    DWORD PTR [r10+0x2c],0x0
+3ade35 mov    QWORD PTR [r10+0x30],rax
+3ade39 mov    DWORD PTR [r10+0x3c],0x40000000
+3ade41 mov    QWORD PTR [r10+0x40],0x0
+3ade49 add    rsp,0x20
+3ade4d pop    rdi
+3ade4e ret

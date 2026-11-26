@@ -1,0 +1,26 @@
+{
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-Wl,--gc-sections",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15",
+    "-L/usr/lib/x86_64-linux-gnu",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed"
+  ],
+  "dependencies": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/registry_analysis.cpp": "e00195050a92eca999ca252d7c161d2cba8f772b918a06985537903cc453ef34",
+    "/home/john/Desktop/cheat_re/source/reconstructed/registry_analysis.hpp": "eca104446e6dc06c1e36fe7ce9f7f0411836973c72a0451c994acb882352093c",
+    "/home/john/Desktop/cheat_re/source/reconstructed/internal_analysis.hpp": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee"
+  }
+}

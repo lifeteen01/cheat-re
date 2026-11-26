@@ -1,0 +1,33 @@
+2f84e8 movss  xmm0,DWORD PTR [rcx]
+2f84ec movss  xmm2,DWORD PTR [rip+0xfffffffffff9ad38]        # 0x29322c
+2f84f4 comiss xmm0,xmm2
+2f84f7 movss  xmm1,DWORD PTR [rip+0xfffffffffff9ad41]        # 0x293240
+2f84ff jbe    0x2f8509
+2f8501 subss  xmm0,xmm1
+2f8505 movss  DWORD PTR [rcx],xmm0
+2f8509 movss  xmm3,DWORD PTR [rip+0xfffffffffff9ad5b]        # 0x29326c
+2f8511 comiss xmm3,xmm0
+2f8514 jbe    0x2f851e
+2f8516 addss  xmm0,xmm1
+2f851a movss  DWORD PTR [rcx],xmm0
+2f851e movss  xmm0,DWORD PTR [rcx+0x4]
+2f8523 comiss xmm0,xmm2
+2f8526 jbe    0x2f8531
+2f8528 subss  xmm0,xmm1
+2f852c movss  DWORD PTR [rcx+0x4],xmm0
+2f8531 comiss xmm3,xmm0
+2f8534 jbe    0x2f853f
+2f8536 addss  xmm0,xmm1
+2f853a movss  DWORD PTR [rcx+0x4],xmm0
+2f853f ret
+2f8540 mov    QWORD PTR [rsp+0x8],rcx
+2f8545 mov    edx,0x2
+2f854a lea    rcx,[rsp+0x8]
+2f854f mov    eax,DWORD PTR [rcx]
+2f8551 ror    eax,0x18
+2f8554 xor    eax,0x5d4d9bff
+2f8559 sub    eax,0x747d482f
+2f855e ror    eax,0x6
+2f8561 mov    DWORD PTR [rcx],eax
+2f8563 lea    rcx,[rcx+0x4]
+2f8567 add    edx,0xffffffff

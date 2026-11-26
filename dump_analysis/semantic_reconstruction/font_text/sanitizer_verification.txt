@@ -1,0 +1,3 @@
+font_text checks passed
+GCC15 ASan+UBSan nonrecovering fixture run: PASS
+No copied sample instructions executed.

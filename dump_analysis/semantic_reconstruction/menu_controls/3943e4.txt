@@ -1,0 +1,3 @@
+3943e4	movzx  r8d,dl
+3943e8	xor    edx,edx
+3943ea	jmp    0x394360

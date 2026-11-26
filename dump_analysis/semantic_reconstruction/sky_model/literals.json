@@ -1,0 +1,1779 @@
+{
+  "0x2e069c": {
+    "end": "0x2e071b",
+    "pairs": [
+      [
+        "0x2df87c",
+        "0x2d85cc",
+        "MainCamera",
+        "7a595054785d505b4d2141",
+        "0x2d827c"
+      ]
+    ],
+    "globals": []
+  },
+  "0x2e6744": {
+    "end": "0x2e683e",
+    "pairs": [
+      [
+        "0x2e5730",
+        "0x2cde0c",
+        "get_visible",
+        "505d4d654d554e575d2c2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x2e5574",
+        "0x2cde0c",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x2e53f8",
+        "0x2dd110",
+        "Cursor",
+        "744d4b49544e3d",
+        "0x2dd004"
+      ]
+    ],
+    "globals": [
+      [
+        "0x2e674c",
+        "mov    eax,DWORD PTR [rip+0xfdb0e]        # 0x3e4260"
+      ],
+      [
+        "0x2e6767",
+        "mov    DWORD PTR [rip+0xfdaf3],eax        # 0x3e4260"
+      ],
+      [
+        "0x2e67f0",
+        "mov    eax,DWORD PTR [rip+0xfda6a]        # 0x3e4260"
+      ],
+      [
+        "0x2e67f6",
+        "mov    QWORD PTR [rip+0xfda5b],r8        # 0x3e4258"
+      ],
+      [
+        "0x2e67ff",
+        "mov    r8,QWORD PTR [rip+0xfda52]        # 0x3e4258"
+      ],
+      [
+        "0x2e680a",
+        "mov    rcx,QWORD PTR [rip+0xef64f]        # 0x3d5e60"
+      ],
+      [
+        "0x2e6811",
+        "lea    rdx,[rip+0xfda58]        # 0x3e4270"
+      ],
+      [
+        "0x2e681e",
+        "mov    DWORD PTR [rip+0xfda3c],eax        # 0x3e4260"
+      ],
+      [
+        "0x2e6829",
+        "mov    rcx,QWORD PTR [rip+0xef630]        # 0x3d5e60"
+      ],
+      [
+        "0x2e6830",
+        "lea    rdx,[rip+0xfda39]        # 0x3e4270"
+      ]
+    ]
+  },
+  "0x3151bc": {
+    "end": "0x31530a",
+    "pairs": [
+      [
+        "0x2f49ac",
+        "0x2cde0c",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x2f3694",
+        "0x2e36b4",
+        "GetComponentsInChildren",
+        "705d4d7954514d5151252f36300d2b052f21252e3929234e",
+        "0x2e34cc"
+      ],
+      [
+        "0x2f21bc",
+        "0x2cdd1c",
+        "Component",
+        "7457544a545258504b40",
+        "0x2cda5c"
+      ]
+    ],
+    "globals": [
+      [
+        "0x3151f1",
+        "mov    eax,DWORD PTR [rip+0xd1129]        # 0x3e6320"
+      ],
+      [
+        "0x31520f",
+        "mov    DWORD PTR [rip+0xd110b],eax        # 0x3e6320"
+      ],
+      [
+        "0x3152a0",
+        "mov    eax,DWORD PTR [rip+0xd107a]        # 0x3e6320"
+      ],
+      [
+        "0x3152a6",
+        "mov    QWORD PTR [rip+0xd106b],r8        # 0x3e6318"
+      ],
+      [
+        "0x3152af",
+        "mov    r8,QWORD PTR [rip+0xd1062]        # 0x3e6318"
+      ],
+      [
+        "0x3152ba",
+        "mov    rcx,QWORD PTR [rip+0xc0b9f]        # 0x3d5e60"
+      ],
+      [
+        "0x3152c1",
+        "lea    rdx,[rip+0xd1068]        # 0x3e6330"
+      ],
+      [
+        "0x3152ce",
+        "mov    DWORD PTR [rip+0xd104c],eax        # 0x3e6320"
+      ],
+      [
+        "0x3152d9",
+        "mov    rcx,QWORD PTR [rip+0xc0b80]        # 0x3d5e60"
+      ],
+      [
+        "0x3152e0",
+        "lea    rdx,[rip+0xd1049]        # 0x3e6330"
+      ]
+    ]
+  },
+  "0x36b2d4": {
+    "end": "0x36b347",
+    "pairs": [],
+    "globals": [
+      [
+        "0x36b2da",
+        "mov    eax,DWORD PTR [rip+0x92de0]        # 0x3fe0c0"
+      ],
+      [
+        "0x36b2ea",
+        "mov    DWORD PTR [rip+0x92dd0],eax        # 0x3fe0c0"
+      ],
+      [
+        "0x36b2f8",
+        "mov    QWORD PTR [rip+0x92db9],rax        # 0x3fe0b8"
+      ],
+      [
+        "0x36b2ff",
+        "mov    eax,DWORD PTR [rip+0x92dbb]        # 0x3fe0c0"
+      ],
+      [
+        "0x36b307",
+        "mov    r8,QWORD PTR [rip+0x92daa]        # 0x3fe0b8"
+      ],
+      [
+        "0x36b312",
+        "mov    rcx,QWORD PTR [rip+0x6ab47]        # 0x3d5e60"
+      ],
+      [
+        "0x36b319",
+        "lea    rdx,[rip+0x92db0]        # 0x3fe0d0"
+      ],
+      [
+        "0x36b326",
+        "mov    DWORD PTR [rip+0x92d94],eax        # 0x3fe0c0"
+      ],
+      [
+        "0x36b331",
+        "mov    rcx,QWORD PTR [rip+0x6ab28]        # 0x3d5e60"
+      ],
+      [
+        "0x36b338",
+        "lea    rdx,[rip+0x92d91]        # 0x3fe0d0"
+      ]
+    ]
+  },
+  "0x368280": {
+    "end": "0x36836b",
+    "pairs": [
+      [
+        "0x367dd4",
+        "0x2cde0c",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x367c74",
+        "0x320534",
+        "Internal_CreateGameObject",
+        "7e564d5f49525c52600333272230200126252c052926282d3b50",
+        "0x3200b8"
+      ],
+      [
+        "0x367aa8",
+        "0x2d85cc",
+        "GameObject",
+        "7059545f745e575b5c3441",
+        "0x2d827c"
+      ]
+    ],
+    "globals": [
+      [
+        "0x36828b",
+        "mov    eax,DWORD PTR [rip+0x960ff]        # 0x3fe390"
+      ],
+      [
+        "0x3682aa",
+        "mov    DWORD PTR [rip+0x960e0],eax        # 0x3fe390"
+      ],
+      [
+        "0x368316",
+        "mov    eax,DWORD PTR [rip+0x96074]        # 0x3fe390"
+      ],
+      [
+        "0x36831c",
+        "mov    QWORD PTR [rip+0x96065],r8        # 0x3fe388"
+      ],
+      [
+        "0x368325",
+        "mov    r8,QWORD PTR [rip+0x9605c]        # 0x3fe388"
+      ],
+      [
+        "0x368330",
+        "mov    rcx,QWORD PTR [rip+0x6db29]        # 0x3d5e60"
+      ],
+      [
+        "0x368337",
+        "lea    rdx,[rip+0x96062]        # 0x3fe3a0"
+      ],
+      [
+        "0x368344",
+        "mov    DWORD PTR [rip+0x96046],eax        # 0x3fe390"
+      ],
+      [
+        "0x36834f",
+        "mov    rcx,QWORD PTR [rip+0x6db0a]        # 0x3d5e60"
+      ],
+      [
+        "0x368356",
+        "lea    rdx,[rip+0x96043]        # 0x3fe3a0"
+      ]
+    ]
+  },
+  "0x368370": {
+    "end": "0x368463",
+    "pairs": [
+      [
+        "0x367df0",
+        "0x2cde0c",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x367c90",
+        "0x2d852c",
+        "Internal_Create",
+        "7e564d5f49525c526003332722302046",
+        "0x2d81b0"
+      ],
+      [
+        "0x367ac4",
+        "0x2e35ec",
+        "Mesh",
+        "7a5d4a523b",
+        "0x2e33d0"
+      ]
+    ],
+    "globals": [
+      [
+        "0x36837e",
+        "mov    eax,DWORD PTR [rip+0x960fc]        # 0x3fe480"
+      ],
+      [
+        "0x36839d",
+        "mov    DWORD PTR [rip+0x960dd],eax        # 0x3fe480"
+      ],
+      [
+        "0x36840a",
+        "mov    eax,DWORD PTR [rip+0x96070]        # 0x3fe480"
+      ],
+      [
+        "0x368410",
+        "mov    QWORD PTR [rip+0x96061],r8        # 0x3fe478"
+      ],
+      [
+        "0x368419",
+        "mov    r8,QWORD PTR [rip+0x96058]        # 0x3fe478"
+      ],
+      [
+        "0x368424",
+        "mov    rcx,QWORD PTR [rip+0x6da35]        # 0x3d5e60"
+      ],
+      [
+        "0x36842b",
+        "lea    rdx,[rip+0x9605e]        # 0x3fe490"
+      ],
+      [
+        "0x368438",
+        "mov    DWORD PTR [rip+0x96042],eax        # 0x3fe480"
+      ],
+      [
+        "0x368443",
+        "mov    rcx,QWORD PTR [rip+0x6da16]        # 0x3d5e60"
+      ],
+      [
+        "0x36844a",
+        "lea    rdx,[rip+0x9603f]        # 0x3fe490"
+      ]
+    ]
+  },
+  "0x367fe0": {
+    "end": "0x3680ce",
+    "pairs": [
+      [
+        "0x367db8",
+        "0x2d8504",
+        "BakeMesh",
+        "7559525f76594e563f",
+        "0x2d8180"
+      ],
+      [
+        "0x367c58",
+        "0x2cde0c",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x367a90",
+        "0x2cddbc",
+        "SkinnedMeshRenderer",
+        "64535054555959735a332910262a2123352d3b4a",
+        "0x2cdb34"
+      ]
+    ],
+    "globals": [
+      [
+        "0x367feb",
+        "mov    eax,DWORD PTR [rip+0x961bf]        # 0x3fe1b0"
+      ],
+      [
+        "0x36800a",
+        "mov    DWORD PTR [rip+0x961a0],eax        # 0x3fe1b0"
+      ],
+      [
+        "0x368079",
+        "mov    eax,DWORD PTR [rip+0x96131]        # 0x3fe1b0"
+      ],
+      [
+        "0x36807f",
+        "mov    QWORD PTR [rip+0x96122],r8        # 0x3fe1a8"
+      ],
+      [
+        "0x368088",
+        "mov    r8,QWORD PTR [rip+0x96119]        # 0x3fe1a8"
+      ],
+      [
+        "0x368093",
+        "mov    rcx,QWORD PTR [rip+0x6ddc6]        # 0x3d5e60"
+      ],
+      [
+        "0x36809a",
+        "lea    rdx,[rip+0x9611f]        # 0x3fe1c0"
+      ],
+      [
+        "0x3680a7",
+        "mov    DWORD PTR [rip+0x96103],eax        # 0x3fe1b0"
+      ],
+      [
+        "0x3680b2",
+        "mov    rcx,QWORD PTR [rip+0x6dda7]        # 0x3d5e60"
+      ],
+      [
+        "0x3680b9",
+        "lea    rdx,[rip+0x96100]        # 0x3fe1c0"
+      ]
+    ]
+  },
+  "0x36ad9c": {
+    "end": "0x36ae8a",
+    "pairs": [
+      [
+        "0x367e0c",
+        "0x2d8504",
+        "set_mesh",
+        "445d4d6556594e563f",
+        "0x2d8180"
+      ],
+      [
+        "0x367cbc",
+        "0x2cde0c",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdba0"
+      ],
+      [
+        "0x367b18",
+        "0x2d85cc",
+        "MeshFilter",
+        "7a5d4a527d55514a5a3241",
+        "0x2d827c"
+      ]
+    ],
+    "globals": [
+      [
+        "0x36ada7",
+        "mov    eax,DWORD PTR [rip+0x934f3]        # 0x3fe2a0"
+      ],
+      [
+        "0x36adc6",
+        "mov    DWORD PTR [rip+0x934d4],eax        # 0x3fe2a0"
+      ],
+      [
+        "0x36ae35",
+        "mov    eax,DWORD PTR [rip+0x93465]        # 0x3fe2a0"
+      ],
+      [
+        "0x36ae3b",
+        "mov    QWORD PTR [rip+0x93456],r8        # 0x3fe298"
+      ],
+      [
+        "0x36ae44",
+        "mov    r8,QWORD PTR [rip+0x9344d]        # 0x3fe298"
+      ],
+      [
+        "0x36ae4f",
+        "mov    rcx,QWORD PTR [rip+0x6b00a]        # 0x3d5e60"
+      ],
+      [
+        "0x36ae56",
+        "lea    rdx,[rip+0x93453]        # 0x3fe2b0"
+      ],
+      [
+        "0x36ae63",
+        "mov    DWORD PTR [rip+0x93437],eax        # 0x3fe2a0"
+      ],
+      [
+        "0x36ae6e",
+        "mov    rcx,QWORD PTR [rip+0x6afeb]        # 0x3d5e60"
+      ],
+      [
+        "0x36ae75",
+        "lea    rdx,[rip+0x93434]        # 0x3fe2b0"
+      ]
+    ]
+  },
+  "0x370754": {
+    "end": "0x370881",
+    "pairs": [
+      [
+        "0x37038c",
+        "0x2dd188",
+        "get_transform",
+        "505d4d654f4e5c504c262e302e44",
+        "0x2dd0a0"
+      ],
+      [
+        "0x3702d8",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x370224",
+        "0x2cdd44",
+        "Component",
+        "7457544a545258504b40",
+        "0x2cda8c"
+      ]
+    ],
+    "globals": [
+      [
+        "0x37083d",
+        "mov    rcx,QWORD PTR [rip+0x6561c]        # 0x3d5e60"
+      ],
+      [
+        "0x37085c",
+        "mov    rcx,QWORD PTR [rip+0x655fd]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x370fac": {
+    "end": "0x3710d9",
+    "pairs": [
+      [
+        "0x370d2c",
+        "0x2cde34",
+        "GetMaterial",
+        "705d4d775a48584c56212d42",
+        "0x2cdbd0"
+      ],
+      [
+        "0x370cbc",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x370c4c",
+        "0x2e9b8c",
+        "Renderer",
+        "655d575e5e4e584c3f",
+        "0x2e99d8"
+      ]
+    ],
+    "globals": [
+      [
+        "0x371095",
+        "mov    rcx,QWORD PTR [rip+0x64dc4]        # 0x3d5e60"
+      ],
+      [
+        "0x3710b4",
+        "mov    rcx,QWORD PTR [rip+0x64da5]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x370e84": {
+    "end": "0x370fa8",
+    "pairs": [
+      [
+        "0x370d10",
+        "0x2e9c54",
+        "get_shader",
+        "505d4d6548545c5a5a3241",
+        "0x2e9aec"
+      ],
+      [
+        "0x370ca0",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x370c30",
+        "0x2e9b8c",
+        "Material",
+        "7a594d5f49555c523f",
+        "0x2e99d8"
+      ]
+    ],
+    "globals": [
+      [
+        "0x370f67",
+        "mov    rcx,QWORD PTR [rip+0x64ef2]        # 0x3d5e60"
+      ],
+      [
+        "0x370f86",
+        "mov    rcx,QWORD PTR [rip+0x64ed3]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x373248": {
+    "end": "0x373375",
+    "pairs": [
+      [
+        "0x372e4c",
+        "0x2dd188",
+        "get_transform",
+        "505d4d654f4e5c504c262e302e44",
+        "0x2dd0a0"
+      ],
+      [
+        "0x372d68",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x372c90",
+        "0x2e9c54",
+        "GameObject",
+        "7059545f745e575b5c3441",
+        "0x2e9aec"
+      ]
+    ],
+    "globals": [
+      [
+        "0x373331",
+        "mov    rcx,QWORD PTR [rip+0x62b28]        # 0x3d5e60"
+      ],
+      [
+        "0x373350",
+        "mov    rcx,QWORD PTR [rip+0x62b09]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x37301c": {
+    "end": "0x373136",
+    "pairs": [
+      [
+        "0x372e18",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x372d3c",
+        "0x2e3614",
+        "Destroy",
+        "735d4a4e4953443e",
+        "0x2e3400"
+      ],
+      [
+        "0x372c54",
+        "0x2cdcf4",
+        "Object",
+        "785a535f58483d",
+        "0x2cda20"
+      ]
+    ],
+    "globals": [
+      [
+        "0x3730ea",
+        "mov    rcx,QWORD PTR [rip+0x62d6f]        # 0x3d5e60"
+      ],
+      [
+        "0x373109",
+        "mov    rcx,QWORD PTR [rip+0x62d50]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x372efc": {
+    "end": "0x373017",
+    "pairs": [
+      [
+        "0x372dfc",
+        "0x3205fc",
+        "Internal_AddComponentWithType",
+        "7e564d5f49525c5260012526002b283628262c243f1b243a270428223654",
+        "0x3201b4"
+      ],
+      [
+        "0x372d20",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x372c38",
+        "0x2e9c54",
+        "GameObject",
+        "7059545f745e575b5c3441",
+        "0x2e9aec"
+      ]
+    ],
+    "globals": [
+      [
+        "0x372fcd",
+        "mov    rcx,QWORD PTR [rip+0x62e8c]        # 0x3d5e60"
+      ],
+      [
+        "0x372ff7",
+        "mov    rcx,QWORD PTR [rip+0x62e62]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x3710dc": {
+    "end": "0x371215",
+    "pairs": [
+      [
+        "0x370d48",
+        "0x2e9c54",
+        "set_shader",
+        "445d4d6548545c5a5a3241",
+        "0x2e9aec"
+      ],
+      [
+        "0x370cd8",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x370c68",
+        "0x2e9b8c",
+        "Material",
+        "7a594d5f49555c523f",
+        "0x2e99d8"
+      ]
+    ],
+    "globals": [
+      [
+        "0x3711cb",
+        "mov    rcx,QWORD PTR [rip+0x64c8e]        # 0x3d5e60"
+      ],
+      [
+        "0x3711ea",
+        "mov    rcx,QWORD PTR [rip+0x64c6f]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x370d64": {
+    "end": "0x370e82",
+    "pairs": [
+      [
+        "0x370cf4",
+        "0x2e9b8c",
+        "SetColor",
+        "645d4d795450524c3f",
+        "0x2e99d8"
+      ],
+      [
+        "0x370c84",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x370c14",
+        "0x2e9b8c",
+        "Material",
+        "7a594d5f49555c523f",
+        "0x2e99d8"
+      ]
+    ],
+    "globals": [
+      [
+        "0x370e33",
+        "mov    rcx,QWORD PTR [rip+0x65026]        # 0x3d5e60"
+      ],
+      [
+        "0x370e52",
+        "mov    rcx,QWORD PTR [rip+0x65007]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x375abc": {
+    "end": "0x375c04",
+    "pairs": [
+      [
+        "0x375aa0",
+        "0x375860",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x375680"
+      ],
+      [
+        "0x3759b4",
+        "0x376034",
+        "LoadAsset_Internal",
+        "7b57585e7a4f4e5b4b1f082c37213728262449",
+        "0x375f94"
+      ],
+      [
+        "0x375914",
+        "0x375860",
+        "AssetBundle",
+        "764b4a5f4f7e48505b2c2442",
+        "0x375680"
+      ]
+    ],
+    "globals": [
+      [
+        "0x375bb6",
+        "mov    rcx,QWORD PTR [rip+0x602a3]        # 0x3d5e60"
+      ],
+      [
+        "0x375be3",
+        "mov    rcx,QWORD PTR [rip+0x60276]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x37361c": {
+    "end": "0x373743",
+    "pairs": [
+      [
+        "0x372ea8",
+        "0x2e9b8c",
+        "get_name",
+        "505d4d65555d505b3f",
+        "0x2e99d8"
+      ],
+      [
+        "0x372dc4",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x372ce4",
+        "0x2cdcf4",
+        "Object",
+        "785a535f58483d",
+        "0x2cda20"
+      ]
+    ],
+    "globals": [
+      [
+        "0x373702",
+        "mov    rcx,QWORD PTR [rip+0x62757]        # 0x3d5e60"
+      ],
+      [
+        "0x373721",
+        "mov    rcx,QWORD PTR [rip+0x62738]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x3747d4": {
+    "end": "0x374928",
+    "pairs": [
+      [
+        "0x374674",
+        "0x375888",
+        "get_position",
+        "505d4d654b534e574b292e2c43",
+        "0x3756bc"
+      ],
+      [
+        "0x37455c",
+        "0x375860",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x375680"
+      ],
+      [
+        "0x37443c",
+        "0x3757c0",
+        "Transform",
+        "634a5854485a524c5240",
+        "0x375590"
+      ]
+    ],
+    "globals": [
+      [
+        "0x3748b6",
+        "mov    rcx,QWORD PTR [rip+0x615a3]        # 0x3d5e60"
+      ],
+      [
+        "0x3748de",
+        "mov    rcx,QWORD PTR [rip+0x6157b]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x374aa4": {
+    "end": "0x374bf7",
+    "pairs": [
+      [
+        "0x3746b4",
+        "0x375888",
+        "get_rotation",
+        "505d4d654953495f4b292e2c43",
+        "0x3756bc"
+      ],
+      [
+        "0x374594",
+        "0x375860",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x375680"
+      ],
+      [
+        "0x37447c",
+        "0x3757c0",
+        "Transform",
+        "634a5854485a524c5240",
+        "0x375590"
+      ]
+    ],
+    "globals": [
+      [
+        "0x374b93",
+        "mov    rcx,QWORD PTR [rip+0x612c6]        # 0x3d5e60"
+      ],
+      [
+        "0x374bb2",
+        "mov    rcx,QWORD PTR [rip+0x612a7]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x375140": {
+    "end": "0x37527b",
+    "pairs": [
+      [
+        "0x37475c",
+        "0x375888",
+        "set_position",
+        "445d4d654b534e574b292e2c43",
+        "0x3756bc"
+      ],
+      [
+        "0x374620",
+        "0x375860",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x375680"
+      ],
+      [
+        "0x374508",
+        "0x3757c0",
+        "Transform",
+        "634a5854485a524c5240",
+        "0x375590"
+      ]
+    ],
+    "globals": [
+      [
+        "0x37522f",
+        "mov    rcx,QWORD PTR [rip+0x60c2a]        # 0x3d5e60"
+      ],
+      [
+        "0x37524e",
+        "mov    rcx,QWORD PTR [rip+0x60c0b]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x37527c": {
+    "end": "0x3753b7",
+    "pairs": [
+      [
+        "0x374780",
+        "0x375888",
+        "set_rotation",
+        "445d4d654953495f4b292e2c43",
+        "0x3756bc"
+      ],
+      [
+        "0x37463c",
+        "0x375860",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x375680"
+      ],
+      [
+        "0x374524",
+        "0x3757c0",
+        "Transform",
+        "634a5854485a524c5240",
+        "0x375590"
+      ]
+    ],
+    "globals": [
+      [
+        "0x37536b",
+        "mov    rcx,QWORD PTR [rip+0x60aee]        # 0x3d5e60"
+      ],
+      [
+        "0x37538a",
+        "mov    rcx,QWORD PTR [rip+0x60acf]        # 0x3d5e60"
+      ]
+    ]
+  },
+  "0x36c670": {
+    "end": "0x36c798",
+    "pairs": [
+      [
+        "0x36c5bc",
+        "0x2e9c54",
+        "get_aspect",
+        "505d4d655a4f4d5b5c3441",
+        "0x2e9aec"
+      ],
+      [
+        "0x36c530",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x36c490",
+        "0x2cdcf4",
+        "Camera",
+        "7459545f495d3d",
+        "0x2cda20"
+      ]
+    ],
+    "globals": [
+      [
+        "0x36c690",
+        "mov    eax,DWORD PTR [rip+0x933ca]        # 0x3ffa60"
+      ],
+      [
+        "0x36c6ab",
+        "mov    DWORD PTR [rip+0x933af],eax        # 0x3ffa60"
+      ],
+      [
+        "0x36c73d",
+        "mov    eax,DWORD PTR [rip+0x9331d]        # 0x3ffa60"
+      ],
+      [
+        "0x36c743",
+        "mov    QWORD PTR [rip+0x9330e],r8        # 0x3ffa58"
+      ],
+      [
+        "0x36c74c",
+        "mov    r8,QWORD PTR [rip+0x93305]        # 0x3ffa58"
+      ],
+      [
+        "0x36c757",
+        "mov    rcx,QWORD PTR [rip+0x69702]        # 0x3d5e60"
+      ],
+      [
+        "0x36c75e",
+        "lea    rdx,[rip+0x9330b]        # 0x3ffa70"
+      ],
+      [
+        "0x36c76b",
+        "mov    DWORD PTR [rip+0x932ef],eax        # 0x3ffa60"
+      ],
+      [
+        "0x36c776",
+        "mov    rcx,QWORD PTR [rip+0x696e3]        # 0x3d5e60"
+      ],
+      [
+        "0x36c77d",
+        "lea    rdx,[rip+0x932ec]        # 0x3ffa70"
+      ]
+    ]
+  },
+  "0x36caa8": {
+    "end": "0x36cbe2",
+    "pairs": [
+      [
+        "0x36c60c",
+        "0x2e9c54",
+        "set_aspect",
+        "445d4d655a4f4d5b5c3441",
+        "0x2e9aec"
+      ],
+      [
+        "0x36c584",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x36c4f0",
+        "0x2cdcf4",
+        "Camera",
+        "7459545f495d3d",
+        "0x2cda20"
+      ]
+    ],
+    "globals": [
+      [
+        "0x36cacc",
+        "mov    eax,DWORD PTR [rip+0x92ea6]        # 0x3ff978"
+      ],
+      [
+        "0x36caed",
+        "mov    DWORD PTR [rip+0x92e85],eax        # 0x3ff978"
+      ],
+      [
+        "0x36cb7c",
+        "mov    eax,DWORD PTR [rip+0x92df6]        # 0x3ff978"
+      ],
+      [
+        "0x36cb82",
+        "mov    QWORD PTR [rip+0x92de7],r8        # 0x3ff970"
+      ],
+      [
+        "0x36cb8b",
+        "mov    r8,QWORD PTR [rip+0x92dde]        # 0x3ff970"
+      ],
+      [
+        "0x36cb96",
+        "mov    rcx,QWORD PTR [rip+0x692c3]        # 0x3d5e60"
+      ],
+      [
+        "0x36cb9d",
+        "lea    rdx,[rip+0x92ddc]        # 0x3ff980"
+      ],
+      [
+        "0x36cbaa",
+        "mov    DWORD PTR [rip+0x92dc8],eax        # 0x3ff978"
+      ],
+      [
+        "0x36cbb5",
+        "mov    rcx,QWORD PTR [rip+0x692a4]        # 0x3d5e60"
+      ],
+      [
+        "0x36cbbc",
+        "lea    rdx,[rip+0x92dbd]        # 0x3ff980"
+      ]
+    ]
+  },
+  "0x32f408": {
+    "end": "0x32fac2",
+    "pairs": [
+      [
+        "0x32f210",
+        "0x2dd160",
+        "set_ambientMode",
+        "445d4d655a515f575a2e350f2c202046",
+        "0x2dd064"
+      ],
+      [
+        "0x32f1f4",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x32f1c4",
+        "0x2d866c",
+        "RenderSettings",
+        "655d575e5e4e6e5b4b34282c243745",
+        "0x2d8348"
+      ],
+      [
+        "0x32f300",
+        "0x3204bc",
+        "set_ambientIntensity",
+        "445d4d655a515f575a2e350b2d30202834213d334b",
+        "0x320004"
+      ],
+      [
+        "0x32f2e4",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x32f2b4",
+        "0x2d866c",
+        "RenderSettings",
+        "655d575e5e4e6e5b4b34282c243745",
+        "0x2d8348"
+      ],
+      [
+        "0x32f3f0",
+        "0x2e9bb4",
+        "set_ambientLight",
+        "445d4d655a515f575a2e350e2a232d3247",
+        "0x2e9a14"
+      ],
+      [
+        "0x32f3d4",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x32f368",
+        "0x2d866c",
+        "RenderSettings",
+        "655d575e5e4e6e5b4b34282c243745",
+        "0x2d8348"
+      ]
+    ],
+    "globals": [
+      [
+        "0x32f422",
+        "mov    ebx,DWORD PTR [rip+0xc9918]        # 0x3f8d40"
+      ],
+      [
+        "0x32f437",
+        "lea    rcx,[rip+0xb73fa]        # 0x3e6838"
+      ],
+      [
+        "0x32f43e",
+        "mov    DWORD PTR [rip+0xc98fc],ebx        # 0x3f8d40"
+      ],
+      [
+        "0x32f449",
+        "mov    QWORD PTR [rip+0xc98e8],rax        # 0x3f8d38"
+      ],
+      [
+        "0x32f452",
+        "mov    rax,QWORD PTR [rip+0xc98df]        # 0x3f8d38"
+      ],
+      [
+        "0x32f459",
+        "lea    rsi,[rip+0xc98f0]        # 0x3f8d50"
+      ],
+      [
+        "0x32f465",
+        "mov    rcx,QWORD PTR [rip+0xa69f4]        # 0x3d5e60"
+      ],
+      [
+        "0x32f472",
+        "mov    DWORD PTR [rip+0xc98c8],ebx        # 0x3f8d40"
+      ],
+      [
+        "0x32f499",
+        "cmp    BYTE PTR [rip+0xc9598],r13b        # 0x3f8a38"
+      ],
+      [
+        "0x32f4a6",
+        "movss  DWORD PTR [rip+0xc997a],xmm1        # 0x3f8e28"
+      ],
+      [
+        "0x32f4b0",
+        "movd   xmm0,DWORD PTR [rip+0xc97d0]        # 0x3f8c88"
+      ],
+      [
+        "0x32f4c3",
+        "movss  xmm1,DWORD PTR [rip+0xc995d]        # 0x3f8e28"
+      ],
+      [
+        "0x32f4cb",
+        "mov    dl,BYTE PTR [rip+0xc9517]        # 0x3f89e8"
+      ],
+      [
+        "0x32f4d1",
+        "movss  DWORD PTR [rip+0xb6bb3],xmm1        # 0x3e608c"
+      ],
+      [
+        "0x32f4f5",
+        "mov    dl,BYTE PTR [rip+0xc94ed]        # 0x3f89e8"
+      ],
+      [
+        "0x32f4fb",
+        "mov    BYTE PTR [rip+0xc992a],0x1        # 0x3f8e2c"
+      ],
+      [
+        "0x32f506",
+        "cmp    BYTE PTR [rip+0xc991f],r13b        # 0x3f8e2c"
+      ],
+      [
+        "0x32f526",
+        "mov    BYTE PTR [rip+0xc98ff],r13b        # 0x3f8e2c"
+      ],
+      [
+        "0x32f541",
+        "movss  xmm0,DWORD PTR [rip+0xc98e7]        # 0x3f8e30"
+      ],
+      [
+        "0x32f559",
+        "movss  DWORD PTR [rip+0xc98cf],xmm0        # 0x3f8e30"
+      ],
+      [
+        "0x32f561",
+        "cmp    BYTE PTR [rip+0xc9570],r13b        # 0x3f8ad8"
+      ],
+      [
+        "0x32f56a",
+        "movss  xmm1,DWORD PTR [rip+0xc9676]        # 0x3f8be8"
+      ],
+      [
+        "0x32f581",
+        "mov    BYTE PTR [rip+0xc98ac],0x1        # 0x3f8e34"
+      ],
+      [
+        "0x32f58a",
+        "cmp    BYTE PTR [rip+0xc98a3],r13b        # 0x3f8e34"
+      ],
+      [
+        "0x32f59e",
+        "mov    eax,DWORD PTR [rip+0xc979c]        # 0x3f8d40"
+      ],
+      [
+        "0x32f5ab",
+        "lea    rcx,[rip+0xc9886]        # 0x3f8e38"
+      ],
+      [
+        "0x32f5b2",
+        "mov    DWORD PTR [rip+0xc9788],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f5bd",
+        "mov    dl,BYTE PTR [rip+0xc94c5]        # 0x3f8a88"
+      ],
+      [
+        "0x32f5fb",
+        "mov    BYTE PTR [rip+0xc9846],0x1        # 0x3f8e48"
+      ],
+      [
+        "0x32f602",
+        "movups xmm1,XMMWORD PTR [rip+0xc957f]        # 0x3f8b88"
+      ],
+      [
+        "0x32f609",
+        "movdqu XMMWORD PTR [rip+0xc9827],xmm0        # 0x3f8e38"
+      ],
+      [
+        "0x32f616",
+        "mov    dl,BYTE PTR [rip+0xc946c]        # 0x3f8a88"
+      ],
+      [
+        "0x32f620",
+        "cmp    BYTE PTR [rip+0xc9821],r13b        # 0x3f8e48"
+      ],
+      [
+        "0x32f655",
+        "movups xmm0,XMMWORD PTR [rip+0xc97dc]        # 0x3f8e38"
+      ],
+      [
+        "0x32f65c",
+        "mov    BYTE PTR [rip+0xc97e5],r13b        # 0x3f8e48"
+      ],
+      [
+        "0x32f668",
+        "cmp    BYTE PTR [rip+0xc9329],r13b        # 0x3f8998"
+      ],
+      [
+        "0x32f671",
+        "cmp    DWORD PTR [rip+0xc96ad],0x3e7        # 0x3f8d28"
+      ],
+      [
+        "0x32f67d",
+        "mov    BYTE PTR [rip+0xc97c5],0x1        # 0x3f8e49"
+      ],
+      [
+        "0x32f68b",
+        "lea    rcx,[rip+0xc9696]        # 0x3f8d28"
+      ],
+      [
+        "0x32f69b",
+        "cmp    BYTE PTR [rip+0xc97a7],r13b        # 0x3f8e49"
+      ],
+      [
+        "0x32f6a7",
+        "mov    al,BYTE PTR [rip+0xc979c]        # 0x3f8e49"
+      ],
+      [
+        "0x32f6b2",
+        "mov    BYTE PTR [rip+0xc9791],al        # 0x3f8e49"
+      ],
+      [
+        "0x32f6bc",
+        "mov    rcx,QWORD PTR [rip+0xa679d]        # 0x3d5e60"
+      ],
+      [
+        "0x32f6d3",
+        "movss  xmm0,DWORD PTR [rip+0xc974d]        # 0x3f8e28"
+      ],
+      [
+        "0x32f6e1",
+        "cmp    BYTE PTR [rip+0xc93a0],r13b        # 0x3f8a88"
+      ],
+      [
+        "0x32f716",
+        "movups xmm0,XMMWORD PTR [rip+0xc971b]        # 0x3f8e38"
+      ],
+      [
+        "0x32f722",
+        "cmp    BYTE PTR [rip+0xc9720],r13b        # 0x3f8e49"
+      ],
+      [
+        "0x32f72f",
+        "mov    rcx,QWORD PTR [rip+0xa672a]        # 0x3d5e60"
+      ],
+      [
+        "0x32f741",
+        "mov    eax,DWORD PTR [rip+0xc95f9]        # 0x3f8d40"
+      ],
+      [
+        "0x32f75a",
+        "mov    DWORD PTR [rip+0xc95e0],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f7dc",
+        "mov    eax,DWORD PTR [rip+0xc955e]        # 0x3f8d40"
+      ],
+      [
+        "0x32f7e2",
+        "mov    QWORD PTR [rip+0xc9667],rcx        # 0x3f8e50"
+      ],
+      [
+        "0x32f7fc",
+        "mov    DWORD PTR [rip+0xc953e],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f87d",
+        "mov    eax,DWORD PTR [rip+0xc94bd]        # 0x3f8d40"
+      ],
+      [
+        "0x32f883",
+        "mov    QWORD PTR [rip+0xc95ce],rcx        # 0x3f8e58"
+      ],
+      [
+        "0x32f89d",
+        "mov    DWORD PTR [rip+0xc949d],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f91e",
+        "mov    eax,DWORD PTR [rip+0xc941c]        # 0x3f8d40"
+      ],
+      [
+        "0x32f924",
+        "mov    QWORD PTR [rip+0xc9535],rcx        # 0x3f8e60"
+      ],
+      [
+        "0x32f92b",
+        "mov    ecx,DWORD PTR [rip+0xc93a7]        # 0x3f8cd8"
+      ],
+      [
+        "0x32f939",
+        "mov    r8,QWORD PTR [rip+0xc9510]        # 0x3f8e50"
+      ],
+      [
+        "0x32f940",
+        "lea    rdx,[rip+0xc9529]        # 0x3f8e70"
+      ],
+      [
+        "0x32f947",
+        "mov    rcx,QWORD PTR [rip+0xa6512]        # 0x3d5e60"
+      ],
+      [
+        "0x32f954",
+        "mov    DWORD PTR [rip+0xc93e6],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f965",
+        "lea    rdx,[rip+0xc9504]        # 0x3f8e70"
+      ],
+      [
+        "0x32f977",
+        "mov    r8,QWORD PTR [rip+0xc94d2]        # 0x3f8e50"
+      ],
+      [
+        "0x32f97e",
+        "lea    rdx,[rip+0xc95cb]        # 0x3f8f50"
+      ],
+      [
+        "0x32f985",
+        "mov    rcx,QWORD PTR [rip+0xa64d4]        # 0x3d5e60"
+      ],
+      [
+        "0x32f993",
+        "mov    DWORD PTR [rip+0xc93a7],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f9a4",
+        "lea    rdx,[rip+0xc95a5]        # 0x3f8f50"
+      ],
+      [
+        "0x32f9ab",
+        "mov    rcx,QWORD PTR [rip+0xa64ae]        # 0x3d5e60"
+      ],
+      [
+        "0x32f9b7",
+        "mov    eax,DWORD PTR [rip+0xc9383]        # 0x3f8d40"
+      ],
+      [
+        "0x32f9c6",
+        "mov    r8,QWORD PTR [rip+0xc948b]        # 0x3f8e58"
+      ],
+      [
+        "0x32f9cd",
+        "lea    rdx,[rip+0xc965c]        # 0x3f9030"
+      ],
+      [
+        "0x32f9d9",
+        "mov    rcx,QWORD PTR [rip+0xa6480]        # 0x3d5e60"
+      ],
+      [
+        "0x32f9e0",
+        "mov    DWORD PTR [rip+0xc935a],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32f9eb",
+        "movss  xmm2,DWORD PTR [rip+0xc9245]        # 0x3f8c38"
+      ],
+      [
+        "0x32f9f3",
+        "lea    rdx,[rip+0xc9636]        # 0x3f9030"
+      ],
+      [
+        "0x32f9fa",
+        "mov    rcx,QWORD PTR [rip+0xa645f]        # 0x3d5e60"
+      ],
+      [
+        "0x32fa06",
+        "mov    eax,DWORD PTR [rip+0xc9334]        # 0x3f8d40"
+      ],
+      [
+        "0x32fa15",
+        "mov    r8,QWORD PTR [rip+0xc9444]        # 0x3f8e60"
+      ],
+      [
+        "0x32fa1c",
+        "lea    rdx,[rip+0xc96ed]        # 0x3f9110"
+      ],
+      [
+        "0x32fa28",
+        "mov    rcx,QWORD PTR [rip+0xa6431]        # 0x3d5e60"
+      ],
+      [
+        "0x32fa2f",
+        "mov    DWORD PTR [rip+0xc930b],eax        # 0x3f8d40"
+      ],
+      [
+        "0x32fa3a",
+        "mov    rcx,QWORD PTR [rip+0xa641f]        # 0x3d5e60"
+      ],
+      [
+        "0x32fa41",
+        "lea    r8,[rip+0xc90e0]        # 0x3f8b28"
+      ],
+      [
+        "0x32fa48",
+        "lea    rdx,[rip+0xc96c1]        # 0x3f9110"
+      ],
+      [
+        "0x32fa59",
+        "movss  xmm0,DWORD PTR [rip+0xc93c7]        # 0x3f8e28"
+      ],
+      [
+        "0x32fa67",
+        "cmp    BYTE PTR [rip+0xc901a],r13b        # 0x3f8a88"
+      ],
+      [
+        "0x32fa9c",
+        "movups xmm0,XMMWORD PTR [rip+0xc9395]        # 0x3f8e38"
+      ]
+    ]
+  },
+  "0x36a464": {
+    "end": "0x36ac74",
+    "pairs": [
+      [
+        "0x367ca0",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367b00",
+        "0x320494",
+        "SkinnedMeshRenderer",
+        "64535054555959735a332910262a2123352d3b4a",
+        "0x31ffc8"
+      ],
+      [
+        "0x367ea0",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367e28",
+        "0x2cdccc",
+        "Mesh",
+        "7a5d4a523b",
+        "0x2cd9e4"
+      ],
+      [
+        "0x367f0c",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367ed8",
+        "0x2e9c54",
+        "GameObject",
+        "7059545f745e575b5c3441",
+        "0x2e9aec"
+      ],
+      [
+        "0x367f4c",
+        "0x2d85f4",
+        "Sussy Object",
+        "644d4a49421c725c5525223643",
+        "0x2d82ac"
+      ],
+      [
+        "0x367fc4",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367f88",
+        "0x2d85f4",
+        "MeshRenderer",
+        "7a5d4a526959535a5a32243043",
+        "0x2d82ac"
+      ],
+      [
+        "0x367918",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x3678e4",
+        "0x2e9c54",
+        "MeshFilter",
+        "7a5d4a527d55514a5a3241",
+        "0x2e9aec"
+      ],
+      [
+        "0x367950",
+        "0x2cdd44",
+        "SussyMesh",
+        "644d4a494271584d5740",
+        "0x2cda8c"
+      ],
+      [
+        "0x367990",
+        "0x3204bc",
+        "night.vision.goggles",
+        "59515e524f124b574c292e2c6d232a2120242c394b",
+        "0x320004"
+      ],
+      [
+        "0x3679ac",
+        "0x2cdd44",
+        "hat.miner",
+        "5f594d145655535b4d40",
+        "0x2cda8c"
+      ],
+      [
+        "0x367d34",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367d14",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x367cf8",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367cd8",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x367be8",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367bc8",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x367bac",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367b8c",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x367b70",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367b50",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x367b34",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x367a1c",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x367a00",
+        "0x2cde34",
+        "UnityEngine",
+        "6256504e42795359562e2442",
+        "0x2cdbd0"
+      ],
+      [
+        "0x3679c8",
+        "0x2cdcf4",
+        "Shader",
+        "6450585e5e4e3d",
+        "0x2cda20"
+      ],
+      [
+        "0x2f1004",
+        "0x2d8464",
+        "0",
+        "0738",
+        "0x2d80a8"
+      ],
+      [
+        "0x367d50",
+        "0x3203f4",
+        "_b",
+        "685a39",
+        "0x31fec8"
+      ],
+      [
+        "0x367d68",
+        "0x3203f4",
+        "_a",
+        "685939",
+        "0x31fec8"
+      ]
+    ],
+    "globals": [
+      [
+        "0x36a8e9",
+        "movsxd rcx,DWORD PTR [rip+0x92708]        # 0x3fcff8"
+      ],
+      [
+        "0x36aba9",
+        "movups xmm0,XMMWORD PTR [rip+0x82088]        # 0x3ecc38"
+      ],
+      [
+        "0x36abe7",
+        "movups xmm0,XMMWORD PTR [rip+0x81fea]        # 0x3ecbd8"
+      ],
+      [
+        "0x36ac25",
+        "movss  xmm1,DWORD PTR [rip+0x91e2b]        # 0x3fca58"
+      ],
+      [
+        "0x36ac35",
+        "movss  xmm1,DWORD PTR [rip+0x91e1b]        # 0x3fca58"
+      ]
+    ]
+  }
+}

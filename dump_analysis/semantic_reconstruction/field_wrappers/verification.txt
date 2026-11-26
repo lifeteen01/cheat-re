@@ -1,0 +1,1 @@
+Field getter and metadata wrapper fixtures passed (GCC15 C++20 Werror, ffp-contract=off).

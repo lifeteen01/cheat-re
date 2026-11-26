@@ -1,0 +1,12 @@
+[I] Combined immutable-script strict verification.
+Compile offset_profile.cpp
+Compile offset_profile_bindings.cpp
+Compile offset_profile_checks.cpp
+Compile offset_catalog.cpp
+Compile offset_catalog_checks.cpp
+Compile analysis_checks.cpp
+Link 328 translation units; 322 content-verified cache hits
+frame/world controller fixture groups8 PASS
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

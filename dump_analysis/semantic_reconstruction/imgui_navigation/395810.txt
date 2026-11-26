@@ -1,0 +1,31 @@
+395810 mov    rax,QWORD PTR [rip+0x70311]        # 0x405b28
+395817 mov    WORD PTR [rax+0x4940],0x0
+395820 jmp    0x39676c
+395825 int3
+395826 int3
+395827 int3
+395828 rex push rbx
+39582a push   rbp
+39582b push   rsi
+39582c push   rdi
+39582d push   r14
+39582f sub    rsp,0x20
+395833 mov    rsi,QWORD PTR [rip+0x702ee]        # 0x405b28
+39583a mov    r14d,r9d
+39583d mov    ebp,r8d
+395840 mov    edi,edx
+395842 mov    ebx,ecx
+395844 call   0x395810
+395849 bts    ebp,0x7
+39584d mov    BYTE PTR [rsi+0x4942],0x1
+395854 mov    DWORD PTR [rsi+0x4944],ebp
+39585a mov    DWORD PTR [rsi+0x4950],ebx
+395860 mov    DWORD PTR [rsi+0x4958],edi
+395866 mov    DWORD PTR [rsi+0x4948],r14d
+39586d add    rsp,0x20
+395871 pop    r14
+395873 pop    rdi
+395874 pop    rsi
+395875 pop    rbp
+395876 pop    rbx
+395877 ret

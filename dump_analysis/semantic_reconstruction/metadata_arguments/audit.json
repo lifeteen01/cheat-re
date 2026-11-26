@@ -1,0 +1,504 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x2dda18",
+      "end_exclusive": "0x2dda33",
+      "bytes": 27,
+      "instructions": 5,
+      "sha256": "30f3131d25cd4a2e86534220f607de7e5eadd48397948861a5f0c4efcbcbdb9e"
+    },
+    {
+      "begin": "0x2cb9fc",
+      "end_exclusive": "0x2cba4f",
+      "bytes": 83,
+      "instructions": 19,
+      "sha256": "fa0dc44b25b80e0ccfd0dcd7ef226ced5444dff7a2d58f995caae8643f9049a5"
+    },
+    {
+      "begin": "0x2d2094",
+      "end_exclusive": "0x2d2106",
+      "bytes": 114,
+      "instructions": 24,
+      "sha256": "f8a8f76d4b60de9061ab1c5b0389f09659f0b38fd4f698625c5af74b2af0715d"
+    },
+    {
+      "begin": "0x2cba50",
+      "end_exclusive": "0x2cbae2",
+      "bytes": 146,
+      "instructions": 31,
+      "sha256": "c18ef5638f74cbc864e558de14637af5e257f7a47e2f5a3ac57567d198cec70c"
+    },
+    {
+      "begin": "0x332e8c",
+      "end_exclusive": "0x332f1d",
+      "bytes": 145,
+      "instructions": 31,
+      "sha256": "3e34aa6e1f7fe71b5afd3d857bc830665be8baf0225f4637981f534a053d5c90"
+    },
+    {
+      "begin": "0x32b1c8",
+      "end_exclusive": "0x32b239",
+      "bytes": 113,
+      "instructions": 24,
+      "sha256": "0a7371dad63c7e6952964c6acf8321fd8eb7532c33ad4442a765f18d518db34e"
+    },
+    {
+      "begin": "0x2cc268",
+      "end_exclusive": "0x2cc26f",
+      "bytes": 7,
+      "instructions": 3,
+      "sha256": "3b98965107b095508ee4fc4b85b2f7577d6b087b36ca11d22785db60f8c44b97"
+    },
+    {
+      "begin": "0x2df370",
+      "end_exclusive": "0x2df376",
+      "bytes": 6,
+      "instructions": 3,
+      "sha256": "06dcc77a1c9c4313b8353858305ec3c04ecb0d4aebc8e5e372c592c54e4d456c"
+    },
+    {
+      "begin": "0x33479c",
+      "end_exclusive": "0x33480b",
+      "bytes": 111,
+      "instructions": 24,
+      "sha256": "9010143cc42203d2a4a1a067524f1e7fc5da292536c428fea8acca1274f307fe"
+    },
+    {
+      "begin": "0x33480c",
+      "end_exclusive": "0x334893",
+      "bytes": 135,
+      "instructions": 32,
+      "sha256": "7806b7a93f4d8f8cba098cea437c11def5d1fb401f3f84741d5a1c1ab3ff4311"
+    },
+    {
+      "begin": "0x3344b0",
+      "end_exclusive": "0x334528",
+      "bytes": 120,
+      "instructions": 28,
+      "sha256": "434efac3278f8111fdcd66ec0878c99d624383a315802a02f8a2d1ae39c00f7d"
+    },
+    {
+      "begin": "0x334528",
+      "end_exclusive": "0x3345c2",
+      "bytes": 154,
+      "instructions": 37,
+      "sha256": "37fe4fdd4b8a04f9ee4186718ae994c2224e3a909bf3ce2398aba5b011545c22"
+    },
+    {
+      "begin": "0x334660",
+      "end_exclusive": "0x3346e7",
+      "bytes": 135,
+      "instructions": 32,
+      "sha256": "f5c3628757375c068f90b4a252797c7153b9749f4fa5b93adef5cd863b189bcc"
+    },
+    {
+      "begin": "0x3345c4",
+      "end_exclusive": "0x33465d",
+      "bytes": 153,
+      "instructions": 37,
+      "sha256": "86f1a82ade47dad65a815bd4ea1aa056e671d2303a31fa2743f204c4d3544337"
+    },
+    {
+      "begin": "0x335140",
+      "end_exclusive": "0x3351b8",
+      "bytes": 120,
+      "instructions": 28,
+      "sha256": "03536cd3b3d7bd7f754f3e3c4c66bd3d6346df11933aef1bbd281fc2e61824ef"
+    },
+    {
+      "begin": "0x335040",
+      "end_exclusive": "0x3350b8",
+      "bytes": 120,
+      "instructions": 28,
+      "sha256": "c8c8d735ef19369ff9d6e85eac32a7f7006a0f6401bd9ea7c277ee7d92ff588e"
+    },
+    {
+      "begin": "0x3351b8",
+      "end_exclusive": "0x33523e",
+      "bytes": 134,
+      "instructions": 32,
+      "sha256": "62c69afc6860b7429328357c8b72e8dabda715cdb55f6c92115cb4271e27d485"
+    }
+  ],
+  "branches": [
+    [
+      "0x2dda2e",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x2cba4a",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x2d2101",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x2cbadd",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x332f18",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x32b234",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x3347a8",
+      "jne    0x3347ca"
+    ],
+    [
+      "0x3347c8",
+      "jmp    0x3347d1"
+    ],
+    [
+      "0x3347d3",
+      "jne    0x3347f4"
+    ],
+    [
+      "0x334806",
+      "jmp    0x2dda18"
+    ],
+    [
+      "0x334824",
+      "jne    0x334846"
+    ],
+    [
+      "0x334844",
+      "jmp    0x33484d"
+    ],
+    [
+      "0x33484f",
+      "jne    0x334870"
+    ],
+    [
+      "0x33488e",
+      "jmp    0x2d2094"
+    ],
+    [
+      "0x3344c1",
+      "jne    0x3344e3"
+    ],
+    [
+      "0x3344e1",
+      "jmp    0x3344ea"
+    ],
+    [
+      "0x3344ec",
+      "jne    0x33450d"
+    ],
+    [
+      "0x334523",
+      "jmp    0x2cb9fc"
+    ],
+    [
+      "0x334548",
+      "jne    0x33456a"
+    ],
+    [
+      "0x334568",
+      "jmp    0x334571"
+    ],
+    [
+      "0x334573",
+      "jne    0x334594"
+    ],
+    [
+      "0x334678",
+      "jne    0x33469a"
+    ],
+    [
+      "0x334698",
+      "jmp    0x3346a1"
+    ],
+    [
+      "0x3346a3",
+      "jne    0x3346c4"
+    ],
+    [
+      "0x3346e2",
+      "jmp    0x2d2094"
+    ],
+    [
+      "0x3345e4",
+      "jne    0x334606"
+    ],
+    [
+      "0x334604",
+      "jmp    0x33460d"
+    ],
+    [
+      "0x33460f",
+      "jne    0x334630"
+    ],
+    [
+      "0x335151",
+      "jne    0x335173"
+    ],
+    [
+      "0x335171",
+      "jmp    0x33517a"
+    ],
+    [
+      "0x33517c",
+      "jne    0x33519d"
+    ],
+    [
+      "0x3351b3",
+      "jmp    0x2cb9fc"
+    ],
+    [
+      "0x335051",
+      "jne    0x335073"
+    ],
+    [
+      "0x335071",
+      "jmp    0x33507a"
+    ],
+    [
+      "0x33507c",
+      "jne    0x33509d"
+    ],
+    [
+      "0x3350b3",
+      "jmp    0x2cb9fc"
+    ],
+    [
+      "0x3351cf",
+      "jne    0x3351f1"
+    ],
+    [
+      "0x3351ef",
+      "jmp    0x3351f8"
+    ],
+    [
+      "0x3351fa",
+      "jne    0x33521b"
+    ],
+    [
+      "0x335239",
+      "jmp    0x32b1c8"
+    ]
+  ],
+  "calls": [
+    [
+      "0x2cba0d",
+      "call   0x2cc268"
+    ],
+    [
+      "0x2d20ac",
+      "call   0x2cc268"
+    ],
+    [
+      "0x2d20b9",
+      "call   0x2cc268"
+    ],
+    [
+      "0x2cba68",
+      "call   0x2cc268"
+    ],
+    [
+      "0x2cba75",
+      "call   0x2cc268"
+    ],
+    [
+      "0x2cba84",
+      "call   0x2cc268"
+    ],
+    [
+      "0x332ea4",
+      "call   0x2cc268"
+    ],
+    [
+      "0x332eb1",
+      "call   0x2cc268"
+    ],
+    [
+      "0x332ebf",
+      "call   0x2df370"
+    ],
+    [
+      "0x32b1e0",
+      "call   0x2cc268"
+    ],
+    [
+      "0x32b1ec",
+      "call   0x2df370"
+    ],
+    [
+      "0x3347b3",
+      "call   0x3339fc"
+    ],
+    [
+      "0x3347ef",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x33482f",
+      "call   0x3339e4"
+    ],
+    [
+      "0x33486b",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x3344cc",
+      "call   0x333a0c"
+    ],
+    [
+      "0x334508",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x334553",
+      "call   0x333a34"
+    ],
+    [
+      "0x33458f",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x3345ad",
+      "call   0x2cba50"
+    ],
+    [
+      "0x334683",
+      "call   0x333a2c"
+    ],
+    [
+      "0x3346bf",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x3345ef",
+      "call   0x333a3c"
+    ],
+    [
+      "0x33462b",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x334648",
+      "call   0x332e8c"
+    ],
+    [
+      "0x33515c",
+      "call   0x2ee70c"
+    ],
+    [
+      "0x335198",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x33505c",
+      "call   0x3339ec"
+    ],
+    [
+      "0x335098",
+      "call   0x2cbd24"
+    ],
+    [
+      "0x3351da",
+      "call   0x3339f4"
+    ],
+    [
+      "0x335216",
+      "call   0x2cbd24"
+    ]
+  ],
+  "tail_jumps": [
+    [
+      "0x2dda2e",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x2cba4a",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x2d2101",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x2cbadd",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x332f18",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x32b234",
+      "jmp    0x3cdbd4"
+    ],
+    [
+      "0x3347c8",
+      "jmp    0x3347d1"
+    ],
+    [
+      "0x334806",
+      "jmp    0x2dda18"
+    ],
+    [
+      "0x334844",
+      "jmp    0x33484d"
+    ],
+    [
+      "0x33488e",
+      "jmp    0x2d2094"
+    ],
+    [
+      "0x3344e1",
+      "jmp    0x3344ea"
+    ],
+    [
+      "0x334523",
+      "jmp    0x2cb9fc"
+    ],
+    [
+      "0x334568",
+      "jmp    0x334571"
+    ],
+    [
+      "0x334698",
+      "jmp    0x3346a1"
+    ],
+    [
+      "0x3346e2",
+      "jmp    0x2d2094"
+    ],
+    [
+      "0x334604",
+      "jmp    0x33460d"
+    ],
+    [
+      "0x335171",
+      "jmp    0x33517a"
+    ],
+    [
+      "0x3351b3",
+      "jmp    0x2cb9fc"
+    ],
+    [
+      "0x335071",
+      "jmp    0x33507a"
+    ],
+    [
+      "0x3350b3",
+      "jmp    0x2cb9fc"
+    ],
+    [
+      "0x3351ef",
+      "jmp    0x3351f8"
+    ],
+    [
+      "0x335239",
+      "jmp    0x32b1c8"
+    ]
+  ],
+  "known_stores": "Known low bytes/arity/arguments only; native-width bounds gates for unknown stack/type/return-pointer stores. No executors invoked.",
+  "wrapper_review": "Nine wrapper descriptors, resolver flag reread, root/bit2 ordering and tail root reload checked against source; no new mismatch in these wrapper bodies."
+}

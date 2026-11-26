@@ -1,0 +1,24 @@
+3932b0 sub    rsp,0x58
+3932b4 movaps XMMWORD PTR [rsp+0x40],xmm6
+3932b9 movaps XMMWORD PTR [rsp+0x30],xmm7
+3932be movaps xmm7,xmm1
+3932c1 movaps XMMWORD PTR [rsp+0x20],xmm8
+3932c7 movaps xmm8,xmm0
+3932cb call   0x2e3ef0
+3932d0 movaps xmm6,xmm0
+3932d3 movaps xmm0,xmm7
+3932d6 call   0x2e3ef0
+3932db xor    eax,eax
+3932dd comiss xmm6,xmm0
+3932e0 jbe    0x3932ef
+3932e2 comiss xmm8,DWORD PTR [rip+0xffffffffffef9f62]        # 0x28d24c
+3932ea seta   al
+3932ed jmp    0x3932fc
+3932ef comiss xmm7,DWORD PTR [rip+0xffffffffffef9f56]        # 0x28d24c
+3932f6 seta   al
+3932f9 add    eax,0x2
+3932fc movaps xmm6,XMMWORD PTR [rsp+0x40]
+393301 movaps xmm7,XMMWORD PTR [rsp+0x30]
+393306 movaps xmm8,XMMWORD PTR [rsp+0x20]
+39330c add    rsp,0x58
+393310 ret

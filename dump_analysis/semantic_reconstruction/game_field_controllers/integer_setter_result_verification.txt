@@ -1,0 +1,3 @@
+Compile integer_setter_result.cpp
+Link 284 translation units; 283 content-verified cache hits
+FAIL: unexpected movement main integer 3286400

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "cmake_translation_units": 328,
+  "combined_translation_units": 328,
+  "missing_from_cmake": [],
+  "extra_in_cmake": [],
+  "fixture_or_checks_in_production_library": [],
+  "limit": "Generated source-set comparison; combined strict/sanitizer actually compiled and executed through verify.sh"
+}

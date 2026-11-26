@@ -1,0 +1,27 @@
+3a4cb0 rex push rbx
+3a4cb2 sub    rsp,0x20
+3a4cb6 cmp    DWORD PTR [rcx+0x494],0x0
+3a4cbd mov    rbx,rcx
+3a4cc0 jge    0x3a4ce6
+3a4cc2 mov    edx,0x2
+3a4cc7 test   BYTE PTR [rcx],dl
+3a4cc9 jne    0x3a4cd8
+3a4ccb mov    edx,0xf5
+3a4cd0 mov    r8d,0x1b
+3a4cd6 jmp    0x3a4cdb
+3a4cd8 mov    r8d,edx
+3a4cdb call   0x39fcc8
+3a4ce0 mov    DWORD PTR [rbx+0x494],eax
+3a4ce6 cmp    DWORD PTR [rbx+0x498],0x0
+3a4ced jge    0x3a4d0b
+3a4cef test   BYTE PTR [rbx],0x4
+3a4cf2 jne    0x3a4d0b
+3a4cf4 mov    edx,0x41
+3a4cf9 mov    rcx,rbx
+3a4cfc lea    r8d,[rdx-0x1]
+3a4d00 call   0x39fcc8
+3a4d05 mov    DWORD PTR [rbx+0x498],eax
+3a4d0b mov    rcx,rbx
+3a4d0e add    rsp,0x20
+3a4d12 pop    rbx
+3a4d13 jmp    0x3a4ebc

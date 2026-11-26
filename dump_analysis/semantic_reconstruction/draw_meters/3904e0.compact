@@ -1,0 +1,81 @@
+3904e0 rex push rbx
+3904e2 sub    rsp,0x50
+3904e6 movaps XMMWORD PTR [rsp+0x40],xmm6
+3904eb mov    rbx,r9
+3904ee movaps XMMWORD PTR [rsp+0x30],xmm7
+3904f3 movaps xmm6,xmm2
+3904f6 movaps XMMWORD PTR [rsp+0x20],xmm8
+3904fc movaps xmm8,xmm1
+390500 ucomiss xmm8,DWORD PTR [rip+0xffffffffffefcd44]        # 0x28d24c
+390508 jp     0x39052e
+39050a jne    0x39052e
+39050c mov    rax,QWORD PTR [rsp+0x88]
+390514 movss  DWORD PTR [rax],xmm6
+390518 mov    rax,QWORD PTR [rsp+0x80]
+390520 movss  DWORD PTR [rax],xmm6
+390524 movss  DWORD PTR [r9],xmm6
+390529 jmp    0x390615
+39052e movss  xmm7,DWORD PTR [rip+0xffffffffffefcd1e]        # 0x28d254
+390536 movaps xmm1,xmm7
+390539 call   0x3c8a6c
+39053e mov    rax,QWORD PTR [rsp+0x80]
+390546 movaps xmm2,xmm0
+390549 divss  xmm2,DWORD PTR [rip+0xfffffffffff19bef]        # 0x2aa140
+390551 xorps  xmm1,xmm1
+390554 movaps xmm0,xmm7
+390557 cvttss2si ecx,xmm2
+39055b movaps xmm3,xmm7
+39055e movaps xmm4,xmm7
+390561 subss  xmm3,xmm8
+390566 cvtsi2ss xmm1,ecx
+39056a mulss  xmm3,xmm6
+39056e subss  xmm2,xmm1
+390572 subss  xmm0,xmm2
+390576 movaps xmm1,xmm2
+390579 mulss  xmm1,xmm8
+39057e mulss  xmm0,xmm8
+390583 subss  xmm4,xmm1
+390587 subss  xmm7,xmm0
+39058b mulss  xmm4,xmm6
+39058f mulss  xmm7,xmm6
+390593 test   ecx,ecx
+390595 je     0x390601
+390597 sub    ecx,0x1
+39059a je     0x3905f7
+39059c sub    ecx,0x1
+39059f je     0x3905e1
+3905a1 sub    ecx,0x1
+3905a4 je     0x3905cb
+3905a6 cmp    ecx,0x1
+3905a9 je     0x3905c1
+3905ab movss  DWORD PTR [rbx],xmm6
+3905af movss  DWORD PTR [rax],xmm3
+3905b3 mov    rax,QWORD PTR [rsp+0x88]
+3905bb movss  DWORD PTR [rax],xmm4
+3905bf jmp    0x390615
+3905c1 movss  DWORD PTR [rbx],xmm7
+3905c5 movss  DWORD PTR [rax],xmm3
+3905c9 jmp    0x3905d3
+3905cb movss  DWORD PTR [rbx],xmm3
+3905cf movss  DWORD PTR [rax],xmm4
+3905d3 mov    rax,QWORD PTR [rsp+0x88]
+3905db movss  DWORD PTR [rax],xmm6
+3905df jmp    0x390615
+3905e1 movss  DWORD PTR [rbx],xmm3
+3905e5 movss  DWORD PTR [rax],xmm6
+3905e9 mov    rax,QWORD PTR [rsp+0x88]
+3905f1 movss  DWORD PTR [rax],xmm7
+3905f5 jmp    0x390615
+3905f7 movss  DWORD PTR [rbx],xmm4
+3905fb movss  DWORD PTR [rax],xmm6
+3905ff jmp    0x390609
+390601 movss  DWORD PTR [rbx],xmm6
+390605 movss  DWORD PTR [rax],xmm7
+390609 mov    rax,QWORD PTR [rsp+0x88]
+390611 movss  DWORD PTR [rax],xmm3
+390615 movaps xmm6,XMMWORD PTR [rsp+0x40]
+39061a movaps xmm7,XMMWORD PTR [rsp+0x30]
+39061f movaps xmm8,XMMWORD PTR [rsp+0x20]
+390625 add    rsp,0x50
+390629 pop    rbx
+39062a ret

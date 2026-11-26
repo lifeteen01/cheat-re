@@ -1,0 +1,73 @@
+{
+  "full_regression_strict": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "d478c59f1a69be155841465e77734f81d5e8b8ad804f39a0096875cdbf7892f3",
+    "log_sha256": "67d86974150460373fd5cb0dd75ef3a69ef0787477e4138e58bb7616246a4f4f"
+  },
+  "full_regression_sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "3985cce38d84aeb7ada9ddb6164561ba396f9ac95a9041d72ede716fed954a7c",
+    "log_sha256": "b66ba16f42f938eb71eba5a15def8f7f9041b85778d19ca3219aaf1d62e0ada3"
+  },
+  "original_inputs": {
+    "passed": true,
+    "entries": 135,
+    "manifest_sha256": "a106b5ad116dfc931b58d6470482a000be8e4f381f39405255e0195271ee94c2"
+  },
+  "cmake_ctest": {
+    "passed": true,
+    "inputs_current": true,
+    "record_pairing_current": true,
+    "snapshot_sha256": "0d1f2a827495df789096427b7cc7581af9938fcc91fd0a63ec944b8df1f74625",
+    "log_sha256": "ceb3269647c57249fa0a551d7be4e2ee3d700aca6516257e4cc4a5f8f0e888ea",
+    "artifact_sha256": "3cd337d8fa59bd44682837c8a0ce7a5e66957218bfe06655985a3089f3521f4b"
+  },
+  "evidence_pairing_regressions": {
+    "passed": true,
+    "inputs_current": true,
+    "tests": {
+      "baseline_passes": true,
+      "changed_event_bytes_rejected": true,
+      "changed_event_bytes_rejected_restored": true,
+      "changed_runtime_log_rejected": true,
+      "changed_runtime_log_rejected_restored": true,
+      "changed_build_record_rejected": true,
+      "changed_build_record_rejected_restored": true,
+      "frame_submitted_failure_rejected": true,
+      "frame_status_failure_rejected": true,
+      "frame_stopped_at_failure_rejected": true,
+      "restored_mode_passes": true
+    },
+    "record_sha256": "141b78405d2ae7590d24d3871bef31f424b9948ccbfff99fae4fe7370ebfe4b8"
+  },
+  "owned_verification_passed": true,
+  "semantic_fidelity": {
+    "source_95_percent_established": false,
+    "percentage": null,
+    "reason": "No complete original-source semantic denominator or matching native runtime oracle",
+    "scope": "Owned menu/ESP subset; typed camera, platform and resource boundaries are not native proof"
+  },
+  "native_windows": {
+    "validated": false
+  },
+  "inside_rust": {
+    "validated": false,
+    "game_bindings": "Needed / To do"
+  },
+  "required_inputs": {
+    "GameAssembly.dll": "Needed / To do",
+    "UnityPlayer.dll": "Needed / To do",
+    "global-metadata.dat": "Needed / To do"
+  },
+  "spoof_executor": {
+    "implemented": false,
+    "validated": false,
+    "scene_call_mode": "ordinary calls"
+  },
+  "trace_units": "Owned entry/caller/boundary counters; not original instruction coverage",
+  "audit_runner_sha256": "6643cdbd3b9474c7cd661879b49c5c57ab1e050e9ee132004f8c27cb94b56321"
+}

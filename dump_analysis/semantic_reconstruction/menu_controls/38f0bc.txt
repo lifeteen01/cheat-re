@@ -1,0 +1,55 @@
+38f0bc	rex push rbx
+38f0be	push   rbp
+38f0bf	push   rsi
+38f0c0	push   rdi
+38f0c1	push   r14
+38f0c3	sub    rsp,0x20
+38f0c7	mov    r14,QWORD PTR [rip+0x76a5a]        # 0x405b28
+38f0ce	mov    rbp,rcx
+38f0d1	add    r14,0x3ea8
+38f0d8	mov    rcx,r14
+38f0db	call   0x39e314
+38f0e0	mov    rcx,QWORD PTR [rax]
+38f0e3	cmp    rcx,rbp
+38f0e6	je     0x38f152
+38f0e8	cmp    QWORD PTR [rcx+0x378],rbp
+38f0ef	je     0x38f152
+38f0f1	mov    ebx,DWORD PTR [r14]
+38f0f4	lea    esi,[rbx-0x2]
+38f0f7	test   esi,esi
+38f0f9	js     0x38f152
+38f0fb	mov    edx,esi
+38f0fd	mov    rcx,r14
+38f100	call   0x38bb84
+38f105	cmp    QWORD PTR [rax],rbp
+38f108	je     0x38f111
+38f10a	sub    esi,0x1
+38f10d	jns    0x38f0fb
+38f10f	jmp    0x38f152
+38f111	sub    ebx,esi
+38f113	lea    edx,[rsi+0x1]
+38f116	dec    ebx
+38f118	mov    rcx,r14
+38f11b	movsxd rdi,ebx
+38f11e	shl    rdi,0x3
+38f122	call   0x38bb84
+38f127	mov    edx,esi
+38f129	mov    rcx,r14
+38f12c	mov    rbx,rax
+38f12f	call   0x38bb84
+38f134	mov    rcx,rax
+38f137	mov    r8,rdi
+38f13a	mov    rdx,rbx
+38f13d	call   0x3c8d4c
+38f142	mov    edx,DWORD PTR [r14]
+38f145	mov    rcx,r14
+38f148	dec    edx
+38f14a	call   0x38bb84
+38f14f	mov    QWORD PTR [rax],rbp
+38f152	add    rsp,0x20
+38f156	pop    r14
+38f158	pop    rdi
+38f159	pop    rsi
+38f15a	pop    rbp
+38f15b	pop    rbx
+38f15c	ret

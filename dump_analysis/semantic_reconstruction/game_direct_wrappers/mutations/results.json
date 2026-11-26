@@ -1,0 +1,23 @@
+[
+  {
+    "case": "dispatcher_bit2_order",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  per-wrapper dispatcher read versus bit2 store order survives missing root bytes",
+    "original_sha256": "196e0d2c9ad6c5d99684b6033549606aec2143d045c5959b63e336110f40e7ea"
+  },
+  {
+    "case": "fixed_integer",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  fixed negative integer stays signed32 with unknown high bytes",
+    "original_sha256": "6600020058473469153d9bbf04cd4f75148db1cbef1c82bb46fe49ecae955923"
+  },
+  {
+    "case": "substring_unneeded_terminator",
+    "detected": true,
+    "returncode": -6,
+    "diagnostic": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  substring prefix match succeeds without reading absent terminator beyond mapped bytes",
+    "original_sha256": "d795defefd67af6703da712d7db7cf9b0813adabe675ce248ce040af42d20533"
+  }
+]

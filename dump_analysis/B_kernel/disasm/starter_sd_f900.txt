@@ -1,0 +1,550 @@
+f900: mov    QWORD PTR [rsp+0x8],rbx
+f905: mov    QWORD PTR [rsp+0x10],rdi
+f90a: push   rbp
+f90b: lea    rbp,[rsp-0x90]
+f913: sub    rsp,0x190
+f91a: mov    rax,QWORD PTR [rip+0x11979f]        # 0x1290c0
+f921: xor    rax,rsp
+f924: mov    QWORD PTR [rbp+0x80],rax
+f92b: lea    rbx,[rip+0x1535ee]        # 0x162f20
+f932: mov    rcx,rbx
+f935: cmp    QWORD PTR [rip+0x1535fb],0x7        # 0x162f38
+f93d: cmova  rcx,QWORD PTR [rip+0x1535db]        # 0x162f20
+f945: push   rdi
+f946: call   0x40e805
+f94b: cmp    eax,0xffffffff
+f94e: jne    0xfb19
+f954: push   rax
+f955: call   0x379897
+f95a: mov    ebx,eax
+f95c: add    eax,0xfffffffe
+f95f: cmp    eax,0x1
+f962: jbe    0xfa39
+f968: movaps xmm0,XMMWORD PTR [rip+0x6ec71]        # 0x7e5e0
+f96f: movaps XMMWORD PTR [rbp-0x30],xmm0
+f973: movaps xmm1,XMMWORD PTR [rip+0x6ec76]        # 0x7e5f0
+f97a: movaps XMMWORD PTR [rbp-0x20],xmm1
+f97e: movaps xmm0,XMMWORD PTR [rip+0x6ec7b]        # 0x7e600
+f985: movaps XMMWORD PTR [rbp-0x10],xmm0
+f989: movaps xmm1,XMMWORD PTR [rip+0x6ec80]        # 0x7e610
+f990: movaps XMMWORD PTR [rbp+0x0],xmm1
+f994: movups xmm0,XMMWORD PTR [rip+0x6ec7f]        # 0x7e61a
+f99b: movups XMMWORD PTR [rbp+0xa],xmm0
+f99f: xorps  xmm1,xmm1
+f9a2: xor    eax,eax
+f9a4: movups XMMWORD PTR [rsp+0x40],xmm1
+f9a9: movups XMMWORD PTR [rsp+0x50],xmm1
+f9ae: movups XMMWORD PTR [rsp+0x60],xmm1
+f9b3: movups XMMWORD PTR [rsp+0x70],xmm1
+f9b8: mov    QWORD PTR [rbp-0x80],rax
+f9bc: xor    edi,edi
+f9be: mov    edx,0xb9
+f9c3: nop    DWORD PTR [rax+0x0]
+f9c7: nop    WORD PTR [rax+rax*1+0x0]
+f9d0: movzx  eax,di
+f9d3: imul   ecx,eax,0xd
+f9d6: mov    rax,rdi
+f9d9: shr    rax,0x3
+f9dd: add    ax,cx
+f9e0: add    ax,dx
+f9e3: xor    ax,WORD PTR [rbp+rdi*2-0x30]
+f9e8: mov    WORD PTR [rsp+0x20],ax
+f9ed: movzx  eax,WORD PTR [rsp+0x20]
+f9f2: mov    WORD PTR [rsp+rdi*2+0x40],ax
+f9f7: inc    rdi
+f9fa: cmp    rdi,0x24
+f9fe: jb     0xf9d0
+fa00: lea    rcx,[rsp+0x40]
+fa05: call   0x54520
+fa0a: lea    rcx,[rsp+0x40]
+fa0f: mov    QWORD PTR [rsp+0x30],rcx
+fa14: mov    QWORD PTR [rsp+0x38],rax
+fa19: mov    edx,ebx
+fa1b: lea    rcx,[rsp+0x30]
+fa20: call   0xf530
+fa25: nop
+fa26: lea    rdi,[rsp+0x40]
+fa2b: xor    eax,eax
+fa2d: mov    ecx,0x48
+fa32: rep stos BYTE PTR [rdi],al
+fa34: jmp    0x1010f
+fa39: movaps xmm0,XMMWORD PTR [rip+0x6b460]        # 0x7aea0
+fa40: movaps XMMWORD PTR [rbp-0x30],xmm0
+fa44: movaps xmm1,XMMWORD PTR [rip+0x6b465]        # 0x7aeb0
+fa4b: movaps XMMWORD PTR [rbp-0x20],xmm1
+fa4f: movaps xmm0,XMMWORD PTR [rip+0x6b46a]        # 0x7aec0
+fa56: movaps XMMWORD PTR [rbp-0x10],xmm0
+fa5a: movaps xmm1,XMMWORD PTR [rip+0x6b46f]        # 0x7aed0
+fa61: movaps XMMWORD PTR [rbp+0x0],xmm1
+fa65: movaps xmm0,XMMWORD PTR [rip+0x6b474]        # 0x7aee0
+fa6c: movaps XMMWORD PTR [rbp+0x10],xmm0
+fa70: movaps xmm1,XMMWORD PTR [rip+0x6b479]        # 0x7aef0
+fa77: movaps XMMWORD PTR [rbp+0x20],xmm1
+fa7b: movups xmm0,XMMWORD PTR [rip+0x6b47c]        # 0x7aefe
+fa82: movups XMMWORD PTR [rbp+0x2e],xmm0
+fa86: xorps  xmm1,xmm1
+fa89: movups XMMWORD PTR [rsp+0x40],xmm1
+fa8e: movups XMMWORD PTR [rsp+0x50],xmm1
+fa93: movups XMMWORD PTR [rsp+0x60],xmm1
+fa98: movups XMMWORD PTR [rsp+0x70],xmm1
+fa9d: movups XMMWORD PTR [rbp-0x80],xmm1
+faa1: movups XMMWORD PTR [rbp-0x70],xmm1
+faa5: movups XMMWORD PTR [rbp-0x64],xmm1
+faa9: xor    edi,edi
+faab: nop    DWORD PTR [rax+rax*1+0x0]
+fab0: movzx  eax,di
+fab3: imul   ecx,eax,0xd
+fab6: mov    rax,rdi
+fab9: shr    rax,0x3
+fabd: add    ax,0x53
+fac1: add    ax,cx
+fac4: xor    ax,WORD PTR [rbp+rdi*2-0x30]
+fac9: mov    WORD PTR [rsp+0x20],ax
+face: movzx  eax,WORD PTR [rsp+0x20]
+fad3: mov    WORD PTR [rsp+rdi*2+0x40],ax
+fad8: inc    rdi
+fadb: cmp    rdi,0x36
+fadf: jb     0xfab0
+fae1: lea    rcx,[rsp+0x40]
+fae6: call   0x54520
+faeb: lea    rcx,[rsp+0x40]
+faf0: mov    QWORD PTR [rsp+0x30],rcx
+faf5: mov    QWORD PTR [rsp+0x38],rax
+fafa: lea    rcx,[rsp+0x30]
+faff: call   0xaf60
+fb04: lea    rdi,[rsp+0x40]
+fb09: xor    eax,eax
+fb0b: mov    ecx,0x6c
+fb10: rep stos BYTE PTR [rdi],al
+fb12: mov    al,0x1
+fb14: jmp    0x1010f
+fb19: test   al,0x10
+fb1b: je     0xfc17
+fb21: movaps xmm0,XMMWORD PTR [rip+0x6c178]        # 0x7bca0
+fb28: movaps XMMWORD PTR [rbp-0x30],xmm0
+fb2c: movaps xmm1,XMMWORD PTR [rip+0x6c17d]        # 0x7bcb0
+fb33: movaps XMMWORD PTR [rbp-0x20],xmm1
+fb37: movaps xmm0,XMMWORD PTR [rip+0x6c182]        # 0x7bcc0
+fb3e: movaps XMMWORD PTR [rbp-0x10],xmm0
+fb42: movaps xmm1,XMMWORD PTR [rip+0x6c187]        # 0x7bcd0
+fb49: movaps XMMWORD PTR [rbp+0x0],xmm1
+fb4d: movaps xmm0,XMMWORD PTR [rip+0x6c18c]        # 0x7bce0
+fb54: movaps XMMWORD PTR [rbp+0x10],xmm0
+fb58: movaps xmm1,XMMWORD PTR [rip+0x6c191]        # 0x7bcf0
+fb5f: movaps XMMWORD PTR [rbp+0x20],xmm1
+fb63: movaps xmm0,XMMWORD PTR [rip+0x6c196]        # 0x7bd00
+fb6a: movaps XMMWORD PTR [rbp+0x30],xmm0
+fb6e: movups xmm1,XMMWORD PTR [rip+0x6c195]        # 0x7bd0a
+fb75: movups XMMWORD PTR [rbp+0x3a],xmm1
+fb79: xorps  xmm0,xmm0
+fb7c: xor    eax,eax
+fb7e: movups XMMWORD PTR [rsp+0x40],xmm0
+fb83: movups XMMWORD PTR [rsp+0x50],xmm0
+fb88: movups XMMWORD PTR [rsp+0x60],xmm0
+fb8d: movups XMMWORD PTR [rsp+0x70],xmm0
+fb92: movups XMMWORD PTR [rbp-0x80],xmm0
+fb96: movups XMMWORD PTR [rbp-0x70],xmm0
+fb9a: movups XMMWORD PTR [rbp-0x60],xmm0
+fb9e: mov    QWORD PTR [rbp-0x50],rax
+fba2: xor    edi,edi
+fba4: nop    DWORD PTR [rax+0x0]
+fba8: nop    DWORD PTR [rax+rax*1+0x0]
+fbb0: movzx  eax,di
+fbb3: imul   ecx,eax,0xd
+fbb6: mov    rax,rdi
+fbb9: shr    rax,0x3
+fbbd: add    ax,0x20
+fbc1: add    ax,cx
+fbc4: xor    ax,WORD PTR [rbp+rdi*2-0x30]
+fbc9: mov    WORD PTR [rsp+0x20],ax
+fbce: movzx  eax,WORD PTR [rsp+0x20]
+fbd3: mov    WORD PTR [rsp+rdi*2+0x40],ax
+fbd8: inc    rdi
+fbdb: cmp    rdi,0x3c
+fbdf: jb     0xfbb0
+fbe1: lea    rcx,[rsp+0x40]
+fbe6: call   0x54520
+fbeb: lea    rcx,[rsp+0x40]
+fbf0: mov    QWORD PTR [rsp+0x30],rcx
+fbf5: mov    QWORD PTR [rsp+0x38],rax
+fbfa: lea    rcx,[rsp+0x30]
+fbff: call   0xb110
+fc04: lea    rdi,[rsp+0x40]
+fc09: xor    eax,eax
+fc0b: mov    ecx,0x78
+fc10: rep stos BYTE PTR [rdi],al
+fc12: jmp    0x1010f
+fc17: xorps  xmm0,xmm0
+fc1a: movups XMMWORD PTR [rbp+0x60],xmm0
+fc1e: xor    edi,edi
+fc20: mov    QWORD PTR [rbp+0x70],rdi
+fc24: mov    QWORD PTR [rbp+0x78],0xf
+fc2c: mov    BYTE PTR [rbp+0x60],dil
+fc30: mov    rcx,rbx
+fc33: cmp    QWORD PTR [rip+0x1532fd],0x7        # 0x162f38
+fc3b: cmova  rcx,QWORD PTR [rip+0x1532dd]        # 0x162f20
+fc43: mov    rax,QWORD PTR [rip+0x1532e6]        # 0x162f30
+fc4a: mov    QWORD PTR [rsp+0x30],rcx
+fc4f: mov    QWORD PTR [rsp+0x38],rax
+fc54: lea    rdx,[rbp+0x60]
+fc58: lea    rcx,[rsp+0x30]
+fc5d: call   0xbd80
+fc62: test   al,al
+fc64: jne    0xfd1a
+fc6a: call   0x31dcde
+fc6f: <junk byte, VMP stub>
+fc70: mov    ebx,eax
+fc72: movups xmm0,XMMWORD PTR [rip+0x6b1ef]        # 0x7ae68
+fc79: movups XMMWORD PTR [rsp+0x40],xmm0
+fc7e: movups xmm1,XMMWORD PTR [rip+0x6b1f3]        # 0x7ae78
+fc85: movups XMMWORD PTR [rsp+0x50],xmm1
+fc8a: movups xmm0,XMMWORD PTR [rip+0x6b1f1]        # 0x7ae82
+fc91: movups XMMWORD PTR [rsp+0x5a],xmm0
+fc96: mov    WORD PTR [rsp+0x6a],0x6c
+fc9d: xorps  xmm0,xmm0
+fca0: movups XMMWORD PTR [rbp-0x30],xmm0
+fca4: movups XMMWORD PTR [rbp-0x20],xmm0
+fca8: movups XMMWORD PTR [rbp-0x16],xmm0
+fcac: nop    DWORD PTR [rax+0x0]
+fcb0: movzx  eax,di
+fcb3: imul   ecx,eax,0xd
+fcb6: mov    rax,rdi
+fcb9: shr    rax,0x3
+fcbd: add    ax,0x6c
+fcc1: add    ax,cx
+fcc4: xor    ax,WORD PTR [rsp+rdi*2+0x40]
+fcc9: mov    WORD PTR [rsp+0x20],ax
+fcce: movzx  eax,WORD PTR [rsp+0x20]
+fcd3: mov    WORD PTR [rbp+rdi*2-0x30],ax
+fcd8: inc    rdi
+fcdb: cmp    rdi,0x15
+fcdf: jb     0xfcb0
+fce1: lea    rcx,[rbp-0x30]
+fce5: call   0x54520
+fcea: lea    rcx,[rbp-0x30]
+fcee: mov    QWORD PTR [rsp+0x30],rcx
+fcf3: mov    QWORD PTR [rsp+0x38],rax
+fcf8: mov    edx,ebx
+fcfa: lea    rcx,[rsp+0x30]
+fcff: call   0xf530
+fd04: nop
+fd05: lea    rdi,[rbp-0x30]
+fd09: xor    eax,eax
+fd0b: mov    ecx,0x2a
+fd10: rep stos BYTE PTR [rdi],al
+fd12: xor    dil,dil
+fd15: jmp    0x100d4
+fd1a: mov    r9,QWORD PTR [rbp+0x70]
+fd1e: test   r9,r9
+fd21: je     0xfda1
+fd23: nop    DWORD PTR [rax+0x0]
+fd27: nop    WORD PTR [rax+rax*1+0x0]
+fd30: lea    rax,[rbp+0x60]
+fd34: mov    rdx,QWORD PTR [rbp+0x60]
+fd38: mov    r8,QWORD PTR [rbp+0x78]
+fd3c: cmp    r8,0xf
+fd40: cmova  rax,rdx
+fd44: lea    rcx,[r9-0x1]
+fd48: cmp    BYTE PTR [rax+rcx*1],0xd
+fd4c: je     0xfd84
+fd4e: lea    rax,[rbp+0x60]
+fd52: cmp    r8,0xf
+fd56: cmova  rax,rdx
+fd5a: cmp    BYTE PTR [rax+rcx*1],0xa
+fd5e: je     0xfd84
+fd60: lea    rax,[rbp+0x60]
+fd64: cmp    r8,0xf
+fd68: cmova  rax,rdx
+fd6c: cmp    BYTE PTR [rax+rcx*1],0x20
+fd70: je     0xfd84
+fd72: lea    rax,[rbp+0x60]
+fd76: cmp    r8,0xf
+fd7a: cmova  rax,rdx
+fd7e: cmp    BYTE PTR [rax+rcx*1],0x9
+fd82: jne    0xfda9
+fd84: mov    QWORD PTR [rbp+0x70],rcx
+fd88: lea    rax,[rbp+0x60]
+fd8c: cmp    r8,0xf
+fd90: cmova  rax,rdx
+fd94: mov    BYTE PTR [rax+rcx*1],0x0
+fd98: mov    r9,QWORD PTR [rbp+0x70]
+fd9c: test   r9,r9
+fd9f: jne    0xfd30
+fda1: mov    r8,QWORD PTR [rbp+0x78]
+fda5: mov    rdx,QWORD PTR [rbp+0x60]
+fda9: lea    rax,[rbp+0x60]
+fdad: cmp    r8,0xf
+fdb1: cmova  rax,rdx
+fdb5: cmp    r9,0xa
+fdb9: jne    0xffd2
+fdbf: mov    rdx,QWORD PTR [rip+0x6c8a2]        # 0x7c668
+fdc6: mov    rcx,QWORD PTR [rdx]
+fdc9: sub    rcx,QWORD PTR [rax]
+fdcc: jne    0xfdd9
+fdce: movzx  ecx,WORD PTR [rdx+0x8]
+fdd2: movzx  eax,WORD PTR [rax+0x8]
+fdd6: sub    rcx,rax
+fdd9: test   rcx,rcx
+fddc: jne    0xffd2
+fde2: cmp    QWORD PTR [rip+0x15314e],0x7        # 0x162f38
+fdea: cmova  rbx,QWORD PTR [rip+0x15312e]        # 0x162f20
+fdf2: mov    rcx,rbx
+fdf5: push   rbp
+fdf6: call   0x354e8c
+fdfb: test   eax,eax
+fdfd: jne    0xfedd
+fe03: call   0x3e6f2f
+fe08: <junk byte, VMP stub>
+fe09: mov    ebx,eax
+fe0b: movaps xmm0,XMMWORD PTR [rip+0x6bbee]        # 0x7ba00
+fe12: movaps XMMWORD PTR [rbp-0x30],xmm0
+fe16: movaps xmm1,XMMWORD PTR [rip+0x6bbf3]        # 0x7ba10
+fe1d: movaps XMMWORD PTR [rbp-0x20],xmm1
+fe21: movaps xmm0,XMMWORD PTR [rip+0x6bbf8]        # 0x7ba20
+fe28: movaps XMMWORD PTR [rbp-0x10],xmm0
+fe2c: movaps xmm1,XMMWORD PTR [rip+0x6bbfd]        # 0x7ba30
+fe33: movaps XMMWORD PTR [rbp+0x0],xmm1
+fe37: movaps xmm0,XMMWORD PTR [rip+0x6bc02]        # 0x7ba40
+fe3e: movaps XMMWORD PTR [rbp+0x10],xmm0
+fe42: movups xmm1,XMMWORD PTR [rip+0x6bc01]        # 0x7ba4a
+fe49: movups XMMWORD PTR [rbp+0x1a],xmm1
+fe4d: xorps  xmm0,xmm0
+fe50: xor    eax,eax
+fe52: movups XMMWORD PTR [rsp+0x40],xmm0
+fe57: movups XMMWORD PTR [rsp+0x50],xmm0
+fe5c: movups XMMWORD PTR [rsp+0x60],xmm0
+fe61: movups XMMWORD PTR [rsp+0x70],xmm0
+fe66: movups XMMWORD PTR [rbp-0x80],xmm0
+fe6a: mov    QWORD PTR [rbp-0x70],rax
+fe6e: xchg   ax,ax
+fe70: movzx  eax,di
+fe73: imul   ecx,eax,0xd
+fe76: mov    rax,rdi
+fe79: shr    rax,0x3
+fe7d: add    ax,0x60
+fe81: add    ax,cx
+fe84: xor    ax,WORD PTR [rbp+rdi*2-0x30]
+fe89: mov    WORD PTR [rsp+0x20],ax
+fe8e: movzx  eax,WORD PTR [rsp+0x20]
+fe93: mov    WORD PTR [rsp+rdi*2+0x40],ax
+fe98: inc    rdi
+fe9b: cmp    rdi,0x2c
+fe9f: jb     0xfe70
+fea1: lea    rcx,[rsp+0x40]
+fea6: call   0x54520
+feab: lea    rcx,[rsp+0x40]
+feb0: mov    QWORD PTR [rsp+0x30],rcx
+feb5: mov    QWORD PTR [rsp+0x38],rax
+feba: mov    edx,ebx
+febc: lea    rcx,[rsp+0x30]
+fec1: call   0xf530
+fec6: nop
+fec7: lea    rdi,[rsp+0x40]
+fecc: xor    eax,eax
+fece: mov    ecx,0x58
+fed3: rep stos BYTE PTR [rdi],al
+fed5: xor    dil,dil
+fed8: jmp    0x100d4
+fedd: movaps xmm0,XMMWORD PTR [rip+0x6c24c]        # 0x7c130
+fee4: movaps XMMWORD PTR [rbp-0x30],xmm0
+fee8: movaps xmm1,XMMWORD PTR [rip+0x6c251]        # 0x7c140
+feef: movaps XMMWORD PTR [rbp-0x20],xmm1
+fef3: movaps xmm0,XMMWORD PTR [rip+0x6c256]        # 0x7c150
+fefa: movaps XMMWORD PTR [rbp-0x10],xmm0
+fefe: movaps xmm1,XMMWORD PTR [rip+0x6c25b]        # 0x7c160
+ff05: movaps XMMWORD PTR [rbp+0x0],xmm1
+ff09: movaps xmm0,XMMWORD PTR [rip+0x6c260]        # 0x7c170
+ff10: movaps XMMWORD PTR [rbp+0x10],xmm0
+ff14: movaps xmm1,XMMWORD PTR [rip+0x6c265]        # 0x7c180
+ff1b: movaps XMMWORD PTR [rbp+0x20],xmm1
+ff1f: movaps xmm0,XMMWORD PTR [rip+0x6c26a]        # 0x7c190
+ff26: movaps XMMWORD PTR [rbp+0x30],xmm0
+ff2a: movaps xmm1,XMMWORD PTR [rip+0x6c26f]        # 0x7c1a0
+ff31: movaps XMMWORD PTR [rbp+0x40],xmm1
+ff35: movups xmm0,XMMWORD PTR [rip+0x6c270]        # 0x7c1ac
+ff3c: movups XMMWORD PTR [rbp+0x4c],xmm0
+ff40: xorps  xmm1,xmm1
+ff43: movups XMMWORD PTR [rsp+0x40],xmm1
+ff48: movups XMMWORD PTR [rsp+0x50],xmm1
+ff4d: movups XMMWORD PTR [rsp+0x60],xmm1
+ff52: movups XMMWORD PTR [rsp+0x70],xmm1
+ff57: movups XMMWORD PTR [rbp-0x80],xmm1
+ff5b: movups XMMWORD PTR [rbp-0x70],xmm1
+ff5f: movups XMMWORD PTR [rbp-0x60],xmm1
+ff63: movups XMMWORD PTR [rbp-0x50],xmm1
+ff67: movups XMMWORD PTR [rbp-0x46],xmm1
+ff6b: mov    edx,0xeb
+ff70: movzx  eax,di
+ff73: imul   ecx,eax,0xd
+ff76: mov    rax,rdi
+ff79: shr    rax,0x3
+ff7d: add    ax,cx
+ff80: add    ax,dx
+ff83: xor    ax,WORD PTR [rbp+rdi*2-0x30]
+ff88: mov    WORD PTR [rsp+0x20],ax
+ff8d: movzx  eax,WORD PTR [rsp+0x20]
+ff92: mov    WORD PTR [rsp+rdi*2+0x40],ax
+ff97: inc    rdi
+ff9a: cmp    rdi,0x45
+ff9e: jb     0xff70
+ffa0: lea    rcx,[rsp+0x40]
+ffa5: call   0x54520
+ffaa: lea    rcx,[rsp+0x40]
+ffaf: mov    QWORD PTR [rsp+0x30],rcx
+ffb4: mov    QWORD PTR [rsp+0x38],rax
+ffb9: lea    rcx,[rsp+0x30]
+ffbe: call   0xaf60
+ffc3: lea    rdi,[rsp+0x40]
+ffc8: mov    ecx,0x8a
+ffcd: jmp    0x100cd
+ffd2: movaps xmm0,XMMWORD PTR [rip+0x6bf87]        # 0x7bf60
+ffd9: movaps XMMWORD PTR [rbp-0x30],xmm0
+ffdd: movaps xmm1,XMMWORD PTR [rip+0x6bf8c]        # 0x7bf70
+ffe4: movaps XMMWORD PTR [rbp-0x20],xmm1
+ffe8: movaps xmm0,XMMWORD PTR [rip+0x6bf91]        # 0x7bf80
+ffef: movaps XMMWORD PTR [rbp-0x10],xmm0
+fff3: movaps xmm1,XMMWORD PTR [rip+0x6bf96]        # 0x7bf90
+fffa: movaps XMMWORD PTR [rbp+0x0],xmm1
+fffe: movaps xmm0,XMMWORD PTR [rip+0x6bf9b]        # 0x7bfa0
+10005: movaps XMMWORD PTR [rbp+0x10],xmm0
+10009: movaps xmm1,XMMWORD PTR [rip+0x6bfa0]        # 0x7bfb0
+10010: movaps XMMWORD PTR [rbp+0x20],xmm1
+10014: movaps xmm0,XMMWORD PTR [rip+0x6bfa5]        # 0x7bfc0
+1001b: movaps XMMWORD PTR [rbp+0x30],xmm0
+1001f: movaps xmm1,XMMWORD PTR [rip+0x6bfaa]        # 0x7bfd0
+10026: movaps XMMWORD PTR [rbp+0x40],xmm1
+1002a: movsd  xmm0,QWORD PTR [rip+0x6bfac]        # 0x7bfde
+10032: movsd  QWORD PTR [rbp+0x4e],xmm0
+10037: xorps  xmm1,xmm1
+1003a: xor    eax,eax
+1003c: movups XMMWORD PTR [rsp+0x40],xmm1
+10041: movups XMMWORD PTR [rsp+0x50],xmm1
+10046: movups XMMWORD PTR [rsp+0x60],xmm1
+1004b: movups XMMWORD PTR [rsp+0x70],xmm1
+10050: movups XMMWORD PTR [rbp-0x80],xmm1
+10054: movups XMMWORD PTR [rbp-0x70],xmm1
+10058: movups XMMWORD PTR [rbp-0x60],xmm1
+1005c: movups XMMWORD PTR [rbp-0x50],xmm1
+10060: mov    DWORD PTR [rbp-0x40],eax
+10063: mov    edx,0xf8
+10068: nop    DWORD PTR [rax+rax*1+0x0]
+10070: movzx  eax,di
+10073: imul   ecx,eax,0xd
+10076: mov    rax,rdi
+10079: shr    rax,0x3
+1007d: add    ax,cx
+10080: add    ax,dx
+10083: xor    ax,WORD PTR [rbp+rdi*2-0x30]
+10088: mov    WORD PTR [rsp+0x20],ax
+1008d: movzx  eax,WORD PTR [rsp+0x20]
+10092: mov    WORD PTR [rsp+rdi*2+0x40],ax
+10097: inc    rdi
+1009a: cmp    rdi,0x42
+1009e: jb     0x10070
+100a0: lea    rcx,[rsp+0x40]
+100a5: call   0x54520
+100aa: lea    rcx,[rsp+0x40]
+100af: mov    QWORD PTR [rsp+0x30],rcx
+100b4: mov    QWORD PTR [rsp+0x38],rax
+100b9: lea    rcx,[rsp+0x30]
+100be: call   0xaf60
+100c3: lea    rdi,[rsp+0x40]
+100c8: mov    ecx,0x84
+100cd: xor    eax,eax
+100cf: rep stos BYTE PTR [rdi],al
+100d1: mov    dil,0x1
+100d4: mov    rdx,QWORD PTR [rbp+0x78]
+100d8: cmp    rdx,0xf
+100dc: jbe    0x1010b
+100de: inc    rdx
+100e1: mov    rcx,QWORD PTR [rbp+0x60]
+100e5: cmp    rdx,0x1000
+100ec: jb     0x10106
+100ee: mov    rax,QWORD PTR [rcx-0x8]
+100f2: sub    rcx,rax
+100f5: sub    rcx,0x8
+100f9: cmp    rcx,0x1f
+100fd: ja     0x10133
+100ff: add    rdx,0x27
+10103: mov    rcx,rax
+10106: call   0x421d0
+1010b: movzx  eax,dil
+1010f: mov    rcx,QWORD PTR [rbp+0x80]
+10116: xor    rcx,rsp
+10119: call   0x42000
+1011e: lea    r11,[rsp+0x190]
+10126: mov    rbx,QWORD PTR [r11+0x10]
+1012a: mov    rdi,QWORD PTR [r11+0x18]
+1012e: mov    rsp,r11
+10131: pop    rbp
+10132: ret
+10133: mov    ecx,0x5
+10138: int    0x29
+1013a: int3
+1013b: int3
+1013c: int3
+1013d: int3
+1013e: int3
+1013f: int3
+10140: mov    QWORD PTR [rsp+0x20],rbx
+10145: push   rbp
+10146: push   rsi
+10147: push   rdi
+10148: sub    rsp,0x40
+1014c: mov    rax,QWORD PTR [rip+0x118f6d]        # 0x1290c0
+10153: xor    rax,rsp
+10156: mov    QWORD PTR [rsp+0x38],rax
+1015b: mov    ebx,r8d
+1015e: mov    rdi,rdx
+10161: mov    rsi,rcx
+10164: test   r8d,r8d
+10167: je     0x101a0
+10169: xor    ebp,ebp
+1016b: nop    DWORD PTR [rax+rax*1+0x0]
+10170: lea    r9,[rsp+0x30]
+10175: mov    DWORD PTR [rsp+0x30],ebp
+10179: mov    r8d,ebx
+1017c: mov    QWORD PTR [rsp+0x20],rbp
+10181: mov    rdx,rdi
+10184: mov    rcx,rsi
+10187: call   0x379fb7
+1018c: pop    rcx
+1018d: test   eax,eax
+1018f: je     0x101bc
+10191: mov    ecx,DWORD PTR [rsp+0x30]
+10195: test   ecx,ecx
+10197: je     0x101bc
+10199: add    rdi,rcx
+1019c: sub    ebx,ecx
+1019e: jne    0x10170
+101a0: mov    al,0x1
+101a2: mov    rcx,QWORD PTR [rsp+0x38]
+101a7: xor    rcx,rsp
+101aa: call   0x42000
+101af: mov    rbx,QWORD PTR [rsp+0x78]
+101b4: add    rsp,0x40
+101b8: pop    rdi
+101b9: pop    rsi
+101ba: pop    rbp
+101bb: ret
+101bc: xor    al,al
+101be: jmp    0x101a2
+101c0: mov    QWORD PTR [rsp+0x20],rbx
+101c5: push   rbp
+101c6: push   rsi
+101c7: push   rdi
+101c8: sub    rsp,0x40
+101cc: mov    rax,QWORD PTR [rip+0x118eed]        # 0x1290c0
+101d3: xor    rax,rsp
+101d6: mov    QWORD PTR [rsp+0x38],rax
+101db: mov    ebx,r8d
+101de: mov    rdi,rdx
+101e1: mov    rsi,rcx
+101e4: test   r8d,r8d
+101e7: je     0x10220
+101e9: xor    ebp,ebp
+101eb: nop    DWORD PTR [rax+rax*1+0x0]
+101f0: lea    r9,[rsp+0x30]
+101f5: mov    DWORD PTR [rsp+0x30],ebp
+101f9: mov    r8d,ebx
+101fc: mov    QWORD PTR [rsp+0x20],rbp

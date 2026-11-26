@@ -1,0 +1,231 @@
+{
+  "0x39f550": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fed6"
+    ]
+  },
+  "0x39fd68": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39ff63"
+    ]
+  },
+  "0x395158": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fd8a",
+      "0x39fdfc",
+      "0x37a779",
+      "0x3a95dd"
+    ]
+  },
+  "0x38bb6c": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fd98"
+    ]
+  },
+  "0x39f3d0": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fda5"
+    ]
+  },
+  "0x37a658": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fdb8"
+    ]
+  },
+  "0x3a9480": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fdc4"
+    ]
+  },
+  "0x3a931c": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fdcd"
+    ]
+  },
+  "0x39e314": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fde3"
+    ]
+  },
+  "0x3c8d4c": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fe12",
+      "0x37a794",
+      "0x3a95fb"
+    ]
+  },
+  "0x3a3e64": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39fe38",
+      "0x3a3c51"
+    ]
+  },
+  "0x2d4870": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f55d",
+      "0x39f566"
+    ]
+  },
+  "0x3c8d70": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f576"
+    ]
+  },
+  "0x2db3a0": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f3d9",
+      "0x39f3e2",
+      "0x39f3eb"
+    ]
+  },
+  "0x3a3d04": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3c49"
+    ]
+  },
+  "0x3a3c64": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3c5e"
+    ]
+  },
+  "0x39f620": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3d21",
+      "0x3a3d31",
+      "0x3a3d41",
+      "0x3a3d53"
+    ]
+  },
+  "0x39517c": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3d49",
+      "0x39f27f",
+      "0x336631",
+      "0x37a79d",
+      "0x3a9604",
+      "0x379591",
+      "0x3a3e76",
+      "0x3a3e84"
+    ]
+  },
+  "0x38bb84": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3d7c",
+      "0x3a3d8f",
+      "0x3a3daf",
+      "0x3a3dc4"
+    ]
+  },
+  "0x379578": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3ddc",
+      "0x3a3de5",
+      "0x3a3e25",
+      "0x3a3e2d",
+      "0x3a3e36",
+      "0x3a937a"
+    ]
+  },
+  "0x3a9344": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a3c71"
+    ]
+  },
+  "0x39f73c": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f277"
+    ]
+  },
+  "0x39f5ac": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f74b"
+    ]
+  },
+  "0x38a3cc": {
+    "classification": "deleting-flag1-not-reached",
+    "sites": [
+      "0x39f75d"
+    ]
+  },
+  "0x3a3e10": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f5b5"
+    ]
+  },
+  "0x336624": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x39f5be",
+      "0x39f5c7",
+      "0x39f5d4"
+    ]
+  },
+  "0x362efc": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x37a671",
+      "0x3a9499"
+    ]
+  },
+  "0x37a758": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x37a67b"
+    ]
+  },
+  "0x3a95bc": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a94a3"
+    ]
+  },
+  "0x3a8bec": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a481d",
+      "0x3a47a3"
+    ]
+  },
+  "rex.W jmp rax": {
+    "classification": "typed-allocation-leaf",
+    "sites": [
+      "0x395178"
+    ]
+  },
+  "0x27fa20": {
+    "classification": "typed-allocation-leaf",
+    "sites": [
+      "0x39519a"
+    ]
+  },
+  "0x39f268": {
+    "classification": "local-input-closure",
+    "sites": [
+      "0x3a9362"
+    ]
+  }
+}

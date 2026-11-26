@@ -1,0 +1,31 @@
+[I] Combined immutable-script strict verification.
+Compile game_input_physics_arguments.cpp
+Compile game_input_physics_arguments_checks.cpp
+Compile game_input_physics_bindings.cpp
+Compile game_input_physics_checks.cpp
+Compile game_input_physics_coverage.cpp
+Compile game_input_physics_fixture.cpp
+Compile game_input_physics_keys.cpp
+Compile game_input_physics_literals.cpp
+Compile game_input_physics_metadata.cpp
+Compile game_input_physics_metadata_checks.cpp
+Compile game_input_physics_pe.cpp
+Compile game_input_physics_queries.cpp
+Compile game_input_physics_queries_checks.cpp
+Compile game_local_literals_analysis.cpp
+Compile game_local_literals_bindings.cpp
+Compile game_local_literals_checks.cpp
+Compile frame_world_controllers_bindings.cpp
+Compile frame_world_controllers_checks.cpp
+Compile frame_world_controllers_collections.cpp
+Compile frame_world_controllers_collider.cpp
+Compile frame_world_controllers_configuration.cpp
+Compile frame_world_controllers_materials.cpp
+Compile frame_world_controllers_rain.cpp
+Compile frame_world_controllers_visibility.cpp
+Compile analysis_checks.cpp
+Link 323 translation units; 298 content-verified cache hits
+frame/world controller fixture groups8 PASS
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

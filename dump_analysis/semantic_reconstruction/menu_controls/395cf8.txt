@@ -1,0 +1,7 @@
+395cf8	mov    rax,QWORD PTR [rcx+0x398]
+395cff	test   rax,rax
+395d02	je     0x395d0f
+395d04	cmp    BYTE PTR [rax+0xb7],0x0
+395d0b	cmovne rcx,rax
+395d0f	mov    rax,rcx
+395d12	ret

@@ -1,0 +1,18 @@
+{
+  "M1_low_velocity": {
+    "exit_code": 134,
+    "stderr": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  low velocity constructor xmm3 drag/xmm2 gravity mapping\ndump_analysis/semantic_reconstruction/review_movement/M1_low_velocity.sh: line 18: 240028 Aborted                    (core dumped) \"$re_build/checks${1:-}\"\n"
+  },
+  "M1_launch": {
+    "exit_code": 134,
+    "stderr": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  launch constructor xmm3 drag/xmm2 gravity mapping\ndump_analysis/semantic_reconstruction/review_movement/M1_launch.sh: line 18: 240110 Aborted                    (core dumped) \"$re_build/checks${1:-}\"\n"
+  },
+  "M2_selected_velocity": {
+    "exit_code": 134,
+    "stderr": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  grenade returns selected initial velocity rather than integrated velocity\ndump_analysis/semantic_reconstruction/review_movement/M2_selected_velocity.sh: line 18: 240185 Aborted                    (core dumped) \"$re_build/checks${1:-}\"\n"
+  },
+  "M3_scale_cap": {
+    "exit_code": 134,
+    "stderr": "terminate called after throwing an instance of 'std::runtime_error'\n  what():  low velocity literal1.495 speed cap\ndump_analysis/semantic_reconstruction/review_movement/M3_scale_cap.sh: line 18: 240245 Aborted                    (core dumped) \"$re_build/checks${1:-}\"\n"
+  }
+}

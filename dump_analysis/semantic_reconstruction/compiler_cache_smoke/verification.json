@@ -1,0 +1,20 @@
+[
+  {
+    "expected": 11,
+    "exit": 11,
+    "hits": 0,
+    "misses": 1
+  },
+  {
+    "expected": 11,
+    "exit": 11,
+    "hits": 1,
+    "misses": 0
+  },
+  {
+    "expected": 12,
+    "exit": 12,
+    "hits": 0,
+    "misses": 1
+  }
+]

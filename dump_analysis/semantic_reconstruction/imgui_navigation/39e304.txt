@@ -1,0 +1,8 @@
+39e304 mov    eax,DWORD PTR [rcx]
+39e306 dec    eax
+39e308 movsxd rdx,eax
+39e30b mov    rax,QWORD PTR [rcx+0x8]
+39e30f lea    rax,[rax+rdx*4]
+39e313 ret
+39e314 mov    eax,DWORD PTR [rcx]
+39e316 dec    eax

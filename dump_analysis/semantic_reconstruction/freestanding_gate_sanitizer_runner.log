@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "mode": "sanitizer",
+  "exit_code": 0,
+  "compiler_sha256": "e6718f7e0c7d057c3ff77b550c603da9bc4030e3ede3c053705acce1293dbe4d",
+  "objects": {
+    "dump_analysis/semantic_reconstruction/freestanding_gate/sanitizer/gate_x64.S.o": "ef4db8291c9472f91760ed6ac30897b8991bd2fe3fed265460b2c205a5988db3",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/sanitizer/checks_x64.S.o": "bfdb18959024e64d5d9fcd340f5b3d39930b6a748071569b2a3cffc1a0e69e9f",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/sanitizer/gate.cpp.o": "5ebede70c538650143f40690b0fb2abe4b206709380293fb9f87d50842f4b4d7",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/sanitizer/checks.cpp.o": "ebd39e5a681682404933499b73538625ccf9884138ed33750059c7c169621e01"
+  },
+  "build_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "link_map_sha256": null,
+  "artifacts": {
+    "dump_analysis/semantic_reconstruction/freestanding_gate/sanitizer/owned_gate_checks": "b50e335e939afa0d7cf10919e51c07d66880acd3fd4e10d1358b4bfc49f79f16"
+  },
+  "executor_audit": {
+    "passed": true,
+    "instruction_count": 126,
+    "restore_reference_verified": true,
+    "comparison": "ordered mnemonics/registers/operands/direct-branch destinations; relocated restore LEA",
+    "original_bytes_checked": true,
+    "dump_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090"
+  },
+  "dll_imports": null,
+  "host_imports_are_separate": null,
+  "dll_linked_archive_members": false,
+  "gate_object_undefined": "                 U __asan_init\n                 U __asan_option_detect_stack_use_after_return\n                 U __asan_register_globals\n                 U __asan_report_load1\n                 U __asan_report_load8\n                 U __asan_report_store8\n                 U __asan_stack_malloc_1\n                 U __asan_unregister_globals\n                 U __asan_version_mismatch_check_v8\n                 U __ubsan_handle_out_of_bounds_abort\n                 U __ubsan_handle_pointer_overflow_abort\n                 U __ubsan_handle_type_mismatch_v1_abort\n                 U re_gate_capture\n",
+  "seconds": 4.315,
+  "runtime_log_sha256": "6a6ddad09e2c754f5a997f155bd048461c8497e7190a41bd1f1467d1a84aeba3",
+  "original_manifest_entries": 135,
+  "scope": "Recovered executor component only; supplied owned context/targets. Hosted driver is separate.",
+  "full_context_selection_implemented": false,
+  "scene_uses_executor": false,
+  "overall_base_no_crt_no_imports": false
+}

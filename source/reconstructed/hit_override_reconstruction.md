@@ -1,0 +1,13 @@
+# Hit-bone override worker
+
+[C] [hit_override_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/hit_override_analysis.cpp) translates worker `0x32b3a8–0x32b623` and hook sequence `0x32b62c–0x32b6c0`. Two `0x3715d8` helper calls follow receiver `+0x10` twice, validating numeric pointers. Helper `0x374348` captures a dword at the resulting hit object `+0x40`. [U] Its original source-member name is unresolved.
+
+[C] With `helihitover`, a valid helicopter pointer and predicate `0x2e0e9c` are tested before comparing captured kind to `0x614b0986`. The worker reads helicopter `+0x2cc` and chooses `0xa0e77c82` for an ordered value above `5000`, or `0x0d5c17b7` otherwise. `0x37432c` writes the selected identifier into hit object `+0x24` (`0x32b416–0x32b446`). [I] Identifiers are numeric evidence; bone names are not guessed.
+
+[C] HitChams reads dword `+0x38`, resolves an entity through `0x32b308`, hashes its class name using the recovered signed-byte hash, and invokes separate helper `0x36a464` only for BasePlayer hash equality (`0x32b454–0x32b4be`). [U] The registry and model/chams implementation remain callbacks, rather than fabricated game behavior. [C] The later HitOverride gate uses the kind captured **before** that callback; it does not reload the field.
+
+[C] HitOverride requires captured kind `0x5333f7a0`. It always calls random helper `0x2e3d5c(0,100)` before examining `BoneIndex3`, including fixed settings. The translated selection preserves all numeric IDs and strict `JA` threshold behavior in `0x32b4ec–0x32b61b`. Settings 4 and 5 differ above 90. Unordered random values fall through the ordered comparisons. The saved hook original is invoked after a normal worker return, including pointer-rejection returns (`0x32b641–0x32b6c0`).
+
+[I] [hit_override_analysis.hpp](/home/john/Desktop/cheat_re/source/reconstructed/hit_override_analysis.hpp) names owned configuration/results and dependency boundaries. Missing reached callbacks/bytes stop explicitly, retaining preceding changes. A finite class-string bound is an analysis safeguard. [C] All writes affect owned snapshot bytes; numeric addresses are never called or dereferenced as host pointers.
+
+[C] Evidence: [worker/detour/setter](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/hit_override_evidence.asm), [field readers](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/hit_override_fields.asm). [I] [hit_override_checks.cpp](/home/john/Desktop/cheat_re/source/reconstructed/hit_override_checks.cpp) covers callback ordering, integer IDs, random consumption, strict/NaN thresholds, both helicopter branches, captured-kind preservation and explicit missing-dependency stops.

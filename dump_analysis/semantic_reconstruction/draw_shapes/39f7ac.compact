@@ -1,0 +1,47 @@
+39f7ac test   r9d,0xff000000
+39f7b3 je     0x39f871
+39f7b9 mov    QWORD PTR [rsp+0x8],rbx
+39f7be push   rdi
+39f7bf sub    rsp,0x30
+39f7c3 movss  xmm0,DWORD PTR [rip+0xffffffffffeeda85]        # 0x28d250
+39f7cb mov    edi,r9d
+39f7ce comiss xmm0,xmm2
+39f7d1 mov    r10,rdx
+39f7d4 mov    rbx,rcx
+39f7d7 ja     0x39f867
+39f7dd mov    ecx,DWORD PTR [rsp+0x60]
+39f7e1 subss  xmm2,xmm0
+39f7e5 test   ecx,ecx
+39f7e7 jg     0x39f809
+39f7e9 mov    DWORD PTR [rsp+0x28],0x0
+39f7f1 xor    r9d,r9d
+39f7f4 mov    rcx,rbx
+39f7f7 mov    DWORD PTR [rsp+0x20],0x30
+39f7ff call   0x3a8eec
+39f804 dec    DWORD PTR [rbx+0x78]
+39f807 jmp    0x39f851
+39f809 mov    edx,0x3
+39f80e mov    r8d,0x200
+39f814 call   0x3762ac
+39f819 xorps  xmm3,xmm3
+39f81c mov    rdx,r10
+39f81f mov    rcx,rbx
+39f822 movd   xmm0,eax
+39f826 dec    eax
+39f828 cvtdq2ps xmm0,xmm0
+39f82b mov    DWORD PTR [rsp+0x28],eax
+39f82f movaps xmm1,xmm0
+39f832 subss  xmm1,DWORD PTR [rip+0xffffffffffeeda1a]        # 0x28d254
+39f83a mulss  xmm1,DWORD PTR [rip+0xfffffffffff0d6a6]        # 0x2acee8
+39f842 divss  xmm1,xmm0
+39f846 movss  DWORD PTR [rsp+0x20],xmm1
+39f84c call   0x3a684c
+39f851 movss  xmm3,DWORD PTR [rsp+0x68]
+39f857 mov    r8d,0x1
+39f85d mov    edx,edi
+39f85f mov    rcx,rbx
+39f862 call   0x398758
+39f867 mov    rbx,QWORD PTR [rsp+0x40]
+39f86c add    rsp,0x30
+39f870 pop    rdi
+39f871 ret

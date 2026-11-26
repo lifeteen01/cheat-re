@@ -1,0 +1,849 @@
+FUNC 1070 calls: 8830 478c0
+  D 115a ?partial C:/Program Files (x86)/Steam/steamapps/common/Ru\u0298\u02a5\u02b2\u02bf\u02cc\u02d9\u02e6\u02f3\u0301\u030e\u031b\u0328\u0335\u0342\u034f\u035c\u036a\u0377\u0384\u0391\u039e\u03ab\u03b8\u03c5\u03d3\u03e0\u03ed\u03fa\u0407\u0414\u0421\u042e\u043c\u0449\u0456\u0463\u0470\u047d\u048a\u0497\u04a5\u04b2\u04bf\u04cc\u04d9\u04e6\u04f3\u0500\u050e\u051b\u0528\u0535\u0542\u054f\u055c\u0569\u0577\u0584\u0591\u059e
+FUNC 13d0 calls: 2ce30
+  S 13d4 string too long
+FUNC 13f0 calls: 8830 2e460 2e4c0 2e530 2e970 306f0 347e0 46eb0 478c0 d668f
+  D 14e3 RustClient.exe
+FUNC 15a0 calls: 294a0
+  D 15eb hooks
+FUNC 1650 calls: 294a0 2a3b0 2aac0 2e460 b0161 259968 287c03 2eacec 2ecb9f 31e980 3336f4 36f4eb 3d0084 3e3749
+  D 170b debugger
+  D 176b code_integrity
+  D 17bb analysis_environment
+  S 1810 ntdll.dll
+  S 1826 NtQueryInformationProcess
+  S 1995 flsK4
+  S 19ea gx{UPA
+  D 1a6b hooks
+FUNC 1b20 calls: 8500 8a20 28ae0 294a0 2e460 478c0 2dd120 2e576d 3528c5 3c1ffd 401f97
+  D 1bab phase=%u win32=%lu stage=%ls
+  S 1bf1 Q[];"
+  D 1c43 ?partial startup_failed stage=%ls\u015d
+  D 1cbc fail
+  D 1d2b finish
+  D 1d8b hooks
+FUNC 1ea0 calls: 15a0 270a0 28010 c2b9f 3d5234
+  D 1f4b xor_tcp_h_connected
+  D 200b xor_tcp_h_connect_failed
+  S 2034 gorD5
+  S 2095 qk~Z5
+FUNC 2180 calls: 15a0 1b20 8500 8560 85c0 8830 8980 8a20 c980 cdd0 e750 e780 e920 15280 15ae0 17ba0 18570 19c20 1a390 229e0 265c0 26830 26df0 289c0 28a60 28ae0 291f0 294a0 29d90 2a3b0 2aac0 2b5f0 2b670 2c210 2e460 2e4c0 2e530 2e970 477c0 478c0 ae040 b154c b702f b95a0 b968b c46e3 c6ed9 21fa39 22aba5 2434dd 25387d 25ae22 260d5c 267cca 274d46 279d8b 282fbc 286c88 28f592 29373a 2939d9 29a626 2a5a1b 2a5a41 2b0754 2b6f07 2b9bc3 2cffb6 2d6d71 2e7730 2e99da 2f0220 2f61e2 30005c 30d0e9 30fe60 31507c 31a59f 32e383 331723 3323f0 34b42b 34bc78 34f11e 3540c0 35b661 35be61 3673f5 3711d5 379798 388ff8 38975c 38e935 38f44f 38f559 3ade56 3c4ba5 3c95b5 3d831a 3d83f8 3f0425 3f1923 3f2ae6 3f3551 3fac83
+  D 226b build=telemetry-20260916 code_seal=off worker_started
+  D 22cb begin
+  D 232d worker
+  D 23cc debugger
+  D 243b code_capture
+  D 24ab analysis_environment
+  S 250f ntdll.dll
+  S 252b NtQueryInformationProcess
+  D 268d fail
+  D 26eb guard
+  S 28fc player_database
+  S 29d1 fT@O!8
+  D 2a5a runtime_begin standalone=true interposer=false asm=false donor_relay=true phase1_source=remote_h steam_apps_lookup=direct_user_v1
+  S 2b0f X%$;
+  D 2b8b eos_preloaded library="%ls" module=%p
+  S 2bfc v`E@X+-aoiG@6&2
+  D 2c3b waiting_for_unity_baselib_gameassembly
+  D 2c9b begin
+  D 2ceb modules
+  D 2dca UnityPlayer.dll
+  D 2eea GameAssembly.dll
+  D 2fcb required_modules_present
+  D 302b ok
+  D 307b modules
+  D 315b initializing_xor_tcp
+  D 31bb begin
+  D 321b steam_api
+  D 332b xor_tcp_ready
+  D 338b ok
+  D 33fc xor_tcp_winsock_failed
+  D 346b fail
+  D 34db steam_api
+  S 357b tcp_startup
+  D 35cd hooks mapped into player
+  D 364b hooks mapped, inject token missing
+  D 36bb ok
+  S 36e9 k{NXA
+  D 372b fail
+  D 379b begin
+  S 384d _P(,
+  D 38d3 module_ready name=GameAssembly.dll module=%p
+  S 3b2d mazL\,(
+  S 3b8f ck|A[B
+  S 3bec sopFP6
+  S 3c91 load_official_RakNet
+  S 3e00 Local\HookProbe_HState_v2
+  S 3ec2 RN_"3
+  D 3f6b ?\u04a2\u04b0\u0551\u0532\u0500\u0571\u0538\u0546 init backend=ksecdd_host channel_ok=%u
+  S 3fcc D9N\39z
+  D 401d external KsecDD H host is required; HV fallback is disabled
+  D 407b fail
+  D 40eb phase1
+  S 4149 packet_h_ksecdd_host
+  S 417a Local\HookProbe_KernelState_v1_Attached
+  S 41be J^N>6
+  D 41fb installing_routing
+  D 425b begin
+  S 427d K_R!$;
+  D 42bc hooks_install
+  D 43da eos_preloaded module=%p
+  S 441d @USVWAVH
+  S 4424 GetProcAddress
+  D 44ea hook_install baselib!GetProcAddress source=PE_imports
+  D 4633 minhook_failed stage=initialize_raknet_exports status=%d
+  S 49e2 @USVWAVAWH
+  S 49e9 LoadLibraryW
+  S 4b03 @USVWAVAWH
+  S 4b0a LoadLibraryW
+  D 4bda hook_install UnityPlayer!LoadLibraryW source=PE_imports
+  D 4f43 steam_mask status=deferred waiting_for_steam_api
+  D 4fcb routing_stabilized
+  D 502b ok
+  D 508c hooks_install
+  D 513b starting_local_server
+  D 519b begin
+  D 51ed relay_start
+  S 5254 NET_StartServer
+  D 52ab local_server_started
+  D 530b ok
+  D 535d relay_start
+  D 543b connect_thread_creation_failed
+  D 549b fail
+  D 54fb peer
+  D 566a runtime_ready hooks=10 routing=raknet_exports server=0.0.0.0:%u payload_mutation=true donor_relay=true phase1_source=remote_h
+  D 56fb hooks runtime polling
+  D 575b ok
+  D 57ab runtime
+  D 58bb protection_thread_creation_failed
+  D 591b fail
+  D 597b guard
+  S 5aa5 iMV'&*
+  S 5ae4 Local\EmuPacker.RelayReady
+  S 5b7b PYZ$6
+  D 5bcb signaled=%u win32=%lu
+  D 5c4b ok
+  D 5cad fail
+  D 5d0b relay_ready
+  D 5d6b hooks
+  S 5f97 hooks
+  S 60dd generation=%llu consumed=%llu seq=%llu epoch_request=%llu epoch_applied=%llu
+  S 6103 h_client_candidate
+  S 610a hooks
+  S 61b9 generation=%llu
+  S 61df h_client_accepted
+  S 61e6 hooks
+  D 649b received job=%llu q=%u slot1=install_failed
+  D 652b fail
+  D 658b phase1_h
+  D 65fb packer
+  S 66d8 cOAV4iD
+  D 671d polls=%llu packets=%llu
+  D 679c ok
+  D 67fb relay_traffic
+  D 692a mode2_session_key status=installed algorithm=aes-256-gcm slot=slot1 source=external_H_double_H key_bytes=32 inbound_domain=2 outbound_domain=1
+  D 69cb delivered job=%llu q=%u slot1=installed
+  D 6a4b ok
+  D 6aab phase1_h
+  D 6b1b packer
+  D 6c2b polls=%llu packets=0
+  D 6cab fail
+  D 6cfb relay_idle
+  D 6f1b routing_or_logging_failed
+  S 6f43 }I\.O
+  D 6f7b fail
+  D 6fcb runtime
+  D 707c hook_cell_changed
+  D 70db fail
+  D 712b runtime
+  D 731b connect_still_running_at_shutdown
+  D 737b fail
+  D 73db peer
+  D 7556 server_call NET_Close context=%p receive_polls=%llu packets=%llu
+  D 78bb hooks runtime stopped
+  D 792b ok
+  D 799b hooks runtime failed
+  D 7a0b fail
+  D 7a8b finish
+  S 7b76 stabilize_hooks
+  S 7c89 xKAT&9
+  D 7d24 minhook_failed stage=create_export name=%hs status=%d
+  S 7e8b install_hooks
+  S 7e99 wait_modules
+  D 7f4a ?partial n{\x88\x95\xa2\xaf\xbc\xc9\xd7\xe4\xf1\xfe\u010b\u0118\u0125\u0132\u0140\u014d\u015a\u0167\u0174\u0181\u018e\u019bl
+  D 801a ?partial \uff91\ud5b0\u9130\u8d3c\xa2\xaf\xbc\xc9\u4dbe\u27b2\u2ad7\u12f2\ufaaf\uc8e9\ue1a0\ub28c\ufffd\u283b\u5a5e\u3a7c\u0d4e\u4d85\uff39\uc351l
+FUNC 8110 calls: 9570 9580 ae501 2b08cb 2c3fee 2ccd49 2deeb7 3965be 3eb7e6
+  S 81f9 early_events_dropped=%llu
+  S 8202 player_db_diagnostics
+FUNC 8b40 calls: 9370 478c0 2414a7 269118 29f00c
+  S 8b95 LOCALAPPDATA
+  S 8bca %s\logs
+FUNC 8c0c calls: 9370 478c0 c91d6 23c4ff 24a7de 269275 26fcb5 286f50 2be354 2d3b6e 313848 315069 376451 378497 37a536 3b57a6 3b5c28 3fb792 ffffffffebc26549
+  S 8ca6 RSAPUBLICBLOB
+  S 8ccd SHA256
+  S 8d8a ChainingModeGCM
+  S 8d9c ChainingMode
+  S 8e7e %s\%s-%04u%02u%02u-%02u%02u%02u-%lu-%08X.elog
+FUNC 91c9 calls: 8fd0 93d0 2e460 478c0 2b2bbf 2b7fb1 39a69f 39de33
+  S 91d1 hooks.log
+  S 928c [%04u-%02u-%02u %02u:%02u:%02u.%03u] %s
+FUNC 9550 calls: 2ce30
+  S 9554 map/set too long
+FUNC 9800 calls: 8680 d430 d6f0 2e2c0 2e460 2e9c0 47120 23c593 31cf13
+  S 9898 \\?\
+FUNC 9d10 calls: cdd0 2e460 27c6be 2a9b3c 3c05ec
+  S 9d74 read_page_size
+  S 9d9f PRAGMA page_size
+  S 9e0e PRAGMA page_size=%d
+  S 9e1f set_page_size
+  S 9e79 backup_init
+  S 9edd backup_step
+FUNC a080 calls: 1330 13d0 8680 8a20 9550 9580 9800 9aa0 9d10 a000 cd50 ce30 cfb0 d130 d270 d310 d570 d5e0 d8a0 da40 daa0 2d620 2e2b0 2e2d0 2e3f0 2e460 2e5d0 2e9c0 347e0 39a70 47120 c35b1 2242ff 25f312 2826e1 2b27af 3037a6
+  S a5fb reason=outside_install_directory count=%llu
+  S a604 player_db_bypass
+  S aa54 -shm
+  S aa89 -wal
+  S aae4 phase=begin db=%.64s attempt=%llu source_bytes=%llu wal_bytes=%llu shm=%u storage=memory
+  S aaee player_db_snapshot
+  S ab11 memory_open
+  S ab4e memdb
+  S ab7d source_stat
+  S abdc staging_open
+  S abfa :memory:
+  S ac4c source_open
+  S ad3f source_backup
+  S adac normalize_wal
+  S adb3 vacuum
+  S add1 PRAGMA temp_store=MEMORY; VACUUM
+  S ae20 memory_publish
+  S aebf ready
+  S af23 db=%.64s phase=%s op=%s sqlite=%d extended=%d win32=%lu elapsed_ms=%llu attempt=%llu errors=%llu emp
+  S af2d player_db_snapshot
+  S af54 snapshot_ready
+  S af5b snapshot_failed
+  D b003 player_database status=%ls storage=memory sqlite=%d source=%ls
+FUNC b480 calls: 9580
+  S b4b3 memdb
+  S b540 db=%.64s sqlite=%d extended=%d flags=0x%x opens=%llu errors=%llu storage=memory
+  S b565 player_db_open
+FUNC b9a0 calls: 8830 9580 a080 2e460 2e9c0
+  S bb24 memdb
+  S bbed db=%.64s sqlite=%d extended=%d flags=0x%x opens=%llu errors=%llu storage=memory
+  S bbf7 player_db_open
+FUNC c0e0 calls: 8830 8a20 9580 9800 cdd0 d8a0 2b5f0 2b670 2bf30 2c120 2c210 2e460 2e9c0 47d70 b0bea b2383 c26ae c3163 230e23 239771 251439 26939e 26c658 2744b5 2aed24 2bd0e4 2c1dbb 2d6b4a 2d9219 2f65f0 30f901 3ee10a 3eefdd 3f7c44
+  S c118 phase=begin storage=memory diagnostics=1
+  S c124 player_db_install
+  S c2bf sqlite3_close
+  S c2df sqlite3_errcode
+  S c2ff sqlite3_exec
+  S c31f sqlite3_busy_timeout
+  S c33f sqlite3_extended_errcode
+  S c35f sqlite3_backup_init
+  S c37f sqlite3_backup_step
+  S c3a0 sqlite3_backup_finish
+  S c3bf sqlite3_vfs_find
+  S c3db sqlite3_libversion_number
+  S c407 memdb
+  S c489 process_identity
+  S c490 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c499 player_db_install
+  S c4eb /emu-player-%lu-%08lX%08lX-
+  S c53f minhook_initialize
+  S c546 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c54f player_db_install
+  S c562 sqlite3_open
+  S c571 sqlite3_open16
+  S c580 sqlite3_open_v2
+  S c655 phase=create_hook api=%s minhook=%d
+  S c65e player_db_install
+  S c6b0 phase=enable_hook api=%s minhook=%d
+  S c6b9 player_db_install
+  D c7c4 player_database status=installed storage=memory vfs=memdb
+  S c81d phase=ready sqlite_version=%d storage=memory vfs=memdb open_hooks=3
+  S c829 player_db_install
+  S c84e memdb_unavailable
+  S c855 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c85e player_db_install
+  S c889 version_exports
+  S c890 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c899 player_db_install
+  S c8c4 sqlite_exports
+  S c8cb phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c8d4 player_db_install
+  S c8fc source_directory
+  S c903 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c90c player_db_install
+  S c930 invalid_arguments
+  S c937 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S c940 player_db_install
+FUNC c980 calls: 8680 86f0 9430 9580 c0e0 ce30 d130 2e460 2e9c0 3c590 46eb0 478c0 c44df 2d913b 35f18d 3dec7f
+  S cade \RustClient_Data\Plugins\x86_64\sqlite3.dll
+  S cb40 load_sqlite_library
+  S cb47 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S cb50 player_db_install
+  S ccfd executable_path
+  S cd04 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S cd0d player_db_install
+FUNC da00 calls: 2ce60
+  S da04 invalid string position
+FUNC e1d0 calls: 2ce30
+  S e1d4 vector too long
+FUNC e4c0 calls: e1f0
+  S e60c KERNEL32.dll
+FUNC e780 calls: e4c0 e750 24be25 38d7de
+  S e7a9 kernel32.dll
+FUNC ea60 calls: 8830 8a20 2e4c0 2e530 2e970 306f0 347e0
+  D ec0a EOSSDK-Win64-Shipping.dll
+FUNC ecd0 calls: 8830 8a20 2e4c0 2e530 2e970 306f0 347e0
+  D ee7a EOSSDK-Win64-Shipping.dll
+FUNC f1d0 calls: 8a20
+  S f28e 1.19.0.3-49960398
+FUNC f332 calls: 8a20 47cf0
+  S f33f EOS_Initialize
+  S f356 EOS_Logging_SetLogLevel
+  S f36d EOS_Logging_SetCallback
+  S f384 EOS_Platform_Create
+  S f463 EOS_Platform_GetAntiCheatClientInterface
+  S f543 EOS_GetVersion
+  D f5b3 eos_facade resolve module=%p name=%hs
+  S f6ed _('>
+  D f745 eos_facade resolve module=%p name=%hs
+FUNC fb9d calls: 8a20 478c0 c3b30 22b3d7 291f16 2de9bf 3261c8 38a7f7
+  S fba5 Microsoft Primitive Provider
+  S fbe9 ChainingModeGCM
+  S fc0f ChainingMode
+  S fc6f AuthTagLength
+  S fe3f AV"6R2
+  D ff4a mode2_crypto status=ready algorithm=aes-256-gcm slot=slot0 key_bytes=32 tag_bytes=16 aad_bytes=0 provider=primitive
+FUNC 10810 calls: 8a20 2e460 2ea10 478c0
+  D 10a23  ...
+FUNC 10b50 calls: 8a20
+  D 10d03 %ls packet_index=%llu part=0/0 offset=0 bytes=0 total_bytes=0 hex=
+FUNC 10d96 calls: 8a20 478c0
+  D 10f63 %ls packet_index=%llu part=%llu/%llu offset=%llu bytes=%llu total_bytes=%llu hex=%ls
+FUNC 11070 calls: 8a20 10b50 29d90 2e460 478c0
+  S 118e4 bootstrap
+  S 118eb session
+  S 118fd slot0
+  S 11904 slot1
+  S 11913 fixed
+  S 1191a session_H_double_H
+  D 119ab session packet before H delivered
+  S 119cb P"91j6
+  D 119fb fail
+  D 11aab packer
+  S 11b2d installed_redacted
+  S 11b34 unavailable
+  S 11b43 70748db6439e4e4c36ef91d43d3745734a5142b7b93bebe10ba367a1eac7353a
+  S 11fcd not_byte_aligned
+  S 11fd4 short_packet
+  S 11fe3 null_data
+  D 120a3 mode2_packet status=malformed reason=%ls direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u packet_bytes=%llu minimum_bytes=%llu trailing_bits=%u
+  S 12124 mode2_packet_hex
+FUNC 12160 calls: 8a20 df30 dfa0 fa30 199d0 39d10 478c0 ae1cf b3ba9 bbcbb bc351 22ac23 27cf6a 29061f 29f442 2bff62 2f718a 331d7a 370438 37435c 3c7fa2 3fe4c6
+  S 1219c ?JDR'qe
+  D 121dc (null)
+  S 122fb 127.0.0.1
+  S 1230e localhost
+  S 125d7 `|I\!%
+  D 12633 packet_h epoch status=reset
+  S 12856 P. 4
+  D 12903 ?partial donor_cycle status=wait_timeout \u01d8\u01e5\u01f2\u01ff\u020c\u0219\u0226\u0233\u0241\u024e\u025b\u0268\u0275\u0282\u028f\u029c\u02aa\u02b7\u02c4\u02d1\u02de\u02eb\u02f8\u0305\u0313\u0320\u032d\u033a\u0347\u0354\u0361\u036e\u037c\u0389\u0396\u03a3\u03b0\u03bd\u03ca\u03d7\u03e5\u03f2\u03ff
+FUNC 12f70 calls: 8a20 fa30 199d0 292595 297508 2c1796 3bb17d 3c09b8 3cf57c 401d6d
+  S 131f7 `|I\!%
+  D 13253 ?partial packet_hy\x86\x93\xa0\xad\xba\xc7\xd4\xe2\xef\xfc\u0109\u0116\u0123\u0130\u013d\u014b\u0158\u0165\u0172
+FUNC 13300 calls: 8a20 fa30 ffd0 10810 10b50 11070 19fa0 478c0 c3200 23eb38 24f8b9 2c5e69 2fac37 335031 3771b4 3d79e5
+  D 1364a a2_packet direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u bytes=%llu
+  S 136b4 a2_packet_hex
+  D 137aa server_relay status=send guid=0x%016llX bytes=%d id=0x%02X
+  S 13811 relay_write_packet_hex
+  D 13903 server_relay status=not_ready context=%p guid=0x%016llX bytes=%d
+  S 13bc6 mode_select_packet_hex
+  S 13f63 mode2_plaintext_hex
+  S 140c6 mode2_plaintext_preview
+  S 1410f authenticated
+  S 14118 null_data
+  S 14121 not_byte_aligned
+  S 1412a short_packet
+  S 14133 invalid_checked
+  S 1413c invalid_ciphertext_length
+  S 14145 session_key_unavailable
+  S 1414e crypto_unavailable
+  S 14157 scratch_allocation_failed
+  S 14160 decrypt_or_tag_failed
+  S 14169 output_length_mismatch
+  S 14172 unknown
+  S 1417d i~zN
+  D 14213 ?partial \x04\x11\x1e+8ER_mz\x87\x94\xa1\xae\xbb\xc8\xd6\xe3\xf0\xfd\u010a\u0117\u0124\u0131\u013f\u014c\u0159\u0166\u0173\u0180\u018d\u019a\u01a8\u01b5\u01c2\u01cf\u01dc\u01e9\u01f6\u0203\u0211\u021e\u022b\u0238\u0245\u0252\u025f\u026c\u027a\u0287\u0294\u02a1\u02ae\u02bb\u02c8\u02d5\u02e3\u02f0\u02fd\u030a\u0317\u0324\u0331\u033e\u034c\u0359\u0366\u0373\u0380\u038d\u039a\u03a7\u03b5\u03c2\u03cf\u03dc\u03e9\u03f6\u0403\u0410\u041e\u042b\u0438\u0445\u0452\u045f\u046c\u0479\u0487\u0494\u04a1\u04ae\u04bb\u04c8\u04d5\u04e2\u04f0\u04fd\u050a\u0517\u0524\u0531\u053e\u054b\u0559\u0566\u0573\u0580\u058d\u059a\u05a7\u05b4\u05c2\u05cf\u05dc\u05e9\u05f6\u0603\u0610\u061d\u062b\u0638\u0645\u0652\u065f\u066c\u0679\u0686\u0694\u06a1\u06ae\u06bb\u06c8\u06d5\u06e2\u06ef\u06fd\u070a\u0717\u0724\u0731\u073e\u074b\u0758\u0766\u0773\u0780\u078d\u079a\u07a7\u07b4\u07c1\u07cf\u07dc\u07e9\u07f6\u0803
+  S 142cf other
+  S 142e1 give_user_information
+  S 142ea request_user_information
+  S 142f3 approved
+  S 1443b receive_packet_preview
+FUNC 146c0 calls: 8a20 dd30 f900 10400 10810 10b50 2e9c0 478c0
+  S 14730 write_packet_hex
+  D 14903 a2_packet direction=outbound context=%p write_index=%llu data=%p bytes=%d source=GameAssembly
+  S 14967 a2_outbound_packet_hex
+  S 149c7 tFY(
+  D 14a53 ?partial \x1c)6CP]jw\x85\x92\x9f\xac\xb9\xc6\xd3\xe0\xee\xfb\u0108\u0115\u0122\u012f\u013c\u0149\u0157\u0164\u0171\u017e\u018b\u0198\u01a5\u01b2\u01c0\u01cd\u01da\u01e7\u01f4\u0201\u020e\u021b\u0229\u0236\u0243\u0250\u025d\u026a\u0277\u0284\u0292\u029f\u02ac\u02b9\u02c6\u02d3\u02e0\u02ed\u02fb\u0308\u0315\u0322\u032f\u033c\u0349\u0356\u0364\u0371\u037e\u038b\u0398\u03a5\u03b2\u03bf\u03cd\u03da\u03e7\u03f4\u0401\u040e\u041b\u0428\u0436\u0443\u0450\u045d\u046a\u0477\u0484\u0491\u049f\u04ac\u04b9\u04c6\u04d3\u04e0\u04ed\u04fa\u0508\u0515\u0522\u052f\u053c\u0549\u0556\u0563\u0571\u057e\u058b\u0598\u05a5\u05b2\u05bf\u05cc\u05da\u05e7\u05f4\u0601\u060e\u061b\u0628\u0635\u0643\u0650\u065d\u066a\u0677\u0684\u0691\u069e\u06ac\u06b9\u06c6\u06d3\u06e0\u06ed\u06fa
+  S 14abc write_cached_auth_packet_hex
+  S 14da3 FW!7m3
+  D 14e33 ?partial +8ER_ly\x86\x94\xa1\xae\xbb\xc8\xd5\xe2\xef\xfd\u010a\u0117\u0124\u0131\u013e\u014b\u0158\u0166\u0173\u0180\u018d\u019a\u01a7\u01b4\u01c1\u01cf\u01dc\u01e9\u01f6\u0203\u0210\u021d\u022a\u0238\u0245\u0252\u025f\u026c\u0279\u0286\u0293\u02a1\u02ae\u02bb\u02c8\u02d5\u02e2\u02ef\u02fc\u030a\u0317\u0324\u0331\u033e\u034b\u0358\u0365\u0373\u0380\u038d\u039a\u03a7\u03b4\u03c1\u03ce\u03dc\u03e9\u03f6\u0403\u0410\u041d\u042a\u0437\u0445\u0452\u045f\u046c\u0479\u0486\u0493\u04a0\u04ae\u04bb\u04c8\u04d5\u04e2\u04ef\u04fc\u0509\u0517\u0524\u0531\u053e\u054b\u0558\u0565\u0572\u0580\u058d\u059a\u05a7\u05b4\u05c1\u05ce\u05db\u05e9\u05f6\u0603\u0610\u061d\u062a\u0637\u0644\u0652\u065f\u066c\u0679\u0686\u0693\u06a0\u06ad\u06bb\u06c8\u06d5\u06e2\u06ef\u06fc\u0709\u0716\u0724\u0731\u073e\u074b\u0758\u0765\u0772\u077f\u078d\u079a\u07a7\u07b4\u07c1\u07ce\u07db\u07e8\u07f6\u0803\u0810\u081d\u082a\u0837\u0844\u0851\u085f\u086c\u0879\u0886\u0893\u08a0\u08ad\u08ba\u08c8\u08d5\u08e2\u08ef\u08fc\u0909\u0916\u0923\u0931\u093e\u094b\u0958\u0965\u0972\u097f\u098c\u099a\u09a7\u09b4\u09c1\u09ce\u09db\u09e8\u09f5\u0a03\u0a10\u0a1d\u0a2a\u0a37\u0a44\u0a51\u0a5e\u0a6c\u0a79\u0a86\u0a93\u0aa0\u0aad
+  S 14ee7 mode2_outbound_plaintext_preview
+  S 14efe mode2_outbound_envelope_preview
+  S 14f19 mode2_outbound_envelope_hex
+  S 14f59 encrypted
+  S 14f62 null_data
+  S 14f6b invalid_length
+  S 14f74 crypto_unavailable
+  S 14f7d scratch_allocation_failed
+  S 14f86 encrypt_failed
+  S 14f8f output_length_mismatch
+  S 14f98 unknown
+FUNC 15280 calls: 8a20 2af10 2b2d0 2b350 2bf30 c39aa 23c696 32bf6f 399892 3d5bdf
+  S 1530a vA[* 3
+  D 15593 minhook_failed stage=disable_export name=%hs status=%d
+FUNC 15830 calls: 8a20 10b50 2abc7d 316d9d
+  S 1598c relay_write_packet_hex
+FUNC 15ae0 calls: 8830 fb60 2e460 2e4c0 2e530 2e970 306f0 347e0 39c80 46eb0 478c0 aea7d b3b33 24a74e 24f896 27bc5f 28f57a 292472 297404 2a0353 2bed5e 2d9984 2f641f 3265d4 364c23 36af7a
+  S 15c2d NET_StartClient
+  S 15c4b NET_Close
+  S 15c69 NET_Receive
+  S 15c87 NETRCV_RawData
+  S 15ca5 NETRCV_UnreadBits
+  S 15cc3 NETRCV_GUID
+  S 15cde NETSND_Start
+  S 15cf9 NETSND_WriteBytes
+  S 15d17 NETSND_Send
+  S 15d32 NET_Create
+  S 15d4d NET_StartServer
+  S 15d68 NET_CloseConnection
+  S 15e39 @USVWATAUAVAWH
+  S 15e81 @USVWATAUAVAWH
+  S 15f26 NETSND_Send
+FUNC 16323 calls: 33e731
+  S 16327 Local\EmuPacker.FirstAuth
+FUNC 16356 calls: 85c0 2eec4c
+  D 163db packet=0x9E cached=1 win32=%lu
+FUNC 16425 calls: 85c0 294a0 c7fd0 d6211 3d6d86
+  D 1645b ok
+  D 164bb fail
+  D 1651b first_auth_signal
+  D 1657b hooks
+  D 1667d packet=0x9E cached=1 open_event_failed win32=%lu
+  D 166ec fail
+  D 1674b first_auth_signal
+  D 167ab hooks
+FUNC 16870 calls: 10b50 2e460
+  S 168b7 relay_write_packet_hex
+FUNC 16920 calls: 8560 8a20 de40 df30 dfa0 19bc0 294a0 2e460 478c0 c2822 c29f5 222dd9 229550 2fda6e 3039ea 38f50d 39debf 3b6b71 3d79f7
+  S 16993 trDX6
+  D 169fa donor_cycle status=start
+  D 16a7b start
+  D 16adb ok
+  D 16b3b donor_cycle
+  D 16b9b hooks
+  D 16cd5 donor_cycle status=kicked guid=0x%016llX
+  S 16d42 127.0.0.1
+  S 16d49 localhost
+  D 16e03 steam://run/252490/connect/+connect%%20%s:%u%%20+d%u
+  S 16e7b open
+  D 16f26 donor_cycle status=steam_connect token=%u uri=%ls shell=%lld
+  S 16f83 iuI[3
+  D 16ff3 donor_cycle status=steam_connect_failed
+  D 1707b steam_connect_failed
+  D 170db fail
+  D 1713b donor_cycle
+  D 1719b hooks
+  D 172e3 donor_cycle status=steam_connect_retry
+  S 17342 localhost
+  D 173d3 ?Wz\x91zArt\x04~[H3\u0186kTg\x1a\x06.Nc\x88\x92xbp\x1a\x01{V~\u0383L_Ri\x01l/\u0232s:%u%%20+d%u
+  S 1744b open
+  D 174f6 donor_cycle status=steam_connect token=%u uri=%ls shell=%lld
+  S 1756f wOCU5
+  D 17613 donor_cycle status=reconnect_timeout guid=0x%016llX cache=%llu
+  D 1769b reconnect_timeout
+  D 176fb fail
+  D 1775b donor_cycle
+  D 177bb hooks
+  D 179eb reconnected cache=%llu
+  S 17a2c DSE+T^%5f2
+  D 17a6b ok
+  S 17a8d OW+=-3
+  D 17acb donor_cycle
+  S 17aed CW*9,l+
+  D 17b2b hooks
+FUNC 17ba0 calls: 8560 8a20 294a0 2e460 23ebc6 3034d9 3887f0 3e3a6c 3edc18
+  S 17c8f 0.0.0.0
+  S 17caa X]7$:
+  D 17d6d server_call NET_StartServer bind=%hs port=%u max=%d result=%d last_error=%lu
+  S 17dac 0.0.0.0
+  S 17e22 ~|UF,9gB
+  D 17e5b bind=%s port=%u result=%d win32=%lu
+  S 17e8c 0.0.0.0
+  D 17eeb fail
+  D 17f5b relay_listen
+  D 17fbb hooks
+  D 180bb bind=%s port=%u
+  S 180e3 0.0.0.0
+  S 1816c skwIL
+  S 181dc iatCFB
+  D 183ab already_started
+  D 1840b fail
+  D 1847b relay_listen
+  D 184db hooks
+FUNC 18570 calls: 8560 8a20 db60 10b50 15830 162f0 16870 19fa0 294a0 2e460 478c0 3d19d4 3f2784
+  S 18627 donor_receive_packet_hex
+  D 18743 server_reject extra_client existing=0x%016llX new=0x%016llX
+  D 187fb local_connection_accepted
+  D 1885b ok
+  D 188ab donor_connected
+  D 1890b hooks
+  D 18a9b packet=0x9D send_result=%u
+  D 18b1b ok
+  S 18b49 okQ2F
+  D 18b7b ?partial donor_auth_reque\x18%2
+  D 18bdb hooks
+  D 18dcc packet=0x9E bytes=%llu cached=%u
+  D 18e4b ok
+  D 18ebb fail
+  D 18f2b ?partial first_auth_packe\xa9\xb6
+  D 18f8b hooks
+  S 19026 rHY"=
+  D 190dc Received 0x9E response from donor stored=%d pending=%d bytes=%llu
+  S 19161 other
+  D 191ab ?partial packet_rejected_\xa9\xb6\xc3\xd0\xdd\xea\xf7\x04\x12\x1f,9FS`
+  D 1920b fail
+  D 1926b ?partial first_auth_packe\xa9\xb6
+  D 192cb hooks
+  D 19563 Received %02X response from donor, size %llu guid=0x%016llX
+  S 196ff a2_donor_packet_hex
+  S 19743 give_user_information
+  S 1974c request_user_information
+  S 19755 approved
+  S 19771 F'=*
+  D 197f3 server_call NET_Receive ctx=%p result=true packet_index=%llu direction=inbound_to_local_server poll_index=%llu data=%p unread_bits=%u unread_bytes=%llu trailing_bits=%u message_id=0x%02X message=%ls
+FUNC 199d0 calls: 8a20 c33f0 23a5f7 335858
+  D 19b53 donor_cycle status=thread_failed err=%lu
+FUNC 19e27 calls: 8a20
+  D 19e63 packet_h side=%u ok class=0x%02X bytes=%u
+  D 19f03 packet_h inner class=0x%02X bytes=%u
+FUNC 1a442 calls: 24b28b 343c83 357a9a 35a51c
+  S 1a45e D:(A;;GA;;;AU)(A;;GA;;;BA)S:(ML;;NW;;;ME)
+  S 1a48c Local\HookProbe_HState_v2
+FUNC 1a537 calls: 20cb0 39130 241d0c 26db9f 31a220 379e4c
+  S 1a5a2 host_init
+  S 1a602 ksecdd reader initialization failed
+FUNC 1a692 calls: 39130 28f2ca 3455f8
+  S 1a6f3 host_init
+  S 1a753 KsecDD and shared H channel ready
+  S 1a776 Local\EmuPacker.WatchAbort
+FUNC 1a7c8 calls: 8a20 cdd0 39130 2669e1 290516 296dc3 30e44e 330241 33e824 37684d
+  S 1a96f epoch=%llu
+  S 1a9cc epoch_reset
+  S 1aaf6 generation=%llu
+  S 1ab46 h_host_publish
+FUNC 1ac32 calls: 21650 39130 24ff02 2aeb76 317fef 3df4dd
+  S 1ac93 host_shutdown
+  S 1acf3 reader stopped
+FUNC 1adb0 calls: 1b010 2e460 c33d0 23f5f8 2a7362 321e1f 3703f6 379d90 37c80f 38402c 38d863 3b8bb0 3d96f0 3f3736
+  S 1ae00 \\.\KsecDD
+  S 1ae49 \\.\GLOBALROOT\Device\KSecDD
+FUNC 1c390 calls: 39f9c 3c590
+  S 1c3ad GameAssembly.dll
+FUNC 1c440 calls: 8a20 21ba0 2e460 39130 478c0
+  S 1c66d result=0x%llX pages=%llu chunks=%llu self_pte=%llu metadata=%llu self_map=%llu translated=%llu mz=%l
+  S 1c6e3 cancelled
+  S 1c730 cr3_scan
+FUNC 1d4e0 calls: 8a20 e0d0 1b810 1bef0 1c7e0 1d3c0 21c00 222c0 22460 2e460 2e9c0 39130 47120 477c0 478c0 259fed 30516f 3df5ca 3eee7b
+  D 1dd63 ksecdd_reader scan status=miss pages=%zu matches=%zu stale=%zu ms=%llu
+  S 1ddde pages=%zu matches=%zu stale=%zu ms=%llu
+  S 1de3e aes_scan
+  D 1e553 ksecdd_reader scan status=ok h=%ls ctxs=%d distinct=%zu pages=%zu stale=%zu ms=%llu
+  S 1e5fe ctxs=%d distinct=%zu pages=%zu stale=%zu ms=%llu
+  S 1e663 aes_scan
+FUNC 1e980 calls: 1330 8560 8a20 db00 e1d0 1adb0 1b010 1b180 1b240 1b5d0 1b6d0 1b810 1ba90 1be40 1be80 1bef0 1c390 1c440 1d3c0 1d4e0 1e850 21970 21a60 21c60 21d20 21d90 222a0 226d0 2e460 2e5d0 2e9c0 347e0 39130 47120 477c0 478c0 af40a b6e95 b9676 c1d4c c7660 22d834 241547 265b4c 2d2a58 2f52a2 2f87b4 2fec9c 328232 35dfd5 362b12 381904 39403d 39f052 3b51d5 3be740 3be8d0 3c8879 3ea3f1 4c01f7b1
+  S 1efef pid_off=0x%llX links_off=0x%llX
+  S 1f04e eproc_detect
+  D 1f4e3 ksecdd_reader donor status=gone
+  S 1f5ca RustClient.exe
+  D 1f973 ksecdd_reader donor status=stale old_pid=%lu
+  D 1fba3 ksecdd_reader cr3_brute pid=%lu sec=0x%llX peb=0x%llX
+  S 20916 [N/4
+  D 209d3 ksecdd_reader cache status=invalidated ctx=0x%llX after=%d
+FUNC 20ce9 calls: 8560 8a20 39130 b4642 bbc6e c4f90 22caa0 238974 283054 2877eb 2a0302 2a9b42 2bc4aa 2f63cf 2f94ed 3096fc 30d6cb 30fe21 31b740 320900 32dd4f 34d8f8 362258 369bc7 398303 398cca 39f47b 3b6662 3db489
+  S 20d1b Local\HookProbe_KernelState_v1
+  S 20e71 Local\HookProbe_KernelState_v1_Attached
+  S 20fab rUV#)>8
+  D 21083 ksecdd_reader status=started sys_proc=0x%llX ksec_state=0x%llX build=%u
+  S 210cd build=%u excluded_player_pid=%lu
+  S 21140 reader_open
+  S 21201 I\Y*2
+  D 21283 ksecdd_reader open status=stop_timeout win32=%lu
+  S 2140c code=0x%04X native=0x%08X
+  S 21473 reader_open
+  S 2154c FI"7
+  D 215c3 ksecdd_reader channel status=unavailable
+FUNC 2166d calls: 8a20 ba6c0 c9649 2e5895 30e740 354110 3d1b24 3dd714 3e256f 3e2fa5 780fa2e5
+  D 21743 ksecdd_reader status=stop_timeout win32=%lu
+  D 21836 ksecdd_reader status=stopped
+FUNC 222a0 calls: 2ce30
+  S 222a4 vector too long
+FUNC 22543 calls: 1bef0 39f9c 3c590
+  S 22587 GameAssembly.dll
+FUNC 227f0 calls: 8a20 2e460 39ff0 47120
+  S 22835 127.0.0.1
+  S 22863 localhost
+  D 22973 steam_launch status=swallowed text=%hs
+FUNC 229e0 calls: 8a20 2e460 b3d94 2f1ba6 2f92fe 35625c 3989d0 3b778c 3f3165
+  S 22a0e steam_api64.dll
+  S 22a27 SteamAPI_GetHSteamUser
+  S 22a3a SteamAPI_GetHSteamPipe
+  S 22a4d SteamInternal_FindOrCreateUserInterface
+  S 22a7e STEAMAPPS_INTERFACE_VERSION008
+  S 22adc exports_missing
+  S 22ae5 ready
+  S 22aee interface_pending
+  S 22af7 waiting_for_handles
+  D 22cc3 ?partial steam_launch status=protect_failed err=%\u025e\u026b\u0278
+  D 22de3 steam_launch status=installed how=vtable slot=0x%02X original=%p
+FUNC 22e50 calls: 294a0
+  S 22e5f we{JU
+  D 22e9b steam_mask
+  S 22ebd l~q@KE
+  D 22eed hooks
+FUNC 22f60 calls: 8830 8a20 2e460 2e4c0 2e530 2e970 478c0 26bb4b 29df3a 35d0e2
+  D 231db <none>
+  D 232b3 <unset>
+  D 23323 <unset>
+  D 23403 steam_mask status=%hs fn=%hs SteamAppId=%s SteamGameId=%s SteamOverlayGameId=%s ver=%hs
+  D 234f3 SteamOverlayGameId
+  S 23632 `4(;
+  D 2366b SteamGameId
+FUNC 23730 calls: 8830 8a20 2e460 2e4c0 2e530 2e970 306f0 39c80 3c590 478c0 29069b 2f70d9 311f42 340704 3cff15
+  D 238e3 steam_mask status=steam_appid_removed
+  D 23953 SteamOverlayGameId
+  D 239fa 480
+FUNC 23ac0 calls: 8830 8a20 2e460 2e4c0 2e530 2e970 306f0 39c80 3c590 478c0 2737c3 2a0122 2b5b17 2e3961 3323f6 3b09ea 3b57d9
+  D 23d23 steam_mask status=steam_appid_removed
+  D 23d93 SteamOverlayGameId
+  D 23e3a ?partial Ubo|
+  D 23f9a ?partial Ubo|
+  S 24012 `4(;
+  D 2404b SteamGameId
+  D 240ea ?partial Ubo|
+FUNC 241b0 calls: 8a20 19c20 22e50 2e460 b6e35 c5061 26a80b 28c53b 2cd113 2e589c 31a381 40055d
+  S 2422d UnityPlayer.dll
+  S 24248 GameOverlayRenderer64.dll
+  S 24258 GameOverlayRenderer.dll
+  S 24334 vfzMT
+  D 243b3 steam_mask status=getappid_split rust=%u decoy=%u
+  S 2441d EYO9#;
+  D 2444b first_getappid returned=%u
+  D 244ca getappid
+FUNC 24540 calls: 8a20 cdd0 22e50 23730 2e460
+  S 24565 BJ.9
+  D 245e3 steam_mask status=restart_swallowed app=%u decoy=%u
+  S 2464c xrWE_9,:
+  D 2467b restart_swallowed app=%u
+  D 246ea restart
+FUNC 247cb calls: 22e50
+  D 2481b SteamAPI_IsSteamRunning=0 steam_must_stay_open
+  D 2488b fail
+FUNC 24ae5 calls: 9370 3a1dc 478c0 236141 267d1c 28f3e7 2973fe 2c901e 3b4214
+  S 24b40 Software\Valve\Steam
+  S 24b74 SteamPath
+FUNC 24d78 calls: 8a20
+  S 24d82 BJ.9
+  D 24dd3 steam_mask status=fake_steamid id=%llu
+FUNC 24ea0 calls: 8a20 e2b0 2b670 2bf30 2c210 2d29fc 2f667e
+  S 24ee1 steam_api64.dll
+  D 24f83 steam_mask status=export_skip name=%hs reason=no_module
+  D 25073 steam_mask status=export_skip name=%hs reason=no_export
+  S 250f4 iqGBX9$dQ
+  D 2511d shared_export_address
+  D 2518b unverified_export_address
+  S 251c0 akIX+
+  D 25253 steam_mask status=export_skip name=%hs reason=%hs target=%p
+  S 252f0 SY_&9>
+  D 25383 steam_mask status=export_skip name=%hs reason=create status=%d
+  D 25673 steam_mask status=export_hooked name=%hs
+FUNC 25720 calls: 8500 8a20 22e50 478c0
+  D 2579d steam_init ok=%d spoof=%d raw=%d rust=%u err=%.60s
+  D 2582c ok
+  D 25903 steam_mask status=init_done ok=%d spoof=%d raw=%d errmsg=%hs
+FUNC 25990 calls: 8a20 256e0 26030 2e460 b12c0 b7b44 c42fd 228421 241be9 257520 269950 2afd71 312345 32edc5 33e784 346c38 3964d8 3db34d 3ecf98 401866
+  S 259f1 steam_api64.dll
+  S 25a17 SteamAPI_GetHSteamUser
+  S 25a2a SteamAPI_GetHSteamPipe
+  S 25a3a SteamInternal_FindOrCreateUserInterface
+  S 25ab4 @USVWATAUAVAWH
+  S 25bd5 SteamAPI_GetHSteamUser
+  S 25be8 SteamAPI_GetHSteamPipe
+  S 25bfb SteamInternal_FindOrCreateUserInterface
+  S 25c3f STEAMAPPS_INTERFACE_VERSION008
+  S 25e20 akIX+
+  D 25ea4 steam_mask status=init_real carrier=%u shortcut=%s rust_env=0
+FUNC 26030 calls: 24ea0 2b5f0
+  S 26057 SteamAPI_RestartAppIfNecessary
+  S 26078 SteamAPI_Init
+  S 26099 SteamAPI_InitSafe
+  S 260ba SteamAPI_InitEx
+  S 260db SteamInternal_SteamAPI_Init
+  S 260fc SteamAPI_ISteamUtils_GetAppID
+  S 2611d SteamAPI_ISteamApps_BIsSubscribed
+  S 2613e SteamAPI_ISteamApps_BIsSubscribedApp
+  S 2615f SteamAPI_IsSteamRunning
+  S 26180 SteamAPI_GetHSteamUser
+  S 261a1 SteamAPI_GetHSteamPipe
+  S 261c2 SteamInternal_FindOrCreateUserInterface
+  S 261e3 SteamAPI_ISteamUser_GetSteamID
+  S 26204 SteamAPI_ISteamUser_BLoggedOn
+  S 26225 SteamAPI_ISteamFriends_GetPersonaName
+FUNC 26270 calls: 22f60 23ac0 25990
+  S 26277 SteamAPI_Init
+  S 2627e init_ask
+  S 26292 SteamAPI_Init
+  S 26299 init_forced
+FUNC 262d0 calls: 22f60 23ac0 25990
+  S 262d7 SteamAPI_InitSafe
+  S 262de init_ask
+  S 262f2 SteamAPI_InitSafe
+  S 262f9 init_forced
+FUNC 26330 calls: 22f60 23ac0
+  S 26339 SteamAPI_InitEx
+  S 26340 init_ask
+  S 26357 SteamAPI_InitEx
+  S 2635e init_forced
+FUNC 263a0 calls: 22f60 23ac0
+  S 263b3 SteamInternal_SteamAPI_Init
+  S 263ba init_ask
+  S 263ce SteamInternal_SteamAPI_Init
+  S 263d5 init_forced
+FUNC 26410 calls: 39a70
+  S 26456 steam_api64.dll
+FUNC 26471 calls: 22e50 26030 350402 3eef08
+  D 264dd ?partial 6CP]jw\x84\x91\x9f\xac\xb9\xc6\xd3\xe0\xed\xfa\x08\x15"/<IVcq~\x8b\x98\xa5re_init
+  S 26505 Y(P6B
+  D 2654b ok
+FUNC 265c0 calls: 22e50 23730 26030 b08fe b7add 24ef16 2648d6 2ccdfc 315063
+  S 26604 steam_api64.dll
+  S 26635 ntdll.dll
+  S 26647 LdrRegisterDllNotification
+  S 26672 steam_api64.dll
+  D 266bd armed_steam_api_already_loaded
+  D 2670b ok
+  D 2678b armed_waiting_for_steam_api64
+  D 267db ok
+FUNC 26830 calls: 8a20 23730 26030 265c0 2e460 bc540 c3cb6 22b294 2491a3 2a72a5 2b3fe8 2f968b 33371a 340728 36f564 394c73 399569 3be3dc 3d6379 3d83b4 ffffffff841229f7
+  S 26884 steam_api64.dll
+  S 268ab SteamAPI_GetHSteamUser
+  S 268be SteamAPI_GetHSteamPipe
+  S 26943 @USVWATAUAVAWH
+  S 26a67 SteamAPI_GetHSteamUser
+  S 26a7a SteamAPI_GetHSteamPipe
+  S 26a8d SteamInternal_FindOrCreateUserInterface
+  S 26ad1 STEAMAPPS_INTERFACE_VERSION008
+FUNC 26e16 calls: c9cdc 236184 24ba5a 3cb34b 3d5b5e
+  S 26e3f D:(A;;GA;;;WD)(A;;GA;;;AC)(A;;GA;;;S-1-15-2-1)
+  S 26e7c Local\EmuPacker.LogClock
+FUNC 270a0 calls: 26d60 26fc0 2e460 b080d d65c1 2452f6 265b85 26c66a 2771fd 3aec48 3d489e 3dd73f
+  D 271fb 185.207.15.140
+FUNC 273a0 calls: 2e5d0 2e9c0 47120 478c0 230b45 28774f 2a596f 2e4246 369ba8 3b9938 3c1f55
+  D 2745b ?\xa3_{\xe2\x14\xd6\x8a\x91
+FUNC 27660 calls: 26fc0 2e460 46eb0 47120 c9ef8 25f1ea 2de152 35d138 3c94ce
+  D 2779a ?\xa3_{\xe2\x14\xd6\x8a\x91
+FUNC 2803d calls: 1a1a0 47120 c3912 2fd3d0 3d6d68
+  D 280ca ?\xa3_{\xe2\x14\xd6\x8a\x91
+FUNC 282d0 calls: 27ad0 2a7f0 2a9c0 2d620 2e2d0 2e3f0 2e460 2e9c0 478c0 47d70 24f383 35e990 39b6fd
+  D 2860b ?partial &3@MZgt\x81\x8f\x9c\xa9\xb6
+  D 2866b ?partial \xd8\xe5\xf2\xff\x0c\x19&3AN[hu\x82\x8f\x9c\xaa\xb7\xc4\xd1\xde\xeb\xf8
+FUNC 28d70 calls: 8830 2d620 2e2d0 2e3f0 2e460 2e4c0 2e530 2e970 238baf 241749 2a011c 32c9c7 3b41b0 3d9798
+  S 28f6f D:(A;;GA;;;WD)(A;;GA;;;AC)(A;;GA;;;S-1-15-2-1)
+FUNC 29503 calls: 
+  D 2954a progress
+  D 295aa ok
+  D 2960a fail
+FUNC 29633 calls: 26df0 26f30 289c0 2a730 2a790 2e360 2e3f0 478c0 47cf0 37833a
+  D 2992a n=%llu 
+  S 2998b  a:_9
+  D 299ba %s%s
+  D 29a3a %s
+FUNC 29d90 calls: 27ad0 291f0 2a7f0 2a9c0 2e460 2e9c0 478c0 47cf0 47d70 22dff1 29fc9d 3b513f
+  D 29ecb ok
+  S 29eed `rIA:
+  D 29f1b fail
+  D 2a18b INJECT_LOG_
+  D 2a1eb %s%s$%llu$%s$%s$%s$%s\n
+FUNC 2a3b0 calls: 8560 27ad0 2a9c0 2e460 2e9c0 47d70 c4261 25d3f2
+  D 2a50b INJECT_GUARD_
+  D 2a56b %s%s\n
+FUNC 2fd60 calls: 2e460 222a3e
+  S 2fd84 @SVWATAUAVAWH
+FUNC 2fe90 calls: 2e460 2a4275
+  S 2feb1 @SVWATAUAVAWH
+FUNC 381e8 calls: 34e90
+  S 38237 (null)
+FUNC 38984 calls: 3c400 3c6e0
+  S 389e1 (null)
+  S 389ff (null)
+FUNC 38a20 calls: 34e90 38abc 3c6e0
+  S 38a6c (null)
+  S 38a8d (null)
+FUNC 3aa94 calls: 470e0 2ff8bf 300eda 36e831
+  S 3aab0 mscoree.dll
+  S 3aac8 CorExitProcess
+FUNC 3ad44 calls: 3a3d0 3ab24 3ace4 3bae4 3c340 3fae4 3fc08 40534
+  S 3ad87 C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+FUNC 3cd80 calls: 38b80 39260 3ba2c 3bb04 47120
+  S 3ce8d e+000
+FUNC 3e668 calls: 3a3f4 3ef90 3efe4 414b0 b93c2 22b57d 23967b 245413 255bd1 281aab 36699a
+  S 3e6fb api-ms-
+  S 3e70e ext-ms-
+FUNC 3e81c calls: 3e668
+  S 3e837 AppPolicyGetProcessTerminationMethod
+  S 3e845 AppPolicyGetProcessTerminationMethod
+FUNC 3e878 calls: 3e668
+  S 3e89e AreFileApisANSI
+FUNC 3e8f8 calls: 3e668 3e9ec 470e0 2a9a5d
+  S 3e929 LCMapStringEx
+  S 3e937 LCMapStringEx
+FUNC 3e9ec calls: 3e668 43498 470e0
+  S 3ea0d LocaleNameToLCID
+  S 3ea1b LocaleNameToLCID
+FUNC 3ea80 calls: 3e668
+  S 3ea9a FlsGetValue2
+  S 3eaa8 FlsGetValue2
+FUNC 41d2c calls: 2e460 39260 3a3d0 3bae4 3bb04 418a0 42fac 452a0 45310 45330 453a0 45400 454d0 47120 478c0
+  S 41e73 1#IND
+  S 41e96 1#SNAN
+  S 41e9f 1#QNAN
+  S 41eaf 1#INF
+FUNC 454d0 calls: 46680
+  S 455b5 UUUUUU
+  S 455bd UUUUUU
+  S 4588f UUUUUU
+  S 45897 UUUUUU
+FUNC 46680 calls: 466a0
+  S 46684 log10
+FUNC 4673c calls: 3d48a9
+  S 4675e CONOUT$
+FUNC 467ac calls: 26c71f 29dece 338e35 3f3172 3feafc
+  S 4680d CONOUT$
+FUNC 47f40 calls: 9580
+  S 47f53 api=open reason=exception sqlite=%d
+  S 47f5c player_db_open
+FUNC 47fc0 calls: 9580
+  S 47fd3 api=open16 reason=exception sqlite=%d
+  S 47fdc player_db_open
+FUNC 48010 calls: 9580
+  S 48023 api=open_v2 reason=exception sqlite=%d
+  S 4802c player_db_open
+FUNC 48060 calls: 9580 3dd7f0
+  S 48089 exception
+  S 48090 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S 48099 player_db_install
+FUNC 480f0 calls: 9580 3f2af2
+  S 48119 install_exception
+  S 48120 phase=%s sqlite_version=%d win32=%lu minhook=%d
+  S 48129 player_db_install

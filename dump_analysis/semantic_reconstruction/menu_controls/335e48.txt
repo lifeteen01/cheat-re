@@ -1,0 +1,23 @@
+335e48	rex push rbx
+335e4a	sub    rsp,0x50
+335e4e	movaps XMMWORD PTR [rsp+0x40],xmm6
+335e53	mov    bl,r9b
+335e56	movaps XMMWORD PTR [rsp+0x30],xmm7
+335e5b	movaps xmm6,xmm2
+335e5e	movaps XMMWORD PTR [rsp+0x20],xmm8
+335e64	movaps xmm7,xmm1
+335e67	movaps xmm8,xmm0
+335e6b	call   0x3926ac
+335e70	movss  xmm2,DWORD PTR [rsp+0x80]
+335e79	mulss  xmm2,DWORD PTR [rax+0x10]
+335e7e	test   bl,bl
+335e80	jne    0x335e85
+335e82	movaps xmm6,xmm7
+335e85	movaps xmm1,xmm6
+335e88	movaps xmm0,xmm8
+335e8c	movaps xmm6,XMMWORD PTR [rsp+0x40]
+335e91	movaps xmm7,XMMWORD PTR [rsp+0x30]
+335e96	movaps xmm8,XMMWORD PTR [rsp+0x20]
+335e9c	add    rsp,0x50
+335ea0	pop    rbx
+335ea1	jmp    0x33565c

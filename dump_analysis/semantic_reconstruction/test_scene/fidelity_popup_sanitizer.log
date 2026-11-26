@@ -1,0 +1,15 @@
+Compile sanitizer host.cpp
+Compile sanitizer menu.cpp
+Compile sanitizer menu_lifecycle_checks.cpp
+Compile sanitizer semantic_checks.cpp
+{"passed": true, "mode": "sanitizer", "cache_hits": 143, "artifact": "dump_analysis/semantic_reconstruction/test_scene/sanitizer/owned_scene", "artifact_sha256": "11314df9e051ba491e138b1ce9a2c82e6f48e75a087725988d3dcecb09e08ca0"}
+{
+  "passed": true,
+  "mode": "sanitizer",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 84.652,
+  "artifact_sha256": "11314df9e051ba491e138b1ce9a2c82e6f48e75a087725988d3dcecb09e08ca0",
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

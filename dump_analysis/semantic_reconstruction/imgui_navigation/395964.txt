@@ -1,0 +1,137 @@
+395964 rex push rbx
+395966 push   rbp
+395967 push   rsi
+395968 push   rdi
+395969 push   r14
+39596b sub    rsp,0x60
+39596f mov    rbx,QWORD PTR [rip+0x701b2]        # 0x405b28
+395976 movaps XMMWORD PTR [rsp+0x50],xmm6
+39597b movaps XMMWORD PTR [rsp+0x40],xmm7
+395980 mov    rdi,QWORD PTR [rbx+0x3f08]
+395987 mov    ebp,DWORD PTR [rbx+0x47a4]
+39598d mov    esi,DWORD PTR [rbx+0x47a8]
+395993 cmp    BYTE PTR [rdi+0x160],0x0
+39599a jne    0x3959e6
+39599c movss  xmm2,DWORD PTR [rdi+0x240]
+3959a4 movss  xmm1,DWORD PTR [rdi+0x238]
+3959ac movss  xmm0,DWORD PTR [rbx+0x47c0]
+3959b4 call   0x3762bc
+3959b9 movss  DWORD PTR [rbx+0x47c0],xmm0
+3959c1 movss  xmm2,DWORD PTR [rdi+0x240]
+3959c9 movss  xmm1,DWORD PTR [rdi+0x238]
+3959d1 movss  xmm0,DWORD PTR [rbx+0x47c8]
+3959d9 call   0x3762bc
+3959de movss  DWORD PTR [rbx+0x47c8],xmm0
+3959e6 cmp    BYTE PTR [rbx+0x4929],0x0
+3959ed movdqu xmm7,XMMWORD PTR [rbx+0x47c0]
+3959f5 movups XMMWORD PTR [rsp+0x20],xmm7
+3959fa je     0x395a56
+3959fc mov    eax,DWORD PTR [rdi+0x158]
+395a02 cmp    DWORD PTR [rbx+0x4920],eax
+395a08 jne    0x395a56
+395a0a test   sil,0x4
+395a0e jne    0x395a56
+395a10 mov    r14d,esi
+395a13 and    r14d,0x10
+395a17 je     0x395a22
+395a19 cmp    DWORD PTR [rbx+0x492c],0x0
+395a20 jne    0x395a56
+395a22 lea    r8,[rsp+0x20]
+395a27 mov    DWORD PTR [rbx+0x492c],ebp
+395a2d mov    rdx,rdi
+395a30 lea    rcx,[rsp+0x30]
+395a35 call   0x39e1e0
+395a3a movups xmm0,XMMWORD PTR [rax]
+395a3d movdqu XMMWORD PTR [rbx+0x4930],xmm0
+395a45 test   r14d,r14d
+395a48 jne    0x395a56
+395a4a mov    BYTE PTR [rbx+0x4929],r14b
+395a51 call   0x39676c
+395a56 cmp    BYTE PTR [rbx+0x4941],0x0
+395a5d je     0x395b4b
+395a63 test   sil,0x4
+395a67 jne    0x395b4b
+395a6d mov    eax,DWORD PTR [rbx+0x4944]
+395a73 bt     eax,0xa
+395a77 jae    0x395a8a
+395a79 mov    r8d,eax
+395a7c mov    edx,esi
+395a7e mov    ecx,ebp
+395a80 call   0x395bc4
+395a85 jmp    0x395b4b
+395a8a cmp    DWORD PTR [rbx+0x48f0],ebp
+395a90 jne    0x395a9a
+395a92 test   al,0x10
+395a94 je     0x395b4b
+395a9a cmp    rdi,QWORD PTR [rbx+0x48e8]
+395aa1 mov    esi,0x49e8
+395aa6 lea    ecx,[rsi-0x60]
+395aa9 cmove  esi,ecx
+395aac add    rsi,rbx
+395aaf mov    rcx,rsi
+395ab2 call   0x395db8
+395ab7 test   al,al
+395ab9 je     0x395ac3
+395abb mov    rcx,rsi
+395abe call   0x395258
+395ac3 test   BYTE PTR [rbx+0x4944],0x20
+395aca je     0x395b4b
+395acc lea    rcx,[rdi+0x238]
+395ad3 lea    rdx,[rsp+0x20]
+395ad8 call   0x398728
+395add test   al,al
+395adf je     0x395b4b
+395ae1 movss  xmm3,DWORD PTR [rdi+0x244]
+395ae9 movaps xmm6,xmm7
+395aec movss  xmm4,DWORD PTR [rdi+0x23c]
+395af4 movaps xmm2,xmm3
+395af7 shufps xmm6,xmm7,0xff
+395afb movaps xmm1,xmm4
+395afe movaps xmm0,xmm6
+395b01 call   0x3762bc
+395b06 movaps xmm5,xmm0
+395b09 shufps xmm7,xmm7,0x55
+395b0d movaps xmm0,xmm7
+395b10 movaps xmm2,xmm3
+395b13 movaps xmm1,xmm4
+395b16 call   0x3762bc
+395b1b subss  xmm6,xmm7
+395b1f subss  xmm5,xmm0
+395b23 mulss  xmm6,DWORD PTR [rip+0xffffffffffefd5a1]        # 0x2930cc
+395b2b comiss xmm5,xmm6
+395b2e jb     0x395b4b
+395b30 lea    rsi,[rbx+0x49b8]
+395b37 mov    rcx,rsi
+395b3a call   0x395db8
+395b3f test   al,al
+395b41 je     0x395b4b
+395b43 mov    rcx,rsi
+395b46 call   0x395258
+395b4b cmp    DWORD PTR [rbx+0x48f0],ebp
+395b51 jne    0x395bac
+395b53 cmp    QWORD PTR [rbx+0x48e8],rdi
+395b5a je     0x395b64
+395b5c mov    rcx,rdi
+395b5f call   0x39b6d8
+395b64 mov    eax,DWORD PTR [rdi+0x158]
+395b6a lea    r8,[rsp+0x20]
+395b6f mov    DWORD PTR [rbx+0x4920],eax
+395b75 lea    rcx,[rsp+0x30]
+395b7a mov    eax,DWORD PTR [rbx+0x4784]
+395b80 mov    rdx,rdi
+395b83 mov    DWORD PTR [rbx+0x48f4],eax
+395b89 mov    BYTE PTR [rbx+0x4924],0x1
+395b90 call   0x39e1e0
+395b95 movdqu xmm0,XMMWORD PTR [rax]
+395b99 movsxd rax,DWORD PTR [rdi+0x158]
+395ba0 add    rax,rax
+395ba3 movdqu XMMWORD PTR [rdi+rax*8+0x3a8],xmm0
+395bac movaps xmm6,XMMWORD PTR [rsp+0x50]
+395bb1 movaps xmm7,XMMWORD PTR [rsp+0x40]
+395bb6 add    rsp,0x60
+395bba pop    r14
+395bbc pop    rdi
+395bbd pop    rsi
+395bbe pop    rbp
+395bbf pop    rbx
+395bc0 ret

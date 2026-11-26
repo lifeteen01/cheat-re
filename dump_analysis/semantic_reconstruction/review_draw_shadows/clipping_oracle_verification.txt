@@ -1,0 +1,1 @@
+20000 fresh-assembly clipping oracle cases PASS (including NaN/Inf, capacities n..n+4)

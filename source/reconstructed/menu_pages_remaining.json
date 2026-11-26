@@ -1,0 +1,50 @@
+{
+  "claim": "C/I",
+  "page_controllers": "all21 concrete; controls/deep UI dependencies separately owned",
+  "residual_ranges": [
+    {
+      "begin": "0x365038",
+      "end_exclusive": "0x365815",
+      "owner": "frame residual",
+      "claim": "U",
+      "status": "known-local follow-up"
+    },
+    {
+      "begin": "0x36e55c",
+      "end_exclusive": "0x36f5cb",
+      "owner": "frame residual",
+      "claim": "U",
+      "status": "known-local follow-up"
+    },
+    {
+      "begin": "0x2cce78",
+      "end_exclusive": "0x2ccef2",
+      "owner": "frame residual",
+      "claim": "U",
+      "status": "known-local follow-up"
+    },
+    {
+      "begin": "0x31aa90",
+      "end_exclusive": "0x31aaf8",
+      "owner": "frame residual",
+      "claim": "U",
+      "status": "known-local follow-up"
+    },
+    {
+      "begin": "0x31ab60",
+      "end_exclusive": "0x31abc8",
+      "owner": "frame residual",
+      "claim": "U",
+      "status": "known-local follow-up"
+    },
+    {
+      "begin": "0x31acb0",
+      "end_exclusive": "0x31acd0",
+      "owner": "frame residual",
+      "claim": "U",
+      "status": "known-local follow-up"
+    }
+  ],
+  "controls_ledger": "menu_controls_reconstruction.md / menu_controls remaining ledger; no foreign reclassification",
+  "parent_bindings": "frame_game_bindings.cpp names/inventory"
+}

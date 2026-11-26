@@ -1,0 +1,21 @@
+3a3778 rex push rbx
+3a377a sub    rsp,0x40
+3a377e movaps XMMWORD PTR [rsp+0x30],xmm6
+3a3783 movd   xmm6,DWORD PTR [rcx]
+3a3787 movaps XMMWORD PTR [rsp+0x20],xmm7
+3a378c call   0x3a4734
+3a3791 movss  xmm0,DWORD PTR [rip+0xfffffffffff069af]        # 0x2aa148
+3a3798 
+3a3799 add    eax,eax
+3a379b cvtdq2ps xmm6,xmm6
+3a379e movd   xmm7,eax
+3a37a2 cvtdq2ps xmm7,xmm7
+3a37a5 call   0x3c899c
+3a37aa divss  xmm6,xmm0
+3a37ae addss  xmm7,xmm6
+3a37b2 movaps xmm6,XMMWORD PTR [rsp+0x30]
+3a37b7 cvttss2si eax,xmm7
+3a37bb movaps xmm7,XMMWORD PTR [rsp+0x20]
+3a37c0 add    rsp,0x40
+3a37c4 pop    rbx
+3a37c5 ret

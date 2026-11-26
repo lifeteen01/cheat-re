@@ -1,0 +1,145 @@
+{
+  "whole_controllers": [
+    {
+      "begin": "0x35ac38",
+      "end": "0x35af6a",
+      "bytes": 818,
+      "instructions": 175,
+      "status": "[U] untranslated local ring meter:100quad segments, repeated background accessor, optional HSV colors, two alpha-half edge strokes",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x35af69"
+      ]
+    },
+    {
+      "begin": "0x35b0fc",
+      "end": "0x35b507",
+      "bytes": 1035,
+      "instructions": 208,
+      "status": "[U] untranslated local vertical native meter/controller",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x35b506"
+      ]
+    },
+    {
+      "begin": "0x35b508",
+      "end": "0x35b681",
+      "bytes": 377,
+      "instructions": 75,
+      "status": "[U] untranslated local two-value violation circle/scale getter",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x35b680"
+      ]
+    },
+    {
+      "begin": "0x35b850",
+      "end": "0x35bab7",
+      "bytes": 615,
+      "instructions": 143,
+      "status": "[U] untranslated local colored float meter/controller",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x35bab6"
+      ]
+    },
+    {
+      "begin": "0x35bab8",
+      "end": "0x35bc6f",
+      "bytes": 439,
+      "instructions": 128,
+      "status": "[U] untranslated local bounded integer meter/controller",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x35bc6e"
+      ]
+    },
+    {
+      "begin": "0x35c938",
+      "end": "0x35cb16",
+      "bytes": 478,
+      "instructions": 97,
+      "status": "[U] untranslated local three-value violation circle/scale getter",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x35cb15"
+      ]
+    },
+    {
+      "begin": "0x36232c",
+      "end": "0x3627cf",
+      "bytes": 1187,
+      "instructions": 261,
+      "status": "[U] untranslated local segmented native meter/controller",
+      "translated": false,
+      "bound": "original DLL exception-directory runtime-function bound",
+      "returns": [
+        "0x3627ce"
+      ]
+    }
+  ],
+  "additional_local_dependencies": [
+    {
+      "begin": "0x3612f8",
+      "end": "0x36135a",
+      "behavior": "HSV wrapper"
+    },
+    {
+      "begin": "0x3904e0",
+      "end": "0x39062b",
+      "behavior": "HSV conversion"
+    },
+    {
+      "begin": "0x3a1084",
+      "end": "0x3a10ea",
+      "behavior": "quad path fill"
+    },
+    {
+      "begin": "0x392ecc",
+      "end": "0x392ee1",
+      "behavior": "current window drawlist"
+    },
+    {
+      "begin": "0x3925a4",
+      "end": "0x3925c9",
+      "behavior": "context vectorindex0 and drawlist setup"
+    },
+    {
+      "begin": "0x39256c",
+      "end": "0x3925a2",
+      "behavior": "drawlist lazy allocation/setup"
+    },
+    {
+      "begin": "0x3926ac",
+      "end": "0x3926b8",
+      "behavior": "context+8 getter"
+    },
+    {
+      "begin": "0x2e5a44",
+      "end": "0x2e5a54",
+      "behavior": "ordered clamp"
+    },
+    {
+      "begin": "0x2d484c",
+      "end": "0x2d486f",
+      "behavior": "four-float constructor wrapper"
+    },
+    {
+      "begin": "0x362fc0",
+      "end": "0x362fc5",
+      "behavior": "ceil thunk"
+    },
+    {
+      "begin": "0x362200",
+      "end": "0x36226d",
+      "behavior": "four-float interpolation"
+    }
+  ]
+}

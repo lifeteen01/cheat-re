@@ -1,0 +1,74 @@
+395bc4	mov    QWORD PTR [rsp+0x8],rbx
+395bc9	mov    QWORD PTR [rsp+0x10],rsi
+395bce	push   rdi
+395bcf	sub    rsp,0x20
+395bd3	mov    rbx,QWORD PTR [rip+0x6ff4e]        # 0x405b28
+395bda	mov    esi,ecx
+395bdc	bt     r8d,0x9
+395be1	jb     0x395c13
+395be3	mov    rax,QWORD PTR [rbx+0x3f08]
+395bea	mov    r8d,DWORD PTR [rax+0x158]
+395bf1	cmp    DWORD PTR [rbx+0x4920],r8d
+395bf8	jne    0x395ccd
+395bfe	test   dl,0x1
+395c01	jne    0x395c0f
+395c03	test   BYTE PTR [rbx+0x8],0x1
+395c07	jne    0x395c13
+395c09	bt     edx,0xa
+395c0d	jb     0x395c13
+395c0f	xor    al,al
+395c11	jmp    0x395c15
+395c13	mov    al,0x1
+395c15	mov    ecx,DWORD PTR [rbx+0x4980]
+395c1b	lea    rdi,[rbx+0x4988]
+395c22	cmp    ecx,0x1
+395c25	jne    0x395c73
+395c27	test   al,al
+395c29	je     0x395c5f
+395c2b	cmp    DWORD PTR [rbx+0x4a20],0x0
+395c32	jne    0x395c40
+395c34	lea    rcx,[rbx+0x4a18]
+395c3b	call   0x395258
+395c40	mov    eax,DWORD PTR [rbx+0x4984]
+395c46	test   eax,eax
+395c48	jle    0x395c5f
+395c4a	sub    eax,0x1
+395c4d	mov    DWORD PTR [rbx+0x4984],eax
+395c53	jne    0x395c5f
+395c55	mov    rcx,rdi
+395c58	call   0x395878
+395c5d	jmp    0x395ccd
+395c5f	cmp    DWORD PTR [rbx+0x48f0],esi
+395c65	jne    0x395ccd
+395c67	mov    DWORD PTR [rbx+0x4984],0x1
+395c71	jmp    0x395ccd
+395c73	cmp    ecx,0xffffffff
+395c76	jne    0x395ca0
+395c78	cmp    DWORD PTR [rbx+0x48f0],esi
+395c7e	jne    0x395c97
+395c80	cmp    DWORD PTR [rbx+0x4990],0x0
+395c87	je     0x395ccd
+395c89	mov    BYTE PTR [rbx+0x4941],0x0
+395c90	call   0x39676c
+395c95	jmp    0x395ccd
+395c97	test   al,al
+395c99	je     0x395ccd
+395c9b	mov    rcx,rdi
+395c9e	jmp    0x395cc8
+395ca0	test   ecx,ecx
+395ca2	jne    0x395ccd
+395ca4	test   al,al
+395ca6	je     0x395ccd
+395ca8	cmp    DWORD PTR [rbx+0x48f0],esi
+395cae	jne    0x395cb8
+395cb0	mov    rcx,rdi
+395cb3	call   0x395878
+395cb8	cmp    DWORD PTR [rbx+0x4a20],0x0
+395cbf	jne    0x395ccd
+395cc1	lea    rcx,[rbx+0x4a18]
+395cc8	call   0x395258
+395ccd	mov    rbx,QWORD PTR [rsp+0x30]
+395cd2	mov    rsi,QWORD PTR [rsp+0x38]
+395cd7	add    rsp,0x20
+395cdb	pop    rdi
+395cdc	ret

@@ -1,0 +1,48 @@
+{
+  "historical_inventory": "review_dependency_closure/exact_remaining.json",
+  "closed_root_controller_ranges": [
+    {
+      "begin": "0x2d60d0",
+      "end": "0x2d61b2",
+      "bytes": 226,
+      "conditional_branches": 7
+    },
+    {
+      "begin": "0x3096c4",
+      "end": "0x3098a2",
+      "bytes": 478,
+      "conditional_branches": 6
+    },
+    {
+      "begin": "0x316540",
+      "end": "0x316574",
+      "bytes": 52,
+      "conditional_branches": 2
+    },
+    {
+      "begin": "0x318f34",
+      "end": "0x319022",
+      "bytes": 238,
+      "conditional_branches": 9
+    },
+    {
+      "begin": "0x3211f0",
+      "end": "0x3213ca",
+      "bytes": 474,
+      "conditional_branches": 8
+    },
+    {
+      "begin": "0x3684e0",
+      "end": "0x368a83",
+      "bytes": 1443,
+      "conditional_branches": 33
+    }
+  ],
+  "root_bytes": 2911,
+  "root_conditional_branches": 65,
+  "audited_total_bodies": 71,
+  "audited_total_bytes": 14405,
+  "audited_total_conditionals": 246,
+  "remaining_reference": "remaining_ranges.json",
+  "coverage_qualification": "Concrete owned controller/known closure, separately required state/ABI/actual-game inputs. Reused helpers and external wrapper binding gaps are not claimed as new full native ABI implementations."
+}

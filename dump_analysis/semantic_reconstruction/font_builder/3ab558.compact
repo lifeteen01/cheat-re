@@ -1,0 +1,41 @@
+3ab558 rex push rbx
+3ab55a sub    rsp,0x30
+3ab55e cmp    DWORD PTR [rcx],0x0
+3ab561 mov    r11d,r8d
+3ab564 mov    bl,dl
+3ab566 mov    r10,rcx
+3ab569 je     0x3ab599
+3ab56b mov    r8d,r9d
+3ab56e mov    edx,r11d
+3ab571 call   0x3adad8
+3ab576 cmp    bl,0x4
+3ab579 jne    0x3ab5e6
+3ab57b mov    r8d,DWORD PTR [rsp+0x68]
+3ab580 mov    edx,DWORD PTR [rsp+0x60]
+3ab584 call   0x3adad8
+3ab589 mov    r8d,DWORD PTR [rsp+0x78]
+3ab58e mov    edx,DWORD PTR [rsp+0x70]
+3ab592 call   0x3adad8
+3ab597 jmp    0x3ab5e6
+3ab599 movsxd rax,DWORD PTR [rcx+0x30]
+3ab59d imul   rcx,rax,0xe
+3ab5a1 mov    eax,DWORD PTR [rsp+0x68]
+3ab5a5 add    rcx,QWORD PTR [r10+0x28]
+3ab5a9 mov    DWORD PTR [rsp+0x28],eax
+3ab5ad mov    eax,DWORD PTR [rsp+0x60]
+3ab5b1 mov    DWORD PTR [rsp+0x20],eax
+3ab5b5 call   0x3add54
+3ab5ba movsxd rcx,DWORD PTR [r10+0x30]
+3ab5be movzx  eax,WORD PTR [rsp+0x70]
+3ab5c3 imul   rdx,rcx,0xe
+3ab5c7 mov    rcx,QWORD PTR [r10+0x28]
+3ab5cb mov    WORD PTR [rdx+rcx*1+0x8],ax
+3ab5d0 movsxd rax,DWORD PTR [r10+0x30]
+3ab5d4 mov    rcx,QWORD PTR [r10+0x28]
+3ab5d8 imul   rdx,rax,0xe
+3ab5dc movzx  eax,WORD PTR [rsp+0x78]
+3ab5e1 mov    WORD PTR [rdx+rcx*1+0xa],ax
+3ab5e6 inc    DWORD PTR [r10+0x30]
+3ab5ea add    rsp,0x30
+3ab5ee pop    rbx
+3ab5ef ret

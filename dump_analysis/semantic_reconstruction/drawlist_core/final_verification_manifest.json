@@ -1,0 +1,13 @@
+{
+  "strict": "draw-list core fixtures passed",
+  "asan_ubsan": "draw-list core fixtures passed",
+  "sources": {
+    "drawlist_core_analysis.hpp": "a8aa5868756f5b370e84c803d1d656566ed0618d22d3b44a37603ab0b194175c",
+    "drawlist_core_bindings.cpp": "6b26cd847287117ea24aca16ffe2dcc8f1a6cdb6fbca9d103541694e28e49693",
+    "drawlist_core_channels.cpp": "e3d1e499e49052e09834039552e2c7a656d25878b87312696e3893ac7197d52f",
+    "drawlist_core_checks.cpp": "0cea9d64ee6a90e611ff39b62d8af2332491d7b5da301530eb097e1666d74df9",
+    "drawlist_core_commands.cpp": "07b43e6c94df3331bd9fdb4f7dce1caf2be1a7b0b1d58eb547774ff5556c4984",
+    "drawlist_core_coverage.cpp": "e7b3a2da60bfa189f01a52c3510a48be1e60f6cd12af4e7e5df904a5c86578d5",
+    "drawlist_core_reconstruction.md": "1d44ab4e9cd7e5adc5e521e44d8db1d1735f50072d6b0edbd1738145ed2bf7a2"
+  }
+}

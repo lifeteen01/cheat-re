@@ -1,0 +1,6 @@
+39344c sub    rsp,0x28
+393450 cmp    rdx,0x1
+393454 jbe    0x39345b
+393456 call   0x3c8df4
+39345b add    rsp,0x28
+39345f ret

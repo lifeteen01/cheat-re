@@ -1,0 +1,16 @@
+37acd4	mov    QWORD PTR [rsp+0x8],rbx
+37acd9	push   rdi
+37acda	sub    rsp,0x20
+37acde	mov    edi,edx
+37ace0	mov    rbx,rcx
+37ace3	cmp    edx,DWORD PTR [rcx+0x4]
+37ace6	jle    0x37acf7
+37ace8	call   0x362efc
+37aced	mov    edx,eax
+37acef	mov    rcx,rbx
+37acf2	call   0x37a69c
+37acf7	mov    DWORD PTR [rbx],edi
+37acf9	mov    rbx,QWORD PTR [rsp+0x30]
+37acfe	add    rsp,0x20
+37ad02	pop    rdi
+37ad03	ret

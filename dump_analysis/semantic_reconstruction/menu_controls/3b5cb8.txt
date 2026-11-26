@@ -1,0 +1,33 @@
+3b5cb8	mov    rax,rsp
+3b5cbb	sub    rsp,0x98
+3b5cc2	movaps XMMWORD PTR [rax-0x18],xmm6
+3b5cc6	movaps xmm6,xmm2
+3b5cc9	call   0x3c00a4
+3b5cce	cmp    BYTE PTR [rax],0x25
+3b5cd1	jne    0x3b5d2b
+3b5cd3	cmp    BYTE PTR [rax+0x1],0x25
+3b5cd7	je     0x3b5d2b
+3b5cd9	mov    r8d,0x20
+3b5cdf	lea    rdx,[rsp+0x20]
+3b5ce4	mov    rcx,rax
+3b5ce7	call   0x3c0150
+3b5cec	xorps  xmm3,xmm3
+3b5cef	lea    r8,[rsp+0x20]
+3b5cf4	cvtss2sd xmm3,xmm6
+3b5cf8	mov    edx,0x40
+3b5cfd	lea    rcx,[rsp+0x40]
+3b5d02	movq   r9,xmm3
+3b5d07	call   0x393110
+3b5d0c	cmp    BYTE PTR [rsp+0x40],0x20
+3b5d11	lea    rcx,[rsp+0x40]
+3b5d16	jne    0x3b5d20
+3b5d18	inc    rcx
+3b5d1b	cmp    BYTE PTR [rcx],0x20
+3b5d1e	je     0x3b5d18
+3b5d20	call   0x3c87f0
+3b5d25	cvtsd2ss xmm0,xmm0
+3b5d29	jmp    0x3b5d2e
+3b5d2b	movaps xmm0,xmm6
+3b5d2e	movaps xmm6,XMMWORD PTR [rsp+0x80]
+3b5d36	add    rsp,0x98
+3b5d3d	ret

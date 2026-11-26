@@ -1,0 +1,25 @@
+3c04d0	test   ecx,ecx
+3c04d2	je     0x3c0535
+3c04d4	push   rbx
+3c04d5	sub    rsp,0x20
+3c04d9	mov    rbx,QWORD PTR [rip+0x45648]        # 0x405b28
+3c04e0	mov    eax,DWORD PTR [rbx+0x4c20]
+3c04e6	cmp    eax,ecx
+3c04e8	jne    0x3c0530
+3c04ea	mov    DWORD PTR [rbx+0x5aa8],eax
+3c04f0	lea    rcx,[rbx+0x5ab0]
+3c04f7	mov    edx,DWORD PTR [rbx+0x4c28]
+3c04fd	inc    edx
+3c04ff	call   0x37acd4
+3c0504	mov    rax,QWORD PTR [rbx+0x4c48]
+3c050b	lea    rdx,[rip+0xffffffffffecce16]        # 0x28d328
+3c0512	mov    rcx,QWORD PTR [rbx+0x5ab8]
+3c0519	test   rax,rax
+3c051c	cmovne rdx,rax
+3c0520	mov    eax,DWORD PTR [rbx+0x4c28]
+3c0526	inc    eax
+3c0528	movsxd r8,eax
+3c052b	call   0x3c8d4c
+3c0530	add    rsp,0x20
+3c0534	pop    rbx
+3c0535	ret

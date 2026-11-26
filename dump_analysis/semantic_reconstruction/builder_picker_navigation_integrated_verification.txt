@@ -1,0 +1,62 @@
+[I] Combined immutable-script strict verification.
+Compile menu_tooltip_analysis.cpp
+Compile imgui_windows_begin.cpp
+Compile imgui_windows_bindings.cpp
+Compile imgui_windows_checks.cpp
+Compile imgui_windows_child.cpp
+Compile imgui_windows_controls.cpp
+Compile imgui_windows_create.cpp
+Compile imgui_windows_decorations.cpp
+Compile imgui_windows_end.cpp
+Compile imgui_windows_first_frame.cpp
+Compile imgui_windows_helpers.cpp
+Compile imgui_windows_metrics.cpp
+Compile imgui_windows_modal.cpp
+Compile font_builder_cff.cpp
+Compile font_builder_cff_checks.cpp
+Compile font_builder_checks.cpp
+Compile font_builder_controller.cpp
+Compile font_builder_coverage.cpp
+Compile font_builder_finish.cpp
+Compile font_builder_outline.cpp
+Compile font_builder_owned.cpp
+Compile font_builder_owned_checks.cpp
+Compile font_builder_packing.cpp
+Compile font_builder_packing_checks.cpp
+Compile font_builder_raster.cpp
+Compile font_builder_sfnt.cpp
+Compile font_builder_sfnt_checks.cpp
+Compile menu_color_picker_analysis.cpp
+Compile menu_color_picker_checks.cpp
+Compile menu_color_picker_components.cpp
+Compile menu_color_picker_geometry.cpp
+Compile menu_color_picker_logging.cpp
+Compile menu_color_picker_math.cpp
+Compile imgui_navigation_checks.cpp
+Compile imgui_navigation_core.cpp
+Compile imgui_navigation_scoring.cpp
+Compile imgui_navigation_text.cpp
+Compile menu_controls_analysis.cpp
+Compile menu_controls_button.cpp
+Compile menu_controls_checkbox.cpp
+Compile menu_controls_checks.cpp
+Compile menu_controls_combo.cpp
+Compile menu_controls_common.cpp
+Compile menu_controls_groups.cpp
+Compile menu_controls_input.cpp
+Compile menu_controls_key_capture.cpp
+Compile menu_controls_layout.cpp
+Compile menu_controls_math.cpp
+Compile menu_controls_mode.cpp
+Compile menu_controls_multiselect.cpp
+Compile menu_controls_navigation.cpp
+Compile menu_controls_popup.cpp
+Compile menu_controls_selectable.cpp
+Compile menu_controls_slider.cpp
+Compile menu_controls_snapshot.cpp
+Compile analysis_checks.cpp
+Compile menu_tooltip_checks.cpp
+Link 234 translation units; 177 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

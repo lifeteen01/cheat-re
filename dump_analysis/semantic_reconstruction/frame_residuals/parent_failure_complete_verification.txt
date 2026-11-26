@@ -1,0 +1,40 @@
+Compile snapshot_bindings.cpp
+Compile field_getters_analysis.cpp
+Compile 04_esp_entities.cpp
+Compile 02_rendering.cpp
+Compile metadata_analysis.cpp
+Compile metadata_signature_analysis.cpp
+Compile unity_backend_analysis.cpp
+Compile frame_dependencies_analysis.cpp
+Compile frame_dependencies_configuration.cpp
+Compile frame_dependencies_theme.cpp
+Compile frame_dependencies_ui_setup.cpp
+Compile frame_dependencies_menu.cpp
+Compile frame_dependencies_main_menu.cpp
+Compile frame_dependencies_main_menu_checks.cpp
+Compile frame_dependencies_target.cpp
+Compile frame_dependencies_overlay.cpp
+Compile frame_dependencies_overlay_checks.cpp
+Compile aim_weapon_analysis.cpp
+Compile game_base_analysis.cpp
+Compile world_esp_item_names.cpp
+Compile frame_dependencies_checks.cpp
+Compile menu_pages_analysis.cpp
+Compile menu_pages_players.cpp
+Compile menu_pages_config.cpp
+Compile menu_pages_checks.cpp
+Compile registry_analysis.cpp
+Compile renderer_helpers_widgets.cpp
+Compile renderer_helpers_font.cpp
+Compile menu_controls_math.cpp
+Compile frame_residuals_state.cpp
+Compile frame_residuals_raid.cpp
+Compile frame_preview_analysis.cpp
+Compile frame_preview_geometry.cpp
+Compile frame_preview_widgets.cpp
+Compile frame_residuals_checks.cpp
+Compile frame_failure_checks.cpp
+Compile parent_failure_main.cpp
+Link 37 sources
+PASS: frame residuals, preview and nested failures
+PASS: GCC15 C++20 frame residual/preview fixtures (strict)

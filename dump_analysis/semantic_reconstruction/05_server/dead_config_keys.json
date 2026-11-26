@@ -1,0 +1,2732 @@
+{
+  "Bools.AfricaTC": {
+    "glob": "0x40f9e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3c48",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AimAtMarker": {
+    "glob": "0x413b30",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3c8c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AimPrediction": {
+    "glob": "0x4113d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3cd0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AnimalChamsEnable": {
+    "glob": "0x411920",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3dfc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AntiFly": {
+    "glob": "0x412af0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3e88",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AntiNoclip": {
+    "glob": "0x412c30",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3ecc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AntiSpeed": {
+    "glob": "0x412b90",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3f10",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AntiTerrain": {
+    "glob": "0x412c80",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3f54",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AutoDrink": {
+    "glob": "0x40f530",
+    "reg": "call 0x2df16c",
+    "init": "0x2c3fe0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AutoHotSpotStuff": {
+    "glob": "0x4136d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4024",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.AutoOpen": {
+    "glob": "0x412500",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4068",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Autorun": {
+    "glob": "0x412280",
+    "reg": "call 0x2df16c",
+    "init": "0x2c40ac",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.BerryOptionsOpen": {
+    "glob": "0x410980",
+    "reg": "call 0x2df16c",
+    "init": "0x2c40f0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.BoneRandomization": {
+    "glob": "0x4120f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c423c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.BowAimcone": {
+    "glob": "0x411e70",
+    "reg": "call 0x2df16c",
+    "init": "0x2c42c8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Box": {
+    "glob": "0x40fee0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c430c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.CaveAmbient": {
+    "glob": "0x40fd50",
+    "reg": "call 0x2df16c",
+    "init": "0x2c43fc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Caves": {
+    "glob": "0x411a10",
+    "reg": "call 0x2df16c",
+    "init": "0x2c44a0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.ClutterLayer": {
+    "glob": "0x4107a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4548",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.ColorPickerMode": {
+    "glob": "0x413310",
+    "reg": "call 0x2df16c",
+    "init": "0x2c458c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.ConstructionLayer": {
+    "glob": "0x410610",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4618",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.ContainerChamEnabled": {
+    "glob": "0x411880",
+    "reg": "call 0x2df16c",
+    "init": "0x2c465c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DBox": {
+    "glob": "0x412f00",
+    "reg": "call 0x2df16c",
+    "init": "0x2c46e8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DebugChatlog": {
+    "glob": "0x40f580",
+    "reg": "call 0x2df16c",
+    "init": "0x2c478c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DebugDrawing": {
+    "glob": "0x4124b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c47d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DrawAnimalHealth": {
+    "glob": "0x411560",
+    "reg": "call 0x2df16c",
+    "init": "0x2c485c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DrawCirclessss": {
+    "glob": "0x413680",
+    "reg": "call 0x2df16c",
+    "init": "0x2c48a0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DrawColliders": {
+    "glob": "0x411c40",
+    "reg": "call 0x2df16c",
+    "init": "0x2c48e4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DrawDebugMode": {
+    "glob": "0x4120a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4928",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DrawForever": {
+    "glob": "0x40f5d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c496c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.DrawIcon": {
+    "glob": "0x411d80",
+    "reg": "call 0x2df16c",
+    "init": "0x2c49b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.FakeLag": {
+    "glob": "0x412320",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4a50",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.FlyBypass": {
+    "glob": "0x40fa30",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4a94",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.GestureSpam": {
+    "glob": "0x411c90",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4bb0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Glass": {
+    "glob": "0x413900",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4bf4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Headpos": {
+    "glob": "0x412140",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4d8c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Headsilent": {
+    "glob": "0x412780",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4dd0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.HealthBar": {
+    "glob": "0x40ff30",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4e14",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.HitScanVisCheck": {
+    "glob": "0x411bf0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4ea0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.IncHeight": {
+    "glob": "0x4122d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4f74",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.InstantPickup": {
+    "glob": "0x40f4e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c4fb8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.JiggleMode": {
+    "glob": "0x412be0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c541c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.LockCodeOpened": {
+    "glob": "0x410930",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5580",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.LowFuel": {
+    "glob": "0x40ffd0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c55c4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.MagicBoolet": {
+    "glob": "0x412960",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5608",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Metal": {
+    "glob": "0x413a40",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5724",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.MountedFuel": {
+    "glob": "0x413cc0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c57b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Necksilent": {
+    "glob": "0x412820",
+    "reg": "call 0x2df16c",
+    "init": "0x2c583c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.NoAimblock": {
+    "glob": "0x412000",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5978",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.NoBlackout": {
+    "glob": "0x412370",
+    "reg": "call 0x2df16c",
+    "init": "0x2c59bc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.NoFog": {
+    "glob": "0x412410",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5a50",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.NoRain": {
+    "glob": "0x4123c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5a94",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.NoSlow": {
+    "glob": "0x411f10",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5ad8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.NormalCrosshair": {
+    "glob": "0x40f8f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5b80",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.OnlyOnline": {
+    "glob": "0x412460",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5be4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.RageBigBullet": {
+    "glob": "0x4119c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5da4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Rainbow": {
+    "glob": "0x4132c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5de8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.RainbowHands": {
+    "glob": "0x413270",
+    "reg": "call 0x2df16c",
+    "init": "0x2c5e2c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SafeTeleport": {
+    "glob": "0x4125f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c61c8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SaveAmbient": {
+    "glob": "0x412550",
+    "reg": "call 0x2df16c",
+    "init": "0x2c620c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SecondAimbotOption": {
+    "glob": "0x410840",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6250",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SettingAimbotHotkey": {
+    "glob": "0x4101b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6294",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SettingConfigHotkey": {
+    "glob": "0x410160",
+    "reg": "call 0x2df16c",
+    "init": "0x2c62d8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SettingFlyKey": {
+    "glob": "0x411100",
+    "reg": "call 0x2df16c",
+    "init": "0x2c631c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SettingReviveKey": {
+    "glob": "0x410e80",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6360",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SettingWeaponSpamKey": {
+    "glob": "0x410430",
+    "reg": "call 0x2df16c",
+    "init": "0x2c63a4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.ShootThroughWalls": {
+    "glob": "0x4134a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c63e8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SilentReload": {
+    "glob": "0x411d30",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6514",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Spinesilent": {
+    "glob": "0x412870",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6678",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.StackDoubleSheetDoor": {
+    "glob": "0x412dc0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c66bc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.StackStoneWall": {
+    "glob": "0x412e10",
+    "reg": "call 0x2df16c",
+    "init": "0x2c67ec",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.StackTC": {
+    "glob": "0x412e60",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6830",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.SwasticaCross": {
+    "glob": "0x40f8a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6b58",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.TerrainLayer": {
+    "glob": "0x410660",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6b9c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.TreeLayer": {
+    "glob": "0x4105c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6d90",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.TurretAlert": {
+    "glob": "0x413d10",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6dd4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.TurretWarning": {
+    "glob": "0x40f490",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6e18",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UpgradeHQM": {
+    "glob": "0x413220",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6ea4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UpgradeMetal": {
+    "glob": "0x4131d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6ee8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UpgradeStone": {
+    "glob": "0x413180",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6f2c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UpgradeWood": {
+    "glob": "0x413130",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6f70",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UseAntiAis": {
+    "glob": "0x4133b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6fb4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UseFastSpeed": {
+    "glob": "0x413540",
+    "reg": "call 0x2df16c",
+    "init": "0x2c6ff8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.UseMeleeAnimations": {
+    "glob": "0x40f850",
+    "reg": "call 0x2df16c",
+    "init": "0x2c703c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.ViewOffset": {
+    "glob": "0x411f60",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7080",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.Visualise": {
+    "glob": "0x40f800",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7128",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.WaterLayer": {
+    "glob": "0x4106b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c716c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.WaterMagic": {
+    "glob": "0x413c20",
+    "reg": "call 0x2df16c",
+    "init": "0x2c71b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.WaterReflect": {
+    "glob": "0x40f440",
+    "reg": "call 0x2df16c",
+    "init": "0x2c71f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.WorldLayer": {
+    "glob": "0x410700",
+    "reg": "call 0x2df16c",
+    "init": "0x2c72ec",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.aiminmountable": {
+    "glob": "0x411ec0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7594",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.allthewayround": {
+    "glob": "0x412cd0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c75d8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.animalstuffopen": {
+    "glob": "0x410b60",
+    "reg": "call 0x2df16c",
+    "init": "0x2c761c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.assigntofriend": {
+    "glob": "0x4137c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7660",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.attackheliangle": {
+    "glob": "0x411a60",
+    "reg": "call 0x2df16c",
+    "init": "0x2c76a4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.authlist": {
+    "glob": "0x411380",
+    "reg": "call 0x2df16c",
+    "init": "0x2c76e8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.autoCanShoot": {
+    "glob": "0x40f670",
+    "reg": "call 0x2df16c",
+    "init": "0x2c772c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.autoCanShootSetKey": {
+    "glob": "0x40f710",
+    "reg": "call 0x2df16c",
+    "init": "0x2c77b8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.autobuyvendingmachines": {
+    "glob": "0x40fc10",
+    "reg": "call 0x2df16c",
+    "init": "0x2c77fc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.autofire360": {
+    "glob": "0x413090",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7840",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.automasssuicide": {
+    "glob": "0x413360",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7884",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.autosteal": {
+    "glob": "0x4130e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c78c8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.autostop": {
+    "glob": "0x413d60",
+    "reg": "call 0x2df16c",
+    "init": "0x2c790c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.bagOptionsOpen": {
+    "glob": "0x410de0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7950",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.bagfriend": {
+    "glob": "0x411ce0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7994",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.battlemodeshits": {
+    "glob": "0x413bd0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c79d8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.black": {
+    "glob": "0x4115b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7a1c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.blue": {
+    "glob": "0x411600",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7a60",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.candy": {
+    "glob": "0x40fbc0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7b8c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.chamoptionsopen": {
+    "glob": "0x4109d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7bd0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.clothing": {
+    "glob": "0x410110",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7d34",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.collectableopen": {
+    "glob": "0x4108e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7d78",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.compound": {
+    "glob": "0x411b00",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7dbc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.copysteam": {
+    "glob": "0x410020",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7e00",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.cupboardhealth": {
+    "glob": "0x40ff80",
+    "reg": "call 0x2df16c",
+    "init": "0x2c7e8c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.debugmode": {
+    "glob": "0x40f620",
+    "reg": "call 0x2df16c",
+    "init": "0x2c80c8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.deployableenablecham": {
+    "glob": "0x4117e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8170",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.dirt": {
+    "glob": "0x4139f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c81b4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.drawrectangles": {
+    "glob": "0x413720",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8240",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.drawreloadbar": {
+    "glob": "0x410070",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8284",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.enableflight": {
+    "glob": "0x413c70",
+    "reg": "call 0x2df16c",
+    "init": "0x2c82c8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.enemylist": {
+    "glob": "0x413810",
+    "reg": "call 0x2df16c",
+    "init": "0x2c836c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.enemyoptionsOpen": {
+    "glob": "0x410c00",
+    "reg": "call 0x2df16c",
+    "init": "0x2c83b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.enemytracker": {
+    "glob": "0x4107f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c83f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.espoptions": {
+    "glob": "0x410c50",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8438",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.everyone": {
+    "glob": "0x412730",
+    "reg": "call 0x2df16c",
+    "init": "0x2c847c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.fastbow": {
+    "glob": "0x411e20",
+    "reg": "call 0x2df16c",
+    "init": "0x2c84c0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.flameTrapOptionsOpen": {
+    "glob": "0x410d90",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8504",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.flesh": {
+    "glob": "0x413950",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8548",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.foodchameanble": {
+    "glob": "0x411970",
+    "reg": "call 0x2df16c",
+    "init": "0x2c858c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.footpos": {
+    "glob": "0x4121e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c85d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.friendlylist": {
+    "glob": "0x413770",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8674",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.gameautofire": {
+    "glob": "0x413040",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8700",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.gestureblock": {
+    "glob": "0x40f990",
+    "reg": "call 0x2df16c",
+    "init": "0x2c878c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.green": {
+    "glob": "0x411650",
+    "reg": "call 0x2df16c",
+    "init": "0x2c87d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.gunTrapOptionsOpen": {
+    "glob": "0x410cf0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8814",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.handchamopen": {
+    "glob": "0x410a20",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8858",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.handpos": {
+    "glob": "0x412230",
+    "reg": "call 0x2df16c",
+    "init": "0x2c889c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.healthvalue": {
+    "glob": "0x413590",
+    "reg": "call 0x2df16c",
+    "init": "0x2c88e0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.helpfriend": {
+    "glob": "0x4138b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c89b4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.hitscan": {
+    "glob": "0x411330",
+    "reg": "call 0x2df16c",
+    "init": "0x2c89f8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.hotbar": {
+    "glob": "0x4100c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8a3c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.hotbarOpened": {
+    "glob": "0x411510",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8a80",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.instantOpened": {
+    "glob": "0x410890",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8b0c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.intensive": {
+    "glob": "0x40fe40",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8b50",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.isopentest": {
+    "glob": "0x410750",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8b94",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.keepalive": {
+    "glob": "0x4126e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8bd8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.landmine": {
+    "glob": "0x40f940",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8c1c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.largevalue": {
+    "glob": "0x40fdf0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8c60",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.locktarget": {
+    "glob": "0x411470",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8ca4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.lowerspinesilent": {
+    "glob": "0x4128c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8ce8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.mediumvalue": {
+    "glob": "0x40fda0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8e04",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.meleedist": {
+    "glob": "0x411b50",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8e48",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.mouseautofire": {
+    "glob": "0x412ff0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8eec",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.movementpen": {
+    "glob": "0x411ab0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8f30",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.namespooftest": {
+    "glob": "0x40f6c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8f74",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.nobolty": {
+    "glob": "0x411dd0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c8fb8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.nofrienddamage": {
+    "glob": "0x412690",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9044",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.noweaponlowering": {
+    "glob": "0x413450",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9088",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.nowind": {
+    "glob": "0x412f50",
+    "reg": "call 0x2df16c",
+    "init": "0x2c90cc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.onheli": {
+    "glob": "0x4127d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9178",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.onlyfriends": {
+    "glob": "0x412640",
+    "reg": "call 0x2df16c",
+    "init": "0x2c91bc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.orechamopen": {
+    "glob": "0x410a70",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9200",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.otherchamenable": {
+    "glob": "0x4118d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c928c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.present": {
+    "glob": "0x4135e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9324",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.psilentheli": {
+    "glob": "0x40fc60",
+    "reg": "call 0x2df16c",
+    "init": "0x2c93b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.radaroutline": {
+    "glob": "0x413630",
+    "reg": "call 0x2df16c",
+    "init": "0x2c943c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.radarshiutopen": {
+    "glob": "0x410ac0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c94c8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.randomizationnohead": {
+    "glob": "0x412910",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9554",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.recoilcomp": {
+    "glob": "0x4125a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9598",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.red": {
+    "glob": "0x4116a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c95dc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.removeserverUI": {
+    "glob": "0x4134f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9668",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.safesilent": {
+    "glob": "0x412fa0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c96ac",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.samsiteOptionsOpen": {
+    "glob": "0x410ca0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c96f0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.setmenukey": {
+    "glob": "0x411420",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9734",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settgingspammer": {
+    "glob": "0x410570",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9778",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.setting3rdkey": {
+    "glob": "0x411010",
+    "reg": "call 0x2df16c",
+    "init": "0x2c97bc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingadminkey": {
+    "glob": "0x411150",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9800",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingambientkey": {
+    "glob": "0x410200",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9844",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingchargekey": {
+    "glob": "0x4103e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9888",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingcurrentkey": {
+    "glob": "0x410520",
+    "reg": "call 0x2df16c",
+    "init": "0x2c98cc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingdemokey": {
+    "glob": "0x410ed0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9910",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingdemolishkey": {
+    "glob": "0x4111a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9954",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingdespawnkey": {
+    "glob": "0x410340",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9998",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingdropinvkey": {
+    "glob": "0x410390",
+    "reg": "call 0x2df16c",
+    "init": "0x2c99dc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingenemykey": {
+    "glob": "0x4104d0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9a20",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingfriendkey": {
+    "glob": "0x410480",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9a64",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settinginteractivkey": {
+    "glob": "0x411240",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9aa8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingladderkey": {
+    "glob": "0x4112e0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9aec",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingmagickey": {
+    "glob": "0x4102a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9b30",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingmaskkey": {
+    "glob": "0x4102f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9b74",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingmountedkey": {
+    "glob": "0x411fb0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9bb8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingpointkey": {
+    "glob": "0x410f20",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9bfc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingrotatekey": {
+    "glob": "0x4111f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9c40",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingsavedposkey": {
+    "glob": "0x410f70",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9c84",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingsavedshitkey": {
+    "glob": "0x410fc0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9cc8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingshitkey": {
+    "glob": "0x411060",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9d0c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingsomeshit": {
+    "glob": "0x410250",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9d50",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingteleportkey": {
+    "glob": "0x411290",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9d94",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingwirekey": {
+    "glob": "0x4110b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9dd8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.settingzoomkey": {
+    "glob": "0x410e30",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9e1c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.shouldrun": {
+    "glob": "0x40fa80",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9e60",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.shouljump": {
+    "glob": "0x40fad0",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9ea4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.showaimbone": {
+    "glob": "0x40fb20",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9ee8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.silentnospread": {
+    "glob": "0x40fb70",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9f2c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.smallvalue": {
+    "glob": "0x40fd00",
+    "reg": "call 0x2df16c",
+    "init": "0x2c9f70",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.spikeslowdown": {
+    "glob": "0x412d20",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca058",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.spinbot": {
+    "glob": "0x4129b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca09c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.spinbotRandom": {
+    "glob": "0x412a00",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca0e0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.spinbotYawOpened": {
+    "glob": "0x412a50",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca1b4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.spinepos": {
+    "glob": "0x412190",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca1f8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.stackbarricade": {
+    "glob": "0x412eb0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca23c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.stash": {
+    "glob": "0x40fe90",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca280",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.stickysmooth": {
+    "glob": "0x4114c0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca2c4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.swimhacks": {
+    "glob": "0x412d70",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca308",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.thirdperson": {
+    "glob": "0x412050",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca3dc",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.trapchamenable": {
+    "glob": "0x411830",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca4b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.trapoptionsOpen": {
+    "glob": "0x410bb0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca4f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.tree": {
+    "glob": "0x4139a0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca538",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.turnme": {
+    "glob": "0x411ba0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca57c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.turretauthlist": {
+    "glob": "0x413860",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca5c0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.turretflags": {
+    "glob": "0x413ae0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca604",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.turretline": {
+    "glob": "0x40fcb0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca648",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.turretoff": {
+    "glob": "0x413b80",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca68c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.turretstuff": {
+    "glob": "0x412b40",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca6d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.unlockach": {
+    "glob": "0x412aa0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca75c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.upgradeFromBool": {
+    "glob": "0x40f760",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca7a0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.upgradeToBool": {
+    "glob": "0x40f7b0",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca7e4",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.upkeeptime": {
+    "glob": "0x413a90",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca828",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.vehiclechamenable": {
+    "glob": "0x411790",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca944",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.weaponspammer": {
+    "glob": "0x413400",
+    "reg": "call 0x2df16c",
+    "init": "0x2ca9d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.white": {
+    "glob": "0x4116f0",
+    "reg": "call 0x2df16c",
+    "init": "0x2caa5c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.worlditemopen": {
+    "glob": "0x410d40",
+    "reg": "call 0x2df16c",
+    "init": "0x2caae8",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.worldoptionsopen": {
+    "glob": "0x410b10",
+    "reg": "call 0x2df16c",
+    "init": "0x2cab2c",
+    "users": [],
+    "nrefs": 1
+  },
+  "Bools.yellow": {
+    "glob": "0x411740",
+    "reg": "call 0x2df16c",
+    "init": "0x2cab70",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.BlackColor": {
+    "glob": "0x413f30",
+    "reg": "call 0x2ee854",
+    "init": "0x2c4134",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.BlueColor": {
+    "glob": "0x413f90",
+    "reg": "call 0x2ee854",
+    "init": "0x2c4194",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.CandyColor": {
+    "glob": "0x413ed0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c4350",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.CaveColor": {
+    "glob": "0x414170",
+    "reg": "call 0x2ee854",
+    "init": "0x2c4440",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.ChamsColor": {
+    "glob": "0x4142f0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c44e4",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.DeathPosColor": {
+    "glob": "0x4141d0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c472c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.EnemyColorAlert": {
+    "glob": "0x413e10",
+    "reg": "call 0x2ee854",
+    "init": "0x2c49f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.GreenColor": {
+    "glob": "0x413ff0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c4cc8",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.HandChamsColor": {
+    "glob": "0x414350",
+    "reg": "call 0x2ee854",
+    "init": "0x2c4d28",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.IridescentNonVisColor": {
+    "glob": "0x4146b0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c513c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.IridescentNonVisColorWeapons": {
+    "glob": "0x4149b0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c519c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.IridescentVisColor": {
+    "glob": "0x414650",
+    "reg": "call 0x2ee854",
+    "init": "0x2c531c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.IridescentVisColorWeapons": {
+    "glob": "0x414950",
+    "reg": "call 0x2ee854",
+    "init": "0x2c5378",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.NonVisibleHandChamsColor": {
+    "glob": "0x414410",
+    "reg": "call 0x2ee854",
+    "init": "0x2c5b1c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.PresentColor": {
+    "glob": "0x413db0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c5c70",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.RainbowNonVisible": {
+    "glob": "0x4144d0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c5f00",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.RainbowNonVisibleWeapons": {
+    "glob": "0x414770",
+    "reg": "call 0x2ee854",
+    "init": "0x2c5f64",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.RainbowVisible": {
+    "glob": "0x414470",
+    "reg": "call 0x2ee854",
+    "init": "0x2c5fc8",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.RainbowVisibleWeapons": {
+    "glob": "0x414710",
+    "reg": "call 0x2ee854",
+    "init": "0x2c6024",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.RedColor": {
+    "glob": "0x414050",
+    "reg": "call 0x2ee854",
+    "init": "0x2c6080",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightInvisibleColor": {
+    "glob": "0x4145f0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c6874",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightInvisibleColorWeapons": {
+    "glob": "0x4148f0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c68d8",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightStarColor": {
+    "glob": "0x414530",
+    "reg": "call 0x2ee854",
+    "init": "0x2c693c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightStarColorItems": {
+    "glob": "0x4147d0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c6998",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightStarColorWeapons": {
+    "glob": "0x414830",
+    "reg": "call 0x2ee854",
+    "init": "0x2c69f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightVisibleColor": {
+    "glob": "0x414590",
+    "reg": "call 0x2ee854",
+    "init": "0x2c6a50",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.StarryNightVisibleColorWeapons": {
+    "glob": "0x414890",
+    "reg": "call 0x2ee854",
+    "init": "0x2c6ab0",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.VisibleHandChamsColor": {
+    "glob": "0x4143b0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c70c4",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.WhiteColor": {
+    "glob": "0x4140b0",
+    "reg": "call 0x2ee854",
+    "init": "0x2c7244",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.YellowColor": {
+    "glob": "0x414110",
+    "reg": "call 0x2ee854",
+    "init": "0x2c7330",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.deployabledistC": {
+    "glob": "0x413e70",
+    "reg": "call 0x2ee854",
+    "init": "0x2c810c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.menu_accent": {
+    "glob": "0x414290",
+    "reg": "call 0x2ee854",
+    "init": "0x2c8e8c",
+    "users": [],
+    "nrefs": 1
+  },
+  "C.snaplines_color": {
+    "glob": "0x414230",
+    "reg": "call 0x2ee854",
+    "init": "0x2c9fb4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.AmbientMultiplierDay": {
+    "glob": "0x4157d0",
+    "reg": "call 0x2df024",
+    "init": "0x2c3db4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.AutoDes": {
+    "glob": "0x415460",
+    "reg": "call 0x2df024",
+    "init": "0x2c3f98",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.CurrentSize": {
+    "glob": "0x4154b0",
+    "reg": "call 0x2df024",
+    "init": "0x2c46a0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.DistanceScaling": {
+    "glob": "0x415b40",
+    "reg": "call 0x2df024",
+    "init": "0x2c4814",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.GlowChamsGlowIntensity": {
+    "glob": "0x415eb0",
+    "reg": "call 0x2df024",
+    "init": "0x2c4c38",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.GlowChamsGlowIntensityWeapons": {
+    "glob": "0x414c90",
+    "reg": "call 0x2df024",
+    "init": "0x2c4c80",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.HeliMagicSTUFF": {
+    "glob": "0x4160e0",
+    "reg": "call 0x2df024",
+    "init": "0x2c4e58",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Hitbonechance": {
+    "glob": "0x415af0",
+    "reg": "call 0x2df024",
+    "init": "0x2c4ee4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Hitbonechancemagic": {
+    "glob": "0x4159b0",
+    "reg": "call 0x2df024",
+    "init": "0x2c4f2c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.IridescentIntensity": {
+    "glob": "0x415000",
+    "reg": "call 0x2df024",
+    "init": "0x2c50ac",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.IridescentIntensityWeapons": {
+    "glob": "0x414e70",
+    "reg": "call 0x2df024",
+    "init": "0x2c50f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.IridescentShiftSpeed": {
+    "glob": "0x414fb0",
+    "reg": "call 0x2df024",
+    "init": "0x2c51fc",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.IridescentShiftSpeedWeapons": {
+    "glob": "0x414e20",
+    "reg": "call 0x2df024",
+    "init": "0x2c5244",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.IridescentTransparency": {
+    "glob": "0x415050",
+    "reg": "call 0x2df024",
+    "init": "0x2c528c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.IridescentTransparencyWeapons": {
+    "glob": "0x414ec0",
+    "reg": "call 0x2df024",
+    "init": "0x2c52d4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.JiggleIntensitiy": {
+    "glob": "0x415500",
+    "reg": "call 0x2df024",
+    "init": "0x2c53d4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.LightIntensity": {
+    "glob": "0x4156e0",
+    "reg": "call 0x2df024",
+    "init": "0x2c54a8",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.LightIntensityDay": {
+    "glob": "0x415780",
+    "reg": "call 0x2df024",
+    "init": "0x2c54f0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.LineThicknessPath": {
+    "glob": "0x414f60",
+    "reg": "call 0x2df024",
+    "init": "0x2c5538",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.MagicPoints": {
+    "glob": "0x415ff0",
+    "reg": "call 0x2df024",
+    "init": "0x2c564c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.MaxDesync": {
+    "glob": "0x4151e0",
+    "reg": "call 0x2df024",
+    "init": "0x2c5694",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Metallic": {
+    "glob": "0x414b00",
+    "reg": "call 0x2df024",
+    "init": "0x2c5768",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Multiplier": {
+    "glob": "0x414a10",
+    "reg": "call 0x2df024",
+    "init": "0x2c57f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.PierceValue": {
+    "glob": "0x415870",
+    "reg": "call 0x2df024",
+    "init": "0x2c5c28",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.ProjectileDesync": {
+    "glob": "0x4158c0",
+    "reg": "call 0x2df024",
+    "init": "0x2c5ccc",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.ProjectileProtection": {
+    "glob": "0x415960",
+    "reg": "call 0x2df024",
+    "init": "0x2c5d14",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.RainbowIntensity": {
+    "glob": "0x414b50",
+    "reg": "call 0x2df024",
+    "init": "0x2c5e70",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.RainbowIntensityWeapons": {
+    "glob": "0x414ce0",
+    "reg": "call 0x2df024",
+    "init": "0x2c5eb8",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.ReflectionMultiplier": {
+    "glob": "0x415730",
+    "reg": "call 0x2df024",
+    "init": "0x2c60e0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.SilentFarmTreeDelay": {
+    "glob": "0x415a50",
+    "reg": "call 0x2df024",
+    "init": "0x2c64cc",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Silent_ForceCheckDistance": {
+    "glob": "0x415910",
+    "reg": "call 0x2df024",
+    "init": "0x2c6558",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Silent_maxDist": {
+    "glob": "0x415a00",
+    "reg": "call 0x2df024",
+    "init": "0x2c65a0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.Smoothness": {
+    "glob": "0x414ab0",
+    "reg": "call 0x2df024",
+    "init": "0x2c6630",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.SubTract": {
+    "glob": "0x415be0",
+    "reg": "call 0x2df024",
+    "init": "0x2c6b10",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.TestValue": {
+    "glob": "0x415410",
+    "reg": "call 0x2df024",
+    "init": "0x2c6c70",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.TestValue1234545": {
+    "glob": "0x415b90",
+    "reg": "call 0x2df024",
+    "init": "0x2c6be0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.ThirdPersonValue": {
+    "glob": "0x415d70",
+    "reg": "call 0x2df024",
+    "init": "0x2c6d00",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.TrapDistance": {
+    "glob": "0x4150a0",
+    "reg": "call 0x2df024",
+    "init": "0x2c6d48",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.WorldDistance": {
+    "glob": "0x415280",
+    "reg": "call 0x2df024",
+    "init": "0x2c72a4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F._StarDensity": {
+    "glob": "0x414ba0",
+    "reg": "call 0x2df024",
+    "init": "0x2c7390",
+    "users": [],
+    "nrefs": 1
+  },
+  "F._StarDensityWeapons": {
+    "glob": "0x414d30",
+    "reg": "call 0x2df024",
+    "init": "0x2c73d8",
+    "users": [],
+    "nrefs": 1
+  },
+  "F._Transparency": {
+    "glob": "0x414c40",
+    "reg": "call 0x2df024",
+    "init": "0x2c7420",
+    "users": [],
+    "nrefs": 1
+  },
+  "F._TransparencyWeapons": {
+    "glob": "0x414dd0",
+    "reg": "call 0x2df024",
+    "init": "0x2c7468",
+    "users": [],
+    "nrefs": 1
+  },
+  "F._TwinkleSpeed": {
+    "glob": "0x414bf0",
+    "reg": "call 0x2df024",
+    "init": "0x2c74b0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F._TwinkleSpeedWeapons": {
+    "glob": "0x414d80",
+    "reg": "call 0x2df024",
+    "init": "0x2c74f8",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.bonesize": {
+    "glob": "0x415e10",
+    "reg": "call 0x2df024",
+    "init": "0x2c7aa4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.bulletspeedtest": {
+    "glob": "0x415dc0",
+    "reg": "call 0x2df024",
+    "init": "0x2c7b44",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.chamrefresh": {
+    "glob": "0x415640",
+    "reg": "call 0x2df024",
+    "init": "0x2c7c5c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.chamrefresh1": {
+    "glob": "0x415690",
+    "reg": "call 0x2df024",
+    "init": "0x2c7c14",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.closeness": {
+    "glob": "0x416090",
+    "reg": "call 0x2df024",
+    "init": "0x2c7cec",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.crosssize": {
+    "glob": "0x415c30",
+    "reg": "call 0x2df024",
+    "init": "0x2c7e44",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.currentApoint": {
+    "glob": "0x415140",
+    "reg": "call 0x2df024",
+    "init": "0x2c7f18",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.currentmovementvalue": {
+    "glob": "0x4155a0",
+    "reg": "call 0x2df024",
+    "init": "0x2c7f60",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.currentxpoint": {
+    "glob": "0x415320",
+    "reg": "call 0x2df024",
+    "init": "0x2c7fa8",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.currentypoint": {
+    "glob": "0x4152d0",
+    "reg": "call 0x2df024",
+    "init": "0x2c7ff0",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.debugFloat": {
+    "glob": "0x414a60",
+    "reg": "call 0x2df024",
+    "init": "0x2c8080",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.fuckyou": {
+    "glob": "0x4153c0",
+    "reg": "call 0x2df024",
+    "init": "0x2c86b8",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.innerRadius": {
+    "glob": "0x414f10",
+    "reg": "call 0x2df024",
+    "init": "0x2c8ac4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.magicdistance": {
+    "glob": "0x415190",
+    "reg": "call 0x2df024",
+    "init": "0x2c8d2c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.magicvaluetest": {
+    "glob": "0x415e60",
+    "reg": "call 0x2df024",
+    "init": "0x2c8d74",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.maxvaluemanip": {
+    "glob": "0x4150f0",
+    "reg": "call 0x2df024",
+    "init": "0x2c8dbc",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.noclipvalue": {
+    "glob": "0x4155f0",
+    "reg": "call 0x2df024",
+    "init": "0x2c8ffc",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.radarshit": {
+    "glob": "0x415230",
+    "reg": "call 0x2df024",
+    "init": "0x2c9480",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.radius": {
+    "glob": "0x415fa0",
+    "reg": "call 0x2df024",
+    "init": "0x2c950c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.reloadrate": {
+    "glob": "0x415c80",
+    "reg": "call 0x2df024",
+    "init": "0x2c9620",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.spamspeed": {
+    "glob": "0x415aa0",
+    "reg": "call 0x2df024",
+    "init": "0x2ca010",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.spinbotSpeed": {
+    "glob": "0x415550",
+    "reg": "call 0x2df024",
+    "init": "0x2ca124",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.test": {
+    "glob": "0x415d20",
+    "reg": "call 0x2df024",
+    "init": "0x2ca34c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.testtime": {
+    "glob": "0x416040",
+    "reg": "call 0x2df024",
+    "init": "0x2ca394",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.thirdvalue": {
+    "glob": "0x415370",
+    "reg": "call 0x2df024",
+    "init": "0x2ca468",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.valforaim": {
+    "glob": "0x415cd0",
+    "reg": "call 0x2df024",
+    "init": "0x2ca86c",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.value5": {
+    "glob": "0x415f00",
+    "reg": "call 0x2df024",
+    "init": "0x2ca8b4",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.value6": {
+    "glob": "0x415f50",
+    "reg": "call 0x2df024",
+    "init": "0x2ca8fc",
+    "users": [],
+    "nrefs": 1
+  },
+  "F.weaponspammertime": {
+    "glob": "0x415820",
+    "reg": "call 0x2df024",
+    "init": "0x2caa14",
+    "users": [],
+    "nrefs": 1
+  },
+  "K.NoCollisionKey": {
+    "glob": "0x416d60",
+    "reg": "call 0x2df0c4",
+    "init": "0x2c5a00",
+    "users": [],
+    "nrefs": 1
+  },
+  "S.enemyList": {
+    "glob": "0x416dc0",
+    "reg": "call 0x323398",
+    "init": "0x2c830c",
+    "users": [],
+    "nrefs": 1
+  },
+  "S.friendList": {
+    "glob": "0x416e30",
+    "reg": "call 0x323398",
+    "init": "0x2c8614",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.AimbotTargetPos": {
+    "glob": "0x416f00",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c3d5c",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.InteractivePos": {
+    "glob": "0x417020",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c4ffc",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.InteractivePosEyes": {
+    "glob": "0x417080",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c5054",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.NetworkBubble": {
+    "glob": "0x416f60",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c58d8",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.NetworkBubble1": {
+    "glob": "0x416fc0",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c5880",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.SilentAimTargetPos": {
+    "glob": "0x416ea0",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c6474",
+    "users": [],
+    "nrefs": 1
+  },
+  "V3.bulletendpos": {
+    "glob": "0x4170e0",
+    "reg": "call 0x2eeaac",
+    "init": "0x2c7aec",
+    "users": [],
+    "nrefs": 1
+  },
+  "VectorBools.StackOptions": {
+    "glob": "0x4171c0",
+    "reg": "call 0x2e4d04",
+    "init": "0x2c6748",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.AimbotSmoothing": {
+    "glob": "0x4169f0",
+    "reg": "call 0x2def84",
+    "init": "0x2c3d14",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.AnimalDistance": {
+    "glob": "0x416a40",
+    "reg": "call 0x2def84",
+    "init": "0x2c3e40",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.BoneIndex": {
+    "glob": "0x416270",
+    "reg": "call 0x2def84",
+    "init": "0x2c41f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.BoneVirtualKey": {
+    "glob": "0x416630",
+    "reg": "call 0x2def84",
+    "init": "0x2c4280",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.CategoryCount": {
+    "glob": "0x416d10",
+    "reg": "call 0x2def84",
+    "init": "0x2c43b4",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.ConfigVirtualKey": {
+    "glob": "0x416950",
+    "reg": "call 0x2def84",
+    "init": "0x2c45d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.FontSizeEntity": {
+    "glob": "0x416360",
+    "reg": "call 0x2def84",
+    "init": "0x2c4ad8",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.FontSizeIndicator": {
+    "glob": "0x4163b0",
+    "reg": "call 0x2def84",
+    "init": "0x2c4b20",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.FontSizePlayer": {
+    "glob": "0x416310",
+    "reg": "call 0x2def84",
+    "init": "0x2c4b68",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.LastSavedConfig": {
+    "glob": "0x416770",
+    "reg": "call 0x2def84",
+    "init": "0x2c5460",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.MaxFlightTime": {
+    "glob": "0x416ae0",
+    "reg": "call 0x2def84",
+    "init": "0x2c56dc",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.RadtownDistance": {
+    "glob": "0x416680",
+    "reg": "call 0x2def84",
+    "init": "0x2c5d5c",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.ReviveVirtualKey": {
+    "glob": "0x4164a0",
+    "reg": "call 0x2def84",
+    "init": "0x2c6180",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.SignPainterVirtualKey": {
+    "glob": "0x416450",
+    "reg": "call 0x2def84",
+    "init": "0x2c642c",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.SkyChangerValue": {
+    "glob": "0x416c20",
+    "reg": "call 0x2def84",
+    "init": "0x2c65e8",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.StackIndex": {
+    "glob": "0x416c70",
+    "reg": "call 0x2def84",
+    "init": "0x2c6700",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.TestValue2": {
+    "glob": "0x416a90",
+    "reg": "call 0x2def84",
+    "init": "0x2c6c28",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.Testindex": {
+    "glob": "0x4162c0",
+    "reg": "call 0x2def84",
+    "init": "0x2c6cb8",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.UIScale": {
+    "glob": "0x416cc0",
+    "reg": "call 0x2def84",
+    "init": "0x2c6e5c",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.aimbone": {
+    "glob": "0x416900",
+    "reg": "call 0x2def84",
+    "init": "0x2c754c",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.autoCanShootKey": {
+    "glob": "0x4167c0",
+    "reg": "call 0x2def84",
+    "init": "0x2c7770",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.chargevirtualkey": {
+    "glob": "0x416400",
+    "reg": "call 0x2def84",
+    "init": "0x2c7ca4",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.currentAimbotRegion": {
+    "glob": "0x4168b0",
+    "reg": "call 0x2def84",
+    "init": "0x2c7ed0",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.curstatustest": {
+    "glob": "0x416810",
+    "reg": "call 0x2def84",
+    "init": "0x2c8038",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.distanceplayer": {
+    "glob": "0x416b30",
+    "reg": "call 0x2def84",
+    "init": "0x2c81f8",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.gestureIndex": {
+    "glob": "0x4164f0",
+    "reg": "call 0x2def84",
+    "init": "0x2c8744",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.heightvirtualkey": {
+    "glob": "0x416590",
+    "reg": "call 0x2def84",
+    "init": "0x2c8924",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.numberofsides": {
+    "glob": "0x416720",
+    "reg": "call 0x2def84",
+    "init": "0x2c9110",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.otherDistance": {
+    "glob": "0x4166d0",
+    "reg": "call 0x2def84",
+    "init": "0x2c9244",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.ourvirtualkey": {
+    "glob": "0x4169a0",
+    "reg": "call 0x2def84",
+    "init": "0x2c92d0",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.presentdistance": {
+    "glob": "0x4161d0",
+    "reg": "call 0x2def84",
+    "init": "0x2c9368",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.radarindex": {
+    "glob": "0x416860",
+    "reg": "call 0x2def84",
+    "init": "0x2c93f4",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.spinbotYaw": {
+    "glob": "0x416bd0",
+    "reg": "call 0x2def84",
+    "init": "0x2ca16c",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.thirdpersonvirtualkey": {
+    "glob": "0x416540",
+    "reg": "call 0x2def84",
+    "init": "0x2ca420",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.turretwarningdistance": {
+    "glob": "0x416220",
+    "reg": "call 0x2def84",
+    "init": "0x2ca714",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.vendingmachineitem": {
+    "glob": "0x416b80",
+    "reg": "call 0x2def84",
+    "init": "0x2ca988",
+    "users": [],
+    "nrefs": 1
+  },
+  "i.wirevirtualkey": {
+    "glob": "0x4165e0",
+    "reg": "call 0x2def84",
+    "init": "0x2caaa0",
+    "users": [],
+    "nrefs": 1
+  }
+}

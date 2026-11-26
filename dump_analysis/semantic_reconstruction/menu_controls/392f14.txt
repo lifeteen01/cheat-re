@@ -1,0 +1,10 @@
+392f14	rex push rbx
+392f16	sub    rsp,0x20
+392f1a	mov    rbx,rcx
+392f1d	call   0x3923c8
+392f22	movsd  xmm0,QWORD PTR [rax+0x28]
+392f27	mov    rax,rbx
+392f2a	movsd  QWORD PTR [rbx],xmm0
+392f2e	add    rsp,0x20
+392f32	pop    rbx
+392f33	ret

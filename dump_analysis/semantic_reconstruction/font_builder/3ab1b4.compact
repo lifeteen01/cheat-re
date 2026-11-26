@@ -1,0 +1,27 @@
+3ab1b4 sub    rsp,0x28
+3ab1b8 mov    r9,rcx
+3ab1bb call   0x3aaf74
+3ab1c0 mov    rcx,r9
+3ab1c3 cmp    al,0x1e
+3ab1c5 jne    0x3ab202
+3ab1c7 mov    edx,0x1
+3ab1cc call   0x3aaff4
+3ab1d1 jmp    0x3ab1f3
+3ab1d3 mov    rcx,r9
+3ab1d6 call   0x3aaf1c
+3ab1db movzx  r10d,al
+3ab1df mov    eax,r10d
+3ab1e2 and    eax,0xf
+3ab1e5 cmp    al,0xf
+3ab1e7 je     0x3ab207
+3ab1e9 shr    r10d,0x4
+3ab1ed cmp    r10d,0xf
+3ab1f1 je     0x3ab207
+3ab1f3 mov    eax,DWORD PTR [r9+0xc]
+3ab1f7 cmp    DWORD PTR [r9+0x8],eax
+3ab1fb jl     0x3ab1d3
+3ab1fd add    rsp,0x28
+3ab201 ret
+3ab202 call   0x3ab11c
+3ab207 add    rsp,0x28
+3ab20b ret

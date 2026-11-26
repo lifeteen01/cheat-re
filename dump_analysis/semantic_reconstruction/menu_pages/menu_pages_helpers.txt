@@ -1,0 +1,35 @@
+float number(const FrameMenuState& s,Rva r) {return std::bit_cast<float>(raw(s,r));}
+template<class T> T copied(const MenuPagesApi& a,Address p,Rva site) {
+    if(!a.frame.imgui)stop(UnityStatus::missing_dependency,site);
+    auto value=a.frame.imgui->read<T>(p);if(!value)stop(UnityStatus::unreadable_snapshot,site);return *value;
+}
+bool bit(const MenuPagesApi& a,Rva key,std::size_t index) {
+    if(!a.bool_vector)stop(UnityStatus::missing_dependency,0x2e98f0);
+    const auto values=a.bool_vector(key);if(!values)stop(UnityStatus::missing_dependency,0x2e98f0);
+    if(index>=values->size())stop(UnityStatus::malformed_input,0x2d4d70);
+    return (*values)[index];
+}
+void clear_strings(const MenuPagesApi& a,Rva key) {
+    if(!a.state)stop(UnityStatus::missing_dependency,0x2dcf98);
+    a.state->string_vectors[key].clear(); // [I] Own MSVC vector<string> adaptation; capacity retained.
+}
+void notify(const MenuPagesApi& a,std::string text,std::int32_t kind,std::int32_t anchor) {
+    if(!a.dependency_state)stop(UnityStatus::missing_dependency,0x37f918);
+    check(frame_notify_37f918(*a.dependency_state,a.frame.effects,std::move(text),kind,anchor));
+}
+void keybind(const MenuPagesApi& a,std::string label,Rva key,bool flag,Rva site) {
+    MenuControlRequest r;r.role=MenuControlRole::keybind;r.primitive=0x385b70;r.site=site;
+    r.label=std::move(label);r.value=key;r.register_search=flag;(void)control(a,r);
+}
+void color_label(FrameMenuState&,const MenuPagesApi& a,std::string label,Rva value,Rva site) {
+    // [C]3869b4 draws text then routes a24x18 RGBA preview. RDX is color[4],
+    // not a boolean. The control body386438 belongs to menu_controls.
+    const auto draw=get<Address>(a,0x392ecc);const auto end=get<Address>(a,0x391c50,{label,false});
+    const auto color=get<std::int32_t>(a,0x392298,{std::int32_t(1),1.0f});
+    const float offset=9.0f-copied<float>(a,a.frame.context+0x3c30,0x386a0a)*.5f;
+    const auto window=get<Address>(a,0x35d200);auto pos=copied<Vec2>(a,window+0x100,0x386a34);pos.y+=offset;
+    call(a,0x3a31bc,{draw,pos,color,label,end});call(a,0x3bfe4c,{Vec2{0,0}});
+    float x=get<float>(a,0x392f34)-16.0f;x-=24.0f;call(a,0x39ac04,{x,-1.0f});
+    MenuControlRequest r;r.role=MenuControlRole::color;r.primitive=0x386438;r.site=site;
+    r.label=std::move(label);r.value=value;r.color=value;r.size={24,18};(void)control(a,r);
+}

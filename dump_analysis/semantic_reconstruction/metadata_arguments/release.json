@@ -1,0 +1,12 @@
+{
+  "strict": "verification.txt",
+  "sanitizer": "sanitizer_verification.txt",
+  "audit": "audit.json",
+  "sources": {
+    "source/reconstructed/metadata_argument_bindings.cpp": "8c55e1ad19f786f763ac11c1ec2b49df21b82ae2c5c5e8041fe47a2fd401db3b",
+    "source/reconstructed/metadata_argument_bindings.hpp": "75c607251adae8203d4d676af3b9ee58cdce5c3c816328f8982e79a1d254d23a",
+    "source/reconstructed/metadata_argument_checks.cpp": "55192419ecbae211d640cbd1ecac61189300dd74199308048c73d785b3791e17",
+    "source/reconstructed/metadata_argument_reconstruction.md": "208eb01bdfdef51ad71d10d15472e4ba9e52d8a6806a52ae9e536231c92c3e3f"
+  },
+  "limit": "Known data stores and native-width failure gates only, executor remains detection-only"
+}

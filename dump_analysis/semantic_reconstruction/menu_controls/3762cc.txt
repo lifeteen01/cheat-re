@@ -1,0 +1,2 @@
+3762cc	minss  xmm0,xmm1
+3762d0	ret

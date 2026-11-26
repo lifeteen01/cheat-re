@@ -1,0 +1,723 @@
+{
+  "sample_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "requested_envelopes": 59,
+  "branch_destinations": 173,
+  "assigned_roots": [
+    {
+      "root": "0x322580",
+      "begin": "0x322580",
+      "end_exclusive": "0x32260b",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x366c30",
+      "begin": "0x366c30",
+      "end_exclusive": "0x366ccb",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x366ccc",
+      "begin": "0x366ccc",
+      "end_exclusive": "0x366d79",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x366d7c",
+      "begin": "0x366d7c",
+      "end_exclusive": "0x366e38",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x366e38",
+      "begin": "0x366e38",
+      "end_exclusive": "0x366eef",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x366ef0",
+      "begin": "0x366ef0",
+      "end_exclusive": "0x366faa",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x36817c",
+      "begin": "0x36817c",
+      "end_exclusive": "0x368200",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x36a238",
+      "begin": "0x36a238",
+      "end_exclusive": "0x36a2c6",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x36b004",
+      "begin": "0x36b004",
+      "end_exclusive": "0x36b08e",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x36b6cc",
+      "begin": "0x36b6cc",
+      "end_exclusive": "0x36b758",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x370b50",
+      "begin": "0x370b50",
+      "end_exclusive": "0x370c11",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x373c60",
+      "begin": "0x373c60",
+      "end_exclusive": "0x373d01",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x374168",
+      "begin": "0x374168",
+      "end_exclusive": "0x37420d",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x322ef8",
+      "begin": "0x322ef8",
+      "end_exclusive": "0x322f30",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x322f30",
+      "begin": "0x322f30",
+      "end_exclusive": "0x323006",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x36a0e0",
+      "begin": "0x36a0e0",
+      "end_exclusive": "0x36a175",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    },
+    {
+      "root": "0x36ba2c",
+      "begin": "0x36ba2c",
+      "end_exclusive": "0x36baca",
+      "claim": "C/I",
+      "implementation": "game_direct_wrappers_controllers.cpp + arguments/analysis/selector/literals",
+      "remaining_local_body": false
+    }
+  ],
+  "cache_specs": [
+    {
+      "wrapper": "0x322580",
+      "end": "0x32260b",
+      "flags": "0x3f2140",
+      "target": "0x3f2138",
+      "context": "0x3f2150",
+      "game_offset": "0x59dede0",
+      "executor": "0x32225c",
+      "sites": {
+        "flags_read": "0x322586",
+        "base_read": "0x32259c",
+        "flag_one": "0x3225ad",
+        "target_store": "0x3225b3",
+        "warm_target": "0x3225bc",
+        "setup_root": "0x3225c8",
+        "flag_two": "0x3225d2",
+        "setup_site": "0x3225e2",
+        "effect_root": "0x3225e7",
+        "effect_site": "0x3225fb"
+      },
+      "role": "action",
+      "guard": false,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x366c30",
+      "end": "0x366ccb",
+      "flags": "0x3fdb20",
+      "target": "0x3fdb18",
+      "context": "0x3fdb30",
+      "game_offset": "0x3907c80",
+      "executor": "0x2d2094",
+      "sites": {
+        "flags_read": "0x366c4e",
+        "base_read": "0x366c5c",
+        "flag_one": "0x366c6d",
+        "target_store": "0x366c73",
+        "warm_target": "0x366c7c",
+        "setup_root": "0x366c88",
+        "flag_two": "0x366c92",
+        "setup_site": "0x366ca2",
+        "effect_root": "0x366ca7",
+        "effect_site": "0x366cbb"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x366ccc",
+      "end": "0x366d79",
+      "flags": "0x3fdd00",
+      "target": "0x3fdcf8",
+      "context": "0x3fdd10",
+      "game_offset": "0x38ea530",
+      "executor": "0x2d2000",
+      "sites": {
+        "flags_read": "0x366cf2",
+        "base_read": "0x366d00",
+        "flag_one": "0x366d11",
+        "target_store": "0x366d17",
+        "warm_target": "0x366d20",
+        "setup_root": "0x366d2c",
+        "flag_two": "0x366d36",
+        "setup_site": "0x366d46",
+        "effect_root": "0x366d4b",
+        "effect_site": "0x366d64"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x366d7c",
+      "end": "0x366e38",
+      "flags": "0x3fdc10",
+      "target": "0x3fdc08",
+      "context": "0x3fdc20",
+      "game_offset": "0x390c430",
+      "executor": "0x2cba50",
+      "sites": {
+        "flags_read": "0x366db1",
+        "base_read": "0x366dbf",
+        "flag_one": "0x366dd0",
+        "target_store": "0x366dd6",
+        "warm_target": "0x366ddf",
+        "setup_root": "0x366deb",
+        "flag_two": "0x366df5",
+        "setup_site": "0x366e05",
+        "effect_root": "0x366e0a",
+        "effect_site": "0x366e23"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x366e38",
+      "end": "0x366eef",
+      "flags": "0x3fddf0",
+      "target": "0x3fdde8",
+      "context": "0x3fde00",
+      "game_offset": "0x38f9900",
+      "executor": "0x365ae0",
+      "sites": {
+        "flags_read": "0x366e6a",
+        "base_read": "0x366e78",
+        "flag_one": "0x366e89",
+        "target_store": "0x366e8f",
+        "warm_target": "0x366e98",
+        "setup_root": "0x366ea4",
+        "flag_two": "0x366eae",
+        "setup_site": "0x366ebe",
+        "effect_root": "0x366ec3",
+        "effect_site": "0x366ee1"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x366ef0",
+      "end": "0x366faa",
+      "flags": "0x3fdee0",
+      "target": "0x3fded8",
+      "context": "0x3fdef0",
+      "game_offset": "0x65c7f60",
+      "executor": "0x365b70",
+      "sites": {
+        "flags_read": "0x366f12",
+        "base_read": "0x366f1f",
+        "flag_one": "0x366f31",
+        "target_store": "0x366f38",
+        "warm_target": "0x366f41",
+        "setup_root": "0x366f4e",
+        "flag_two": "0x366f63",
+        "setup_site": "0x366f6a",
+        "effect_root": "0x366f7f",
+        "effect_site": "0x366f9c"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x36817c",
+      "end": "0x368200",
+      "flags": "0x3fec50",
+      "target": "0x3fec48",
+      "context": "0x3fec60",
+      "game_offset": "0x3e66250",
+      "executor": "0x2cb9fc",
+      "sites": {
+        "flags_read": "0x36818e",
+        "base_read": "0x368199",
+        "flag_one": "0x3681aa",
+        "target_store": "0x3681b0",
+        "warm_target": "0x3681b9",
+        "setup_root": "0x3681c5",
+        "flag_two": "0x3681cf",
+        "setup_site": "0x3681df",
+        "effect_root": "0x3681e4",
+        "effect_site": "0x3681f5"
+      },
+      "role": "object",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x36a238",
+      "end": "0x36a2c6",
+      "flags": "0x3fe6b0",
+      "target": "0x3fe6a8",
+      "context": "0x3fe6c0",
+      "game_offset": "0x3f464e0",
+      "executor": "0x2dea4c",
+      "sites": {
+        "flags_read": "0x36a24a",
+        "base_read": "0x36a255",
+        "flag_one": "0x36a266",
+        "target_store": "0x36a26c",
+        "warm_target": "0x36a275",
+        "setup_root": "0x36a294",
+        "flag_two": "0x36a28b",
+        "setup_site": "0x36a29b",
+        "effect_root": "0x36a2a0",
+        "effect_site": "0x36a2b1"
+      },
+      "role": "predicate",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x36b004",
+      "end": "0x36b08e",
+      "flags": "0x3ff010",
+      "target": "0x3ff008",
+      "context": "0x3ff020",
+      "game_offset": "0x3f37e50",
+      "executor": "0x32b1c8",
+      "sites": {
+        "flags_read": "0x36b016",
+        "base_read": "0x36b021",
+        "flag_one": "0x36b032",
+        "target_store": "0x36b038",
+        "warm_target": "0x36b041",
+        "setup_root": "0x36b04d",
+        "flag_two": "0x36b057",
+        "setup_site": "0x36b067",
+        "effect_root": "0x36b06c",
+        "effect_site": "0x36b083"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x36b6cc",
+      "end": "0x36b758",
+      "flags": "0x3ff100",
+      "target": "0x3ff0f8",
+      "context": "0x3ff110",
+      "game_offset": "0x1657ed0",
+      "executor": "0x2dea4c",
+      "sites": {
+        "flags_read": "0x36b6e7",
+        "base_read": "0x36b6f2",
+        "flag_one": "0x36b703",
+        "target_store": "0x36b709",
+        "warm_target": "0x36b712",
+        "setup_root": "0x36b731",
+        "flag_two": "0x36b728",
+        "setup_site": "0x36b738",
+        "effect_root": "0x36b73d",
+        "effect_site": "0x36b753"
+      },
+      "role": "scalar",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x370b50",
+      "end": "0x370c11",
+      "flags": "0x4006a0",
+      "target": "0x400698",
+      "context": "0x4006b0",
+      "game_offset": "0x171e8f0",
+      "executor": "0x2d2000",
+      "sites": {
+        "flags_read": "0x370b8c",
+        "base_read": "0x370b9a",
+        "flag_one": "0x370bab",
+        "target_store": "0x370bb1",
+        "warm_target": "0x370bba",
+        "setup_root": "0x370bc6",
+        "flag_two": "0x370bd0",
+        "setup_site": "0x370be0",
+        "effect_root": "0x370be5",
+        "effect_site": "0x370bfe"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x373c60",
+      "end": "0x373d01",
+      "flags": "0x401960",
+      "target": "0x401958",
+      "context": "0x401970",
+      "game_offset": "0x19f3db0",
+      "executor": "0x2d2094",
+      "sites": {
+        "flags_read": "0x373c79",
+        "base_read": "0x373c84",
+        "flag_one": "0x373c95",
+        "target_store": "0x373c9b",
+        "warm_target": "0x373ca4",
+        "setup_root": "0x373cc3",
+        "flag_two": "0x373cba",
+        "setup_site": "0x373cca",
+        "effect_root": "0x373ccf",
+        "effect_site": "0x373ce5"
+      },
+      "role": "orientation",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x374168",
+      "end": "0x37420d",
+      "flags": "0x401c38",
+      "target": "0x401c30",
+      "context": "0x401c40",
+      "game_offset": "0x1cd1620",
+      "executor": "0x374050",
+      "sites": {
+        "flags_read": "0x374186",
+        "base_read": "0x374191",
+        "flag_one": "0x3741a2",
+        "target_store": "0x3741a8",
+        "warm_target": "0x3741b1",
+        "setup_root": "0x3741d0",
+        "flag_two": "0x3741c7",
+        "setup_site": "0x3741d7",
+        "effect_root": "0x3741dc",
+        "effect_site": "0x3741fa"
+      },
+      "role": "predicate",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x36a0e0",
+      "end": "0x36a175",
+      "flags": "0x3fee30",
+      "target": "0x3fee28",
+      "context": "0x3fee40",
+      "game_offset": "0x3f12dd0",
+      "executor": "0x2cb9fc",
+      "sites": {
+        "flags_read": "0x36a0f2",
+        "base_read": "0x36a0fd",
+        "flag_one": "0x36a10e",
+        "target_store": "0x36a114",
+        "warm_target": "0x36a11d",
+        "setup_root": "0x36a129",
+        "flag_two": "0x36a133",
+        "setup_site": "0x36a143",
+        "effect_root": "0x36a148",
+        "effect_site": "0x36a159"
+      },
+      "role": "predicate",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    },
+    {
+      "wrapper": "0x36bacc",
+      "end": "0x36bb55",
+      "flags": "0x3ff1f0",
+      "target": "0x3ff1e8",
+      "context": "0x3ff200",
+      "game_offset": "0x42c72c0",
+      "executor": "0x2cb9fc",
+      "sites": {
+        "flags_read": "0x36bade",
+        "base_read": "0x36bae9",
+        "flag_one": "0x36bafa",
+        "target_store": "0x36bb00",
+        "warm_target": "0x36bb09",
+        "setup_root": "0x36bb28",
+        "flag_two": "0x36bb1f",
+        "setup_site": "0x36bb2f",
+        "effect_root": "0x36bb34",
+        "effect_site": "0x36bb45"
+      },
+      "role": "predicate",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x36b9a0",
+      "end": "0x36ba29",
+      "flags": "0x3ff2e0",
+      "target": "0x3ff2d8",
+      "context": "0x3ff2f0",
+      "game_offset": "0x42c45a0",
+      "executor": "0x2cb9fc",
+      "sites": {
+        "flags_read": "0x36b9b2",
+        "base_read": "0x36b9bd",
+        "flag_one": "0x36b9ce",
+        "target_store": "0x36b9d4",
+        "warm_target": "0x36b9dd",
+        "setup_root": "0x36b9fc",
+        "flag_two": "0x36b9f3",
+        "setup_site": "0x36ba03",
+        "effect_root": "0x36ba08",
+        "effect_site": "0x36ba19"
+      },
+      "role": "predicate",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x36c274",
+      "end": "0x36c346",
+      "flags": "0x3ff4c0",
+      "target": "0x3ff4b8",
+      "context": "0x3ff4d0",
+      "game_offset": "0x10a2640",
+      "executor": "0x332e8c",
+      "sites": {
+        "flags_read": "0x36c2bc",
+        "base_read": "0x36c2c7",
+        "flag_one": "0x36c2d8",
+        "target_store": "0x36c2de",
+        "warm_target": "0x36c2e7",
+        "setup_root": "0x36c306",
+        "flag_two": "0x36c2fd",
+        "setup_site": "0x36c30d",
+        "effect_root": "0x36c31a",
+        "effect_site": "0x36c336"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": false
+    },
+    {
+      "wrapper": "0x36c0f0",
+      "end": "0x36c184",
+      "flags": "0x3ff5b0",
+      "target": "0x3ff5a8",
+      "context": "0x3ff5c0",
+      "game_offset": "0x42c2c70",
+      "executor": "0x32225c",
+      "sites": {
+        "flags_read": "0x36c10a",
+        "base_read": "0x36c115",
+        "flag_one": "0x36c126",
+        "target_store": "0x36c12c",
+        "warm_target": "0x36c135",
+        "setup_root": "0x36c141",
+        "flag_two": "0x36c14b",
+        "setup_site": "0x36c15b",
+        "effect_root": "0x36c160",
+        "effect_site": "0x36c174"
+      },
+      "role": "action",
+      "guard": true,
+      "setup_root_before_flag_two": true
+    }
+  ],
+  "precise_reached_leaf_extents": [
+    {
+      "begin": "0x3229d8",
+      "end_exclusive": "0x3229e7"
+    },
+    {
+      "begin": "0x370b1c",
+      "end_exclusive": "0x370b4d"
+    },
+    {
+      "begin": "0x36b3bc",
+      "end_exclusive": "0x36b3d5"
+    },
+    {
+      "begin": "0x36b420",
+      "end_exclusive": "0x36b431"
+    },
+    {
+      "begin": "0x332514",
+      "end_exclusive": "0x33251c"
+    },
+    {
+      "begin": "0x2d8a98",
+      "end_exclusive": "0x2d8aa0"
+    },
+    {
+      "begin": "0x2d8a90",
+      "end_exclusive": "0x2d8a98"
+    },
+    {
+      "begin": "0x2dd2e4",
+      "end_exclusive": "0x2dd2ec"
+    },
+    {
+      "begin": "0x332460",
+      "end_exclusive": "0x33249c"
+    },
+    {
+      "begin": "0x2dd064",
+      "end_exclusive": "0x2dd0a0"
+    },
+    {
+      "begin": "0x2e99d8",
+      "end_exclusive": "0x2e9a14"
+    },
+    {
+      "begin": "0x2e3400",
+      "end_exclusive": "0x2e343c"
+    },
+    {
+      "begin": "0x2ce5dc",
+      "end_exclusive": "0x2ce5e1"
+    },
+    {
+      "begin": "0x2cc268",
+      "end_exclusive": "0x2cc26f"
+    },
+    {
+      "begin": "0x2ddbf8",
+      "end_exclusive": "0x2ddc00"
+    },
+    {
+      "begin": "0x2d4928",
+      "end_exclusive": "0x2d492e"
+    },
+    {
+      "begin": "0x2df370",
+      "end_exclusive": "0x2df376"
+    }
+  ],
+  "immediate_controllers": [
+    "0x36bacc..0x36bb55",
+    "0x36b9a0..0x36ba29",
+    "0x36c274..0x36c346",
+    "0x36c0f0..0x36c184",
+    "0x2ce718..0x2ce790"
+  ],
+  "owned_adaptations": [
+    {
+      "claim": "I",
+      "range": "3ca960/3ca918/3ca4f8/3ca86c",
+      "scope": "streaming C-string substring/prefix scan over bounded copied bytes; exact early match and guard order retained"
+    },
+    {
+      "claim": "I",
+      "range": "argument wrapper stack-home/return-pointer fields",
+      "scope": "only known native-width bytes written; unknown copied pointer/type/high bytes remain unmaterialized with explicit masks"
+    },
+    {
+      "claim": "I",
+      "range": "owned literal/vector/Quaternion bridges",
+      "scope": "optional actual aliases separate from typed values; no host/native pointer ABI equivalence claimed"
+    }
+  ],
+  "known_caller_binding_limits": [
+    {
+      "rva": "0x322580",
+      "caller": "movement_main_analysis.cpp discarded integer getter",
+      "status": "parent notified to route ignored setter return through effect; binder never fabricates integer return"
+    },
+    {
+      "rva": "0x2e5254",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2e5270",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2e52cc",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2e52e8",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2e5324",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2e5348",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2e59d8",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    },
+    {
+      "rva": "0x2dfc44",
+      "caller": "InteractionCall.literal producer outside assigned17 root/immediate closure",
+      "status": "explicit missing local literal producer; never forwarded foreign"
+    }
+  ],
+  "unavailable_external_artifacts": [
+    "matching GameAssembly.dll",
+    "matching UnityPlayer.dll",
+    "matching global-metadata.dat"
+  ]
+}

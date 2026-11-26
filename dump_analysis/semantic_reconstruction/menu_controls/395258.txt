@@ -1,0 +1,20 @@
+395258	rex push rbx
+39525a	sub    rsp,0x30
+39525e	mov    r8,QWORD PTR [rip+0x708c3]        # 0x405b28
+395265	mov    rbx,rcx
+395268	mov    rdx,QWORD PTR [r8+0x3f08]
+39526f	mov    QWORD PTR [rcx],rdx
+395272	mov    eax,DWORD PTR [r8+0x47a4]
+395279	mov    DWORD PTR [rcx+0x8],eax
+39527c	mov    eax,DWORD PTR [r8+0x4784]
+395283	mov    DWORD PTR [rcx+0xc],eax
+395286	mov    eax,DWORD PTR [r8+0x47a8]
+39528d	add    r8,0x47c0
+395294	mov    DWORD PTR [rcx+0x20],eax
+395297	lea    rcx,[rsp+0x20]
+39529c	call   0x39e1e0
+3952a1	movups xmm0,XMMWORD PTR [rax]
+3952a4	movdqu XMMWORD PTR [rbx+0x10],xmm0
+3952a9	add    rsp,0x30
+3952ad	pop    rbx
+3952ae	ret

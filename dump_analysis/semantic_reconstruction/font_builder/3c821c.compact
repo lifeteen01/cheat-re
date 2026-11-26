@@ -1,0 +1,190 @@
+3c821c cmp    r8,0x1
+3c8220 jbe    0x3c84ad
+3c8226 mov    QWORD PTR [rsp+0x10],rdx
+3c822b mov    QWORD PTR [rsp+0x8],rcx
+3c8230 push   rbx
+3c8231 push   rbp
+3c8232 push   rsi
+3c8233 push   rdi
+3c8234 push   r12
+3c8236 push   r13
+3c8238 push   r14
+3c823a push   r15
+3c823c sub    rsp,0x28
+3c8240 mov    rbx,r8
+3c8243 mov    rdi,r8
+3c8246 shr    rbx,1
+3c8249 mov    r12,r8
+3c824c mov    rax,rdx
+3c824f mov    rsi,rbx
+3c8252 imul   rsi,QWORD PTR [rcx]
+3c8256 mov    r8,rbx
+3c8259 mov    rbp,rcx
+3c825c add    rsi,rax
+3c825f sub    rdi,rbx
+3c8262 mov    r14,rdx
+3c8265 call   0x3c821c
+3c826a mov    r8,rdi
+3c826d mov    rdx,rsi
+3c8270 mov    rcx,rbp
+3c8273 call   0x3c821c
+3c8278 mov    rax,QWORD PTR [rbp+0x8]
+3c827c mov    r9,QWORD PTR [rbp+0x10]
+3c8280 mov    rcx,QWORD PTR [rbp+0x18]
+3c8284 mov    r15,QWORD PTR [rbp+0x20]
+3c8288 mov    r13,QWORD PTR [rbp+0x0]
+3c828c mov    QWORD PTR [rsp+0x80],r9
+3c8294 mov    QWORD PTR [rsp+0x88],rcx
+3c829c test   rax,rax
+3c829f je     0x3c8467
+3c82a5 sub    rax,0x1
+3c82a9 je     0x3c841f
+3c82af sub    rax,0x1
+3c82b3 je     0x3c836a
+3c82b9 cmp    rax,0x1
+3c82bd je     0x3c8360
+3c82c3 jmp    0x3c8310
+3c82c5 test   rdi,rdi
+3c82c8 je     0x3c8473
+3c82ce mov    r8,rcx
+3c82d1 mov    rdx,rsi
+3c82d4 mov    rcx,r14
+3c82d7 call   r9
+3c82da test   eax,eax
+3c82dc jg     0x3c82e9
+3c82de mov    rdx,r14
+3c82e1 add    r14,r13
+3c82e4 dec    rbx
+3c82e7 jmp    0x3c82f2
+3c82e9 mov    rdx,rsi
+3c82ec add    rsi,r13
+3c82ef dec    rdi
+3c82f2 mov    r8,r13
+3c82f5 mov    rcx,r15
+3c82f8 call   0x3c8204
+3c82fd mov    r9,QWORD PTR [rsp+0x80]
+3c8305 mov    r15,rax
+3c8308 mov    rcx,QWORD PTR [rsp+0x88]
+3c8310 test   rbx,rbx
+3c8313 jne    0x3c82c5
+3c8315 jmp    0x3c8485
+3c831a test   rdi,rdi
+3c831d je     0x3c8473
+3c8323 mov    rdx,QWORD PTR [rsi]
+3c8326 mov    r8,rcx
+3c8329 mov    rcx,QWORD PTR [r14]
+3c832c call   r9
+3c832f test   eax,eax
+3c8331 jg     0x3c833f
+3c8333 mov    rax,QWORD PTR [r14]
+3c8336 add    r14,0x8
+3c833a dec    rbx
+3c833d jmp    0x3c8349
+3c833f mov    rax,QWORD PTR [rsi]
+3c8342 add    rsi,0x8
+3c8346 dec    rdi
+3c8349 mov    r9,QWORD PTR [rsp+0x80]
+3c8351 mov    rcx,QWORD PTR [rsp+0x88]
+3c8359 mov    QWORD PTR [r15],rax
+3c835c add    r15,0x8
+3c8360 test   rbx,rbx
+3c8363 jne    0x3c831a
+3c8365 jmp    0x3c8485
+3c836a test   rbx,rbx
+3c836d je     0x3c8485
+3c8373 test   rdi,rdi
+3c8376 je     0x3c846e
+3c837c mov    r8,rcx
+3c837f mov    rbp,r15
+3c8382 mov    rcx,r14
+3c8385 mov    rdx,rsi
+3c8388 add    r15,r13
+3c838b call   r9
+3c838e test   eax,eax
+3c8390 jg     0x3c839d
+3c8392 mov    rcx,r14
+3c8395 add    r14,r13
+3c8398 dec    rbx
+3c839b jmp    0x3c83b5
+3c839d mov    rcx,rsi
+3c83a0 add    rsi,r13
+3c83a3 dec    rdi
+3c83a6 jmp    0x3c83b5
+3c83a8 mov    eax,DWORD PTR [rcx]
+3c83aa lea    rcx,[rcx+0x4]
+3c83ae mov    DWORD PTR [rbp+0x0],eax
+3c83b1 add    rbp,0x4
+3c83b5 cmp    rbp,r15
+3c83b8 jb     0x3c83a8
+3c83ba mov    r9,QWORD PTR [rsp+0x80]
+3c83c2 mov    rcx,QWORD PTR [rsp+0x88]
+3c83ca test   rbx,rbx
+3c83cd jne    0x3c8373
+3c83cf mov    rbp,QWORD PTR [rsp+0x70]
+3c83d4 jmp    0x3c8485
+3c83d9 test   rdi,rdi
+3c83dc je     0x3c8473
+3c83e2 mov    r8,rcx
+3c83e5 mov    rdx,rsi
+3c83e8 mov    rcx,r14
+3c83eb call   r9
+3c83ee test   eax,eax
+3c83f0 jg     0x3c83fe
+3c83f2 mov    rax,QWORD PTR [r14]
+3c83f5 add    r14,0x8
+3c83f9 dec    rbx
+3c83fc jmp    0x3c8408
+3c83fe mov    rax,QWORD PTR [rsi]
+3c8401 add    rsi,0x8
+3c8405 dec    rdi
+3c8408 mov    r9,QWORD PTR [rsp+0x80]
+3c8410 mov    rcx,QWORD PTR [rsp+0x88]
+3c8418 mov    QWORD PTR [r15],rax
+3c841b add    r15,0x8
+3c841f test   rbx,rbx
+3c8422 jne    0x3c83d9
+3c8424 jmp    0x3c8485
+3c8426 test   rdi,rdi
+3c8429 je     0x3c8473
+3c842b mov    r8,rcx
+3c842e mov    rdx,rsi
+3c8431 mov    rcx,r14
+3c8434 call   r9
+3c8437 test   eax,eax
+3c8439 jg     0x3c8447
+3c843b mov    eax,DWORD PTR [r14]
+3c843e add    r14,0x4
+3c8442 dec    rbx
+3c8445 jmp    0x3c8450
+3c8447 mov    eax,DWORD PTR [rsi]
+3c8449 add    rsi,0x4
+3c844d dec    rdi
+3c8450 mov    r9,QWORD PTR [rsp+0x80]
+3c8458 mov    rcx,QWORD PTR [rsp+0x88]
+3c8460 mov    DWORD PTR [r15],eax
+3c8463 add    r15,0x4
+3c8467 test   rbx,rbx
+3c846a jne    0x3c8426
+3c846c jmp    0x3c8485
+3c846e mov    rbp,QWORD PTR [rsp+0x70]
+3c8473 mov    r8,r13
+3c8476 mov    rdx,r14
+3c8479 imul   r8,rbx
+3c847d mov    rcx,r15
+3c8480 call   0x3c8d4c
+3c8485 mov    rdx,QWORD PTR [rbp+0x20]
+3c8489 sub    r12,rdi
+3c848c mov    rcx,QWORD PTR [rsp+0x78]
+3c8491 imul   r12,r13
+3c8495 mov    r8,r12
+3c8498 call   0x3c8d4c
+3c849d add    rsp,0x28
+3c84a1 pop    r15
+3c84a3 pop    r14
+3c84a5 pop    r13
+3c84a7 pop    r12
+3c84a9 pop    rdi
+3c84aa pop    rsi
+3c84ab pop    rbp
+3c84ac pop    rbx
+3c84ad ret

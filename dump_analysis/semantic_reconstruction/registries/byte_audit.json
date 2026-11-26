@@ -1,0 +1,1802 @@
+{
+  "status": "[C] passed",
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "recorded_span_checks": [
+    {
+      "file": "allocation_rehash_helpers.asm",
+      "verified_instruction_spans": 86
+    },
+    {
+      "file": "allocator_string.asm",
+      "verified_instruction_spans": 17
+    },
+    {
+      "file": "constructors_hash.asm",
+      "verified_instruction_spans": 132
+    },
+    {
+      "file": "deep_dependencies.asm",
+      "verified_instruction_spans": 374
+    },
+    {
+      "file": "defaults_growth.asm",
+      "verified_instruction_spans": 44
+    },
+    {
+      "file": "dependencies.asm",
+      "verified_instruction_spans": 292
+    },
+    {
+      "file": "entrypoints.asm",
+      "verified_instruction_spans": 122
+    },
+    {
+      "file": "leaves.asm",
+      "verified_instruction_spans": 132
+    },
+    {
+      "file": "rehash.asm",
+      "verified_instruction_spans": 374
+    },
+    {
+      "file": "string_defaults.asm",
+      "verified_instruction_spans": 59
+    },
+    {
+      "file": "value_constructors.asm",
+      "verified_instruction_spans": 71
+    },
+    {
+      "file": "wrapper_packing.asm",
+      "verified_instruction_spans": 31
+    }
+  ],
+  "ledger": [
+    {
+      "start": "0x2ef724",
+      "end_exclusive": "0x2ef752",
+      "role": "baseline operator[]",
+      "sha256": "9adc0832fa1645b5370c91f37de63a4bbbaaecb5d8c4874c5b0bd5d2d1f97b5d",
+      "direct_edges": [
+        {
+          "site": "0x2ef730",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ef740",
+          "target": "0x2ecc20"
+        }
+      ]
+    },
+    {
+      "start": "0x2df608",
+      "end_exclusive": "0x2df636",
+      "role": "identity operator[]",
+      "sha256": "4a28e82799102929e234336ca45a3eb97ddb39d77caf6aade0170da84611d8cc",
+      "direct_edges": [
+        {
+          "site": "0x2df614",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2df624",
+          "target": "0x2de574"
+        }
+      ]
+    },
+    {
+      "start": "0x369e70",
+      "end_exclusive": "0x369f6b",
+      "role": "identity construction; all returns",
+      "sha256": "1d306a2f445a1794d6a38afec2c5e54a1e4617e177bb0b6322860f926151d8bf",
+      "direct_edges": [
+        {
+          "site": "0x369e82",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x369ea2",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x369eb7",
+          "target": "0x2d45c8"
+        },
+        {
+          "site": "0x369ec0",
+          "target": "0x2d8694"
+        },
+        {
+          "site": "0x369ed3",
+          "target": "0x2cc2cc"
+        },
+        {
+          "site": "0x369edc",
+          "target": "0x2d4a50"
+        },
+        {
+          "site": "0x369ee1",
+          "target": "0x369f5f"
+        },
+        {
+          "site": "0x369eeb",
+          "target": "0x2d8728"
+        },
+        {
+          "site": "0x369efb",
+          "target": "0x2d7d40"
+        },
+        {
+          "site": "0x369f07",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x369f19",
+          "target": "0x2cee44"
+        },
+        {
+          "site": "0x369f22",
+          "target": "0x2d8694"
+        },
+        {
+          "site": "0x369f35",
+          "target": "0x2cc2cc"
+        },
+        {
+          "site": "0x369f3e",
+          "target": "0x2cc4f4"
+        },
+        {
+          "site": "0x369f43",
+          "target": "0x369ed8"
+        },
+        {
+          "site": "0x369f49",
+          "target": "0x2cc284"
+        },
+        {
+          "site": "0x369f4e",
+          "target": "0x369f3a"
+        },
+        {
+          "site": "0x369f5a",
+          "target": "0x2cc2cc"
+        }
+      ]
+    },
+    {
+      "start": "0x2ecc20",
+      "end_exclusive": "0x2ecd56",
+      "role": "baseline map insertion",
+      "sha256": "c97f152e53985338a14e30f4cf95ae6d265663fed40889e533ae59917977468c",
+      "direct_edges": [
+        {
+          "site": "0x2ecc3f",
+          "target": "0x2cf0e4"
+        },
+        {
+          "site": "0x2ecc54",
+          "target": "0x2d07d4"
+        },
+        {
+          "site": "0x2ecc6f",
+          "target": "0x2cee08"
+        },
+        {
+          "site": "0x2ecc74",
+          "target": "0x2ecd3f"
+        },
+        {
+          "site": "0x2ecc7c",
+          "target": "0x319824"
+        },
+        {
+          "site": "0x2ecc84",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ecc90",
+          "target": "0x2dec90"
+        },
+        {
+          "site": "0x2ecc9c",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ecca8",
+          "target": "0x2cd324"
+        },
+        {
+          "site": "0x2eccc3",
+          "target": "0x2ea1b0"
+        },
+        {
+          "site": "0x2ecccb",
+          "target": "0x2d6d44"
+        },
+        {
+          "site": "0x2eccd7",
+          "target": "0x31a050"
+        },
+        {
+          "site": "0x2ecce4",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2eccf6",
+          "target": "0x2d07d4"
+        },
+        {
+          "site": "0x2ecd07",
+          "target": "0x2d7638"
+        },
+        {
+          "site": "0x2ecd19",
+          "target": "0x2d7328"
+        },
+        {
+          "site": "0x2ecd31",
+          "target": "0x2cee08"
+        },
+        {
+          "site": "0x2ecd3a",
+          "target": "0x2ef39c"
+        }
+      ]
+    },
+    {
+      "start": "0x2de574",
+      "end_exclusive": "0x2de6aa",
+      "role": "identity map insertion",
+      "sha256": "e14b4650233a7f891eef0dcdc50adbf2500207dad77601ad8cffa970af26390e",
+      "direct_edges": [
+        {
+          "site": "0x2de593",
+          "target": "0x2dde94"
+        },
+        {
+          "site": "0x2de5a8",
+          "target": "0x2de154"
+        },
+        {
+          "site": "0x2de5c3",
+          "target": "0x2cee08"
+        },
+        {
+          "site": "0x2de5c8",
+          "target": "0x2de693"
+        },
+        {
+          "site": "0x2de5d0",
+          "target": "0x2e2a4c"
+        },
+        {
+          "site": "0x2de5d8",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2de5e4",
+          "target": "0x2dec90"
+        },
+        {
+          "site": "0x2de5f0",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2de5fc",
+          "target": "0x2cd324"
+        },
+        {
+          "site": "0x2de617",
+          "target": "0x2ddd64"
+        },
+        {
+          "site": "0x2de61f",
+          "target": "0x2d6d44"
+        },
+        {
+          "site": "0x2de62b",
+          "target": "0x2e2db8"
+        },
+        {
+          "site": "0x2de638",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2de64a",
+          "target": "0x2de154"
+        },
+        {
+          "site": "0x2de65b",
+          "target": "0x2d7638"
+        },
+        {
+          "site": "0x2de66d",
+          "target": "0x2d7328"
+        },
+        {
+          "site": "0x2de685",
+          "target": "0x2cee08"
+        },
+        {
+          "site": "0x2de68e",
+          "target": "0x2df404"
+        }
+      ]
+    },
+    {
+      "start": "0x2d07d4",
+      "end_exclusive": "0x2d0861",
+      "role": "baseline find including alternate miss tail",
+      "sha256": "0055d2fedd66519728165a35ef6d40d38384bbe7b49c84bc040480f86dffe9de",
+      "direct_edges": [
+        {
+          "site": "0x2d080f",
+          "target": "0x2d0846"
+        },
+        {
+          "site": "0x2d0816",
+          "target": "0x2d0821"
+        },
+        {
+          "site": "0x2d0825",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2d0833",
+          "target": "0x2cf0ec"
+        },
+        {
+          "site": "0x2d085f",
+          "target": "0x2d0846"
+        }
+      ]
+    },
+    {
+      "start": "0x2de154",
+      "end_exclusive": "0x2de1e1",
+      "role": "identity find including alternate miss tail",
+      "sha256": "d7126b66feb29af46e9e6be5f2c7d3d9e6eb72177a2b5976812f26ba72e82d6f",
+      "direct_edges": [
+        {
+          "site": "0x2de18f",
+          "target": "0x2de1c6"
+        },
+        {
+          "site": "0x2de196",
+          "target": "0x2de1a1"
+        },
+        {
+          "site": "0x2de1a5",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2de1b3",
+          "target": "0x2dde9c"
+        },
+        {
+          "site": "0x2de1df",
+          "target": "0x2de1c6"
+        }
+      ]
+    },
+    {
+      "start": "0x2cf0e4",
+      "end_exclusive": "0x2cf0ec",
+      "role": "integer hash forwarding",
+      "sha256": "5d2cb605b45ba2d9f195042ad1540a908847ce6ea91dc08bef0691ed0a0183bb",
+      "direct_edges": [
+        {
+          "site": "0x2cf0e7",
+          "target": "0x2d553c"
+        }
+      ]
+    },
+    {
+      "start": "0x2cf0ec",
+      "end_exclusive": "0x2cf11c",
+      "role": "integer inequality",
+      "sha256": "2ae154667a37a64b8b283b2ec4c9869b91bd277d132b3c4c32f66d92088a245e",
+      "direct_edges": [
+        {
+          "site": "0x2cf0fc",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2cf10a",
+          "target": "0x2d5544"
+        }
+      ]
+    },
+    {
+      "start": "0x2d553c",
+      "end_exclusive": "0x2d5541",
+      "role": "hash forwarding only",
+      "sha256": "495386080e83ec7a0c9c0ed130bc14a1dc06c48bca59b29d6e979ddd1499a3af",
+      "direct_edges": [
+        {
+          "site": "0x2d553c",
+          "target": "0x2d6fa0"
+        }
+      ]
+    },
+    {
+      "start": "0x2d5544",
+      "end_exclusive": "0x2d554d",
+      "role": "integer equality",
+      "sha256": "6e41fdf371ba8fd37d1bb633b70fdd1d55920d3168b86f17b344914d1fd1b1aa",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2d6fa0",
+      "end_exclusive": "0x2d6fa5",
+      "role": "hash forwarding only",
+      "sha256": "c2a745501a85b695636139c816da731c08bd3f1f8a5c15c10f78f23c5de79043",
+      "direct_edges": [
+        {
+          "site": "0x2d6fa0",
+          "target": "0x2d0ae4"
+        }
+      ]
+    },
+    {
+      "start": "0x2d0ae4",
+      "end_exclusive": "0x2d0af6",
+      "role": "integer FNV basis",
+      "sha256": "85fa21e71f9823ef02e8653b7d0d80592b391b452bf1874043c866926fa48a17",
+      "direct_edges": [
+        {
+          "site": "0x2d0af1",
+          "target": "0x2d089c"
+        }
+      ]
+    },
+    {
+      "start": "0x2d089c",
+      "end_exclusive": "0x2d08a7",
+      "role": "four-byte hash span",
+      "sha256": "61bb598f42c71125a1a5fd4a4f6091e9c38b0f2ed3981b65035305ee3d5e9075",
+      "direct_edges": [
+        {
+          "site": "0x2d08a2",
+          "target": "0x2d7078"
+        }
+      ]
+    },
+    {
+      "start": "0x2d7078",
+      "end_exclusive": "0x2d70a2",
+      "role": "FNV64 full loop and zero-length return",
+      "sha256": "b69c36ee4286e8c87f29ef8d763e85a6302ebac2ba859540fab4d24aa744393c",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2dde94",
+      "end_exclusive": "0x2dde9c",
+      "role": "string hash forwarding",
+      "sha256": "15a3a2a1429b8b6a6df0d564fef17c2336ca1002f582b1fdb0f42517f461c593",
+      "direct_edges": [
+        {
+          "site": "0x2dde97",
+          "target": "0x2dfd98"
+        }
+      ]
+    },
+    {
+      "start": "0x2dde9c",
+      "end_exclusive": "0x2ddecc",
+      "role": "string inequality",
+      "sha256": "a122d6cf46a90801d04d605471f8c331466914a5ce05ba4d8f90babfc70c01e4",
+      "direct_edges": [
+        {
+          "site": "0x2ddeac",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ddeba",
+          "target": "0x2dfda0"
+        }
+      ]
+    },
+    {
+      "start": "0x2dfd98",
+      "end_exclusive": "0x2dfd9d",
+      "role": "string hash forwarding only",
+      "sha256": "e9b77c81a0f2a46bef8f2549c5bf05960fa7ef53d06dbfb8589ff4c2f24c499d",
+      "direct_edges": [
+        {
+          "site": "0x2dfd98",
+          "target": "0x2e2b78"
+        }
+      ]
+    },
+    {
+      "start": "0x2dfda0",
+      "end_exclusive": "0x2dfdab",
+      "role": "string equality forwarding only",
+      "sha256": "744b19e329e4fcc327cf2ddd45284953369b6afe9f44792eb57f1940a0f9b67c",
+      "direct_edges": [
+        {
+          "site": "0x2dfda6",
+          "target": "0x2cef30"
+        }
+      ]
+    },
+    {
+      "start": "0x2cef30",
+      "end_exclusive": "0x2cef35",
+      "role": "string equality forwarding only",
+      "sha256": "1d8b4ee813080c481bbec9585db3905d02f66d9effb09c0031e9fa5833f2a49a",
+      "direct_edges": [
+        {
+          "site": "0x2cef30",
+          "target": "0x2d6fd4"
+        }
+      ]
+    },
+    {
+      "start": "0x2d6fd4",
+      "end_exclusive": "0x2d701e",
+      "role": "string equality arguments",
+      "sha256": "e859bf9e7bcfdf15a97fbe7f8554063d3f34dcf76e793be2346f2cb0da8545b2",
+      "direct_edges": [
+        {
+          "site": "0x2d6fec",
+          "target": "0x2cd4e4"
+        },
+        {
+          "site": "0x2d6ff7",
+          "target": "0x2cd4e4"
+        },
+        {
+          "site": "0x2d7019",
+          "target": "0x2d1988"
+        }
+      ]
+    },
+    {
+      "start": "0x2d1988",
+      "end_exclusive": "0x2d19b6",
+      "role": "length-aware equality",
+      "sha256": "62aab90ecc84260a1728ea4873b81f1a3861a1f7509b4ad9855d7646ef652327",
+      "direct_edges": [
+        {
+          "site": "0x2d1996",
+          "target": "0x2d19b1"
+        },
+        {
+          "site": "0x2d199f",
+          "target": "0x2d19b1"
+        },
+        {
+          "site": "0x2d19a7",
+          "target": "0x2cd8b4"
+        }
+      ]
+    },
+    {
+      "start": "0x2e2b78",
+      "end_exclusive": "0x2e2baa",
+      "role": "string hash",
+      "sha256": "4b017f1c5add67124c8881f895b2f24d48271594695715dffeb35549d16fb470",
+      "direct_edges": [
+        {
+          "site": "0x2e2b85",
+          "target": "0x2d8ad8"
+        },
+        {
+          "site": "0x2e2b90",
+          "target": "0x2cd7ec"
+        },
+        {
+          "site": "0x2e2ba5",
+          "target": "0x2de2e8"
+        }
+      ]
+    },
+    {
+      "start": "0x2de2e8",
+      "end_exclusive": "0x2de2fd",
+      "role": "string FNV basis",
+      "sha256": "6625f167567ca69c75f32cc343816a7a0272017e0bd8510a31e7caf35ea484be",
+      "direct_edges": [
+        {
+          "site": "0x2de2f8",
+          "target": "0x2d7078"
+        }
+      ]
+    },
+    {
+      "start": "0x319824",
+      "end_exclusive": "0x31984f",
+      "role": "baseline maximum-size check/trap",
+      "sha256": "26fac180c94d0181a9737aabe1df933b267c536bde376791c76e5a3057063833",
+      "direct_edges": [
+        {
+          "site": "0x319831",
+          "target": "0x320a24"
+        },
+        {
+          "site": "0x319849",
+          "target": "0x2cd050"
+        }
+      ]
+    },
+    {
+      "start": "0x2e2a4c",
+      "end_exclusive": "0x2e2a77",
+      "role": "identity maximum-size check/trap",
+      "sha256": "6abe25e07ec51413d0112f51aa821dec14e125882f0d3a3909b00ef6d2f2a36d",
+      "direct_edges": [
+        {
+          "site": "0x2e2a59",
+          "target": "0x2e3ba8"
+        },
+        {
+          "site": "0x2e2a71",
+          "target": "0x2cd050"
+        }
+      ]
+    },
+    {
+      "start": "0x2ea1b0",
+      "end_exclusive": "0x2ea228",
+      "role": "baseline temporary node",
+      "sha256": "f041edfe8edbfb7c744be1db855be9620fab35b4474ec85da471f95bd7a74012",
+      "direct_edges": [
+        {
+          "site": "0x2ea1c4",
+          "target": "0x2cc1c0"
+        },
+        {
+          "site": "0x2ea1cc",
+          "target": "0x31937c"
+        },
+        {
+          "site": "0x2ea1d9",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ea1e4",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ea1ef",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ea1ff",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ea215",
+          "target": "0x2ed350"
+        }
+      ]
+    },
+    {
+      "start": "0x2ddd64",
+      "end_exclusive": "0x2ddddc",
+      "role": "identity temporary node",
+      "sha256": "00fd13a930c8314ccceb3a4cdf15af59218780dac691b375cca3cf8daa67eec2",
+      "direct_edges": [
+        {
+          "site": "0x2ddd78",
+          "target": "0x2cc1c0"
+        },
+        {
+          "site": "0x2ddd80",
+          "target": "0x2e28a0"
+        },
+        {
+          "site": "0x2ddd8d",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ddd98",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ddda3",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2dddb3",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2dddc9",
+          "target": "0x2deaa4"
+        }
+      ]
+    },
+    {
+      "start": "0x31937c",
+      "end_exclusive": "0x3193a4",
+      "role": "baseline allocation",
+      "sha256": "bb62b6a56749ade84cfe4de88a4f6f6644849169257ee83ca145aa4698d43344",
+      "direct_edges": [
+        {
+          "site": "0x319395",
+          "target": "0x31a884"
+        }
+      ]
+    },
+    {
+      "start": "0x2e28a0",
+      "end_exclusive": "0x2e28c8",
+      "role": "identity allocation",
+      "sha256": "9d51ca0ac1561cea053b78cb27ce57fa0bee13c84441a3e7bca60d14602dafbd",
+      "direct_edges": [
+        {
+          "site": "0x2e28b9",
+          "target": "0x2e3294"
+        }
+      ]
+    },
+    {
+      "start": "0x31a884",
+      "end_exclusive": "0x31a89c",
+      "role": "baseline allocation route",
+      "sha256": "95f25d91f51913aac725e6743faaf7044087fcba9480374fca0b7ff8d358be4c",
+      "direct_edges": [
+        {
+          "site": "0x31a88b",
+          "target": "0x2ebfec"
+        },
+        {
+          "site": "0x31a897",
+          "target": "0x2cb050"
+        }
+      ]
+    },
+    {
+      "start": "0x2e3294",
+      "end_exclusive": "0x2e32ac",
+      "role": "identity allocation route",
+      "sha256": "399d54102ea7b7407639fe167391fd8e6f966ce0c92924a7b5ad0647dc23b77b",
+      "direct_edges": [
+        {
+          "site": "0x2e329b",
+          "target": "0x2de298"
+        },
+        {
+          "site": "0x2e32a7",
+          "target": "0x2cb050"
+        }
+      ]
+    },
+    {
+      "start": "0x2ebfec",
+      "end_exclusive": "0x2ec012",
+      "role": "48-byte node size and overflow",
+      "sha256": "735db63c4cda1dfc267a6f0d48e8f73b0623fe606427891ca2016852c9e5d7b0",
+      "direct_edges": [
+        {
+          "site": "0x2ec00c",
+          "target": "0x2cd670"
+        }
+      ]
+    },
+    {
+      "start": "0x2de298",
+      "end_exclusive": "0x2de2be",
+      "role": "96-byte node size and overflow",
+      "sha256": "d0e12c3a309469a8ad79f671c029ff7f60a82746a885827ed3d5f095cafd25ef",
+      "direct_edges": [
+        {
+          "site": "0x2de2b8",
+          "target": "0x2cd670"
+        }
+      ]
+    },
+    {
+      "start": "0x2ed350",
+      "end_exclusive": "0x2ed39b",
+      "role": "baseline pair forwarding",
+      "sha256": "3908f5bae1a684a30dab59c8a759f658cc999c51d38bbe7e07e54af659c48575",
+      "direct_edges": [
+        {
+          "site": "0x2ed367",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed372",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed37d",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed396",
+          "target": "0x2ed5f0"
+        }
+      ]
+    },
+    {
+      "start": "0x2deaa4",
+      "end_exclusive": "0x2deaef",
+      "role": "identity pair forwarding",
+      "sha256": "31f7bc6af609ce04a181da9cfeb9bd48c477b5e23523dae1e8e77e59471ed50c",
+      "direct_edges": [
+        {
+          "site": "0x2deabb",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2deac6",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2dead1",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2deaea",
+          "target": "0x2deb40"
+        }
+      ]
+    },
+    {
+      "start": "0x2ed5f0",
+      "end_exclusive": "0x2ed663",
+      "role": "baseline pair construction",
+      "sha256": "94d39629f173ca342dff49b28030f22a4453cea3a8d0631d6e80cea399dc4126",
+      "direct_edges": [
+        {
+          "site": "0x2ed605",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed612",
+          "target": "0x2df234"
+        },
+        {
+          "site": "0x2ed61d",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed628",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed635",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ed645",
+          "target": "0x2cc530"
+        },
+        {
+          "site": "0x2ed655",
+          "target": "0x2ea040"
+        }
+      ]
+    },
+    {
+      "start": "0x2deb40",
+      "end_exclusive": "0x2debb3",
+      "role": "identity pair construction",
+      "sha256": "519d11748d4ac13edf7ce826ffa21cd29dc340cec690c601f49e0a67174bbdae",
+      "direct_edges": [
+        {
+          "site": "0x2deb55",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2deb62",
+          "target": "0x2df234"
+        },
+        {
+          "site": "0x2deb6d",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2deb78",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2deb85",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2deb95",
+          "target": "0x2cc530"
+        },
+        {
+          "site": "0x2deba5",
+          "target": "0x2ddd38"
+        }
+      ]
+    },
+    {
+      "start": "0x2ea040",
+      "end_exclusive": "0x2ea069",
+      "role": "baseline pair constructor",
+      "sha256": "cacc1ac3e0d2be1ce255ff022bcdda9b98a72345b80a6db1b8d24544052196dd",
+      "direct_edges": [
+        {
+          "site": "0x2ea05b",
+          "target": "0x2ea4d0"
+        }
+      ]
+    },
+    {
+      "start": "0x2ea4d0",
+      "end_exclusive": "0x2ea50b",
+      "role": "baseline key/value stores",
+      "sha256": "384add74b4d1cade9da431bdf4cfc0a126cb5644c5d293365b5690b2855591ba",
+      "direct_edges": [
+        {
+          "site": "0x2ea4dc",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ea4e4",
+          "target": "0x2ce5d8"
+        },
+        {
+          "site": "0x2ea4fd",
+          "target": "0x2eee78"
+        }
+      ]
+    },
+    {
+      "start": "0x2eee78",
+      "end_exclusive": "0x2eee98",
+      "role": "baseline no-op member constructors",
+      "sha256": "bf6ed07b1dd52b4e5205dac2c64ba721800fe6c2aa800a2e2caaea5264d41a5b",
+      "direct_edges": [
+        {
+          "site": "0x2eee81",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2eee8a",
+          "target": "0x2cb3a4"
+        }
+      ]
+    },
+    {
+      "start": "0x2ddd38",
+      "end_exclusive": "0x2ddd61",
+      "role": "identity pair constructor",
+      "sha256": "e540e958600a3b26122c420e05912985af47bce827d64027562821e7f30d2fe6",
+      "direct_edges": [
+        {
+          "site": "0x2ddd53",
+          "target": "0x2dde50"
+        }
+      ]
+    },
+    {
+      "start": "0x2dde50",
+      "end_exclusive": "0x2dde86",
+      "role": "identity key/value constructor",
+      "sha256": "99ab6acbf77e1b365dfc26e68a39b420ba27e0b496dffa26220d91fef2409da5",
+      "direct_edges": [
+        {
+          "site": "0x2dde5c",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2dde64",
+          "target": "0x2ce5d8"
+        },
+        {
+          "site": "0x2dde6f",
+          "target": "0x2cc284"
+        },
+        {
+          "site": "0x2dde78",
+          "target": "0x2df388"
+        }
+      ]
+    },
+    {
+      "start": "0x2df388",
+      "end_exclusive": "0x2df3ab",
+      "role": "identity payload constructor",
+      "sha256": "6aeab3e6a86dd686babef3ed7c6822e868321aea45889f216962abeef6059b56",
+      "direct_edges": [
+        {
+          "site": "0x2df391",
+          "target": "0x2d4560"
+        }
+      ]
+    },
+    {
+      "start": "0x2d4560",
+      "end_exclusive": "0x2d4583",
+      "role": "empty byte string constructor",
+      "sha256": "2c65a007431045f8369dc8650af535da2476407e2a49287cd1c75bac306c154c",
+      "direct_edges": [
+        {
+          "site": "0x2d456d",
+          "target": "0x2cabc0"
+        },
+        {
+          "site": "0x2d4575",
+          "target": "0x2d6e98"
+        }
+      ]
+    },
+    {
+      "start": "0x2d6e98",
+      "end_exclusive": "0x2d6ece",
+      "role": "empty byte string initialization",
+      "sha256": "1e5744b75ced992a3f426bf53b1d27c7dec9ca4080c907723dfdc2c79a3cad29",
+      "direct_edges": [
+        {
+          "site": "0x2d6eb1",
+          "target": "0x2ccef4"
+        },
+        {
+          "site": "0x2d6ec3",
+          "target": "0x2cd7e4"
+        }
+      ]
+    },
+    {
+      "start": "0x2d7328",
+      "end_exclusive": "0x2d73cb",
+      "role": "native node links and bucket first/last",
+      "sha256": "f3d7eedd20fb0808ed179df3d2ca35f29dd29fc78cc364e81d941527e2e8d67e",
+      "direct_edges": [
+        {
+          "site": "0x2d7358",
+          "target": "0x2cb2f4"
+        },
+        {
+          "site": "0x2d7366",
+          "target": "0x2cb2f4"
+        },
+        {
+          "site": "0x2d7398",
+          "target": "0x2d73b3"
+        },
+        {
+          "site": "0x2d73a5",
+          "target": "0x2d73b8"
+        }
+      ]
+    },
+    {
+      "start": "0x2d6d44",
+      "end_exclusive": "0x2d6dce",
+      "role": "load threshold and uint64 float conversion",
+      "sha256": "67797a92f4949493622b67eb1fb969b78520b11c1052ee44efa9baa47aeca3dc",
+      "direct_edges": [
+        {
+          "site": "0x2d6d57",
+          "target": "0x2d8ae0"
+        },
+        {
+          "site": "0x2d6d71",
+          "target": "0x2d6d88"
+        },
+        {
+          "site": "0x2d6d8b",
+          "target": "0x2d7e10"
+        },
+        {
+          "site": "0x2d6da0",
+          "target": "0x2d6db4"
+        }
+      ]
+    },
+    {
+      "start": "0x319a00",
+      "end_exclusive": "0x319a73",
+      "role": "baseline growth count",
+      "sha256": "e4cd710c3a5940cafa113ee3cb37b0e9ed5cb1c2ad06a29b0b8847dba2cbfdd0",
+      "direct_edges": [
+        {
+          "site": "0x319a15",
+          "target": "0x2d7e10"
+        },
+        {
+          "site": "0x319a23",
+          "target": "0x2d7564"
+        },
+        {
+          "site": "0x319a39",
+          "target": "0x2cc144"
+        },
+        {
+          "site": "0x319a49",
+          "target": "0x319a63"
+        }
+      ]
+    },
+    {
+      "start": "0x2e2b04",
+      "end_exclusive": "0x2e2b77",
+      "role": "identity growth count",
+      "sha256": "43db25f610d09338a41078424b124066c8c2ef27e45cbe58169627ff6687674c",
+      "direct_edges": [
+        {
+          "site": "0x2e2b19",
+          "target": "0x2d7e10"
+        },
+        {
+          "site": "0x2e2b27",
+          "target": "0x2d7564"
+        },
+        {
+          "site": "0x2e2b3d",
+          "target": "0x2cc144"
+        },
+        {
+          "site": "0x2e2b4d",
+          "target": "0x2e2b67"
+        }
+      ]
+    },
+    {
+      "start": "0x319be8",
+      "end_exclusive": "0x319df2",
+      "role": "baseline complete rehash including alternate splice tail",
+      "sha256": "73d7dfc970a0455c496d412e636aef4fe43a00f8d3cd514e6fa44675324a21fa",
+      "direct_edges": [
+        {
+          "site": "0x319c09",
+          "target": "0x2d8b3c"
+        },
+        {
+          "site": "0x319c14",
+          "target": "0x2d706c"
+        },
+        {
+          "site": "0x319c31",
+          "target": "0x2d6b28"
+        },
+        {
+          "site": "0x319c44",
+          "target": "0x2d796c"
+        },
+        {
+          "site": "0x319c5a",
+          "target": "0x2d68a0"
+        },
+        {
+          "site": "0x319c72",
+          "target": "0x2d792c"
+        },
+        {
+          "site": "0x319c7f",
+          "target": "0x319d94"
+        },
+        {
+          "site": "0x319c88",
+          "target": "0x2d4e00"
+        },
+        {
+          "site": "0x319c91",
+          "target": "0x2d4dc0"
+        },
+        {
+          "site": "0x319c99",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x319ca7",
+          "target": "0x2d7df8"
+        },
+        {
+          "site": "0x319cbe",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x319cd2",
+          "target": "0x319d8d"
+        },
+        {
+          "site": "0x319ce3",
+          "target": "0x2d4db8"
+        },
+        {
+          "site": "0x319ceb",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x319cf9",
+          "target": "0x2cf0ec"
+        },
+        {
+          "site": "0x319d06",
+          "target": "0x2d4df0"
+        },
+        {
+          "site": "0x319d13",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x319d26",
+          "target": "0x2d7af8"
+        },
+        {
+          "site": "0x319d2b",
+          "target": "0x319cce"
+        },
+        {
+          "site": "0x319d34",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x319d41",
+          "target": "0x2d4e38"
+        },
+        {
+          "site": "0x319d49",
+          "target": "0x2d4db8"
+        },
+        {
+          "site": "0x319d51",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x319d5f",
+          "target": "0x2cf0ec"
+        },
+        {
+          "site": "0x319d6f",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x319d85",
+          "target": "0x2d7af8"
+        },
+        {
+          "site": "0x319d9c",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x319db5",
+          "target": "0x2ef30c"
+        },
+        {
+          "site": "0x319dcf",
+          "target": "0x2d4df0"
+        },
+        {
+          "site": "0x319dde",
+          "target": "0x2d7af8"
+        },
+        {
+          "site": "0x319de3",
+          "target": "0x319d8d"
+        },
+        {
+          "site": "0x319dec",
+          "target": "0x2cd050"
+        }
+      ]
+    },
+    {
+      "start": "0x2e2bac",
+      "end_exclusive": "0x2e2db6",
+      "role": "identity complete rehash including alternate splice tail",
+      "sha256": "b44ae3427ed9993e18a6295ff08229954d100446aed4b7a77ef3853f5d87f70c",
+      "direct_edges": [
+        {
+          "site": "0x2e2bcd",
+          "target": "0x2d8b3c"
+        },
+        {
+          "site": "0x2e2bd8",
+          "target": "0x2d706c"
+        },
+        {
+          "site": "0x2e2bf5",
+          "target": "0x2d6b28"
+        },
+        {
+          "site": "0x2e2c08",
+          "target": "0x2d796c"
+        },
+        {
+          "site": "0x2e2c1e",
+          "target": "0x2d68a0"
+        },
+        {
+          "site": "0x2e2c36",
+          "target": "0x2d792c"
+        },
+        {
+          "site": "0x2e2c43",
+          "target": "0x2e2d58"
+        },
+        {
+          "site": "0x2e2c4c",
+          "target": "0x2d4e00"
+        },
+        {
+          "site": "0x2e2c55",
+          "target": "0x2d4dc0"
+        },
+        {
+          "site": "0x2e2c5d",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2e2c6b",
+          "target": "0x2e32dc"
+        },
+        {
+          "site": "0x2e2c82",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x2e2c96",
+          "target": "0x2e2d51"
+        },
+        {
+          "site": "0x2e2ca7",
+          "target": "0x2d4db8"
+        },
+        {
+          "site": "0x2e2caf",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2e2cbd",
+          "target": "0x2dde9c"
+        },
+        {
+          "site": "0x2e2cca",
+          "target": "0x2d4df0"
+        },
+        {
+          "site": "0x2e2cd7",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x2e2cea",
+          "target": "0x2d7af8"
+        },
+        {
+          "site": "0x2e2cef",
+          "target": "0x2e2c92"
+        },
+        {
+          "site": "0x2e2cf8",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x2e2d05",
+          "target": "0x2d4e38"
+        },
+        {
+          "site": "0x2e2d0d",
+          "target": "0x2d4db8"
+        },
+        {
+          "site": "0x2e2d15",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2e2d23",
+          "target": "0x2dde9c"
+        },
+        {
+          "site": "0x2e2d33",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x2e2d49",
+          "target": "0x2d7af8"
+        },
+        {
+          "site": "0x2e2d60",
+          "target": "0x2cc534"
+        },
+        {
+          "site": "0x2e2d79",
+          "target": "0x2df3cc"
+        },
+        {
+          "site": "0x2e2d93",
+          "target": "0x2d4df0"
+        },
+        {
+          "site": "0x2e2da2",
+          "target": "0x2d7af8"
+        },
+        {
+          "site": "0x2e2da7",
+          "target": "0x2e2d51"
+        },
+        {
+          "site": "0x2e2db0",
+          "target": "0x2cd050"
+        }
+      ]
+    },
+    {
+      "start": "0x2d7af8",
+      "end_exclusive": "0x2d7b1d",
+      "role": "list range splice",
+      "sha256": "6463dde43570b123c7ab4b912d8020132c3345b5aca8b71f9f615fefb2fa2c29",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2d45c8",
+      "end_exclusive": "0x2d460d",
+      "role": "wide C-string copy",
+      "sha256": "abd73f2b72e6e499320cb015b914094d25a0b352de3f3a3dd9c5587be2eb99a6",
+      "direct_edges": [
+        {
+          "site": "0x2d45dc",
+          "target": "0x2cabc0"
+        },
+        {
+          "site": "0x2d45e4",
+          "target": "0x2d8ad0"
+        },
+        {
+          "site": "0x2d45ec",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2d45fa",
+          "target": "0x2cf304"
+        }
+      ]
+    },
+    {
+      "start": "0x3cab84",
+      "end_exclusive": "0x3cab97",
+      "role": "UTF16 zero scan",
+      "sha256": "46746c14a2e8b54981e0bd1b1950d9c79bce7e8de0cede7abbb20770febaf8ac",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2d8728",
+      "end_exclusive": "0x2d877b",
+      "role": "wide end iterator",
+      "sha256": "f5aca6a7a44f459ba28d0e25a1e724e5b59c13da48b8bfc1852464839382a158",
+      "direct_edges": [
+        {
+          "site": "0x2d873d",
+          "target": "0x2d75dc"
+        },
+        {
+          "site": "0x2d8745",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2d8755",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2d8763",
+          "target": "0x2d3fe0"
+        }
+      ]
+    },
+    {
+      "start": "0x2d7d40",
+      "end_exclusive": "0x2d7d8e",
+      "role": "wide begin iterator",
+      "sha256": "dae43d976f9a959419bea1c717d98ef21d7db632411f692d81e0095991fff494",
+      "direct_edges": [
+        {
+          "site": "0x2d7d55",
+          "target": "0x2d75dc"
+        },
+        {
+          "site": "0x2d7d5d",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2d7d68",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2d7d76",
+          "target": "0x2d3fe0"
+        }
+      ]
+    },
+    {
+      "start": "0x2cee44",
+      "end_exclusive": "0x2ceedd",
+      "role": "wide iterator range to byte string",
+      "sha256": "e6a7d72069aa4b9e59142295ebfe45483dc48caced976490eb349b7485f4e425",
+      "direct_edges": [
+        {
+          "site": "0x2cee5f",
+          "target": "0x2cabc0"
+        },
+        {
+          "site": "0x2cee69",
+          "target": "0x2d0a44"
+        },
+        {
+          "site": "0x2cee7b",
+          "target": "0x2d0a44"
+        },
+        {
+          "site": "0x2cee8d",
+          "target": "0x2d6e98"
+        },
+        {
+          "site": "0x2cee92",
+          "target": "0x2ceed2"
+        },
+        {
+          "site": "0x2cee9a",
+          "target": "0x2d271c"
+        },
+        {
+          "site": "0x2ceea2",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ceeaf",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ceebc",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2ceecd",
+          "target": "0x2cf59c"
+        }
+      ]
+    },
+    {
+      "start": "0x2cf59c",
+      "end_exclusive": "0x2cf65e",
+      "role": "byte string allocation and conversion",
+      "sha256": "f9570f6958272eca2f70ba491704ffb4ff6e5324078b349e93da901056a3eba4",
+      "direct_edges": [
+        {
+          "site": "0x2cf5be",
+          "target": "0x2ce628"
+        },
+        {
+          "site": "0x2cf5d8",
+          "target": "0x2ccf94"
+        },
+        {
+          "site": "0x2cf5e5",
+          "target": "0x2cd324"
+        },
+        {
+          "site": "0x2cf5f2",
+          "target": "0x2cb09c"
+        },
+        {
+          "site": "0x2cf604",
+          "target": "0x2cb2f4"
+        },
+        {
+          "site": "0x2cf615",
+          "target": "0x2cd4e4"
+        },
+        {
+          "site": "0x2cf622",
+          "target": "0x2cb3a4"
+        },
+        {
+          "site": "0x2cf630",
+          "target": "0x2cf7e4"
+        },
+        {
+          "site": "0x2cf64b",
+          "target": "0x2d4a00"
+        },
+        {
+          "site": "0x2cf658",
+          "target": "0x2cd72c"
+        }
+      ]
+    },
+    {
+      "start": "0x2cf7e4",
+      "end_exclusive": "0x2cf7ff",
+      "role": "UTF16 low-byte conversion full tail",
+      "sha256": "f1b885018c51c6a9f46d6920f08bb3c8e0a46980ea242e838508e9d3d0ca3580",
+      "direct_edges": []
+    },
+    {
+      "start": "0x32c2d9",
+      "end_exclusive": "0x32c3c4",
+      "role": "shot curve lazy metadata/context fold; exclusive end",
+      "sha256": "e0be27a3cf87cf53e1d2148bcca4e3a1d2fb04b0e9bfb7a3cff71a27ef1612f8",
+      "direct_edges": [
+        {
+          "site": "0x32c2fe",
+          "target": "0x2cc730"
+        },
+        {
+          "site": "0x32c306",
+          "target": "0x2cdca4"
+        },
+        {
+          "site": "0x32c319",
+          "target": "0x32ba10"
+        },
+        {
+          "site": "0x32c321",
+          "target": "0x2e9b8c"
+        },
+        {
+          "site": "0x32c334",
+          "target": "0x32b958"
+        },
+        {
+          "site": "0x32c33c",
+          "target": "0x2cde34"
+        },
+        {
+          "site": "0x32c34f",
+          "target": "0x32b8f0"
+        },
+        {
+          "site": "0x32c357",
+          "target": "0x2d866c"
+        },
+        {
+          "site": "0x32c362",
+          "target": "0x334224"
+        },
+        {
+          "site": "0x32c379",
+          "target": "0x3349ac"
+        },
+        {
+          "site": "0x32c398",
+          "target": "0x32c3a1"
+        },
+        {
+          "site": "0x32c3bf",
+          "target": "0x2cbd24"
+        }
+      ]
+    },
+    {
+      "start": "0x32b728",
+      "end_exclusive": "0x32b7a0",
+      "role": "curve typed wrapper including final tail jump",
+      "sha256": "489bc90941f66faccee6eaf1d4d3aa38034a7c139f289c7a6487cf8a07fa59ba",
+      "direct_edges": [
+        {
+          "site": "0x32b741",
+          "target": "0x2cc268"
+        },
+        {
+          "site": "0x32b74e",
+          "target": "0x2ddbf8"
+        },
+        {
+          "site": "0x32b78c",
+          "target": "0x3cdbd4"
+        },
+        {
+          "site": "0x32b79b",
+          "target": "0x3cdbb0"
+        }
+      ]
+    },
+    {
+      "start": "0x2e1432",
+      "end_exclusive": "0x2e14a1",
+      "role": "melee class/allocation fold including both failure branches",
+      "sha256": "c5988f7c9d26705803e39b18ace618579dfe05e65a87473a24441952dfd143b6",
+      "direct_edges": [
+        {
+          "site": "0x2e1440",
+          "target": "0x2cc730"
+        },
+        {
+          "site": "0x2e1448",
+          "target": "0x2cdca4"
+        },
+        {
+          "site": "0x2e145b",
+          "target": "0x2dfa74"
+        },
+        {
+          "site": "0x2e1463",
+          "target": "0x2e3704"
+        },
+        {
+          "site": "0x2e146e",
+          "target": "0x334224"
+        },
+        {
+          "site": "0x2e1479",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x2e1489",
+          "target": "0x2e3ce4"
+        },
+        {
+          "site": "0x2e1494",
+          "target": "0x2caf08"
+        }
+      ]
+    },
+    {
+      "start": "0x2e3ce4",
+      "end_exclusive": "0x2e3d5c",
+      "role": "cached object allocator wrapper and final tail jump",
+      "sha256": "447f73d349926e139a33c5113edd39fc07e142fba50d3741d29de5f9b321f4b2",
+      "direct_edges": [
+        {
+          "site": "0x2e3d00",
+          "target": "0x2dee4c"
+        },
+        {
+          "site": "0x2e3d15",
+          "target": "0x2e3d1e"
+        },
+        {
+          "site": "0x2e3d3c",
+          "target": "0x2cbd24"
+        },
+        {
+          "site": "0x2e3d57",
+          "target": "0x2cb9fc"
+        }
+      ]
+    },
+    {
+      "start": "0x2cb9fc",
+      "end_exclusive": "0x2cba4f",
+      "role": "one-argument object wrapper",
+      "sha256": "fa0dc44b25b80e0ccfd0dcd7ef226ced5444dff7a2d58f995caae8643f9049a5",
+      "direct_edges": [
+        {
+          "site": "0x2cba0d",
+          "target": "0x2cc268"
+        },
+        {
+          "site": "0x2cba4a",
+          "target": "0x3cdbd4"
+        }
+      ]
+    },
+    {
+      "start": "0x2cc730",
+      "end_exclusive": "0x2cc737",
+      "role": "encrypted empty literal",
+      "sha256": "1f1783e9ad63e1619f728fe1b816001d548b2fae23f0da9ae55178f14eeee07e",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2cd9dc",
+      "end_exclusive": "0x2cd9e3",
+      "role": "empty literal XOR decoder",
+      "sha256": "9eea61d1edbec31ab0b7639cfecb1cbb1cc66eefa791a59fa8d72fb56e8052be",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2cc268",
+      "end_exclusive": "0x2cc26f",
+      "role": "qword argument copy",
+      "sha256": "3b98965107b095508ee4fc4b85b2f7577d6b087b36ca11d22785db60f8c44b97",
+      "direct_edges": []
+    },
+    {
+      "start": "0x2ddbf8",
+      "end_exclusive": "0x2ddc00",
+      "role": "float argument copy",
+      "sha256": "f577e99a0790e066f710ef4010befe90f64e939da43b31afa106a37b2bc21dc8",
+      "direct_edges": []
+    },
+    {
+      "start": "0x3cdbb0",
+      "end_exclusive": "0x3cdbb1",
+      "role": "return thunk",
+      "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+      "direct_edges": []
+    }
+  ]
+}

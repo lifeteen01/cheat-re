@@ -1,0 +1,13 @@
+39b410	sub    rsp,0x38
+39b414	movaps XMMWORD PTR [rsp+0x20],xmm6
+39b419	movaps xmm6,xmm0
+39b41c	call   0x35d200
+39b421	movss  xmm1,DWORD PTR [rax+0x20]
+39b426	subss  xmm1,DWORD PTR [rax+0x84]
+39b42e	mov    BYTE PTR [rax+0x141],0x1
+39b435	addss  xmm1,xmm6
+39b439	movaps xmm6,XMMWORD PTR [rsp+0x20]
+39b43e	movss  DWORD PTR [rax+0x100],xmm1
+39b446	add    rsp,0x38
+39b44a	ret
+39b44b	int3

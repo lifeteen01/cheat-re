@@ -1,0 +1,38 @@
+ {
+  "pid" : 6608,
+  "output_dir" : "process_6608",
+  "minidump_path" : "C:\\lab\\dumps4\\pesieve_hooks_full\\process_6608\\powershell.exe.dmp",
+  "dumped" : 
+  {
+   "total" : 3,
+   "dumped" : 3
+  },
+  "dumps" : [
+   {
+    "module" : "7ffa83c80000",
+    "module_size" : "267000",
+    "dump_file" : "7ffa83c80000.ntdll.dll",
+    "tags_file" : "7ffa83c80000.ntdll.dll.tag",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffa36e10000",
+    "module_size" : "9a4000",
+    "dump_file" : "7ffa36e10000.clr.dll",
+    "tags_file" : "7ffa36e10000.clr.dll.tag",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffa2e5a0000",
+    "module_size" : "13e6000",
+    "dump_file" : "7ffa2e5a0000.simple_raknet_hooks.dll",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   }
+  ]
+ }

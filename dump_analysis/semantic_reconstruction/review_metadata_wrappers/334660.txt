@@ -1,0 +1,32 @@
+334660 mov    QWORD PTR [rsp+0x8],rbx
+334665 push   rdi
+334666 sub    rsp,0x20
+33466a mov    eax,DWORD PTR [rip+0xc52e0]        # 0x3f9950
+334670 mov    rbx,rdx
+334673 mov    rdi,rcx
+334676 test   al,0x1
+334678 jne    0x33469a
+33467a or     eax,0x1
+33467d mov    DWORD PTR [rip+0xc52cd],eax        # 0x3f9950
+334683 call   0x333a2c
+334688 mov    r8,rax
+33468b mov    QWORD PTR [rip+0xc52b6],rax        # 0x3f9948
+334692 mov    eax,DWORD PTR [rip+0xc52b8]        # 0x3f9950
+334698 jmp    0x3346a1
+33469a mov    r8,QWORD PTR [rip+0xc52a7]        # 0x3f9948
+3346a1 test   al,0x2
+3346a3 jne    0x3346c4
+3346a5 mov    rcx,QWORD PTR [rip+0xa17b4]        # 0x3d5e60
+3346ac lea    rdx,[rip+0xc52ad]        # 0x3f9960
+3346b3 or     eax,0x2
+3346b6 xor    r9d,r9d
+3346b9 mov    DWORD PTR [rip+0xc5291],eax        # 0x3f9950
+3346bf call   0x2cbd24
+3346c4 mov    rcx,QWORD PTR [rip+0xa1795]        # 0x3d5e60
+3346cb lea    rdx,[rip+0xc528e]        # 0x3f9960
+3346d2 mov    r9,rbx
+3346d5 mov    r8,rdi
+3346d8 mov    rbx,QWORD PTR [rsp+0x30]
+3346dd add    rsp,0x20
+3346e1 pop    rdi
+3346e2 jmp    0x2d2094

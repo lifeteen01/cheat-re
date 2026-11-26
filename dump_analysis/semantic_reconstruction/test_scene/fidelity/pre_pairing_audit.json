@@ -1,0 +1,173 @@
+{
+  "strict": {
+    "passed": true,
+    "checks": {
+      "reported_pass": true,
+      "inputs_current": true,
+      "unit_set_current": true,
+      "artifact_current": true,
+      "captures_current": true,
+      "capture_set_current": true,
+      "traces_match_record": true,
+      "required_entries_executed": true,
+      "observed_output_checks": true,
+      "frame_counts_present": true
+    },
+    "observed_changes": {
+      "baseline_boxes_and_native_name_passes": true,
+      "checkbox_suppresses_output": true,
+      "picker_changes_geometry_not_projection": true,
+      "editor_paste_changes_color_and_geometry": true,
+      "recovered_color_popup_lifecycle": true,
+      "submission_and_display_share_selected_order": true,
+      "hidden_menu_excludes_window_lists": true,
+      "menu_consumes_recovered_io": true,
+      "copied_client_install_supplies_saved_target": true,
+      "slider_filters_and_restores_entities": true,
+      "camera_and_entities_change_projection": true,
+      "offsets_change_actual_labels": true,
+      "resize_stages_exist": true,
+      "owned_frame_submission_not_native_gpu": true
+    },
+    "frames": 208,
+    "platform_paints": 0,
+    "png_captures": 11,
+    "translation_units": 150,
+    "artifact_sha256": "87e4f252706d2c3c5aba1d71e7b0779b3f42a7444e053bacff97952d9b8ee1a4",
+    "verification_sha256": "86f829735ad343da1f27976d54ef9e5716320c259045e7b433f9ee1090a51b98",
+    "events_sha256": "bc788bf539951b55c45cc3f5db3cc8b47bd60a8b34b838af00216fd4d5291f0a",
+    "entrypoints_sha256": "63d8a1c3f1a50a398a56f59b5f5eba95860bba1e104bee54856cd00237d7132c"
+  },
+  "sanitizer": {
+    "passed": true,
+    "checks": {
+      "reported_pass": true,
+      "inputs_current": true,
+      "unit_set_current": true,
+      "artifact_current": true,
+      "captures_current": true,
+      "capture_set_current": true,
+      "traces_match_record": true,
+      "required_entries_executed": true,
+      "observed_output_checks": true,
+      "frame_counts_present": true
+    },
+    "observed_changes": {
+      "baseline_boxes_and_native_name_passes": true,
+      "checkbox_suppresses_output": true,
+      "picker_changes_geometry_not_projection": true,
+      "editor_paste_changes_color_and_geometry": true,
+      "recovered_color_popup_lifecycle": true,
+      "submission_and_display_share_selected_order": true,
+      "hidden_menu_excludes_window_lists": true,
+      "menu_consumes_recovered_io": true,
+      "copied_client_install_supplies_saved_target": true,
+      "slider_filters_and_restores_entities": true,
+      "camera_and_entities_change_projection": true,
+      "offsets_change_actual_labels": true,
+      "resize_stages_exist": true,
+      "owned_frame_submission_not_native_gpu": true
+    },
+    "frames": 208,
+    "platform_paints": 0,
+    "png_captures": 11,
+    "translation_units": 150,
+    "artifact_sha256": "d6ef57c2d2e26334cbca5c28b40fb3632fa743111c436bb02dfd44df9a99487f",
+    "verification_sha256": "ca757be9783b3cba069c5d48709bb2626cc16803dfc4904b654a9ae4ef264591",
+    "events_sha256": "bc788bf539951b55c45cc3f5db3cc8b47bd60a8b34b838af00216fd4d5291f0a",
+    "entrypoints_sha256": "63d8a1c3f1a50a398a56f59b5f5eba95860bba1e104bee54856cd00237d7132c"
+  },
+  "windows": {
+    "passed": true,
+    "checks": {
+      "reported_pass": true,
+      "inputs_current": true,
+      "unit_set_current": true,
+      "artifact_current": true,
+      "captures_current": true,
+      "capture_set_current": true,
+      "traces_match_record": true,
+      "required_entries_executed": true,
+      "observed_output_checks": true,
+      "frame_counts_present": true,
+      "wine_not_mislabelled_native": true,
+      "actual_window_capture_pairs": true
+    },
+    "observed_changes": {
+      "baseline_boxes_and_native_name_passes": true,
+      "checkbox_suppresses_output": true,
+      "picker_changes_geometry_not_projection": true,
+      "editor_paste_changes_color_and_geometry": true,
+      "recovered_color_popup_lifecycle": true,
+      "submission_and_display_share_selected_order": true,
+      "hidden_menu_excludes_window_lists": true,
+      "menu_consumes_recovered_io": true,
+      "copied_client_install_supplies_saved_target": true,
+      "slider_filters_and_restores_entities": true,
+      "camera_and_entities_change_projection": true,
+      "offsets_change_actual_labels": true,
+      "resize_stages_exist": true,
+      "owned_frame_submission_not_native_gpu": true
+    },
+    "frames": 212,
+    "platform_paints": 212,
+    "png_captures": 22,
+    "translation_units": 150,
+    "artifact_sha256": "9ffd610558ec15f30973f624f6c7d2374f7519ad906753a6416da7dafbaaddda",
+    "verification_sha256": "bd0abbeaea2839ac3ac0754932998aafdb6fa855bab24c082e2582f6f7c96364",
+    "events_sha256": "235f0a598f46d1e9ac73a28bd37dcb08ce050c72ed1c33175161ce152c0e5d95",
+    "entrypoints_sha256": "8838b579c516cf82eee5a5d0aa5d09a25f1130e9146d2e7c695929bf9c82bdea"
+  },
+  "full_regression_strict": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "d478c59f1a69be155841465e77734f81d5e8b8ad804f39a0096875cdbf7892f3",
+    "log_sha256": "67d86974150460373fd5cb0dd75ef3a69ef0787477e4138e58bb7616246a4f4f"
+  },
+  "full_regression_sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328,
+    "record_sha256": "3985cce38d84aeb7ada9ddb6164561ba396f9ac95a9041d72ede716fed954a7c",
+    "log_sha256": "b66ba16f42f938eb71eba5a15def8f7f9041b85778d19ca3219aaf1d62e0ada3"
+  },
+  "original_inputs": {
+    "passed": true,
+    "entries": 135,
+    "manifest_sha256": "a106b5ad116dfc931b58d6470482a000be8e4f381f39405255e0195271ee94c2"
+  },
+  "cmake_ctest": {
+    "passed": true,
+    "inputs_current": true,
+    "record_pairing_current": true,
+    "snapshot_sha256": "8be2e0df864ff0029556f2e871e1aec8ffce86700fe8a7bfc28109bd66799421",
+    "log_sha256": "b6893d8431849352e47014e0cf585cae2fe3633083c8ce7a0afbbd0331082cea",
+    "artifact_sha256": "5ea411d40dc97a4d226bcaba5b575c1e36498b0bb257ea14af9d4de468031897"
+  },
+  "owned_verification_passed": true,
+  "semantic_fidelity": {
+    "source_95_percent_established": false,
+    "percentage": null,
+    "reason": "No complete original-source semantic denominator or matching native runtime oracle",
+    "scope": "Owned menu/ESP subset; typed camera, platform and resource boundaries are not native proof"
+  },
+  "native_windows": {
+    "validated": false
+  },
+  "inside_rust": {
+    "validated": false,
+    "game_bindings": "Needed / To do"
+  },
+  "required_inputs": {
+    "GameAssembly.dll": "Needed / To do",
+    "UnityPlayer.dll": "Needed / To do",
+    "global-metadata.dat": "Needed / To do"
+  },
+  "spoof_executor": {
+    "implemented": false,
+    "validated": false,
+    "scene_call_mode": "ordinary calls"
+  },
+  "trace_units": "Owned entry/caller/boundary counters; not original instruction coverage"
+}

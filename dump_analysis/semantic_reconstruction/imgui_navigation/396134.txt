@@ -1,0 +1,20 @@
+396134 comiss xmm2,xmm1
+396137 jbe    0x396141
+396139 subss  xmm1,xmm2
+39613d movaps xmm0,xmm1
+396140 ret
+396141 comiss xmm0,xmm3
+396144 jbe    0x39614b
+396146 subss  xmm0,xmm3
+39614a ret
+39614b xorps  xmm0,xmm0
+39614e ret
+39614f int3
+396150 mov    rax,rsp
+396153 mov    QWORD PTR [rax+0x18],rbx
+396157 push   rbp
+396158 push   rsi
+396159 push   rdi
+39615a push   r12
+39615c push   r13
+39615e push   r14

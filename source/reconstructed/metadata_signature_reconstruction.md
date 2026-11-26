@@ -1,0 +1,13 @@
+# Signature-hash metadata lookup
+
+[C] [metadata_signature_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/metadata_signature_analysis.cpp) implements the control flow of `0x333d10..0x334168` over copied class records and supplied export results. It dereferences each assembly to obtain the image, repeatedly queries class counts, iterates methods and builds the native signature text before comparing the zero-extended CRC32 with the full64-bit request.
+
+[C] Signature text is `[namespace::]class::method(parameter_types): return_type`, without spaces after parameter commas. Each type name loses only the prefix through its first dot; a missing dot retains the whole name because `npos+1` wraps to zero. Method parameter count is read repeatedly. If its first result is nonzero but its next result is zero, removing the final character removes `(` and the resulting suffix still begins `): `. These unusual string results remain literal.
+
+[C] Lookup in the existing cheat cache truncates the request to32 bits, while a fresh CRC scan compares all64 bits. Thus a previously cached low32-bit match can return for a request that would never match a fresh scan. Successful scans populate the cache; completed misses do not. [I] `MetadataSignatureCache` uses an owned `std::map` to express key/value behavior; native cache allocation, node storage and rehashing remain in the broader container unit.
+
+[C] CRC routine `0x334768` uses reflected polynomial `0xedb88320`, complemented initial/final state and the supplied seed. All256 DWORDs at `0x294e70` independently match that table. Separator at `0x294e64` is `2e00` (`.` followed by NUL). [C] [Constant verification](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/metadata_signature_constants.json) records the exact table hash.
+
+[C] Evidence: [complete lookup body](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/metadata_adapters_evidence.asm), [CRC body](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/metadata_export_resolvers_bodies.asm), [export/helper wrappers](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/signature_lookup_helpers.asm) and [string operations](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/signature_string_operations.asm).
+
+[I] Fixtures use independently computed CRCs for `NS::Thing::Run(Int32,String): Void` (`0x569098e7`) and `Thing::Tick(): Boolean` (`0x288e7de9`), plus changing count results, missing bytes/callbacks, finite traversal limits and cache/full-request divergence. [U] Export implementations, native allocator/exception behavior, source type names and live calling conventions remain external. Finite work/string limits are analyst safeguards.

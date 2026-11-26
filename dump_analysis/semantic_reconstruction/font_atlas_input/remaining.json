@@ -1,0 +1,44 @@
+{
+  "reached_local_gaps": [],
+  "specializations": [
+    {
+      "range": [
+        "0x39f73c",
+        "0x39f770"
+      ],
+      "incoming_flag": 0,
+      "evidence": "39f272 xor edx,edx;39f277 call39f73c",
+      "untranslated_branch": [
+        "0x39f755",
+        "0x39f762"
+      ],
+      "callee_thunk": [
+        "0x38a3cc",
+        "0x38a3d1"
+      ],
+      "thunk_target_pdata": [
+        "0x3c8bd0",
+        "0x3c8c4d"
+      ],
+      "reachable_from_assigned_roots": false
+    }
+  ],
+  "resource_effects": [
+    "mapped native395158 allocation result",
+    "typed configured native39517c free leaf",
+    "explicit UnityBytes/native stack config marshalling and lifetimes"
+  ],
+  "adaptations": [
+    "Snapshot/FontTextStore initial-record correspondence",
+    "generated vectors kept owned without fabricated ABI pointers",
+    "indeterminate native allocation mask",
+    "preflight only for known/bounded font and terminated range bytes",
+    "mapped storage lifetime/reuse supplied by provider"
+  ],
+  "unverified": [
+    "general destructor flag1",
+    "symbolic unknown parser mutation prefix",
+    "live resource/game/OS ABI and FP environment",
+    "other unassigned font ingestion overloads/atlas construction"
+  ]
+}

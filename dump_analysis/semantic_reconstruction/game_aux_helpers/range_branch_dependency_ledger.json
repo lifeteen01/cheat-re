@@ -1,0 +1,375 @@
+{
+  "sample_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "virtual_layout": "file offset equalsRVA",
+  "ranges": [
+    {
+      "begin": "0x315a24",
+      "end_exclusive": "0x315a52",
+      "bytes": 46,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "5601456dc3cc8e73dc07b1ebc5aba8870f0afcca4a79599a685c85ac7d940021",
+      "calls": [
+        {
+          "site": "0x315a39",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x315a40",
+          "instruction": "jne    0x315a46",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x32957c",
+      "end_exclusive": "0x3295ba",
+      "bytes": 62,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "f39db18bad53e4aa334c22486ecddaad1c57f2c9103ad53b85937e456a5adaec",
+      "calls": [
+        {
+          "site": "0x329591",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x3295a4",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x329598",
+          "instruction": "je     0x3295b3",
+          "status": "C"
+        },
+        {
+          "site": "0x3295ab",
+          "instruction": "je     0x3295b3",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x329714",
+      "end_exclusive": "0x329752",
+      "bytes": 62,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "af0526e8f3288a3a6a7ccc18441e8d2070506029f8ebffb863553e454722e1f4",
+      "calls": [
+        {
+          "site": "0x329729",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x32973c",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x329730",
+          "instruction": "je     0x32974b",
+          "status": "C"
+        },
+        {
+          "site": "0x329743",
+          "instruction": "je     0x32974b",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x329a38",
+      "end_exclusive": "0x329a66",
+      "bytes": 46,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "60ca3c50c7d3de8739c24df571b81f8cbf10be4b92c1807bbf94eb7b234454df",
+      "calls": [
+        {
+          "site": "0x329a4d",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x329a54",
+          "instruction": "jne    0x329a5a",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x36ad68",
+      "end_exclusive": "0x36ad9b",
+      "bytes": 51,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "5369d3dbe59147abcdb98f4218ddb76c22ada0775a2b9c76e5cb83d7e59a168e",
+      "calls": [
+        {
+          "site": "0x36ad6f",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x36ad76",
+          "instruction": "je     0x36ad96",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x36ae90",
+      "end_exclusive": "0x36aec3",
+      "bytes": 51,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "d0e1518b532ee44dd9b1cdb1b56c1a7781e72cf294233f26d55aa734495c9e83",
+      "calls": [
+        {
+          "site": "0x36ae97",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x36ae9e",
+          "instruction": "je     0x36aebe",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x372c1c",
+      "end_exclusive": "0x372c35",
+      "bytes": 25,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "ddbb4b541bae71750fefb980623659a799973ac1ce9157c1415105641136441f",
+      "calls": [
+        {
+          "site": "0x372c23",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x372c2a",
+          "instruction": "je     0x372c30",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x3740e0",
+      "end_exclusive": "0x374123",
+      "bytes": 67,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "527dc7c12f27e40e6ca177f7d82388ddb30824890c74910bb4604b42a14a1e60",
+      "calls": [
+        {
+          "site": "0x3740ec",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x3740f8",
+          "target": "0x3c7bbc"
+        },
+        {
+          "site": "0x374107",
+          "target": "0x2dee3c"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x3740f3",
+          "instruction": "jne    0x3740ff",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x374124",
+      "end_exclusive": "0x374167",
+      "bytes": 67,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "245dfdfb01afcbe722271e19ed144521044cd95b9e3f0d869744617294283f87",
+      "calls": [
+        {
+          "site": "0x374130",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x37413c",
+          "target": "0x3c7bbc"
+        },
+        {
+          "site": "0x37414b",
+          "target": "0x2dee3c"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x374137",
+          "instruction": "jne    0x374143",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x374268",
+      "end_exclusive": "0x3742ac",
+      "bytes": 68,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "4e128962b9a7d738100037999aa86a8b8c4e8b11b740234f3f3e3d14a7b7d374",
+      "calls": [
+        {
+          "site": "0x374271",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x37427d",
+          "target": "0x37423c"
+        },
+        {
+          "site": "0x37428e",
+          "target": "0x374300"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x374278",
+          "instruction": "je     0x3742a4",
+          "status": "C"
+        },
+        {
+          "site": "0x374289",
+          "instruction": "jbe    0x3742a4",
+          "status": "C"
+        },
+        {
+          "site": "0x37429e",
+          "instruction": "jbe    0x3742a4",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x3743f8",
+      "end_exclusive": "0x37443b",
+      "bytes": 67,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "20e72c5a2aa4fbffea90d5dbc31bada7e1425772e1f6f457374b128cb12c1e4d",
+      "calls": [
+        {
+          "site": "0x374404",
+          "target": "0x2caf08"
+        },
+        {
+          "site": "0x374410",
+          "target": "0x3c7bbc"
+        },
+        {
+          "site": "0x37441f",
+          "target": "0x2dee3c"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x37440b",
+          "instruction": "jne    0x374417",
+          "status": "C"
+        }
+      ]
+    },
+    {
+      "begin": "0x37628c",
+      "end_exclusive": "0x3762ac",
+      "bytes": 32,
+      "extent_source": "PE runtime function record; all branches/post-return blocks retained",
+      "status": "C",
+      "implementation": "source/reconstructed/game_aux_helpers_analysis.cpp",
+      "sha256": "79bb7c97d57e4a55494d064b6824c93599435849fce4163988b046abeb62e11d",
+      "calls": [
+        {
+          "site": "0x376293",
+          "target": "0x2caf08"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x37629a",
+          "instruction": "jne    0x3762a0",
+          "status": "C"
+        }
+      ]
+    }
+  ],
+  "bytes": 644,
+  "conditional_branches": 16,
+  "dependencies": [
+    {
+      "rva": "0x2caf08",
+      "end_exclusive": "0x2caf28",
+      "status": "C: reuse sample_pointer_range literal unsigned range"
+    },
+    {
+      "rva": "0x2dee3c",
+      "end_exclusive": "0x2dee4a",
+      "status": "C: guarded receiver+offset fold"
+    },
+    {
+      "rva": "0x3c7bbc",
+      "end_exclusive": "0x3c7bc8",
+      "status": "C: actual zeroQWORD then zeroDWORD; not unwritten output"
+    },
+    {
+      "rva": "0x37423c",
+      "end_exclusive": "0x374267",
+      "status": "C: read_scalar_getter existing field getter"
+    },
+    {
+      "rva": "0x374300",
+      "end_exclusive": "0x37432b",
+      "status": "C: read_scalar_getter existing field getter"
+    }
+  ],
+  "threshold_constants": {
+    "0x28d24c": {
+      "bits": "0x0",
+      "float": 0.0
+    },
+    "0x2a8ecc": {
+      "bits": "0x40fccccd",
+      "float": 7.900000095367432
+    }
+  },
+  "remaining_local_bodies": [],
+  "limits": [
+    "Owned typed vector result has no native output alias; use_into reproduces8+4interleaving.",
+    "game_aux_write bool is an analysis did-write result; native setters returnvoid.",
+    "No live pointer/ABI/GameAssembly code invoked."
+  ]
+}

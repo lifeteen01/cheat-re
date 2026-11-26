@@ -1,0 +1,23 @@
+{
+  "baseline": "dump_analysis/semantic_reconstruction/fields_font_editor_final_verification.txt",
+  "production_sources_unchanged": true,
+  "mutations": [
+    {
+      "case": "missing_argument_staging",
+      "expected_failure": "shared direct getter stages known one-argument fields before its effect",
+      "exit_status": 1,
+      "detected": true,
+      "mutant_sha256": "58c9f0af18643b49c09b22a1d3e68e534eb63c73567d8b6318f7f933a566bad3",
+      "log": "dump_analysis/semantic_reconstruction/game_field_controllers/missing_argument_staging_verification.txt"
+    },
+    {
+      "case": "integer_setter_result",
+      "expected_failure": "unexpected movement main integer 3286400",
+      "exit_status": 1,
+      "detected": true,
+      "mutant_sha256": "296ad98f0ff64d10e0cee919f23fce14cf998e0cde8d56d513a494db498b35d4",
+      "log": "dump_analysis/semantic_reconstruction/game_field_controllers/integer_setter_result_verification.txt"
+    }
+  ],
+  "limit": "Analyst fixture code only; no sample execution"
+}

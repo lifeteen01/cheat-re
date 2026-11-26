@@ -1,0 +1,33 @@
+{
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15",
+    "-L/usr/lib/x86_64-linux-gnu",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed",
+    "-fsanitize=address,undefined",
+    "-static-libasan",
+    "-static-libubsan",
+    "-fno-sanitize-recover=all",
+    "-fno-omit-frame-pointer"
+  ],
+  "dependencies": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_argument_bindings.cpp": "c3f9775e823cf6d66c4faec2f57b40b902db7a25581f9b5cafcaf603e8627ed8",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_argument_bindings.hpp": "d3ded5720d64d298eae698bf6490cb2eae7a6893b9f13e1550be2ea94885039b",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_wrapper_analysis.hpp": "0666fcce193411f929556d36de4363f2195b35bd9c33abf869da3338e032c677",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_export_analysis.hpp": "195fa13dd93dd66f787c967e8d5e4ad4846059272b9462fad47d5e7cabcc776f",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_analysis.hpp": "c2a911d47102dea04281595ec498af958170b7a8794f23e0b9c96c7f02833e61",
+    "/home/john/Desktop/cheat_re/source/reconstructed/internal_analysis.hpp": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee"
+  }
+}

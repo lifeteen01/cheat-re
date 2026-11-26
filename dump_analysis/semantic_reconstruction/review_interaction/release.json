@@ -1,0 +1,36 @@
+{
+  "state": "frozen_released_parent_owned",
+  "files": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/interaction_workers.cpp": "944c99bc2ccacce39c3070587c0e9a75948717c000e1d90e5dd496078075663a",
+    "/home/john/Desktop/cheat_re/source/reconstructed/interaction_workers_checks.cpp": "23bb9a97ef53238799f0ccac8288c70dd8e618223f4fee67dcd4486ab11ea585"
+  },
+  "check_entrypoint": "rust_internal_re::check_interaction_workers_reconstruction()",
+  "findings_fixed": [
+    "I1",
+    "I2"
+  ],
+  "known_limits": [
+    "L1 copied class-name bytes cannot model delayed alias mutation",
+    "not exhaustive scalar NaN payload, container internals or foreign effect proof"
+  ],
+  "validation": {
+    "source_strict": "PASS",
+    "source_ASan_UBSan": "PASS",
+    "source_isolated_I1_reversion": "rejected intended regression",
+    "source_isolated_I2_reversion": "rejected intended regression",
+    "independent_byte_envelopes": 23,
+    "verified_disassembly_fragments": 307150
+  },
+  "evidence": [
+    "source_verification.txt",
+    "source_sanitizer_verification.txt",
+    "source_reversion_I1.txt",
+    "source_reversion_I2.txt",
+    "sources_strict.json",
+    "sources_sanitize.json",
+    "findings.md",
+    "review.md",
+    "byte_audit.json",
+    "fixes.patch"
+  ]
+}

@@ -1,0 +1,48 @@
+#include "font_atlas_input_analysis.hpp"
+namespace rust_internal_re {
+re::ReSpan<const RendererCoverage> font_atlas_input_coverage() {
+    static constexpr RendererCoverage ranges[]{
+        {0x39fe54, 0x39ff7c, "[C] [I] memory font ingestion"},
+        {0x39fd68, 0x39fe54, "[C] [I] AddFont"},
+        {0x39f550, 0x39f5aa, "[C] [I] config constructor"},
+        {0x39f3d0, 0x39f433, "[C] [I] font constructor"},
+        {0x3a3c40, 0x3a3c63, "[C] [I] clear atlas controller"},
+        {0x3a3d04, 0x3a3e10, "[C] [I] clear input"},
+        {0x3a3c64, 0x3a3c80, "[C] [I] clear fonts"},
+        {0x39f268, 0x39f28a, "[C] [I] font destroy wrapper"},
+        {0x39f73c, 0x39f770, "[C] [I] destructor flag0 specialization"},
+        {0x39f5ac, 0x39f5d9, "[C] [I] font destructor"},
+        {0x336624, 0x33663b, "[C] [I] descriptor destructor"},
+        {0x37a658, 0x37a69b, "[C] [I] font pointer append"},
+        {0x37a758, 0x37a7b9, "[C] [I] font pointer reserve"},
+        {0x3a9480, 0x3a9518, "[C] [I] config append"},
+        {0x3a95bc, 0x3a9620, "[C] [I] config reserve"},
+        {0x3a931c, 0x3a932e, "[C] [I] config back"},
+        {0x39e314, 0x39e324, "[C] [I] font back"},
+        {0x39f620, 0x39f62f, "[C] [I] config index"},
+        {0x38bb84, 0x38bb90, "[C] [I] font index"},
+        {0x362efc, 0x362f25, "[C] [I] growth"},
+        {0x379578, 0x3795a4, "[C] [I] vector clear"},
+        {0x38bb6c, 0x38bb70, "[C] [I] literal no-fill"},
+        {0x2db3a0, 0x2db3ad, "[C] [I] vector constructor"},
+        {0x2d4870, 0x2d487b, "[C] [I] Vec2 zero"},
+        {0x3c8d4c, 0x3c8d6e, "[C] [I] forward byte copy"},
+        {0x3a8bec, 0x3a8c1f, "[C] [I] range unpack"},
+        {0x3a47b4, 0x3a47bc, "[C] [I] range getter"},
+        {0x3a47cc, 0x3a482e, "[C] [I] Chinese range getter"},
+        {0x3a4748, 0x3a4750, "[C] [I] range getter"},
+        {0x3a47c4, 0x3a47cc, "[C] [I] range getter"},
+        {0x3a4830, 0x3a4838, "[C] [I] range getter"},
+        {0x3a4840, 0x3a4848, "[C] [I] range getter"},
+        {0x3a4838, 0x3a4840, "[C] [I] range getter"},
+        {0x3a4750, 0x3a47b4, "[C] [I] Japanese range getter"},
+        {0x3c8d70, 0x3c8d8b, "[C] [I] forward byte fill"},
+        {0x3a3e10, 0x3a3e64, "[C] [I] shared output clear with owned mutations"},
+        {0x3a3e64, 0x3a3ea3, "[C] [I] shared pixel clear with owned mutations"},
+        {0x395158, 0x39517b, "[C] [I] reused draw-core allocation wrapper"},
+        {0x39517c, 0x3951a1, "[C] [I] reused draw-core free wrapper"},
+        {0x3a9344, 0x3a937f, "[C] [I] font pointer vector destruction"},
+    };
+    return ranges;
+}
+} // namespace rust_internal_re

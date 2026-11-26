@@ -1,0 +1,171 @@
+{
+  "compiler": "GCC15.2",
+  "flags": [
+    "C++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off"
+  ],
+  "inputs": [
+    {
+      "path": "dump_analysis/semantic_reconstruction/menu_controls/check_main.cpp",
+      "sha256": "e283f9f7e9bac55e1397ea3bca2b09dd14e6560a89dc2933881563c8cea546b5"
+    },
+    {
+      "path": "source/reconstructed/drawlist_core_analysis.hpp",
+      "sha256": "a8aa5868756f5b370e84c803d1d656566ed0618d22d3b44a37603ab0b194175c"
+    },
+    {
+      "path": "source/reconstructed/entities_analysis.hpp",
+      "sha256": "c1f3a9ad7186a1d8bde1ffb0710cc5cb80c5c960aedd145fc093ea6994908ba9"
+    },
+    {
+      "path": "source/reconstructed/font_text_analysis.hpp",
+      "sha256": "7b293e8742775fd456f2e3cf822110d3fb102b68d4c8e6ef06ae831a94906d66"
+    },
+    {
+      "path": "source/reconstructed/frame_dependencies_analysis.hpp",
+      "sha256": "5ba226f6974847f5ab29be4be5d704c9a0570e05020a502e5d456167a83f1965"
+    },
+    {
+      "path": "source/reconstructed/frame_dependencies_hotkeys.inc",
+      "sha256": "8e8ebffb572388e90c69b4fc37acdc284f31ddb8bd439fcd31e15c2dd32f5983"
+    },
+    {
+      "path": "source/reconstructed/frame_dependencies_main_menu.hpp",
+      "sha256": "3c1a55c5d39d763999e0c38fcdb93f43a9b746c5e04dfadf70bd1e1bcf80e270"
+    },
+    {
+      "path": "source/reconstructed/frame_dependencies_menu.cpp",
+      "sha256": "d41547bcdd55a681c7eac864ccb82fdf68c40cd06bc64e5dfb1e5f80ca0e0920"
+    },
+    {
+      "path": "source/reconstructed/frame_dependencies_menu.hpp",
+      "sha256": "37c09581c2d887ed69d05cb92b8f95a28e2ae7bbe9e21e7069e1f7e53242701a"
+    },
+    {
+      "path": "source/reconstructed/internal_analysis.hpp",
+      "sha256": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_analysis.cpp",
+      "sha256": "242a6ddd03ce669491364d7de84baeec1e4f6f09b453ab881d99b3b4e5935cf0"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_analysis.hpp",
+      "sha256": "d41acc86ab14bde9fbb26c83835937850c96ffa0ce73d3bef6bfb8901a4e9d60"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_button.cpp",
+      "sha256": "9f40b8897b337054aa1a9aee2fb49738965ccb9c780d148110546aa942e57117"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_checkbox.cpp",
+      "sha256": "1443d5c5d4f8399b1eecc6bb7796a8b06370c09e9a99e305b238abce96d00f48"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_checks.cpp",
+      "sha256": "a479a28afb443860d2bdee5146a55ce32a0273389b4fc7f93c50f11a5925552d"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_combo.cpp",
+      "sha256": "1c2faa35d43c67321ff0a964a9a2719d4609dcaafd17d1af04cd6354aaf2a7e4"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_common.cpp",
+      "sha256": "e3f272d96491b9a210cf075cf5d7051aadedf74b614b7b04345154d49cc77f55"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_font.cpp",
+      "sha256": "6b7fe549adc4bc82257ed4a6152ef0af9830d5826aa51ff73e896a462bc6eb9f"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_frame.cpp",
+      "sha256": "ed6e38a0a41ccf94e6d9c6ffd4376c5c008a42bd2a88cd6db328a0ce0273bc25"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_groups.cpp",
+      "sha256": "e023e4d95bcc25ba60a04e59a9609bbc5e952894ce0f64618ba0d851cafcc273"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_input.cpp",
+      "sha256": "65e1daaf4c39adb1202293a5fcee293e0de3334ea8e2606744b8ba2fb4483cb0"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_internal.hpp",
+      "sha256": "cea5ba67bca71f4978d5f91c387a8b9d62af9e05ff8f1e43666a11ee66d4a9e5"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_key_capture.cpp",
+      "sha256": "94fd5e90a71d7ded27b2eb708b84639df26abb2b10372634ec1c1efc82b99292"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_layout.cpp",
+      "sha256": "41843a38823a67c3c0f13ccdbade297cb5f63f0462172fc7a0ea174d25d7bfdb"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_math.cpp",
+      "sha256": "9ea1e14957bfdee1fddc80113ddd155ee8efd582437b48481310ddfa37c643ac"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_mode.cpp",
+      "sha256": "b414364978ab6f974c1e13cc5bf8d2ebda29b28b5159225c616ddefeed67746d"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_multiselect.cpp",
+      "sha256": "f585d2a56e890c4397a5b3dc87b1628d83e275c72914b5f782dd115674ac3f1e"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_navigation.cpp",
+      "sha256": "903ba678e0bb1a1243c2b9c0e0338b1c0a769cfe2a28191f7788faceba31f1d0"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_popup.cpp",
+      "sha256": "f4a51203c0f964d714f8be9f22f5f72e85d3c5a71ad4df9d453e47b415991a3a"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_selectable.cpp",
+      "sha256": "0ab2cac1b43c4360dd0d3726abb66716af59e37a1ffb8f368ca07bb811c5b26f"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_slider.cpp",
+      "sha256": "8114bdf6acc5a41e657e9d6dfc8e4d580bd7dd4544323508c16e6c0ed91158cb"
+    },
+    {
+      "path": "source/reconstructed/menu_controls_snapshot.cpp",
+      "sha256": "6cd5ffa20e9b400cd000d14a8bddefb9278dde94b93d209c9c25ff73e5abc7ca"
+    },
+    {
+      "path": "source/reconstructed/metadata_analysis.cpp",
+      "sha256": "38187b9f5f20e10a10ca2aa91c973b2035dda979c37f362149407e1068ad2b07"
+    },
+    {
+      "path": "source/reconstructed/metadata_analysis.hpp",
+      "sha256": "c2a911d47102dea04281595ec498af958170b7a8794f23e0b9c96c7f02833e61"
+    },
+    {
+      "path": "source/reconstructed/metadata_signature_analysis.hpp",
+      "sha256": "6b530436f86a79d9dfb255e60df36a339c47fcd1128d89f0d0a4a4e643498815"
+    },
+    {
+      "path": "source/reconstructed/renderer_helpers_analysis.hpp",
+      "sha256": "b35e36865dd4e6826df394092b6d65078140736097e4cbe2d1c723e0cc2b8a22"
+    },
+    {
+      "path": "source/reconstructed/renderer_helpers_font.cpp",
+      "sha256": "3fe8e6b11891f1fbe0a356a9cdc1e3036f7d35bec1250908807f547c938bed80"
+    },
+    {
+      "path": "source/reconstructed/renderer_helpers_widgets.cpp",
+      "sha256": "82a4c6770e60bce4e48a2e6ba8adb22f2fd4a1fa5e39edd49ef64b70aa6eec38"
+    },
+    {
+      "path": "source/reconstructed/unity_backend_analysis.hpp",
+      "sha256": "966116103963c7b6a05d1effaa5dd837098619de0a5953186b636fe9101ab18a"
+    }
+  ],
+  "unchanged_after_strict_and_sanitizers": true
+}

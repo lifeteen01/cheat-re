@@ -1,0 +1,12 @@
+Compile game_direct_wrappers_analysis.cpp
+Compile game_direct_wrappers_arguments.cpp
+Compile game_direct_wrappers_bindings.cpp
+Compile game_direct_wrappers_checks.cpp
+Compile game_direct_wrappers_controllers.cpp
+Compile game_direct_wrappers_conversion_checks.cpp
+Compile game_direct_wrappers_failure_checks.cpp
+Compile game_direct_wrappers_literals.cpp
+Compile game_direct_wrappers_selector.cpp
+Compile game_direct_wrappers_selector_checks.cpp
+Compile game_direct_wrappers_main.cpp
+PASS GCC15 strict C++20 direct game wrapper fixtures sanitize

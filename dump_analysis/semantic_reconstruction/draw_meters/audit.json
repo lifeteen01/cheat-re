@@ -1,0 +1,1830 @@
+{
+  "image": "dump_analysis/unpacked/cheat.unpacked.dll",
+  "sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x2ce59c",
+      "end": "0x2ce5a4",
+      "bytes": 8,
+      "instructions": 3,
+      "status": "[C] [I] name finalbyte predicate",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x2ce5a3"
+      ]
+    },
+    {
+      "begin": "0x2d484c",
+      "end": "0x2d486f",
+      "bytes": 35,
+      "instructions": 10,
+      "status": "[C] [I] fourfloat constructor wrapper/return through owned values",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x2d486e"
+      ]
+    },
+    {
+      "begin": "0x2e5a44",
+      "end": "0x2e5a54",
+      "bytes": 16,
+      "instructions": 6,
+      "status": "[C] [I] ordered clamp with literal sourceoperand MINSS",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x2e5a53"
+      ]
+    },
+    {
+      "begin": "0x35ac38",
+      "end": "0x35af6a",
+      "bytes": 818,
+      "instructions": 175,
+      "status": "[C] [I] ring100segments, repeated typed trig, optionalHSV, rawquad and halfalphaedges",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35af69"
+      ]
+    },
+    {
+      "begin": "0x35b0fc",
+      "end": "0x35b507",
+      "bytes": 1035,
+      "instructions": 208,
+      "status": "[C] [I] foreground rounded meter and phasewrite/pulse outlines",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35b506"
+      ]
+    },
+    {
+      "begin": "0x35b508",
+      "end": "0x35b681",
+      "bytes": 377,
+      "instructions": 75,
+      "status": "[C] [I] two-value violation ring wrapper",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35b680"
+      ]
+    },
+    {
+      "begin": "0x35b850",
+      "end": "0x35bab7",
+      "bytes": 615,
+      "instructions": 143,
+      "status": "[C] [I] three-layer float colored meter",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35bab6"
+      ]
+    },
+    {
+      "begin": "0x35bab8",
+      "end": "0x35bc6f",
+      "bytes": 439,
+      "instructions": 128,
+      "status": "[C] [I] integer-width meter and signed min/positive gate",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35bc6e"
+      ]
+    },
+    {
+      "begin": "0x35c738",
+      "end": "0x35c889",
+      "bytes": 337,
+      "instructions": 77,
+      "status": "[C] [I] floatrect window/bounds/style folded through released shapes",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35c888"
+      ]
+    },
+    {
+      "begin": "0x35c938",
+      "end": "0x35cb16",
+      "bytes": 478,
+      "instructions": 97,
+      "status": "[C] [I] three-value violation ring wrapper",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x35cb15"
+      ]
+    },
+    {
+      "begin": "0x35d200",
+      "end": "0x35d21d",
+      "bytes": 29,
+      "instructions": 5,
+      "status": "[C] [I] currentwindow mark/reload fold",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x35d21c"
+      ]
+    },
+    {
+      "begin": "0x3612f8",
+      "end": "0x36135a",
+      "bytes": 98,
+      "instructions": 26,
+      "status": "[C] [I] HSV wrapper with original argument/color order",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x361359"
+      ]
+    },
+    {
+      "begin": "0x362200",
+      "end": "0x36226d",
+      "bytes": 109,
+      "instructions": 26,
+      "status": "[C] [I] fourfloat interpolation retaining grouping",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x36226c"
+      ]
+    },
+    {
+      "begin": "0x36232c",
+      "end": "0x3627cf",
+      "bytes": 1187,
+      "instructions": 261,
+      "status": "[C] [I] segmented integer meter, gradient, separators and border",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x3627ce"
+      ]
+    },
+    {
+      "begin": "0x362fc0",
+      "end": "0x362fc5",
+      "bytes": 5,
+      "instructions": 1,
+      "status": "[C] [I] ceil thunk to literal3c8918",
+      "bound": "actual return/thunk end",
+      "returns": []
+    },
+    {
+      "begin": "0x38c6f0",
+      "end": "0x38c712",
+      "bytes": 34,
+      "instructions": 8,
+      "status": "[C] [I] copy13foregroundliteralbytes",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x38c711"
+      ]
+    },
+    {
+      "begin": "0x3904e0",
+      "end": "0x39062b",
+      "bytes": 331,
+      "instructions": 81,
+      "status": "[C] [I] HSV six sector switch and unordered default",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x39062a"
+      ]
+    },
+    {
+      "begin": "0x392260",
+      "end": "0x392295",
+      "bytes": 53,
+      "instructions": 11,
+      "status": "[C] [I] native stylealpha conversion folded through releasedcolor",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x392294"
+      ]
+    },
+    {
+      "begin": "0x39256c",
+      "end": "0x3925a2",
+      "bytes": 54,
+      "instructions": 15,
+      "status": "[C] [I] literal foreground name decode and index1\u2192reused392dcc",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x3925a1"
+      ]
+    },
+    {
+      "begin": "0x3925a4",
+      "end": "0x3925c9",
+      "bytes": 37,
+      "instructions": 8,
+      "status": "[C] [I] foreground firstviewport lookup then39256c",
+      "bound": "original PE exception directory",
+      "returns": []
+    },
+    {
+      "begin": "0x3926ac",
+      "end": "0x3926b8",
+      "bytes": 12,
+      "instructions": 3,
+      "status": "[C] [I] context+8 pointer getter",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x3926b7"
+      ]
+    },
+    {
+      "begin": "0x392ecc",
+      "end": "0x392ee1",
+      "bytes": 21,
+      "instructions": 5,
+      "status": "[C] [I] currentwindow marking/reload and +298list",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x392ee0"
+      ]
+    },
+    {
+      "begin": "0x39e77c",
+      "end": "0x39e7ac",
+      "bytes": 48,
+      "instructions": 16,
+      "status": "[C] [I] literal13byte XORdecode",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x39e7ab"
+      ]
+    },
+    {
+      "begin": "0x39eb2c",
+      "end": "0x39eb52",
+      "bytes": 38,
+      "instructions": 13,
+      "status": "[C] [I] conditional13byte decode wrapper",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x39eb51"
+      ]
+    },
+    {
+      "begin": "0x3a1084",
+      "end": "0x3a10ea",
+      "bytes": 102,
+      "instructions": 27,
+      "status": "[C] [I] fourpoint pathfill and alpha gate through releasedshape/core",
+      "bound": "original PE exception directory",
+      "returns": [
+        "0x3a10e9"
+      ]
+    },
+    {
+      "begin": "0x3c8918",
+      "end": "0x3c899a",
+      "bytes": 130,
+      "instructions": 40,
+      "status": "[C] [I] literalbit ceil folded in segmented controller",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x3c8968",
+        "0x3c896f",
+        "0x3c8980",
+        "0x3c8989",
+        "0x3c8999"
+      ]
+    },
+    {
+      "begin": "0x3c8a6c",
+      "end": "0x3c8bd0",
+      "bytes": 356,
+      "instructions": 111,
+      "status": "[C] [I] integer-significand float remainder, subnormal/zero/nonfinite branches",
+      "bound": "actual return/thunk end",
+      "returns": [
+        "0x3c8bcf"
+      ]
+    }
+  ],
+  "range_count": 27,
+  "bytes": 6802,
+  "instruction_lines_byte_checked": 1579,
+  "branches": [
+    {
+      "body": "0x2d484c",
+      "site": "0x2d4861",
+      "kind": "call",
+      "target": "0x2cc350",
+      "within": false
+    },
+    {
+      "body": "0x2e5a44",
+      "site": "0x2e5a47",
+      "kind": "ja",
+      "target": "0x2e5a50",
+      "within": true
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aca3",
+      "kind": "jbe",
+      "target": "0x35aca9",
+      "within": true
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad27",
+      "kind": "call",
+      "target": "0x2e0198",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad3c",
+      "kind": "call",
+      "target": "0x2dff68",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad56",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad5f",
+      "kind": "call",
+      "target": "0x2e0198",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad75",
+      "kind": "call",
+      "target": "0x2dff68",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad8f",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ad97",
+      "kind": "call",
+      "target": "0x2e0198",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35adac",
+      "kind": "call",
+      "target": "0x2dff68",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35adca",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35add3",
+      "kind": "call",
+      "target": "0x2e0198",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ade9",
+      "kind": "call",
+      "target": "0x2dff68",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ae02",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ae14",
+      "kind": "je",
+      "target": "0x35ae5b",
+      "within": true
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ae4d",
+      "kind": "call",
+      "target": "0x3612f8",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ae5b",
+      "kind": "call",
+      "target": "0x392ecc",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ae68",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35ae8d",
+      "kind": "call",
+      "target": "0x3a1084",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aebd",
+      "kind": "call",
+      "target": "0x2d484c",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aec2",
+      "kind": "call",
+      "target": "0x392ecc",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aecf",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aeeb",
+      "kind": "call",
+      "target": "0x3a01f4",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aef0",
+      "kind": "call",
+      "target": "0x392ecc",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35aefd",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35af19",
+      "kind": "call",
+      "target": "0x3a01f4",
+      "within": false
+    },
+    {
+      "body": "0x35ac38",
+      "site": "0x35af21",
+      "kind": "jl",
+      "target": "0x35acf8",
+      "within": true
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b14c",
+      "kind": "call",
+      "target": "0x3925a4",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b1fd",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b211",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b232",
+      "kind": "call",
+      "target": "0x3a1244",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b247",
+      "kind": "jbe",
+      "target": "0x35b365",
+      "within": true
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b2ae",
+      "kind": "call",
+      "target": "0x2e5a44",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b2c2",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b2e6",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b34b",
+      "kind": "call",
+      "target": "0x3a1244",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b363",
+      "kind": "jmp",
+      "target": "0x35b36d",
+      "within": true
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b381",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b395",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b3be",
+      "kind": "call",
+      "target": "0x3a1148",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b3c7",
+      "kind": "jbe",
+      "target": "0x35b4c4",
+      "within": true
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b3cd",
+      "kind": "call",
+      "target": "0x3926ac",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b3ef",
+      "kind": "call",
+      "target": "0x2e0198",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b440",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b45d",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b4b4",
+      "kind": "call",
+      "target": "0x3a1148",
+      "within": false
+    },
+    {
+      "body": "0x35b0fc",
+      "site": "0x35b4be",
+      "kind": "jl",
+      "target": "0x35b412",
+      "within": true
+    },
+    {
+      "body": "0x35b508",
+      "site": "0x35b57c",
+      "kind": "jbe",
+      "target": "0x35b5e2",
+      "within": true
+    },
+    {
+      "body": "0x35b508",
+      "site": "0x35b595",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b508",
+      "site": "0x35b5dd",
+      "kind": "call",
+      "target": "0x35ac38",
+      "within": false
+    },
+    {
+      "body": "0x35b508",
+      "site": "0x35b5fa",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b508",
+      "site": "0x35b60f",
+      "kind": "jbe",
+      "target": "0x35b656",
+      "within": true
+    },
+    {
+      "body": "0x35b508",
+      "site": "0x35b651",
+      "kind": "call",
+      "target": "0x35ac38",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b8ac",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b8c4",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b8db",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b8f2",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b909",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b91e",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b934",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b94f",
+      "kind": "jb",
+      "target": "0x35b958",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b956",
+      "kind": "jmp",
+      "target": "0x35b989",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b963",
+      "kind": "jb",
+      "target": "0x35b96b",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b969",
+      "kind": "jmp",
+      "target": "0x35b989",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b977",
+      "kind": "jb",
+      "target": "0x35b97f",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b97d",
+      "kind": "jmp",
+      "target": "0x35b989",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b983",
+      "kind": "jb",
+      "target": "0x35b98e",
+      "within": true
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b9a3",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b9ac",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35b9f8",
+      "kind": "call",
+      "target": "0x35c738",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35ba01",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35ba2a",
+      "kind": "call",
+      "target": "0x35c738",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35ba34",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35b850",
+      "site": "0x35ba7f",
+      "kind": "call",
+      "target": "0x35c738",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35baf7",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb0c",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb21",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb38",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb4d",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb65",
+      "kind": "jb",
+      "target": "0x35bb6d",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb6b",
+      "kind": "jmp",
+      "target": "0x35bb9b",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb77",
+      "kind": "jb",
+      "target": "0x35bb7f",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb7d",
+      "kind": "jmp",
+      "target": "0x35bb9b",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb8a",
+      "kind": "jb",
+      "target": "0x35bb92",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb90",
+      "kind": "jmp",
+      "target": "0x35bb9b",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bb95",
+      "kind": "jb",
+      "target": "0x35bb9f",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bbaf",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bbb7",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bbec",
+      "kind": "call",
+      "target": "0x35c738",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bc0e",
+      "kind": "jle",
+      "target": "0x35bc51",
+      "within": true
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bc14",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x35bab8",
+      "site": "0x35bc4c",
+      "kind": "call",
+      "target": "0x35c738",
+      "within": false
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c763",
+      "kind": "call",
+      "target": "0x35d200",
+      "within": false
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c770",
+      "kind": "ja",
+      "target": "0x35c864",
+      "within": true
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c77a",
+      "kind": "ja",
+      "target": "0x35c864",
+      "within": true
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c787",
+      "kind": "ja",
+      "target": "0x35c864",
+      "within": true
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c794",
+      "kind": "ja",
+      "target": "0x35c864",
+      "within": true
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c803",
+      "kind": "call",
+      "target": "0x2cc350",
+      "within": false
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c80b",
+      "kind": "call",
+      "target": "0x392260",
+      "within": false
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c82b",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c83b",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x35c738",
+      "site": "0x35c85f",
+      "kind": "call",
+      "target": "0x3a1244",
+      "within": false
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35c9a2",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35c9fb",
+      "kind": "call",
+      "target": "0x35ac38",
+      "within": false
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35ca08",
+      "kind": "jbe",
+      "target": "0x35ca68",
+      "within": true
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35ca1b",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35ca63",
+      "kind": "call",
+      "target": "0x35ac38",
+      "within": false
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35ca7d",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35ca92",
+      "kind": "jbe",
+      "target": "0x35caec",
+      "within": true
+    },
+    {
+      "body": "0x35c938",
+      "site": "0x35cae7",
+      "kind": "call",
+      "target": "0x35ac38",
+      "within": false
+    },
+    {
+      "body": "0x3612f8",
+      "site": "0x361326",
+      "kind": "call",
+      "target": "0x3904e0",
+      "within": false
+    },
+    {
+      "body": "0x3612f8",
+      "site": "0x36134c",
+      "kind": "call",
+      "target": "0x2d484c",
+      "within": false
+    },
+    {
+      "body": "0x362200",
+      "site": "0x36225f",
+      "kind": "call",
+      "target": "0x2d484c",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x36239c",
+      "kind": "call",
+      "target": "0x35d200",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3623bf",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3623d4",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3623f1",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362409",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362446",
+      "kind": "call",
+      "target": "0x2e5a44",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362496",
+      "kind": "call",
+      "target": "0x362fc0",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3624b1",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362506",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x36251a",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x36253a",
+      "kind": "call",
+      "target": "0x3a1244",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362567",
+      "kind": "jle",
+      "target": "0x362670",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625a3",
+      "kind": "jne",
+      "target": "0x3625af",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625ad",
+      "kind": "jmp",
+      "target": "0x3625b3",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625c5",
+      "kind": "call",
+      "target": "0x362200",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625d3",
+      "kind": "je",
+      "target": "0x3625e0",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625d8",
+      "kind": "je",
+      "target": "0x3625e0",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625de",
+      "kind": "jmp",
+      "target": "0x3625e4",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3625e9",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362605",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362619",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362639",
+      "kind": "call",
+      "target": "0x3a1244",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x36264f",
+      "kind": "jl",
+      "target": "0x36258c",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362682",
+      "kind": "jle",
+      "target": "0x362712",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3626bb",
+      "kind": "call",
+      "target": "0x2db318",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3626c3",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3626d5",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x3626e9",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362701",
+      "kind": "call",
+      "target": "0x3a01f4",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x36270c",
+      "kind": "jl",
+      "target": "0x36268c",
+      "within": true
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x36271d",
+      "kind": "call",
+      "target": "0x2ef80c",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362739",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362750",
+      "kind": "call",
+      "target": "0x2cc340",
+      "within": false
+    },
+    {
+      "body": "0x36232c",
+      "site": "0x362777",
+      "kind": "call",
+      "target": "0x3a1148",
+      "within": false
+    },
+    {
+      "body": "0x362fc0",
+      "site": "0x362fc0",
+      "kind": "jmp",
+      "target": "0x3c8918",
+      "within": false
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x390508",
+      "kind": "jp",
+      "target": "0x39052e",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x39050a",
+      "kind": "jne",
+      "target": "0x39052e",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x390529",
+      "kind": "jmp",
+      "target": "0x390615",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x390539",
+      "kind": "call",
+      "target": "0x3c8a6c",
+      "within": false
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x390595",
+      "kind": "je",
+      "target": "0x390601",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x39059a",
+      "kind": "je",
+      "target": "0x3905f7",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x39059f",
+      "kind": "je",
+      "target": "0x3905e1",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905a4",
+      "kind": "je",
+      "target": "0x3905cb",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905a9",
+      "kind": "je",
+      "target": "0x3905c1",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905bf",
+      "kind": "jmp",
+      "target": "0x390615",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905c9",
+      "kind": "jmp",
+      "target": "0x3905d3",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905df",
+      "kind": "jmp",
+      "target": "0x390615",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905f5",
+      "kind": "jmp",
+      "target": "0x390615",
+      "within": true
+    },
+    {
+      "body": "0x3904e0",
+      "site": "0x3905ff",
+      "kind": "jmp",
+      "target": "0x390609",
+      "within": true
+    },
+    {
+      "body": "0x392260",
+      "site": "0x39228b",
+      "kind": "call",
+      "target": "0x39045c",
+      "within": false
+    },
+    {
+      "body": "0x39256c",
+      "site": "0x39257f",
+      "kind": "call",
+      "target": "0x38c6f0",
+      "within": false
+    },
+    {
+      "body": "0x39256c",
+      "site": "0x392587",
+      "kind": "call",
+      "target": "0x39eb2c",
+      "within": false
+    },
+    {
+      "body": "0x39256c",
+      "site": "0x392597",
+      "kind": "call",
+      "target": "0x392dcc",
+      "within": false
+    },
+    {
+      "body": "0x3925a4",
+      "site": "0x3925b8",
+      "kind": "call",
+      "target": "0x38bb84",
+      "within": false
+    },
+    {
+      "body": "0x3925a4",
+      "site": "0x3925c4",
+      "kind": "jmp",
+      "target": "0x39256c",
+      "within": false
+    },
+    {
+      "body": "0x392ecc",
+      "site": "0x392ed0",
+      "kind": "call",
+      "target": "0x35d200",
+      "within": false
+    },
+    {
+      "body": "0x39e77c",
+      "site": "0x39e7a9",
+      "kind": "jl",
+      "target": "0x39e782",
+      "within": true
+    },
+    {
+      "body": "0x39eb2c",
+      "site": "0x39eb35",
+      "kind": "call",
+      "target": "0x2ce59c",
+      "within": false
+    },
+    {
+      "body": "0x39eb2c",
+      "site": "0x39eb3c",
+      "kind": "je",
+      "target": "0x39eb49",
+      "within": true
+    },
+    {
+      "body": "0x39eb2c",
+      "site": "0x39eb44",
+      "kind": "call",
+      "target": "0x39e77c",
+      "within": false
+    },
+    {
+      "body": "0x3a1084",
+      "site": "0x3a10a4",
+      "kind": "je",
+      "target": "0x3a10da",
+      "within": true
+    },
+    {
+      "body": "0x3a1084",
+      "site": "0x3a10a6",
+      "kind": "call",
+      "target": "0x378a40",
+      "within": false
+    },
+    {
+      "body": "0x3a1084",
+      "site": "0x3a10b1",
+      "kind": "call",
+      "target": "0x378a40",
+      "within": false
+    },
+    {
+      "body": "0x3a1084",
+      "site": "0x3a10bc",
+      "kind": "call",
+      "target": "0x378a40",
+      "within": false
+    },
+    {
+      "body": "0x3a1084",
+      "site": "0x3a10c9",
+      "kind": "call",
+      "target": "0x378a40",
+      "within": false
+    },
+    {
+      "body": "0x3a1084",
+      "site": "0x3a10d5",
+      "kind": "call",
+      "target": "0x378a14",
+      "within": false
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c892d",
+      "kind": "jae",
+      "target": "0x3c898a",
+      "within": true
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c8934",
+      "kind": "jb",
+      "target": "0x3c8970",
+      "within": true
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c8950",
+      "kind": "jne",
+      "target": "0x3c8969",
+      "within": true
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c8958",
+      "kind": "je",
+      "target": "0x3c8969",
+      "within": true
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c8972",
+      "kind": "je",
+      "target": "0x3c8999",
+      "within": true
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c8976",
+      "kind": "je",
+      "target": "0x3c8981",
+      "within": true
+    },
+    {
+      "body": "0x3c8918",
+      "site": "0x3c898f",
+      "kind": "jbe",
+      "target": "0x3c8999",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8a84",
+      "kind": "je",
+      "target": "0x3c8bbd",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8aa6",
+      "kind": "jge",
+      "target": "0x3c8bbd",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8aaf",
+      "kind": "ja",
+      "target": "0x3c8bbd",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8ab8",
+      "kind": "jl",
+      "target": "0x3c8bc5",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8abe",
+      "kind": "jne",
+      "target": "0x3c8ad8",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8ad3",
+      "kind": "jmp",
+      "target": "0x3c8bc5",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8ae6",
+      "kind": "jge",
+      "target": "0x3c8afd",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8af1",
+      "kind": "jmp",
+      "target": "0x3c8af7",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8af9",
+      "kind": "jg",
+      "target": "0x3c8af3",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8afb",
+      "kind": "jmp",
+      "target": "0x3c8b06",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b08",
+      "kind": "jne",
+      "target": "0x3c8b1f",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b15",
+      "kind": "js",
+      "target": "0x3c8b28",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b1b",
+      "kind": "jns",
+      "target": "0x3c8b17",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b1d",
+      "kind": "jmp",
+      "target": "0x3c8b28",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b30",
+      "kind": "jl",
+      "target": "0x3c8b3a",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b38",
+      "kind": "jmp",
+      "target": "0x3c8b42",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b45",
+      "kind": "jl",
+      "target": "0x3c8b4f",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b4d",
+      "kind": "jmp",
+      "target": "0x3c8b57",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b59",
+      "kind": "je",
+      "target": "0x3c8b77",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b61",
+      "kind": "js",
+      "target": "0x3c8b6e",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b65",
+      "kind": "je",
+      "target": "0x3c8ac0",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b75",
+      "kind": "jne",
+      "target": "0x3c8b5b",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b83",
+      "kind": "je",
+      "target": "0x3c8ac0",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b89",
+      "kind": "jmp",
+      "target": "0x3c8b8f",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b91",
+      "kind": "jl",
+      "target": "0x3c8b8b",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8b96",
+      "kind": "jl",
+      "target": "0x3c8baa",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8ba8",
+      "kind": "jmp",
+      "target": "0x3c8bb4",
+      "within": true
+    },
+    {
+      "body": "0x3c8a6c",
+      "site": "0x3c8bbb",
+      "kind": "jmp",
+      "target": "0x3c8bc5",
+      "within": true
+    }
+  ],
+  "world_routes": {
+    "0x30a7ba": "0x35b850",
+    "0x30b19b": "0x35bab8",
+    "0x30c47b": "0x35b0fc",
+    "0x30c4b8": "0x35b0fc",
+    "0x30c655": "0x35b0fc",
+    "0x30c4f8": "0x35bab8",
+    "0x30c539": "0x35bab8",
+    "0x30c69a": "0x35bab8",
+    "0x30c582": "0x36232c",
+    "0x30c5c7": "0x36232c",
+    "0x30c6e1": "0x36232c",
+    "0x30c76a": "0x35b508",
+    "0x30c816": "0x35c938",
+    "0x30c8cb": "0x35ac38"
+  },
+  "remaining_local_dependencies": []
+}

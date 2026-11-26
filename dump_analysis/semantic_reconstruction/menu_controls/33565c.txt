@@ -1,0 +1,5 @@
+33565c	subss  xmm1,xmm0
+335660	mulss  xmm1,xmm2
+335664	addss  xmm1,xmm0
+335668	movaps xmm0,xmm1
+33566b	ret

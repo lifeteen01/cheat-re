@@ -1,0 +1,4 @@
+PASS: original Favorites thunk/body, native retained children and balanced window/focus/style/clip stacks
+PASS: recovered color preview386438, native animated popup, outside close, reopen reuse and capture cleanup
+PASS: actual menu root closed exit and explicit missing category initialization boundary
+PASS: native display-order hover, Hidden collection, popup cold measure/fade and frame IO

@@ -1,0 +1,9 @@
+[I] Combined immutable-script strict verification.
+Compile menu_layout_channels.cpp
+Compile imgui_window_details_columns.cpp
+Compile analysis_checks.cpp
+Compile menu_layout_channel_checks.cpp
+Link 251 translation units; 247 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

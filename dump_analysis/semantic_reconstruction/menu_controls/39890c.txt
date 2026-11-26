@@ -1,0 +1,26 @@
+39890c	mov    QWORD PTR [rsp+0x8],rbx
+398911	mov    QWORD PTR [rsp+0x10],rsi
+398916	push   rdi
+398917	sub    rsp,0x20
+39891b	mov    rsi,QWORD PTR [rip+0x6d206]        # 0x405b28
+398922	mov    ebx,ecx
+398924	lea    rdi,[rsi+0x4850]
+39892b	cmp    DWORD PTR [rdi],ecx
+39892d	cmovl  ebx,DWORD PTR [rdi]
+398930	jmp    0x398957
+398932	mov    rcx,rdi
+398935	call   0x39e334
+39893a	movsxd rcx,DWORD PTR [rax]
+39893d	movups xmm0,XMMWORD PTR [rax+0x4]
+398941	add    rcx,rcx
+398944	movdqu XMMWORD PTR [rsi+rcx*8+0x38b8],xmm0
+39894d	mov    rcx,rdi
+398950	call   0x39eea0
+398955	dec    ebx
+398957	test   ebx,ebx
+398959	jg     0x398932
+39895b	mov    rbx,QWORD PTR [rsp+0x30]
+398960	mov    rsi,QWORD PTR [rsp+0x38]
+398965	add    rsp,0x20
+398969	pop    rdi
+39896a	ret

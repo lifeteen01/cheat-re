@@ -1,0 +1,380 @@
+[
+  {
+    "kind": "Circle",
+    "site": "0x311f0c",
+    "target": "0x35b03c",
+    "source": "world_esp_player_radar.cpp"
+  },
+  {
+    "kind": "Triangle",
+    "site": "0x311f94",
+    "target": "0x35c88c",
+    "source": "world_esp_player_radar.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x312250",
+    "target": "0x35b03c",
+    "source": "world_esp_player_radar.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x3122bf",
+    "target": "0x36135c",
+    "source": "world_esp_player_radar.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x31235c",
+    "target": "0x35c25c",
+    "source": "world_esp_player_radar.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x30f00c",
+    "target": "0x35c25c",
+    "source": "world_esp_player_worker.cpp"
+  },
+  {
+    "kind": "Bar",
+    "site": "0x310695",
+    "target": "0x35b684",
+    "source": "world_esp_player_worker.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x305dec",
+    "target": "0x35b03c",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x305e55",
+    "target": "0x36135c",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Icon",
+    "site": "0x305f69",
+    "target": "0x2cc8d0",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x305faf",
+    "target": "0x35c578",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x306080",
+    "target": "0x36135c",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Rectangle",
+    "site": "0x3062c0",
+    "target": "0x3a1244",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Rectangle",
+    "site": "0x306316",
+    "target": "0x3a1148",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x306383",
+    "target": "0x3a31bc",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x3066bb",
+    "target": "0x3a31bc",
+    "source": "world_esp_draw.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x30680a",
+    "target": "0x35c25c",
+    "source": "world_esp_labels.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x306abc",
+    "target": "0x36135c",
+    "source": "world_esp_labels.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x306d20",
+    "target": "0x36135c",
+    "source": "world_esp_labels.cpp"
+  },
+  {
+    "kind": "Bar",
+    "site": "0x306db2",
+    "target": "0x35b684",
+    "source": "world_esp_labels.cpp"
+  },
+  {
+    "kind": "Bar",
+    "site": "0x306e61",
+    "target": "0x35b684",
+    "source": "world_esp_labels.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x306eb0",
+    "target": null,
+    "source": "world_esp_labels.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x2fbd84",
+    "target": "0x36135c",
+    "source": "world_esp_fishing.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x2fbe14",
+    "target": "0x36135c",
+    "source": "world_esp_fishing.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x2fc24f",
+    "target": "0x36135c",
+    "source": "world_esp_fishing.cpp"
+  },
+  {
+    "kind": "GlowLine",
+    "site": "0x30ad9d",
+    "target": "0x35c30c",
+    "source": "world_esp_overlay_aux.cpp"
+  },
+  {
+    "kind": "ViolationCircle",
+    "site": "0x30c76a",
+    "target": "0x35b508",
+    "source": "world_esp_overlay_aux.cpp"
+  },
+  {
+    "kind": "ViolationCircle",
+    "site": "0x30c816",
+    "target": "0x35c938",
+    "source": "world_esp_overlay_aux.cpp"
+  },
+  {
+    "kind": "RingMeter",
+    "site": "0x30c8cb",
+    "target": "0x35ac38",
+    "source": "world_esp_overlay_aux.cpp"
+  },
+  {
+    "kind": "Icon",
+    "site": "0x37c1d3",
+    "target": "0x2cc8d0",
+    "source": "world_esp_player_labels.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x37c20a",
+    "target": "0x361bcc",
+    "source": "world_esp_player_labels.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x310a74",
+    "target": "0x36135c",
+    "source": "world_esp_player_actions.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x313116",
+    "target": "0x35c25c",
+    "source": "world_esp_player_actions.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x313297",
+    "target": "0x35c25c",
+    "source": "world_esp_player_actions.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x313303",
+    "target": "0x35c25c",
+    "source": "world_esp_player_actions.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x313365",
+    "target": "0x35c25c",
+    "source": "world_esp_player_actions.cpp"
+  },
+  {
+    "kind": "ColoredMeter",
+    "site": "0x30a7ba",
+    "target": "0x35b850",
+    "source": "world_esp_windows.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x3099e9",
+    "target": "0x35af6c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309c3e",
+    "target": "0x35b03c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x309cf2",
+    "target": "0x35c25c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x309d88",
+    "target": "0x35c25c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309e02",
+    "target": "0x35af6c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309e4a",
+    "target": "0x35af6c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309e8f",
+    "target": "0x35af6c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309ed1",
+    "target": "0x35af6c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309f0a",
+    "target": "0x35af6c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x309f42",
+    "target": "0x35b03c",
+    "source": "world_esp_overlay.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x30b0db",
+    "target": "0x36135c",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x30a4a1",
+    "target": "0x36135c",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x30a58c",
+    "target": "0x36135c",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "NativeMeter",
+    "site": "0x30b19b",
+    "target": "0x35bab8",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x30ca41",
+    "target": "0x36135c",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x30cb63",
+    "target": "0x36135c",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "GlowLine",
+    "site": "0x30cd2b",
+    "target": "0x35c30c",
+    "source": "world_esp_status.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x3646a0",
+    "target": "0x35b03c",
+    "source": "world_esp_overlay_controls.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x364842",
+    "target": "0x35c25c",
+    "source": "world_esp_overlay_controls.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x3648ab",
+    "target": "0x35c25c",
+    "source": "world_esp_overlay_controls.cpp"
+  },
+  {
+    "kind": "Circle",
+    "site": "0x30a1be",
+    "target": "0x35b03c",
+    "source": "world_esp_overlay_controls.cpp"
+  },
+  {
+    "kind": "Rectangle",
+    "site": "0x3112a1",
+    "target": "0x3a1244",
+    "source": "world_esp_inventory_tooltip.cpp"
+  },
+  {
+    "kind": "Rectangle",
+    "site": "0x3112e8",
+    "target": "0x3a1148",
+    "source": "world_esp_inventory_tooltip.cpp"
+  },
+  {
+    "kind": "Line",
+    "site": "0x3117fc",
+    "target": "0x3a01f4",
+    "source": "world_esp_inventory_tooltip.cpp"
+  },
+  {
+    "kind": "DirectionMarker",
+    "site": "0x310e4c",
+    "target": "0x35c578",
+    "source": "world_esp_inventory_tooltip.cpp"
+  },
+  {
+    "kind": "Text",
+    "site": "0x310ec3",
+    "target": "0x36135c",
+    "source": "world_esp_inventory_tooltip.cpp"
+  }
+]

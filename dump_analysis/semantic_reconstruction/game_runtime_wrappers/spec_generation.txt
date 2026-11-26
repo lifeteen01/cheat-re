@@ -1,0 +1,22 @@
+specs 21
+2e081c scalar none UnityEngine::Time.get_fixedDeltaTime ->2de950
+2e0bf0 scalar none UnityEngine::Time.get_smoothDeltaTime ->2de950
+2e6240 scalar none UnityEngine::Time.get_time ->2de950
+31492c lerp none UnityEngine::Vector3.Lerp ->2ed218
+31581c scalar none UnityEngine::Time.get_realtimeSinceStartup ->2de950
+315924 object_zero none UnityEngine::Camera.get_main ->2dda18
+315a54 object_one receiver UnityEngine::Component.get_transform ->2cb9fc
+3247cc predicate root_329714 UnityEngine::Behaviour.get_enabled ->2cb9fc
+3297f0 object_one receiver UnityEngine::Component.get_transform ->2cb9fc
+329920 object_one none UnityEngine::RaycastHit.get_transform ->2cb9fc
+32be08 object_one receiver UnityEngine::Component.get_transform ->2cb9fc
+330700 object_one receiver UnityEngine::Component.get_transform ->2cb9fc
+36c79c integer receiver UnityEngine::Camera.get_cullingMask ->2cb9fc
+36cbe4 set_integer receiver UnityEngine::Camera.set_cullingMask ->32b1c8
+36ce18 set_byte receiver UnityEngine::Behaviour.set_enabled ->3214f4
+370508 object_one receiver UnityEngine::Component.get_gameObject ->2cb9fc
+370968 set_vector receiver UnityEngine::BoxCollider.set_size ->2d2094
+3738cc inverse none UnityEngine::Quaternion.Inverse ->2d2094
+373f0c set_scalar receiver ::PlayerWalkMovement.%adb7a5f1f195e60174cae56fc8b24e1362215881 ->32225c
+374bf8 transform receiver UnityEngine::Transform.InverseTransformDirection ->2cba50
+374d60 transform receiver UnityEngine::Transform.InverseTransformPoint ->2cba50

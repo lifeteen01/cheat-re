@@ -1,0 +1,21 @@
+38ec34	rex push rbx
+38ec36	sub    rsp,0x20
+38ec3a	mov    rbx,QWORD PTR [rip+0x76ee7]        # 0x405b28
+38ec41	lea    rdx,[rbx+0x4788]
+38ec48	mov    eax,DWORD PTR [rdx]
+38ec4a	test   al,0x4
+38ec4c	jne    0x38ec72
+38ec4e	test   cl,cl
+38ec50	je     0x38ec77
+38ec52	movss  xmm0,DWORD PTR [rbx+0x37d0]
+38ec5a	movss  DWORD PTR [rbx+0x5bac],xmm0
+38ec62	mulss  xmm0,DWORD PTR [rbx+0x37d4]
+38ec6a	movss  DWORD PTR [rbx+0x37d0],xmm0
+38ec72	or     eax,0x4
+38ec75	mov    DWORD PTR [rdx],eax
+38ec77	lea    rcx,[rbx+0x4890]
+38ec7e	call   0x39eee8
+38ec83	inc    WORD PTR [rbx+0x5bb0]
+38ec8a	add    rsp,0x20
+38ec8e	pop    rbx
+38ec8f	ret

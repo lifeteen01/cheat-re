@@ -1,0 +1,36 @@
+{
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15",
+    "-L/usr/lib/x86_64-linux-gnu",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed"
+  ],
+  "dependencies": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/unity_math_analysis.cpp": "6db83f73d1f2dda26e5577b4428c67204b3806b801e368fa65f6ec29a165d7e3",
+    "/home/john/Desktop/cheat_re/source/reconstructed/unity_math_analysis.hpp": "99d28e029418dd4943608bfc31d3e2fdc54d8939615ee25ea613984d8a07f8a6",
+    "/home/john/Desktop/cheat_re/source/reconstructed/projectile_leaf_helpers.hpp": "cccf9f4db0fb3137592b89c5312d079477418e501ba9078a5984781f9e916439",
+    "/home/john/Desktop/cheat_re/source/reconstructed/projectile_analysis.hpp": "4c97f5b0161032b0bfca9668e7f6aa201bb2d22b7a1cbe18e532b1e8deeea442",
+    "/home/john/Desktop/cheat_re/source/reconstructed/server_analysis.hpp": "741d72f3cd5e33c17d6786e9b3e1d9462114256d3e6d58cd1b0abf4df47d2b2e",
+    "/home/john/Desktop/cheat_re/source/reconstructed/internal_analysis.hpp": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee",
+    "/home/john/Desktop/cheat_re/source/reconstructed/analysis_failure.hpp": "9d13cebeb9d06f857fed3fe6804634c05b5c296d974435768ecb24bca46b83a3",
+    "/home/john/Desktop/cheat_re/source/reconstructed/snapshot_bindings.hpp": "d4c916a94f9a63e59e1ea98dfcb1d4fce121563ae01d2aa76fa9034f832899dd",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_base_analysis.hpp": "7de5f5ca6e3ffa719ae0ee80ec90218257c1989762b2217f52ab07c9f4d46d86",
+    "/home/john/Desktop/cheat_re/source/reconstructed/aim_weapon_analysis.hpp": "ff5629d56450eae93b6483daee3a7fbdaf043e0ea6050480607ede2b9b20d71f",
+    "/home/john/Desktop/cheat_re/source/reconstructed/entities_analysis.hpp": "c1f3a9ad7186a1d8bde1ffb0710cc5cb80c5c960aedd145fc093ea6994908ba9",
+    "/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.hpp": "a5fb7073e0efda2911f7cb3e2856c6e3d0954b649cd6bf951de3e4525882cb68",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_wrapper_analysis.hpp": "0666fcce193411f929556d36de4363f2195b35bd9c33abf869da3338e032c677",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_export_analysis.hpp": "195fa13dd93dd66f787c967e8d5e4ad4846059272b9462fad47d5e7cabcc776f",
+    "/home/john/Desktop/cheat_re/source/reconstructed/metadata_analysis.hpp": "c2a911d47102dea04281595ec498af958170b7a8794f23e0b9c96c7f02833e61",
+    "/home/john/Desktop/cheat_re/source/reconstructed/interaction_workers.hpp": "4f919378a747853fc06b96b1f8fe53c652088d89befee7694070d79d948c7dd1"
+  }
+}

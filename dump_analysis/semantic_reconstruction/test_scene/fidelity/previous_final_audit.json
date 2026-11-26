@@ -1,0 +1,94 @@
+{
+  "strict": {
+    "passed": true,
+    "inputs_current": true,
+    "artifact_current": true,
+    "captures_current": true,
+    "png_captures": 10,
+    "artifact_sha256": "a78209125b0ee933b5b3ba6ba0ead75b6515014f1180726718b211b1f316c043",
+    "frames": 74,
+    "platform_paints": 0
+  },
+  "sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "artifact_current": true,
+    "captures_current": true,
+    "png_captures": 10,
+    "artifact_sha256": "72f40841ac13d0a06eee946b9fef30f50e88a9795f9b7beb2e8a9f5f44b967d5",
+    "frames": 74,
+    "platform_paints": 0
+  },
+  "windows": {
+    "passed": true,
+    "inputs_current": true,
+    "artifact_current": true,
+    "captures_current": true,
+    "png_captures": 20,
+    "artifact_sha256": "26cb384a1222d78fe8e2e75f20aa77b481235dd3831f3f47e1a2b59d6c1bab05",
+    "frames": 78,
+    "platform_paints": 78
+  },
+  "full_regression_strict": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328
+  },
+  "full_regression_sanitizer": {
+    "passed": true,
+    "inputs_current": true,
+    "translation_units": 328
+  },
+  "cmake_ctest": {
+    "passed": true,
+    "tests": 1,
+    "log_sha256": "e94769854083ecbf4b2b5358f12c643710fbac079fe16ae8374ed82c38d8abfe",
+    "artifact_sha256": "aa7e52d40645df7bff37d5d620f7b7b7432a5d548d110cfb36fbec790db1d7b8"
+  },
+  "original_inputs": {
+    "passed": true,
+    "entries": 135,
+    "manifest_sha256": "a106b5ad116dfc931b58d6470482a000be8e4f381f39405255e0195271ee94c2"
+  },
+  "pe_inspection": {
+    "format": "pei-x86-64",
+    "imports": [
+      "GDI32.dll",
+      "KERNEL32.dll",
+      "msvcrt.dll",
+      "USER32.dll"
+    ],
+    "unpackaged_compiler_runtime": false,
+    "artifact_sha256": "26cb384a1222d78fe8e2e75f20aa77b481235dd3831f3f47e1a2b59d6c1bab05"
+  },
+  "minimize_negative_control": {
+    "passed": true,
+    "failed_as_expected": true,
+    "exit_code": 1,
+    "reversion": "Only move menu.frame back after the zero-size early return; production source untouched",
+    "production_scene_sha256": "e414fd0c7a140c38e4d5348905fe21d893d37c711d6943819e66161a6291ee09",
+    "production_host_sha256": "06e213e8914ec4aeb9401f4d11794656b3f3ba7eb206a553bb10077f532955a7",
+    "fixture_sha256": "9a37d8bc2ae37ba2c670f284f0eb53dc97dd14fed94ae20a7b316db829763a0c",
+    "artifact_sha256": "95aac3c51d342b1b6d9a1f5c9bd20293ed0693ab91e3ac7d5aefc0ae974932e2",
+    "scope": "Owned authored fixture only"
+  },
+  "delegation": {
+    "completed": 3,
+    "provider": "codex",
+    "requested_model": "gpt-6.1-sol",
+    "executed_model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "extra_high_children": false
+  },
+  "native_windows": {
+    "validated": false
+  },
+  "inside_rust": {
+    "validated": false,
+    "game_artifacts": "Needed / To do"
+  },
+  "spoof_executor": {
+    "implemented": false,
+    "validated": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "compiler": "GCC15.2.0",
+  "standard": "C++20",
+  "strict_flags": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g"
+  ],
+  "sanitizer_flags": [
+    "-fsanitize=address,undefined",
+    "-static-libasan",
+    "-static-libubsan",
+    "-fno-sanitize-recover=all",
+    "-fno-omit-frame-pointer"
+  ],
+  "source_hashes": {
+    "source/reconstructed/unity_backend_analysis.cpp": "09c01c976a94f3968a49c25a016f59986de74553cd3f956ec3b1f7f4fbc8d69e",
+    "source/reconstructed/unity_backend_analysis.hpp": "966116103963c7b6a05d1effaa5dd837098619de0a5953186b636fe9101ab18a",
+    "source/reconstructed/unity_backend_cache_specs.inc": "5062a675b79dbc259df5eea2107acb9bde5a08411adbf05fea5833ba3a5dd469",
+    "source/reconstructed/unity_backend_checks.cpp": "f300d3b6fc1fb9e758aa3cabb421caa1e2fcdb755dea479293b36f25474a4f17",
+    "source/reconstructed/unity_backend_reconstruction.md": "8dcf2bb44c560f7c64bab8b185920a90cc830dcd3a2a2c78a47b63a293e88d42"
+  },
+  "sample_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090"
+}

@@ -1,0 +1,84 @@
+3a4db0 rex push rbx
+3a4db2 push   rbp
+3a4db3 push   rsi
+3a4db4 push   rdi
+3a4db5 push   r14
+3a4db7 sub    rsp,0x30
+3a4dbb mov    rbp,rcx
+3a4dbe lea    r14,[rcx+0x68]
+3a4dc2 lea    rcx,[rsp+0x20]
+3a4dc7 mov    rsi,rdx
+3a4dca call   0x2db3a0
+3a4dcf mov    edx,DWORD PTR [r14]
+3a4dd2 lea    rcx,[rsp+0x20]
+3a4dd7 call   0x3a98d8
+3a4ddc lea    rcx,[rsp+0x20]
+3a4de1 call   0x3a991c
+3a4de6 mov    rcx,QWORD PTR [rsp+0x28]
+3a4deb xor    edx,edx
+3a4ded movsxd r8,eax
+3a4df0 call   0x3c8d70
+3a4df5 xor    edi,edi
+3a4df7 cmp    DWORD PTR [r14],edi
+3a4dfa jle    0x3a4e33
+3a4dfc mov    edx,edi
+3a4dfe lea    rcx,[rsp+0x20]
+3a4e03 call   0x39f640
+3a4e08 mov    edx,edi
+3a4e0a mov    rcx,r14
+3a4e0d mov    rbx,rax
+3a4e10 call   0x38bb9c
+3a4e15 mov    edx,edi
+3a4e17 movzx  ecx,WORD PTR [rax]
+3a4e1a mov    DWORD PTR [rbx+0x4],ecx
+3a4e1d mov    rcx,r14
+3a4e20 call   0x38bb9c
+3a4e25 inc    edi
+3a4e27 movzx  ecx,WORD PTR [rax+0x2]
+3a4e2b mov    DWORD PTR [rbx+0x8],ecx
+3a4e2e cmp    edi,DWORD PTR [r14]
+3a4e31 jl     0x3a4dfc
+3a4e33 xor    edx,edx
+3a4e35 lea    rcx,[rsp+0x20]
+3a4e3a call   0x39f640
+3a4e3f mov    edi,DWORD PTR [rsp+0x20]
+3a4e43 mov    rdx,rax
+3a4e46 mov    r8d,edi
+3a4e49 mov    rcx,rsi
+3a4e4c call   0x3ade50
+3a4e51 xor    ebx,ebx
+3a4e53 test   edi,edi
+3a4e55 jle    0x3a4ea7
+3a4e57 mov    edx,ebx
+3a4e59 lea    rcx,[rsp+0x20]
+3a4e5e call   0x39f640
+3a4e63 mov    rsi,rax
+3a4e66 cmp    DWORD PTR [rax+0x14],0x0
+3a4e6a je     0x3a4ea1
+3a4e6c mov    edx,ebx
+3a4e6e mov    rcx,r14
+3a4e71 call   0x38bb9c
+3a4e76 movzx  ecx,WORD PTR [rsi+0xc]
+3a4e7a mov    edx,ebx
+3a4e7c mov    WORD PTR [rax+0x4],cx
+3a4e80 mov    rcx,r14
+3a4e83 call   0x38bb9c
+3a4e88 movzx  ecx,WORD PTR [rsi+0x10]
+3a4e8c mov    WORD PTR [rax+0x6],cx
+3a4e90 mov    edx,DWORD PTR [rsi+0x10]
+3a4e93 add    edx,DWORD PTR [rsi+0x8]
+3a4e96 mov    ecx,DWORD PTR [rbp+0x44]
+3a4e99 call   0x39f28c
+3a4e9e mov    DWORD PTR [rbp+0x44],eax
+3a4ea1 inc    ebx
+3a4ea3 cmp    ebx,edi
+3a4ea5 jl     0x3a4e57
+3a4ea7 lea    rcx,[rsp+0x20]
+3a4eac call   0x336624
+3a4eb1 add    rsp,0x30
+3a4eb5 pop    r14
+3a4eb7 pop    rdi
+3a4eb8 pop    rsi
+3a4eb9 pop    rbp
+3a4eba pop    rbx
+3a4ebb ret

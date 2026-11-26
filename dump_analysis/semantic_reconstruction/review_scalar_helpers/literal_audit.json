@@ -1,0 +1,187 @@
+[
+  {
+    "loader": "0x36b380",
+    "bytes": "7e4c5c577653596e4d2f2b2720302c2a2264690b383f28232d3c287f10073d37252859",
+    "decoded": "ItemModProjectile, Assembly-CSharp"
+  },
+  {
+    "loader": "0x371218",
+    "bytes": "7e4c5c577653596e4d2f2b2720302c2a2264690b383f28232d3c287f10073d37252859",
+    "decoded": "ItemModProjectile, Assembly-CSharp"
+  },
+  {
+    "loader": "0x372674",
+    "bytes": "674a56505e5f495753256d62023736232a2a2533660f1e262e222152",
+    "decoded": "Projectile, Assembly-CSharp"
+  },
+  {
+    "loader": "0x372690",
+    "bytes": "645d4b4c5e4e6d4c502a2421372d29236b6808393829202c23297c11003c34242758",
+    "decoded": "ServerProjectile, Assembly-CSharp"
+  },
+  {
+    "loader": "0x2dfad0",
+    "bytes": "74574a3a",
+    "decoded": "Cos"
+  },
+  {
+    "loader": "0x2dfaf8",
+    "bytes": "6451573a",
+    "decoded": "Sin"
+  },
+  {
+    "loader": "0x2dfbb4",
+    "bytes": "6559575d5e3c",
+    "decoded": "Range"
+  },
+  {
+    "loader": "0x372644",
+    "bytes": "765650575a48545151033430352145",
+    "decoded": "AnimationCurve"
+  },
+  {
+    "loader": "0x370240",
+    "bytes": "6341495f3b",
+    "decoded": "Type"
+  },
+  {
+    "loader": "0x2df838",
+    "bytes": "7a594d525d3c",
+    "decoded": "Mathf"
+  },
+  {
+    "loader": "0x2df95c",
+    "bytes": "6256504e42795359562e2442",
+    "decoded": "UnityEngine"
+  },
+  {
+    "loader": "0x2df93c",
+    "bytes": "6559575e54513d",
+    "decoded": "Random"
+  },
+  {
+    "loader": "0x2dfa58",
+    "bytes": "6256504e42795359562e2442",
+    "decoded": "UnityEngine"
+  },
+  {
+    "loader": "0x3701d0",
+    "bytes": "7457544a545258504b40",
+    "decoded": "Component"
+  },
+  {
+    "loader": "0x370208",
+    "bytes": "7059545f745e575b5c3441",
+    "decoded": "GameObject"
+  },
+  {
+    "loader": "0x370274",
+    "bytes": "705d4d7954514d5151252f3643",
+    "decoded": "GetComponent"
+  },
+  {
+    "loader": "0x3702b4",
+    "bytes": "705d4d7954514d5151252f3643",
+    "decoded": "GetComponent"
+  },
+  {
+    "loader": "0x370324",
+    "bytes": "6256504e42795359562e2442",
+    "decoded": "UnityEngine"
+  },
+  {
+    "loader": "0x370370",
+    "bytes": "6256504e42795359562e2442",
+    "decoded": "UnityEngine"
+  },
+  {
+    "loader": "0x3703b0",
+    "bytes": "64414a4e5e513d",
+    "decoded": "System"
+  },
+  {
+    "loader": "0x3702f4",
+    "bytes": "705d4d6e424c583e",
+    "decoded": "GetType"
+  },
+  {
+    "loader": "0x371278",
+    "bytes": "505d4d654f59454a4a322442",
+    "decoded": "get_texture"
+  },
+  {
+    "loader": "0x37125c",
+    "bytes": "6256504e42795359562e2442",
+    "decoded": "UnityEngine"
+  },
+  {
+    "loader": "0x37123c",
+    "bytes": "64484b534f593d",
+    "decoded": "Sprite"
+  },
+  {
+    "loader": "0x367a3c",
+    "bytes": "764c4d5b5857755b5329222d3330203447",
+    "decoded": "AttackHelicopter"
+  },
+  {
+    "loader": "0x367c20",
+    "bytes": "7a51575358534d4a5a3241",
+    "decoded": "Minicopter"
+  },
+  {
+    "loader": "0x367d80",
+    "bytes": "645b4b5b4b684f5f5133312d31300d232b212a253b38283c4f",
+    "decoded": "ScrapTransportHelicopter"
+  },
+  {
+    "loader": "0x367e40",
+    "bytes": "74700d0d735951575c2f3136263645",
+    "decoded": "CH47Helicopter"
+  },
+  {
+    "loader": "0x367ebc",
+    "bytes": "75594a53587f5c4c3f",
+    "decoded": "BasicCar"
+  },
+  {
+    "loader": "0x367ef4",
+    "bytes": "7551525f3b",
+    "decoded": "Bike"
+  },
+  {
+    "loader": "0x367f28",
+    "bytes": "7a574d55496e52495d2f203643",
+    "decoded": "MotorRowboat"
+  },
+  {
+    "loader": "0x367f70",
+    "bytes": "7c59405b503c",
+    "decoded": "Kayak"
+  },
+  {
+    "loader": "0x367fac",
+    "bytes": "657070783b",
+    "decoded": "RHIB"
+  },
+  {
+    "loader": "0x3678c8",
+    "bytes": "615d5153585058735024342e261720273321272d4b",
+    "decoded": "VehicleModuleSeating"
+  },
+  {
+    "loader": "0x367900",
+    "bytes": "615d5153585058735024342e26012b212e262c4a",
+    "decoded": "VehicleModuleEngine"
+  },
+  {
+    "loader": "0x367934",
+    "bytes": "7a575d4f575d4f7d5e3241",
+    "decoded": "ModularCar"
+  },
+  {
+    "loader": "0x36796c",
+    "bytes": "65515d5b595058765032322743",
+    "decoded": "RidableHorse"
+  }
+]

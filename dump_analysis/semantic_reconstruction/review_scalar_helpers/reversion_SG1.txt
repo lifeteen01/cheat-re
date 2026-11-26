@@ -1,0 +1,2 @@
+PASS isolated reversion SG1 rejected: terminate called after throwing an instance of 'std::runtime_error'
+  what():  root read failure precedes Sprite/string bit2 store

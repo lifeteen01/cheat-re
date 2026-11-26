@@ -1,0 +1,16 @@
+[I] Combined immutable-script strict verification.
+Compile game_helpers_analysis.cpp
+Compile metadata_argument_bindings.cpp
+Compile game_root_helpers.cpp
+Compile game_root_domain_bindings.cpp
+Compile game_field_controller_bindings.cpp
+Compile game_field_controller_checks.cpp
+Compile game_field_controllers.cpp
+Compile analysis_checks.cpp
+Compile metadata_argument_checks.cpp
+Compile game_root_helper_checks.cpp
+Compile game_root_domain_checks.cpp
+Link 284 translation units; 273 content-verified cache hits
+FAIL: player/model bit helpers compose guarded fields
+EXIT_STATUS=1
+SOURCE_SET_UNCHANGED=True

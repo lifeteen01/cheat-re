@@ -1,0 +1,52 @@
+[
+  {
+    "entry": "0x3bd114",
+    "end": "0x3bde22",
+    "instructions": 711
+  },
+  {
+    "entry": "0x3be2ec",
+    "end": "0x3bf007",
+    "instructions": 746
+  },
+  {
+    "entry": "0x387d18",
+    "end": "0x3889e0",
+    "instructions": 756
+  },
+  {
+    "entry": "0x365038",
+    "end": "0x365815",
+    "instructions": 443
+  },
+  {
+    "entry": "0x3bf008",
+    "end": "0x3bfd57",
+    "instructions": 759
+  },
+  {
+    "entry": "0x3bc7d8",
+    "end": "0x3bc7e0",
+    "instructions": 2
+  },
+  {
+    "entry": "0x3c43f4",
+    "end": "0x3c4436",
+    "instructions": 16
+  },
+  {
+    "entry": "0x3c4438",
+    "end": "0x3c4476",
+    "instructions": 16
+  },
+  {
+    "entry": "0x384df0",
+    "end": "0x3853b0",
+    "instructions": 324
+  },
+  {
+    "entry": "0x38724c",
+    "end": "0x387272",
+    "instructions": 8
+  }
+]

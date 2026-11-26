@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "mode": "windows",
+  "exit_code": 0,
+  "compiler_sha256": "43befe0a8b6f3b40f54b5fac3717b4bf1cf56a2373b7b9bbbe21956211c16046",
+  "objects": {
+    "dump_analysis/semantic_reconstruction/freestanding_gate/windows/gate_x64.S.o": "8b987a199b6b113d6dbdb8628ea0ba118b9c3735b8cbed4484cc841e8e0cad0f",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/windows/checks_x64.S.o": "1ed007d2219be452b7c36f9960ced33734a5a71941a12172fe6248aab7cbd1d5",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/windows/gate.cpp.o": "28de440edb640706c19efaa020a23938f7a2210884854719bd5357273c7c8263",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/windows/checks.cpp.o": "a3170aa87cc14d9f46092aaba312c5f6a8406a57f3815f2cb2524fbec735a37b"
+  },
+  "build_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "link_map_sha256": "df20808bd0070c71e2f272b2ff6d6c2a0f9a4d05befd92547e489429d34a29b6",
+  "artifacts": {
+    "dump_analysis/semantic_reconstruction/freestanding_gate/windows/owned_gate_checks.exe": "3b85862a73e1b46baa22e902cf8654d226131562f28fdadc010b12c9a45c7ca2",
+    "dump_analysis/semantic_reconstruction/freestanding_gate/windows/re_gate.dll": "f43287c29dd6b1655b565296615a4c0b67429fa20dd6d7fd294b5f9e72df7405"
+  },
+  "executor_audit": {
+    "passed": true,
+    "instruction_count": 126,
+    "restore_reference_verified": true,
+    "comparison": "ordered mnemonics/registers/operands/direct-branch destinations; relocated restore LEA",
+    "original_bytes_checked": true,
+    "dump_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090"
+  },
+  "dll_imports": {
+    "libraries": [],
+    "directories": {
+      "imports": {
+        "rva": 16384,
+        "size": 24
+      },
+      "iat": {
+        "rva": 0,
+        "size": 0
+      },
+      "delay_imports": {
+        "rva": 0,
+        "size": 0
+      },
+      "tls": {
+        "rva": 0,
+        "size": 0
+      }
+    },
+    "no_imported_libraries": true,
+    "no_iat": true,
+    "no_delay_imports": true,
+    "no_tls": true
+  },
+  "host_imports_are_separate": {
+    "libraries": [
+      "KERNEL32.dll",
+      "msvcrt.dll"
+    ],
+    "directories": {
+      "imports": {
+        "rva": 65536,
+        "size": 1792
+      },
+      "iat": {
+        "rva": 66000,
+        "size": 400
+      },
+      "delay_imports": {
+        "rva": 0,
+        "size": 0
+      },
+      "tls": {
+        "rva": 46496,
+        "size": 40
+      }
+    },
+    "no_imported_libraries": false,
+    "no_iat": false,
+    "no_delay_imports": true,
+    "no_tls": false
+  },
+  "dll_linked_archive_members": false,
+  "gate_object_undefined": "                 U re_gate_capture\n",
+  "seconds": 9.342,
+  "runtime_log_sha256": "578b8f65d3650db1abcedce0d65d73b975c96c2c79b5446ccc920a5e5bb1426a",
+  "original_manifest_entries": 135,
+  "scope": "Recovered executor component only; supplied owned context/targets. Hosted driver is separate.",
+  "full_context_selection_implemented": false,
+  "scene_uses_executor": false,
+  "overall_base_no_crt_no_imports": false,
+  "wine_version": "wine-10.0 (Ubuntu 10.0~repack-12ubuntu1)",
+  "owned_prefix": "dump_analysis/semantic_reconstruction/freestanding_gate/windows/owned_prefix_8as_7t_j",
+  "native_windows_validated": false,
+  "in_game_validated": false
+}

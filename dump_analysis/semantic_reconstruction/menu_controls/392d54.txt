@@ -1,0 +1,25 @@
+392d54	mov    r9,QWORD PTR [rip+0x72dcd]        # 0x405b28
+392d5b	and    ecx,0xe
+392d5e	cmp    ecx,0x2
+392d61	je     0x392db1
+392d63	cmp    ecx,0x4
+392d66	je     0x392d8f
+392d68	cmp    ecx,0x8
+392d6b	jne    0x392db1
+392d6d	movss  xmm0,DWORD PTR [r9+0x3c]
+392d73	mulss  xmm0,DWORD PTR [rip+0xfffffffffff15911]        # 0x2a868c
+392d7b	movss  DWORD PTR [rdx],xmm0
+392d7f	movss  xmm1,DWORD PTR [r9+0x40]
+392d85	mulss  xmm1,DWORD PTR [rip+0xffffffffffefb43b]        # 0x28e1c8
+392d8d	jmp    0x392dbd
+392d8f	movss  xmm0,DWORD PTR [r9+0x3c]
+392d95	mulss  xmm0,DWORD PTR [rip+0xfffffffffff158ef]        # 0x2a868c
+392d9d	movss  DWORD PTR [rdx],xmm0
+392da1	movss  xmm1,DWORD PTR [r9+0x40]
+392da7	mulss  xmm1,DWORD PTR [rip+0xfffffffffff00325]        # 0x2930d4
+392daf	jmp    0x392dbd
+392db1	mov    eax,DWORD PTR [r9+0x3c]
+392db5	mov    DWORD PTR [rdx],eax
+392db7	movss  xmm1,DWORD PTR [r9+0x40]
+392dbd	movss  DWORD PTR [r8],xmm1
+392dc2	ret

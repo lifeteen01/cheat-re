@@ -1,0 +1,719 @@
+[
+  {
+    "target": "0x35d200",
+    "status": "current window mark and reload",
+    "sites": [
+      "0x35a821",
+      "0x35af89",
+      "0x35b059",
+      "0x35c26e",
+      "0x35c348",
+      "0x35c5a3",
+      "0x35c763",
+      "0x35c89e",
+      "0x36239c"
+    ]
+  },
+  {
+    "target": "0x2cc350",
+    "status": "owned four-float constructor",
+    "sites": [
+      "0x35a888",
+      "0x35aff0",
+      "0x35b0c0",
+      "0x35c2d5",
+      "0x35c3ab",
+      "0x35c447",
+      "0x35c493",
+      "0x35c4f6",
+      "0x35c803",
+      "0x35c90c"
+    ]
+  },
+  {
+    "target": "0x392260",
+    "status": "style alpha multiplication then color packing",
+    "sites": [
+      "0x35a890",
+      "0x35aff8",
+      "0x35b0c8",
+      "0x35c2dd",
+      "0x35c3b3",
+      "0x35c44f",
+      "0x35c49b",
+      "0x35c4fe",
+      "0x35c80b",
+      "0x35c914"
+    ]
+  },
+  {
+    "target": "0x39f928",
+    "status": "convex AA fringe and nonAA fan",
+    "sites": [
+      "0x35a8a3",
+      "0x378a2b"
+    ]
+  },
+  {
+    "target": "0x2e0198",
+    "status": "[U] typed matching Unity sine, no live invocation",
+    "sites": [
+      "0x35ad27",
+      "0x35ad5f",
+      "0x35ad97",
+      "0x35add3",
+      "0x35b3ef",
+      "0x3622e1"
+    ]
+  },
+  {
+    "target": "0x2dff68",
+    "status": "[U] typed matching Unity cosine, no live invocation",
+    "sites": [
+      "0x35ad3c",
+      "0x35ad75",
+      "0x35adac",
+      "0x35ade9",
+      "0x3622f3"
+    ]
+  },
+  {
+    "target": "0x2cc340",
+    "status": "owned Vec2 constructor",
+    "sites": [
+      "0x35ad56",
+      "0x35ad8f",
+      "0x35adca",
+      "0x35ae02",
+      "0x35b1fd",
+      "0x35b211",
+      "0x35b2c2",
+      "0x35b2e6",
+      "0x35b381",
+      "0x35b395",
+      "0x35b440",
+      "0x35b45d",
+      "0x35c6a3",
+      "0x35c6b6",
+      "0x35c6c9",
+      "0x35c82b",
+      "0x35c83b",
+      "0x362506",
+      "0x36251a",
+      "0x362605",
+      "0x362619",
+      "0x3626d5",
+      "0x3626e9",
+      "0x362739",
+      "0x362750",
+      "0x3a0225",
+      "0x3a0255",
+      "0x3a0d10",
+      "0x3a0d26",
+      "0x3a117f",
+      "0x3a11a7",
+      "0x3a11c3",
+      "0x3a11eb",
+      "0x3a13a4",
+      "0x3a13e8",
+      "0x3a6a19",
+      "0x3a6a89",
+      "0x3a6ce2",
+      "0x3a6d1d",
+      "0x3a6d55",
+      "0x3a6d8c",
+      "0x3a6dc8",
+      "0x3a6df4",
+      "0x3a6ef5",
+      "0x3a6f09",
+      "0x3a91db"
+    ]
+  },
+  {
+    "target": "0x3612f8",
+    "status": "[U] local HSV wrapper3612f8..36135a\u21923904e0..39062b; untranslated meter dependency",
+    "sites": [
+      "0x35ae4d"
+    ]
+  },
+  {
+    "target": "0x392ecc",
+    "status": "local current-window accessor392ecc..392ee1\u219235d200, thenwindow+298",
+    "sites": [
+      "0x35ae5b",
+      "0x35aec2",
+      "0x35aef0"
+    ]
+  },
+  {
+    "target": "0x2ef80c",
+    "status": "font_text literal color conversion",
+    "sites": [
+      "0x35ae68",
+      "0x35aecf",
+      "0x35aefd",
+      "0x35b798",
+      "0x35b7d9",
+      "0x35b9ac",
+      "0x35ba01",
+      "0x35ba34",
+      "0x35bbb7",
+      "0x35bc14",
+      "0x3624b1",
+      "0x3625e9",
+      "0x3626c3",
+      "0x36271d"
+    ]
+  },
+  {
+    "target": "0x3a1084",
+    "status": "[U] local four-point pathfill3a1084..3a10ea; untranslated meter dependency",
+    "sites": [
+      "0x35ae8d"
+    ]
+  },
+  {
+    "target": "0x2d484c",
+    "status": "local four-float constructor wrapper2d484c..2d486f\u21922cc350",
+    "sites": [
+      "0x35aebd"
+    ]
+  },
+  {
+    "target": "0x3a01f4",
+    "status": "half-pixel line/path stroke",
+    "sites": [
+      "0x35aeeb",
+      "0x35af19",
+      "0x35c2fd",
+      "0x35c4c3",
+      "0x35c521",
+      "0x35c573",
+      "0x362701"
+    ]
+  },
+  {
+    "target": "0x39f7ac",
+    "status": "outlined circle",
+    "sites": [
+      "0x35b020",
+      "0x35c656"
+    ]
+  },
+  {
+    "target": "0x39f874",
+    "status": "filled circle",
+    "sites": [
+      "0x35b0e1",
+      "0x35c608"
+    ]
+  },
+  {
+    "target": "0x3925a4",
+    "status": "[U] local3925a4..3925c9\u2192context+48d8 vectorindex0\u219239256c..3925a2; untranslated meter dependency",
+    "sites": [
+      "0x35b14c"
+    ]
+  },
+  {
+    "target": "0x3a1244",
+    "status": "filled rectangle",
+    "sites": [
+      "0x35b232",
+      "0x35b34b",
+      "0x35c85f",
+      "0x36253a",
+      "0x362639"
+    ]
+  },
+  {
+    "target": "0x2e5a44",
+    "status": "local ordered clamp2e5a44..2e5a54; untranslated meter fold",
+    "sites": [
+      "0x35b2ae",
+      "0x362446"
+    ]
+  },
+  {
+    "target": "0x3a1148",
+    "status": "outlined rectangle",
+    "sites": [
+      "0x35b3be",
+      "0x35b4b4",
+      "0x362777"
+    ]
+  },
+  {
+    "target": "0x3926ac",
+    "status": "local context+8 getter3926ac..3926b8; untranslated meter dependency",
+    "sites": [
+      "0x35b3cd"
+    ]
+  },
+  {
+    "target": "0x2db318",
+    "status": "owned integer-color constructor",
+    "sites": [
+      "0x35b595",
+      "0x35b5fa",
+      "0x35b6c3",
+      "0x35b6d8",
+      "0x35b6ed",
+      "0x35b704",
+      "0x35b719",
+      "0x35b72e",
+      "0x35b790",
+      "0x35b8ac",
+      "0x35b8c4",
+      "0x35b8db",
+      "0x35b8f2",
+      "0x35b909",
+      "0x35b91e",
+      "0x35b934",
+      "0x35b9a3",
+      "0x35baf7",
+      "0x35bb0c",
+      "0x35bb21",
+      "0x35bb38",
+      "0x35bb4d",
+      "0x35bbaf",
+      "0x35c9a2",
+      "0x35ca1b",
+      "0x35ca7d",
+      "0x3623bf",
+      "0x3623d4",
+      "0x3623f1",
+      "0x362409",
+      "0x3626bb"
+    ]
+  },
+  {
+    "target": "0x35ac38",
+    "status": "ring meter:100quad segments, repeated background accessor, optional HSV colors, two alpha-half edge strokes",
+    "sites": [
+      "0x35b5dd",
+      "0x35b651",
+      "0x35c9fb",
+      "0x35ca63",
+      "0x35cae7"
+    ]
+  },
+  {
+    "target": "0x35c738",
+    "status": "float rectangle/window/bounds/style",
+    "sites": [
+      "0x35b7d0",
+      "0x35b82b",
+      "0x35b9f8",
+      "0x35ba2a",
+      "0x35ba7f",
+      "0x35bbec",
+      "0x35bc4c"
+    ]
+  },
+  {
+    "target": "0x362270",
+    "status": "literal44-byte ring configuration",
+    "sites": [
+      "0x35c5c7"
+    ]
+  },
+  {
+    "target": "0x3622c0",
+    "status": "degree wrap/typed Unity sine then cosine",
+    "sites": [
+      "0x35c66f"
+    ]
+  },
+  {
+    "target": "0x35d4c8",
+    "status": "three-point scaled configuration and rotation",
+    "sites": [
+      "0x35c690"
+    ]
+  },
+  {
+    "target": "0x3a0294",
+    "status": "polyline AA thin/thick/textured and nonAA geometry",
+    "sites": [
+      "0x35c704",
+      "0x39877a"
+    ]
+  },
+  {
+    "target": "0x3a3338",
+    "status": "triangle/path fill",
+    "sites": [
+      "0x35c929"
+    ]
+  },
+  {
+    "target": "0x35aa88",
+    "status": "literal rotation grouping",
+    "sites": [
+      "0x35d50a",
+      "0x35d539",
+      "0x35d57d"
+    ]
+  },
+  {
+    "target": "0x320cd0",
+    "status": "literal repeated degree wrap",
+    "sites": [
+      "0x3622ce"
+    ]
+  },
+  {
+    "target": "0x362fc0",
+    "status": "local ceil thunk362fc0..362fc5\u21923c8918; untranslated meter dependency",
+    "sites": [
+      "0x362496"
+    ]
+  },
+  {
+    "target": "0x362200",
+    "status": "[U] local four-float interpolation362200..36226d; untranslated meter dependency",
+    "sites": [
+      "0x3625c5"
+    ]
+  },
+  {
+    "target": "0x39045c",
+    "status": "font_text literal color packing",
+    "sites": [
+      "0x39228b"
+    ]
+  },
+  {
+    "target": "0x3a8eec",
+    "status": "fast48 table arc",
+    "sites": [
+      "0x39f7ff",
+      "0x39f8bf",
+      "0x3a6a48",
+      "0x3a6b6d"
+    ]
+  },
+  {
+    "target": "0x3762ac",
+    "status": "signed integer clamp folded in shape math",
+    "sites": [
+      "0x39f814",
+      "0x39f8d4",
+      "0x3a8d32",
+      "0x3a8f51"
+    ]
+  },
+  {
+    "target": "0x3a684c",
+    "status": "automatic and explicit arc selector",
+    "sites": [
+      "0x39f84c",
+      "0x39f90c"
+    ]
+  },
+  {
+    "target": "0x398758",
+    "status": "path stroke/clear",
+    "sites": [
+      "0x39f862",
+      "0x3a0286",
+      "0x3a1236"
+    ]
+  },
+  {
+    "target": "0x378a14",
+    "status": "path fill/clear",
+    "sites": [
+      "0x39f916",
+      "0x3a12a6",
+      "0x3a337c"
+    ]
+  },
+  {
+    "target": "0x3a719c",
+    "status": "drawlist_core reserve/rollover/counts",
+    "sites": [
+      "0x39f9b1",
+      "0x39fc2a",
+      "0x3a03fc",
+      "0x3a0e4a",
+      "0x3a12b9",
+      "0x3a1327"
+    ]
+  },
+  {
+    "target": "0x3a9688",
+    "status": "drawlist_core shared temp vector resize (owned temporary arrays)",
+    "sites": [
+      "0x39fa05",
+      "0x3a041f"
+    ]
+  },
+  {
+    "target": "0x3a6594",
+    "status": "literal RSQRTSS",
+    "sites": [
+      "0x39fa57",
+      "0x3a0489",
+      "0x3a0eb5"
+    ]
+  },
+  {
+    "target": "0x2ef9d8",
+    "status": "literal Vec2 add folded in shape math",
+    "sites": [
+      "0x3a0235",
+      "0x3a0265",
+      "0x3a0537",
+      "0x3a0561",
+      "0x3a05eb",
+      "0x3a0629",
+      "0x3a0a32",
+      "0x3a0a91",
+      "0x3a11fb"
+    ]
+  },
+  {
+    "target": "0x378a40",
+    "status": "drawlist_core path append/growth",
+    "sites": [
+      "0x3a0240",
+      "0x3a0270",
+      "0x3a335a",
+      "0x3a3365",
+      "0x3a3370",
+      "0x3a6db2",
+      "0x3a6dd3",
+      "0x3a6dde",
+      "0x3a6dff"
+    ]
+  },
+  {
+    "target": "0x38a3f4",
+    "status": "source-operand MAXSS folded in shape math",
+    "sites": [
+      "0x3a036b"
+    ]
+  },
+  {
+    "target": "0x38bc08",
+    "status": "literal Vec2 scale folded in shape math",
+    "sites": [
+      "0x3a0528",
+      "0x3a0552",
+      "0x3a057c",
+      "0x3a05a5",
+      "0x3a05db",
+      "0x3a0619",
+      "0x3a0649",
+      "0x3a0678",
+      "0x3a0a23",
+      "0x3a0a4b",
+      "0x3a0a81",
+      "0x3a0abc"
+    ]
+  },
+  {
+    "target": "0x3367e4",
+    "status": "literal Vec2 subtract folded in shape math",
+    "sites": [
+      "0x3a058b",
+      "0x3a05b4",
+      "0x3a0659",
+      "0x3a0688",
+      "0x3a0a5b",
+      "0x3a0acc",
+      "0x3a118f",
+      "0x3a11d3"
+    ]
+  },
+  {
+    "target": "0x3a6b78",
+    "status": "rounded rectangle corner path",
+    "sites": [
+      "0x3a121d",
+      "0x3a129c"
+    ]
+  },
+  {
+    "target": "0x3a6ec8",
+    "status": "whiteUV primitive rectangle vertices and indices",
+    "sites": [
+      "0x3a12ca"
+    ]
+  },
+  {
+    "target": "0x378a4c",
+    "status": "literal uint16 index write folded through core write-relative",
+    "sites": [
+      "0x3a1333",
+      "0x3a1342",
+      "0x3a1352",
+      "0x3a135e",
+      "0x3a136e",
+      "0x3a137e"
+    ]
+  },
+  {
+    "target": "0x378a5c",
+    "status": "literal20byte vertex write folded through core write-relative",
+    "sites": [
+      "0x3a1391",
+      "0x3a13bc",
+      "0x3a13d4",
+      "0x3a1400"
+    ]
+  },
+  {
+    "target": "0x3930e8",
+    "status": "literal CVTT floor",
+    "sites": [
+      "0x3a6918",
+      "0x3a6937"
+    ]
+  },
+  {
+    "target": "0x3c8918",
+    "status": "literal bitwise ceil",
+    "sites": [
+      "0x3a6924",
+      "0x3a692b",
+      "0x3a6ada",
+      "0x3a8d10"
+    ]
+  },
+  {
+    "target": "0x39f28c",
+    "status": "signed integer max folded in shape math",
+    "sites": [
+      "0x3a6953",
+      "0x3a6ae5"
+    ]
+  },
+  {
+    "target": "0x2e372c",
+    "status": "float abs folded in shape math",
+    "sites": [
+      "0x3a697f",
+      "0x3a69a7",
+      "0x3a6aa4"
+    ]
+  },
+  {
+    "target": "0x37a758",
+    "status": "drawlist_core path reserve",
+    "sites": [
+      "0x3a69dc",
+      "0x3a917b"
+    ]
+  },
+  {
+    "target": "0x3c8e6c",
+    "status": "literal polynomial sine",
+    "sites": [
+      "0x3a69ea",
+      "0x3a6a5a",
+      "0x3a91ad"
+    ]
+  },
+  {
+    "target": "0x3c899c",
+    "status": "font_text literal cosine",
+    "sites": [
+      "0x3a6a00",
+      "0x3a6a70",
+      "0x3a91c2"
+    ]
+  },
+  {
+    "target": "0x37a658",
+    "status": "drawlist_core path append/growth",
+    "sites": [
+      "0x3a6a24",
+      "0x3a6a94",
+      "0x3a6b51",
+      "0x3a8f1f",
+      "0x3a915b",
+      "0x3a91e6"
+    ]
+  },
+  {
+    "target": "0x3a8cb4",
+    "status": "circle segment recommendation",
+    "sites": [
+      "0x3a6ac6",
+      "0x3a8f37"
+    ]
+  },
+  {
+    "target": "0x3a9110",
+    "status": "polynomial explicit arc",
+    "sites": [
+      "0x3a6b03"
+    ]
+  },
+  {
+    "target": "0x3a4588",
+    "status": "old/new corner flag mapping",
+    "sites": [
+      "0x3a6bb7"
+    ]
+  },
+  {
+    "target": "0x2e3ef0",
+    "status": "float abs folded in shape math",
+    "sites": [
+      "0x3a6c0c",
+      "0x3a6c5e",
+      "0x3c853d"
+    ]
+  },
+  {
+    "target": "0x3762cc",
+    "status": "source-operand MINSS folded in shape math",
+    "sites": [
+      "0x3a6c21",
+      "0x3a6c73",
+      "0x3a8ce4"
+    ]
+  },
+  {
+    "target": "0x3a6b38",
+    "status": "fast12 arc mapping",
+    "sites": [
+      "0x3a6cfe",
+      "0x3a6d37",
+      "0x3a6d6f",
+      "0x3a6da5"
+    ]
+  },
+  {
+    "target": "0x3c852c",
+    "status": "literal polynomial acos",
+    "sites": [
+      "0x3a8cfc"
+    ]
+  },
+  {
+    "target": "0x3a4b08",
+    "status": "signed integer abs (analysis extent checked)",
+    "sites": [
+      "0x3a8f65"
+    ]
+  },
+  {
+    "target": "0x37ad34",
+    "status": "drawlist_core path resize",
+    "sites": [
+      "0x3a8fa9"
+    ]
+  },
+  {
+    "target": "0x3c8f34",
+    "status": "jump to reused literal square-root2e3c88",
+    "sites": [
+      "0x3c8558"
+    ]
+  }
+]

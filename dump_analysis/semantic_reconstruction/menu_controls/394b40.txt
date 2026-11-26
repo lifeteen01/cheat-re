@@ -1,0 +1,67 @@
+394b40	sub    rsp,0x28
+394b44	mov    r8,QWORD PTR [rip+0x70fdd]        # 0x405b28
+394b4b	xor    r10d,r10d
+394b4e	movaps xmm5,xmm1
+394b51	mov    r9,rcx
+394b54	mov    rdx,QWORD PTR [r8+0x3f08]
+394b5b	cmp    BYTE PTR [rdx+0xbb],r10b
+394b62	jne    0x394caf
+394b68	comiss xmm5,DWORD PTR [rip+0xffffffffffef86dd]        # 0x28d24c
+394b6f	xorps  xmm0,xmm0
+394b72	jb     0x394b85
+394b74	movss  xmm1,DWORD PTR [rdx+0x138]
+394b7c	subss  xmm1,xmm5
+394b80	call   0x38a3f4
+394b85	mov    al,BYTE PTR [rdx+0x140]
+394b8b	movss  xmm1,DWORD PTR [rdx+0x104]
+394b93	neg    al
+394b95	movss  xmm4,DWORD PTR [rdx+0x138]
+394b9d	sbb    rcx,rcx
+394ba0	and    ecx,0x8
+394ba3	movss  xmm2,DWORD PTR [rcx+rdx*1+0x104]
+394bac	subss  xmm1,xmm2
+394bb0	addss  xmm1,DWORD PTR [r9+0x4]
+394bb6	addss  xmm1,xmm0
+394bba	movss  xmm0,DWORD PTR [rdx+0x12c]
+394bc2	call   0x38a3f4
+394bc7	movss  xmm1,DWORD PTR [rdx+0x100]
+394bcf	movaps xmm3,xmm0
+394bd2	addss  xmm1,DWORD PTR [r9]
+394bd7	movss  xmm0,DWORD PTR [rdx+0x144]
+394bdf	addss  xmm0,DWORD PTR [rdx+0x20]
+394be4	movss  DWORD PTR [rdx+0x10c],xmm2
+394bec	addss  xmm2,xmm3
+394bf0	movss  DWORD PTR [rdx+0x108],xmm1
+394bf8	addss  xmm0,DWORD PTR [rdx+0x148]
+394c00	cvttss2si eax,xmm0
+394c04	movd   xmm0,eax
+394c08	cvtdq2ps xmm0,xmm0
+394c0b	movss  DWORD PTR [rdx+0x100],xmm0
+394c13	addss  xmm2,DWORD PTR [r8+0x3820]
+394c1c	movss  xmm0,DWORD PTR [rdx+0x118]
+394c24	cvttss2si eax,xmm2
+394c28	movd   xmm2,eax
+394c2c	cvtdq2ps xmm2,xmm2
+394c2f	movss  DWORD PTR [rdx+0x104],xmm2
+394c37	call   0x38a3f4
+394c3c	movss  DWORD PTR [rdx+0x118],xmm0
+394c44	subss  xmm2,DWORD PTR [r8+0x3820]
+394c4d	movss  xmm0,DWORD PTR [rdx+0x11c]
+394c55	movaps xmm1,xmm2
+394c58	call   0x38a3f4
+394c5d	movss  DWORD PTR [rdx+0x11c],xmm0
+394c65	movaps xmm1,xmm5
+394c68	movaps xmm0,xmm4
+394c6b	movss  DWORD PTR [rdx+0x134],xmm3
+394c73	mov    DWORD PTR [rdx+0x12c],r10d
+394c7a	call   0x38a3f4
+394c7f	movss  DWORD PTR [rdx+0x13c],xmm0
+394c87	mov    DWORD PTR [rdx+0x138],r10d
+394c8e	mov    WORD PTR [rdx+0x140],r10w
+394c96	cmp    DWORD PTR [rdx+0x1b4],r10d
+394c9d	jne    0x394caf
+394c9f	movss  xmm1,DWORD PTR [rip+0xffffffffffefe5b9]        # 0x293260
+394ca7	xorps  xmm0,xmm0
+394caa	call   0x39ac04
+394caf	add    rsp,0x28
+394cb3	ret

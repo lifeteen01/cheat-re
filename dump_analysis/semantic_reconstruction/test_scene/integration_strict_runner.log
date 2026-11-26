@@ -1,0 +1,21 @@
+Compile strict esp.cpp
+Compile strict esp_root_checks.cpp
+{"passed": true, "mode": "strict", "cache_hits": 149, "artifact": "dump_analysis/semantic_reconstruction/test_scene/strict/owned_scene", "artifact_sha256": "2c308374a00ae4623d4021b31d936483d6f708e3b53d1360311a8c341da2dd14"}
+{
+  "passed": true,
+  "mode": "strict",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 71.539,
+  "runtime_limit_seconds": 600,
+  "artifact_sha256": "2c308374a00ae4623d4021b31d936483d6f708e3b53d1360311a8c341da2dd14",
+  "build_record_sha256": "6d347c8ee329235dfc545452b0b71ca48b4155388278fd3399b5c4e234b359b0",
+  "runner_sha256": "0a8cd8a7556d5c6d8676213117e449a45dbf52229f043e5ce5bb2e11f5c80cd9",
+  "runtime_evidence": {
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime/events.jsonl": "3965bbf9c4dffbe42cc6687268bd217af7c2077604366384ef9d1e2d592f3b4b",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime/entrypoints.json": "1aaa06f9629728e87657c9a8ae5b4bfca09ec3ed32e0d2791e7f1406c2607efc",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime.log": "227f03d732cae9c855c509d4207d82a59415bf4f52a416f38e2c3a0ae19f8d1b"
+  },
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

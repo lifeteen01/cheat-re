@@ -1,0 +1,37 @@
+; pdata function 0x368be8..0x368c60 unwind=0x3d2038
+368be8  40 53                          rex push rbx
+368bea  48 83 ec 20                    sub    rsp,0x20
+368bee  48 8b da                       mov    rbx,rdx
+368bf1  48 8b d1                       mov    rdx,rcx
+368bf4  e8 0f 23 f6 ff                 call   0x2caf08
+368bf9  84 c0                          test   al,al
+368bfb  74 52                          je     0x368c4f
+368bfd  41 83 f8 ff                    cmp    r8d,0xffffffff
+368c01  74 4c                          je     0x368c4f
+368c03  48 8b 92 d0 01 00 00           mov    rdx,QWORD PTR [rdx+0x1d0]
+368c0a  48 8b ca                       mov    rcx,rdx
+368c0d  e8 f6 22 f6 ff                 call   0x2caf08
+368c12  84 c0                          test   al,al
+368c14  74 39                          je     0x368c4f
+368c16  4c 8b 4a 50                    mov    r9,QWORD PTR [rdx+0x50]
+368c1a  49 8b c9                       mov    rcx,r9
+368c1d  e8 e6 22 f6 ff                 call   0x2caf08
+368c22  84 c0                          test   al,al
+368c24  74 29                          je     0x368c4f
+368c26  42 8d 04 c5 00 00 00 00        lea    eax,[r8*8+0x0]
+368c2e  48 63 c8                       movsxd rcx,eax
+368c31  4e 8b 44 09 20                 mov    r8,QWORD PTR [rcx+r9*1+0x20]
+368c36  49 8b c8                       mov    rcx,r8
+368c39  e8 ca 22 f6 ff                 call   0x2caf08
+368c3e  84 c0                          test   al,al
+368c40  74 0d                          je     0x368c4f
+368c42  48 8b d3                       mov    rdx,rbx
+368c45  49 8b c8                       mov    rcx,r8
+368c48  e8 87 bb 00 00                 call   0x3747d4
+368c4d  eb 08                          jmp    0x368c57
+368c4f  48 8b cb                       mov    rcx,rbx
+368c52  e8 65 ef 05 00                 call   0x3c7bbc
+368c57  48 8b c3                       mov    rax,rbx
+368c5a  48 83 c4 20                    add    rsp,0x20
+368c5e  5b                             pop    rbx
+368c5f  c3                             ret

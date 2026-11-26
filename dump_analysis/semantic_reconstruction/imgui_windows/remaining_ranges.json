@@ -1,0 +1,1166 @@
+{
+  "whole": [
+    {
+      "begin": "0x39138c",
+      "end_exclusive": "0x3915b3",
+      "bytes": 551,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "auto popup/tooltip positioning typed result required",
+      "sha256": "f66628693cf7ae79c344f9609fe10aba740eef49f80257ce99372172cf695569",
+      "instruction_count": 118,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3913b7",
+          "target": "0x3929e8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3913d5",
+          "target": "0x38bbc0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3913e9",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x391456",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39148f",
+          "target": "0x3915b4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3914b0",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3914d3",
+          "target": "0x3952b0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3914dc",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39156b",
+          "target": "0x38baf4",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x3913c3",
+          "target": "0x391499",
+          "instruction": "je     0x391499",
+          "status": "U"
+        },
+        {
+          "site": "0x3913fa",
+          "target": "0x391420",
+          "instruction": "je     0x391420",
+          "status": "U"
+        },
+        {
+          "site": "0x3914a0",
+          "target": "0x3914ba",
+          "instruction": "je     0x3914ba",
+          "status": "U"
+        },
+        {
+          "site": "0x3914c1",
+          "target": "0x39158d",
+          "instruction": "je     0x39158d",
+          "status": "U"
+        },
+        {
+          "site": "0x3914e8",
+          "target": "0x391531",
+          "instruction": "jne    0x391531",
+          "status": "U"
+        },
+        {
+          "site": "0x3914f1",
+          "target": "0x391531",
+          "instruction": "je     0x391531",
+          "status": "U"
+        },
+        {
+          "site": "0x3914f7",
+          "target": "0x391531",
+          "instruction": "jne    0x391531",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x3921c0",
+      "end_exclusive": "0x3921c5",
+      "bytes": 5,
+      "extent_source": "manually audited leaf/tail; all post-RET blocks included",
+      "status": "U",
+      "scope": "table pool lookup thunk",
+      "sha256": "7d43b4934c672c9327d0bb568a39637e66684c3ff4eadc6bc48fec1e45404ea3",
+      "instruction_count": 1,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3921c0",
+          "target": "0x3786d8",
+          "kind": "jmp"
+        }
+      ],
+      "conditional_branches": [],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x394dd4",
+      "end_exclusive": "0x394e59",
+      "bytes": 133,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "log finalization",
+      "sha256": "0cb4582c9b497f17349d039684bc0c040301c52e9d661d95d496d0e1640bf132",
+      "instruction_count": 28,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x394df5",
+          "target": "0x395038",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e0d",
+          "target": "0x39eba4",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e19",
+          "target": "0x39e3a4",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e21",
+          "target": "0x39b1f8",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e49",
+          "target": "0x3788ec",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x394dec",
+          "target": "0x394e4e",
+          "instruction": "je     0x394e4e",
+          "status": "U"
+        },
+        {
+          "site": "0x394e01",
+          "target": "0x394e26",
+          "instruction": "jne    0x394e26",
+          "status": "U"
+        },
+        {
+          "site": "0x394e14",
+          "target": "0x394e26",
+          "instruction": "jne    0x394e26",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x395500",
+      "end_exclusive": "0x3955bb",
+      "bytes": 187,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "nav initialization",
+      "sha256": "e9cbb7437c64e572c2ce44541054648722ff3686a35823f0546eb9cba113cecb",
+      "instruction_count": 40,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x395567",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39557e",
+          "target": "0x39b690",
+          "kind": "call"
+        },
+        {
+          "site": "0x39559b",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3955ab",
+          "target": "0x39676c",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x39551b",
+          "target": "0x395535",
+          "instruction": "je     0x395535",
+          "status": "U"
+        },
+        {
+          "site": "0x39553c",
+          "target": "0x395562",
+          "instruction": "je     0x395562",
+          "status": "U"
+        },
+        {
+          "site": "0x395545",
+          "target": "0x395562",
+          "instruction": "jne    0x395562",
+          "status": "U"
+        },
+        {
+          "site": "0x39554e",
+          "target": "0x395562",
+          "instruction": "je     0x395562",
+          "status": "U"
+        },
+        {
+          "site": "0x395552",
+          "target": "0x395562",
+          "instruction": "jne    0x395562",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x3997ac",
+      "end_exclusive": "0x399993",
+      "bytes": 487,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "child nav-highlight raster controller",
+      "sha256": "b5c512ced756351900c48d1d7235bb25452ad49873fc3fe07fc5d73edfae34e2",
+      "instruction_count": 115,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x399839",
+          "target": "0x3901b8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39985f",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39986b",
+          "target": "0x3911cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x399877",
+          "target": "0x390790",
+          "kind": "call"
+        },
+        {
+          "site": "0x399895",
+          "target": "0x3a7268",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998a9",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998ba",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998ca",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998dc",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998ec",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x399919",
+          "target": "0x3a1148",
+          "kind": "call"
+        },
+        {
+          "site": "0x39992a",
+          "target": "0x3a6e34",
+          "kind": "call"
+        },
+        {
+          "site": "0x39993d",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399968",
+          "target": "0x3a1148",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x3997e2",
+          "target": "0x39996d",
+          "instruction": "jne    0x39996d",
+          "status": "U"
+        },
+        {
+          "site": "0x3997ef",
+          "target": "0x3997fb",
+          "instruction": "je     0x3997fb",
+          "status": "U"
+        },
+        {
+          "site": "0x3997f5",
+          "target": "0x39996d",
+          "instruction": "je     0x39996d",
+          "status": "U"
+        },
+        {
+          "site": "0x39980a",
+          "target": "0x39996d",
+          "instruction": "jne    0x39996d",
+          "status": "U"
+        },
+        {
+          "site": "0x399814",
+          "target": "0x39981b",
+          "instruction": "je     0x39981b",
+          "status": "U"
+        },
+        {
+          "site": "0x39984a",
+          "target": "0x39992f",
+          "instruction": "je     0x39992f",
+          "status": "U"
+        },
+        {
+          "site": "0x399881",
+          "target": "0x39989a",
+          "instruction": "jne    0x39989a",
+          "status": "U"
+        },
+        {
+          "site": "0x399921",
+          "target": "0x39992f",
+          "instruction": "jne    0x39992f",
+          "status": "U"
+        },
+        {
+          "site": "0x399933",
+          "target": "0x39996d",
+          "instruction": "je     0x39996d",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x39a64c",
+      "end_exclusive": "0x39a7a8",
+      "bytes": 348,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "shadow controller; parent owns draw_shadows raster",
+      "sha256": "0b9d75f1540683b21af60ad8518a1bf9845fe436621929a33ed1c424343c0222",
+      "instruction_count": 75,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39a68c",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a69f",
+          "target": "0x3c8e6c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6aa",
+          "target": "0x3c899c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6bd",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6d5",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6f9",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a72c",
+          "target": "0x3a2010",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a74c",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a77f",
+          "target": "0x3a2010",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x39a7a8",
+      "end_exclusive": "0x39ac03",
+      "bytes": 1115,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "title contents/button/text controller typed callback required",
+      "sha256": "0210f2aa2293a8e7baeb01b91d6190c221476635226f09c940ba7b6cf423afd0",
+      "instruction_count": 262,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39a844",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a84d",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a877",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a8ba",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a8e5",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a900",
+          "target": "0x38c5a8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a908",
+          "target": "0x39e94c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a916",
+          "target": "0x392614",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a921",
+          "target": "0x3be114",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a93f",
+          "target": "0x38c8bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a947",
+          "target": "0x39e8d4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a955",
+          "target": "0x392614",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a960",
+          "target": "0x3bde30",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a9a5",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a9cc",
+          "target": "0x38f79c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a9db",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa36",
+          "target": "0x2e3ef0",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa41",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa5e",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa66",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa7a",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa89",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa95",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aac3",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aad6",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aaf7",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab09",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab12",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab36",
+          "target": "0x3762bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab5e",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab78",
+          "target": "0x3a7620",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab9e",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39abcd",
+          "target": "0x399a64",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x39a800",
+          "target": "0x39a80c",
+          "instruction": "jne    0x39a80c",
+          "status": "U"
+        },
+        {
+          "site": "0x39a805",
+          "target": "0x39a80c",
+          "instruction": "je     0x39a80c",
+          "status": "U"
+        },
+        {
+          "site": "0x39a855",
+          "target": "0x39a885",
+          "instruction": "je     0x39a885",
+          "status": "U"
+        },
+        {
+          "site": "0x39a888",
+          "target": "0x39a932",
+          "instruction": "je     0x39a932",
+          "status": "U"
+        },
+        {
+          "site": "0x39a891",
+          "target": "0x39a8c8",
+          "instruction": "jne    0x39a8c8",
+          "status": "U"
+        },
+        {
+          "site": "0x39a8cb",
+          "target": "0x39a8f8",
+          "instruction": "jne    0x39a8f8",
+          "status": "U"
+        },
+        {
+          "site": "0x39a928",
+          "target": "0x39a932",
+          "instruction": "je     0x39a932",
+          "status": "U"
+        },
+        {
+          "site": "0x39a935",
+          "target": "0x39a96e",
+          "instruction": "je     0x39a96e",
+          "status": "U"
+        },
+        {
+          "site": "0x39a967",
+          "target": "0x39a96e",
+          "instruction": "je     0x39a96e",
+          "status": "U"
+        },
+        {
+          "site": "0x39a989",
+          "target": "0x39a996",
+          "instruction": "je     0x39a996",
+          "status": "U"
+        },
+        {
+          "site": "0x39a9eb",
+          "target": "0x39a9f5",
+          "instruction": "jbe    0x39a9f5",
+          "status": "U"
+        },
+        {
+          "site": "0x39a9f9",
+          "target": "0x39aa04",
+          "instruction": "jbe    0x39aa04",
+          "status": "U"
+        },
+        {
+          "site": "0x39aa26",
+          "target": "0x39aa9e",
+          "instruction": "jbe    0x39aa9e",
+          "status": "U"
+        },
+        {
+          "site": "0x39aa2c",
+          "target": "0x39aa9e",
+          "instruction": "jbe    0x39aa9e",
+          "status": "U"
+        },
+        {
+          "site": "0x39aaff",
+          "target": "0x39aba8",
+          "instruction": "je     0x39aba8",
+          "status": "U"
+        },
+        {
+          "site": "0x39ab53",
+          "target": "0x39aba8",
+          "instruction": "jbe    0x39aba8",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x3b4f94",
+      "end_exclusive": "0x3b530a",
+      "bytes": 886,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "EndColumns",
+      "sha256": "ccc7ccf62bd61ac3269ba6eacca55921bdef5980120598977d59d5130e5e974f",
+      "instruction_count": 217,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3b4fdd",
+          "target": "0x35d200",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b4fec",
+          "target": "0x3988d0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b4ff8",
+          "target": "0x39878c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5008",
+          "target": "0x3a65c4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b501f",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b506e",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5082",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b50c4",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b50d1",
+          "target": "0x3b5320",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b50f7",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b510f",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b511e",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5135",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5164",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51a9",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51c6",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51d8",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51f4",
+          "target": "0x3a01f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b522d",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b523b",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5260",
+          "target": "0x3b53f0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b526b",
+          "target": "0x3b5554",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5305",
+          "target": "0x3970f0",
+          "kind": "jmp"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x3b4ff6",
+          "target": "0x3b500d",
+          "instruction": "jle    0x3b500d",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5039",
+          "target": "0x3b5045",
+          "instruction": "jne    0x3b5045",
+          "status": "U"
+        },
+        {
+          "site": "0x3b504e",
+          "target": "0x3b5273",
+          "instruction": "jne    0x3b5273",
+          "status": "U"
+        },
+        {
+          "site": "0x3b505a",
+          "target": "0x3b5273",
+          "instruction": "jne    0x3b5273",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5090",
+          "target": "0x3b5273",
+          "instruction": "jle    0x3b5273",
+          "status": "U"
+        },
+        {
+          "site": "0x3b513c",
+          "target": "0x3b51fe",
+          "instruction": "je     0x3b51fe",
+          "status": "U"
+        },
+        {
+          "site": "0x3b514f",
+          "target": "0x3b5192",
+          "instruction": "jne    0x3b5192",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5171",
+          "target": "0x3b5177",
+          "instruction": "jne    0x3b5177",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5175",
+          "target": "0x3b5192",
+          "instruction": "je     0x3b5192",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5183",
+          "target": "0x3b5192",
+          "instruction": "je     0x3b5192",
+          "status": "U"
+        },
+        {
+          "site": "0x3b520c",
+          "target": "0x3b50c1",
+          "instruction": "jl     0x3b50c1",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5216",
+          "target": "0x3b5270",
+          "instruction": "je     0x3b5270",
+          "status": "U"
+        },
+        {
+          "site": "0x3b521d",
+          "target": "0x3b5251",
+          "instruction": "jne    0x3b5251",
+          "status": "U"
+        },
+        {
+          "site": "0x3b5225",
+          "target": "0x3b5251",
+          "instruction": "jle    0x3b5251",
+          "status": "U"
+        },
+        {
+          "site": "0x3b524f",
+          "target": "0x3b5227",
+          "instruction": "jl     0x3b5227",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    },
+    {
+      "begin": "0x3c3234",
+      "end_exclusive": "0x3c338d",
+      "bytes": 345,
+      "extent_source": "PE runtime function record",
+      "status": "U",
+      "scope": "scrollbar controller typed callback required",
+      "sha256": "1c7556a4ebbcb12533a44b32beb4bffe02d926f33a5543b0e7f145c47842c754",
+      "instruction_count": 88,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3c3261",
+          "target": "0x3bff14",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3274",
+          "target": "0x3bff58",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c32d2",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c32ee",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c32fe",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c331a",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c332c",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3360",
+          "target": "0x3c3390",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x3c327c",
+          "target": "0x3c3295",
+          "instruction": "jne    0x3c3295",
+          "status": "U"
+        },
+        {
+          "site": "0x3c328b",
+          "target": "0x3c32c8",
+          "instruction": "jne    0x3c32c8",
+          "status": "U"
+        },
+        {
+          "site": "0x3c32b6",
+          "target": "0x3c32c8",
+          "instruction": "jne    0x3c32c8",
+          "status": "U"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": []
+    }
+  ],
+  "interior": [
+    {
+      "begin": "0x391ddb",
+      "end_exclusive": "0x391dee",
+      "bytes": 19,
+      "status": "U",
+      "scope": "unexposed arbitrary existing settings-index lookup"
+    },
+    {
+      "begin": "0x39a167",
+      "end_exclusive": "0x39a2c3",
+      "bytes": 348,
+      "status": "U",
+      "scope": "nontransparent resize-grip path"
+    },
+    {
+      "begin": "0x39a3ce",
+      "end_exclusive": "0x39a575",
+      "bytes": 423,
+      "status": "U",
+      "scope": "held border path"
+    },
+    {
+      "begin": "0x39d805",
+      "end_exclusive": "0x39e0a0",
+      "bytes": 2203,
+      "status": "U",
+      "scope": "interactive resize body"
+    },
+    {
+      "begin": "0x3bd07c",
+      "end_exclusive": "0x3bd0ab",
+      "bytes": 47,
+      "status": "U",
+      "scope": "unexposed recompute=false branch"
+    }
+  ],
+  "other_specializations": [
+    {
+      "begin": "0x38b9e8",
+      "end_exclusive": "0x38ba0c",
+      "bytes": 36,
+      "extent_source": "PE runtime function record",
+      "status": "S",
+      "scope": "window stack backup fields copied; constructor dead stores/padding not fabricated",
+      "sha256": "e8b2d5e929b5c4e5df9e42ea387a5b7d469a37cbbb94c2c55131aeb4006bbb2c",
+      "instruction_count": 11,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x38b9f5",
+          "target": "0x38b058",
+          "kind": "call"
+        },
+        {
+          "site": "0x38b9fe",
+          "target": "0x38b1f4",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [],
+      "partitions": [],
+      "implementation_files": [
+        "imgui_windows_begin.cpp",
+        "imgui_windows_helpers.cpp"
+      ]
+    },
+    {
+      "begin": "0x3992a0",
+      "end_exclusive": "0x39940e",
+      "bytes": 366,
+      "extent_source": "PE runtime function record",
+      "status": "S",
+      "scope": "filled frame + border=true branch reached by decoration collapse",
+      "sha256": "57d28c6fe1993462c71bba2f6ff1e7173ba07526517cf9b78b4c097ddabe123a",
+      "instruction_count": 82,
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x399307",
+          "target": "0x3a1244",
+          "kind": "call"
+        },
+        {
+          "site": "0x399340",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399351",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x399361",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x399373",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x399383",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3993a9",
+          "target": "0x3a1148",
+          "kind": "call"
+        },
+        {
+          "site": "0x3993b6",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3993e2",
+          "target": "0x3a1148",
+          "kind": "call"
+        }
+      ],
+      "conditional_branches": [
+        {
+          "site": "0x39930e",
+          "target": "0x3993e7",
+          "instruction": "je     0x3993e7",
+          "status": "S"
+        },
+        {
+          "site": "0x399323",
+          "target": "0x3993e7",
+          "instruction": "jbe    0x3993e7",
+          "status": "S"
+        }
+      ],
+      "partitions": [],
+      "implementation_files": [
+        "imgui_windows_decorations.cpp"
+      ]
+    }
+  ]
+}

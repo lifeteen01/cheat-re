@@ -1,0 +1,17 @@
+2e3b58 movss  xmm0,DWORD PTR [rcx]
+2e3b5c xorps  xmm1,xmm1
+2e3b5f ucomiss xmm0,xmm1
+2e3b62 jp     0x2e3b81
+2e3b64 jne    0x2e3b81
+2e3b66 movss  xmm0,DWORD PTR [rcx+0x4]
+2e3b6b ucomiss xmm0,xmm1
+2e3b6e jp     0x2e3b81
+2e3b70 jne    0x2e3b81
+2e3b72 movss  xmm0,DWORD PTR [rcx+0x8]
+2e3b77 ucomiss xmm0,xmm1
+2e3b7a jp     0x2e3b81
+2e3b7c jne    0x2e3b81
+2e3b7e mov    al,0x1
+2e3b80 ret
+2e3b81 xor    al,al
+2e3b83 ret

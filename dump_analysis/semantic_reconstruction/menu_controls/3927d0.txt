@@ -1,0 +1,22 @@
+3927d0	sub    rsp,0x48
+3927d4	movaps XMMWORD PTR [rsp+0x30],xmm6
+3927d9	movaps xmm6,xmm2
+3927dc	movaps XMMWORD PTR [rsp+0x20],xmm7
+3927e1	movaps xmm7,xmm1
+3927e4	call   0x392714
+3927e9	mov    rcx,rax
+3927ec	cmp    BYTE PTR [rax],0x0
+3927ef	jne    0x3927f5
+3927f1	xor    eax,eax
+3927f3	jmp    0x392816
+3927f5	movss  xmm0,DWORD PTR [rax+0x4]
+3927fa	movaps xmm3,xmm6
+3927fd	mov    rax,QWORD PTR [rip+0x73324]        # 0x405b28
+392804	movaps xmm2,xmm7
+392807	movss  xmm1,DWORD PTR [rcx+0x4]
+39280c	subss  xmm0,DWORD PTR [rax+0x18]
+392811	call   0x38f85c
+392816	movaps xmm6,XMMWORD PTR [rsp+0x30]
+39281b	movaps xmm7,XMMWORD PTR [rsp+0x20]
+392820	add    rsp,0x48
+392824	ret

@@ -1,0 +1,47 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.lib
+*.obj
+
+# Toolchains (large, downloadable)
+dump_analysis/semantic_reconstruction/toolchain/
+dump_analysis/semantic_reconstruction/windows_base/toolchain/
+dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/
+
+# Downloaded packages
+dump_analysis/semantic_reconstruction/windows_base/wine_packages/
+dump_analysis/semantic_reconstruction/windows_base/cmake_packages/
+
+# Unpacked binary (not redistributable)
+dump_analysis/unpacked/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Wine prefixes
+*.wine_prefix/
+wineprefix*/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

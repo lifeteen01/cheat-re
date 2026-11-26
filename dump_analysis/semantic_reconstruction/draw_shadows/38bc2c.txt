@@ -1,0 +1,12 @@
+38bc2c rex push rbx
+38bc2e sub    rsp,0x20
+38bc32 movss  xmm2,DWORD PTR [rdx+0x4]
+38bc37 mov    rbx,rcx
+38bc3a movss  xmm1,DWORD PTR [rdx]
+38bc3e divss  xmm2,DWORD PTR [r8+0x4]
+38bc44 divss  xmm1,DWORD PTR [r8]
+38bc49 call   0x2cc340
+38bc4e mov    rax,rbx
+38bc51 add    rsp,0x20
+38bc55 pop    rbx
+38bc56 ret

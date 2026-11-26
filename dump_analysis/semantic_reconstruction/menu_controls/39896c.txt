@@ -1,0 +1,49 @@
+39896c	rex push rbx
+39896e	push   rbp
+39896f	push   rsi
+398970	push   rdi
+398971	push   r14
+398973	sub    rsp,0x20
+398977	mov    rax,QWORD PTR [rip+0x6d1aa]        # 0x405b28
+39897e	mov    ebx,ecx
+398980	lea    rsi,[rax+0x4860]
+398987	cmp    DWORD PTR [rsi],ecx
+398989	cmovl  ebx,DWORD PTR [rsi]
+39898c	test   ebx,ebx
+39898e	jle    0x3989ec
+398990	lea    r14,[rax+0x37d0]
+398997	mov    rcx,rsi
+39899a	call   0x39e35c
+39899f	mov    rdi,rax
+3989a2	mov    ecx,DWORD PTR [rax]
+3989a4	call   0x392cb4
+3989a9	mov    rdx,r14
+3989ac	mov    rcx,rax
+3989af	mov    rbp,rax
+3989b2	call   0x392dc4
+3989b7	cmp    DWORD PTR [rbp+0x0],0x8
+3989bb	mov    rdx,rax
+3989be	jne    0x3989de
+3989c0	cmp    DWORD PTR [rbp+0x4],0x1
+3989c4	jne    0x3989cd
+3989c6	mov    ecx,DWORD PTR [rdi+0x4]
+3989c9	mov    DWORD PTR [rax],ecx
+3989cb	jmp    0x3989de
+3989cd	cmp    DWORD PTR [rbp+0x4],0x2
+3989d1	jne    0x3989de
+3989d3	mov    eax,DWORD PTR [rdi+0x4]
+3989d6	mov    DWORD PTR [rdx],eax
+3989d8	mov    eax,DWORD PTR [rdi+0x8]
+3989db	mov    DWORD PTR [rdx+0x4],eax
+3989de	mov    rcx,rsi
+3989e1	call   0x39eea0
+3989e6	dec    ebx
+3989e8	test   ebx,ebx
+3989ea	jg     0x398997
+3989ec	add    rsp,0x20
+3989f0	pop    r14
+3989f2	pop    rdi
+3989f3	pop    rsi
+3989f4	pop    rbp
+3989f5	pop    rbx
+3989f6	ret

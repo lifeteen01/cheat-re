@@ -1,0 +1,70 @@
+ {
+  "pid" : 4248,
+  "output_dir" : "process_4248",
+  "minidump_path" : "C:\\lab\\dumps4\\pesieve_cheat\\process_4248\\powershell.exe.dmp",
+  "dumped" : 
+  {
+   "total" : 6,
+   "dumped" : 6
+  },
+  "dumps" : [
+   {
+    "module" : "7ffa83c80000",
+    "module_size" : "267000",
+    "dump_file" : "7ffa83c80000.ntdll.dll",
+    "tags_file" : "7ffa83c80000.ntdll.dll.tag",
+    "imports_file" : "7ffa83c80000.ntdll.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffa36e10000",
+    "module_size" : "9a4000",
+    "dump_file" : "7ffa36e10000.clr.dll",
+    "tags_file" : "7ffa36e10000.clr.dll.tag",
+    "imports_file" : "7ffa36e10000.clr.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffa2a960000",
+    "module_size" : "19f3000",
+    "dump_file" : "7ffa2a960000.cheat.dll",
+    "imports_file" : "7ffa2a960000.cheat.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "29c01cdbaf8",
+    "module_size" : "e6508",
+    "dump_file" : "29c01cdbaf8.dll",
+    "imp_rec_result" : "IMP_NOT_FOUND",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "29c01410000",
+    "module_size" : "9b2000",
+    "dump_file" : "29c01410000.shc",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 1,
+    "status" : 1
+   },
+   {
+    "module" : "29c19490000",
+    "module_size" : "1000",
+    "dump_file" : "29c19490000.dll",
+    "imp_rec_result" : "IMP_NOT_FOUND",
+    "dump_mode" : "VIRTUAL",
+    "is_shellcode" : 0,
+    "status" : 1
+   }
+  ]
+ }

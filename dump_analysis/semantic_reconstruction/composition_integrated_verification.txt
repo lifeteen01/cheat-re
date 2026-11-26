@@ -1,0 +1,3 @@
+[I] Combined strict GCC15 C++20/Werror, world roots and typed composition failures.
+FAIL: model and metadata flag commits survive failure
+EXIT_STATUS=1

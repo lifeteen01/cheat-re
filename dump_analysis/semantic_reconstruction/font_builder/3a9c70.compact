@@ -1,0 +1,214 @@
+3a9c70 mov    rax,rsp
+3a9c73 mov    QWORD PTR [rax+0x8],rbx
+3a9c77 mov    DWORD PTR [rax+0x10],edx
+3a9c7a push   rbp
+3a9c7b push   rsi
+3a9c7c push   rdi
+3a9c7d push   r12
+3a9c7f push   r13
+3a9c81 push   r14
+3a9c83 push   r15
+3a9c85 sub    rsp,0xc0
+3a9c8c movaps XMMWORD PTR [rax-0x48],xmm6
+3a9c90 xor    r15d,r15d
+3a9c93 movaps XMMWORD PTR [rax-0x58],xmm7
+3a9c97 mov    rbx,rcx
+3a9c9a movaps XMMWORD PTR [rax-0x68],xmm8
+3a9c9f mov    r14,r9
+3a9ca2 movaps XMMWORD PTR [rax-0x78],xmm9
+3a9ca7 mov    edi,edx
+3a9ca9 movaps XMMWORD PTR [rsp+0x70],xmm10
+3a9caf movaps xmm10,xmm2
+3a9cb3 mov    DWORD PTR [rax+0x18],r15d
+3a9cb7 mov    r8d,r15d
+3a9cba mov    ecx,r15d
+3a9cbd test   edx,edx
+3a9cbf jle    0x3a9cdd
+3a9cc1 mov    eax,ecx
+3a9cc3 imul   rdx,rax,0xe
+3a9cc7 lea    eax,[r8+0x1]
+3a9ccb cmp    BYTE PTR [rbx+rdx*1+0xc],0x1
+3a9cd0 cmovne eax,r8d
+3a9cd4 inc    ecx
+3a9cd6 mov    r8d,eax
+3a9cd9 cmp    ecx,edi
+3a9cdb jl     0x3a9cc1
+3a9cdd mov    r13,QWORD PTR [rsp+0x120]
+3a9ce5 mov    DWORD PTR [r13+0x0],r8d
+3a9ce9 test   r8d,r8d
+3a9cec jne    0x3a9cf5
+3a9cee xor    eax,eax
+3a9cf0 jmp    0x3a9fa8
+3a9cf5 movsxd rcx,r8d
+3a9cf8 shl    rcx,0x2
+3a9cfc call   0x395158
+3a9d01 mov    QWORD PTR [r14],rax
+3a9d04 test   rax,rax
+3a9d07 jne    0x3a9d0f
+3a9d09 mov    DWORD PTR [r13+0x0],r15d
+3a9d0d jmp    0x3a9cee
+3a9d0f mov    rsi,r15
+3a9d12 mulss  xmm10,xmm10
+3a9d17 mov    r8d,r15d
+3a9d1a mov    DWORD PTR [rsp+0x60],r15d
+3a9d1f mov    r12d,r15d
+3a9d22 cmp    r12d,0x1
+3a9d26 jne    0x3a9d4a
+3a9d28 movsxd rcx,DWORD PTR [rsp+0x110]
+3a9d30 shl    rcx,0x3
+3a9d34 call   0x395158
+3a9d39 mov    rsi,rax
+3a9d3c test   rax,rax
+3a9d3f je     0x3a9f8e
+3a9d45 mov    r8d,DWORD PTR [rsp+0x60]
+3a9d4a or     ebp,0xffffffff
+3a9d4d mov    DWORD PTR [rsp+0x110],r15d
+3a9d55 xorps  xmm8,xmm8
+3a9d59 xorps  xmm9,xmm9
+3a9d5d test   edi,edi
+3a9d5f jle    0x3a9f6a
+3a9d65 mov    r13d,DWORD PTR [rsp+0x108]
+3a9d6d mov    eax,r15d
+3a9d70 imul   rdi,rax,0xe
+3a9d74 movzx  ecx,BYTE PTR [rbx+rdi*1+0xc]
+3a9d79 sub    ecx,0x1
+3a9d7c je     0x3a9ef0
+3a9d82 sub    ecx,0x1
+3a9d85 je     0x3a9ed1
+3a9d8b sub    ecx,0x1
+3a9d8e je     0x3a9e54
+3a9d94 cmp    ecx,0x1
+3a9d97 jne    0x3a9f4f
+3a9d9d movsx  eax,WORD PTR [rbx+rdi*1+0x2]
+3a9da2 lea    rdx,[rsp+0x110]
+3a9daa mov    DWORD PTR [rsp+0x58],0x0
+3a9db2 movaps xmm3,xmm9
+3a9db6 movss  DWORD PTR [rsp+0x50],xmm10
+3a9dbd movaps xmm2,xmm8
+3a9dc1 mov    rcx,rsi
+3a9dc4 movd   xmm7,eax
+3a9dc8 movsx  eax,WORD PTR [rbx+rdi*1]
+3a9dcc cvtdq2ps xmm7,xmm7
+3a9dcf movd   xmm6,eax
+3a9dd3 movsx  eax,WORD PTR [rbx+rdi*1+0xa]
+3a9dd8 movss  DWORD PTR [rsp+0x48],xmm7
+3a9dde cvtdq2ps xmm6,xmm6
+3a9de1 movd   xmm5,eax
+3a9de5 movsx  eax,WORD PTR [rbx+rdi*1+0x8]
+3a9dea movss  DWORD PTR [rsp+0x40],xmm6
+3a9df0 cvtdq2ps xmm5,xmm5
+3a9df3 movd   xmm4,eax
+3a9df7 movsx  eax,WORD PTR [rbx+rdi*1+0x6]
+3a9dfc movss  DWORD PTR [rsp+0x38],xmm5
+3a9e02 cvtdq2ps xmm4,xmm4
+3a9e05 movd   xmm1,eax
+3a9e09 movsx  eax,WORD PTR [rbx+rdi*1+0x4]
+3a9e0e movss  DWORD PTR [rsp+0x30],xmm4
+3a9e14 cvtdq2ps xmm1,xmm1
+3a9e17 movd   xmm0,eax
+3a9e1b cvtdq2ps xmm0,xmm0
+3a9e1e movss  DWORD PTR [rsp+0x28],xmm1
+3a9e24 movss  DWORD PTR [rsp+0x20],xmm0
+3a9e2a call   0x3ad4f0
+3a9e2f movsx  eax,WORD PTR [rbx+rdi*1]
+3a9e33 movd   xmm8,eax
+3a9e38 movsx  eax,WORD PTR [rbx+rdi*1+0x2]
+3a9e3d mov    r8d,DWORD PTR [rsp+0x60]
+3a9e42 cvtdq2ps xmm8,xmm8
+3a9e46 movd   xmm9,eax
+3a9e4b cvtdq2ps xmm9,xmm9
+3a9e4f jmp    0x3a9f4f
+3a9e54 movsx  eax,WORD PTR [rbx+rdi*1+0x2]
+3a9e59 lea    rdx,[rsp+0x110]
+3a9e61 mov    DWORD PTR [rsp+0x48],0x0
+3a9e69 mov    rcx,rsi
+3a9e6c movss  DWORD PTR [rsp+0x40],xmm10
+3a9e73 movd   xmm3,eax
+3a9e77 movsx  eax,WORD PTR [rbx+rdi*1]
+3a9e7b cvtdq2ps xmm3,xmm3
+3a9e7e movd   xmm2,eax
+3a9e82 movsx  eax,WORD PTR [rbx+rdi*1+0x6]
+3a9e87 movss  DWORD PTR [rsp+0x38],xmm3
+3a9e8d movaps xmm3,xmm9
+3a9e91 cvtdq2ps xmm2,xmm2
+3a9e94 movd   xmm1,eax
+3a9e98 movsx  eax,WORD PTR [rbx+rdi*1+0x4]
+3a9e9d movss  DWORD PTR [rsp+0x30],xmm2
+3a9ea3 movaps xmm2,xmm8
+3a9ea7 cvtdq2ps xmm1,xmm1
+3a9eaa movd   xmm0,eax
+3a9eae cvtdq2ps xmm0,xmm0
+3a9eb1 movss  DWORD PTR [rsp+0x28],xmm1
+3a9eb7 movss  DWORD PTR [rsp+0x20],xmm0
+3a9ebd call   0x3ad8f8
+3a9ec2 movsx  r8d,WORD PTR [rbx+rdi*1]
+3a9ec7 movd   xmm8,r8d
+3a9ecc jmp    0x3a9e38
+3a9ed1 movsx  eax,WORD PTR [rbx+rdi*1]
+3a9ed5 mov    edx,DWORD PTR [rsp+0x110]
+3a9edc movd   xmm8,eax
+3a9ee1 movsx  eax,WORD PTR [rbx+rdi*1+0x2]
+3a9ee6 movd   xmm9,eax
+3a9eeb lea    eax,[rdx+0x1]
+3a9eee jmp    0x3a9f30
+3a9ef0 test   ebp,ebp
+3a9ef2 js     0x3a9f07
+3a9ef4 mov    edx,DWORD PTR [rsp+0x110]
+3a9efb mov    rax,QWORD PTR [r14]
+3a9efe sub    edx,r8d
+3a9f01 movsxd rcx,ebp
+3a9f04 mov    DWORD PTR [rax+rcx*4],edx
+3a9f07 mov    r8d,DWORD PTR [rsp+0x110]
+3a9f0f inc    ebp
+3a9f11 movsx  eax,WORD PTR [rbx+rdi*1]
+3a9f15 mov    edx,r8d
+3a9f18 mov    DWORD PTR [rsp+0x60],r8d
+3a9f1d movd   xmm8,eax
+3a9f22 movsx  eax,WORD PTR [rbx+rdi*1+0x2]
+3a9f27 movd   xmm9,eax
+3a9f2c lea    eax,[r8+0x1]
+3a9f30 cvtdq2ps xmm9,xmm9
+3a9f34 mov    rcx,rsi
+3a9f37 mov    DWORD PTR [rsp+0x110],eax
+3a9f3e cvtdq2ps xmm8,xmm8
+3a9f42 movaps xmm3,xmm9
+3a9f46 movaps xmm2,xmm8
+3a9f4a call   0x3aaf08
+3a9f4f inc    r15d
+3a9f52 cmp    r15d,r13d
+3a9f55 jl     0x3a9d6d
+3a9f5b mov    r13,QWORD PTR [rsp+0x120]
+3a9f63 mov    edi,DWORD PTR [rsp+0x108]
+3a9f6a mov    edx,DWORD PTR [rsp+0x110]
+3a9f71 inc    r12d
+3a9f74 mov    rax,QWORD PTR [r14]
+3a9f77 sub    edx,r8d
+3a9f7a movsxd rcx,ebp
+3a9f7d mov    DWORD PTR [rax+rcx*4],edx
+3a9f80 cmp    r12d,0x2
+3a9f84 jge    0x3a9fa5
+3a9f86 xor    r15d,r15d
+3a9f89 jmp    0x3a9d22
+3a9f8e xor    ecx,ecx
+3a9f90 call   0x39517c
+3a9f95 mov    rcx,QWORD PTR [r14]
+3a9f98 call   0x39517c
+3a9f9d mov    QWORD PTR [r14],r15
+3a9fa0 jmp    0x3a9d09
+3a9fa5 mov    rax,rsi
+3a9fa8 lea    r11,[rsp+0xc0]
+3a9fb0 mov    rbx,QWORD PTR [r11+0x40]
+3a9fb4 movaps xmm6,XMMWORD PTR [r11-0x10]
+3a9fb9 movaps xmm7,XMMWORD PTR [r11-0x20]
+3a9fbe movaps xmm8,XMMWORD PTR [r11-0x30]
+3a9fc3 movaps xmm9,XMMWORD PTR [r11-0x40]
+3a9fc8 movaps xmm10,XMMWORD PTR [r11-0x50]
+3a9fcd mov    rsp,r11
+3a9fd0 pop    r15
+3a9fd2 pop    r14
+3a9fd4 pop    r13
+3a9fd6 pop    r12
+3a9fd8 pop    rdi
+3a9fd9 pop    rsi
+3a9fda pop    rbp
+3a9fdb ret

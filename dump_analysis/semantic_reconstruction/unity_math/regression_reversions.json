@@ -1,0 +1,30 @@
+[
+  {
+    "name": "baseline",
+    "build_exit": 0,
+    "fixture_exit": 0,
+    "expected_outcome_observed": true,
+    "source_sha256": "6db83f73d1f2dda26e5577b4428c67204b3806b801e368fa65f6ec29a165d7e3"
+  },
+  {
+    "name": "root_reused_after_context",
+    "build_exit": 0,
+    "fixture_exit": -6,
+    "expected_outcome_observed": true,
+    "source_sha256": "31d1ea418608e7d0cdd3dac4c92c3cb64794ef955d7da4e802f7cfd9ded9ee7b"
+  },
+  {
+    "name": "setup_flag_before_root",
+    "build_exit": 0,
+    "fixture_exit": -6,
+    "expected_outcome_observed": true,
+    "source_sha256": "48b0f7a0eec99a7548dde2ad7dbc28b7a55772f9999267c147de7028dcb463eb"
+  },
+  {
+    "name": "skip_unknown_type_bounds",
+    "build_exit": 0,
+    "fixture_exit": -6,
+    "expected_outcome_observed": true,
+    "source_sha256": "03c45bb2655e0f7c3c67d231fb0806c0514be2fe04ea7cafacb8752fd04ff20a"
+  }
+]

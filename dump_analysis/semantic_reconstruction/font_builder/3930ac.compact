@@ -1,0 +1,18 @@
+3930ac cvttss2si eax,xmm0
+3930b0 movd   xmm0,eax
+3930b4 cvtdq2ps xmm0,xmm0
+3930b7 ret
+3930b8 rex push rbx
+3930ba sub    rsp,0x20
+3930be movss  xmm0,DWORD PTR [rdx+0x4]
+3930c3 mov    rbx,rcx
+3930c6 call   0x3930e8
+3930cb movaps xmm2,xmm0
+3930ce movss  xmm0,DWORD PTR [rdx]
+3930d2 call   0x3930e8
+3930d7 movaps xmm1,xmm0
+3930da call   0x2cc340
+3930df mov    rax,rbx
+3930e2 add    rsp,0x20
+3930e6 pop    rbx
+3930e7 ret

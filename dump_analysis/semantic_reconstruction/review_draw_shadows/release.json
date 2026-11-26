@@ -1,0 +1,36 @@
+{
+  "verification_pass": true,
+  "finding": "DS1 eager unused shape-map requirement",
+  "fixed_files": [
+    {
+      "path": "source/reconstructed/draw_shadows_controllers.cpp",
+      "before": "5a865584ef33c43c8772ac60b206f3df929c522eef6c62b2e0093f5b0792ca45",
+      "after": "60f6bfba503800076e7ba43dbeb1f8a60e1423166edde658ea04bc2878817e66"
+    },
+    {
+      "path": "source/reconstructed/draw_shadows_checks.cpp",
+      "before": "b4462638700bd005cd431c443cf3133646f564160ded3fea2f92fee331573308",
+      "after": "51317af3974d4ec05a4c0fbef457ad814e05ecf09e18015d96bcb2d8bfd822f4"
+    },
+    {
+      "path": "source/reconstructed/draw_shadows_reconstruction.md",
+      "before": "8df4df13bc89eb4fea53394053e03df81d280688f9853357864350467c648c71",
+      "after": "995d5fac7eeb6f0423ba5c86de89984e7e8e2e896ecf0c1cb6640c9e185885a5"
+    }
+  ],
+  "parent_shared_api_dependencies": [
+    "draw_shapes_arc_fixed_3a9110",
+    "draw_shapes_path_rect_lazy_3a6b78"
+  ],
+  "geometry_clipping_shadow_headers_unchanged": true,
+  "fresh_byte_review": {
+    "ranges": 16,
+    "bytes": 9211,
+    "instructions": 2118
+  },
+  "additional_confirmed_defects": [],
+  "documented_limits_counterexamples": [
+    "raw forward-copy aliasing (already outside owned interface claim)",
+    "negative circle-count reads beyond copied prefix (already explicitly missing)"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "source_count": 28,
+  "sources_unchanged_during_verification": true,
+  "unauthorized_shadow_changes": [],
+  "preserved_input_count": 135,
+  "preserved_input_mismatches": [],
+  "results": {
+    "strict": {
+      "exit_code": 0,
+      "seconds": 18.595,
+      "output": "draw shadows PASS"
+    },
+    "sanitizer": {
+      "exit_code": 0,
+      "seconds": 28.645,
+      "output": "draw shadows PASS"
+    },
+    "targeted_reversion": {
+      "exit_code": 1,
+      "seconds": 17.403,
+      "output": "copied rectangle shadow geometry absent",
+      "driver_sha256": "e176e60dc113f3512e0d04b034574a6d27e8c1921c8cb9c8a2a320cb11fdc6f7"
+    },
+    "clipping_oracle": {
+      "exit_code": 0,
+      "seconds": 16.423,
+      "output": "20000 fresh-assembly clipping oracle cases PASS (including NaN/Inf, capacities n..n+4)"
+    }
+  }
+}

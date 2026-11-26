@@ -1,0 +1,425 @@
+{
+  "confidence": "C",
+  "dll_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "existing_excerpt_spans": 210,
+  "ranges": [
+    {
+      "name": "close_loot",
+      "start": "0x2e5bec",
+      "end_exclusive": "0x2e5d49",
+      "bytes": 349,
+      "instructions": 83,
+      "pdata_bounded": true,
+      "internal_branches": [
+        [
+          "0x2e5c06",
+          "0x2e5d36"
+        ],
+        [
+          "0x2e5c35",
+          "0x2e5cd5"
+        ],
+        [
+          "0x2e5cd3",
+          "0x2e5cdc"
+        ],
+        [
+          "0x2e5cde",
+          "0x2e5cff"
+        ]
+      ],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2e5c14",
+          "0x2e5358"
+        ],
+        [
+          "0x2e5c1c",
+          "0x2d857c"
+        ],
+        [
+          "0x2e5c28",
+          "0x2cc2cc"
+        ],
+        [
+          "0x2e5c4c",
+          "0x2cc730"
+        ],
+        [
+          "0x2e5c54",
+          "0x2cdca4"
+        ],
+        [
+          "0x2e5c64",
+          "0x2e566c"
+        ],
+        [
+          "0x2e5c6c",
+          "0x2cdd1c"
+        ],
+        [
+          "0x2e5c7c",
+          "0x2cc730"
+        ],
+        [
+          "0x2e5c84",
+          "0x2cdca4"
+        ],
+        [
+          "0x2e5c94",
+          "0x2e54cc"
+        ],
+        [
+          "0x2e5c9c",
+          "0x2d857c"
+        ],
+        [
+          "0x2e5ca7",
+          "0x334224"
+        ],
+        [
+          "0x2e5cbe",
+          "0x3349ac"
+        ],
+        [
+          "0x2e5cfa",
+          "0x2cbd24"
+        ],
+        [
+          "0x2e5d03",
+          "0x2cd7ec"
+        ],
+        [
+          "0x2e5d0b",
+          "0x2ce5dc"
+        ],
+        [
+          "0x2e5d28",
+          "0x2d2094"
+        ],
+        [
+          "0x2e5d31",
+          "0x2cc4f4"
+        ]
+      ]
+    },
+    {
+      "name": "raycast_wrapper",
+      "start": "0x2e8fac",
+      "end_exclusive": "0x2e90d5",
+      "bytes": 297,
+      "instructions": 75,
+      "pdata_bounded": true,
+      "internal_branches": [
+        [
+          "0x2e8fd0",
+          "0x2e905b"
+        ],
+        [
+          "0x2e9059",
+          "0x2e9062"
+        ],
+        [
+          "0x2e9064",
+          "0x2e9085"
+        ]
+      ],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2e8fe9",
+          "0x2e578c"
+        ],
+        [
+          "0x2e8ff1",
+          "0x2dd138"
+        ],
+        [
+          "0x2e9003",
+          "0x2e55d8"
+        ],
+        [
+          "0x2e900b",
+          "0x2cde0c"
+        ],
+        [
+          "0x2e901d",
+          "0x2e547c"
+        ],
+        [
+          "0x2e9025",
+          "0x2dd138"
+        ],
+        [
+          "0x2e9030",
+          "0x334224"
+        ],
+        [
+          "0x2e9044",
+          "0x334a90"
+        ],
+        [
+          "0x2e9080",
+          "0x2cbd24"
+        ],
+        [
+          "0x2e90bb",
+          "0x2e473c"
+        ]
+      ]
+    },
+    {
+      "name": "melee_cache_fold",
+      "start": "0x2e1ff4",
+      "end_exclusive": "0x2e20f1",
+      "bytes": 253,
+      "instructions": 62,
+      "pdata_bounded": false,
+      "internal_branches": [],
+      "external_branches": [
+        [
+          "0x2e20b8",
+          "0x2e20f1"
+        ],
+        [
+          "0x2e20e7",
+          "0x2e20f1"
+        ]
+      ],
+      "direct_calls": [
+        [
+          "0x2e1ffd",
+          "0x2d9540"
+        ],
+        [
+          "0x2e200e",
+          "0x2d9540"
+        ],
+        [
+          "0x2e201f",
+          "0x2d9540"
+        ],
+        [
+          "0x2e202e",
+          "0x2d9540"
+        ],
+        [
+          "0x2e203d",
+          "0x2cef40"
+        ],
+        [
+          "0x2e204c",
+          "0x2cef40"
+        ],
+        [
+          "0x2e205b",
+          "0x2cef40"
+        ],
+        [
+          "0x2e2064",
+          "0x2cc4f4"
+        ],
+        [
+          "0x2e206d",
+          "0x2cc4f4"
+        ],
+        [
+          "0x2e2076",
+          "0x2cc4f4"
+        ],
+        [
+          "0x2e207f",
+          "0x2cc4f4"
+        ],
+        [
+          "0x2e2088",
+          "0x2cc4f4"
+        ],
+        [
+          "0x2e2091",
+          "0x2cc4f4"
+        ],
+        [
+          "0x2e209a",
+          "0x2cd7ec"
+        ],
+        [
+          "0x2e20a2",
+          "0x2d6354"
+        ],
+        [
+          "0x2e20ad",
+          "0x2e0e20"
+        ],
+        [
+          "0x2e20dc",
+          "0x2dfe64"
+        ],
+        [
+          "0x2e20ec",
+          "0x2e3a70"
+        ]
+      ]
+    },
+    {
+      "name": "float_format",
+      "start": "0x2d9540",
+      "end_exclusive": "0x2d955b",
+      "bytes": 27,
+      "instructions": 9,
+      "pdata_bounded": true,
+      "internal_branches": [],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2d954d",
+          "0x2d955c"
+        ]
+      ]
+    },
+    {
+      "name": "float_format_crt",
+      "start": "0x2d955c",
+      "end_exclusive": "0x2d95cb",
+      "bytes": 111,
+      "instructions": 29,
+      "pdata_bounded": true,
+      "internal_branches": [],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2d957d",
+          "0x2d9644"
+        ],
+        [
+          "0x2d958e",
+          "0x2d4584"
+        ],
+        [
+          "0x2d9598",
+          "0x2d4ccc"
+        ],
+        [
+          "0x2d95b3",
+          "0x2d9710"
+        ]
+      ]
+    },
+    {
+      "name": "table_constructor",
+      "start": "0x2df2e8",
+      "end_exclusive": "0x2df34a",
+      "bytes": 98,
+      "instructions": 23,
+      "pdata_bounded": true,
+      "internal_branches": [],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2df30f",
+          "0x2d4758"
+        ]
+      ]
+    },
+    {
+      "name": "table_copy",
+      "start": "0x2df578",
+      "end_exclusive": "0x2df5ad",
+      "bytes": 53,
+      "instructions": 18,
+      "pdata_bounded": true,
+      "internal_branches": [],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2df59f",
+          "0x2df4f4"
+        ]
+      ]
+    },
+    {
+      "name": "table_find_both_returns",
+      "start": "0x2e0e20",
+      "end_exclusive": "0x2e0e4c",
+      "bytes": 44,
+      "instructions": 14,
+      "pdata_bounded": false,
+      "internal_branches": [
+        [
+          "0x2e0e35",
+          "0x2e0e44"
+        ],
+        [
+          "0x2e0e3f",
+          "0x2e0e29"
+        ]
+      ],
+      "external_branches": [],
+      "direct_calls": []
+    },
+    {
+      "name": "table_allocate",
+      "start": "0x2dfe64",
+      "end_exclusive": "0x2dfed0",
+      "bytes": 108,
+      "instructions": 28,
+      "pdata_bounded": true,
+      "internal_branches": [
+        [
+          "0x2dfe7f",
+          "0x2dfe8f"
+        ],
+        [
+          "0x2dfe89",
+          "0x2dfe73"
+        ],
+        [
+          "0x2dfe8d",
+          "0x2dfeca"
+        ]
+      ],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2dfeab",
+          "0x2df2e8"
+        ],
+        [
+          "0x2dfeb7",
+          "0x2df578"
+        ],
+        [
+          "0x2dfec1",
+          "0x2df494"
+        ]
+      ]
+    },
+    {
+      "name": "table_prepare",
+      "start": "0x2e3a70",
+      "end_exclusive": "0x2e3aa1",
+      "bytes": 49,
+      "instructions": 15,
+      "pdata_bounded": true,
+      "internal_branches": [
+        [
+          "0x2e3a88",
+          "0x2e3a92"
+        ]
+      ],
+      "external_branches": [],
+      "direct_calls": [
+        [
+          "0x2e3a81",
+          "0x2d86a0"
+        ],
+        [
+          "0x2e3a8d",
+          "0x2e3aa4"
+        ]
+      ]
+    }
+  ],
+  "limit": "Byte provenance and branch boundaries only; semantic review is separate."
+}

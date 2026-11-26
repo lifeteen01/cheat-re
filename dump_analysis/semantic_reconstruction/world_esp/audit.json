@@ -1,0 +1,391 @@
+{
+  "input_image": "dump_analysis/unpacked/cheat.unpacked.dll",
+  "sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "instruction_lines_byte_checked": 24736,
+  "native_world_append_sites": 101,
+  "covered_append_sites": 101,
+  "classifier_rule_count": 102,
+  "classifier_category_count": 100,
+  "draw_route_count": 100,
+  "world_worker_bytes": 48907,
+  "ranges": [
+    {
+      "begin": "0x31acd0",
+      "end": "0x31aeca",
+      "bytes": 506,
+      "status": "[C/I] guard/collection/identity copied inputs and existing readers"
+    },
+    {
+      "begin": "0x31aeca",
+      "end": "0x31e04e",
+      "bytes": 12676,
+      "status": "[C/I] all literal classifier rules; nearest publishes interleaved at native insertion phases"
+    },
+    {
+      "begin": "0x31e04e",
+      "end": "0x31eedb",
+      "bytes": 3725,
+      "status": "[C/I] collider math/maps/restoration and immediate append order; Unity component calls explicit"
+    },
+    {
+      "begin": "0x31eedb",
+      "end": "0x31f1fb",
+      "bytes": 800,
+      "status": "[C/I] Landmine/SAM routing and SAM dedup/save; Unity seed/position inputs"
+    },
+    {
+      "begin": "0x31f1fb",
+      "end": "0x31fa76",
+      "bytes": 2171,
+      "status": "[C] remaining literal rules/workbench priority"
+    },
+    {
+      "begin": "0x31fa76",
+      "end": "0x31fdfb",
+      "bytes": 901,
+      "status": "[C/I] Scientist/player/tracked ordering, nearest melee, existing player filters"
+    },
+    {
+      "begin": "0x31fdfb",
+      "end": "0x31fe4a",
+      "bytes": 79,
+      "status": "[C/I] owned span traversal and side-effect-free epilogue"
+    },
+    {
+      "begin": "0x2fb72c",
+      "end": "0x2fc281",
+      "bytes": 2901,
+      "status": "[C/I] ordered fishing cache/change checks/interactions/labels; key edge and game getters copied inputs"
+    },
+    {
+      "begin": "0x2fc281",
+      "end": "0x2fc42a",
+      "bytes": 425,
+      "status": "[C/I] looked-at lock ID/position cache"
+    },
+    {
+      "begin": "0x2fc42a",
+      "end": "0x2fcdaf",
+      "bytes": 2437,
+      "status": "[C/I] SAM/stash seed filtering, gates/distances/labels, Unity projections"
+    },
+    {
+      "begin": "0x2fcdaf",
+      "end": "0x2fd04b",
+      "bytes": 668,
+      "status": "[C/I] stash dedup/save/notification"
+    },
+    {
+      "begin": "0x2fd04b",
+      "end": "0x2fd156",
+      "bytes": 267,
+      "status": "[C/I] font and collection setup; owned registry traversal"
+    },
+    {
+      "begin": "0x2fd156",
+      "end": "0x2fd23c",
+      "bytes": 230,
+      "status": "[C/I] whole-worker entity validation/transform/projection/distance controller"
+    },
+    {
+      "begin": "0x2fd23c",
+      "end": "0x3012f9",
+      "bytes": 16573,
+      "status": "[C/I] literal category routes, Snapshot fields/flags/statuses and ordered interaction calls"
+    },
+    {
+      "begin": "0x3012f9",
+      "end": "0x30195b",
+      "bytes": 1634,
+      "status": "[C/I] turret inventory/85-ID names, options/health/status, zero-quaternion ray geometry"
+    },
+    {
+      "begin": "0x30195b",
+      "end": "0x3024e7",
+      "bytes": 2956,
+      "status": "[C/I] remaining traps/SAM fields/options/health and scalar routing"
+    },
+    {
+      "begin": "0x3024e7",
+      "end": "0x30305c",
+      "bytes": 2933,
+      "status": "[C/I] corpse bounds8-corner/12-edge draw; inventory/name/streamer/color rules"
+    },
+    {
+      "begin": "0x30305c",
+      "end": "0x3031a1",
+      "bytes": 325,
+      "status": "[C/I] stash route"
+    },
+    {
+      "begin": "0x3031a1",
+      "end": "0x303363",
+      "bytes": 450,
+      "status": "[C/I] backpack owner/name/streamer routes"
+    },
+    {
+      "begin": "0x303363",
+      "end": "0x303718",
+      "bytes": 949,
+      "status": "[C/I] scalar routes before dropped item"
+    },
+    {
+      "begin": "0x303718",
+      "end": "0x304474",
+      "bytes": 3420,
+      "status": "[C/I] dropped name/count/category chains, trash/pickup/display/backpack exceptions"
+    },
+    {
+      "begin": "0x304474",
+      "end": "0x3052c1",
+      "bytes": 3661,
+      "status": "[C/I] animal health and cupboard signed timer/health/ID decoding"
+    },
+    {
+      "begin": "0x3052c1",
+      "end": "0x305c1e",
+      "bytes": 2397,
+      "status": "[C/I] shared routing/ore-only radar, remaining deployables, Bear pair and candy/egg"
+    },
+    {
+      "begin": "0x305c1e",
+      "end": "0x306085",
+      "bytes": 1127,
+      "status": "[C/I] radar normalization/rotation/icons/distance arguments; trig rounding caveat"
+    },
+    {
+      "begin": "0x306085",
+      "end": "0x3066d8",
+      "bytes": 1619,
+      "status": "[C/I] tooltip hover-radius predicate, measurement/layout/clamp/draw"
+    },
+    {
+      "begin": "0x3066d8",
+      "end": "0x306752",
+      "bytes": 122,
+      "status": "[C/I] exact wide crate marker equality, SilentLoot and shared interaction argument order"
+    },
+    {
+      "begin": "0x306752",
+      "end": "0x306ebe",
+      "bytes": 1900,
+      "status": "[C/I] labels/icons/five rows/distance/bar arguments; primitive raster helpers remain U"
+    },
+    {
+      "begin": "0x306ebe",
+      "end": "0x30753d",
+      "bytes": 1663,
+      "status": "[C/I] renderer predicates/shader cache/property order; Unity resource boundaries"
+    },
+    {
+      "begin": "0x30753d",
+      "end": "0x307637",
+      "bytes": 250,
+      "status": "[C/I] owned cleanup/iteration; late30762b branch bypasses chams after failed label gates"
+    },
+    {
+      "begin": "0x3098a4",
+      "end": "0x309994",
+      "bytes": 240,
+      "status": "[C/I] signed center and five crosshair types; Unity trig and frame delta boundaries"
+    },
+    {
+      "begin": "0x309994",
+      "end": "0x309bf0",
+      "bytes": 604,
+      "status": "[C/I/U] FOV and complete radar window position/reset/style/current-position controller; ImGui primitives unresolved"
+    },
+    {
+      "begin": "0x309bf0",
+      "end": "0x309f47",
+      "bytes": 855,
+      "status": "[C/I] radar decorations"
+    },
+    {
+      "begin": "0x309f47",
+      "end": "0x309ff4",
+      "bytes": 173,
+      "status": "[C/I] ordered local/camera/transform guard; copied orientation/position inputs in whole-overlay composition"
+    },
+    {
+      "begin": "0x309ff4",
+      "end": "0x30a1c3",
+      "bytes": 463,
+      "status": "[C/I] battle/save toggles and marker projection/radius"
+    },
+    {
+      "begin": "0x30a1c3",
+      "end": "0x30a5dd",
+      "bytes": 1050,
+      "status": "[C/I] code-lock time/count capture/reset/distance/projection and two status labels"
+    },
+    {
+      "begin": "0x30a5dd",
+      "end": "0x30a7bf",
+      "bytes": 482,
+      "status": "[C/I/U] fishing window reset/style/layout/current-position and colored-meter arguments; primitives unresolved"
+    },
+    {
+      "begin": "0x30a7bf",
+      "end": "0x30ab62",
+      "bytes": 931,
+      "status": "[C/I] saved-position zero gates/distance/labels/projection"
+    },
+    {
+      "begin": "0x30ab62",
+      "end": "0x30ae1d",
+      "bytes": 699,
+      "status": "[C/I] stable tracer expiry/empty erase, projections/glow-line arguments"
+    },
+    {
+      "begin": "0x30ae1d",
+      "end": "0x30b140",
+      "bytes": 803,
+      "status": "[C/I] Unity Round/two-digit truncation/time-phase thresholds and label arguments"
+    },
+    {
+      "begin": "0x30b140",
+      "end": "0x30b6b3",
+      "bytes": 1395,
+      "status": "[C/I] desync meter and ordered status stack; literal3 gap and18/16 row spacing"
+    },
+    {
+      "begin": "0x30b6b3",
+      "end": "0x30bcfa",
+      "bytes": 1607,
+      "status": "[C/I] Snapshot sign dimensions and photo-frame class sizes/status"
+    },
+    {
+      "begin": "0x30bcfa",
+      "end": "0x30c3e0",
+      "bytes": 1766,
+      "status": "[C/I/U] authorization/key/code/crafting labels and complete violation window controller; primitives unresolved"
+    },
+    {
+      "begin": "0x30c3e0",
+      "end": "0x30c8d0",
+      "bytes": 1264,
+      "status": "[C/I/U] concrete violation meter arguments/calculations; primitive helper rasterization unresolved; second meter offset20 from30ae3b"
+    },
+    {
+      "begin": "0x30c8d0",
+      "end": "0x30cd6f",
+      "bytes": 1183,
+      "status": "[C/I] teleport count/distance formatting and projected glow path arguments"
+    },
+    {
+      "begin": "0x30cd6f",
+      "end": "0x30cf5e",
+      "bytes": 495,
+      "status": "[C/I/U] complete warning window position/style/flags/current-position and alert cursor; primitives unresolved"
+    },
+    {
+      "begin": "0x30cf5e",
+      "end": "0x30ea17",
+      "bytes": 6841,
+      "status": "[C/I/U] four-branch simulation/cache controller, native speed/attachment/order/parameters and ring/path bodies; branch1/3 omitted varargs require copied scratch; selectors/game inputs explicit"
+    },
+    {
+      "begin": "0x30ea17",
+      "end": "0x30ee71",
+      "bytes": 1114,
+      "status": "[C/I] complete player iteration setup/validity/handcuff accumulation/bones/facing quad; game results explicit"
+    },
+    {
+      "begin": "0x30ee71",
+      "end": "0x30f089",
+      "bytes": 536,
+      "status": "[C/I] special-NPC health/range gate/head/selected snapline"
+    },
+    {
+      "begin": "0x30f089",
+      "end": "0x30fed8",
+      "bytes": 3663,
+      "status": "[C/I] full NPC19-bone/18-edge skeleton with all-or-none projections"
+    },
+    {
+      "begin": "0x30fed8",
+      "end": "0x3106c9",
+      "bytes": 2033,
+      "status": "[C/I/U] NPC quad projection/item-name/labels/corner/health; copied six-widget settings and explicit font dependencies"
+    },
+    {
+      "begin": "0x3106c9",
+      "end": "0x310832",
+      "bytes": 361,
+      "status": "[C/I] first player filters and registry kind1 friend predicate"
+    },
+    {
+      "begin": "0x310832",
+      "end": "0x310acd",
+      "bytes": 667,
+      "status": "[C/I] ordered looking/held/name/aim warning predicates and labels"
+    },
+    {
+      "begin": "0x310acd",
+      "end": "0x310d4c",
+      "bytes": 639,
+      "status": "[C/I] enemy/sleep/dead/visible/outside filters and color priority; game results explicit"
+    },
+    {
+      "begin": "0x310d4c",
+      "end": "0x311ce4",
+      "bytes": 3992,
+      "status": "[C/I] in-game player marker/hover/one-tooltip latch; full inventory tooltip scale/two groups/condition/icons/count/separator"
+    },
+    {
+      "begin": "0x311ce4",
+      "end": "0x31236d",
+      "bytes": 1673,
+      "status": "[C/I] map gate, offscreen circle/triangle and radar direction geometry"
+    },
+    {
+      "begin": "0x31236d",
+      "end": "0x312552",
+      "bytes": 485,
+      "status": "[C/I] foot projection/screen gates and friend/enemy key transitions"
+    },
+    {
+      "begin": "0x312552",
+      "end": "0x313020",
+      "bytes": 2766,
+      "status": "[C/I/U] text selection/six-label placement/counters/icon fallback and font-scale restoration; copied widget settings and explicit font selector/measurement"
+    },
+    {
+      "begin": "0x313020",
+      "end": "0x31336a",
+      "bytes": 842,
+      "status": "[C/I] selected snapline and player-view three-line geometry/filter/projection order"
+    },
+    {
+      "begin": "0x31336a",
+      "end": "0x31416a",
+      "bytes": 3584,
+      "status": "[C/I] full player19-bone/18-edge skeleton with all-or-none projections"
+    },
+    {
+      "begin": "0x31416a",
+      "end": "0x3141bb",
+      "bytes": 81,
+      "status": "[C/I] owned loop cleanup and whole-overlay ordered composition"
+    },
+    {
+      "begin": "0x3141bb",
+      "end": "0x3143c7",
+      "bytes": 524,
+      "status": "[C/I] handcuff target/index/cooldown/ordered RPCs; hood inventory result input"
+    },
+    {
+      "begin": "0x3143c7",
+      "end": "0x3148d6",
+      "bytes": 1295,
+      "status": "[C/I] periodic registry/history/default insertion/renames/team0/grid/inside-base formatting"
+    },
+    {
+      "begin": "0x3148d6",
+      "end": "0x314929",
+      "bytes": 83,
+      "status": "[C] side-effect-free epilogue"
+    }
+  ]
+}

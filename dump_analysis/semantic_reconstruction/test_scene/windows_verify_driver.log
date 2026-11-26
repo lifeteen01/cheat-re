@@ -1,0 +1,17 @@
+Compile windows host.cpp
+Compile windows scene.cpp
+{"passed": true, "mode": "windows", "cache_hits": 116, "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe", "artifact_sha256": "26cb384a1222d78fe8e2e75f20aa77b481235dd3831f3f47e1a2b59d6c1bab05"}
+{
+  "passed": true,
+  "mode": "windows",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 11.689,
+  "artifact_sha256": "26cb384a1222d78fe8e2e75f20aa77b481235dd3831f3f47e1a2b59d6c1bab05",
+  "wine_version": "wine-10.0 (Ubuntu 10.0~repack-12ubuntu1)",
+  "isolated_prefix": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_wine_njfbgalo",
+  "native_windows_validated": false,
+  "inside_rust_validated": false,
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

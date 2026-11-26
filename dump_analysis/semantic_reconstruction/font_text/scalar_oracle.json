@@ -1,0 +1,27 @@
+{
+  "cos_pi_over4_result": "0x3f3504f2",
+  "polynomial_intermediate_bits": [
+    "0x37ce5ba9",
+    "0xbab40c7f",
+    "0x3d273222",
+    "0xbef31bb0",
+    "0x3f3504f2"
+  ],
+  "native_blur_kernel_words": [
+    "0x0",
+    "0x0",
+    "0x3649539c",
+    "0x39701fb8",
+    "0x3bc3dab6",
+    "0x3d78359c",
+    "0x3e778812",
+    "0x3ec40ebf",
+    "0x3e778812",
+    "0x3d78359c",
+    "0x3bc3dab6",
+    "0x39701fb8",
+    "0x3649539c",
+    "0x0",
+    "0x0"
+  ]
+}

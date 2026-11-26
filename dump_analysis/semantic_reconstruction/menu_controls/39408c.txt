@@ -1,0 +1,9 @@
+39408c	mov    rax,QWORD PTR [rip+0x71a95]        # 0x405b28
+394093	mov    ecx,DWORD PTR [rax+0x48f0]
+394099	cmp    ecx,DWORD PTR [rax+0x47a4]
+39409f	jne    0x3940a7
+3940a1	test   ecx,ecx
+3940a3	setne  al
+3940a6	ret
+3940a7	xor    al,al
+3940a9	ret

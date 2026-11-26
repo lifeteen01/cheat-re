@@ -1,0 +1,58 @@
+ {
+  "pid" : 6608,
+  "is_64_bit" : 1,
+  "is_managed" : 1,
+  "main_image_path" : "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "used_reflection" : 0,
+  "scanner_version" : "0.4.1.1",
+  "scanned" : 
+  {
+   "total" : 70,
+   "skipped" : 0,
+   "modified" : 
+   {
+    "total" : 3,
+    "patched" : 3,
+    "iat_hooked" : 0,
+    "replaced" : 0,
+    "hdr_modified" : 0,
+    "implanted_pe" : 0,
+    "implanted_shc" : 0,
+    "unreachable_file" : 0,
+    "other" : 0
+   },
+   "errors" : 0
+  },
+  "scans" : [
+   {
+    "code_scan" : {
+     "status" : 1,
+     "module" : "7ffa83c80000",
+     "module_size" : "267000",
+     "module_file" : "C:\\Windows\\System32\\ntdll.dll",
+     "scanned_sections" : 2,
+     "patches" : 1
+    }
+   },
+   {
+    "code_scan" : {
+     "status" : 1,
+     "module" : "7ffa36e10000",
+     "module_size" : "9a4000",
+     "module_file" : "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+     "scanned_sections" : 1,
+     "patches" : 22
+    }
+   },
+   {
+    "code_scan" : {
+     "status" : 1,
+     "module" : "7ffa2e5a0000",
+     "module_size" : "13e6000",
+     "module_file" : "C:\\lab\\rt\\simple_raknet_hooks.dll",
+     "scanned_sections" : 3,
+     "unpacked_sections" : 2
+    }
+   }
+  ]
+ }

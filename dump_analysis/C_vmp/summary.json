@@ -1,0 +1,211 @@
+{
+ "loader": {
+  "thunks": 1005,
+  "funcs_with_thunks": 247,
+  "top": [
+   [
+    "0x86830",
+    58,
+    "ntdll.dll | SeDebugPrivilege | win32kfull.sys | system_eproc unresolved (-56)"
+   ],
+   [
+    "0x1640",
+    46,
+    "--ui-smoke-test | --ui-capture= | --session-restarted | --session-write-failed"
+   ],
+   [
+    "0x7ea10",
+    28,
+    "\\WindowsPowerShell\\v1.0\\powershell.exe | \" -NoLogo -NoProfile -NonInteractive -Command - | LOADER_SESSION_READY | LOADER_SESSION_ERROR"
+   ],
+   [
+    "0x6c4d0",
+    26,
+    ""
+   ],
+   [
+    "0x8c9a0",
+    25,
+    "\\bootmgfw.original.efi | kernel32.dll | VirtualAlloc | VirtualFree"
+   ],
+   [
+    "0x6b3f0",
+    21,
+    ""
+   ],
+   [
+    "0x95a30",
+    21,
+    "GET_FILE_ | test | GET_DLL_ | Connection failed (NET:"
+   ],
+   [
+    "0x81690",
+    18,
+    "ROOT\\Microsoft\\Windows\\Storage | SOFTWARE\\Microsoft\\Cryptography | MachineGuid | SELECT SerialNumber FROM MSFT_PhysicalDisk"
+   ],
+   [
+    "0x83ea0",
+    18,
+    "symsrv | ProgramFiles | %s\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Remote D | %s (x86)\\Windows Kits\\10\\Debuggers\\x64\\symsrv.dll"
+   ],
+   [
+    "0x7f460",
+    16,
+    "Loader session"
+   ],
+   [
+    "0x8f0b0",
+    15,
+    "-silent"
+   ],
+   [
+    "0x74b50",
+    14,
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) | Accept: */*"
+   ]
+  ]
+ },
+ "starter": {
+  "thunks": 1003,
+  "funcs_with_thunks": 256,
+  "top": [
+   [
+    "0x22b10",
+    44,
+    "player pid missing; refusing to touch Steam | cannot wait for player pid; refusing to touch Steam | player wait failed; refusing to touch Steam | SteamPath"
+   ],
+   [
+    "0x356d0",
+    20,
+    "D:(A;;GA;;;AU)(A;;GA;;;BA)S:(ML;;NW;;;ME) | Local\\HookProbe_KernelState_v1 | D:(A;;GA;;;AU)(A;;GA;;;BA) | Local\\HookProbe_KernelState_v1_Attached"
+   ],
+   [
+    "0x412e0",
+    17,
+    ""
+   ],
+   [
+    "0x40f20",
+    16,
+    ""
+   ],
+   [
+    "0x3360",
+    15,
+    "\\rundll32.exe | user32.dll | kernel32.dll | LoadLibraryW"
+   ],
+   [
+    "0x16150",
+    14,
+    ""
+   ],
+   [
+    "0x18650",
+    14,
+    "steam_appid.txt cleanup failed | fail | player_launch | player process snapshot failed"
+   ],
+   [
+    "0x2a4c0",
+    14,
+    ".hookprobe.bak | cannot back up steam vdf; error= | .hookprobe. | cannot create steam vdf transaction; error="
+   ],
+   [
+    "0x312f0",
+    14,
+    "SeDebugPrivilege | ntoskrnl.exe | ntkrnlmp.exe | ksecdd.sys"
+   ],
+   [
+    "0x4000",
+    13,
+    "rundll32.exe | cmd.exe"
+   ],
+   [
+    "0x5a00",
+    13,
+    "bad_dos | config_export:rva=%u:img=%u | section | imports"
+   ],
+   [
+    "0x1c0f0",
+    13,
+    "leftover RustClient.exe count=%u, close donor via steam / pl | preflight | leftover RustClient.exe still running count=%u | fail"
+   ]
+  ]
+ },
+ "hooks": {
+  "thunks": 821,
+  "funcs_with_thunks": 220,
+  "top": [
+   [
+    "0x2180",
+    65,
+    "build=telemetry-20260916 code_seal=off worker_started | begin | worker | debugger"
+   ],
+   [
+    "0x20ce9",
+    26,
+    "ksecdd_reader status=started sys_proc=0x%llX ksec_state=0x%l | ksecdd_reader open status=stop_timeout win32=%lu | ksecdd_reader open status=fail code=0x%04X native=0x%08X | ksecdd_reader channel status=unavailable"
+   ],
+   [
+    "0x1e980",
+    23,
+    "ksecdd_reader eproc sys=0x%llX pid_off=0x%llX links_off=0x%l | ksecdd_reader donor status=gone | ksecdd_reader donor status=stale old_pid=%lu | ksecdd_reader cr3_brute pid=%lu sec=0x%llX peb=0x%llX"
+   ],
+   [
+    "0xc0e0",
+    19,
+    "player_database status=installed storage=memory vfs=memdb | phase=begin storage=memory diagnostics=1 | player_db_install | sqlite3_close"
+   ],
+   [
+    "0x8c0c",
+    16,
+    "RSAPUBLICBLOB | SHA256 | ChainingModeGCM | ChainingMode"
+   ],
+   [
+    "0x25990",
+    16,
+    "steam_mask status=utils_getappid_hooked | steam_mask status=apps_subscribed_hooked | steam_mask status=init_real carrier=%u shortcut=%s rust_env= | steam_mask status=init_spoof original_raw=%d fallback_fake_u"
+   ],
+   [
+    "0x12160",
+    15,
+    "(null) | HookStartClient called, context: %p host=%hs port=%d | HookStartClient status=ignored_loopback reason=steam_uri_bro | mode2_session_key status=cleared source=connection_lifecycle"
+   ],
+   [
+    "0x15ae0",
+    15,
+    "RustClient_Data\\\\Plugins\\\\x86_64\\\\RakNet.dll | NET_StartClient | NET_Close | NET_Receive"
+   ],
+   [
+    "0x26830",
+    15,
+    "steam_mask status=utils_getappid_hooked | steam_mask status=apps_subscribed_hooked | steam_api64.dll | SteamAPI_GetHSteamUser"
+   ],
+   [
+    "0x1adb0",
+    12,
+    "\\\\.\\KsecDD | \\\\.\\GLOBALROOT\\Device\\KSecDD"
+   ],
+   [
+    "0x28ae0",
+    11,
+    ""
+   ],
+   [
+    "0x2af10",
+    11,
+    ""
+   ]
+  ]
+ },
+ "cheat": {
+  "thunks": 2,
+  "funcs_with_thunks": 0,
+  "top": [
+   [
+    null,
+    2,
+    ""
+   ]
+  ]
+ }
+}

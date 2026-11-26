@@ -1,0 +1,149 @@
+3a992c mov    r11,rsp
+3a992f mov    DWORD PTR [r11+0x20],r9d
+3a9933 mov    QWORD PTR [r11+0x8],rcx
+3a9937 push   rbx
+3a9938 push   rbp
+3a9939 push   rsi
+3a993a push   rdi
+3a993b push   r12
+3a993d push   r13
+3a993f push   r14
+3a9941 push   r15
+3a9943 sub    rsp,0x48
+3a9947 mov    r10d,DWORD PTR [rdx+0x8]
+3a994b lea    r13d,[r8-0x1]
+3a994f add    r13d,r10d
+3a9952 mov    r12,rdx
+3a9955 mov    eax,r13d
+3a9958 mov    rdi,rcx
+3a995b cdq
+3a995c idiv   r10d
+3a995f sub    r13d,edx
+3a9962 cmp    r13d,DWORD PTR [r12]
+3a9966 jg     0x3a9b09
+3a996c cmp    r9d,DWORD PTR [r12+0x4]
+3a9971 jg     0x3a9b09
+3a9977 mov    rbp,QWORD PTR [r12+0x18]
+3a997c lea    rsi,[r12+0x18]
+3a9981 xor    r14d,r14d
+3a9984 mov    r15d,0x40000000
+3a998a mov    ebx,r15d
+3a998d mov    ecx,DWORD PTR [rbp+0x0]
+3a9990 add    ecx,r13d
+3a9993 cmp    ecx,DWORD PTR [r12]
+3a9997 jg     0x3a9a27
+3a999d mov    edi,r9d
+3a99a0 mov    r8d,DWORD PTR [rbp+0x0]
+3a99a4 lea    rax,[rsp+0xa0]
+3a99ac mov    r9d,r13d
+3a99af mov    QWORD PTR [rsp+0x20],rax
+3a99b4 mov    rdx,rbp
+3a99b7 mov    rcx,r12
+3a99ba call   0x3a9b2c
+3a99bf mov    r8d,DWORD PTR [r12+0x10]
+3a99c4 mov    edx,eax
+3a99c6 test   r8d,r8d
+3a99c9 jne    0x3a99da
+3a99cb cmp    eax,ebx
+3a99cd mov    ecx,ebx
+3a99cf cmovl  ebx,eax
+3a99d2 cmp    eax,ecx
+3a99d4 cmovge rsi,r14
+3a99d8 jmp    0x3a99fd
+3a99da add    eax,edi
+3a99dc cmp    eax,DWORD PTR [r12+0x4]
+3a99e1 jg     0x3a9a00
+3a99e3 cmp    edx,ebx
+3a99e5 jl     0x3a99f3
+3a99e7 jne    0x3a9a00
+3a99e9 cmp    DWORD PTR [rsp+0xa0],r15d
+3a99f1 jge    0x3a9a00
+3a99f3 mov    r15d,DWORD PTR [rsp+0xa0]
+3a99fb mov    ebx,edx
+3a99fd mov    r14,rsi
+3a9a00 lea    rsi,[rbp+0x8]
+3a9a04 mov    rbp,QWORD PTR [rsi]
+3a9a07 mov    ecx,DWORD PTR [rbp+0x0]
+3a9a0a add    ecx,r13d
+3a9a0d cmp    ecx,DWORD PTR [r12]
+3a9a11 jle    0x3a99a0
+3a9a13 mov    rdi,QWORD PTR [rsp+0x90]
+3a9a1b test   r14,r14
+3a9a1e je     0x3a9a2c
+3a9a20 mov    rax,QWORD PTR [r14]
+3a9a23 mov    edx,DWORD PTR [rax]
+3a9a25 jmp    0x3a9a2e
+3a9a27 mov    r8d,DWORD PTR [r12+0x10]
+3a9a2c xor    edx,edx
+3a9a2e mov    DWORD PTR [rsp+0xa0],edx
+3a9a35 cmp    r8d,0x1
+3a9a39 jne    0x3a9afe
+3a9a3f mov    rsi,QWORD PTR [r12+0x18]
+3a9a44 mov    rcx,rsi
+3a9a47 mov    QWORD PTR [rsp+0x30],rcx
+3a9a4c jmp    0x3a9a52
+3a9a4e mov    rsi,QWORD PTR [rsi+0x8]
+3a9a52 cmp    DWORD PTR [rsi],r13d
+3a9a55 jl     0x3a9a4e
+3a9a57 lea    rdi,[r12+0x18]
+3a9a5c mov    rax,QWORD PTR [rcx+0x8]
+3a9a60 mov    ebp,DWORD PTR [rsi]
+3a9a62 sub    ebp,r13d
+3a9a65 cmp    DWORD PTR [rax],ebp
+3a9a67 jg     0x3a9a7d
+3a9a69 lea    rdi,[rcx+0x8]
+3a9a6d mov    rcx,QWORD PTR [rdi]
+3a9a70 mov    rax,QWORD PTR [rcx+0x8]
+3a9a74 cmp    DWORD PTR [rax],ebp
+3a9a76 jle    0x3a9a69
+3a9a78 mov    QWORD PTR [rsp+0x30],rcx
+3a9a7d lea    rax,[rsp+0x98]
+3a9a85 mov    rdx,rcx
+3a9a88 mov    rcx,r12
+3a9a8b mov    QWORD PTR [rsp+0x20],rax
+3a9a90 mov    r9d,r13d
+3a9a93 mov    r8d,ebp
+3a9a96 call   0x3a9b2c
+3a9a9b mov    ecx,DWORD PTR [rsp+0xa8]
+3a9aa2 add    ecx,eax
+3a9aa4 cmp    ecx,DWORD PTR [r12+0x4]
+3a9aa9 jg     0x3a9add
+3a9aab cmp    eax,ebx
+3a9aad jg     0x3a9add
+3a9aaf mov    ecx,DWORD PTR [rsp+0x98]
+3a9ab6 jl     0x3a9aca
+3a9ab8 cmp    ecx,r15d
+3a9abb jl     0x3a9aca
+3a9abd mov    edx,DWORD PTR [rsp+0xa0]
+3a9ac4 jne    0x3a9ae4
+3a9ac6 cmp    ebp,edx
+3a9ac8 jge    0x3a9ae4
+3a9aca mov    edx,ebp
+3a9acc mov    ebx,eax
+3a9ace mov    DWORD PTR [rsp+0xa0],edx
+3a9ad5 mov    r15d,ecx
+3a9ad8 mov    r14,rdi
+3a9adb jmp    0x3a9ae4
+3a9add mov    edx,DWORD PTR [rsp+0xa0]
+3a9ae4 mov    rsi,QWORD PTR [rsi+0x8]
+3a9ae8 mov    rcx,QWORD PTR [rsp+0x30]
+3a9aed test   rsi,rsi
+3a9af0 jne    0x3a9a5c
+3a9af6 mov    rdi,QWORD PTR [rsp+0x90]
+3a9afe mov    QWORD PTR [rdi+0x8],r14
+3a9b02 mov    DWORD PTR [rdi],edx
+3a9b04 mov    DWORD PTR [rdi+0x4],ebx
+3a9b07 jmp    0x3a9b18
+3a9b09 mov    QWORD PTR [rcx+0x8],0x0
+3a9b11 mov    QWORD PTR [rcx],0x0
+3a9b18 mov    rax,rdi
+3a9b1b add    rsp,0x48
+3a9b1f pop    r15
+3a9b21 pop    r14
+3a9b23 pop    r13
+3a9b25 pop    r12
+3a9b27 pop    rdi
+3a9b28 pop    rsi
+3a9b29 pop    rbp
+3a9b2a pop    rbx
+3a9b2b ret

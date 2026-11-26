@@ -1,0 +1,2 @@
+3bc7d8	xor    r8d,r8d
+3bc7db	jmp    0x3bcd9c

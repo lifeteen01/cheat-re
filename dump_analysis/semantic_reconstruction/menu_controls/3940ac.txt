@@ -1,0 +1,95 @@
+3940ac	mov    QWORD PTR [rsp+0x8],rbx
+3940b1	mov    QWORD PTR [rsp+0x10],rsi
+3940b6	push   rdi
+3940b7	sub    rsp,0x30
+3940bb	mov    rbx,QWORD PTR [rip+0x71a66]        # 0x405b28
+3940c2	mov    edi,ecx
+3940c4	movaps XMMWORD PTR [rsp+0x20],xmm6
+3940c9	cmp    BYTE PTR [rbx+0x4927],0x0
+3940d0	mov    rsi,QWORD PTR [rbx+0x3f08]
+3940d7	je     0x39411f
+3940d9	movzx  eax,BYTE PTR [rbx+0x4926]
+3940e0	mov    edx,ecx
+3940e2	and    edx,0x400
+3940e8	or     eax,edx
+3940ea	jne    0x39411f
+3940ec	test   BYTE PTR [rbx+0x47a8],0x4
+3940f3	je     0x3940fb
+3940f5	bt     ecx,0x9
+3940f9	jae    0x394108
+3940fb	call   0x39408c
+394100	test   al,al
+394102	jne    0x3941ae
+394108	xor    al,al
+39410a	mov    rbx,QWORD PTR [rsp+0x40]
+39410f	mov    rsi,QWORD PTR [rsp+0x48]
+394114	movaps xmm6,XMMWORD PTR [rsp+0x20]
+394119	add    rsp,0x30
+39411d	pop    rdi
+39411e	ret
+39411f	mov    ecx,DWORD PTR [rbx+0x47ac]
+394125	test   cl,0x1
+394128	je     0x394108
+39412a	cmp    QWORD PTR [rbx+0x3f10],rsi
+394131	je     0x394144
+394133	mov    eax,edi
+394135	and    ecx,0x80
+39413b	and    eax,0x100
+394140	or     ecx,eax
+394142	je     0x394108
+394144	test   dil,dil
+394147	js     0x394169
+394149	mov    eax,DWORD PTR [rbx+0x3f68]
+39414f	test   eax,eax
+394151	je     0x394169
+394153	cmp    eax,DWORD PTR [rbx+0x47a4]
+394159	je     0x394169
+39415b	cmp    BYTE PTR [rbx+0x3f75],0x0
+394162	jne    0x394169
+394164	cmp    eax,DWORD PTR [rsi+0x7c]
+394167	jne    0x394108
+394169	mov    edx,edi
+39416b	mov    rcx,rsi
+39416e	call   0x394784
+394173	test   al,al
+394175	jne    0x394183
+394177	test   DWORD PTR [rbx+0x47a8],0x100
+394181	je     0x394108
+394183	test   BYTE PTR [rbx+0x47a8],0x4
+39418a	je     0x394196
+39418c	bt     edi,0x9
+394190	jae    0x394108
+394196	mov    eax,DWORD PTR [rsi+0x7c]
+394199	cmp    DWORD PTR [rbx+0x47a4],eax
+39419f	jne    0x3941ae
+3941a1	cmp    BYTE PTR [rsi+0xb8],0x0
+3941a8	jne    0x394108
+3941ae	bt     edi,0xb
+3941b2	jae    0x3941bb
+3941b4	movss  xmm6,DWORD PTR [rbx+0x44]
+3941b9	jmp    0x3941cb
+3941bb	bt     edi,0xc
+3941bf	jae    0x3941c8
+3941c1	movss  xmm6,DWORD PTR [rbx+0x48]
+3941c6	jmp    0x3941cb
+3941c8	xorps  xmm6,xmm6
+3941cb	comiss xmm6,DWORD PTR [rip+0xffffffffffef907a]        # 0x28d24c
+3941d2	jbe    0x39421e
+3941d4	mov    eax,DWORD PTR [rbx+0x47a4]
+3941da	test   eax,eax
+3941dc	jne    0x3941ed
+3941de	lea    rdx,[rbx+0x47b0]
+3941e5	mov    rcx,rsi
+3941e8	call   0x392654
+3941ed	bt     edi,0xd
+3941f1	jae    0x394205
+3941f3	cmp    DWORD PTR [rbx+0x4c04],eax
+3941f9	je     0x394205
+3941fb	mov    DWORD PTR [rbx+0x4c08],0x0
+394205	movss  xmm0,DWORD PTR [rbx+0x4c08]
+39420d	comiss xmm0,xmm6
+394210	mov    DWORD PTR [rbx+0x4c00],eax
+394216	setae  al
+394219	jmp    0x39410a
+39421e	mov    al,0x1
+394220	jmp    0x39410a

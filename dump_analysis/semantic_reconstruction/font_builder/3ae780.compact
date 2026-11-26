@@ -1,0 +1,4 @@
+3ae780 jmp    0x3aa060
+3ae785 int3
+3ae786 int3
+3ae787 int3

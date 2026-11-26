@@ -1,0 +1,30 @@
+{
+  "captured_utc": "2026-11-24T20:53:40.580783+00:00",
+  "scope": "Read-only static audit. No new build or runtime test. Parent builds were not invoked or modified.",
+  "inputs": {
+    "source/test_scene/menu.cpp": "bc90008de793584b12e615b5c4ec8682fcf79b1e14013d84982f04557787bffb",
+    "source/test_scene/menu_lifecycle_checks.cpp": "707b1aa1fced0c75fa82756eb8c80f97ccdb3186113092a070782dbb5d23a069",
+    "source/test_scene/menu_evidence.md": "9d458ba51d4622ccaccf56de948dba5f69599f103e714e95acfeeedf267c2118",
+    "source/test_scene/frame.cpp": "ba05bb81c90d21956f46048fbd2e66911ffd367aa6a17e0d31e3eebd00acd927",
+    "source/test_scene/resources.cpp": "d460ba10612845f60dc4d8c6b13d0658ead98087e34baac9e39d688055be2e84",
+    "source/test_scene/scene.cpp": "804393fadbea258edc7861148be0231db468255ad3289e10da36b1d1ff852bc7",
+    "source/reconstructed/menu_controls_popup.cpp": "5037982b1730ce32ad420a59786dc7a3dac6bbd8d30dffd5d46ed078429581b0",
+    "source/reconstructed/menu_controls_input.cpp": "8b1a1cddd8175dd06c1b0653363aae2c7a56e3bb8f3069390ce2fb878c28534e",
+    "source/reconstructed/menu_pages_analysis.cpp": "49dcd44f1d2b2c1a0adb27143be059c046a9463cb8b85afebd29886857037298",
+    "source/reconstructed/frame_dependencies_main_menu.cpp": "ec6c25ea92334ea12eaeb076a44a3691e7330f94d1b13b2a2be0311149edbc6b",
+    "source/reconstructed/imgui_windows_begin.cpp": "9df1bd5a29c2ba682f420d2c75c73801900dc9b9a6dfeaa48f6952c92f605008",
+    "source/reconstructed/imgui_windows_first_frame.cpp": "d82c1f78aba7d62ea0eae1e4e06a4dd6ed1331a3526a4702e6252b1554026cff",
+    "source/reconstructed/imgui_windows_create.cpp": "922e5877e9110e0bf4e034294e1e9370f3af834cdc028043f70db6c111cead5a",
+    "source/reconstructed/imgui_navigation_text.cpp": "e082abec69360c79dfed9a10122cc22303ee290bc5ca979c909604e0cfe6c4c7",
+    "source/reconstructed/imgui_text_input_commit.cpp": "e3867731448f0b76fd77f887891d61f9b22a6eed460e0ed3751f6d221725da48",
+    "dump_analysis/static/cheat_annot.asm": "a83aaa8795f1e97912ec0f79828f9f822f4e46702ffcdea597381d0e0dd97d2c"
+  },
+  "literal_read": {
+    "file": "dump_analysis/unpacked/cheat.unpacked.dll",
+    "rva": "0x28db30",
+    "bytes": "00007042",
+    "float32": 60.0,
+    "operation": "4-byte local read only; no sample execution"
+  },
+  "report_sha256": "5175760fa5d6144640e456061dac797d46a9cde751bd4edacd71b01f1b9ca2d8"
+}

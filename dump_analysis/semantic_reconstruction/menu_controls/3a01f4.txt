@@ -1,0 +1,44 @@
+3a01f4	test   r9d,0xff000000
+3a01fb	je     0x3a0293
+3a0201	push   rbx
+3a0202	push   rbp
+3a0203	push   rsi
+3a0204	push   rdi
+3a0205	sub    rsp,0x38
+3a0209	movss  xmm2,DWORD PTR [rip+0xffffffffffeed03f]        # 0x28d250
+3a0211	mov    rdi,rcx
+3a0214	movaps xmm1,xmm2
+3a0217	lea    rcx,[rsp+0x20]
+3a021c	mov    ebx,r9d
+3a021f	mov    rsi,r8
+3a0222	mov    rbp,rdx
+3a0225	call   0x2cc340
+3a022a	mov    r8,rax
+3a022d	lea    rcx,[rsp+0x28]
+3a0232	mov    rdx,rbp
+3a0235	call   0x2ef9d8
+3a023a	mov    rdx,rax
+3a023d	mov    rcx,rdi
+3a0240	call   0x378a40
+3a0245	movss  xmm2,DWORD PTR [rip+0xffffffffffeed003]        # 0x28d250
+3a024d	lea    rcx,[rsp+0x28]
+3a0252	movaps xmm1,xmm2
+3a0255	call   0x2cc340
+3a025a	mov    r8,rax
+3a025d	lea    rcx,[rsp+0x20]
+3a0262	mov    rdx,rsi
+3a0265	call   0x2ef9d8
+3a026a	mov    rdx,rax
+3a026d	mov    rcx,rdi
+3a0270	call   0x378a40
+3a0275	movss  xmm3,DWORD PTR [rsp+0x80]
+3a027e	xor    r8d,r8d
+3a0281	mov    edx,ebx
+3a0283	mov    rcx,rdi
+3a0286	call   0x398758
+3a028b	add    rsp,0x38
+3a028f	pop    rdi
+3a0290	pop    rsi
+3a0291	pop    rbp
+3a0292	pop    rbx
+3a0293	ret

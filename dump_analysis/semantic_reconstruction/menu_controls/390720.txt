@@ -1,0 +1,31 @@
+390720	rex push rbx
+390722	sub    rsp,0x30
+390726	movss  xmm0,DWORD PTR [rip+0xffffffffffefcfb2]        # 0x28d6e0
+39072e	mov    eax,edx
+390730	shr    eax,0x18
+390733	xorps  xmm4,xmm4
+390736	xorps  xmm3,xmm3
+390739	xorps  xmm2,xmm2
+39073c	xorps  xmm1,xmm1
+39073f	mov    rbx,rcx
+390742	cvtsi2ss xmm4,rax
+390747	mov    eax,edx
+390749	shr    eax,0x10
+39074c	movzx  eax,al
+39074f	cvtsi2ss xmm3,rax
+390754	mov    eax,edx
+390756	shr    eax,0x8
+390759	movzx  eax,al
+39075c	mulss  xmm4,xmm0
+390760	cvtsi2ss xmm2,rax
+390765	movzx  eax,dl
+390768	cvtsi2ss xmm1,rax
+39076d	mulss  xmm3,xmm0
+390771	mulss  xmm1,xmm0
+390775	mulss  xmm2,xmm0
+390779	movss  DWORD PTR [rsp+0x20],xmm4
+39077f	call   0x2cc350
+390784	mov    rax,rbx
+390787	add    rsp,0x30
+39078b	pop    rbx
+39078c	ret

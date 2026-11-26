@@ -1,0 +1,19 @@
+2cb9fc	rex push rbx
+2cb9fe	sub    rsp,0x20
+2cba02	mov    rbx,rdx
+2cba05	lea    rcx,[rsp+0x48]
+2cba0a	mov    rdx,r8
+2cba0d	call   0x2cc268
+2cba12	xor    eax,eax
+2cba14	mov    QWORD PTR [rbx+0x80],0x1
+2cba1f	mov    BYTE PTR [rsp+0x38],al
+2cba23	mov    rcx,rbx
+2cba26	mov    rax,QWORD PTR [rsp+0x48]
+2cba2b	mov    QWORD PTR [rbx+0x88],rax
+2cba32	mov    eax,DWORD PTR [rsp+0x38]
+2cba36	mov    DWORD PTR [rbx+0xd0],eax
+2cba3c	lea    rax,[rsp+0x28]
+2cba41	mov    QWORD PTR [rbx+0x78],rax
+2cba45	add    rsp,0x20
+2cba49	pop    rbx
+2cba4a	jmp    0x3cdbd4

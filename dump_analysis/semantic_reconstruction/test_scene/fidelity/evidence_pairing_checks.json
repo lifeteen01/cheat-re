@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "tests": {
+    "baseline_passes": true,
+    "changed_event_bytes_rejected": true,
+    "changed_event_bytes_rejected_restored": true,
+    "changed_runtime_log_rejected": true,
+    "changed_runtime_log_rejected_restored": true,
+    "changed_build_record_rejected": true,
+    "changed_build_record_rejected_restored": true,
+    "frame_submitted_failure_rejected": true,
+    "frame_status_failure_rejected": true,
+    "frame_stopped_at_failure_rejected": true,
+    "ui_preparations_failure_rejected": true,
+    "ui_finalizations_failure_rejected": true,
+    "full_overlay_completions_failure_rejected": true,
+    "cold_menu_graphs_failure_rejected": true,
+    "restored_mode_passes": true
+  },
+  "sources_before": {
+    "source/test_scene/audit.py": "18cf422fa2f8f4d445cde2230835ecb5b4d9e623afe33aff93e9e8c9ac045553",
+    "source/test_scene/verify.py": "0a8cd8a7556d5c6d8676213117e449a45dbf52229f043e5ce5bb2e11f5c80cd9",
+    "source/test_scene/host.cpp": "d19b56997b35ff9c0fafea338a1a53ed1d2294084b306789c4a6b0a339613c8c"
+  },
+  "sources_after": {
+    "source/test_scene/audit.py": "18cf422fa2f8f4d445cde2230835ecb5b4d9e623afe33aff93e9e8c9ac045553",
+    "source/test_scene/verify.py": "0a8cd8a7556d5c6d8676213117e449a45dbf52229f043e5ce5bb2e11f5c80cd9",
+    "source/test_scene/host.cpp": "d19b56997b35ff9c0fafea338a1a53ed1d2294084b306789c4a6b0a339613c8c"
+  },
+  "evidence_before": {
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime/events.jsonl": "3965bbf9c4dffbe42cc6687268bd217af7c2077604366384ef9d1e2d592f3b4b",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime.log": "227f03d732cae9c855c509d4207d82a59415bf4f52a416f38e2c3a0ae19f8d1b",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/build.json": "6d347c8ee329235dfc545452b0b71ca48b4155388278fd3399b5c4e234b359b0",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/verification.json": "9f2bfbe281b5dee674820521edefb86b0264f5a231df91dc633e2b44d9808841"
+  },
+  "evidence_after": {
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime/events.jsonl": "3965bbf9c4dffbe42cc6687268bd217af7c2077604366384ef9d1e2d592f3b4b",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/runtime.log": "227f03d732cae9c855c509d4207d82a59415bf4f52a416f38e2c3a0ae19f8d1b",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/build.json": "6d347c8ee329235dfc545452b0b71ca48b4155388278fd3399b5c4e234b359b0",
+    "dump_analysis/semantic_reconstruction/test_scene/strict/verification.json": "9f2bfbe281b5dee674820521edefb86b0264f5a231df91dc633e2b44d9808841"
+  },
+  "inputs_frozen": true,
+  "evidence_restored": true,
+  "runner_sha256": "5acdda6799720f1f336a133ac39d74cb84cdf7ad1e5ee3f8831f34226bd5e228",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "scope": "Owned evidence files only; temporary byte changes restored; no executable or original sample run"
+}

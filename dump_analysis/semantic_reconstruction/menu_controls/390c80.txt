@@ -1,0 +1,25 @@
+390c80	mov    QWORD PTR [rsp+0x8],rbx
+390c85	mov    QWORD PTR [rsp+0x10],rsi
+390c8a	push   rdi
+390c8b	sub    rsp,0x20
+390c8f	mov    rsi,QWORD PTR [rip+0x74e92]        # 0x405b28
+390c96	dec    WORD PTR [rsi+0x5bb0]
+390c9d	lea    rbx,[rsi+0x4890]
+390ca4	mov    edi,DWORD PTR [rsi+0x4788]
+390caa	mov    rcx,rbx
+390cad	call   0x39eea0
+390cb2	mov    rcx,rbx
+390cb5	call   0x39e304
+390cba	mov    ecx,DWORD PTR [rax]
+390cbc	mov    DWORD PTR [rsi+0x4788],ecx
+390cc2	bt     edi,0x2
+390cc6	jae    0x390cd9
+390cc8	test   cl,0x4
+390ccb	jne    0x390cd9
+390ccd	mov    eax,DWORD PTR [rsi+0x5bac]
+390cd3	mov    DWORD PTR [rsi+0x37d0],eax
+390cd9	mov    rbx,QWORD PTR [rsp+0x30]
+390cde	mov    rsi,QWORD PTR [rsp+0x38]
+390ce3	add    rsp,0x20
+390ce7	pop    rdi
+390ce8	ret

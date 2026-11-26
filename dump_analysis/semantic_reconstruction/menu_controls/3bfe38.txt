@@ -1,0 +1,5 @@
+3bfe38	movsxd rax,ecx
+3bfe3b	lea    rcx,[rip+0xffffffffffebfc1e]        # 0x27fa60
+3bfe42	shl    rax,0x5
+3bfe46	add    rax,rcx
+3bfe49	ret

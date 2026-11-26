@@ -1,0 +1,12 @@
+{
+  "syntax_exit": 0,
+  "sources": {
+    "source/test_scene/esp.cpp": "f7532969e39b2d2e63d48dd9abda76068766ba69530ce672bc93b8d6a557e060",
+    "source/test_scene/esp_root_checks.cpp": "1c726b5f3a0d0aeb1573a4aec9b52a4e90470ee3dc8e835d50fe84091a3e7866",
+    "source/test_scene/esp_evidence.md": "22af0b27a3863e7b9af3f171423ef610d554e3e95c3b130c3f824412c0b6434e"
+  },
+  "source_unchanged": true,
+  "original_manifest_exit": 0,
+  "original_manifest_pass_count": 135,
+  "scope": "Owned negative root composition checks; direct30ea17 scene behavior preserved; no full-root success claim."
+}

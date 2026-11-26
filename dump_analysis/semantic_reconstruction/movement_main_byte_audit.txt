@@ -1,0 +1,8 @@
+[C] Preserved virtual-layout image, file offset equals RVA.
+[C] SHA256 input: ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090
+[C] 4099 instructions, contiguous exact bytes 0x324b30..0x32911e (17902 bytes).
+[C] 510 branches; all in-range targets hit decoded instruction starts.
+[C] External direct branch: 0x329119 -> 0x329aa0, preserved as final collision effect.
+[C] Excerpts 01_hooks and 05_server are byte-identical.
+[I] Audit verifies evidence ranges/decoding, not semantic equivalence or game compatibility.
+[C] Additional launch worker 0x317c3c..0x3185a0: 2404 contiguous bytes, 538 instructions, 32 branches; all byte excerpts match the preserved image and targets hit decoded starts.

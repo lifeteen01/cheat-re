@@ -1,0 +1,418 @@
+// [C] Static lift from0x337e7c..0x338f14.
+MenuPageTextPool text_pool{wide_buffer(a)};
+[[maybe_unused]] MenuPageTextRef label_1{};
+[[maybe_unused]] MenuPageTextRef literal_2{};
+[[maybe_unused]] std::string owned_text_3{};
+[[maybe_unused]] MenuPageTextRef label_4{};
+[[maybe_unused]] bool pressed_6{};
+[[maybe_unused]] std::uint32_t value_7{};
+[[maybe_unused]] MenuPageTextRef literal_8{};
+[[maybe_unused]] MenuPageTextRef label_9{};
+[[maybe_unused]] bool pressed_11{};
+[[maybe_unused]] MenuPageTextRef label_12{};
+[[maybe_unused]] std::string owned_text_13{};
+[[maybe_unused]] MenuPageTextRef label_14{};
+[[maybe_unused]] std::string owned_text_15{};
+[[maybe_unused]] MenuPageTextRef label_16{};
+[[maybe_unused]] std::string owned_text_17{};
+[[maybe_unused]] MenuPageTextRef label_18{};
+[[maybe_unused]] std::string owned_text_19{};
+[[maybe_unused]] MenuPageTextRef label_20{};
+[[maybe_unused]] std::string owned_text_21{};
+[[maybe_unused]] MenuPageTextRef label_22{};
+[[maybe_unused]] std::string owned_text_23{};
+[[maybe_unused]] MenuPageTextRef label_24{};
+[[maybe_unused]] std::string owned_text_25{};
+[[maybe_unused]] MenuPageTextRef label_26{};
+[[maybe_unused]] bool pressed_28{};
+[[maybe_unused]] MenuPageTextRef label_29{};
+[[maybe_unused]] MenuPageTextRef label_30{};
+[[maybe_unused]] MenuPageTextRef label_31{};
+[[maybe_unused]] bool pressed_33{};
+[[maybe_unused]] MenuPageTextRef label_34{};
+[[maybe_unused]] bool pressed_36{};
+[[maybe_unused]] MenuPageTextRef label_37{};
+[[maybe_unused]] MenuPageTextRef label_38{};
+[[maybe_unused]] bool pressed_40{};
+[[maybe_unused]] std::uint32_t value_41{};
+[[maybe_unused]] MenuPageTextRef label_42{};
+[[maybe_unused]] bool pressed_44{};
+[[maybe_unused]] MenuPageTextRef label_45{};
+[[maybe_unused]] bool pressed_47{};
+[[maybe_unused]] std::uint32_t value_48{};
+[[maybe_unused]] MenuPageTextRef literal_49{};
+[[maybe_unused]] MenuPageTextRef label_50{};
+[[maybe_unused]] bool pressed_52{};
+[[maybe_unused]] MenuPageTextRef literal_53{};
+[[maybe_unused]] MenuPageTextRef label_54{};
+[[maybe_unused]] bool pressed_56{};
+[[maybe_unused]] MenuPageTextRef label_57{};
+[[maybe_unused]] MenuPageTextRef label_58{};
+[[maybe_unused]] bool pressed_60{};
+[[maybe_unused]] MenuPageTextRef label_61{};
+[[maybe_unused]] bool pressed_63{};
+[[maybe_unused]] MenuPageTextRef label_64{};
+[[maybe_unused]] bool pressed_66{};
+[[maybe_unused]] std::uint32_t value_67{};
+[[maybe_unused]] MenuPageTextRef label_68{};
+[[maybe_unused]] MenuPageTextRef literal_69{};
+[[maybe_unused]] MenuPageTextRef label_70{};
+[[maybe_unused]] bool pressed_72{};
+[[maybe_unused]] MenuPageTextRef literal_73{};
+[[maybe_unused]] MenuPageTextRef label_74{};
+[[maybe_unused]] bool pressed_76{};
+[[maybe_unused]] MenuPageTextRef literal_77{};
+[[maybe_unused]] MenuPageTextRef label_78{};
+[[maybe_unused]] bool pressed_80{};
+[[maybe_unused]] MenuPageTextRef label_81{};
+[[maybe_unused]] MenuPageTextRef literal_82{};
+[[maybe_unused]] std::string owned_text_83{};
+[[maybe_unused]] MenuPageTextRef label_84{};
+[[maybe_unused]] std::string owned_text_85{};
+[[maybe_unused]] MenuPageTextRef label_86{};
+[[maybe_unused]] std::string owned_text_87{};
+[[maybe_unused]] MenuPageTextRef label_88{};
+[[maybe_unused]] std::string owned_text_89{};
+[[maybe_unused]] MenuPageTextRef label_90{};
+[[maybe_unused]] std::string owned_text_91{};
+[[maybe_unused]] MenuPageTextRef label_92{};
+[[maybe_unused]] std::string owned_text_93{};
+[[maybe_unused]] MenuPageTextRef label_94{};
+[[maybe_unused]] bool pressed_96{};
+[[maybe_unused]] std::uint32_t value_97{};
+[[maybe_unused]] MenuPageTextRef literal_98{};
+[[maybe_unused]] MenuPageTextRef label_99{};
+[[maybe_unused]] bool pressed_101{};
+[[maybe_unused]] MenuPageTextRef literal_102{};
+[[maybe_unused]] MenuPageTextRef label_103{};
+[[maybe_unused]] bool pressed_105{};
+[[maybe_unused]] std::uint32_t value_106{};
+[[maybe_unused]] MenuPageTextRef literal_107{};
+[[maybe_unused]] MenuPageTextRef label_108{};
+[[maybe_unused]] bool pressed_110{};
+[[maybe_unused]] MenuPageTextRef literal_111{};
+[[maybe_unused]] MenuPageTextRef label_112{};
+[[maybe_unused]] bool pressed_114{};
+label_1=page_label(s,text_pool,-450,menu_literal_99,{"Visuals","Визуалы","视觉效果"});
+literal_2=page_literal(text_pool,24,menu_literal_100);
+owned_text_3=std::string(literal_2);
+child(s,m,a,owned_text_3,std::string(label_1),Vec2{0.0f,-1.0f},(1!=0));
+label_4=page_label(s,text_pool,-504,menu_literal_101,{"Hit Chams","ударить Чамаса","击中查马斯"});
+{ MenuControlRequest control_5;
+control_5.role=MenuControlRole::checkbox;
+control_5.site=0x337f9c;control_5.primitive=0x3bd114;
+control_5.label=std::string(label_4);
+control_5.value=0x3d7dd8;
+control_5.key=0;
+control_5.color=0;
+control_5.description="";
+control_5.register_search=(0!=0);
+pressed_6=control(a,control_5).pressed;
+}
+value_7=raw(s,0x3d7dd8)&255u;
+if((value_7==0)) {
+} else {
+    literal_8=page_literal(text_pool,24,menu_literal_29);
+    label_9=page_label(s,text_pool,-504,menu_literal_102,{"Chams Timer","Чамс Таймер","查姆斯计时器"});
+    { MenuControlRequest control_10;
+    control_10.role=MenuControlRole::slider_float;
+    control_10.site=0x33802e;control_10.primitive=0x3c43f4;
+    control_10.label=std::string(label_9);
+    control_10.value=0x3fca58;
+    control_10.minimum_float=0.5f;
+    control_10.maximum_float=5.0f;
+    control_10.format=std::string(literal_8);
+    control_10.flags=std::uint32_t(0);
+    pressed_11=control(a,control_10).pressed;
+    }
+    label_12=page_label(s,text_pool,-408,menu_literal_103,{"Glow Vischeck","Свечение (видимый)","发光（可见检查）"});
+    owned_text_13=std::string(label_12);
+    label_14=page_label(s,text_pool,-389,menu_literal_104,{"Plasma Vischeck","Плазма (видимый)","等离子（可见检查）"});
+    owned_text_15=std::string(label_14);
+    label_16=page_label(s,text_pool,-72,menu_literal_105,{"Solid Vischeck","Сплошной (видимый)","纯色（可见检查）"});
+    owned_text_17=std::string(label_16);
+    label_18=page_label(s,text_pool,-464,menu_literal_106,{"Mesh Vischeck","Сетка (видимый)","网格（可见检查）"});
+    owned_text_19=std::string(label_18);
+    label_20=page_label(s,text_pool,-336,menu_literal_107,{"Rainbow Wire Vischeck","Радужный каркас (видимый)","彩虹线框（可见检查）"});
+    owned_text_21=std::string(label_20);
+    label_22=page_label(s,text_pool,-450,menu_literal_108,{"Iridescent","Переливающийся","虹彩"});
+    owned_text_23=std::string(label_22);
+    label_24=page_label(s,text_pool,32,menu_literal_109,{"Naked","Без материала","无材质"});
+    owned_text_25=std::string(label_24);
+    label_26=page_label(s,text_pool,-504,menu_literal_110,{"Material","Материал","材质"});
+    { MenuControlRequest control_27;
+    control_27.role=MenuControlRole::combo_strings;
+    control_27.site=0x3382cd;control_27.primitive=0x3bf008;
+    control_27.label=std::string(label_26);
+    control_27.value=0x3fcff8;
+    control_27.choices={owned_text_13,owned_text_15,owned_text_17,owned_text_19,owned_text_21,owned_text_23,owned_text_25};
+    pressed_28=control(a,control_27).pressed;
+    }
+    label_29=page_label(s,text_pool,-464,menu_literal_111,{"Visible Color","Видимый цвет","可见颜色"});
+    color_label(s,a,std::string(label_29),0x3fc948,0x338333);
+    label_30=page_label(s,text_pool,-488,menu_literal_112,{"Non Visible Color","Невидимый цвет","不可见颜色"});
+    color_label(s,a,std::string(label_30),0x3fc9a8,0x338380);
+}
+label_31=page_label(s,text_pool,-504,menu_literal_113,{"Crosshair","Прицел","准星"});
+{ MenuControlRequest control_32;
+control_32.role=MenuControlRole::checkbox;
+control_32.site=0x3383e1;control_32.primitive=0x3bd114;
+control_32.label=std::string(label_31);
+control_32.value=0x3fc608;
+control_32.key=0;
+control_32.color=0x3ec938;
+control_32.description="";
+control_32.register_search=(0!=0);
+pressed_33=control(a,control_32).pressed;
+}
+label_34=page_label(s,text_pool,16,menu_literal_114,{"FOV","ФОВ","视野"});
+{ MenuControlRequest control_35;
+control_35.role=MenuControlRole::checkbox;
+control_35.site=0x338444;control_35.primitive=0x3bd114;
+control_35.label=std::string(label_34);
+control_35.value=0x3e71a8;
+control_35.key=0;
+control_35.color=0x3ec998;
+control_35.description="";
+control_35.register_search=(0!=0);
+pressed_36=control(a,control_35).pressed;
+}
+label_37=page_label(s,text_pool,-389,menu_literal_115,{"Draw projectile path","Путь снаряда","显示弹道"});
+label_38=page_label(s,text_pool,-488,menu_literal_116,{"Simulate Projectile","Симуляция снаряда","弹道模拟"});
+{ MenuControlRequest control_39;
+control_39.role=MenuControlRole::checkbox;
+control_39.site=0x3384e5;control_39.primitive=0x3bd114;
+control_39.label=std::string(label_38);
+control_39.value=0x3ea678;
+control_39.key=0;
+control_39.color=0x3ecb18;
+control_39.description=std::string(label_37);
+control_39.register_search=(0!=0);
+pressed_40=control(a,control_39).pressed;
+}
+value_41=raw(s,0x3ea678)&255u;
+if((value_41==0)) {
+} else {
+    label_42=page_label(s,text_pool,-504,menu_literal_117,{"Draw Path","Показ пути","路径"});
+    { MenuControlRequest control_43;
+    control_43.role=MenuControlRole::checkbox;
+    control_43.site=0x33854f;control_43.primitive=0x3bd114;
+    control_43.label=std::string(label_42);
+    control_43.value=0x3e7068;
+    control_43.key=0;
+    control_43.color=0;
+    control_43.description="";
+    control_43.register_search=(0!=0);
+    pressed_44=control(a,control_43).pressed;
+    }
+    label_45=page_label(s,text_pool,-464,menu_literal_118,{"Draw Hitpoint","Точка попадания","命中点"});
+    { MenuControlRequest control_46;
+    control_46.role=MenuControlRole::checkbox;
+    control_46.site=0x3385ac;control_46.primitive=0x3bd114;
+    control_46.label=std::string(label_45);
+    control_46.value=0x3e70b8;
+    control_46.key=0;
+    control_46.color=0;
+    control_46.description="";
+    control_46.register_search=(0!=0);
+    pressed_47=control(a,control_46).pressed;
+    }
+    value_48=raw(s,0x3e70b8)&255u;
+    if((value_48==0)) {
+    } else {
+        literal_49=page_literal(text_pool,24,menu_literal_29);
+        label_50=page_label(s,text_pool,-488,menu_literal_119,{"Boom Hitpoint %","Взрыв %","爆炸百分比"});
+        { MenuControlRequest control_51;
+        control_51.role=MenuControlRole::slider_float;
+        control_51.site=0x338641;control_51.primitive=0x3c43f4;
+        control_51.label=std::string(label_50);
+        control_51.value=0x3ede38;
+        control_51.minimum_float=0.10000000149011612f;
+        control_51.maximum_float=1.100000023841858f;
+        control_51.format=std::string(literal_49);
+        control_51.flags=std::uint32_t(0);
+        pressed_52=control(a,control_51).pressed;
+        }
+        literal_53=page_literal(text_pool,24,menu_literal_29);
+        label_54=page_label(s,text_pool,-336,menu_literal_120,{"Projectile Hitpoint %","Снаряд %","弹道百分比"});
+        { MenuControlRequest control_55;
+        control_55.role=MenuControlRole::slider_float;
+        control_55.site=0x3386c0;control_55.primitive=0x3c43f4;
+        control_55.label=std::string(label_54);
+        control_55.value=0x3ede88;
+        control_55.minimum_float=0.10000000149011612f;
+        control_55.maximum_float=1.100000023841858f;
+        control_55.format=std::string(literal_53);
+        control_55.flags=std::uint32_t(0);
+        pressed_56=control(a,control_55).pressed;
+        }
+    }
+}
+label_57=page_label(s,text_pool,-488,menu_literal_121,{"Shows aim point","Показывает точку","显示瞄准点"});
+label_58=page_label(s,text_pool,-389,menu_literal_122,{"Predicted Marker","Маркер","预测标记"});
+{ MenuControlRequest control_59;
+control_59.role=MenuControlRole::checkbox;
+control_59.site=0x338761;control_59.primitive=0x3bd114;
+control_59.label=std::string(label_58);
+control_59.value=0x3ea6c8;
+control_59.key=0;
+control_59.color=0x3ecb78;
+control_59.description=std::string(label_57);
+control_59.register_search=(0!=0);
+pressed_60=control(a,control_59).pressed;
+}
+label_61=page_label(s,text_pool,-488,menu_literal_123,{"Target Snapline","Линия","目标线"});
+{ MenuControlRequest control_62;
+control_62.role=MenuControlRole::checkbox;
+control_62.site=0x3387c2;control_62.primitive=0x3bd114;
+control_62.label=std::string(label_61);
+control_62.value=0x3e7ab8;
+control_62.key=0;
+control_62.color=0x3ec8d8;
+control_62.description="";
+control_62.register_search=(0!=0);
+pressed_63=control(a,control_62).pressed;
+}
+label_64=page_label(s,text_pool,-488,menu_literal_124,{"Projectile Tracers","Трассеры","弹道轨迹"});
+{ MenuControlRequest control_65;
+control_65.role=MenuControlRole::checkbox;
+control_65.site=0x338823;control_65.primitive=0x3bd114;
+control_65.label=std::string(label_64);
+control_65.value=0x3e9cc8;
+control_65.key=0;
+control_65.color=0x3ea7d8;
+control_65.description="";
+control_65.register_search=(0!=0);
+pressed_66=control(a,control_65).pressed;
+}
+value_67=raw(s,0x3e9cc8)&255u;
+if((value_67==0)) {
+} else {
+    label_68=page_label(s,text_pool,-504,menu_literal_125,{"Glow Color","Свечение","发光颜色"});
+    color_label(s,a,std::string(label_68),0x3ea778,0x33887d);
+    literal_69=page_literal(text_pool,24,menu_literal_29);
+    label_70=page_label(s,text_pool,-464,menu_literal_126,{"Glow Strength","Сила","强度"});
+    { MenuControlRequest control_71;
+    control_71.role=MenuControlRole::slider_float;
+    control_71.site=0x3388fd;control_71.primitive=0x3c43f4;
+    control_71.label=std::string(label_70);
+    control_71.value=0x3edd98;
+    control_71.minimum_float=0.0f;
+    control_71.maximum_float=10.0f;
+    control_71.format=std::string(literal_69);
+    control_71.flags=std::uint32_t(0);
+    pressed_72=control(a,control_71).pressed;
+    }
+    literal_73=page_literal(text_pool,24,menu_literal_29);
+    label_74=page_label(s,text_pool,-488,menu_literal_127,{"Glow Smoothness","Сглаживание","平滑"});
+    { MenuControlRequest control_75;
+    control_75.role=MenuControlRole::slider_float;
+    control_75.site=0x33897d;control_75.primitive=0x3c43f4;
+    control_75.label=std::string(label_74);
+    control_75.value=0x3eded8;
+    control_75.minimum_float=0.0f;
+    control_75.maximum_float=10.0f;
+    control_75.format=std::string(literal_73);
+    control_75.flags=std::uint32_t(0);
+    pressed_76=control(a,control_75).pressed;
+    }
+    literal_77=page_literal(text_pool,24,menu_literal_29);
+    label_78=page_label(s,text_pool,-488,menu_literal_128,{"Tracer Lifetime","Время","持续时间"});
+    { MenuControlRequest control_79;
+    control_79.role=MenuControlRole::slider_float;
+    control_79.site=0x3389fd;control_79.primitive=0x3c43f4;
+    control_79.label=std::string(label_78);
+    control_79.value=0x3ed5c8;
+    control_79.minimum_float=0.0f;
+    control_79.maximum_float=2.5f;
+    control_79.format=std::string(literal_77);
+    control_79.flags=std::uint32_t(0);
+    pressed_80=control(a,control_79).pressed;
+    }
+}
+cleanup(a);
+call(a,0x39ac04,{0.0f,-1.0f});
+label_81=page_label(s,text_pool,-368,menu_literal_129,{"AimVisuals Modifications","Модификации визуала","瞄准视觉"});
+literal_82=page_literal(text_pool,24,menu_literal_20);
+owned_text_83=std::string(literal_82);
+child(s,m,a,owned_text_83,std::string(label_81),Vec2{0.0f,-1.0f},(1!=0));
+label_84=page_label(s,text_pool,-450,menu_literal_130,{"Cross","Крест","十字"});
+owned_text_85=std::string(label_84);
+label_86=page_label(s,text_pool,-408,menu_literal_131,{"Thick Cross","Толстый крест","粗十字"});
+owned_text_87=std::string(label_86);
+label_88=page_label(s,text_pool,32,menu_literal_132,{"Dot","Точка","点"});
+owned_text_89=std::string(label_88);
+label_90=page_label(s,text_pool,-394,menu_literal_133,{"Nazi","Свастика","纳粹"});
+owned_text_91=std::string(label_90);
+label_92=page_label(s,text_pool,-504,menu_literal_134,{"4Square","4 квадрата","四方块"});
+owned_text_93=std::string(label_92);
+label_94=page_label(s,text_pool,-389,menu_literal_135,{"Crosshair Types","Типы прицела","准星类型"});
+{ MenuControlRequest control_95;
+control_95.role=MenuControlRole::combo_strings;
+control_95.site=0x338caa;control_95.primitive=0x3bf008;
+control_95.label=std::string(label_94);
+control_95.value=0x3fcfa8;
+control_95.choices={owned_text_85,owned_text_87,owned_text_89,owned_text_91,owned_text_93};
+pressed_96=control(a,control_95).pressed;
+}
+value_97=raw(s,0x3fcfa8);
+if((value_97!=3)) {
+} else {
+    literal_98=page_literal(text_pool,24,menu_literal_29);
+    label_99=page_label(s,text_pool,-504,menu_literal_136,{"Spin Speed","Скорость","旋转速度"});
+    { MenuControlRequest control_100;
+    control_100.role=MenuControlRole::slider_float;
+    control_100.site=0x338d57;control_100.primitive=0x3c43f4;
+    control_100.label=std::string(label_99);
+    control_100.value=0x3fcc38;
+    control_100.minimum_float=100.0f;
+    control_100.maximum_float=500.0f;
+    control_100.format=std::string(literal_98);
+    control_100.flags=std::uint32_t(0);
+    pressed_101=control(a,control_100).pressed;
+    }
+    literal_102=page_literal(text_pool,24,menu_literal_29);
+    label_103=page_label(s,text_pool,32,menu_literal_137,{"Size","Размер","大小"});
+    { MenuControlRequest control_104;
+    control_104.role=MenuControlRole::slider_float;
+    control_104.site=0x338dde;control_104.primitive=0x3c43f4;
+    control_104.label=std::string(label_103);
+    control_104.value=0x3fcb98;
+    control_104.minimum_float=4.0f;
+    control_104.maximum_float=40.0f;
+    control_104.format=std::string(literal_102);
+    control_104.flags=std::uint32_t(0);
+    pressed_105=control(a,control_104).pressed;
+    }
+    value_106=raw(s,0x3fcfa8);
+}
+if((((value_97!=3)?value_97:value_106)!=4)) {
+} else {
+    literal_107=page_literal(text_pool,24,menu_literal_29);
+    label_108=page_label(s,text_pool,-408,menu_literal_138,{"Square Width","Ширина","宽度"});
+    { MenuControlRequest control_109;
+    control_109.role=MenuControlRole::slider_float;
+    control_109.site=0x338e71;control_109.primitive=0x3c43f4;
+    control_109.label=std::string(label_108);
+    control_109.value=0x3fcbe8;
+    control_109.minimum_float=2.0f;
+    control_109.maximum_float=10.0f;
+    control_109.format=std::string(literal_107);
+    control_109.flags=std::uint32_t(0);
+    pressed_110=control(a,control_109).pressed;
+    }
+}
+literal_111=page_literal(text_pool,24,menu_literal_60);
+label_112=page_label(s,text_pool,-504,menu_literal_139,{"Fov Value","ФОВ значение","视野值"});
+{ MenuControlRequest control_113;
+control_113.role=MenuControlRole::slider_integer;
+control_113.site=0x338eef;control_113.primitive=0x3c4438;
+control_113.label=std::string(label_112);
+control_113.value=0x3d81e8;
+control_113.minimum=0;
+control_113.maximum=1000;
+control_113.format=std::string(literal_111);
+control_113.flags=std::uint32_t(0);
+pressed_114=control(a,control_113).pressed;
+}
+cleanup(a);

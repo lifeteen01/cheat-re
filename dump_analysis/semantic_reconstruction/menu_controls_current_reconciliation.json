@@ -1,0 +1,278 @@
+{
+  "confidence": "C: native byte provenance and build status; I: explicit cross-module coverage mapping",
+  "historical_ledger": "dump_analysis/semantic_reconstruction/menu_controls/range_branch_dependency_ledger.json",
+  "historical_root_count": 26,
+  "historical_bytes": 15618,
+  "records": [
+    {
+      "begin": "0x379680",
+      "end_exclusive": "0x379e60",
+      "bytes": 2016,
+      "native_sha256": "f5541175c2e7ff4455973449ab2d29fd0eedaf9f2732aea5d340efacdf1553d8",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_color_picker_analysis.cpp",
+      "implementation_sha256": "62dde7addca5dee583fb4150c70a7b00d98e6e9c98cbfdb69beede1785e6636c",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_color_picker/menu_color_picker_release.json"
+    },
+    {
+      "begin": "0x389f18",
+      "end_exclusive": "0x38a3c2",
+      "bytes": 1194,
+      "native_sha256": "7d589919950fb1f29a81c6b7f4652cf9d478cceba06413dd6ec7ddc7b7fe9495",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_tooltip_analysis.cpp",
+      "implementation_sha256": "678701fc109ed45fa9defcb4bf97d8443c4603efa7cc37f370adc93d83935cc7",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_tooltip/byte_audit.json"
+    },
+    {
+      "begin": "0x38cfa4",
+      "end_exclusive": "0x38e97c",
+      "bytes": 6616,
+      "native_sha256": "a340297e1577501743464b1822176adbe2d7dc7404fa324d8c4d34e0fc2fadc6",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_begin.cpp",
+      "implementation_sha256": "9df1bd5a29c2ba682f420d2c75c73801900dc9b9a6dfeaa48f6952c92f605008",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x38e97c",
+      "end_exclusive": "0x38e9c1",
+      "bytes": 69,
+      "native_sha256": "63ee18f1aaf813fd070e72b1ab76ab6161eec2a559c472ca51f5014b0b036674",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_child.cpp",
+      "implementation_sha256": "3acde1cc8af2973a2bc3eb4f7aa12ac2b3e9990ee4d1cd0f88d86bacfd91db0b",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x38f020",
+      "end_exclusive": "0x38f0ba",
+      "bytes": 154,
+      "native_sha256": "a47f9b501654f0b01ec1d47426c1f816da4846952b7b04e8510f7c68fa4d4012",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_modal.cpp",
+      "implementation_sha256": "3cca1b647df7d7d999ede259537f0f2c61574a7f89d675d330be3711d00b3b72",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x390260",
+      "end_exclusive": "0x39031a",
+      "bytes": 186,
+      "native_sha256": "fff1d57b3d131e04be94971f83f497a6477edc30b318f1d8aeff1cba5782c307",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_modal.cpp",
+      "implementation_sha256": "3cca1b647df7d7d999ede259537f0f2c61574a7f89d675d330be3711d00b3b72",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x39031c",
+      "end_exclusive": "0x3903c6",
+      "bytes": 170,
+      "native_sha256": "68e4baace216449331014f62cf5c48e8c86a7e19a020538f02b05f4fb3728c6f",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_modal.cpp",
+      "implementation_sha256": "3cca1b647df7d7d999ede259537f0f2c61574a7f89d675d330be3711d00b3b72",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x390994",
+      "end_exclusive": "0x390a88",
+      "bytes": 244,
+      "native_sha256": "e75c64a8162b27eb1f8843c8d2e31b0eeecdffe78868a4443966d87c3b99f7ad",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_end.cpp",
+      "implementation_sha256": "fb6c040214daa7ad9fa50336ca2212ce084de6aae1f231538757b92272e03918",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x390a88",
+      "end_exclusive": "0x390c7f",
+      "bytes": 503,
+      "native_sha256": "e0e9703b0e055e1f92713ba2c8e58d10901f64755117bc9893d2ada3a553d8eb",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_end.cpp",
+      "implementation_sha256": "fb6c040214daa7ad9fa50336ca2212ce084de6aae1f231538757b92272e03918",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x391928",
+      "end_exclusive": "0x3919d2",
+      "bytes": 170,
+      "native_sha256": "011e6e9cd16f30d997a806d7679785db397961f23a0d692d1466ab6bbce70827",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_windows_modal.cpp",
+      "implementation_sha256": "3cca1b647df7d7d999ede259537f0f2c61574a7f89d675d330be3711d00b3b72",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_windows/range_branch_dependency_ledger.json"
+    },
+    {
+      "begin": "0x392654",
+      "end_exclusive": "0x3926a9",
+      "bytes": 85,
+      "native_sha256": "ef16b731dfee0bc5e7fb9c7e6105e875b251363638201349b48da36a0e354f43",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_navigation_core.cpp",
+      "implementation_sha256": "537a238df3edcccf01754b00a46f6305c626fe179003821d0816962dbc5e75f4",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_navigation/audit.json"
+    },
+    {
+      "begin": "0x395258",
+      "end_exclusive": "0x3952af",
+      "bytes": 87,
+      "native_sha256": "f5150400ac5c21685b47e36b55c1e8b11511f925f94480b7f275a520facc51ae",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_navigation_core.cpp",
+      "implementation_sha256": "537a238df3edcccf01754b00a46f6305c626fe179003821d0816962dbc5e75f4",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_navigation/audit.json"
+    },
+    {
+      "begin": "0x395bc4",
+      "end_exclusive": "0x395cdd",
+      "bytes": 281,
+      "native_sha256": "a83ed8056edcd0cfe8c1014fb91868278e070f991b3ce1a0f9bb3171457e7085",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_navigation_core.cpp",
+      "implementation_sha256": "537a238df3edcccf01754b00a46f6305c626fe179003821d0816962dbc5e75f4",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_navigation/audit.json"
+    },
+    {
+      "begin": "0x395db8",
+      "end_exclusive": "0x396133",
+      "bytes": 891,
+      "native_sha256": "3e8b4d64800c3a470aee43b800afd2bd1ab77fd6d26c91c889881546696596f9",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_navigation_scoring.cpp",
+      "implementation_sha256": "4028a1610098a98d76a60c61954f000e933865d55c67057a05614188876216ad",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_navigation/audit.json"
+    },
+    {
+      "begin": "0x39f874",
+      "end_exclusive": "0x39f926",
+      "bytes": 178,
+      "native_sha256": "14e5d915ef50564465d8f1751f1493e483a81c16794f5a8c90ba05f1a78a8a5b",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/draw_shapes_paths.cpp",
+      "implementation_sha256": "d9057bf37a452eaab5e399386803abe654de46ea92a8c336eff7205e93f218f3",
+      "evidence": "dump_analysis/semantic_reconstruction/draw_shapes/audit.json"
+    },
+    {
+      "begin": "0x3a01f4",
+      "end_exclusive": "0x3a0294",
+      "bytes": 160,
+      "native_sha256": "54af058ac49d115195cae8c378ca5ff709fe249fcdfecc792c659dc00afa8506",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/draw_shapes_paths.cpp",
+      "implementation_sha256": "d9057bf37a452eaab5e399386803abe654de46ea92a8c336eff7205e93f218f3",
+      "evidence": "dump_analysis/semantic_reconstruction/draw_shapes/audit.json"
+    },
+    {
+      "begin": "0x3a1148",
+      "end_exclusive": "0x3a1244",
+      "bytes": 252,
+      "native_sha256": "27cae5098ce1888e62807d8ac50caf3ff1040fe42c647b866c5c0b4e29b6ea8a",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/draw_shapes_paths.cpp",
+      "implementation_sha256": "d9057bf37a452eaab5e399386803abe654de46ea92a8c336eff7205e93f218f3",
+      "evidence": "dump_analysis/semantic_reconstruction/draw_shapes/audit.json"
+    },
+    {
+      "begin": "0x3a1244",
+      "end_exclusive": "0x3a12d8",
+      "bytes": 148,
+      "native_sha256": "741214faaf3b991d3d9b26b56a7275bc1a113f17d82aa339a7427203a1be6710",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/draw_shapes_paths.cpp",
+      "implementation_sha256": "d9057bf37a452eaab5e399386803abe654de46ea92a8c336eff7205e93f218f3",
+      "evidence": "dump_analysis/semantic_reconstruction/draw_shapes/audit.json"
+    },
+    {
+      "begin": "0x3a1410",
+      "end_exclusive": "0x3a1561",
+      "bytes": 337,
+      "native_sha256": "4aefe35d4645825ade27bc88aabae04de7b5dfd18c70074d1f80ccb2141de08d",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/draw_shadows_controllers.cpp",
+      "implementation_sha256": "60f6bfba503800076e7ba43dbeb1f8a60e1423166edde658ea04bc2878817e66",
+      "evidence": "dump_analysis/semantic_reconstruction/draw_shadows/audit.json"
+    },
+    {
+      "begin": "0x3a2010",
+      "end_exclusive": "0x3a2373",
+      "bytes": 867,
+      "native_sha256": "cdcca464ca2ab87c69110a1b5ea507d8955765e21ddacef58daee0bfe9c7ee73",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/draw_shadows_controllers.cpp",
+      "implementation_sha256": "60f6bfba503800076e7ba43dbeb1f8a60e1423166edde658ea04bc2878817e66",
+      "evidence": "dump_analysis/semantic_reconstruction/draw_shadows/audit.json"
+    },
+    {
+      "begin": "0x3a7400",
+      "end_exclusive": "0x3a761f",
+      "bytes": 543,
+      "native_sha256": "90a3d640791038be776714dda162011120972cfa3dfad236b99a7582ebd72268",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_render_bindings.cpp",
+      "implementation_sha256": "86b4e413bfb8a6f2fa25da4124397e7589afe64dd62a189a5343229cb226e206",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_controls/parent_raw_strings_verification.txt"
+    },
+    {
+      "begin": "0x3b54ac",
+      "end_exclusive": "0x3b54f9",
+      "bytes": 77,
+      "native_sha256": "357e41a8b03bc914b53157bada3dd62dda7d268aab61097af090a556bcccce8c",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_layout_channels.cpp",
+      "implementation_sha256": "f4ca5cd5c79017096ecac442d2bda8e90fe3564df8f81d71b85cbfbee70326a3",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_layout_channels/audit.json"
+    },
+    {
+      "begin": "0x3b54fc",
+      "end_exclusive": "0x3b5551",
+      "bytes": 85,
+      "native_sha256": "d7d2c27d09f5321450a557d1521e52c2a8449034776b24acaaa626a34a275796",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_layout_channels.cpp",
+      "implementation_sha256": "f4ca5cd5c79017096ecac442d2bda8e90fe3564df8f81d71b85cbfbee70326a3",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_layout_channels/audit.json"
+    },
+    {
+      "begin": "0x3b5824",
+      "end_exclusive": "0x3b588d",
+      "bytes": 105,
+      "native_sha256": "241677719add5e8cfa4c88168d0cac5c200327ef09e9490df90e99c652ad9f23",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_layout_channels.cpp",
+      "implementation_sha256": "f4ca5cd5c79017096ecac442d2bda8e90fe3564df8f81d71b85cbfbee70326a3",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_layout_channels/audit.json"
+    },
+    {
+      "begin": "0x3b5890",
+      "end_exclusive": "0x3b58f2",
+      "bytes": 98,
+      "native_sha256": "5e856f0d8d4b811922880ec89cc70dcf141b02b423c98c2c6e34c54f3255d7f8",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/menu_layout_channels.cpp",
+      "implementation_sha256": "f4ca5cd5c79017096ecac442d2bda8e90fe3564df8f81d71b85cbfbee70326a3",
+      "evidence": "dump_analysis/semantic_reconstruction/menu_layout_channels/audit.json"
+    },
+    {
+      "begin": "0x3c04d0",
+      "end_exclusive": "0x3c0536",
+      "bytes": 102,
+      "native_sha256": "37c2d2d012212b5b04441322a81469dbed4791304ea42e14d02a99cf0767cf4a",
+      "current_status": "Concrete root controller exists; transitive/adaptation limits remain separate",
+      "implementation": "source/reconstructed/imgui_navigation_text.cpp",
+      "implementation_sha256": "e082abec69360c79dfed9a10122cc22303ee290bc5ca979c909604e0cfe6c4c7",
+      "evidence": "dump_analysis/semantic_reconstruction/imgui_navigation/audit.json"
+    }
+  ],
+  "current_combined_checkpoints": [
+    "layout_channels_integrated_sources.json",
+    "layout_channels_sanitizer_sources.json"
+  ],
+  "remaining_scope": [
+    "Active text editor3c0538..3c2a7f and input queue38cd28..38cdc2",
+    "Native generic type/flag/format specializations remain in module ledgers",
+    "Owned storage/allocator ABI, copied runtime data and broader independent review remain explicit",
+    "This mapping does not establish full transitive closure or live ImGui/game compatibility"
+  ]
+}

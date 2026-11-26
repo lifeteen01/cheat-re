@@ -1,0 +1,29 @@
+3aaf8c rex push rbx
+3aaf8e sub    rsp,0x30
+3aaf92 movsxd r11,r8d
+3aaf95 mov    rbx,rdx
+3aaf98 mov    r10,rcx
+3aaf9b xor    r8d,r8d
+3aaf9e xor    edx,edx
+3aafa0 lea    rcx,[rsp+0x20]
+3aafa5 call   0x3ac318
+3aafaa movups xmm0,XMMWORD PTR [rax]
+3aafad movdqu XMMWORD PTR [r10],xmm0
+3aafb2 test   r11d,r11d
+3aafb5 js     0x3aafd9
+3aafb7 test   r9d,r9d
+3aafba js     0x3aafd9
+3aafbc mov    eax,DWORD PTR [rbx+0xc]
+3aafbf cmp    r11d,eax
+3aafc2 jg     0x3aafd9
+3aafc4 sub    eax,r11d
+3aafc7 cmp    r9d,eax
+3aafca jg     0x3aafd9
+3aafcc mov    rax,r11
+3aafcf mov    DWORD PTR [r10+0xc],r9d
+3aafd3 add    rax,QWORD PTR [rbx]
+3aafd6 mov    QWORD PTR [r10],rax
+3aafd9 mov    rax,r10
+3aafdc add    rsp,0x30
+3aafe0 pop    rbx
+3aafe1 ret

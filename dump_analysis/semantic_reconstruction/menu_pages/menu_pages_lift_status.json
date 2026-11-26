@@ -1,0 +1,97 @@
+[
+  {
+    "entry": "0x359098",
+    "state": "generated, review pending",
+    "controls": 17
+  },
+  {
+    "entry": "0x336868",
+    "state": "generated, review pending",
+    "controls": 23
+  },
+  {
+    "entry": "0x337e7c",
+    "state": "generated, review pending",
+    "controls": 21
+  },
+  {
+    "entry": "0x338f30",
+    "state": "generated, review pending",
+    "controls": 33
+  },
+  {
+    "entry": "0x33ac78",
+    "state": "generated, review pending",
+    "controls": 52
+  },
+  {
+    "entry": "0x33c768",
+    "state": "generated, review pending",
+    "controls": 56
+  },
+  {
+    "entry": "0x33e738",
+    "state": "generated, review pending",
+    "controls": 31
+  },
+  {
+    "entry": "0x3400b0",
+    "state": "generated, review pending",
+    "controls": 41
+  },
+  {
+    "entry": "0x341bd8",
+    "state": "generated, review pending",
+    "controls": 26
+  },
+  {
+    "entry": "0x3429f4",
+    "state": "generated, review pending",
+    "controls": 34
+  },
+  {
+    "entry": "0x3455b4",
+    "state": "generated, review pending",
+    "controls": 24
+  },
+  {
+    "entry": "0x346ccc",
+    "state": "generated, review pending",
+    "controls": 29
+  },
+  {
+    "entry": "0x34841c",
+    "state": "generated, review pending",
+    "controls": 33
+  },
+  {
+    "entry": "0x349db4",
+    "state": "generated, review pending",
+    "controls": 21
+  },
+  {
+    "entry": "0x34aedc",
+    "state": "generated, review pending",
+    "controls": 12
+  },
+  {
+    "entry": "0x34c4b0",
+    "state": "blocked static transfer",
+    "detail": "untranslated call 0x38e97c at 0x34c689"
+  },
+  {
+    "entry": "0x34d784",
+    "state": "blocked static transfer",
+    "detail": "untranslated call 0x38e97c at 0x34d98e"
+  },
+  {
+    "entry": "0x34e554",
+    "state": "blocked static transfer",
+    "detail": "untranslated call 0x38e97c at 0x34e75e"
+  },
+  {
+    "entry": "0x34f35c",
+    "state": "blocked static transfer",
+    "detail": "untranslated call 0x38e97c at 0x34f56e"
+  }
+]

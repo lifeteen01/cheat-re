@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "tests": {
+    "thread_offset": {
+      "rejected": true,
+      "reason": "Executor instruction/branch mismatch: [(33, ('add', 'qwordptr[rsp],33'), ('add', 'qwordptr[rsp],34'))]"
+    },
+    "branch_destination": {
+      "rejected": true,
+      "reason": "Executor instruction/branch mismatch: [(57, ('je', 'instruction:76'), ('je', 'instruction:81'))]"
+    },
+    "restore_reference": {
+      "rejected": true,
+      "reason": "Missing authored restoration relocation"
+    }
+  },
+  "verifier_sha256": "fb2544cbc578ac3ecb2c450f3f5b8a49d682d702edb2c4e34930ed77cd69963b",
+  "runner_sha256": "4796f143d27bd16b5a26cc4084d8aaa119b0d583ad25a9becd16ce76787503ea",
+  "source_hashes": {
+    "source/freestanding/gate.h": "d53c2a938aa4871029d433003432fbd9c87887d5c98338495e3b4d85f5f50ef1",
+    "source/freestanding/gate.cpp": "338abf9580919ff3881dc96642b5bb448f12a9a798992f101bcde537e51d2742",
+    "source/freestanding/gate_x64.S": "53b47ae34ab250d3a61b575c526905eb15c3dcd5956a8f2fcf09a678cb1afb98",
+    "source/freestanding/checks.cpp": "cecfa221b271da95d181c0236580c8f5a37de05079483cf3820ab6e80439880d",
+    "source/freestanding/checks_x64.S": "ab6d95446a10e2772fb0c1b2d6dcd60d9e8f6a6079236d39576805465921da2e",
+    "source/freestanding/verify.py": "fb2544cbc578ac3ecb2c450f3f5b8a49d682d702edb2c4e34930ed77cd69963b",
+    "source/freestanding/CMakeLists.txt": "6cc00d7f2e571ef0819158df27ec887ebc5ea60be7452f48cba3578a00d00082"
+  },
+  "mutated_objects_executed": false
+}

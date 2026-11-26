@@ -1,0 +1,15 @@
+39256c rex push rbx
+39256e sub    rsp,0x30
+392572 mov    rbx,rcx
+392575 lea    rdx,[rsp+0x20]
+39257a lea    rcx,[rsp+0x48]
+39257f call   0x38c6f0
+392584 mov    rcx,rax
+392587 call   0x39eb2c
+39258c mov    r8,rax
+39258f mov    edx,0x1
+392594 mov    rcx,rbx
+392597 call   0x392dcc
+39259c add    rsp,0x30
+3925a0 pop    rbx
+3925a1 ret

@@ -1,0 +1,9 @@
+{
+  "release_deliverables_checked": 36,
+  "release_hashes_match": true,
+  "strict": "active_waves_integrated_sources.json",
+  "sanitizer": "active_waves_sanitizer_sources.json",
+  "captured_inputs": 447,
+  "translation_units": 323,
+  "scope": "Build/test integration; optional unbound domain/runtime operations remain explicit"
+}

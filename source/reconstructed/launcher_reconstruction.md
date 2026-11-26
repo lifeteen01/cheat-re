@@ -1,0 +1,18 @@
+# Launcher sequencing and orientation restoration
+
+[C] [launcher_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.cpp) implements the save/worker/original/restore flow at `0x2ddb10–0x2ddbb5`, capture helper `0x2dda50–0x2dda96`, restoration `0x2ddbbc–0x2ddbf2`, orientation-store body `0x373d1c–0x373d6d` and scalar quaternion multiplication `0x373b28–0x373c31`. [I] [launcher_analysis.hpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.hpp) supplies owned state and explicit callback boundaries; these declarations are not a game ABI [U].
+
+[C] The detour first resolves local player (`0x2ddb1c`) and its related object (`0x2ddb27`). If both numeric pointers qualify, capture helper `0x36920c` resolves the related object **again**, obtains 16 orientation bytes via `0x3739c4`, and overwrites shared global `0x3d7030`. It then obtains the singleton at `0x35d31c` and invokes worker `0x317c3c`. No separate nonnull singleton check precedes this invocation (`0x2dda86–0x2dda91`). [C] The worker is now concrete in [movement_main_analysis.cpp](/home/john/Desktop/cheat_re/source/reconstructed/movement_main_analysis.cpp), with [boundary accounting](/home/john/Desktop/cheat_re/source/reconstructed/movement_main_reconstruction.md).
+
+[C] The original launcher invocation follows at `0x2ddba2`, even when numeric pointer checks skipped capture. Normal return reaches the restoration tail call, which checks the original player/related pair and consumes the **current shared** saved orientation. [I] No independent per-call backup or exception cleanup is invented. [U] If the second related-object getter becomes invalid after the first succeeded, native `0x369243` returns an unwritten temporary; the analysis stops with an unresolved-byte status rather than fabricating those bytes.
+
+[C] Restoration helper `0x373d04` obtains a current rotation through `0x373c60`, calls the resolved Quaternion method behind `0x3738cc`, multiplies that result by the desired orientation, and stores 16 bytes at related object `+0x5c`. [C] Getter `0x3738b8` decodes to `Inverse`; `0x373b28` implements the four-component Hamilton product with scalar SSE operations. [I] The translation preserves the observed arithmetic grouping. [U] The rotation getter and Quaternion.Inverse are callbacks, rather than a guessed Unity implementation. Signaling-NaN exceptions and floating-point environment equivalence are unverified.
+
+| Dependency | Evidence |
+|---|---|
+| [U] Related-object getter | [C] `0x369298` routes to `GameAssembly+0x3f1c760`. |
+| [U] Captured orientation getter | [C] `0x3739c4` routes to `GameAssembly+0x19edb50`. |
+| [U] Rotation used during restoration | [C] `0x373c60` routes to `GameAssembly+0x19f3db0`. |
+| [C] Launch-aim worker | [C] `0x317c3c–0x31859f`; [launcher_worker_bindings.cpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_worker_bindings.cpp) binds the concrete body and reports reached failures before original/restoration. |
+
+[C] Evidence: [detour/capture/restore bytes](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/interaction_evidence.asm), [launcher dependencies](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/launcher_helpers.asm), [orientation helpers](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/orientation_helpers.asm), [constructor/getter bytes](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/quaternion_constructor.asm). [I] Fixtures in [launcher_checks.cpp](/home/john/Desktop/cheat_re/source/reconstructed/launcher_checks.cpp) cover noncommutative multiplication, raw capture bits, repeated getter/order, invalid capture, missing dependencies, bounded writes and a nonreturning original callback.

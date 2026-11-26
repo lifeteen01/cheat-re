@@ -1,0 +1,427 @@
+[
+  {
+    "id": "0x242e02a",
+    "label": "Watergun",
+    "site": "0x316b86"
+  },
+  {
+    "id": "0x2b9498c",
+    "label": "Grenade",
+    "site": "0x316b74"
+  },
+  {
+    "id": "0x682ef36",
+    "label": "Ice Pick",
+    "site": "0x316b62"
+  },
+  {
+    "id": "0xb5cde96",
+    "label": "Abyss Metal Pickaxe",
+    "site": "0x316b48"
+  },
+  {
+    "id": "0x10ec8b63",
+    "label": "Syringe",
+    "site": "0x316b36"
+  },
+  {
+    "id": "0x138c0af7",
+    "label": "Combat Knife",
+    "site": "0x316b98"
+  },
+  {
+    "id": "0x15c5045d",
+    "label": "Hatchet",
+    "site": "0x316c0c"
+  },
+  {
+    "id": "0x19fd3036",
+    "label": "Binoculars",
+    "site": "0x316bfa"
+  },
+  {
+    "id": "0x20576b65",
+    "label": "Homing Missile Launcher",
+    "site": "0x316be0"
+  },
+  {
+    "id": "0x210e4192",
+    "label": "Pump Shotgun",
+    "site": "0x316bce"
+  },
+  {
+    "id": "0x21945e93",
+    "label": "Semi Pistol",
+    "site": "0x316c1e"
+  },
+  {
+    "id": "0x23d93f87",
+    "label": "Rocket Launcher",
+    "site": "0x316cb7"
+  },
+  {
+    "id": "0x25ee4f6f",
+    "label": "ProtoType",
+    "site": "0x316ca5"
+  },
+  {
+    "id": "0x2d3323e4",
+    "label": "Flash Bang",
+    "site": "0x316c93"
+  },
+  {
+    "id": "0x2e52bd5c",
+    "label": "Bowless Crossbow",
+    "site": "0x316c81"
+  },
+  {
+    "id": "0x32542451",
+    "label": "LR-300",
+    "site": "0x316c6f"
+  },
+  {
+    "id": "0x3b516339",
+    "label": "Skinning Knife",
+    "site": "0x316cc9"
+  },
+  {
+    "id": "0x3c2a7c73",
+    "label": "Pitchfork",
+    "site": "0x316d3d"
+  },
+  {
+    "id": "0x4986a9c0",
+    "label": "HELauncher",
+    "site": "0x316d2b"
+  },
+  {
+    "id": "0x527df9d3",
+    "label": "Bandage",
+    "site": "0x316d19"
+  },
+  {
+    "id": "0x53445824",
+    "label": "Abyss Metal Hatchet",
+    "site": "0x316d07"
+  },
+  {
+    "id": "0x5372ba39",
+    "label": "Bow",
+    "site": "0x316d4f"
+  },
+  {
+    "id": "0x53eaab3a",
+    "label": "LR300",
+    "site": "0x316dfb"
+  },
+  {
+    "id": "0x55e29a77",
+    "label": "M249",
+    "site": "0x316de9"
+  },
+  {
+    "id": "0x567621a3",
+    "label": "Stone Pickaxe",
+    "site": "0x316dd7"
+  },
+  {
+    "id": "0x583d5f3b",
+    "label": "Concrete Pickaxe",
+    "site": "0x316dc5"
+  },
+  {
+    "id": "0x5a6cf380",
+    "label": "M39",
+    "site": "0x316db3"
+  },
+  {
+    "id": "0x5ba2e2f8",
+    "label": "Compoundbow",
+    "site": "0x316e0d"
+  },
+  {
+    "id": "0x632e7fe9",
+    "label": "Salvaged Sword",
+    "site": "0x316e79"
+  },
+  {
+    "id": "0x63453a54",
+    "label": "Bolt Action Rifle",
+    "site": "0x316e67"
+  },
+  {
+    "id": "0x65efb7a0",
+    "label": "Flame Thrower",
+    "site": "0x316e55"
+  },
+  {
+    "id": "0x67f614a3",
+    "label": "Salvaged Hammer",
+    "site": "0x316e43"
+  },
+  {
+    "id": "0x6977d0a9",
+    "label": "Baseball Bat",
+    "site": "0x316e8b"
+  },
+  {
+    "id": "0x69f6680b",
+    "label": "Concrete Hatchet",
+    "site": "0x316fa8"
+  },
+  {
+    "id": "0x6b720385",
+    "label": "Chainsaw",
+    "site": "0x316f96"
+  },
+  {
+    "id": "0x6e476264",
+    "label": "Paddle",
+    "site": "0x316f84"
+  },
+  {
+    "id": "0x6fe6df77",
+    "label": "SPAS-12",
+    "site": "0x316f72"
+  },
+  {
+    "id": "0x7229a22b",
+    "label": "C4",
+    "site": "0x316f5b"
+  },
+  {
+    "id": "0x73cbd689",
+    "label": "Assault Rifle",
+    "site": "0x316f49"
+  },
+  {
+    "id": "0x73d98bef",
+    "label": "Stone Spear",
+    "site": "0x316f37"
+  },
+  {
+    "id": "0x75f12c79",
+    "label": "Assault Rifle",
+    "site": "0x316f25"
+  },
+  {
+    "id": "0x7aa889b9",
+    "label": "FishingPole",
+    "site": "0x316f13"
+  },
+  {
+    "id": "0x8066383e",
+    "label": "High Caliber Revolver",
+    "site": "0x316665"
+  },
+  {
+    "id": "0x81bebef9",
+    "label": "Eoka",
+    "site": "0x31664b"
+  },
+  {
+    "id": "0x88b9b0de",
+    "label": "M92 Pistol",
+    "site": "0x31663c"
+  },
+  {
+    "id": "0x90107739",
+    "label": "M4 Shotgun",
+    "site": "0x316622"
+  },
+  {
+    "id": "0x93ac3550",
+    "label": "Revolver",
+    "site": "0x316608"
+  },
+  {
+    "id": "0x97b99b77",
+    "label": "MP5",
+    "site": "0x31667f"
+  },
+  {
+    "id": "0x9875204d",
+    "label": "Blunderbuss",
+    "site": "0x316700"
+  },
+  {
+    "id": "0x9c2ca419",
+    "label": "L96",
+    "site": "0x3166f1"
+  },
+  {
+    "id": "0x9f3c36a1",
+    "label": "Satchel",
+    "site": "0x3166d7"
+  },
+  {
+    "id": "0xa0bab244",
+    "label": "Waterpipe",
+    "site": "0x3166bd"
+  },
+  {
+    "id": "0xa290af6a",
+    "label": "Crossbow",
+    "site": "0x31671a"
+  },
+  {
+    "id": "0xa898320f",
+    "label": "Spear",
+    "site": "0x3167bb"
+  },
+  {
+    "id": "0xa90efc69",
+    "label": "Bow",
+    "site": "0x3167a9"
+  },
+  {
+    "id": "0xae81207c",
+    "label": "Mace",
+    "site": "0x316797"
+  },
+  {
+    "id": "0xaf631f01",
+    "label": "Machete",
+    "site": "0x316785"
+  },
+  {
+    "id": "0xb4f5e483",
+    "label": "Rocket Launcher",
+    "site": "0x31676b"
+  },
+  {
+    "id": "0xbe444ac2",
+    "label": "Assault Rifle",
+    "site": "0x3167d5"
+  },
+  {
+    "id": "0xc06aa8e7",
+    "label": "Snowball Launcher",
+    "site": "0x316851"
+  },
+  {
+    "id": "0xc15a0047",
+    "label": "Thompson",
+    "site": "0x31683f"
+  },
+  {
+    "id": "0xc4fe7d18",
+    "label": "Python",
+    "site": "0x316825"
+  },
+  {
+    "id": "0xc71535e8",
+    "label": "Salvaged Cleaver",
+    "site": "0x316813"
+  },
+  {
+    "id": "0xca6a8ac0",
+    "label": "Longsword",
+    "site": "0x31686b"
+  },
+  {
+    "id": "0xce2e2f06",
+    "label": "HMLMG",
+    "site": "0x316917"
+  },
+  {
+    "id": "0xcf187f07",
+    "label": "Double Barrel",
+    "site": "0x316905"
+  },
+  {
+    "id": "0xd2d4bafd",
+    "label": "Jackhammer",
+    "site": "0x3168f3"
+  },
+  {
+    "id": "0xd30b5a43",
+    "label": "Stone Hatchet",
+    "site": "0x3168e1"
+  },
+  {
+    "id": "0xd9cdeb14",
+    "label": "Beancan",
+    "site": "0x3168cf"
+  },
+  {
+    "id": "0xda46f42f",
+    "label": "Frontier Hatchet",
+    "site": "0x316929"
+  },
+  {
+    "id": "0xdd8e8cb4",
+    "label": "Flame Thrower",
+    "site": "0x316995"
+  },
+  {
+    "id": "0xdf790ddc",
+    "label": "PaintBall gun",
+    "site": "0x316983"
+  },
+  {
+    "id": "0xe01aa09f",
+    "label": "Custom SMG",
+    "site": "0x316971"
+  },
+  {
+    "id": "0xe359dd55",
+    "label": "Spear",
+    "site": "0x31695f"
+  },
+  {
+    "id": "0xe4127269",
+    "label": "Salvaged Axe",
+    "site": "0x3169a7"
+  },
+  {
+    "id": "0xeed8161f",
+    "label": "Minigun",
+    "site": "0x316aad"
+  },
+  {
+    "id": "0xf42fcb6b",
+    "label": "Assault Rifle",
+    "site": "0x316a9b"
+  },
+  {
+    "id": "0xf4a00203",
+    "label": "Molotov",
+    "site": "0x316a89"
+  },
+  {
+    "id": "0xfc0a3d6d",
+    "label": "SKS",
+    "site": "0x316a77"
+  },
+  {
+    "id": "0xfc343da8",
+    "label": "Semi-Rifle",
+    "site": "0x316a65"
+  },
+  {
+    "id": "0xfd68c31e",
+    "label": "Handmade SMG",
+    "site": "0x316a53"
+  },
+  {
+    "id": "0xfdd8471f",
+    "label": "M16",
+    "site": "0x316a41"
+  },
+  {
+    "id": "0xfe0ecefb",
+    "label": "Speargun",
+    "site": "0x316a2f"
+  },
+  {
+    "id": "0xfec0be04",
+    "label": "Mini Crossbow",
+    "site": "0x316a1d"
+  },
+  {
+    "id": "0xff196cba",
+    "label": "Nailgun",
+    "site": "0x316abf"
+  }
+]

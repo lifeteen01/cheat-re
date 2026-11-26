@@ -1,0 +1,29 @@
+{
+  "owned_files": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_analysis.cpp": "781515477234481a3f5d3b811dbcfd29fa63bcfb7c2a97410192843585d8a963",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_analysis.hpp": "0a537af40cfd6dc19fd6ceb2bd5208fbf89fe9ba4389e4bc600722254a9940d6",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_arguments.cpp": "812593a4e4d00a82c23581d664faebce6403274af4b212a046cb315bef40047a",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_bindings.cpp": "ba96bac597b71348904ce7faadda7a555509153e6f7674703815ae9020657595",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_checks.cpp": "4f204f7dae7dbbb5cfdf210a5ae2ac7bf07584d28cc22f5f3873b823342231ce",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_domains.cpp": "9a33b71bc68f34137de8c01cec073dd3abbe7210d61e7fe7034d083caf7db5e5",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_domains.hpp": "20cab947ba52c2ceb4ceb759fb7a8decfe1c8a729cddc9a4ca3c291728fd0ff9",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_internal.hpp": "1e8762ffa01682732da2cfa587f6f26d3a942584c3dd7b52e03ffe0fa4a34528",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_reconstruction.md": "cd40adbe1b27e625946b8fd90ec2f3cc6432d9a5d93dd4a7b5552c0fb156a6bc",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_runtime_wrappers_specs.inc": "e54829a53b3544394a91369ee36d8bc86eaf34e61a8c0daf1c2229f012b6806e"
+  },
+  "whole_roots": 21,
+  "native_bytes": 6225,
+  "conditional_branches": 55,
+  "direct_dependencies": 103,
+  "all_dependency_extents_exact": true,
+  "fixture_scenarios": 40,
+  "check_export": "rust_internal_re::check_game_runtime_wrappers_reconstruction()",
+  "same_strict_sanitizer_inputs": true,
+  "compiled_cpp_inputs": 10,
+  "recorded_input_files": 52,
+  "api_headers": [
+    "source/reconstructed/game_runtime_wrappers_analysis.hpp",
+    "source/reconstructed/game_runtime_wrappers_domains.hpp"
+  ],
+  "limitations": "Typed final game/Unity effects required; native pointer/high bytes remain explicitly unmaterialized, no executor/ABI invention."
+}

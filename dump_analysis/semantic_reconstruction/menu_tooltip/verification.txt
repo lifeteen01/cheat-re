@@ -1,0 +1,12 @@
+Compile menu_tooltip_analysis.cpp
+Compile menu_tooltip_checks.cpp
+Compile menu_controls_common.cpp
+Compile menu_controls_math.cpp
+Compile menu_controls_layout.cpp
+Compile menu_controls_button.cpp
+Compile menu_controls_input.cpp
+Compile menu_controls_navigation.cpp
+Compile renderer_helpers_font.cpp
+Compile font_text_controllers.cpp
+Compile menu_tooltip_main.cpp
+PASS GCC15 strict C++20 tooltip controller fixtures strict

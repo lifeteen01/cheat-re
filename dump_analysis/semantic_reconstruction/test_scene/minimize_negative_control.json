@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "failed_as_expected": true,
+  "exit_code": 1,
+  "reversion": "Only move menu.frame back after the zero-size early return; production source untouched",
+  "production_scene_sha256": "e414fd0c7a140c38e4d5348905fe21d893d37c711d6943819e66161a6291ee09",
+  "production_host_sha256": "06e213e8914ec4aeb9401f4d11794656b3f3ba7eb206a553bb10077f532955a7",
+  "fixture_sha256": "9a37d8bc2ae37ba2c670f284f0eb53dc97dd14fed94ae20a7b316db829763a0c",
+  "artifact_sha256": "95aac3c51d342b1b6d9a1f5c9bd20293ed0693ab91e3ac7d5aefc0ae974932e2",
+  "scope": "Owned authored fixture only"
+}

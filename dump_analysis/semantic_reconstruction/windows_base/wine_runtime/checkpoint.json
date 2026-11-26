@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "active_waves_integrated_sources.json": {
+      "passed": true,
+      "captured_source_count": 447,
+      "source_hashes_still_current": true
+    },
+    "active_waves_sanitizer_sources.json": {
+      "passed": true,
+      "captured_source_count": 447,
+      "source_hashes_still_current": true
+    },
+    "windows_base/build/verification.json": {
+      "passed": true,
+      "captured_source_count": 13,
+      "source_hashes_still_current": true
+    },
+    "windows_base/cmake_verification.json": {
+      "passed": true,
+      "captured_source_count": 18,
+      "source_hashes_still_current": true
+    },
+    "windows_base/native_checks/verification.json": {
+      "passed": true,
+      "captured_source_count": 10,
+      "source_hashes_still_current": true
+    },
+    "windows_base/wine_runtime/verification.json": {
+      "passed": true,
+      "captured_source_count": 14,
+      "source_hashes_still_current": true
+    }
+  },
+  "scope": "Compilation/offline fixtures and authored host under Wine; native Windows/game still unvalidated",
+  "goal_complete": false
+}

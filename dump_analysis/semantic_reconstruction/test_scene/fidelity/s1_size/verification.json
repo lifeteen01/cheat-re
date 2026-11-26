@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "frozen_sources": {
+    "source/reconstructed/world_esp_analysis.hpp": "cec2b6e08f65414dd3976b83c8caeee3dc54c11716a93a89d991d27b12e0419f",
+    "source/reconstructed/world_esp_player_labels.cpp": "6517114f69f1dd639853986786342826fe636ca7fb266c8a43bf99e78261c38e",
+    "source/reconstructed/renderer_helpers_world.cpp": "dc58998f976ddb4e0d51e3955acfb8e233b8a64431b0317a3098f4d58515ed9d",
+    "source/reconstructed/renderer_helpers_checks.cpp": "8817e9078fb69f2231a537b66e4bb3d0ba85f125c330c31ee91b7c3f9a4c1ef4",
+    "source/test_scene/esp.cpp": "34d7d53b4f6d811fa2c13fcb99b091f2402c7a7ba49e755aa98c2d02d65aee64",
+    "source/test_scene/semantic_checks.cpp": "a671e81b0b70608aab8df59d4320a9c19c6b8b1c629bdba236b59c0e6562af92",
+    "source/test_scene/esp_evidence.md": "417e5a2860785a248313840090538172eb10ed894f9b54624fff9a086d95e88f"
+  },
+  "sources_unchanged": true,
+  "translation_units": [
+    "source/test_scene/resources.cpp",
+    "source/test_scene/semantic_checks.cpp",
+    "source/reconstructed/world_esp_player_labels.cpp",
+    "source/reconstructed/world_esp_draw.cpp",
+    "source/reconstructed/world_esp_analysis.cpp",
+    "source/reconstructed/renderer_helpers_world.cpp",
+    "source/reconstructed/renderer_helpers_background.cpp",
+    "source/reconstructed/renderer_helpers_font.cpp",
+    "source/reconstructed/renderer_helpers_icons.cpp",
+    "source/reconstructed/renderer_helpers_widgets.cpp",
+    "source/reconstructed/font_frame_bindings.cpp",
+    "source/reconstructed/font_text_controllers.cpp",
+    "source/reconstructed/font_text_atlas.cpp",
+    "source/reconstructed/font_text_lookup.cpp",
+    "source/reconstructed/font_text_raster.cpp",
+    "source/reconstructed/drawlist_core_bindings.cpp",
+    "source/reconstructed/drawlist_core_commands.cpp",
+    "source/reconstructed/drawlist_core_channels.cpp",
+    "dump_analysis/semantic_reconstruction/test_scene/fidelity/s1_size_check_main.cpp"
+  ],
+  "syntax_sources": [
+    "source/test_scene/esp.cpp",
+    "source/reconstructed/renderer_helpers_checks.cpp",
+    "source/reconstructed/world_esp_extended_checks.cpp"
+  ],
+  "syntax_exit_code": 0,
+  "original_checks_before": [
+    {
+      "stage": "before",
+      "exit_code": 0,
+      "passed_entries": 135
+    }
+  ],
+  "original_check_after_exit": 0,
+  "original_check_after_passed_entries": 135,
+  "modes": {
+    "strict": {
+      "passed": true,
+      "runtime_exit_code": 0
+    },
+    "sanitizer": {
+      "passed": true,
+      "runtime_exit_code": 0
+    }
+  },
+  "scope": "Fresh isolated owned label/font/text composition; no sample execution; parent full-scene validation separate"
+}

@@ -1,0 +1,22 @@
+39b584	mov    QWORD PTR [rsp+0x8],rbx
+39b589	push   rdi
+39b58a	sub    rsp,0x20
+39b58e	mov    ebx,edx
+39b590	mov    edi,r8d
+39b593	mov    edx,ecx
+39b595	mov    rcx,QWORD PTR [rip+0x6a58c]        # 0x405b28
+39b59c	call   0x392798
+39b5a1	mov    edx,edi
+39b5a3	and    edx,0x80
+39b5a9	setne  cl
+39b5ac	mov    DWORD PTR [rax+0x4],ebx
+39b5af	and    edi,0x40
+39b5b2	mov    BYTE PTR [rax+0x9],cl
+39b5b5	or     edi,edx
+39b5b7	mov    DWORD PTR [rax],ebx
+39b5b9	mov    rbx,QWORD PTR [rsp+0x30]
+39b5be	setne  cl
+39b5c1	mov    BYTE PTR [rax+0x8],cl
+39b5c4	add    rsp,0x20
+39b5c8	pop    rdi
+39b5c9	ret

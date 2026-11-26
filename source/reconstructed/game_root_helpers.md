@@ -1,0 +1,21 @@
+# Local game-root dependencies
+
+[C] Three frequently used local helpers now have concrete copied-data implementations and aim/projectile/interaction/movement/launcher/frame binders and adapters for movement ticks, bone queries, instant-hit queries and raid controllers. Globals and game memory are separate supplied `Snapshot` objects, so their numeric keys need not occupy one fabricated contiguous allocation. No address is converted into an executable pointer.
+
+| Native range, exclusive end | Body |
+| --- | --- |
+| `2dda9c..2ddb0d` | Load captured flag bits, acquire GameAssembly before bit1 commit, cache GameAssembly+`5458c90`, commit bit2 before dispatcher read, optionally observe excluded setup, reload dispatcher, then concrete no-argument packaging through`2dda18` |
+| `2e069c..2e071c` | Materialize decoded empty namespace and`MainCamera`, run the existing class selector on every call, guard class and static-fields pointers, validate camera field`+38`, then reread that field for the masked return |
+| `2e0e4c..2e0e99` | GameAssembly-relative class cell`F069320`, guarded class`+B8`→static-fields`+20`→object`+20` raw byte |
+
+[C] The local-player flags differ from several metadata wrappers: bit2 is committed before a missing dispatcher can stop this helper. Both warm and cold paths still acquire the dispatcher immediately before packaging. The shared metadata argument adapter writes arity0 and gates the unknown native return-slot-pointer span; unknown context bytes remain unmaterialized. [U] The final matching GameAssembly effect and actual IL2CPP exports remain typed supplied effects. The context observer is detection evidence only, not a runnable setup/executor implementation.
+
+[C] The class name is independently XOR-decoded from`28d9e0`, copied by getter`2df87c`. Empty namespace getter`2cc730` contains the encrypted NUL byte`37`. The owned literal scratch area is explicit in `GameRootEnvironment`; inadequate scratch stops before metadata effects, retaining preceding scratch writes. [I] Stack/string allocation and raw literal-pointer aliasing are adapted to that owned storage. This helper does not introduce a class/camera cache absent from native code.
+
+[C] Focused fixtures verify cold/warm target/cache behavior, root failure order, observer-side root mutation, no-argument context writes, missing matching effects, exact decoded metadata arguments, repeated class lookup, invalid-versus-missing pointer chains, raw gate byte2, and all six generic domain adapters. Native bytes, branches and literal decoding are recorded in [the audit](../../dump_analysis/semantic_reconstruction/game_root_helpers/audit.json). Strict GCC15 C++20/Werror/`-ffp-contract=off` and nonrecovering ASan/UBSan checks are under [game_root_helpers](../../dump_analysis/semantic_reconstruction/game_root_helpers/).
+
+[I] `game_root_domain_bindings.hpp` supplies the older direct callback interfaces, including both direct and generic frame roots. The raid collection fixture consumes the concrete gate and checks that missing class-cell bytes propagate as `unreadable_snapshot` at `2e0e57` before clearing the event collection. Existing target/time/projection effects remain supplied to those adapters.
+
+[U] Matching game layout, export behavior, live calling conventions and initialized copied runtime objects are not supplied by these helpers. Finite metadata/scratch bounds are analyst safeguards. Unknown domain roles continue to their supplied fallback and fail explicitly when none exists. Domain consumers must compose these binders with existing field/composite helper binders; implementing these roots does not close every other local dependency or establish live game compatibility.
+
+[C] All eleven adapters and both actual raid-controller failure fixtures pass the combined 347-input [strict](../../dump_analysis/semantic_reconstruction/roots_domain_integrated_sources.json) and [ASan/UBSan](../../dump_analysis/semantic_reconstruction/roots_domain_sanitizer_sources.json) checkpoint. Both modes captured the same unchanged source set. [C] The independent fresh-byte root review and added-adapter probe found no concrete mismatch; see [review](../../dump_analysis/semantic_reconstruction/review_dependency_closure/report.md). [U] Broader reconstruction and the active input/editor waves remain open.

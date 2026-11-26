@@ -1,0 +1,11 @@
+Catchpoint 1 (throw)
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Catchpoint 1 (exception thrown), 0x00007ffff7cc38ca in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#0  0x00007ffff7cc38ca in __cxa_throw () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#1  0x00005555555db3e1 in owned_scene::Resources::select_lists (this=this@entry=0x7fffffffbbc0, keys=std::vector of length 2, capacity 2 = {...}) at /home/john/Desktop/cheat_re/source/test_scene/resources.cpp:256
+#2  0x00005555555d92ce in (anonymous namespace)::check_presentation_selection () at /home/john/Desktop/cheat_re/source/test_scene/resource_checks.cpp:62
+#3  owned_scene::check_resources () at /home/john/Desktop/cheat_re/source/test_scene/resource_checks.cpp:83
+#4  0x000055555559ca5f in owned_scene::(anonymous namespace)::run_checks (host=..., output=filesystem::path "dump_analysis/semantic_reconstruction/test_scene/strict/runtime" = {...}) at /home/john/Desktop/cheat_re/source/test_scene/host.cpp:206
+#5  main (count=6, arguments=0x7fffffffd608) at /home/john/Desktop/cheat_re/source/test_scene/host.cpp:688

@@ -1,0 +1,116 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x3a3e10",
+      "end_exclusive": "0x3a3e64",
+      "instructions": 18,
+      "bytes": 84,
+      "sha256": "7774ae7db7eb8063fbb08f2edc48d446aee2e8511987a90faf6e130bf970da9e"
+    },
+    {
+      "begin": "0x3a3e64",
+      "end_exclusive": "0x3a3ea3",
+      "instructions": 17,
+      "bytes": 63,
+      "sha256": "c509172b5c555dde5df25bec98fe778b10b26e8c663519bed1e869c9dd025b7f"
+    },
+    {
+      "begin": "0x379578",
+      "end_exclusive": "0x3795a4",
+      "instructions": 12,
+      "bytes": 44,
+      "sha256": "7d1a064666b8b5234467cf6e719c4dc7677b83292d51b19a41f62f5463b45ac0"
+    },
+    {
+      "begin": "0x3a5950",
+      "end_exclusive": "0x3a59bc",
+      "instructions": 29,
+      "bytes": 108,
+      "sha256": "d35c2ef79ca82b945b6010c0c718f2db66169332edaf6cc50e5769dfa8e2eee4"
+    },
+    {
+      "begin": "0x3a4d18",
+      "end_exclusive": "0x3a4d50",
+      "instructions": 15,
+      "bytes": 56,
+      "sha256": "1e4406188a1dd94c1d57452e7c86068e6f412f45f3081f498db8ad5d93f83024"
+    },
+    {
+      "begin": "0x3a4d50",
+      "end_exclusive": "0x3a4dae",
+      "instructions": 30,
+      "bytes": 94,
+      "sha256": "ea77c8efc2c2c0763f2fbe62f0a398ced810719210ef0fc75439cd77c85de0fb"
+    }
+  ],
+  "branches": [
+    [
+      "0x3a3e74",
+      "je     0x3a3e7b"
+    ],
+    [
+      "0x3a3e82",
+      "je     0x3a3e89"
+    ],
+    [
+      "0x379588",
+      "je     0x37959e"
+    ],
+    [
+      "0x3a5975",
+      "jne    0x3a59a3"
+    ],
+    [
+      "0x3a4d4d",
+      "jb     0x3a4d21"
+    ],
+    [
+      "0x3a4d7a",
+      "jle    0x3a4da8"
+    ],
+    [
+      "0x3a4d88",
+      "jle    0x3a4d9d"
+    ],
+    [
+      "0x3a4d9b",
+      "jg     0x3a4d8a"
+    ],
+    [
+      "0x3a4da6",
+      "jg     0x3a4d82"
+    ]
+  ],
+  "calls": [
+    [
+      "0x3a3e25",
+      "call   0x379578"
+    ],
+    [
+      "0x3a3e2d",
+      "call   0x379578"
+    ],
+    [
+      "0x3a3e36",
+      "call   0x379578"
+    ],
+    [
+      "0x3a3e76",
+      "call   0x39517c"
+    ],
+    [
+      "0x3a3e84",
+      "call   0x39517c"
+    ],
+    [
+      "0x379591",
+      "call   0x39517c"
+    ],
+    [
+      "0x3a597a",
+      "call   0x3a3e10"
+    ]
+  ],
+  "limits": "Byte provenance, boundary and branch inventory only. Unknown stack/return bytes unmaterialized; context/executor execution excluded. Default atlas builder3a59bc remains local closure."
+}

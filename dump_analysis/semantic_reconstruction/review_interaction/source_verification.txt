@@ -1,0 +1,3 @@
+Compile interaction_workers.cpp
+Compile interaction_workers_checks.cpp
+PASS GCC15 strict C++20 independent interaction review fixtures strict

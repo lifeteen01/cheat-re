@@ -1,0 +1,4 @@
+392dc4	mov    eax,DWORD PTR [rcx+0x8]
+392dc7	add    rax,rdx
+392dca	ret
+392dcb	int3

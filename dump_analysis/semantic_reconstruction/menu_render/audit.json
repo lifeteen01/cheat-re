@@ -1,0 +1,150 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x3a7400",
+      "end_exclusive": "0x3a761f",
+      "instructions": 127,
+      "bytes": 543,
+      "sha256": "90a3d640791038be776714dda162011120972cfa3dfad236b99a7582ebd72268"
+    },
+    {
+      "begin": "0x2d4870",
+      "end_exclusive": "0x2d487b",
+      "instructions": 3,
+      "bytes": 11,
+      "sha256": "06333eef75398cc88d83d7f31df4f01d89cb3307fea68609abcfd715c96c083d"
+    },
+    {
+      "begin": "0x2ef9d8",
+      "end_exclusive": "0x2efa03",
+      "instructions": 12,
+      "bytes": 43,
+      "sha256": "1a6c190dc6854e81d2ba1fa0023395ac08202b6cee95a8c079c29ae8e7b18010"
+    },
+    {
+      "begin": "0x38bc08",
+      "end_exclusive": "0x38bc2b",
+      "instructions": 11,
+      "bytes": 35,
+      "sha256": "4fff656cc106a4bc04d6695e0fb5731de889318784fbe6e82fe5dff5e4062f9c"
+    }
+  ],
+  "branches": [
+    [
+      "0x3a748b",
+      "je     0x3a751e"
+    ],
+    [
+      "0x3a7494",
+      "je     0x3a751a"
+    ],
+    [
+      "0x3a749d",
+      "je     0x3a74a8"
+    ],
+    [
+      "0x3a74a2",
+      "jne    0x3a75b3"
+    ],
+    [
+      "0x3a74ab",
+      "jne    0x3a74b4"
+    ],
+    [
+      "0x3a7518",
+      "jmp    0x3a7589"
+    ],
+    [
+      "0x3a751c",
+      "jne    0x3a7525"
+    ]
+  ],
+  "calls": [
+    [
+      "0x3a7457",
+      "call   0x2cc340"
+    ],
+    [
+      "0x3a7467",
+      "call   0x2ef9d8"
+    ],
+    [
+      "0x3a7470",
+      "call   0x2d4870"
+    ],
+    [
+      "0x3a7479",
+      "call   0x2d4870"
+    ],
+    [
+      "0x3a7482",
+      "call   0x2d4870"
+    ],
+    [
+      "0x3a74c3",
+      "call   0x2cc340"
+    ],
+    [
+      "0x3a74d2",
+      "call   0x38bc08"
+    ],
+    [
+      "0x3a74f4",
+      "call   0x2cc340"
+    ],
+    [
+      "0x3a7503",
+      "call   0x38bc08"
+    ],
+    [
+      "0x3a7534",
+      "call   0x2cc340"
+    ],
+    [
+      "0x3a7543",
+      "call   0x38bc08"
+    ],
+    [
+      "0x3a7565",
+      "call   0x2cc340"
+    ],
+    [
+      "0x3a7574",
+      "call   0x38bc08"
+    ],
+    [
+      "0x3a7596",
+      "call   0x2cc340"
+    ],
+    [
+      "0x3a75a5",
+      "call   0x38bc08"
+    ],
+    [
+      "0x3a75bf",
+      "call   0x2ef9d8"
+    ],
+    [
+      "0x3a75d3",
+      "call   0x2ef9d8"
+    ],
+    [
+      "0x3a75e7",
+      "call   0x2ef9d8"
+    ],
+    [
+      "0x3a75fd",
+      "call   0x3a3338"
+    ],
+    [
+      "0x2ef9f5",
+      "call   0x2cc340"
+    ],
+    [
+      "0x38bc1d",
+      "call   0x2cc340"
+    ]
+  ],
+  "limits": "Byte provenance, boundary and branch inventory only. Unknown stack/return bytes unmaterialized; context/executor execution excluded. Default atlas builder3a59bc remains local closure."
+}

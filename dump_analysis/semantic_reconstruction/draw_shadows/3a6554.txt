@@ -1,0 +1,14 @@
+3a6554 sub    rsp,0x28
+3a6558 movss  xmm0,DWORD PTR [rcx]
+3a655c movaps xmm2,xmm1
+3a655f movss  xmm1,DWORD PTR [rcx+0x4]
+3a6564 mulss  xmm1,xmm1
+3a6568 mulss  xmm0,xmm0
+3a656c addss  xmm0,xmm1
+3a6570 comiss xmm0,DWORD PTR [rip+0xffffffffffee6cd5]        # 0x28d24c
+3a6577 jbe    0x3a6581
+3a6579 call   0x3c8f34
+3a657e movaps xmm2,xmm0
+3a6581 movaps xmm0,xmm2
+3a6584 add    rsp,0x28
+3a6588 ret

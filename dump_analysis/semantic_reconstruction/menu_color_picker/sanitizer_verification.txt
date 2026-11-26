@@ -1,0 +1,8 @@
+Compile menu_color_picker_analysis.cpp
+Compile menu_color_picker_math.cpp
+Compile menu_color_picker_logging.cpp
+Compile menu_color_picker_components.cpp
+Compile menu_color_picker_geometry.cpp
+Compile menu_color_picker_checks.cpp
+Compile menu_color_picker_main.cpp
+PASS GCC15 strict C++20 color picker controller fixtures sanitize

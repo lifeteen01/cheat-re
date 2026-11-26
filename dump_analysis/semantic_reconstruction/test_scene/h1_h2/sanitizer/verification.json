@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "mode": "sanitizer",
+  "sources": {
+    "source/test_scene/frame.cpp": "b96a123a0fca25a1c0b907d05a66e54e6182bf11d3a4b06524951d879d093b38",
+    "source/test_scene/frame_checks.cpp": "9984226f8770b3253196c435bde30b598f2403d70aa3fa1822b195205674afc6",
+    "source/test_scene/owned_client.cpp": "745f5f2ef81a364a7144b3756d368632593efdae4538e24ef0c3a49898eca8c5",
+    "source/test_scene/resources.cpp": "d6ca375a54a6d0dd050dd5f5b14769374dcfc0b0ac1e3daced7ba773ebdea5d7",
+    "source/reconstructed/01_hooks.cpp": "907591ccbabe9b1ce4d26e3519c39e4402ae920b41026f65cefade58dc614d34",
+    "source/reconstructed/hook_setup_analysis.cpp": "82d4107c12d921dbcb61ffc5606cab98a6a8c349ea6accab8b07f0bcd98e7dcb",
+    "source/test_scene/frame.hpp": "cb231c2bdae632eca8708ba2d394275242de8d31a6676d25b9a12deb17691782",
+    "source/test_scene/owned_client.hpp": "f3ec4b95e679b35e970108fa63b6219dbc16009f511fc775c9056ca0e0dce1df",
+    "source/test_scene/scene.hpp": "c8af34585f39375ce3896a2c01dc4f3ed90138ca3278dba59c5d9b15397277d0"
+  },
+  "original_manifest_entries": 135,
+  "originals_unchanged": true,
+  "archive_sha256": "a8e8855fe0da87fa2058753b6b258e9096168884dae9a0c42653906177a8390c",
+  "executable_sha256": "38863b5d8e980c221a1d5a8be4ce3a6c026068b4150bb4c07510bd4933d724aa",
+  "compiler_sha256": "e6718f7e0c7d057c3ff77b550c603da9bc4030e3ede3c053705acce1293dbe4d",
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15/",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15/",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed",
+    "-I/home/john/Desktop/cheat_re/source/test_scene",
+    "-fsanitize=address,undefined",
+    "-static-libasan",
+    "-static-libubsan",
+    "-fno-sanitize-recover=all",
+    "-fno-omit-frame-pointer"
+  ]
+}

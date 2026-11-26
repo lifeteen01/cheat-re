@@ -1,0 +1,26 @@
+39f3d0 rex push rbx
+39f3d2 sub    rsp,0x20
+39f3d6 mov    rbx,rcx
+39f3d9 call   0x2db3a0
+39f3de lea    rcx,[rbx+0x18]
+39f3e2 call   0x2db3a0
+39f3e7 lea    rcx,[rbx+0x28]
+39f3eb call   0x2db3a0
+39f3f0 xor    ecx,ecx
+39f3f2 mov    DWORD PTR [rbx+0x52],0xffffffff
+39f3f9 xor    eax,eax
+39f3fb mov    QWORD PTR [rbx+0x10],rcx
+39f3ff mov    QWORD PTR [rbx+0x58],rcx
+39f403 mov    WORD PTR [rbx+0x56],cx
+39f407 mov    QWORD PTR [rbx+0x38],rcx
+39f40b mov    QWORD PTR [rbx+0x40],rcx
+39f40f mov    QWORD PTR [rbx+0x48],rcx
+39f413 mov    WORD PTR [rbx+0x50],cx
+39f417 mov    BYTE PTR [rbx+0x60],cl
+39f41a mov    QWORD PTR [rbx+0x64],0x3f800000
+39f422 mov    QWORD PTR [rbx+0x6c],rcx
+39f426 mov    WORD PTR [rbx+0x74],ax
+39f42a mov    rax,rbx
+39f42d add    rsp,0x20
+39f431 pop    rbx
+39f432 ret

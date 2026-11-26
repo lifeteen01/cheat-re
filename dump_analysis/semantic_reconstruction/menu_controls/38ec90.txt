@@ -1,0 +1,58 @@
+38ec90	mov    QWORD PTR [rsp+0x10],rbx
+38ec95	mov    QWORD PTR [rsp+0x18],rsi
+38ec9a	push   rdi
+38ec9b	sub    rsp,0x20
+38ec9f	mov    rsi,QWORD PTR [rip+0x76e82]        # 0x405b28
+38eca6	mov    rdi,QWORD PTR [rsi+0x3f08]
+38ecad	lea    rbx,[rsi+0x48a0]
+38ecb4	mov    edx,DWORD PTR [rbx]
+38ecb6	mov    rcx,rbx
+38ecb9	inc    edx
+38ecbb	call   0x37adf4
+38ecc0	mov    rcx,rbx
+38ecc3	call   0x39e348
+38ecc8	mov    ecx,DWORD PTR [rdi+0x10]
+38eccb	mov    rdx,rax
+38ecce	xorps  xmm2,xmm2
+38ecd1	mov    DWORD PTR [rax],ecx
+38ecd3	lea    rcx,[rsp+0x30]
+38ecd8	movsd  xmm0,QWORD PTR [rdi+0x100]
+38ece0	movsd  QWORD PTR [rax+0x4],xmm0
+38ece5	movsd  xmm1,QWORD PTR [rdi+0x118]
+38eced	movsd  QWORD PTR [rax+0xc],xmm1
+38ecf2	movss  xmm0,DWORD PTR [rdi+0x144]
+38ecfa	movss  DWORD PTR [rax+0x14],xmm0
+38ecff	movss  xmm1,DWORD PTR [rdi+0x14c]
+38ed07	movss  DWORD PTR [rax+0x18],xmm1
+38ed0c	movsd  xmm0,QWORD PTR [rdi+0x128]
+38ed14	movsd  QWORD PTR [rax+0x1c],xmm0
+38ed19	mov    eax,DWORD PTR [rdi+0x138]
+38ed1f	mov    DWORD PTR [rdx+0x24],eax
+38ed22	mov    eax,DWORD PTR [rsi+0x3f6c]
+38ed28	mov    DWORD PTR [rdx+0x28],eax
+38ed2b	cmp    DWORD PTR [rsi+0x3f54],0x0
+38ed32	setne  al
+38ed35	mov    BYTE PTR [rdx+0x2d],al
+38ed38	mov    al,BYTE PTR [rsi+0x3f9c]
+38ed3e	mov    BYTE PTR [rdx+0x2c],al
+38ed41	mov    BYTE PTR [rdx+0x2e],0x1
+38ed45	movss  xmm0,DWORD PTR [rdi+0x100]
+38ed4d	subss  xmm0,DWORD PTR [rdi+0x20]
+38ed52	movsd  xmm1,QWORD PTR [rdi+0x100]
+38ed5a	movsd  QWORD PTR [rdi+0x118],xmm1
+38ed62	xorps  xmm1,xmm1
+38ed65	subss  xmm0,DWORD PTR [rdi+0x148]
+38ed6d	movss  DWORD PTR [rdi+0x14c],xmm0
+38ed75	movss  xmm0,DWORD PTR [rdi+0x14c]
+38ed7d	movss  DWORD PTR [rdi+0x144],xmm0
+38ed85	call   0x2cc340
+38ed8a	movsd  xmm0,QWORD PTR [rax]
+38ed8e	movsd  QWORD PTR [rdi+0x128],xmm0
+38ed96	cmp    BYTE PTR [rsi+0x5c90],0x0
+38ed9d	je     0x38eda9
+38ed9f	mov    DWORD PTR [rsi+0x5cc0],0xff7fffff
+38eda9	mov    rbx,QWORD PTR [rsp+0x38]
+38edae	mov    rsi,QWORD PTR [rsp+0x40]
+38edb3	add    rsp,0x20
+38edb7	pop    rdi
+38edb8	ret

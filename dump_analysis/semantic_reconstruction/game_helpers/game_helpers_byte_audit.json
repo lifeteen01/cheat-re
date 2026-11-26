@@ -1,0 +1,263 @@
+{
+  "sample_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "checks": [
+    "368ab3: GameAssembly offset",
+    "37157b: GameAssembly offset",
+    "368b3f: GameAssembly offset",
+    "3692c7: GameAssembly offset",
+    "372783: GameAssembly offset",
+    "369c57: GameAssembly offset",
+    "3739f2: GameAssembly offset",
+    "373aa3: GameAssembly offset",
+    "32b341: GameAssembly offset",
+    "369353: GameAssembly offset",
+    "368a8d: direct branch opcode",
+    "368a8d -> 2caf08",
+    "368aef: direct branch opcode",
+    "368aef -> 2cbd24",
+    "368b0a: direct branch opcode",
+    "368b0a -> 2cb9fc",
+    "371555: direct branch opcode",
+    "371555 -> 2caf08",
+    "3715b7: direct branch opcode",
+    "3715b7 -> 2cbd24",
+    "3715d2: direct branch opcode",
+    "3715d2 -> 2cb9fc",
+    "36b94d: direct branch opcode",
+    "36b94d -> 36c3b4",
+    "36b983: direct branch opcode",
+    "36b983 -> 32210c",
+    "36b98e: direct branch opcode",
+    "36b98e -> 3703ec",
+    "371645: direct branch opcode",
+    "371645 -> 37154c",
+    "37166b: direct branch opcode",
+    "37166b -> 32210c",
+    "371676: direct branch opcode",
+    "371676 -> 3703ec",
+    "372aef: direct branch opcode",
+    "372aef -> 372754",
+    "372b15: direct branch opcode",
+    "372b15 -> 320584",
+    "372b20: direct branch opcode",
+    "372b20 -> 370638",
+    "372b63: direct branch opcode",
+    "372b63 -> 372754",
+    "372b89: direct branch opcode",
+    "372b89 -> 332284",
+    "372b94: direct branch opcode",
+    "372b94 -> 370638",
+    "36812b: direct branch opcode",
+    "36812b -> 36920c",
+    "368167: direct branch opcode",
+    "368167 -> 2ef834",
+    "369185: direct branch opcode",
+    "369185 -> 36924c",
+    "36918c: direct branch opcode",
+    "36918c -> 369298",
+    "3691a6: direct branch opcode",
+    "3691a6 -> 373a68",
+    "36923e: direct branch opcode",
+    "36923e -> 3739c4",
+    "369cb8: direct branch opcode",
+    "369cb8 -> 2d2094",
+    "36b25d: direct branch opcode",
+    "36b25d -> 320714",
+    "36b277: direct branch opcode",
+    "36b277 -> 367898",
+    "3678b4: direct branch opcode",
+    "3678b4 -> 367684",
+    "369451: direct branch opcode",
+    "369451 -> 368b10",
+    "36947e: direct branch opcode",
+    "36947e -> 2e5a54",
+    "369499: direct branch opcode",
+    "369499 -> 2d6354",
+    "32b314: direct branch opcode",
+    "32b314 -> 32b2b4",
+    "32b396: direct branch opcode",
+    "32b396 -> 32b1c8",
+    "3703fb: direct branch opcode",
+    "3703fb -> 370aa4",
+    "37040c: direct branch opcode",
+    "37040c -> 370884",
+    "3704a0: direct branch opcode",
+    "3704a0 -> 33416c",
+    "370647: direct branch opcode",
+    "370647 -> 370aa4",
+    "370658: direct branch opcode",
+    "370658 -> 370884",
+    "3706ec: direct branch opcode",
+    "3706ec -> 33416c",
+    "370ac0: direct branch opcode",
+    "370ac0 -> 2cc164",
+    "370908: direct branch opcode",
+    "370908 -> 33416c",
+    "2f9958: direct branch opcode",
+    "2f9958 -> 2f8540",
+    "2f9964: direct branch opcode",
+    "2f9964 -> 315bd0",
+    "36932d: direct branch opcode",
+    "36932d -> 2caf08",
+    "36938f: direct branch opcode",
+    "36938f -> 2cbd24",
+    "3693aa: direct branch opcode",
+    "3693aa -> 2cb9fc",
+    "372253: direct branch opcode",
+    "372253 -> 2caf08",
+    "372263: direct branch opcode",
+    "372263 -> 2caf08",
+    "3722fa: direct branch opcode",
+    "3722fa -> 2caf08",
+    "37230a: direct branch opcode",
+    "37230a -> 2caf08",
+    "37231a: direct branch opcode",
+    "37231a -> 2caf08",
+    "371c57: direct branch opcode",
+    "371c57 -> 3715d8",
+    "371d11: direct branch opcode",
+    "371d11 -> 334224",
+    "371d28: direct branch opcode",
+    "371d28 -> 3349ac",
+    "371d64: direct branch opcode",
+    "371d64 -> 2cbd24",
+    "371d7a: direct branch opcode",
+    "371d7a -> 2cb9fc",
+    "inventory count raw32 +18",
+    "indexed item LEA zeroextends 32bit wrapping multiply",
+    "indexed item array +20 read without bounds branch",
+    "item icon Sprite pointer +50",
+    "texture pointer numerically gated before return",
+    "origin +18/+20 copy",
+    "motion +30/+38 copy",
+    "quaternion invalid branch skips all stores",
+    "eye rotation invalid path has no output constructor",
+    "visibility loads byte, not bool float",
+    "map empty count +10 after header+8",
+    "missing visibility key constructed with byte0",
+    "entity ID passed through r9d",
+    "scalar return literal 28e1e0",
+    "scalar return literal 2931d4",
+    "scalar return literal 28db2c",
+    "qualified type literal 2a8710",
+    "qualified type literal 2a8bf0",
+    "qualified type literal 2a8c50",
+    "qualified type literal 2a8c70",
+    "3702f4 GetType literal",
+    "all recorded excerpt bytes",
+    "objdump decoded full range 368a84..368b10",
+    "objdump decoded full range 37154c..371686",
+    "objdump decoded full range 36b938..36b99d",
+    "objdump decoded full range 372abc..372ba3",
+    "objdump decoded full range 369324..3693af",
+    "objdump decoded full range 37224c..372278",
+    "objdump decoded full range 3722f0..372339",
+    "objdump decoded full range 371c38..371da3",
+    "objdump decoded full range 368100..36817a",
+    "objdump decoded full range 369164..369323",
+    "objdump decoded full range 369c1c..369cdc",
+    "objdump decoded full range 368b9c..368be6",
+    "objdump decoded full range 36b244..36b288",
+    "objdump decoded full range 36942c..3696e1",
+    "objdump decoded full range 32b2b4..32b3a6",
+    "objdump decoded full range 3703ec..370508",
+    "objdump decoded full range 370638..370754",
+    "objdump decoded full range 370884..370966",
+    "objdump decoded full range 370aa4..370b1c",
+    "objdump decoded full range 3739c4..373b28",
+    "objdump decoded full range 2ef834..2ef9d7",
+    "objdump decoded full range 367684..3677ba"
+  ],
+  "excerpt_lines_verified": 1866,
+  "raw_ranges": [
+    [
+      "0x368a84",
+      "0x368b10"
+    ],
+    [
+      "0x37154c",
+      "0x371686"
+    ],
+    [
+      "0x36b938",
+      "0x36b99d"
+    ],
+    [
+      "0x372abc",
+      "0x372ba3"
+    ],
+    [
+      "0x369324",
+      "0x3693af"
+    ],
+    [
+      "0x37224c",
+      "0x372278"
+    ],
+    [
+      "0x3722f0",
+      "0x372339"
+    ],
+    [
+      "0x371c38",
+      "0x371da3"
+    ],
+    [
+      "0x368100",
+      "0x36817a"
+    ],
+    [
+      "0x369164",
+      "0x369323"
+    ],
+    [
+      "0x369c1c",
+      "0x369cdc"
+    ],
+    [
+      "0x368b9c",
+      "0x368be6"
+    ],
+    [
+      "0x36b244",
+      "0x36b288"
+    ],
+    [
+      "0x36942c",
+      "0x3696e1"
+    ],
+    [
+      "0x32b2b4",
+      "0x32b3a6"
+    ],
+    [
+      "0x3703ec",
+      "0x370508"
+    ],
+    [
+      "0x370638",
+      "0x370754"
+    ],
+    [
+      "0x370884",
+      "0x370966"
+    ],
+    [
+      "0x370aa4",
+      "0x370b1c"
+    ],
+    [
+      "0x3739c4",
+      "0x373b28"
+    ],
+    [
+      "0x2ef834",
+      "0x2ef9d7"
+    ],
+    [
+      "0x367684",
+      "0x3677ba"
+    ]
+  ],
+  "limits": "Byte/call/branch/literal provenance audit, not proof of live game equivalence or complete foreign effects."
+}

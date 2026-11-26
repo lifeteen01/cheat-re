@@ -1,0 +1,7 @@
+3789fc	movaps xmm1,xmm0
+3789ff	xorps  xmm0,xmm0
+378a02	comiss xmm0,xmm1
+378a05	ja     0x378a13
+378a07	movss  xmm0,DWORD PTR [rip+0xfffffffffff14845]        # 0x28d254
+378a0f	minss  xmm0,xmm1
+378a13	ret

@@ -1,0 +1,30 @@
+3b74d4	movaps xmm0,xmm14
+3b74d8	xorps  xmm11,xmm13
+3b74dc	call   0x2e372c
+3b74e1	divss  xmm11,xmm0
+3b74e6	movaps xmm1,xmm11
+3b74ea	movaps xmm0,xmm11
+3b74ee	subss  xmm1,DWORD PTR [rsp+0x110]
+3b74f7	addss  xmm0,DWORD PTR [rsp+0x110]
+3b7500	comiss xmm8,xmm1
+3b7504	jb     0x3b7513
+3b7506	comiss xmm0,xmm8
+3b750a	jb     0x3b7513
+3b750c	xor    eax,eax
+3b750e	jmp    0x3b7608
+3b7513	comiss xmm11,xmm8
+3b7517	jbe    0x3b753f
+3b7519	divss  xmm8,xmm1
+3b751e	xorps  xmm7,xmm13
+3b7522	divss  xmm7,xmm10
+3b7527	subss  xmm9,xmm8
+3b752c	movaps xmm0,xmm7
+3b752f	movaps xmm1,xmm9
+3b7533	call   0x3a658c
+3b7538	mulss  xmm0,xmm10
+3b753d	jmp    0x3b75a9
+3b753f	subss  xmm8,xmm0
+3b7544	subss  xmm9,xmm0
+3b7549	divss  xmm6,xmm10
+3b754e	divss  xmm8,xmm9
+3b7553	movaps xmm0,xmm6

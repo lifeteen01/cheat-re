@@ -1,0 +1,49 @@
+{
+  "latest_user_objective": "DLL menu and one-file offsets",
+  "latest_user_objective_status": "complete within the declared native menu/profile owned-host scope",
+  "acceptance": "dump_analysis/semantic_reconstruction/menu_offsets/acceptance.json",
+  "legacy_goal_status": "blocked/incomplete",
+  "checks": {
+    "menu_offsets_integrated_sources.json": {
+      "passed": true,
+      "captured_inputs": 455,
+      "unchanged_and_current": true
+    },
+    "menu_offsets_sanitizer_sources.json": {
+      "passed": true,
+      "captured_inputs": 455,
+      "unchanged_and_current": true
+    },
+    "windows_base/build/verification.json": {
+      "passed": true,
+      "captured_inputs": 34,
+      "unchanged_and_current": true
+    },
+    "windows_base/cmake_verification.json": {
+      "passed": true,
+      "captured_inputs": 40,
+      "unchanged_and_current": true
+    },
+    "windows_base/native_checks/verification.json": {
+      "passed": true,
+      "captured_inputs": 29,
+      "unchanged_and_current": true
+    },
+    "windows_base/wine_runtime/verification.json": {
+      "passed": true,
+      "captured_inputs": 35,
+      "unchanged_and_current": true
+    }
+  },
+  "milestones": {
+    "dll_compiles_links": true,
+    "menu_and_profile_work_in_wine_owned_host": true,
+    "native_windows_validated": false,
+    "current_game_offsets_verified": false,
+    "in_game_validated": false
+  },
+  "preserved_input_hashes_passed": 135,
+  "source_deliverable_checksums_passed": 561,
+  "no_sample_execution": true,
+  "no_mock_game_success_used": true
+}

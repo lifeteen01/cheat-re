@@ -1,0 +1,4 @@
+binder rect stopped site=3a2010 vertices=0 indices=0
+byte-reached rect path needs no shape fields: vertices=36 indices=54
+binder explicit5 circle stopped site=3a143b path=0
+byte-reached explicit5 circle needs no shape fields: vertices=40 indices=54 path=0

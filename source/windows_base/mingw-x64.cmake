@@ -1,0 +1,15 @@
+set(CMAKE_SYSTEM_NAME Windows)
+set(CMAKE_SYSTEM_PROCESSOR AMD64)
+if(NOT RE_MINGW_ROOT)
+    get_filename_component(RE_MINGW_ROOT
+        "${CMAKE_CURRENT_LIST_DIR}/../../dump_analysis/semantic_reconstruction/windows_base/toolchain"
+        ABSOLUTE)
+endif()
+set(CMAKE_CXX_COMPILER "${RE_MINGW_ROOT}/usr/bin/x86_64-w64-mingw32-g++-posix")
+set(CMAKE_RC_COMPILER "${RE_MINGW_ROOT}/usr/bin/x86_64-w64-mingw32-windres")
+set(CMAKE_CXX_FLAGS_INIT "-B${RE_MINGW_ROOT}/usr/bin/")
+set(CMAKE_FIND_ROOT_PATH "${RE_MINGW_ROOT}/usr/x86_64-w64-mingw32")
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)

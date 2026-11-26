@@ -1,0 +1,24 @@
+2df29c rex push rbx
+2df29e push   rbp
+2df29f push   rsi
+2df2a0 push   rdi
+2df2a1 sub    rsp,0x28
+2df2a5 mov    rsi,r8
+2df2a8 mov    rbx,rdx
+2df2ab mov    rbp,rcx
+2df2ae call   0x3c7bbc
+2df2b3 lea    rcx,[rbp+0xc]
+2df2b7 call   0x3c7bbc
+2df2bc mov    eax,DWORD PTR [rbx+0x8]
+2df2bf movsd  xmm0,QWORD PTR [rbx]
+2df2c3 movsd  QWORD PTR [rbp+0x0],xmm0
+2df2c8 movsd  xmm0,QWORD PTR [rsi]
+2df2cc mov    DWORD PTR [rbp+0x8],eax
+2df2cf mov    eax,DWORD PTR [rsi+0x8]
+2df2d2 movsd  QWORD PTR [rbp+0xc],xmm0
+2df2d7 mov    DWORD PTR [rbp+0x14],eax
+2df2da mov    rax,rbp
+2df2dd add    rsp,0x28
+2df2e1 pop    rdi
+2df2e2 pop    rsi
+2df2e3 pop    rbp

@@ -1,0 +1,39 @@
+3a9480 mov    QWORD PTR [rsp+0x8],rbx
+3a9485 push   rdi
+3a9486 sub    rsp,0x20
+3a948a mov    rdi,rdx
+3a948d mov    rbx,rcx
+3a9490 mov    edx,DWORD PTR [rcx]
+3a9492 cmp    edx,DWORD PTR [rcx+0x4]
+3a9495 jne    0x3a94a8
+3a9497 inc    edx
+3a9499 call   0x362efc
+3a949e mov    edx,eax
+3a94a0 mov    rcx,rbx
+3a94a3 call   0x3a95bc
+3a94a8 movsxd rax,DWORD PTR [rbx]
+3a94ab movups xmm0,XMMWORD PTR [rdi]
+3a94ae mov    rcx,QWORD PTR [rbx+0x8]
+3a94b2 imul   rdx,rax,0x88
+3a94b9 movups XMMWORD PTR [rdx+rcx*1],xmm0
+3a94bd movups xmm1,XMMWORD PTR [rdi+0x10]
+3a94c1 movups XMMWORD PTR [rdx+rcx*1+0x10],xmm1
+3a94c6 movups xmm0,XMMWORD PTR [rdi+0x20]
+3a94ca movups XMMWORD PTR [rdx+rcx*1+0x20],xmm0
+3a94cf movups xmm1,XMMWORD PTR [rdi+0x30]
+3a94d3 movups XMMWORD PTR [rdx+rcx*1+0x30],xmm1
+3a94d8 movups xmm0,XMMWORD PTR [rdi+0x40]
+3a94dc movups XMMWORD PTR [rdx+rcx*1+0x40],xmm0
+3a94e1 movups xmm1,XMMWORD PTR [rdi+0x50]
+3a94e5 movups XMMWORD PTR [rdx+rcx*1+0x50],xmm1
+3a94ea movups xmm0,XMMWORD PTR [rdi+0x60]
+3a94ee movups XMMWORD PTR [rdx+rcx*1+0x60],xmm0
+3a94f3 movups xmm1,XMMWORD PTR [rdi+0x70]
+3a94f7 movups XMMWORD PTR [rdx+rcx*1+0x70],xmm1
+3a94fc mov    rax,QWORD PTR [rdi+0x80]
+3a9503 mov    QWORD PTR [rdx+rcx*1+0x80],rax
+3a950b inc    DWORD PTR [rbx]
+3a950d mov    rbx,QWORD PTR [rsp+0x30]
+3a9512 add    rsp,0x20
+3a9516 pop    rdi
+3a9517 ret

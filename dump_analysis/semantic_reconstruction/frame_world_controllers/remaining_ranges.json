@@ -1,0 +1,247 @@
+{
+  "scope": "relevant residuals of six frame/world controllers; callbacks are required, never successful defaults",
+  "new_controller_body_omissions": [],
+  "existing_local_wrapper_binding_gaps": [
+    {
+      "rva": "0x3151bc",
+      "end": "0x31530b",
+      "bytes": 335,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: Component.GetComponentsInChildren",
+      "external_edges": [
+        "0x2caf08",
+        "0x2caf08",
+        "0x2f49ac",
+        "0x2cde0c",
+        "0x2cc730",
+        "0x2cdca4",
+        "0x2f3694",
+        "0x2e36b4",
+        "0x2f21bc",
+        "0x2cdd1c",
+        "0x333bf4",
+        "0x2cbd24",
+        "0x2d2094"
+      ]
+    },
+    {
+      "rva": "0x370d64",
+      "end": "0x370e83",
+      "bytes": 287,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: Material.SetColor",
+      "external_edges": [
+        "0x2caf08",
+        "0x370cf4",
+        "0x2e9b8c",
+        "0x370c84",
+        "0x2cde34",
+        "0x370c14",
+        "0x2e9b8c",
+        "0x334224",
+        "0x334a90",
+        "0x2cbd24",
+        "0x2cba50"
+      ]
+    },
+    {
+      "rva": "0x370e84",
+      "end": "0x370fa9",
+      "bytes": 293,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: Material.get_shader",
+      "external_edges": [
+        "0x2caf08",
+        "0x2cc730",
+        "0x2cdca4",
+        "0x370d10",
+        "0x2e9c54",
+        "0x370ca0",
+        "0x2cde34",
+        "0x370c30",
+        "0x2e9b8c",
+        "0x334224",
+        "0x3349ac",
+        "0x2cbd24",
+        "0x2cb9fc"
+      ]
+    },
+    {
+      "rva": "0x370fac",
+      "end": "0x3710da",
+      "bytes": 302,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: Renderer.get_material",
+      "external_edges": [
+        "0x2caf08",
+        "0x2cc730",
+        "0x2cdca4",
+        "0x370d2c",
+        "0x2cde34",
+        "0x370cbc",
+        "0x2cde34",
+        "0x370c4c",
+        "0x2e9b8c",
+        "0x334224",
+        "0x3349ac",
+        "0x2cbd24",
+        "0x2cb9fc"
+      ]
+    },
+    {
+      "rva": "0x3710dc",
+      "end": "0x371216",
+      "bytes": 314,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: Material.set_shader",
+      "external_edges": [
+        "0x2caf08",
+        "0x2cc730",
+        "0x2cdca4",
+        "0x370d48",
+        "0x2e9c54",
+        "0x370cd8",
+        "0x2cde34",
+        "0x370c68",
+        "0x2e9b8c",
+        "0x334224",
+        "0x3349ac",
+        "0x2cbd24",
+        "0x2d2094"
+      ]
+    },
+    {
+      "rva": "0x37361c",
+      "end": "0x373744",
+      "bytes": 296,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: Object.get_name",
+      "external_edges": [
+        "0x2caf08",
+        "0x2cc730",
+        "0x2cdca4",
+        "0x372ea8",
+        "0x2e9b8c",
+        "0x372dc4",
+        "0x2cde34",
+        "0x372ce4",
+        "0x2cdcf4",
+        "0x334224",
+        "0x3349ac",
+        "0x2cbd24",
+        "0x2cb9fc"
+      ]
+    },
+    {
+      "rva": "0x375abc",
+      "end": "0x375c05",
+      "bytes": 329,
+      "kind": "existing_wrapper_binding_required",
+      "meaning": "private SkyModel/world typed local wrapper: AssetBundle.LoadAsset_Internal",
+      "external_edges": [
+        "0x334224",
+        "0x375e6c",
+        "0x376214",
+        "0x375aa0",
+        "0x375860",
+        "0x2cc730",
+        "0x2cdca4",
+        "0x3759b4",
+        "0x376034",
+        "0x375914",
+        "0x375860",
+        "0x333bf4",
+        "0x2cbd24",
+        "0x2cba50"
+      ]
+    }
+  ],
+  "local_input_or_abi_limits": [
+    {
+      "range": [
+        "0x2d90dc",
+        "0x2d91c3"
+      ],
+      "kind": "required_copied_order",
+      "detail": "FrameWorldSaveState.native_key_order must contain exact post-update linked-node order. Previous FrameSettingsFile std::map loses native hash-list order; no synthetic order is used."
+    },
+    {
+      "range": [
+        "0x2d9540",
+        "0x2d95cb"
+      ],
+      "kind": "CRT_adaptation",
+      "detail": "Finite host C-locale %f is explicit. Native CRT nonfinite spelling/rounding/locale requires format_float_2d9540; missing nonfinite formatter stops."
+    },
+    {
+      "range": [
+        "0x329920",
+        "0x329a37"
+      ],
+      "kind": "existing_runtime_value_binding",
+      "detail": "hit_transform_329920 must adapt typed FrameWorldHit to actual copied native argument storage. No pointer is synthesized for a caller stack object."
+    },
+    {
+      "range": [
+        "0x3677bc",
+        "0x367896"
+      ],
+      "kind": "unmaterialized_input_bytes",
+      "detail": "Seven-argument staging concrete; absent ray/hit/return keys and upper scalar words retain raw bytes and explicit masks. FrameWorldHit.bytes20 remains optional native stale8."
+    },
+    {
+      "kind": "owned_container_ABI",
+      "detail": "Native allocations, iterator/header addresses, string storage and map node topology adapt to standard containers/RegistryStore. Existing config saved-window value is mirrored from authoritative saved_windows at its virtual writer. Structural reallocation of an active traversed vector has no claimed live alias ABI."
+    },
+    {
+      "kind": "shared_collection_adapter",
+      "detail": "Classifier/old WorldEspRecords consumers must explicitly share/map validity/padding-complete FrameWorldCollections. Menu request queue aliases MenuFileRequest directly; binder shares first collection with visibility."
+    }
+  ],
+  "required_existing_local_composition": [
+    "FrameWorldApi.game valid/object/vector/integer/predicate/bone/key roles via game-base, field, helper, root, direct, runtime and input binders",
+    "camera_2e069c/local_2dda9c/gate_2e0e4c; existing collection_root_2f8034; frame_timer_2e5b7c; mask_2e6a6c and query_2e2320",
+    "renderer_background_392198; unity_math_scalar Random.Range; FontTextStore and FontTextSink backed by actual owned font/draw-list storage",
+    "UnityCacheSpec resolver/class lookup and detect_context for owned configuration caches, including export il2cpp_array_new; managed_string_2ce5dc via released direct wrapper; typed final file/array effects",
+    "RegistryStore initialized with actual identity keys/kinds; copied module/config/game/IO data"
+  ],
+  "actual_matching_game_effects": [
+    {
+      "role": "raycast_36b0c8",
+      "detail": "After concrete direct cache311d680 and3677bc staging, actual bool/hit fields required."
+    },
+    {
+      "role": "object_3687bb",
+      "detail": "After direct cache597e7b0 and one-argument staging, actual returned object required."
+    },
+    {
+      "role": "view_model_effect_3150ac",
+      "detail": "After direct cache2bfaec0 and zero-argument staging, actual returned object required."
+    },
+    {
+      "role": "enabled_effect_375d30",
+      "detail": "Concrete method/cache and public3214f4 staging precede actual Collider.set_enabled effect."
+    },
+    {
+      "role": "material/type/string/root/input/random/query callbacks",
+      "detail": "Existing local wrapper/controller composition must ultimately supply actual Unity/IL2CPP/GameAssembly effects and results."
+    },
+    {
+      "role": "array_new_2d8d74 / write_bytes_2d65dc / delete_file_2d5a18",
+      "detail": "Actual managed allocation and file effects required. Byte copy and serialization concrete; no host path opened."
+    }
+  ],
+  "artifacts_needed": [
+    "matching GameAssembly.dll",
+    "matching UnityPlayer.dll",
+    "matching global-metadata.dat"
+  ],
+  "executor_boundary": {
+    "rvas": [
+      "0x2cbd24",
+      "0x3cdbd4"
+    ],
+    "status": "detection-only / excluded numeric execution; not missing game results replaced with mocks"
+  },
+  "no_live_claim": "No Windows DLL target, ABI compatibility or live hook behavior is claimed by these offline fixtures."
+}

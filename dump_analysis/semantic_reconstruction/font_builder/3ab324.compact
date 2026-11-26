@@ -1,0 +1,51 @@
+3ab324 mov    QWORD PTR [rsp+0x8],rbx
+3ab329 mov    QWORD PTR [rsp+0x10],rsi
+3ab32e push   rdi
+3ab32f sub    rsp,0x30
+3ab333 movsxd rdi,edx
+3ab336 mov    rsi,rcx
+3ab339 test   r9d,r9d
+3ab33c je     0x3ab386
+3ab33e mov    ebx,DWORD PTR [rsp+0x78]
+3ab342 mov    r10b,0x3
+3ab345 mov    r11d,DWORD PTR [rsp+0x70]
+3ab34a test   r8d,r8d
+3ab34d je     0x3ab3a7
+3ab34f mov    edx,DWORD PTR [rsp+0x88]
+3ab356 mov    eax,DWORD PTR [rsp+0x80]
+3ab35d imul   rcx,rdi,0xe
+3ab361 lea    r9d,[rbx+rdx*1]
+3ab365 mov    DWORD PTR [rsp+0x28],edx
+3ab369 inc    edi
+3ab36b sar    r9d,1
+3ab36e lea    r8d,[r11+rax*1]
+3ab372 mov    DWORD PTR [rsp+0x20],eax
+3ab376 add    rcx,rsi
+3ab379 sar    r8d,1
+3ab37c mov    dl,r10b
+3ab37f call   0x3add54
+3ab384 jmp    0x3ab3a7
+3ab386 test   r8d,r8d
+3ab389 je     0x3ab39f
+3ab38b mov    r11d,DWORD PTR [rsp+0x80]
+3ab393 mov    r10b,0x3
+3ab396 mov    ebx,DWORD PTR [rsp+0x88]
+3ab39d jmp    0x3ab3a7
+3ab39f xor    r11d,r11d
+3ab3a2 mov    r10b,0x2
+3ab3a5 xor    ebx,ebx
+3ab3a7 mov    r9d,DWORD PTR [rsp+0x68]
+3ab3ac mov    dl,r10b
+3ab3af mov    r8d,DWORD PTR [rsp+0x60]
+3ab3b4 movsxd rax,edi
+3ab3b7 imul   rcx,rax,0xe
+3ab3bb mov    DWORD PTR [rsp+0x28],ebx
+3ab3bf add    rcx,rsi
+3ab3c2 mov    DWORD PTR [rsp+0x20],r11d
+3ab3c7 call   0x3add54
+3ab3cc mov    rbx,QWORD PTR [rsp+0x40]
+3ab3d1 lea    eax,[rdi+0x1]
+3ab3d4 mov    rsi,QWORD PTR [rsp+0x48]
+3ab3d9 add    rsp,0x30
+3ab3dd pop    rdi
+3ab3de ret

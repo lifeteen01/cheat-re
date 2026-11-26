@@ -1,0 +1,2 @@
+PASS: recovered text geometry, font snapshot, clip, alpha, edge coverage, invalid triangles, resize, lifecycle
+FAIL: ESP names bypass the recovered plain-text controller

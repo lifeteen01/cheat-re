@@ -1,0 +1,35 @@
+{
+  "identity": {
+    "compiler": "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/bin/x86_64-linux-gnu-g++-15",
+    "compiler_sha256": "e6718f7e0c7d057c3ff77b550c603da9bc4030e3ede3c053705acce1293dbe4d",
+    "cc1plus_sha256": "6f2b2c0e3fd32042eb2acace19a57fdb0b229d9c24cdd5e2cc100639c77e9ff0",
+    "flags": [
+      "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+      "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15",
+      "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15",
+      "-L/usr/lib/x86_64-linux-gnu",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O1"
+    ]
+  },
+  "objects": [
+    {
+      "source": "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/compiler_cache_smoke/main.cpp",
+      "object": "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/compiler_cache/d7f748d6b0b63719774e8f320e811cae51dca7976fc62f3162e2a6b6f1707818.o",
+      "cache_hit": false,
+      "object_sha256": "a2472e82d21f6a1a4487f51c36f51b0e5ec07926f3ef11201a6ffd14c3801f3c",
+      "dependencies": {
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/compiler_cache_smoke/main.cpp": "1453e08bcb5e59f507b9e47ef023d1f8b7c3d5d541c80cb2ac7e7cd0a1aef338",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/stdc-predef.h": "383ff8bd7dcc87deefedd062637f4afe28f85f8be443beda8b41d15e45ef1679",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/compiler_cache_smoke/value.hpp": "0dfd4fa75e145bfaa6baba6ff9ce06b24725dc949ed7a4f977b0b825d5d9125c"
+      }
+    }
+  ],
+  "hits": 0,
+  "misses": 1,
+  "output": "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/compiler_cache_smoke/checks"
+}

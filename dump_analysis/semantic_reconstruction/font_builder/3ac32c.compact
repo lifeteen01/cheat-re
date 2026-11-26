@@ -1,0 +1,24 @@
+3ac32c test   ecx,ecx
+3ac32e jne    0x3ac334
+3ac330 xorps  xmm0,xmm0
+3ac333 ret
+3ac334 mov    eax,0x1
+3ac339 movd   xmm1,ecx
+3ac33d sub    eax,ecx
+3ac33f cvtdq2ps xmm1,xmm1
+3ac342 movd   xmm0,eax
+3ac346 cvtdq2ps xmm0,xmm0
+3ac349 addss  xmm1,xmm1
+3ac34d divss  xmm0,xmm1
+3ac351 ret
+3ac352 int3
+3ac353 int3
+3ac354 movaps xmm4,xmm2
+3ac357 movss  xmm2,DWORD PTR [rsp+0x28]
+3ac35d subss  xmm4,xmm1
+3ac361 subss  xmm2,xmm3
+3ac365 movaps xmm1,xmm4
+3ac368 jmp    0x3ad2ac
+3ac36d int3
+3ac36e int3
+3ac36f int3

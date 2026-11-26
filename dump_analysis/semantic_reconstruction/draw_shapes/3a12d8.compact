@@ -1,0 +1,77 @@
+3a12d8 rex push rbx
+3a12da push   rbp
+3a12db push   rsi
+3a12dc push   rdi
+3a12dd sub    rsp,0x38
+3a12e1 mov    eax,r9d
+3a12e4 mov    edi,r9d
+3a12e7 or     eax,DWORD PTR [rsp+0x80]
+3a12ee mov    rsi,r8
+3a12f1 or     eax,DWORD PTR [rsp+0x88]
+3a12f8 mov    rbp,rdx
+3a12fb or     eax,DWORD PTR [rsp+0x90]
+3a1302 mov    rbx,rcx
+3a1305 test   eax,0xff000000
+3a130a je     0x3a1405
+3a1310 mov    rax,QWORD PTR [rcx+0x38]
+3a1314 mov    edx,0x6
+3a1319 movsd  xmm0,QWORD PTR [rax]
+3a131d lea    r8d,[rdx-0x2]
+3a1321 movsd  QWORD PTR [rsp+0x20],xmm0
+3a1327 call   0x3a719c
+3a132c movzx  edx,WORD PTR [rbx+0x34]
+3a1330 mov    rcx,rbx
+3a1333 call   0x378a4c
+3a1338 movzx  edx,WORD PTR [rbx+0x34]
+3a133c mov    rcx,rbx
+3a133f inc    dx
+3a1342 call   0x378a4c
+3a1347 movzx  edx,WORD PTR [rbx+0x34]
+3a134b mov    rcx,rbx
+3a134e add    dx,0x2
+3a1352 call   0x378a4c
+3a1357 movzx  edx,WORD PTR [rbx+0x34]
+3a135b mov    rcx,rbx
+3a135e call   0x378a4c
+3a1363 movzx  edx,WORD PTR [rbx+0x34]
+3a1367 mov    rcx,rbx
+3a136a add    dx,0x2
+3a136e call   0x378a4c
+3a1373 movzx  edx,WORD PTR [rbx+0x34]
+3a1377 mov    rcx,rbx
+3a137a add    dx,0x3
+3a137e call   0x378a4c
+3a1383 mov    r9d,edi
+3a1386 lea    r8,[rsp+0x20]
+3a138b mov    rdx,rbp
+3a138e mov    rcx,rbx
+3a1391 call   0x378a5c
+3a1396 movss  xmm2,DWORD PTR [rbp+0x4]
+3a139b lea    rcx,[rsp+0x28]
+3a13a0 movss  xmm1,DWORD PTR [rsi]
+3a13a4 call   0x2cc340
+3a13a9 mov    r9d,DWORD PTR [rsp+0x80]
+3a13b1 lea    r8,[rsp+0x20]
+3a13b6 mov    rdx,rax
+3a13b9 mov    rcx,rbx
+3a13bc call   0x378a5c
+3a13c1 mov    r9d,DWORD PTR [rsp+0x88]
+3a13c9 lea    r8,[rsp+0x20]
+3a13ce mov    rdx,rsi
+3a13d1 mov    rcx,rbx
+3a13d4 call   0x378a5c
+3a13d9 movss  xmm2,DWORD PTR [rsi+0x4]
+3a13de lea    rcx,[rsp+0x28]
+3a13e3 movss  xmm1,DWORD PTR [rbp+0x0]
+3a13e8 call   0x2cc340
+3a13ed mov    r9d,DWORD PTR [rsp+0x90]
+3a13f5 lea    r8,[rsp+0x20]
+3a13fa mov    rdx,rax
+3a13fd mov    rcx,rbx
+3a1400 call   0x378a5c
+3a1405 add    rsp,0x38
+3a1409 pop    rdi
+3a140a pop    rsi
+3a140b pop    rbp
+3a140c pop    rbx
+3a140d ret

@@ -1,0 +1,12 @@
+392384	mov    rdx,QWORD PTR [rip+0x7379d]        # 0x405b28
+39238b	mov    rax,QWORD PTR [rdx+0x3f08]
+392392	cmp    QWORD PTR [rax+0x1a8],0x0
+39239a	movsd  xmm0,QWORD PTR [rax+0x250]
+3923a2	movsd  QWORD PTR [rcx],xmm0
+3923a6	jne    0x3923b2
+3923a8	cmp    QWORD PTR [rdx+0x4b48],0x0
+3923b0	je     0x3923ba
+3923b2	mov    eax,DWORD PTR [rax+0x220]
+3923b8	mov    DWORD PTR [rcx],eax
+3923ba	mov    rax,rcx
+3923bd	ret

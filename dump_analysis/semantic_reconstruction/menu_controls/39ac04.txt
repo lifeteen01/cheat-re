@@ -1,0 +1,31 @@
+39ac04	mov    rax,QWORD PTR [rip+0x6af1d]        # 0x405b28
+39ac0b	movaps xmm3,xmm0
+39ac0e	mov    rcx,QWORD PTR [rax+0x3f08]
+39ac15	cmp    BYTE PTR [rcx+0xbb],0x0
+39ac1c	jne    0x39aca6
+39ac22	xorps  xmm2,xmm2
+39ac25	ucomiss xmm3,xmm2
+39ac28	jp     0x39ac43
+39ac2a	jne    0x39ac43
+39ac2c	comiss xmm2,xmm1
+39ac2f	jbe    0x39ac39
+39ac31	movss  xmm1,DWORD PTR [rax+0x381c]
+39ac39	addss  xmm1,DWORD PTR [rcx+0x108]
+39ac41	jmp    0x39ac6f
+39ac43	movss  xmm0,DWORD PTR [rcx+0x20]
+39ac48	maxss  xmm2,xmm1
+39ac4c	subss  xmm0,DWORD PTR [rcx+0x84]
+39ac54	addss  xmm0,xmm3
+39ac58	movaps xmm1,xmm0
+39ac5b	addss  xmm1,xmm2
+39ac5f	addss  xmm1,DWORD PTR [rcx+0x14c]
+39ac67	addss  xmm1,DWORD PTR [rcx+0x148]
+39ac6f	movss  DWORD PTR [rcx+0x100],xmm1
+39ac77	mov    eax,DWORD PTR [rcx+0x10c]
+39ac7d	mov    DWORD PTR [rcx+0x104],eax
+39ac83	movsd  xmm0,QWORD PTR [rcx+0x130]
+39ac8b	mov    eax,DWORD PTR [rcx+0x13c]
+39ac91	movsd  QWORD PTR [rcx+0x128],xmm0
+39ac99	mov    DWORD PTR [rcx+0x138],eax
+39ac9f	mov    BYTE PTR [rcx+0x140],0x1
+39aca6	ret

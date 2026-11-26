@@ -1,0 +1,151 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "layout": "file offset equals RVA",
+  "assets": [
+    {
+      "rva": "0x2605f0",
+      "size": 57948,
+      "sha256": "7380c1e91f457fa4a71b6a059e401acbf31560e26cdbca7c73d4fae478b0fb00",
+      "file": "dump_analysis/semantic_reconstruction/test_scene/original_ui_assets/family_0.otf",
+      "names": [
+        {
+          "name_id": 1,
+          "value": "Stolzl"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "Stolzl"
+        },
+        {
+          "name_id": 4,
+          "value": "Stolzl-Regular"
+        },
+        {
+          "name_id": 6,
+          "value": "Stolzl-Regular"
+        }
+      ],
+      "native_reference": "35cd69"
+    },
+    {
+      "rva": "0x26e850",
+      "size": 58428,
+      "sha256": "9c5a3cb3921853e31a2b9b198b1a011972a4987d11e9e7cc714ee5cdc86c5879",
+      "file": "dump_analysis/semantic_reconstruction/test_scene/original_ui_assets/family_1.otf",
+      "names": [
+        {
+          "name_id": 1,
+          "value": "Stolzl"
+        },
+        {
+          "name_id": 1,
+          "value": "Stolzl Medium"
+        },
+        {
+          "name_id": 2,
+          "value": "Medium"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "Stolzl Medium"
+        },
+        {
+          "name_id": 4,
+          "value": "Stolzl-Medium"
+        },
+        {
+          "name_id": 6,
+          "value": "Stolzl-Medium"
+        }
+      ],
+      "native_reference": "35cd89"
+    },
+    {
+      "rva": "0x27cc90",
+      "size": 11512,
+      "sha256": "f39ad1541a93b9db4cd117a154862261af50c1453be3792ad9e9f158923570bc",
+      "file": "dump_analysis/semantic_reconstruction/test_scene/original_ui_assets/family_2.ttf",
+      "names": [
+        {
+          "name_id": 1,
+          "value": "a"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "a"
+        },
+        {
+          "name_id": 6,
+          "value": "a"
+        }
+      ],
+      "native_reference": "35cdad"
+    },
+    {
+      "rva": "0x24f330",
+      "size": 70324,
+      "sha256": "77ae73eff9da35236d99948eaa5db52cd2358829ca639f3adc69cffa7ca0d3cf",
+      "file": "dump_analysis/semantic_reconstruction/test_scene/original_ui_assets/default_primary.ttf",
+      "names": [
+        {
+          "name_id": 1,
+          "value": "Minecraftia"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "Minecraftia 2.0"
+        },
+        {
+          "name_id": 6,
+          "value": "Minecraftia-Regular"
+        }
+      ],
+      "native_reference": "35cfcb/35d043"
+    },
+    {
+      "rva": "0x248f30",
+      "size": 25600,
+      "sha256": "0e71338a9ae45df2ede080567cfab831627bac9a83be601521ddbace4cbed11e",
+      "file": "dump_analysis/semantic_reconstruction/test_scene/original_ui_assets/default_secondary.ttf",
+      "names": [
+        {
+          "name_id": 1,
+          "value": "Smallest Pixel-7"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "Smallest Pixel-7"
+        },
+        {
+          "name_id": 6,
+          "value": "SmallestPixel-7"
+        }
+      ],
+      "native_reference": "35d008"
+    }
+  ],
+  "integrated_into_scene": false,
+  "theme_implementation": "source/reconstructed/frame_dependencies_theme.cpp",
+  "setup_implementation": "source/reconstructed/frame_dependencies_ui_setup.cpp",
+  "scope": "Static font extraction and SFNT name-table identity only; no rendering equivalence"
+}

@@ -1,0 +1,677 @@
+---
+IAT at: 741000, size: fd8, thunks: 1f3, is_terminated: 1, in_main: 1
+---
+741000,7ffa82ecd660,advapi32.CryptSetProvParam #1225
+741008,7ffa82ec7670,advapi32.CryptEncrypt #1205
+741010,7ffa82ec87b0,advapi32.CryptGetDefaultProviderW #1214
+741018,7ffa82ec2d40,advapi32.CryptDecrypt #1199
+741020,7ffa82ec8450,advapi32.CryptDeriveKey #1200
+741028,7ffa82ec8430,advapi32.CryptSetKeyParam #1224
+741030,7ffa82ec8410,advapi32.DeleteAce #1237
+741038,7ffa82ec22e0,advapi32.SaferCloseLevel #1704
+741040,7ffa82ec4720,advapi32.SetTokenInformation #1753
+741048,7ffa82ebafe0,advapi32.IsValidSid #1394
+741050,7ffa82ec8470,advapi32.GetSidIdentifierAuthority #1343
+741058,7ffa82ec44f0,advapi32.CreateWellKnownSid #1149
+741060,7ffa82ea8890,advapi32.ConvertStringSidToSidW #1133
+741068,7ffa82ec1480,advapi32.SaferCreateLevel #1706
+741070,7ffa82ec66b0,advapi32.AddAccessAllowedAceEx #1019
+741078,7ffa82ea2400,advapi32.SaferComputeTokenFromLevel #1705
+741080,7ffa82ec9fe0,advapi32.CryptVerifySignatureW #1233
+741088,7ffa82eb7960,advapi32.LookupAccountSidW #1407
+741090,7ffa82eca0c0,advapi32.CryptGetProvParam #1217
+741098,7ffa82ecf6a0,advapi32.CryptEnumProvidersW #1209
+7410a0,7ffa82ec6390,advapi32.CryptGetKeyParam #1216
+7410a8,7ffa82eca3c0,advapi32.CryptGenKey #1211
+7410b0,7ffa82ebadc0,advapi32.GetNamedSecurityInfoW #1324
+7410b8,7ffa82ed2c70,advapi32.CryptSignHashW #1231
+7410c0,7ffa82ec3480,advapi32.CryptExportKey #1210
+7410c8,7ffa82ec4590,advapi32.CryptDestroyKey #1202
+7410d0,7ffa82ecb670,advapi32.CryptGetUserKey #1218
+7410d8,7ffa82ecb1b0,advapi32.CryptVerifySignatureA #1232
+7410e0,7ffa82ec1870,advapi32.CryptImportKey #1221
+7410e8,7ffa82ec4120,advapi32.CryptSetHashParam #1223
+7410f0,7ffa82ec4390,advapi32.CryptAcquireContextA #1195
+7410f8,7ffa82ec08d0,advapi32.RegQueryInfoKeyA #1655
+741100,7ffa82ec2d20,advapi32.RegDeleteValueW #1624
+741108,7ffa82ec0c50,advapi32.CryptCreateHash #1198
+741110,7ffa82ec0340,advapi32.CryptHashData #1219
+741118,7ffa82ec1440,advapi32.CryptDestroyHash #1201
+741120,7ffa82ec0b50,advapi32.CryptGetHashParam #1215
+741128,7ffa82ebf950,advapi32.CopySid #1135
+741130,7ffa82ec2d60,advapi32.DuplicateToken #1242
+741138,7ffa82eeda50,advapi32.DeregisterEventSource #1239
+741140,7ffa82eee0d0,advapi32.RegisterEventSourceW #1683
+741148,7ffa82ecadc0,advapi32.ReportEventW #1701
+741150,7ffa82eb5fd0,advapi32.RegDeleteKeyW #1620
+741158,7ffa82ec0af0,advapi32.RegCreateKeyExW #1609
+741160,7ffa82ec0530,advapi32.RegSetValueExW #1678
+741168,7ffa82eb5180,advapi32.RegEnumValueW #1634
+741170,7ffa82ec2500,advapi32.GetSidSubAuthorityCount #1346
+741178,7ffa82ec1890,advapi32.GetSidSubAuthority #1345
+741180,7ffa82ec4570,advapi32.AddAccessAllowedAce #1018
+741188,7ffa82ebf2a0,advapi32.GetLengthSid #1312
+741190,7ffa82ec1080,advapi32.ImpersonateLoggedOnUser #1375
+741198,7ffa83cec1a0,advapi32.EventWriteTransfer #1278
+7411a0,7ffa82eb5ed0,advapi32.RegQueryInfoKeyW #1656
+7411a8,7ffa82eb8be0,advapi32.RegQueryValueW #1663
+7411b0,7ffa82eb7300,advapi32.RegOpenKeyExW #1649
+7411b8,7ffa82ec4220,advapi32.CryptReleaseContext #1222
+7411c0,7ffa82ec40e0,advapi32.CryptGenRandom #1212
+7411c8,7ffa82ec22c0,advapi32.CryptAcquireContextW #1196
+7411d0,7ffa83d77a10,advapi32.EventUnregister #1272
+7411d8,7ffa83cf1450,advapi32.EventRegister #1270
+7411e0,7ffa82ec0b30,advapi32.SetThreadToken #1752
+7411e8,7ffa82ec0390,advapi32.RevertToSelf #1702
+7411f0,7ffa82ec2450,advapi32.GetAce #1292
+7411f8,7ffa82ebf6a0,advapi32.InitializeAcl #1378
+741200,7ffa82ec24a0,advapi32.GetSecurityDescriptorDacl #1330
+741208,7ffa82ecc0f0,advapi32.SetKernelObjectSecurity #1732
+741210,7ffa82eb87d0,advapi32.RegQueryValueExW #1662
+741218,7ffa82ebf710,advapi32.RegEnumKeyExW #1631
+741220,7ffa82eb87b0,advapi32.RegCloseKey #1600
+741228,7ffa82ebaea0,advapi32.OpenThreadToken #1535
+741230,7ffa82eac990,advapi32.ConvertStringSecurityDescriptorToSecurityDescriptorW #1131
+741238,7ffa82eaca30,advapi32.ConvertSidToStringSidW #1125
+741240,7ffa82ec18b0,advapi32.FreeSid #1289
+741248,7ffa82ec0c70,advapi32.SetSecurityDescriptorDacl #1741
+741250,7ffa82ec0550,advapi32.InitializeSecurityDescriptor #1379
+741258,7ffa82ec4100,advapi32.SetEntriesInAclW #1725
+741260,7ffa82ebf970,advapi32.AllocateAndInitializeSid #1034
+741268,7ffa82ebbf20,advapi32.GetTokenInformation #1349
+741270,7ffa82ebb070,advapi32.OpenProcessToken #1530
+741278,7ffa83cebea0,advapi32.EventWrite #1273
+741288,7ffa81fdee00,kernel32.GetSystemDirectoryW #791
+741290,7ffa81ff7130,kernel32.FindClose #419
+741298,7ffa81ff73d0,kernel32.GetTempPathW #815
+7412a0,7ffa81ff71b0,kernel32.FindFirstFileW #430
+7412a8,7ffa81fcfe60,kernel32.GetSystemTimeAsFileTime #800
+7412b0,7ffa81fd1580,kernel32.LCMapStringW #1002
+7412b8,7ffa81fdbd10,kernel32.IsDBCSLeadByte #948
+7412c0,7ffa81fda720,kernel32.GetACP #481
+7412c8,7ffa81fe1450,kernel32.GetCPInfo #496
+7412d0,7ffa81fad9b0,kernel32.SetThreadAffinityMask #1442
+7412d8,7ffa81fe3aa0,kernel32.SetThreadGroupAffinity #1447
+7412e0,7ffa81fddf20,kernel32.GetWriteWatch #868
+7412e8,7ffa81fe1770,kernel32.ResetWriteWatch #1287
+7412f0,7ffa81fdece0,kernel32.SetThreadIdealProcessor #1448
+7412f8,7ffa81ff7bb0,kernel32.SetConsoleTitleW #1360
+741300,7ffa81ff7870,kernel32.AllocConsole #23
+741308,7ffa81ff78c0,kernel32.FreeConsole #471
+741310,7ffa81ff7390,kernel32.GetTempFileNameW #811
+741318,7ffa81fe3310,kernel32.MoveFileExW #1058
+741320,7ffa81fddb50,kernel32.MoveFileW #1061
+741328,7ffa81ff7230,kernel32.FlushFileBuffers #462
+741330,7ffa81ff7030,kernel32.CompareFileTime #181
+741338,7ffa81ff7310,kernel32.GetFileTime #639
+741340,7ffa81fcc580,kernel32.VerifyVersionInfoW #1561
+741348,7ffa81fae0f0,kernel32.QueryInformationJobObject #1155
+741350,7ffa81fdf140,kernel32.IsProcessInJob #957
+741358,7ffa81fdbcf0,kernel32.VirtualUnlock #1572
+741360,7ffa81ff7100,kernel32.DeleteFileW #316
+741368,7ffa81fd9150,kernel32.GetUserDefaultLCID #847
+741370,7ffa81fdfc40,kernel32.GetSystemDefaultLCID #786
+741378,7ffa81fe4570,kernel32.CreateActCtxW #206
+741380,7ffa81ff6f30,kernel32.OpenEventW #1081
+741388,7ffa81fe2680,kernel32.SetNamedPipeHandleState #1415
+741390,7ffa81fd9430,kernel32.WaitNamedPipeW #1586
+741398,7ffa81fb8300,kernel32.Process32NextW #1127
+7413a0,7ffa81fd01b0,kernel32.Process32FirstW #1125
+7413a8,7ffa81feab50,kernel32.CreateToolhelp32Snapshot #286
+7413b0,7ffa81fe0ab0,kernel32.ConnectNamedPipe #186
+7413b8,7ffa81fe1f40,kernel32.CreateNamedPipeW #254
+7413c0,7ffa81fe3060,kernel32.DisconnectNamedPipe #332
+7413c8,7ffa81fda460,kernel32.GetPrivateProfileIntW #730
+7413d0,7ffa83d76880,kernel32.SetThreadpoolTimer #1463
+7413d8,7ffa81fd5f30,kernel32.CreateThreadpoolTimer #281
+7413e0,7ffa83cfe5e0,kernel32.CloseThreadpoolTimer #174
+7413e8,7ffa81fe4750,kernel32.CreateMemoryResourceNotification #248
+7413f0,7ffa81ff7290,kernel32.GetDriveTypeW #608
+7413f8,7ffa83d6d250,kernel32.InterlockedFlushSList #932
+741400,7ffa83d1f2e0,kernel32.InitializeSListHead #928
+741408,7ffa83de4b20,kernel32.InterlockedPopEntrySList #933
+741410,7ffa81fd6d80,kernel32.PeekNamedPipe #1114
+741418,7ffa81fdaca0,kernel32.FlushInstructionCache #463
+741420,7ffa81ff72c0,kernel32.GetFileAttributesExW #627
+741428,7ffa81fd7a20,kernel32.GetProcessTimes #756
+741430,7ffa81ff7470,kernel32.ReadFile #1199
+741438,7ffa81ff7520,kernel32.SetFilePointer #1390
+741440,7ffa83c928f0,kernel32.LeaveCriticalSection #1014
+741448,7ffa83c927f0,kernel32.EnterCriticalSection #349
+741450,7ffa83d40270,kernel32.TryEnterCriticalSection #1530
+741458,7ffa83d2b6a0,kernel32.DeleteCriticalSection #309
+741460,7ffa83d565c0,kernel32.InitializeCriticalSection #923
+741468,7ffa81fe20f0,kernel32.FreeEnvironmentStringsW #473
+741470,7ffa81fe17b0,kernel32.GetEnvironmentStringsW #616
+741478,7ffa81fd0070,kernel32.SwitchToThread #1497
+741480,7ffa81fe1430,kernel32.HeapValidate #910
+741488,7ffa81fe2de0,kernel32.HeapDestroy #901
+741490,7ffa81fe2010,kernel32.HeapCreate #900
+741498,7ffa81fd7450,kernel32.VirtualProtect #1568
+7414a0,7ffa81fd6d40,kernel32.ActivateActCtx #3
+7414a8,7ffa81fda740,kernel32.DeactivateActCtx #294
+7414b0,7ffa81fe2030,kernel32.GetWindowsDirectoryW #867
+7414b8,7ffa81fe4b00,kernel32.ReleaseActCtx #1258
+7414c0,7ffa81fdbe80,kernel32.SizeofResource #1485
+7414c8,7ffa81fdf020,kernel32.LockResource #1044
+7414d0,7ffa81fddad0,kernel32.FindResourceExW #451
+7414d8,7ffa81fdcbf0,kernel32.LoadResource #1024
+7414e0,7ffa81ff7200,kernel32.FindNextFileW #442
+7414e8,7ffa81fdf000,kernel32.GetEnvironmentVariableA #617
+7414f0,7ffa81fe44b0,kernel32.QueryActCtxW #1146
+7414f8,7ffa81fdbdd0,kernel32.CreateProcessW #264
+741500,7ffa81fdee30,kernel32.LoadLibraryW #1021
+741508,7ffa83d69610,kernel32.EncodePointer #345
+741510,7ffa83d4c4b0,kernel32.DecodePointer #302
+741518,7ffa81ffb070,kernel32.EnumTimeFormatsW #388
+741520,7ffa81fd86d0,kernel32.CompareStringW #185
+741528,7ffa81fe4c20,kernel32.GetSystemDefaultUILanguage #789
+741530,7ffa81fe37b0,kernel32.GetUserDefaultUILanguage #850
+741538,7ffa81ffaed0,kernel32.EnumCalendarInfoExW #355
+741540,7ffa81fdbee0,kernel32.GetLocaleInfoW #663
+741548,7ffa81ff7640,kernel32.GetCalendarInfoW #506
+741550,7ffa81fe4490,kernel32.GetDateFormatW #594
+741558,7ffa81fe3140,kernel32.SetUnhandledExceptionFilter #1470
+741560,7ffa81fdce70,kernel32.IsProcessorFeaturePresent #958
+741568,7ffa81ff6f00,kernel32.InitializeCriticalSectionAndSpinCount #924
+741570,7ffa81fe28f0,kernel32.LoadLibraryA #1018
+741578,7ffa81fdf200,kernel32.LoadLibraryExA #1019
+741580,7ffa81ff7500,kernel32.SetFileAttributesW #1385
+741588,7ffa81ff77b0,kernel32.CopyFileW #203
+741590,7ffa81ff74d0,kernel32.RemoveDirectoryW #1273
+741598,7ffa81ff7300,kernel32.GetFileSizeEx #638
+7415a0,7ffa81ff74e0,kernel32.SetEndOfFile #1372
+7415a8,7ffa83cc8380,kernel32.HeapReAlloc #905
+7415b0,7ffa81fe35b0,kernel32.GetSystemDirectoryA #790
+7415b8,7ffa81ff70a0,kernel32.CreateFileA #228
+7415c0,7ffa81fd7a60,kernel32.MapViewOfFile #1048
+7415c8,7ffa81fad2f0,kernel32.WritePrivateProfileStringW #1644
+7415d0,7ffa81fc1a50,kernel32.DeviceIoControl #327
+7415d8,7ffa81fdacc0,kernel32.FindResourceW #452
+7415e0,7ffa81ff7540,kernel32.SetFileTime #1394
+7415e8,7ffa81fd6fe0,kernel32.GetLocalTime #660
+7415f0,7ffa81ff7400,kernel32.GetVolumeInformationW #859
+7415f8,7ffa81ff7430,kernel32.LocalFileTimeToFileTime #1029
+741600,7ffa81fae2c0,kernel32.DosDateTimeToFileTime #336
+741608,7ffa81fd6d00,kernel32.SystemTimeToFileTime #1498
+741610,7ffa81fd6780,kernel32.lstrlen #1682
+741618,7ffa81ff7240,kernel32.GetDiskFreeSpaceA #599
+741620,7ffa81fe47c0,kernel32.GetWindowsDirectoryA #866
+741628,7ffa81fe3080,kernel32.GetTimeFormatW #839
+741630,7ffa81fd6740,kernel32.GetSystemTime #798
+741638,7ffa81fe0a00,kernel32.FlushViewOfFile #465
+741640,7ffa81fdf240,kernel32.GetNativeSystemInfo #696
+741648,7ffa81fdee10,kernel32.IsDBCSLeadByteEx #949
+741650,7ffa81fd7000,kernel32.GetStringTypeW #782
+741658,7ffa81fe6580,kernel32.CreateHardLinkW #240
+741660,7ffa81fe1f00,kernel32.SetPriorityClass #1416
+741668,7ffa81ff7530,kernel32.SetFilePointerEx #1391
+741670,7ffa83d2cb30,kernel32.ExitThread #397
+741678,7ffa81fdf360,kernel32.OpenFileMappingW #1085
+741680,7ffa81fe4ae0,kernel32.SearchPathW #1316
+741688,7ffa81fe1750,kernel32.GetTimeZoneInformation #841
+741690,7ffa81ff0360,kernel32.GetNLSVersionEx #685
+741698,7ffa81fe37d0,kernel32.IsValidLocale #966
+7416a0,7ffa81fe2bf0,kernel32.TzSpecificLocalTimeToSystemTime #1532
+7416a8,7ffa81ff7620,kernel32.FileTimeToSystemTime #408
+7416b0,7ffa81ff7a90,kernel32.GetConsoleTitleW #565
+7416b8,7ffa81fdf120,kernel32.GetVersionExW #856
+7416c0,7ffa81fd6c30,kernel32.LocalAlloc #1027
+7416c8,7ffa81fd0480,kernel32.MultiByteToWideChar #1065
+7416d0,7ffa81fddf40,kernel32.FormatMessageW #470
+7416d8,7ffa81fe1410,kernel32.FatalExit #405
+7416e0,7ffa81fdbd50,kernel32.LoadLibraryExW #1020
+7416e8,7ffa81fdbcd0,kernel32.GetModuleFileNameW #679
+7416f0,7ffa81fddb80,kernel32.GetModuleHandleExW #682
+7416f8,7ffa81fe2770,kernel32.TransactNamedPipe #1526
+741700,7ffa81fb8640,kernel32.GetLastError #659
+741708,7ffa81fb8600,kernel32.GetTickCount #834
+741710,7ffa81ff6fa0,kernel32.SetEvent #1378
+741718,7ffa83de5320,kernel32.GetCurrentProcessorNumber #585
+741720,7ffa81fda880,kernel32.QueueUserAPC #1169
+741728,7ffa81ff6e00,kernel32.CloseHandle #163
+741730,7ffa81ff6ff0,kernel32.WaitForSingleObject #1579
+741738,7ffa81fda700,kernel32.GlobalMemoryStatusEx #887
+741740,7ffa81fdf1c0,kernel32.CreateIoCompletionPort #241
+741748,7ffa81fd2130,kernel32.GetProcAddress #739
+741750,7ffa81fc7260,kernel32.SetLastError #1406
+741758,7ffa81fd6c50,kernel32.GetThreadLocale #825
+741760,7ffa81fc27c0,kernel32.QueryPerformanceCounter #1159
+741768,7ffa81fd16a0,kernel32.QueryPerformanceFrequency #1160
+741770,7ffa81fd2190,kernel32.PostQueuedCompletionStatus #1116
+741778,7ffa83de2c00,kernel32.FlushProcessWriteBuffers #464
+741780,7ffa81fd15c0,kernel32.CreateThread #277
+741788,7ffa81fdbc90,kernel32.ResumeThread #1293
+741790,7ffa81ff6fc0,kernel32.SleepEx #1489
+741798,7ffa81ff6fe0,kernel32.WaitForMultipleObjectsEx #1578
+7417a0,7ffa81fcd460,kernel32.GetQueuedCompletionStatus #769
+7417a8,7ffa81fc1d20,kernel32.GetCurrentThread #587
+7417b0,7ffa81fdf3c0,kernel32.OutputDebugStringW #1105
+7417b8,7ffa81ff4df0,kernel32.DebugBreak #299
+7417c0,7ffa81fc2e60,kernel32.GetCurrentProcess #583
+7417c8,7ffa81ff6f70,kernel32.ReleaseMutex #1260
+7417d0,7ffa81ff6f80,kernel32.ReleaseSemaphore #1266
+7417d8,7ffa81ff6ec0,kernel32.CreateMutexW #252
+7417e0,7ffa81ff6e80,kernel32.CreateEventW #223
+7417e8,7ffa81ff6ee0,kernel32.CreateSemaphoreW #271
+7417f0,7ffa81fd2f50,kernel32.LocalFree #1032
+7417f8,7ffa81fc1ef0,kernel32.GetCurrentProcessId #584
+741800,7ffa81fd2110,kernel32.OpenProcess #1093
+741808,7ffa81fdaba0,kernel32.GetModuleHandleW #683
+741810,7ffa81fd43a0,kernel32.ProcessIdToSessionId #1128
+741818,7ffa81fb8620,kernel32.GetCurrentThreadId #588
+741820,7ffa81ff7990,kernel32.SetConsoleCtrlHandler #1333
+741828,7ffa81fb2b00,kernel32.GetTickCount64 #835
+741830,7ffa81fe0930,kernel32.GetCommandLineW #518
+741838,7ffa81fde230,kernel32.GetCurrentDirectoryW #576
+741840,7ffa81fd04c0,kernel32.lstrlenW #1684
+741848,7ffa81ff7360,kernel32.GetFullPathNameW #651
+741850,7ffa81fab270,kernel32.GetShortPathNameW #772
+741858,7ffa81fabdf0,kernel32.GetLongPathNameW #672
+741860,7ffa81fdcde0,kernel32.GetSystemInfo #794
+741868,7ffa820249f0,kernel32.TlsGetValue #1522
+741870,7ffa81fe3040,kernel32.GetUserDefaultLangID #848
+741878,7ffa81fddb10,kernel32.GetEnvironmentVariableW #618
+741880,7ffa81fe3520,kernel32.SetEnvironmentVariableW #1376
+741888,7ffa81fd43c0,kernel32.GetProcessId #748
+741890,7ffa81fd2170,kernel32.GetOverlappedResult #717
+741898,7ffa81fe1f20,kernel32.CancelIo #142
+7418a0,7ffa81fc27a0,kernel32.GetProcessHeap #746
+7418a8,7ffa81fc2e70,kernel32.HeapFree #902
+7418b0,7ffa83d6d050,kernel32.InterlockedPushEntrySList #934
+7418b8,7ffa81ff7580,kernel32.WriteFile #1638
+7418c0,7ffa81fdf1a0,kernel32.GetStdHandle #777
+7418c8,7ffa81fd1560,kernel32.WideCharToMultiByte #1618
+7418d0,7ffa81ff78f0,kernel32.GetConsoleOutputCP #559
+7418d8,7ffa81ff72e0,kernel32.GetFileInformationByHandle #632
+7418e0,7ffa81ff72d0,kernel32.GetFileAttributesW #630
+7418e8,7ffa81ff7070,kernel32.CreateDirectoryW #218
+7418f0,7ffa81fe3540,kernel32.GetLogicalProcessorInformation #667
+7418f8,7ffa81fadbd0,kernel32.GetProcessAffinityMask #740
+741900,7ffa81fd5f80,kernel32.SetThreadLocale #1451
+741908,7ffa81fdfc90,kernel32.MapViewOfFileEx #1049
+741910,7ffa81fd7a40,kernel32.VirtualQuery #1570
+741918,7ffa81fd85a0,kernel32.UnmapViewOfFile #1540
+741920,7ffa81fdbc50,kernel32.SetErrorMode #1377
+741928,7ffa81fdbd70,kernel32.FreeLibrary #474
+741930,7ffa81fde740,kernel32.FreeLibraryAndExitThread #475
+741938,7ffa81fdce40,kernel32.IsDebuggerPresent #950
+741940,7ffa81fda860,kernel32.RaiseException #1182
+741948,7ffa81fd4de0,kernel32.GetStringTypeExW #781
+741950,7ffa81ff6f90,kernel32.ResetEvent #1286
+741958,7ffa81ff7000,kernel32.WaitForSingleObjectEx #1580
+741960,7ffa81fda840,kernel32.CreateFileMappingW #233
+741968,7ffa81ff72f0,kernel32.GetFileSize #637
+741970,7ffa81fc8110,kernel32.TlsSetValue #1524
+741978,7ffa81fdbd30,kernel32.GetModuleHandleA #680
+741980,7ffa81fdae50,kernel32.TlsAlloc #1520
+741988,7ffa81fde760,kernel32.TlsFree #1521
+741990,7ffa83ca5c50,kernel32.HeapAlloc #898
+741998,7ffa81fdbe40,kernel32.GetThreadContext #816
+7419a0,7ffa81fddee0,kernel32.SuspendThread #1495
+7419a8,7ffa81fe4cd0,kernel32.SetThreadContext #1443
+7419b0,7ffa81fe77c0,kernel32.GetEnabledXStateFeatures #612
+7419b8,7ffa81fe75d0,kernel32.InitializeContext #921
+7419c0,7ffa81fe7d00,kernel32.SetXStateFeaturesMask #1481
+7419c8,7ffa81ffabd0,kernel32.CopyContext #196
+7419d0,7ffa81fcfe40,kernel32.Sleep #1486
+7419d8,7ffa81ffc120,kernel32.UnhandledExceptionFilter #1537
+7419e0,7ffa81fe2110,kernel32.TerminateProcess #1502
+7419e8,7ffa83d8aad0,kernel32.AddVectoredExceptionHandler #21
+7419f0,7ffa83d8c800,kernel32.RemoveVectoredExceptionHandler #1279
+7419f8,7ffa81ff6e10,kernel32.DuplicateHandle #341
+741a00,7ffa81fd6720,kernel32.SetThreadPriority #1453
+741a08,7ffa81fd6760,kernel32.GetThreadPriority #827
+741a10,7ffa81fdbc70,kernel32.SignalObjectAndWait #1484
+741a18,7ffa81fe1810,kernel32.SetThreadStackGuarantee #1457
+741a20,7ffa81fd2150,kernel32.VirtualAlloc #1562
+741a28,7ffa81fd04a0,kernel32.IsThreadAFiber #960
+741a30,7ffa81fd2f70,kernel32.GetThreadTimes #832
+741a38,7ffa81ff70b0,kernel32.CreateFileW #236
+741a40,7ffa81fd4d90,kernel32.VirtualFree #1565
+741a50,7ffa82a5e1b0,shlwapi.PathCreateFromUrlW #667
+741a58,7ffa82a5dd90,shlwapi.UrlCanonicalizeW #905
+741a60,7ffa82a5c600,shlwapi.PathAddBackslashW #625
+741a68,7ffa82a5fdb0,shlwapi.UrlUnescapeW #927
+741a70,7ffa82a59ed0,shlwapi.StrCmpW #856
+741a78,7ffa82a612f0,shlwapi.StrStrW #893
+741a80,7ffa82a5ffa0,shlwapi.UrlCombineW #907
+741a88,7ffa82a5ccf0,shlwapi.PathIsURLW #715
+741a90,7ffa82a5bc60,shlwapi.UrlGetPartW #917
+741a98,7ffa82a5c160,shlwapi.StrRChrW #878
+741aa0,7ffa82a5dba0,shlwapi.PathRemoveExtensionW #737
+741aa8,7ffa82a5c390,shlwapi.PathRemoveFileSpecW #739
+741ab0,7ffa82a5a530,shlwapi.PathFindExtensionW #671
+741ab8,7ffa82a5d490,shlwapi.PathIsRelativeW #701
+741ac0,7ffa82a5c8e0,shlwapi.PathRemoveBackslashW #733
+741ac8,7ffa82a598a0,shlwapi.StrChrW #849
+741ad0,7ffa82a5a510,shlwapi.StrToIntW #899
+741ad8,7ffa82a5c140,shlwapi.StrCmpNW #855
+741ae0,7ffa82a5db40,shlwapi.UrlEscapeW #913
+741ae8,7ffa82a5b9e0,shlwapi.PathIsUNCW #713
+741af0,7ffa82a5a8c0,shlwapi.UrlIsW #925
+741af8,7ffa82a5c760,shlwapi.PathCanonicalizeW #656
+741b00,7ffa82a59e70,shlwapi.PathFindFileNameW #673
+741b08,7ffa82a5f280,shlwapi.PathCombineW #658
+741b18,7ffa83636670,user32.DispatchMessageW #1698
+741b20,7ffa836017e0,user32.PeekMessageW #2192
+741b28,7ffa83624540,user32.MsgWaitForMultipleObjectsEx #2169
+741b30,7ffa836023d0,user32.TranslateMessage #2452
+741b38,7ffa835ff890,user32.GetDesktopWindow #1834
+741b40,7ffa8363dd00,user32.LoadStringW #2126
+741b48,7ffa83662820,user32.GetUserObjectInformationW #1981
+741b50,7ffa83662740,user32.GetProcessWindowStation #1939
+741b58,7ffa8363c540,user32.InSendMessage #2032
+741b60,7ffa83602d10,user32.GetFocus #1852
+741b70,7ffa74274070,vcruntime140_1_clr0400.__CxxFrameHandler4 #1
+741b80,7ffa73b96630,vcruntime140_clr0400._CxxThrowException #2
+741b88,7ffa73b92250,vcruntime140_clr0400.wcsrchr #70
+741b90,7ffa73b912f0,vcruntime140_clr0400.memcpy #61
+741b98,7ffa73b9ef50,vcruntime140_clr0400.__C_specific_handler #9
+741ba0,7ffa73b96e30,vcruntime140_clr0400._purecall #55
+741ba8,7ffa73b911f0,vcruntime140_clr0400.memcmp #60
+741bb0,7ffa73b92300,vcruntime140_clr0400.wcsstr #71
+741bb8,7ffa73b91e90,vcruntime140_clr0400.strrchr #66
+741bc0,7ffa73b91e10,vcruntime140_clr0400.strchr #65
+741bc8,7ffa73b921d0,vcruntime140_clr0400.wcschr #69
+741bd0,7ffa73b926e0,vcruntime140_clr0400.__current_exception #28
+741bd8,7ffa73b92700,vcruntime140_clr0400.__current_exception_context #29
+741be0,7ffa73b964a0,vcruntime140_clr0400.__std_type_info_destroy_list #38
+741be8,7ffa73b919a0,vcruntime140_clr0400.memset #63
+741bf0,7ffa73b91170,vcruntime140_clr0400.memchr #59
+741bf8,7ffa73b912f0,vcruntime140_clr0400.memcpy #61
+741c08,7ffa83c927f0,kernel32.EnterCriticalSection #349
+741c10,7ffa83d2b6a0,kernel32.DeleteCriticalSection #309
+741c18,7ffa83d565c0,kernel32.InitializeCriticalSection #923
+741c20,7ffa83db8550,ntdll.vDbgPrintExWithPrefix #2499
+741c28,7ffa83c96bc0,ntdll.RtlVirtualUnwind #1649
+741c30,7ffa83d68db0,kernel32.VerSetConditionMask #1557
+741c38,7ffa83c93380,ntdll.RtlUnwindEx #1622
+741c40,7ffa83cf23d0,ntdll.RtlNtStatusToDosError #1333
+741c48,7ffa83d66a80,ntdll.RtlDeleteFunctionTable #919
+741c50,7ffa83d5ddb0,ntdll.RtlInstallFunctionTableCallback #1210
+741c58,7ffa83c93010,ntdll.RtlLookupFunctionEntry #1311
+741c60,7ffa83da3bd0,ntdll.RtlCaptureContext #787
+741c68,7ffa83d259f0,ntdll.RtlRestoreContext #1468
+741c70,7ffa83c928f0,kernel32.LeaveCriticalSection #1014
+741c80,7ffa728af8b0,ucrtbase_clr0400._wcsnicmp #797
+741c88,7ffa728acd50,ucrtbase_clr0400._time64 #741
+741c90,7ffa728aa300,ucrtbase_clr0400._mbsdup #510
+741c98,7ffa728937b0,ucrtbase_clr0400.fopen #1085
+741ca0,7ffa728973a0,ucrtbase_clr0400.fwrite #1100
+741ca8,7ffa72871b80,ucrtbase_clr0400.__stdio_common_vsnprintf_s #69
+741cb0,7ffa7289aa40,ucrtbase_clr0400._itow_s #427
+741cb8,7ffa728cb6f0,ucrtbase_clr0400.wcsnlen #1326
+741cc0,7ffa7288e420,ucrtbase_clr0400.fclose #1051
+741cc8,7ffa728c0e90,ucrtbase_clr0400.fputs #1088
+741cd0,7ffa72893730,ucrtbase_clr0400._wfopen #851
+741cd8,7ffa728881f0,ucrtbase_clr0400._crt_atexit #152
+741ce0,7ffa728ad1d0,ucrtbase_clr0400.toupper #1301
+741ce8,7ffa728d06d0,ucrtbase_clr0400.wcsncmp #1323
+741cf0,7ffa728d0460,ucrtbase_clr0400.wcscmp #1314
+741cf8,7ffa72868b10,ucrtbase_clr0400.isalpha #1117
+741d00,7ffa728cb380,ucrtbase_clr0400.strncpy_s #1271
+741d08,7ffa72890190,ucrtbase_clr0400.fflush #1066
+741d10,7ffa72887c80,ucrtbase_clr0400._copysign #145
+741d18,7ffa72892270,ucrtbase_clr0400._isnan #402
+741d20,7ffa72892120,ucrtbase_clr0400._finite #227
+741d28,7ffa728c3b60,ucrtbase_clr0400.modf #1191
+741d30,7ffa728c3c40,ucrtbase_clr0400.modff #1192
+741d38,7ffa728ad410,ucrtbase_clr0400.towupper #1304
+741d40,7ffa72897d50,ucrtbase_clr0400._invalid_parameter_noinfo #326
+741d48,7ffa7287c630,ucrtbase_clr0400.__stdio_common_vswscanf #78
+741d50,7ffa728ad300,ucrtbase_clr0400.towlower #1303
+741d58,7ffa72869410,ucrtbase_clr0400.iswupper #1140
+741d60,7ffa72882820,ucrtbase_clr0400._wtoi #905
+741d68,7ffa72871f40,ucrtbase_clr0400.__stdio_common_vsprintf #71
+741d70,7ffa72854dd0,ucrtbase_clr0400.__acrt_iob_func #24
+741d78,7ffa728cb180,ucrtbase_clr0400.strncmp #1269
+741d80,7ffa728abab0,ucrtbase_clr0400.wcstoull #1342
+741d88,7ffa72867560,ucrtbase_clr0400._errno #180
+741d90,7ffa7287c500,ucrtbase_clr0400.__stdio_common_vsscanf #74
+741d98,7ffa72868d30,ucrtbase_clr0400.isdigit #1120
+741da0,7ffa728aaa20,ucrtbase_clr0400._strnicmp #707
+741da8,7ffa728ca940,ucrtbase_clr0400.strcpy_s #1261
+741db0,7ffa728725e0,ucrtbase_clr0400.__stdio_common_vswprintf_p #76
+741db8,7ffa728cb470,ucrtbase_clr0400.strnlen #1272
+741dc0,7ffa728abf30,ucrtbase_clr0400.wcstoul #1341
+741dc8,7ffa72869480,ucrtbase_clr0400.iswascii #1130
+741dd0,7ffa728d05c0,ucrtbase_clr0400.wcsncat_s #1322
+741dd8,7ffa728af6d0,ucrtbase_clr0400._wcslwr_s #793
+741de0,7ffa72871d60,ucrtbase_clr0400.__stdio_common_vsnwprintf_s #70
+741de8,7ffa728c6bd0,ucrtbase_clr0400.qsort #1216
+741df0,7ffa72887c10,ucrtbase_clr0400._controlfp_s #144
+741df8,7ffa72872260,ucrtbase_clr0400.__stdio_common_vsprintf_s #73
+741e00,7ffa728ca840,ucrtbase_clr0400.strcat_s #1257
+741e08,7ffa72871460,ucrtbase_clr0400.__stdio_common_vfprintf #61
+741e10,7ffa728af1c0,ucrtbase_clr0400._wcsicmp #787
+741e18,7ffa728ca8d0,ucrtbase_clr0400.strcmp #1258
+741e20,7ffa728cae20,ucrtbase_clr0400.strlen #1266
+741e28,7ffa7289aa40,ucrtbase_clr0400._itow_s #427
+741e30,7ffa728726a0,ucrtbase_clr0400.__stdio_common_vswprintf_s #77
+741e38,7ffa728aa3c0,ucrtbase_clr0400._stricmp #697
+741e40,7ffa72872380,ucrtbase_clr0400.__stdio_common_vswprintf #75
+741e48,7ffa728d0750,ucrtbase_clr0400.wcsncpy_s #1325
+741e50,7ffa728d03d0,ucrtbase_clr0400.wcscat_s #1313
+741e58,7ffa728d04c0,ucrtbase_clr0400.wcscpy_s #1317
+741e60,7ffa72869400,ucrtbase_clr0400.iswspace #1139
+741e68,7ffa72851630,ucrtbase_clr0400._cexit #124
+741e70,7ffa72898610,ucrtbase_clr0400.terminate #1292
+741e78,7ffa728c9cc0,ucrtbase_clr0400.sinh #1251
+741e80,7ffa728717f0,ucrtbase_clr0400.__stdio_common_vfwprintf #65
+741e88,7ffa728d09c0,ucrtbase_clr0400.wcstok_s #1335
+741e90,7ffa72890180,ucrtbase_clr0400._flushall #229
+741e98,7ffa728a79a0,ucrtbase_clr0400._putws #631
+741ea0,7ffa728cb080,ucrtbase_clr0400.strncat_s #1268
+741ea8,7ffa728abdb0,ucrtbase_clr0400.strtoul #1283
+741eb0,7ffa7289ee40,ucrtbase_clr0400._wmakepath_s #862
+741eb8,7ffa728a9ed0,ucrtbase_clr0400._wsplitpath_s #890
+741ec0,7ffa728d0a80,ucrtbase_clr0400.wmemcpy_s #1350
+741ec8,7ffa72869200,ucrtbase_clr0400.isxdigit #1142
+741ed0,7ffa72869150,ucrtbase_clr0400.isupper #1127
+741ed8,7ffa72869420,ucrtbase_clr0400.iswxdigit #1141
+741ee0,7ffa728693b0,ucrtbase_clr0400.iswdigit #1134
+741ee8,7ffa7288b660,ucrtbase_clr0400._ecvt #175
+741ef0,7ffa728937c0,ucrtbase_clr0400.fopen_s #1086
+741ef8,7ffa728b4af0,ucrtbase_clr0400.bsearch #944
+741f00,7ffa7289aba0,ucrtbase_clr0400._initterm #324
+741f08,7ffa7289abf0,ucrtbase_clr0400._initterm_e #325
+741f10,7ffa728a9060,ucrtbase_clr0400._seh_filter_dll #651
+741f18,7ffa728878f0,ucrtbase_clr0400._configure_narrow_argv #140
+741f20,7ffa72869c70,ucrtbase_clr0400._initialize_narrow_environment #321
+741f28,7ffa72888250,ucrtbase_clr0400._initialize_onexit_table #322
+741f30,7ffa72888280,ucrtbase_clr0400._register_onexit_function #638
+741f38,7ffa728c3640,ucrtbase_clr0400.malloc #1177
+741f40,7ffa728c1210,ucrtbase_clr0400.free #1093
+741f48,7ffa72882b10,ucrtbase_clr0400.atoi #941
+741f50,7ffa72882b10,ucrtbase_clr0400.atoi #941
+741f58,7ffa72888200,ucrtbase_clr0400._execute_onexit_table #186
+741f60,7ffa728825e0,ucrtbase_clr0400.atoll #943
+741f68,7ffa728b2b70,ucrtbase_clr0400.acos #921
+741f70,7ffa728b32a0,ucrtbase_clr0400.asin #928
+741f78,7ffa728b3990,ucrtbase_clr0400.atan #933
+741f80,7ffa728b3bb0,ucrtbase_clr0400.atan2 #934
+741f88,7ffa728b9350,ucrtbase_clr0400.ceil #983
+741f90,7ffa728baf70,ucrtbase_clr0400.cosh #1008
+741f98,7ffa728bda70,ucrtbase_clr0400.exp #1042
+741fa0,7ffa728be9a0,ucrtbase_clr0400.floor #1072
+741fa8,7ffa728c08a0,ucrtbase_clr0400.fmod #1083
+741fb0,7ffa728c18f0,ucrtbase_clr0400.log #1158
+741fb8,7ffa728c1e20,ucrtbase_clr0400.log10 #1159
+741fc0,7ffa728c43d0,ucrtbase_clr0400.pow #1209
+741fc8,7ffa728cd2b0,ucrtbase_clr0400.tanh #1290
+---
+IAT at: 912b40, size: 30, thunks: 2, is_terminated: 1, in_main: 0
+---
+912b40,7ffa80f63a90,kernelbase.SleepConditionVariableCS #1732
+912b48,7ffa83cf7000,kernel32.WakeAllConditionVariable #1587
+---
+IAT at: 912c08, size: 78, thunks: 2, is_terminated: 1, in_main: 0
+---
+912c08,7ffa810c0410,kernelbase.SetSystemFileCacheSize #1691
+912c10,7ffa83de4520,ntdll.NtSetSystemInformation #633
+---
+IAT at: 912e28, size: 28, thunks: 4, is_terminated: 1, in_main: 0
+---
+912e28,7ffa80ff3d60,kernelbase.SetWaitableTimerEx #1725
+912e30,7ffa81ff6ef0,kernel32.CreateWaitableTimerExW #291
+912e38,7ffa83de1470,ntdll.NtQuerySystemInformation #530
+912e40,7ffa83de1250,ntdll.NtQueryInformationThread #503
+---
+IAT at: 912ed0, size: 10, thunks: 1, is_terminated: 1, in_main: 0
+---
+912ed0,7ffa81fdbf00,kernel32.SetThreadErrorMode #1445
+---
+IAT at: 914d80, size: 20, thunks: 3, is_terminated: 1, in_main: 0
+---
+914d80,7ffa73bb1890,mscoree.GetTargetForVTableEntry #31
+914d88,7ffa73bb1b20,mscoree.SetTargetForVTableEntry #37
+914d90,7ffa73bb1dd0,mscoree.GetTokenForVTableEntry #32
+---
+IAT at: 914f00, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+914f00,7ffa83c96bc0,ntdll.RtlVirtualUnwind #1649
+---
+IAT at: 91c8a8, size: 28, thunks: 1, is_terminated: 1, in_main: 0
+---
+91c8a8,7ffa81fe4990,kernel32.GetNumaHighestNodeNumber #701
+---
+IAT at: 91c910, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+91c910,7ffa81023f00,kernelbase.QuirkIsEnabled3 #1406
+---
+IAT at: 91c920, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+91c920,7ffa8106d870,kernelbase.QuirkGetData2 #1403
+---
+IAT at: 91d1f0, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+91d1f0,7ffa83cb93d0,kernel32.AcquireSRWLockExclusive #1
+---
+IAT at: 91d208, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+91d208,7ffa83cba130,kernel32.ReleaseSRWLockExclusive #1264
+---
+IAT at: 91e188, size: 20, thunks: 4, is_terminated: 0, in_main: 0
+---
+91e188,7ffa81fdf260,kernel32.FlsAlloc #456
+91e190,7ffa81fd6ce0,kernel32.FlsSetValue #460
+91e198,7ffa81fe20b0,kernel32.FlsFree #457
+91e1a0,7ffa81fb2a00,kernel32.FlsGetValue #458
+---
+IAT at: 922b28, size: 10, thunks: 2, is_terminated: 0, in_main: 0
+---
+922b28,7ffa82eaca30,advapi32.ConvertSidToStringSidW #1125
+922b30,7ffa822fee80,shell32.SHGetFolderPathW #506
+---
+IAT at: 922bf0, size: 70, thunks: e, is_terminated: 0, in_main: 0
+---
+922bf0,7ffa81fdf1e0,kernel32.GetUserDefaultLocaleName #849
+922bf8,7ffa81fc8130,kernel32.FindNLSStringEx #438
+922c00,7ffa81fc1d30,kernel32.CompareStringEx #183
+922c08,7ffa81fc19f0,kernel32.LCMapStringEx #1001
+922c10,7ffa81fd7ef0,kernel32.LocaleNameToLCID #1040
+922c18,7ffa81fe5770,kernel32.EnumTimeFormatsEx #387
+922c20,7ffa81ff7630,kernel32.GetCalendarInfoEx #505
+922c28,7ffa81fdceb0,kernel32.GetLocaleInfoEx #662
+922c30,7ffa81fe5290,kernel32.GetUserPreferredUILanguages #852
+922c38,7ffa81fe4890,kernel32.ResolveLocaleName #1291
+922c40,7ffa81fe3d80,kernel32.EnumCalendarInfoExEx #354
+922c48,7ffa81fd15a0,kernel32.CompareStringOrdinal #184
+922c50,7ffa81fc19f0,kernel32.LCMapStringEx #1001
+922c58,7ffa81fda8a0,kernel32.LCIDToLocaleName #999
+---
+IAT at: 922c78, size: 10, thunks: 2, is_terminated: 0, in_main: 0
+---
+922c78,7ffa81ff6280,kernel32.CreatePrivateNamespaceW #258
+922c80,7ffa81fe2070,kernel32.OpenPrivateNamespaceW #1092
+---
+IAT at: 922c90, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+922c90,7ffa81fe2e90,kernel32.DeleteBoundaryDescriptor #308
+---
+IAT at: 922ca0, size: 20, thunks: 2, is_terminated: 1, in_main: 0
+---
+922ca0,7ffa81fe3370,kernel32.AddSIDToBoundaryDescriptor #17
+922ca8,7ffa81fe29a0,kernel32.CreateBoundaryDescriptorW #209
+---
+IAT at: 922ce0, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+922ce0,7ffa73bb7790,mscoree.#24
+---
+IAT at: 927430, size: 2538, thunks: 1, is_terminated: 1, in_main: 0
+---
+927430,7ffa741f6f20,amsi.AmsiInitialize #2
+---
+IAT at: 983010, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983010,7ffa816c04e0,crypt32.CertGetCertificateContextProperty #1090
+---
+IAT at: 9830c0, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+9830c0,7ffa8169c9c0,crypt32.CertDuplicateCRLContext #1054
+---
+IAT at: 9830f8, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+9830f8,7ffa8169e8f0,crypt32.CertFreeCRLContext #1079
+---
+IAT at: 9831b8, size: 10, thunks: 2, is_terminated: 0, in_main: 0
+---
+9831b8,7ffa8299c490,oleaut32.SysStringByteLen #149
+9831c0,7ffa82a102d0,oleaut32.VariantClear #9
+---
+IAT at: 9832e8, size: 20, thunks: 3, is_terminated: 1, in_main: 0
+---
+9832e8,7ffa64b11030,version.VerQueryValueW #17
+9832f0,7ffa64b11050,version.GetFileVersionInfoW #9
+9832f8,7ffa64b11010,version.GetFileVersionInfoSizeW #8
+---
+IAT at: 983388, size: 10, thunks: 2, is_terminated: 0, in_main: 0
+---
+983388,7ffa82aec6f0,combase.RoInitialize #555
+983390,7ffa82b10690,combase.RoUninitialize #572
+---
+IAT at: 9833a8, size: 10, thunks: 1, is_terminated: 1, in_main: 0
+---
+9833a8,7ffa82b8bcd0,combase.RoGetParameterizedTypeInstanceIID #553
+---
+IAT at: 9833c0, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+9833c0,7ffa82b49070,combase.WindowsCreateString #591
+---
+IAT at: 983410, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983410,7ffa73bb6f00,mscoree.GetProcessExecutableHeap #29
+---
+IAT at: 983430, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983430,7ffa73bb1750,mscoree.CreateConfigStream #58
+---
+IAT at: 9834f0, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+9834f0,7ffa82bd7830,combase.CoGetContextToken #287
+---
+IAT at: 983538, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983538,7ffa82b08850,combase.CoWaitForMultipleHandles #364
+---
+IAT at: 983548, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983548,7ffa82b12980,combase.CoTaskMemFree #353
+---
+IAT at: 983558, size: 10, thunks: 2, is_terminated: 0, in_main: 0
+---
+983558,7ffa82b27c10,combase.CoTaskMemAlloc #352
+983560,7ffa82ae59e0,combase.CoCreateGuid #260
+---
+IAT at: 983570, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983570,7ffa82b106b0,combase.CoUninitialize #357
+---
+IAT at: 983580, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+983580,7ffa82b109e0,combase.CoInitializeEx #308
+---
+IAT at: 9835b0, size: a50, thunks: 1, is_terminated: 1, in_main: 0
+---
+9835b0,7ffa6ff8e300,urlmon.CoInternetCreateSecurityManager #135

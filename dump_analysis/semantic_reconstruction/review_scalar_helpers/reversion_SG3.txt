@@ -1,0 +1,2 @@
+PASS isolated reversion SG3 rejected: terminate called after throwing an instance of 'std::runtime_error'
+  what():  projectile leaf fixture

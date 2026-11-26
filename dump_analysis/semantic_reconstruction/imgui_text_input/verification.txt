@@ -1,0 +1,2 @@
+Compile imgui_text_input_checks.cpp
+PASS GCC15 strict C++20 text input primitive fixtures strict

@@ -1,0 +1,6 @@
+3ab080 sub    rsp,0x28
+3ab084 xor    edx,edx
+3ab086 call   0x3aafe4
+3ab08b mov    edx,0x2
+3ab090 add    rsp,0x28
+3ab094 jmp    0x3aaf3c

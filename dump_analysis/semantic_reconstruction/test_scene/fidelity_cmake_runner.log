@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "inputs_unchanged": true,
+  "steps": [
+    {
+      "step": "configure",
+      "exit_code": 0,
+      "command": [
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/cmake",
+        "-S",
+        "/home/john/Desktop/cheat_re/source",
+        "-B",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/cmake_native",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/ninja",
+        "-DCMAKE_CXX_COMPILER=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/bin/x86_64-linux-gnu-g++-15",
+        "-DCMAKE_CXX_FLAGS=--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain -B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15/ -B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15/ -L/usr/lib/x86_64-linux-gnu",
+        "-DRE_BUILD_WINDOWS_BASE=OFF",
+        "-DRE_BUILD_OFFLINE_RECONSTRUCTION=OFF",
+        "-DRE_BUILD_TEST_SCENE=ON"
+      ],
+      "log": "dump_analysis/semantic_reconstruction/test_scene/cmake_configure.log",
+      "log_sha256": "049a4263268b680a942cd77be5a63b32d0260ee1e982750501f383587eb5c466"
+    },
+    {
+      "step": "build",
+      "exit_code": 0,
+      "command": [
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/cmake",
+        "--build",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/cmake_native",
+        "--parallel",
+        "2"
+      ],
+      "log": "dump_analysis/semantic_reconstruction/test_scene/cmake_build.log",
+      "log_sha256": "bd9a51d6f338338f3675f74e5c8fc58817b283305824676efad5ce3fb5e47666"
+    },
+    {
+      "step": "ctest",
+      "exit_code": 0,
+      "command": [
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/windows_base/cmake_toolchain/usr/bin/ctest",
+        "--test-dir",
+        "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/cmake_native",
+        "--output-on-failure"
+      ],
+      "log": "dump_analysis/semantic_reconstruction/test_scene/cmake_ctest.log",
+      "log_sha256": "234ea6864299c0cf88d0ba91397a08eda21a4eaabdd35005f494da94478b1f3c"
+    }
+  ],
+  "snapshot_sha256": "aceb7c7983473d11074791efb664f3011261248a39d7b8e7ecf5f4c9de21ca59",
+  "runner_sha256": "111d8ee5273d0d99c66f5480b11f71fb2d070ccb21b0a86235c24e3d7f36e461",
+  "artifact": "dump_analysis/semantic_reconstruction/test_scene/cmake_native/test_scene/owned_scene",
+  "artifact_sha256": "bfcf5e827dbd0bb5361782e72d720a773ec0e8b5a7ac693a1a06c7b57e427d82",
+  "scope": "Owned Linux CMake/CTest only; not native Windows or inside Rust"
+}

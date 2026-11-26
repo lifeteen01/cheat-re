@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "mode": "strict",
+  "sources": {
+    "source/test_scene/frame.cpp": "6aff003f06ddf991d1f4f3fd7debaaf8fc5fd868fb4a45000e4d51e73ad37455",
+    "source/test_scene/frame_checks.cpp": "88fa11d50b0e7329d332861a3773f20cfa895bcc3db1256b0d113e5f9be687ad",
+    "source/test_scene/owned_client.cpp": "745f5f2ef81a364a7144b3756d368632593efdae4538e24ef0c3a49898eca8c5",
+    "source/test_scene/resources.cpp": "d6ca375a54a6d0dd050dd5f5b14769374dcfc0b0ac1e3daced7ba773ebdea5d7",
+    "source/reconstructed/01_hooks.cpp": "907591ccbabe9b1ce4d26e3519c39e4402ae920b41026f65cefade58dc614d34",
+    "source/reconstructed/hook_setup_analysis.cpp": "82d4107c12d921dbcb61ffc5606cab98a6a8c349ea6accab8b07f0bcd98e7dcb",
+    "source/test_scene/frame.hpp": "72cf80673a7eec8774e56dff016246e6921b667eab753b75d48f026c643fabaa",
+    "source/test_scene/owned_client.hpp": "f3ec4b95e679b35e970108fa63b6219dbc16009f511fc775c9056ca0e0dce1df",
+    "source/test_scene/scene.hpp": "57c3be6aa2b4a4d7426257cdf6321ba91a40420040842b6c0248842af1ebb506"
+  },
+  "original_manifest_entries": 135,
+  "originals_unchanged": true,
+  "archive_sha256": "2b7ae4844ce388781c0dae97b9e46b18ba107d841ad495787cc43189140b4b19",
+  "executable_sha256": "3be9cf6e5e07fa5e2f2f0efa715497d0b0ad49046445d1cdb85159076bcdf2d5",
+  "compiler_sha256": "e6718f7e0c7d057c3ff77b550c603da9bc4030e3ede3c053705acce1293dbe4d",
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15/",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15/",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed",
+    "-I/home/john/Desktop/cheat_re/source/test_scene"
+  ]
+}

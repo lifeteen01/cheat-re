@@ -1,0 +1,9 @@
+Compile frame_residuals_state.cpp
+Compile frame_residuals_raid.cpp
+Compile frame_preview_analysis.cpp
+Compile frame_preview_geometry.cpp
+Compile frame_preview_widgets.cpp
+Compile frame_residuals_checks.cpp
+Compile frame_residuals_main.cpp
+Link 36 sources
+PASS: GCC15 C++20 frame residual/preview fixtures (strict)

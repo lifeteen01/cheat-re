@@ -1,0 +1,3 @@
+394354	cmp    ecx,0x1ff
+39435a	setbe  al
+39435d	ret

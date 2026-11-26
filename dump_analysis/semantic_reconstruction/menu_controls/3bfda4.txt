@@ -1,0 +1,44 @@
+3bfda4	lea    eax,[r8-0x4]
+3bfda8	cmp    eax,0x1
+3bfdab	jbe    0x3bfe25
+3bfdad	lea    eax,[r8-0x6]
+3bfdb1	cmp    eax,0x1
+3bfdb4	jbe    0x3bfe15
+3bfdb6	cmp    r8d,0x8
+3bfdba	jne    0x3bfdd6
+3bfdbc	movss  xmm3,DWORD PTR [r9]
+3bfdc1	cvtps2pd xmm3,xmm3
+3bfdc4	mov    r8,QWORD PTR [rsp+0x28]
+3bfdc9	movq   r9,xmm3
+3bfdce	movsxd rdx,edx
+3bfdd1	jmp    0x393110
+3bfdd6	cmp    r8d,0x9
+3bfdda	jne    0x3bfde3
+3bfddc	movsd  xmm3,QWORD PTR [r9]
+3bfde1	jmp    0x3bfdc4
+3bfde3	test   r8d,r8d
+3bfde6	jne    0x3bfdee
+3bfde8	movsx  r9d,BYTE PTR [r9]
+3bfdec	jmp    0x3bfe28
+3bfdee	cmp    r8d,0x1
+3bfdf2	jne    0x3bfdfa
+3bfdf4	movzx  r9d,BYTE PTR [r9]
+3bfdf8	jmp    0x3bfe28
+3bfdfa	cmp    r8d,0x2
+3bfdfe	jne    0x3bfe06
+3bfe00	movsx  r9d,WORD PTR [r9]
+3bfe04	jmp    0x3bfe28
+3bfe06	cmp    r8d,0x3
+3bfe0a	jne    0x3bfe12
+3bfe0c	movzx  r9d,WORD PTR [r9]
+3bfe10	jmp    0x3bfe28
+3bfe12	xor    eax,eax
+3bfe14	ret
+3bfe15	mov    r9,QWORD PTR [r9]
+3bfe18	mov    r8,QWORD PTR [rsp+0x28]
+3bfe1d	movsxd rdx,edx
+3bfe20	jmp    0x393110
+3bfe25	mov    r9d,DWORD PTR [r9]
+3bfe28	mov    r8,QWORD PTR [rsp+0x28]
+3bfe2d	movsxd rdx,edx
+3bfe30	jmp    0x393110

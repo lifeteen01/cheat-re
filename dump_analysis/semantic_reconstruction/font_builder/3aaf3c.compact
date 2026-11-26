@@ -1,0 +1,18 @@
+3aaf3c rex push rbx
+3aaf3e sub    rsp,0x20
+3aaf42 xor    r10d,r10d
+3aaf45 mov    r11d,edx
+3aaf48 mov    rbx,rcx
+3aaf4b test   edx,edx
+3aaf4d jle    0x3aaf68
+3aaf4f mov    rcx,rbx
+3aaf52 call   0x3aaf1c
+3aaf57 shl    r10d,0x8
+3aaf5b movzx  r9d,al
+3aaf5f or     r10d,r9d
+3aaf62 sub    r11d,0x1
+3aaf66 jne    0x3aaf4f
+3aaf68 mov    eax,r10d
+3aaf6b add    rsp,0x20
+3aaf6f pop    rbx
+3aaf70 ret

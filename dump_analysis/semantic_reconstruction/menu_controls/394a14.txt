@@ -1,0 +1,86 @@
+394a14	rex push rbx
+394a16	push   rbp
+394a17	push   rsi
+394a18	push   rdi
+394a19	push   r14
+394a1b	push   r15
+394a1d	sub    rsp,0x48
+394a21	mov    rbx,QWORD PTR [rip+0x71100]        # 0x405b28
+394a28	mov    edi,edx
+394a2a	mov    r14,rcx
+394a2d	mov    eax,DWORD PTR [rbx+0x3f54]
+394a33	test   eax,eax
+394a35	je     0x394a48
+394a37	cmp    eax,edx
+394a39	je     0x394a48
+394a3b	cmp    BYTE PTR [rbx+0x3f5c],0x0
+394a42	je     0x394acc
+394a48	mov    rsi,QWORD PTR [rbx+0x3f08]
+394a4f	cmp    QWORD PTR [rbx+0x3f10],rsi
+394a56	jne    0x394acc
+394a58	mov    eax,DWORD PTR [rbx+0x3f68]
+394a5e	test   eax,eax
+394a60	je     0x394a6f
+394a62	cmp    eax,edi
+394a64	je     0x394a6f
+394a66	cmp    BYTE PTR [rbx+0x3f75],0x0
+394a6d	je     0x394acc
+394a6f	mov    r8b,0x1
+394a72	lea    rdx,[rcx+0x8]
+394a76	call   0x3944ac
+394a7b	test   al,al
+394a7d	je     0x394acc
+394a7f	cmp    DWORD PTR [rbx+0x47a4],edi
+394a85	mov    eax,0x47a8
+394a8a	lea    ecx,[rax-0x20]
+394a8d	cmovne eax,ecx
+394a90	mov    ebp,DWORD PTR [rax+rbx*1]
+394a93	bt     ebp,0x8
+394a97	jb     0x394aa7
+394a99	xor    edx,edx
+394a9b	mov    rcx,rsi
+394a9e	call   0x394784
+394aa3	test   al,al
+394aa5	je     0x394ac5
+394aa7	test   edi,edi
+394aa9	je     0x394ab2
+394aab	mov    ecx,edi
+394aad	call   0x39b52c
+394ab2	test   bpl,0x4
+394ab6	je     0x394adb
+394ab8	cmp    DWORD PTR [rbx+0x3f68],edi
+394abe	jne    0x394ac5
+394ac0	call   0x390078
+394ac5	mov    BYTE PTR [rbx+0x3f5d],0x1
+394acc	xor    al,al
+394ace	add    rsp,0x48
+394ad2	pop    r15
+394ad4	pop    r14
+394ad6	pop    rdi
+394ad7	pop    rsi
+394ad8	pop    rbp
+394ad9	pop    rbx
+394ada	ret
+394adb	test   edi,edi
+394add	je     0x394b32
+394adf	cmp    BYTE PTR [rbx+0x5d03],0x0
+394ae6	je     0x394b29
+394ae8	cmp    DWORD PTR [rbx+0x3f58],edi
+394aee	jne    0x394b29
+394af0	call   0x3925a4
+394af5	movss  xmm0,DWORD PTR [rip+0xffffffffffef8757]        # 0x28d254
+394afd	lea    r8,[r14+0x8]
+394b01	movss  DWORD PTR [rsp+0x30],xmm0
+394b07	xorps  xmm1,xmm1
+394b0a	mov    DWORD PTR [rsp+0x28],0x0
+394b12	mov    rcx,rax
+394b15	mov    r9d,0xff00ffff
+394b1b	movss  DWORD PTR [rsp+0x20],xmm1
+394b21	mov    rdx,r14
+394b24	call   0x3a1148
+394b29	cmp    DWORD PTR [rbx+0x5d08],edi
+394b2f	jne    0x394b32
+394b31	int3
+394b32	cmp    BYTE PTR [rbx+0x4927],0x0
+394b39	sete   al
+394b3c	jmp    0x394ace

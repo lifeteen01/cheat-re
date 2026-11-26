@@ -1,0 +1,13 @@
+362efc mov    r9d,DWORD PTR [rcx+0x4]
+362f00 mov    r8d,edx
+362f03 test   r9d,r9d
+362f06 je     0x362f15
+362f08 mov    eax,r9d
+362f0b cdq
+362f0c sub    eax,edx
+362f0e sar    eax,1
+362f10 add    eax,r9d
+362f13 jmp    0x362f1a
+362f15 mov    eax,0x8
+362f1a cmp    eax,r8d
+362f1d cmovg  r8d,eax

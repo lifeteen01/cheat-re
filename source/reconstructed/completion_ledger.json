@@ -1,0 +1,2659 @@
+{
+  "schema_version": 1,
+  "goal_state": "blocked",
+  "confidence_legend": {
+    "C": "byte/test confirmed",
+    "I": "analyst scope/name",
+    "U": "unresolved"
+  },
+  "completion_rule": "No required unit may remain pending, in_progress, translated, inventory_required, audit_required or artifact_required. Passing compilation alone does not close a unit.",
+  "scope_constraints": [
+    "Offline owned data only",
+    "No sample execution, upload or IOC contact",
+    "Spoof-call executor detection-level only"
+  ],
+  "units": [
+    {
+      "id": "main_movement",
+      "area": "movement",
+      "rvas": [
+        "0x324b30..0x32911e"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/movement_main_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/movement_main_verification.txt",
+        "dump_analysis/semantic_reconstruction/movement_main_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/movement_main_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/movement_main_byte_audit.txt",
+        "dump_analysis/semantic_reconstruction/review_movement/REPORT.md",
+        "dump_analysis/semantic_reconstruction/review_movement/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_movement/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_movement/byte_audit.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Scoped independent movement audit corrected M1-M3; remaining unreviewed helpers/branches are explicitly listed in review_movement/REPORT.md",
+        "Existing game/physics/getter callbacks need concrete domain binding or matching implementations",
+        "Launch formatting requires copied unwritten stack qword; explicit input, not invented"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "automation",
+      "area": "interaction",
+      "rvas": [
+        "0x2e6b20..0x2e890d",
+        "0x2e91fc"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "interaction_workers",
+      "implementation": [
+        "source/reconstructed/interaction_workers.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/interaction_verification.txt",
+        "dump_analysis/semantic_reconstruction/interaction_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/interaction_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/interaction_byte_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_interaction/review.md",
+        "dump_analysis/semantic_reconstruction/review_interaction/release.json",
+        "dump_analysis/semantic_reconstruction/review_interaction/source_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_interaction/source_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/windows_shadows_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Scoped byte/effect review corrected I1 captured flags and I2 transfer acquisition order; strict/sanitizer and isolated reversions pass; 289-input combined strict/sanitizer pass unchanged",
+        "Delayed lock class-name byte aliasing remains an explicit owned-string boundary (L1); matching game/physics effects and live ABI remain outside copied-data reconstruction"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "melee_farming",
+      "area": "interaction",
+      "rvas": [
+        "0x2e12e0..0x2e231d"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "interaction_workers",
+      "implementation": [
+        "source/reconstructed/interaction_workers.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/interaction_verification.txt",
+        "dump_analysis/semantic_reconstruction/interaction_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/interaction_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/interaction_byte_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_interaction/review.md",
+        "dump_analysis/semantic_reconstruction/review_interaction/release.json",
+        "dump_analysis/semantic_reconstruction/review_interaction/source_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_interaction/source_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/windows_shadows_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Scoped byte/effect review corrected I1 captured flags and I2 transfer acquisition order; strict/sanitizer and isolated reversions pass; 289-input combined strict/sanitizer pass unchanged",
+        "Delayed lock class-name byte aliasing remains an explicit owned-string boundary (L1); matching game/physics effects and live ABI remain outside copied-data reconstruction"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "classifier_remainder",
+      "area": "entities",
+      "rvas": [
+        "0x31acd0..0x31fe4a"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/world_esp_dropped.cpp",
+        "source/reconstructed/world_esp_players.cpp",
+        "source/reconstructed/world_esp_player_radar.cpp",
+        "source/reconstructed/world_esp_cached.cpp",
+        "source/reconstructed/world_esp_owner_data.cpp",
+        "source/reconstructed/world_esp_player_worker.cpp",
+        "source/reconstructed/world_esp_simulation_worker.cpp",
+        "source/reconstructed/world_esp_skeleton_tables.cpp",
+        "source/reconstructed/world_esp_draw.cpp",
+        "source/reconstructed/world_esp_analysis.cpp",
+        "source/reconstructed/world_esp_labels.cpp",
+        "source/reconstructed/world_esp_fishing.cpp",
+        "source/reconstructed/world_esp_overlay_aux.cpp",
+        "source/reconstructed/world_esp_player_labels.cpp",
+        "source/reconstructed/world_esp_item_names.cpp",
+        "source/reconstructed/world_esp_player_actions.cpp",
+        "source/reconstructed/world_esp_bounds.cpp",
+        "source/reconstructed/world_esp_classifier_tables.cpp",
+        "source/reconstructed/world_esp_windows.cpp",
+        "source/reconstructed/world_esp_overlay.cpp",
+        "source/reconstructed/world_esp_worker.cpp",
+        "source/reconstructed/world_esp_status.cpp",
+        "source/reconstructed/world_esp_overlay_worker.cpp",
+        "source/reconstructed/world_esp_overlay_controls.cpp",
+        "source/reconstructed/world_esp_inventory_tooltip.cpp",
+        "source/reconstructed/world_esp_draw_tables.cpp",
+        "source/reconstructed/world_esp_coverage.cpp",
+        "source/reconstructed/world_esp_grid.cpp",
+        "source/reconstructed/world_esp_names.cpp",
+        "source/reconstructed/world_esp_simulation.cpp",
+        "source/reconstructed/world_esp_interaction.cpp",
+        "source/reconstructed/world_esp_category_data.cpp",
+        "source/reconstructed/world_esp_turret.cpp",
+        "source/reconstructed/world_esp_overlay_tail.cpp",
+        "source/reconstructed/world_esp_sign_status.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/world_esp/verification.txt",
+        "dump_analysis/semantic_reconstruction/world_esp/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/world_esp/audit.json",
+        "dump_analysis/semantic_reconstruction/world_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit and full matching-domain binding",
+        "Native widget/background/font/icon/ImGui/raster helper closure tracked separately",
+        "Copied omitted varargs and matching game/Unity effects remain explicit data/effect boundaries"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "world_draw",
+      "area": "entities",
+      "rvas": [
+        "0x2fb72c..0x307637"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/world_esp_dropped.cpp",
+        "source/reconstructed/world_esp_players.cpp",
+        "source/reconstructed/world_esp_player_radar.cpp",
+        "source/reconstructed/world_esp_cached.cpp",
+        "source/reconstructed/world_esp_owner_data.cpp",
+        "source/reconstructed/world_esp_player_worker.cpp",
+        "source/reconstructed/world_esp_simulation_worker.cpp",
+        "source/reconstructed/world_esp_skeleton_tables.cpp",
+        "source/reconstructed/world_esp_draw.cpp",
+        "source/reconstructed/world_esp_analysis.cpp",
+        "source/reconstructed/world_esp_labels.cpp",
+        "source/reconstructed/world_esp_fishing.cpp",
+        "source/reconstructed/world_esp_overlay_aux.cpp",
+        "source/reconstructed/world_esp_player_labels.cpp",
+        "source/reconstructed/world_esp_item_names.cpp",
+        "source/reconstructed/world_esp_player_actions.cpp",
+        "source/reconstructed/world_esp_bounds.cpp",
+        "source/reconstructed/world_esp_classifier_tables.cpp",
+        "source/reconstructed/world_esp_windows.cpp",
+        "source/reconstructed/world_esp_overlay.cpp",
+        "source/reconstructed/world_esp_worker.cpp",
+        "source/reconstructed/world_esp_status.cpp",
+        "source/reconstructed/world_esp_overlay_worker.cpp",
+        "source/reconstructed/world_esp_overlay_controls.cpp",
+        "source/reconstructed/world_esp_inventory_tooltip.cpp",
+        "source/reconstructed/world_esp_draw_tables.cpp",
+        "source/reconstructed/world_esp_coverage.cpp",
+        "source/reconstructed/world_esp_grid.cpp",
+        "source/reconstructed/world_esp_names.cpp",
+        "source/reconstructed/world_esp_simulation.cpp",
+        "source/reconstructed/world_esp_interaction.cpp",
+        "source/reconstructed/world_esp_category_data.cpp",
+        "source/reconstructed/world_esp_turret.cpp",
+        "source/reconstructed/world_esp_overlay_tail.cpp",
+        "source/reconstructed/world_esp_sign_status.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/world_esp/verification.txt",
+        "dump_analysis/semantic_reconstruction/world_esp/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/world_esp/audit.json",
+        "dump_analysis/semantic_reconstruction/world_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit and full matching-domain binding",
+        "Native widget/background/font/icon/ImGui/raster helper closure tracked separately",
+        "Copied omitted varargs and matching game/Unity effects remain explicit data/effect boundaries"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "player_overlay",
+      "area": "entities",
+      "rvas": [
+        "0x3098a4..0x314929"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/world_esp_dropped.cpp",
+        "source/reconstructed/world_esp_players.cpp",
+        "source/reconstructed/world_esp_player_radar.cpp",
+        "source/reconstructed/world_esp_cached.cpp",
+        "source/reconstructed/world_esp_owner_data.cpp",
+        "source/reconstructed/world_esp_player_worker.cpp",
+        "source/reconstructed/world_esp_simulation_worker.cpp",
+        "source/reconstructed/world_esp_skeleton_tables.cpp",
+        "source/reconstructed/world_esp_draw.cpp",
+        "source/reconstructed/world_esp_analysis.cpp",
+        "source/reconstructed/world_esp_labels.cpp",
+        "source/reconstructed/world_esp_fishing.cpp",
+        "source/reconstructed/world_esp_overlay_aux.cpp",
+        "source/reconstructed/world_esp_player_labels.cpp",
+        "source/reconstructed/world_esp_item_names.cpp",
+        "source/reconstructed/world_esp_player_actions.cpp",
+        "source/reconstructed/world_esp_bounds.cpp",
+        "source/reconstructed/world_esp_classifier_tables.cpp",
+        "source/reconstructed/world_esp_windows.cpp",
+        "source/reconstructed/world_esp_overlay.cpp",
+        "source/reconstructed/world_esp_worker.cpp",
+        "source/reconstructed/world_esp_status.cpp",
+        "source/reconstructed/world_esp_overlay_worker.cpp",
+        "source/reconstructed/world_esp_overlay_controls.cpp",
+        "source/reconstructed/world_esp_inventory_tooltip.cpp",
+        "source/reconstructed/world_esp_draw_tables.cpp",
+        "source/reconstructed/world_esp_coverage.cpp",
+        "source/reconstructed/world_esp_grid.cpp",
+        "source/reconstructed/world_esp_names.cpp",
+        "source/reconstructed/world_esp_simulation.cpp",
+        "source/reconstructed/world_esp_interaction.cpp",
+        "source/reconstructed/world_esp_category_data.cpp",
+        "source/reconstructed/world_esp_turret.cpp",
+        "source/reconstructed/world_esp_overlay_tail.cpp",
+        "source/reconstructed/world_esp_sign_status.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/world_esp/verification.txt",
+        "dump_analysis/semantic_reconstruction/world_esp/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/world_esp/audit.json",
+        "dump_analysis/semantic_reconstruction/world_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit and full matching-domain binding",
+        "Native widget/background/font/icon/ImGui/raster helper closure tracked separately",
+        "Copied omitted varargs and matching game/Unity effects remain explicit data/effect boundaries",
+        "Key-first widget preparation replaces index assignment; fullvector renderer adapter in progress"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "game_base_helpers",
+      "area": "game_base",
+      "rvas": [
+        "0x2e0e9c",
+        "0x2e5a54",
+        "0x367668",
+        "0x3693b0",
+        "0x369df4",
+        "0x36a178",
+        "0x36acb8",
+        "0x36b288",
+        "0x36a20c",
+        "0x369738",
+        "0x36a2c8",
+        "0x369400",
+        "0x36ca34",
+        "0x36cd20",
+        "0x36c638",
+        "0x368cb0",
+        "0x36b758",
+        "0x31530c",
+        "0x2d7e18",
+        "0x2f7dd0..0x2f8034",
+        "0x2f824c..0x2f84e8"
+      ],
+      "required": true,
+      "confidence": "I",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/game_base_analysis.cpp",
+        "source/reconstructed/snapshot_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/game_base_verification.txt",
+        "dump_analysis/semantic_reconstruction/game_base_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/snapshot_binding_verification.txt",
+        "dump_analysis/semantic_reconstruction/snapshot_binding_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Expand bindings across remaining domain interfaces; game implementations remain external"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "sky_detour",
+      "area": "hooks",
+      "rvas": [
+        "0x32f408..0x32fac3",
+        "0x2ce718..0x2ce790"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/sky_model_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/sky_model/verification.txt",
+        "dump_analysis/semantic_reconstruction/sky_model/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/sky_model/byte_audit.json",
+        "dump_analysis/semantic_reconstruction/sky_model_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_sky_string/verification.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Bind numeric export targets to concrete resolver; matching Unity/IL2CPP effects remain external",
+        "Old managed-string helper2ce718 dispatcher-before-bit2 ordering and shared one-argument staging corrected; native120byte audit and isolated old-body mutation reject the original prefix; broader Sky export/controller review remains open"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "helicopter_aim",
+      "area": "aim",
+      "rvas": [
+        "0x2fa300..0x2fabf6"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "helicopter_aim",
+      "implementation": [
+        "source/reconstructed/helicopter_aim_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/helicopter_aim/build_verification.txt",
+        "dump_analysis/semantic_reconstruction/helicopter_aim/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/helicopter_aim/byte_branch_audit.json",
+        "dump_analysis/semantic_reconstruction/helicopter_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Required game/helper/prediction composition remains tracked; no fabricated game results"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "launcher_aim",
+      "area": "aim",
+      "rvas": [
+        "0x317c3c..0x3185a0"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/movement_main_analysis.cpp",
+        "source/reconstructed/launcher_worker_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/movement_main_verification.txt",
+        "dump_analysis/semantic_reconstruction/movement_main_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/movement_main_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/movement_main_byte_audit.txt",
+        "dump_analysis/semantic_reconstruction/review_movement/REPORT.md",
+        "dump_analysis/semantic_reconstruction/review_movement/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_movement/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_movement/byte_audit.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Scoped independent movement audit corrected M1-M3; remaining unreviewed helpers/branches are explicitly listed in review_movement/REPORT.md",
+        "Existing game/physics/getter callbacks need concrete domain binding or matching implementations",
+        "Launch formatting requires copied unwritten stack qword; explicit input, not invented"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "model_chams",
+      "area": "rendering",
+      "rvas": [
+        "0x36a464..0x36ac75"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/sky_model_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/sky_model/verification.txt",
+        "dump_analysis/semantic_reconstruction/sky_model/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/sky_model/byte_audit.json",
+        "dump_analysis/semantic_reconstruction/sky_model_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Bind numeric export targets to concrete resolver; matching Unity/IL2CPP effects remain external"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "unity_backend",
+      "area": "rendering",
+      "rvas": [
+        "0x3b2b38",
+        "0x3b337c",
+        "0x3b3028",
+        "0x3b1a94",
+        "0x3b4250",
+        "0x3b2004"
+      ],
+      "required": true,
+      "confidence": "I",
+      "status": "translated",
+      "owner": "unity_backend",
+      "implementation": [
+        "source/reconstructed/unity_backend_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/unity_backend/verification.txt",
+        "dump_analysis/semantic_reconstruction/unity_backend/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/backend_wrappers_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Frame configuration/menu/local setup closure tracked separately",
+        "Native collection/cache aliases and full cross-domain composition remain open"
+      ],
+      "current_priority": "minimum_path_dependency",
+      "minimum_base_required": true
+    },
+    {
+      "id": "frame_integration",
+      "area": "rendering",
+      "rvas": [
+        "0x2f8574..0x2f8dae"
+      ],
+      "required": true,
+      "confidence": "I",
+      "status": "translated",
+      "owner": "unity_backend",
+      "implementation": [
+        "source/reconstructed/unity_backend_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/unity_backend/verification.txt",
+        "dump_analysis/semantic_reconstruction/unity_backend/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/backend_wrappers_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Frame configuration/menu/local setup closure tracked separately",
+        "Native collection/cache aliases and full cross-domain composition remain open"
+      ],
+      "current_priority": "minimum_path_dependency",
+      "minimum_base_required": true
+    },
+    {
+      "id": "metadata_export_adapters",
+      "area": "game_base",
+      "rvas": [
+        "0x334224",
+        "0x33416c",
+        "0x334960",
+        "0x3349ac",
+        "0x334a90",
+        "0x333d10"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/metadata_analysis.cpp",
+        "source/reconstructed/metadata_export_analysis.cpp",
+        "source/reconstructed/metadata_signature_analysis.cpp",
+        "source/reconstructed/metadata_wrapper_analysis.cpp",
+        "source/reconstructed/metadata_argument_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/metadata_export_verification.txt",
+        "dump_analysis/semantic_reconstruction/metadata_export_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/metadata_signature_constants.json",
+        "dump_analysis/semantic_reconstruction/metadata_signature_verification.txt",
+        "dump_analysis/semantic_reconstruction/metadata_signature_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/guarded_selector_verification.txt",
+        "dump_analysis/semantic_reconstruction/field_wrappers/verification.txt",
+        "dump_analysis/semantic_reconstruction/field_wrappers/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/metadata_arguments/audit.json",
+        "dump_analysis/semantic_reconstruction/metadata_arguments/verification.txt",
+        "dump_analysis/semantic_reconstruction/metadata_arguments/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Nine metadata wrappers and supplemental descriptor reviewed against fresh bytes; six local known argument-packaging helpers now concrete with focused strict/sanitizer passes",
+        "Next combined integration and wider selector/export audit remain open; owned vectors/references do not fabricate native scratch-pointer values",
+        "Matching external IL2CPP implementations/ABI remain tracked by the artifact unit; executor stays detection-only"
+      ],
+      "current_priority": "minimum_path_dependency",
+      "minimum_base_required": true
+    },
+    {
+      "id": "sample_containers",
+      "area": "game_base",
+      "rvas": [
+        "0x2ef724",
+        "0x2df608",
+        "0x32b838",
+        "0x32cb8c",
+        "0x3176bc",
+        "0x3177b4"
+      ],
+      "required": true,
+      "confidence": "I",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/projectile_container_analysis.cpp",
+        "source/reconstructed/registry_analysis.cpp",
+        "source/reconstructed/registry_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/projectile_container_verification.txt",
+        "dump_analysis/semantic_reconstruction/projectile_container_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/registries/verification.txt",
+        "dump_analysis/semantic_reconstruction/registries/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/registry_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit",
+        "Owned snapshot/container adaptation preserves key/payload/list/growth; original heap/header ABI not claimed",
+        "Entity insertion/clears still in incoming frame/world scope"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "projectile_folded_ranges",
+      "area": "projectiles",
+      "rvas": [
+        "0x32c2d9..0x32c3c4",
+        "0x32c47f..0x32c502"
+      ],
+      "required": true,
+      "confidence": "I",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/projectile_container_analysis.cpp",
+        "source/reconstructed/allocation_cache_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/projectile_container_verification.txt",
+        "dump_analysis/semantic_reconstruction/projectile_container_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/registries/verification.txt",
+        "dump_analysis/semantic_reconstruction/registry_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit and domain composition",
+        "Actual Unity Evaluate and unavailable native stack/home padding are explicit inputs; executor fields stay unmaterialized"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "other_sample_local_dependencies",
+      "area": "cross_domain",
+      "rvas": [],
+      "required": true,
+      "confidence": "I",
+      "status": "in_progress",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/dependency_inventory.json"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "All 484 historical RVA records are reconciled in the scoped review: endpoint-only/data/shared implementations distinguished from 61 proven omissions plus 4 exposed local children",
+        "These 65 local bodies are now explicit required groups below, including editor input queue38cd28; no unavailable game artifact is used to excuse recoverable local cache/control logic",
+        "Additional reached generic-menu/CRT specializations and domain binding/ABI limits remain explicit in their native ledgers; no global all-functions completeness claim"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "stack_detection_scope",
+      "area": "stack_analysis",
+      "rvas": [
+        "0x2cbd24",
+        "0x2ce3dc",
+        "0x3cdbd4",
+        "0x3cdbba"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "verified",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/03_stack_spoof_spoofcall.cpp",
+        "source/reconstructed/native_pe_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_hooks_stack_base/REPORT.md",
+        "dump_analysis/semantic_reconstruction/review_hooks_stack_base/byte_provenance.json",
+        "dump_analysis/semantic_reconstruction/frame_review_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/frame_review_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [],
+      "scope_limits": [
+        "Verified only the authorized metadata/detection scope: literal readers/parser kept separate from defensive APIs; execution, restoration and continuation-selection intentionally excluded by user instruction",
+        "Matching OS/module artifacts remain typed inputs; no runnable context or numeric-address invocation is provided"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "matching_game_artifacts",
+      "area": "game_base",
+      "rvas": [],
+      "required": true,
+      "confidence": "I",
+      "status": "artifact_required",
+      "owner": "future_matching_artifacts",
+      "implementation": [],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/artifact_inventory.json",
+        "dump_analysis/semantic_reconstruction/memory_artifact_inventory.json",
+        "dump_analysis/semantic_reconstruction/matching_artifacts_needed.md"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Needed / to do: obtain matching GameAssembly.dll, UnityPlayer.dll and global-metadata.dat for game ABI and external implementation work",
+        "User confirmed on 2026-11-24 that none are downloaded locally yet; no further directory search or path request is pending",
+        "Supplied artifact and bounded memory inventories found no identified matching images; unavailable external ABI/behavior remains explicit while local reconstruction continues"
+      ],
+      "current_priority": "minimum_path_dependency",
+      "minimum_base_required": true
+    },
+    {
+      "id": "interaction_local_folds",
+      "area": "interaction",
+      "rvas": [
+        "0x2e1432..0x2e149b",
+        "0x2e1ff4..0x2e20f1",
+        "0x2e8fac..0x2e90d5",
+        "0x2e5bec..0x2e5d49"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/allocation_cache_analysis.cpp",
+        "source/reconstructed/trajectory_cache_analysis.cpp",
+        "source/reconstructed/interaction_backend_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/registry_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/trajectory_cache_verification.txt",
+        "dump_analysis/semantic_reconstruction/backend_wrappers_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/local_interaction_audit/audit.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic audit and full domain composition",
+        "Native allocation/execution ABI and actual physics/console effects remain external; context/executor detection-only"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "hook_setup_initializers",
+      "area": "hooks",
+      "rvas": [
+        "0x315c34..0x3163d5",
+        "0x362118..0x3621ff"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/hook_setup_analysis.cpp",
+        "source/reconstructed/native_pe_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/hook_setup/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/hook_setup/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/hook_setup/byte_audit.json",
+        "dump_analysis/semantic_reconstruction/renderer_world_integrated_retry_verification.txt",
+        "dump_analysis/semantic_reconstruction/renderer_world_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Combined integration verification and independent semantic review",
+        "Use separate literal PE APIs for native acquisition; defensive helpers remain explicit alternatives",
+        "Owned allocation/container adaptation and foreign OS/GameAssembly/metadata effects remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "field_getter_catalog",
+      "area": "game_base",
+      "rvas": [
+        "0x3680d4",
+        "0x3693b0",
+        "0x3693d4",
+        "0x369400",
+        "0x3696e4",
+        "0x36970c",
+        "0x369738",
+        "0x369764",
+        "0x36a2c8",
+        "0x36a2f4",
+        "0x371294",
+        "0x3715d8",
+        "0x371604",
+        "0x372184",
+        "0x372220",
+        "0x37236c",
+        "0x37261c",
+        "0x372bcc",
+        "0x373dc8",
+        "0x373df4",
+        "0x373e20",
+        "0x373e4c",
+        "0x374210",
+        "0x37423c",
+        "0x3742ac",
+        "0x3742d4",
+        "0x374300",
+        "0x374348"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "verified",
+      "owner": "independently_reviewed",
+      "implementation": [
+        "source/reconstructed/field_getters_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/field_wrappers/verification.txt",
+        "dump_analysis/semantic_reconstruction/field_wrappers/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/field_wrappers/byte_verification.txt",
+        "dump_analysis/semantic_reconstruction/review_field_getters/audit.json",
+        "dump_analysis/semantic_reconstruction/review_field_getters/REPORT.md",
+        "dump_analysis/semantic_reconstruction/renderer_world_integrated_retry_verification.txt"
+      ],
+      "remaining_ranges_or_dependencies": [],
+      "scope_note": "Exactly28catalog localgetter bodies and four typed binding shapes, under documented owned-snapshot safeguards. External ABI and other local helpers remain separate required units.",
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "game_object_motion_helpers",
+      "area": "game_base",
+      "rvas": [
+        "0x368a84",
+        "0x37154c",
+        "0x36b938",
+        "0x371630",
+        "0x372abc",
+        "0x372b30",
+        "0x368100",
+        "0x369164",
+        "0x369c1c",
+        "0x36924c",
+        "0x368b9c",
+        "0x36b244",
+        "0x36942c",
+        "0x32b308",
+        "0x369324",
+        "0x37224c",
+        "0x3722f0",
+        "0x371c38"
+      ],
+      "required": true,
+      "confidence": "I",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_helpers_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/game_helpers/game_helpers_verification.txt",
+        "dump_analysis/semantic_reconstruction/game_helpers/game_helpers_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/review.md",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/release.json",
+        "dump_analysis/semantic_reconstruction/frame_review_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/frame_review_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/release.json",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/review.md"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "SG1 cache-root ordering and SG4 quaternion NaN operand priority corrected; focused strict, sanitizer and isolated reversions pass; combined integration required for later dependencies",
+        "Copied-native visibility insertion and stale quaternion scratch retain explicit owned-data adaptations; broader semantic audit remains tracked"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "frame_configuration_and_menu",
+      "area": "rendering",
+      "rvas": [
+        "0x307638",
+        "0x314bb4..0x314f08",
+        "0x35d5ac..0x3612f7",
+        "0x36f788",
+        "0x2dbbe0",
+        "0x2dbec0",
+        "0x35ccf4",
+        "0x2dd284"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/frame_dependencies_analysis.cpp",
+        "source/reconstructed/frame_dependencies_configuration.cpp",
+        "source/reconstructed/frame_dependencies_main_menu.cpp",
+        "source/reconstructed/frame_dependencies_menu.cpp",
+        "source/reconstructed/frame_dependencies_overlay.cpp",
+        "source/reconstructed/frame_dependencies_target.cpp",
+        "source/reconstructed/frame_dependencies_theme.cpp",
+        "source/reconstructed/frame_dependencies_ui_setup.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/frame_dependencies/frame_dependencies_verification.txt",
+        "dump_analysis/semantic_reconstruction/frame_dependencies/frame_dependencies_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/draw_frame_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Released configuration/UI/setup/hotbar/complete menu controllers require combined integration and independent semantic review",
+        "21page bodies and custom controls/preview remain separately required LOCAL closure",
+        "Game inventory/name adapters and native config constructor/default state remain explicit dependencies"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "renderer_widget_font_icon_helpers",
+      "area": "rendering",
+      "rvas": [
+        "0x2eec7c",
+        "0x2ee154",
+        "0x392198",
+        "0x392dcc",
+        "0x3a3874",
+        "0x3a3aa4",
+        "0x39357c",
+        "0x2cc8d0",
+        "0x2cca48",
+        "0x2ccd14"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/renderer_helpers_background.cpp",
+        "source/reconstructed/renderer_helpers_coverage.cpp",
+        "source/reconstructed/renderer_helpers_font.cpp",
+        "source/reconstructed/renderer_helpers_icons.cpp",
+        "source/reconstructed/renderer_helpers_unity.cpp",
+        "source/reconstructed/renderer_helpers_widgets.cpp",
+        "source/reconstructed/renderer_helpers_world.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/renderer_helpers/verification.txt",
+        "dump_analysis/semantic_reconstruction/renderer_helpers/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/renderer_helpers/audit.json",
+        "dump_analysis/semantic_reconstruction/renderer_world_integrated_retry_verification.txt",
+        "dump_analysis/semantic_reconstruction/renderer_world_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Remaining drawlist/image core and font/text/glyph/atlas closure tracked as separate required units",
+        "Unity/IL2CPP effects, copied metrics/widgets and detection-only context inputs remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "frame_menu_pages",
+      "area": "rendering",
+      "rvas": [
+        "0x3353d0..0x3354c0",
+        "0x336868",
+        "0x359098"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "frame_dependencies",
+      "implementation": [
+        "source/reconstructed/menu_pages_analysis.cpp",
+        "source/reconstructed/menu_pages_players.cpp",
+        "source/reconstructed/menu_pages_config.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_pages/menu_pages_verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_pages/menu_pages_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_pages/menu_pages_byte_audit.json",
+        "dump_analysis/semantic_reconstruction/menu_pages/menu_pages_branch_audit.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "Preview365038,raid36e55c,transition2cce78,nested clears31aa90/31ab60/31acb0 remain local follow-up",
+        "Shared512-byte localized text buffer aliasing retained; all deeper menu/control dependencies stay independently tracked"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "cross_domain_failure_composition",
+      "area": "cross_domain",
+      "rvas": [],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/analysis_failure.hpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/renderer_world_integrated_retry_verification.txt",
+        "dump_analysis/semantic_reconstruction/renderer_world_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Typed status/RVA propagation corrected in cache,sky,interaction,backend,projectile,movement and setup interfaces; committed writes retained",
+        "Original failing composition fixture corrected to reach intended method-wrapper path; combined strict and sanitizer checks pass; incoming domain composition remains open"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "drawlist_image_core",
+      "area": "rendering",
+      "rvas": [
+        "0x3a9258..0x3a931b",
+        "0x3a73c4..0x3a7400",
+        "0x3a7268..0x3a7360",
+        "0x3a0168..0x3a01f3",
+        "0x3a65c4..0x3a684c"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/drawlist_core_bindings.cpp",
+        "source/reconstructed/drawlist_core_channels.cpp",
+        "source/reconstructed/drawlist_core_commands.cpp",
+        "source/reconstructed/drawlist_core_coverage.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/drawlist_core/verification.txt",
+        "dump_analysis/semantic_reconstruction/drawlist_core/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/draw_frame_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "Line/circle/general shape primitives outside assigned image core remain local dependency work",
+        "Font domain consumes shared reserve/write/unreserve protocol; native unwritten slots remain explicit"
+      ],
+      "current_priority": "minimum_path_dependency",
+      "minimum_base_required": true
+    },
+    {
+      "id": "font_text_atlas_core",
+      "area": "rendering",
+      "rvas": [
+        "0x36135c..0x362116",
+        "0x3a31f8..0x3a3335",
+        "0x3a33c0..0x3a36df",
+        "0x3a37c8..0x3a3856",
+        "0x3a4b40..0x3a4caf",
+        "0x3a4f38..0x3a594f",
+        "0x3a792c"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/font_text_atlas.cpp",
+        "source/reconstructed/font_text_controllers.cpp",
+        "source/reconstructed/font_text_lookup.cpp",
+        "source/reconstructed/font_text_raster.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/font_text/verification.json",
+        "dump_analysis/semantic_reconstruction/parent_new_bindings_syntax_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/font_text/parent_dirty_order_verification.txt",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "Owned containers/allocator storage adapted; copied font/glyph metrics and atlas input data remain explicit",
+        "Font-file parser/metric-producing local closure must be reconciled with backend/UI setup rather than labeled foreign",
+        "Fresh39ff7c audit corrected missing-padding-before-dirty order; focused strict passes, sanitizer PASS; native staged owned-builder helper separately implements later height/width failure prefixes"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "world_domain_bindings",
+      "area": "cross_domain",
+      "rvas": [
+        "0x30cf87",
+        "0x30ea17",
+        "0x36b504"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/world_snapshot_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/charged_scale_byte_audit.json",
+        "dump_analysis/semantic_reconstruction/renderer_world_integrated_retry_verification.txt",
+        "dump_analysis/semantic_reconstruction/renderer_world_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Simulation/player helper composition written; combined strict and sanitizer checks pass; incoming domain composition remains open",
+        "Full frame/classifier/world external effects and renderer/menu composition remain required"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "menu_custom_controls",
+      "area": "rendering",
+      "rvas": [
+        "0x3bd114",
+        "0x3be2ec",
+        "0x3bf008",
+        "0x387d18",
+        "0x3bc7d8",
+        "0x3c43f4",
+        "0x3c4438",
+        "0x3c4478"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "menu_controls",
+      "implementation": [
+        "source/reconstructed/menu_controls_analysis.cpp",
+        "source/reconstructed/menu_controls_analysis.hpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_controls/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_controls/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_controls/verification_inputs.json",
+        "dump_analysis/semantic_reconstruction/menu_controls/range_branch_dependency_ledger.json",
+        "dump_analysis/semantic_reconstruction/controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/menu_controls/parent_raw_strings_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "Parentfixed5rawCstring-vs-MSVC-object callsites; realglyph/defaultformat/missingNUL fixturespass",
+        "105 concrete ranges35837bytes and17 explicit specializations/adaptations9926bytes; broader unused flags/types remain ledgered",
+        "26 direct local residuals15618bytes remain exact in menu_controls_reconstruction.md; window/modal/child closure assigned separately",
+        "Actual color386438,shared localized string aliases and typed control state require domain composition; actual runtime state/Unity inputs remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "inventory_name_and_frame_bindings",
+      "area": "cross_domain",
+      "rvas": [
+        "0x369040..0x369163",
+        "0x372398..0x37261b",
+        "0x369324",
+        "0x37224c",
+        "0x3722f0",
+        "0x371c38"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/name_helpers_analysis.cpp",
+        "source/reconstructed/frame_game_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/name_helpers/audit.json",
+        "dump_analysis/semantic_reconstruction/parent_new_bindings_syntax_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Independent semantic review and remaining frame drawing/domain composition required"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "font_atlas_producers",
+      "area": "rendering",
+      "rvas": [
+        "0x3a3394",
+        "0x3a4994",
+        "0x3a49ec",
+        "0x3a653c",
+        "0x3a59bc..0x3a653a"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_dependency_reconciliation",
+      "implementation": [
+        "source/reconstructed/font_producer_analysis.cpp",
+        "source/reconstructed/font_builder_support.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/font_producer_inventory/audit.json",
+        "dump_analysis/semantic_reconstruction/unity_math/verification.txt",
+        "dump_analysis/semantic_reconstruction/unity_math/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_builder_support/audit.json",
+        "dump_analysis/semantic_reconstruction/font_producer_inventory/support_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_producer_inventory/support_sanitizer_verification.txt"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Six builder cleanup/config/opacity helpers now have focused strict and sanitizer passes; next combined integration remains pending",
+        "Alpha/RGBA acquisition/conversion/default-builder selector concrete, focused strict/sanitizer and combined strict pass",
+        "Default local builder3a59bc..3a653a, font-file parsing, metric generation and packing remain recoverable local closure; no invented metrics or foreign relabeling",
+        "Owned allocation/container ABI adaptation and unmaterialized native data remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "projectile_aim_semantic_audit",
+      "area": "cross_domain",
+      "rvas": [
+        "0x32c0d4",
+        "0x330b38",
+        "0x2f9988",
+        "0x2fa300"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/projectile_analysis.cpp",
+        "source/reconstructed/aim_weapon_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_projectile_aim/REPORT.md",
+        "dump_analysis/semantic_reconstruction/review_projectile_aim/audit.json",
+        "dump_analysis/semantic_reconstruction/review_projectile_aim/verification.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "Further external ABI/FP/container limitations and exact remaining local leaf composition remain separately tracked"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "projectile_curve_spread_leaf",
+      "area": "projectiles",
+      "rvas": [
+        "0x3727e0..0x372953",
+        "0x372954..0x372aba",
+        "0x32bd4c..0x32be05"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent",
+      "implementation": [
+        "source/reconstructed/projectile_leaf_helpers.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/projectile_leaf_byte_audit.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_names_leaf_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/review.md",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/release.json",
+        "dump_analysis/semantic_reconstruction/frame_review_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/frame_review_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/release.json",
+        "dump_analysis/semantic_reconstruction/review_scalar_helpers/review.md"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "SG2 spread known context fields and SG3 curve unknown-span/failure order corrected; focused strict, sanitizer and isolated reversions pass",
+        "Actual curve/spread effects, unavailable native stack bits and broader composed semantic review remain explicit; Unity RNG wrapper is implemented separately"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "draw_shape_primitives",
+      "area": "rendering",
+      "rvas": [
+        "0x3a01f4",
+        "0x3a0294",
+        "0x39f928",
+        "0x39f7ac",
+        "0x39f874",
+        "0x3a1244",
+        "0x3a12d8",
+        "0x3a6b78",
+        "0x35c578"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "draw_shapes",
+      "implementation": [
+        "source/reconstructed/draw_shapes_geometry.cpp",
+        "source/reconstructed/draw_shapes_paths.cpp",
+        "source/reconstructed/draw_shapes_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/draw_shapes/VERIFICATION.md",
+        "dump_analysis/semantic_reconstruction/draw_shapes/audit.json",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "40translated ranges12695bytes and131worldE8routes; combined strict passes; incoming domain bindings/current sanitizers and independent review remain open",
+        "Seven remaining meter controllers4949bytes assigned separately; no complete renderer claim",
+        "Copied arc/segment/whiteUV/lineUV data required; approximate hardware RSQRTSS and FPenvironment limits explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "unity_scalar_wrappers",
+      "area": "rendering",
+      "rvas": [
+        "0x2dff68",
+        "0x2e0198",
+        "0x2e3d5c"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/unity_math_analysis.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/unity_math/audit.json",
+        "dump_analysis/semantic_reconstruction/unity_math/verification.txt",
+        "dump_analysis/semantic_reconstruction/unity_math/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/shapes_math_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/unity_math/regression_reversions.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "The 244-input combined strict and ASan/UBSan checkpoint passes with immutable source hashes; broader independent review and incoming local modules remain open",
+        "Concretecache/root/knownargument setup; baselineand3isolatedordering/bounds reversionspass; independentreviewandcurrentcombinedverificationstillrequired",
+        "Actual Unity sine/cosine/Random.Range effects required; native unknown stack/home/return bytes unmaterialized; context/executor detection-only"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "world_immediate_render_binding",
+      "area": "rendering",
+      "rvas": [
+        "0x30626f",
+        "0x310fa1",
+        "0x37b77b"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/world_render_bindings.cpp",
+        "source/reconstructed/world_esp_output_checks.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/world_capture_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/world_capture_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/pages_controls_shapes_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/world_output/verification.txt"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Shared mutable callback state across output-handle copies has focused pass; combined meter/support checkpoint passes with actual meter+shape fallback geometry",
+        "Synchronous draws and once-per-group background key capture implemented; fullgeometry binding in current combined check",
+        "Signed integer meter geometry now explicit; native custom35c578 retained; font/image and remaining meter/window domains still required"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "window_popup_lifecycle",
+      "area": "rendering",
+      "rvas": [
+        "0x38cfa4..0x38e97c",
+        "0x390994..0x390a88",
+        "0x38e97c",
+        "0x390a88",
+        "0x38f020",
+        "0x391928",
+        "0x39031c",
+        "0x390260"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/imgui_windows_begin.cpp",
+        "source/reconstructed/imgui_windows_bindings.cpp",
+        "source/reconstructed/imgui_windows_child.cpp",
+        "source/reconstructed/imgui_windows_controls.cpp",
+        "source/reconstructed/imgui_windows_create.cpp",
+        "source/reconstructed/imgui_windows_decorations.cpp",
+        "source/reconstructed/imgui_windows_end.cpp",
+        "source/reconstructed/imgui_windows_first_frame.cpp",
+        "source/reconstructed/imgui_windows_helpers.cpp",
+        "source/reconstructed/imgui_windows_metrics.cpp",
+        "source/reconstructed/imgui_windows_modal.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_controls/range_branch_dependency_ledger.json",
+        "dump_analysis/semantic_reconstruction/imgui_windows/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/imgui_windows/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/imgui_windows/released_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Begin/End, child, modal, popup order/trim and next-window controllers, saved-flags correction, and separately released details/resize closure pass the 347-input combined strict and ASan/UBSan checkpoint",
+        "Generic variadic formatting, reached specializations, native ABI and broader semantic review remain explicit in the two window ledgers"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "meter_controllers",
+      "area": "rendering",
+      "rvas": [
+        "0x35ac38..0x35af6a",
+        "0x35b0fc..0x35b507",
+        "0x35bab8..0x35bc6f",
+        "0x35b850..0x35bab7",
+        "0x35b508..0x35b681",
+        "0x35c938..0x35cb16",
+        "0x36232c..0x3627cf"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/draw_meters_controllers.cpp",
+        "source/reconstructed/draw_meters_helpers.cpp",
+        "source/reconstructed/draw_meters_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/draw_meters/VERIFICATION.md",
+        "dump_analysis/semantic_reconstruction/draw_meters/audit.json",
+        "dump_analysis/semantic_reconstruction/meters_support_integrated_verification.txt",
+        "dump_analysis/semantic_reconstruction/meters_support_sanitizer_verification.txt"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "All seven meter roots and reached local closure have focused strict/sanitizer passes; combined meter/support checkpoint also passes",
+        "Independent semantic review and full frame/domain composition remain open",
+        "Actual Unity scalar results, copied style/shared/atlas state and owned allocation/name storage remain explicit inputs"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "preview_raid_transition_clears",
+      "area": "rendering",
+      "rvas": [
+        "0x365038..0x365815",
+        "0x36e55c..0x36f5cb",
+        "0x2cce78..0x2ccef2",
+        "0x31aa90",
+        "0x31ab60",
+        "0x31acb0",
+        "0x37d7b0",
+        "0x37db8c",
+        "0x37df58"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/frame_residuals_state.cpp",
+        "source/reconstructed/frame_residuals_raid.cpp",
+        "source/reconstructed/frame_preview_analysis.cpp",
+        "source/reconstructed/frame_preview_geometry.cpp",
+        "source/reconstructed/frame_preview_widgets.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/frame_residuals/frame_residuals_verification.txt",
+        "dump_analysis/semantic_reconstruction/frame_residuals/frame_residuals_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/frame_residuals/frame_residuals_byte_branch_audit.json",
+        "dump_analysis/semantic_reconstruction/frame_residuals/parent_failure_verification.txt",
+        "dump_analysis/semantic_reconstruction/frame_review_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/frame_review_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Combined strict and ASan/UBSan pass with unchanged source hashes, including typed failure propagation and owned FontTextStore measurements",
+        "Copied runtime/font/worker/atlas state, explicit indeterminate native data and broader independent/full frame composition remain required"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "frame_font_and_failure_composition",
+      "area": "rendering",
+      "rvas": [
+        "0x36135c",
+        "0x361bcc",
+        "0x3a31bc",
+        "0x3a31f8",
+        "0x3a3874",
+        "0x391c50"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/font_frame_bindings.cpp",
+        "source/reconstructed/frame_failure.hpp",
+        "source/reconstructed/frame_failure_checks.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/font_text/frame_binding_verification.txt",
+        "dump_analysis/semantic_reconstruction/font_text/frame_binding_sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/frame_residuals/parent_failure_verification.txt",
+        "dump_analysis/semantic_reconstruction/frame_review_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/frame_review_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Combined strict and ASan/UBSan pass with unchanged source hashes, including typed failure propagation and owned FontTextStore measurements",
+        "Copied runtime/font/worker/atlas state, explicit indeterminate native data and broader independent/full frame composition remain required"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "draw_shadow_primitives",
+      "area": "rendering",
+      "rvas": [
+        "0x3a1410..0x3a4380"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/draw_shadows_clipping.cpp",
+        "source/reconstructed/draw_shadows_geometry.cpp",
+        "source/reconstructed/draw_shadows_controllers.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/draw_shadows/audit.json",
+        "dump_analysis/semantic_reconstruction/draw_shadows/verification.txt",
+        "dump_analysis/semantic_reconstruction/draw_shadows/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/draw_shadows/release.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Six roots and DS1 lazy shared-data fix pass focused strict/sanitizer, targeted reversion, 20000 clipping-oracle cases and the 347-input combined checkpoint",
+        "Raw input/output aliases, allocator ABI, FP environment and malformed out-of-table inputs retain their documented limits"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "window_remaining_details",
+      "area": "rendering",
+      "rvas": [
+        "0x39138c",
+        "0x3921c0",
+        "0x394dd4",
+        "0x395500",
+        "0x3997ac",
+        "0x39a64c",
+        "0x39a7a8",
+        "0x3b4f94",
+        "0x3c3234",
+        "0x39d805..0x39e0a0"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/imgui_window_details_base.cpp",
+        "source/reconstructed/imgui_window_details_bindings.cpp",
+        "source/reconstructed/imgui_window_details_columns.cpp",
+        "source/reconstructed/imgui_window_details_grips.cpp",
+        "source/reconstructed/imgui_window_details_log.cpp",
+        "source/reconstructed/imgui_window_details_lookup.cpp",
+        "source/reconstructed/imgui_window_details_position.cpp",
+        "source/reconstructed/imgui_window_details_resize.cpp",
+        "source/reconstructed/imgui_window_details_scrollbar.cpp",
+        "source/reconstructed/imgui_window_details_title.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/imgui_windows/remaining_ranges.json",
+        "dump_analysis/semantic_reconstruction/imgui_window_details/range_branch_dependency_ledger.json",
+        "dump_analysis/semantic_reconstruction/imgui_window_details/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/imgui_window_details/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/imgui_window_details/released_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Nine roots, full resize controller, grip and held-border branches pass 38 focused scenarios and the 347-input combined strict and ASan/UBSan checkpoint",
+        "Exact 1716 support bytes remain reached specializations; generic variadic CRT formatting, supplied font/backend data and broader audit remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "menu_color_and_tooltip",
+      "area": "rendering",
+      "rvas": [
+        "0x379680..0x379e60",
+        "0x389f18..0x38a3c2"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/menu_tooltip_analysis.cpp",
+        "source/reconstructed/menu_color_picker_analysis.cpp",
+        "source/reconstructed/menu_color_picker_components.cpp",
+        "source/reconstructed/menu_color_picker_geometry.cpp",
+        "source/reconstructed/menu_color_picker_logging.cpp",
+        "source/reconstructed/menu_color_picker_math.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_controls/range_branch_dependency_ledger.json",
+        "dump_analysis/semantic_reconstruction/menu_tooltip/menu_tooltip_release.json",
+        "dump_analysis/semantic_reconstruction/menu_tooltip/verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_tooltip/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_color_picker/menu_color_picker_release.json",
+        "dump_analysis/semantic_reconstruction/menu_color_picker/verification.txt",
+        "dump_analysis/semantic_reconstruction/menu_color_picker/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Picker andtooltiproot/immediatemath,input,geometry,logging releasedandstrict/sanitizerPASS; 328-inputcombinedstrict/sanitizerPASSunchanged",
+        "3c0538..3c2a7ftexteditor9543bytesremains exactlocaldependency, assigned NEWimgui_text_input_*"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "default_font_builder",
+      "area": "rendering",
+      "rvas": [
+        "0x3a59bc..0x3a653a"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/font_builder_cff.cpp",
+        "source/reconstructed/font_builder_controller.cpp",
+        "source/reconstructed/font_builder_coverage.cpp",
+        "source/reconstructed/font_builder_finish.cpp",
+        "source/reconstructed/font_builder_outline.cpp",
+        "source/reconstructed/font_builder_owned.cpp",
+        "source/reconstructed/font_builder_packing.cpp",
+        "source/reconstructed/font_builder_raster.cpp",
+        "source/reconstructed/font_builder_sfnt.cpp",
+        "source/reconstructed/font_builder_support.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/font_builder_support/audit.json",
+        "dump_analysis/semantic_reconstruction/font_builder/verification.json",
+        "dump_analysis/semantic_reconstruction/font_builder/audit.json",
+        "dump_analysis/semantic_reconstruction/font_builder/deliverables.sha256",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Default builder parsing/metrics/stable packing/raster controllers and TT/CFF end-to-end fixture/oracle checks pass; 328-input combined strict/sanitizer PASS unchanged",
+        "102native algorithm/helper ranges27390bytes;32container/heap/CRT ABI adaptations879bytes remain explicit; authoritative FontTextStore inputs and mapped numeric allocations required"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "imgui_navigation",
+      "area": "rendering",
+      "rvas": [
+        "0x395258",
+        "0x395bc4",
+        "0x395db8",
+        "0x395964",
+        "0x3c04d0",
+        "0x392654"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/imgui_navigation_core.cpp",
+        "source/reconstructed/imgui_navigation_scoring.cpp",
+        "source/reconstructed/imgui_navigation_text.cpp",
+        "source/reconstructed/menu_controls_math.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/imgui_navigation/audit.json",
+        "dump_analysis/semantic_reconstruction/imgui_navigation/verification.txt",
+        "dump_analysis/semantic_reconstruction/imgui_navigation/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/imgui_navigation/release.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/builder_picker_navigation_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Navigation/tab/result/deactivation plusanonymousCRC/delayedhover havefocusedstrict/sanPASS; 328-inputcombinedstrict/sanitizerPASSunchanged",
+        "Texteditorstateexport,missingnativeinputbytes/OS/allocatorABIandbroaderindependentauditremainexplicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "imgui_text_editor",
+      "area": "rendering",
+      "rvas": [
+        "0x3c0538..0x3c2a7f",
+        "0x38cd28..0x38cdc2"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/imgui_text_input_activation.cpp",
+        "source/reconstructed/imgui_text_input_analysis.cpp",
+        "source/reconstructed/imgui_text_input_bindings.cpp",
+        "source/reconstructed/imgui_text_input_codec.cpp",
+        "source/reconstructed/imgui_text_input_commit.cpp",
+        "source/reconstructed/imgui_text_input_edit.cpp",
+        "source/reconstructed/imgui_text_input_events.cpp",
+        "source/reconstructed/imgui_text_input_fonts.cpp",
+        "source/reconstructed/imgui_text_input_keys.cpp",
+        "source/reconstructed/imgui_text_input_layout.cpp",
+        "source/reconstructed/imgui_text_input_process.cpp",
+        "source/reconstructed/imgui_text_input_render.cpp",
+        "source/reconstructed/imgui_text_input_storage.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/imgui_text_input/imgui_text_input_release.json",
+        "dump_analysis/semantic_reconstruction/imgui_text_input/semantic_range_ledger.json",
+        "dump_analysis/semantic_reconstruction/fields_font_editor_final_sources.json",
+        "dump_analysis/semantic_reconstruction/fields_font_editor_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Full editor/filter/commit/render/font-stack and38cd28 input-queue roots released and pass focused and390-input combined strict/ASan/UBSan checks",
+        "Literal native dropped-character/minus-toggle/clipboard-insertion behavior retained; owned private heap/history/callback aliases are adaptations; broader independent and exhaustive multiline review remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "font_atlas_input_pipeline",
+      "area": "rendering",
+      "rvas": [
+        "0x39fe54..0x39ff7c",
+        "0x39fd68..0x39fe54",
+        "0x39f550..0x39f5aa",
+        "0x3a3c40",
+        "0x3a47b4"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/font_atlas_input_bindings.cpp",
+        "source/reconstructed/font_atlas_input_clear.cpp",
+        "source/reconstructed/font_atlas_input_coverage.cpp",
+        "source/reconstructed/font_atlas_input_ingestion.cpp",
+        "source/reconstructed/font_atlas_input_memory.cpp",
+        "source/reconstructed/font_atlas_input_ranges.cpp"
+      ],
+      "verification": [
+        "source/reconstructed/frame_dependencies_ui_setup.cpp",
+        "dump_analysis/semantic_reconstruction/font_atlas_input/39fe54.asm",
+        "dump_analysis/semantic_reconstruction/font_atlas_input/39fd68.asm",
+        "dump_analysis/semantic_reconstruction/font_atlas_input/release.json",
+        "dump_analysis/semantic_reconstruction/font_atlas_input/verification.json",
+        "dump_analysis/semantic_reconstruction/font_atlas_input/audit.json",
+        "dump_analysis/semantic_reconstruction/font_atlas_input/remaining.json",
+        "dump_analysis/semantic_reconstruction/fields_font_editor_final_sources.json",
+        "dump_analysis/semantic_reconstruction/fields_font_editor_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Input/config/font construction, ranges and clear controllers released;40native ranges2432bytes; setup\u219215 ingested fonts\u2192real SFNT builder\u2192glyph/pixel outputs\u2192clear passes",
+        "Focused and390-input combined strict/sanitizer checks pass; numeric resource/lifetime marshalling and unknown-parser preflight are explicit adaptations; only proven nonreached destructorflag1 branch remains excluded"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "game_root_helpers",
+      "area": "game_helpers",
+      "rvas": [
+        "0x2dda9c..0x2ddb0d",
+        "0x2e069c..0x2e071c",
+        "0x2e0e4c..0x2e0e99"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "scoped_complete",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_root_helpers.cpp",
+        "source/reconstructed/game_root_domain_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/game_root_helpers/audit.json",
+        "dump_analysis/semantic_reconstruction/game_root_helpers/verification.txt",
+        "dump_analysis/semantic_reconstruction/game_root_helpers/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/roots_domain_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/roots_domain_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/root_review_verification.json",
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/root_review_bytes.json"
+      ],
+      "remaining_ranges_or_dependencies": [],
+      "scope_justification": "Three local root controllers and eleven adapters are concrete and pass focused/combined strict and sanitizer checks. An independent fresh-byte review covered all 318 root bytes and five added adapters, with an unchanged-source strict probe and no concrete mismatch. Matching GameAssembly/IL2CPP effects and executable context/ABI remain excluded and tracked separately.",
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "menu_layout_channels",
+      "area": "rendering",
+      "rvas": [
+        "0x3b54ac..0x3b54f9",
+        "0x3b54fc..0x3b5551",
+        "0x3b5824..0x3b588d",
+        "0x3b5890..0x3b58f2",
+        "0x3b563c..0x3b569d"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/menu_layout_channels.cpp",
+        "source/reconstructed/imgui_window_details_columns.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_layout_channels/audit.json",
+        "dump_analysis/semantic_reconstruction/layout_channels_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/layout_channels_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Four historical menu-control channel roots and clip helper pass the 350-input combined strict and ASan/UBSan checkpoint with matching unchanged source hashes",
+        "Owned splitter/draw-buffer adaptation, raw cross-storage alias exclusions and wider independent semantic review remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "remaining_frame_and_world_controllers",
+      "area": "dependency_closure",
+      "rvas": [
+        "0x2d60d0..0x2d61b2",
+        "0x3096c4..0x3098a2",
+        "0x316540..0x316574",
+        "0x318f34..0x319022",
+        "0x3211f0..0x3213ca",
+        "0x3684e0..0x368a83"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/frame_world_controllers_bindings.cpp",
+        "source/reconstructed/frame_world_controllers_collections.cpp",
+        "source/reconstructed/frame_world_controllers_collider.cpp",
+        "source/reconstructed/frame_world_controllers_configuration.cpp",
+        "source/reconstructed/frame_world_controllers_materials.cpp",
+        "source/reconstructed/frame_world_controllers_rain.cpp",
+        "source/reconstructed/frame_world_controllers_visibility.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/frame_world_controllers/released_sources.json",
+        "dump_analysis/semantic_reconstruction/frame_world_controllers/remaining_ranges.json",
+        "dump_analysis/semantic_reconstruction/active_waves_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/active_waves_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "All six roots and reached material/config/collection closure implemented; 71 audited bodies, 14405 bytes. Optional private wrapper binders, runtime effects, native settings order and config-normalization callback caveat remain backlog.",
+        "Combined 323 translation units /447 captured inputs strict and ASan/UBSan PASS; same unchanged source set. Offline behavior only."
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "remaining_runtime_metadata_wrappers",
+      "area": "dependency_closure",
+      "rvas": [
+        "0x2e081c..0x2e091b",
+        "0x2e6240..0x2e633f",
+        "0x31492c..0x314a65",
+        "0x31581c..0x315924",
+        "0x315924..0x315a23",
+        "0x315a54..0x315b82",
+        "0x3247cc..0x324904",
+        "0x3297f0..0x32991e",
+        "0x329920..0x329a37",
+        "0x32be08..0x32bf36",
+        "0x330700..0x33082e",
+        "0x36c79c..0x36c8c4",
+        "0x36cbe4..0x36cd20",
+        "0x36ce18..0x36cf54",
+        "0x370508..0x370636",
+        "0x370968..0x370aa4",
+        "0x3738cc..0x3739c4",
+        "0x373f0c..0x37404d",
+        "0x374bf8..0x374d5d",
+        "0x374d60..0x374ec5",
+        "0x2e0bf0..0x2e0cef"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_runtime_wrappers_analysis.cpp",
+        "source/reconstructed/game_runtime_wrappers_arguments.cpp",
+        "source/reconstructed/game_runtime_wrappers_bindings.cpp",
+        "source/reconstructed/game_runtime_wrappers_domains.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/game_runtime_wrappers/released_sources.json",
+        "dump_analysis/semantic_reconstruction/game_runtime_wrappers/range_branch_dependency_ledger.json",
+        "dump_analysis/semantic_reconstruction/game_runtime_wrappers/remaining_ranges.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "All21roots6225bytes and12domain adapters pass focused and399-input combined strict/ASan/UBSan checks with identical unchanged sources",
+        "Final matching Unity/game values and explicit raw-pointer/uninitialized-byte masks remain supplied; further independent review and native ABI remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "remaining_direct_game_wrappers",
+      "area": "dependency_closure",
+      "rvas": [
+        "0x322580..0x32260b",
+        "0x366c30..0x366ccb",
+        "0x366ccc..0x366d79",
+        "0x366d7c..0x366e38",
+        "0x366e38..0x366eef",
+        "0x366ef0..0x366faa",
+        "0x36817c..0x368200",
+        "0x36a238..0x36a2c6",
+        "0x36b004..0x36b08e",
+        "0x36b6cc..0x36b758",
+        "0x370b50..0x370c11",
+        "0x373c60..0x373d01",
+        "0x374168..0x37420d"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_direct_wrappers_analysis.cpp",
+        "source/reconstructed/game_direct_wrappers_arguments.cpp",
+        "source/reconstructed/game_direct_wrappers_bindings.cpp",
+        "source/reconstructed/game_direct_wrappers_controllers.cpp",
+        "source/reconstructed/game_direct_wrappers_literals.cpp",
+        "source/reconstructed/game_direct_wrappers_selector.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/game_direct_wrappers/game_direct_wrappers_release.json",
+        "dump_analysis/semantic_reconstruction/game_direct_wrappers/semantic_range_ledger.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "All17 assigned direct/small roots and their immediate helpers released; focused strict/ASan/UBSan and3scratch mutations pass; current combined verification running",
+        "Native raw return masks, typed final game/Unity effects and numeric copied pointer aliases remain explicit; concrete caller RPC literal producers are a separately active wave"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "remaining_small_game_controllers",
+      "area": "dependency_closure",
+      "rvas": [
+        "0x322ef8..0x322f30",
+        "0x36a0e0..0x36a175",
+        "0x36ba2c..0x36baca",
+        "0x322f30..0x323006"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_direct_wrappers_analysis.cpp",
+        "source/reconstructed/game_direct_wrappers_arguments.cpp",
+        "source/reconstructed/game_direct_wrappers_bindings.cpp",
+        "source/reconstructed/game_direct_wrappers_controllers.cpp",
+        "source/reconstructed/game_direct_wrappers_literals.cpp",
+        "source/reconstructed/game_direct_wrappers_selector.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/game_direct_wrappers/game_direct_wrappers_release.json",
+        "dump_analysis/semantic_reconstruction/game_direct_wrappers/semantic_range_ledger.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "All17 assigned direct/small roots and their immediate helpers released; focused strict/ASan/UBSan and3scratch mutations pass; current combined verification running",
+        "Native raw return masks, typed final game/Unity effects and numeric copied pointer aliases remain explicit; concrete caller RPC literal producers are a separately active wave"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "remaining_key_physics_controllers",
+      "area": "dependency_closure",
+      "rvas": [
+        "0x2e2320..0x2e2372",
+        "0x2e5e4c..0x2e5eec",
+        "0x2e8910..0x2e89e1",
+        "0x329aa0..0x329b50",
+        "0x2e0f10..0x2e0ff0"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_input_physics_arguments.cpp",
+        "source/reconstructed/game_input_physics_bindings.cpp",
+        "source/reconstructed/game_input_physics_coverage.cpp",
+        "source/reconstructed/game_input_physics_keys.cpp",
+        "source/reconstructed/game_input_physics_literals.cpp",
+        "source/reconstructed/game_input_physics_metadata.cpp",
+        "source/reconstructed/game_input_physics_pe.cpp",
+        "source/reconstructed/game_input_physics_queries.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/game_input_physics/release.json",
+        "dump_analysis/semantic_reconstruction/game_input_physics/remaining.json",
+        "dump_analysis/semantic_reconstruction/active_waves_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/active_waves_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Eight-root wave implemented with shared raw packers; key/physics/PE/icall closure verified. Final runtime effects and 34 generic-library ABI ranges remain explicit.",
+        "Combined 323 translation units /447 captured inputs strict and ASan/UBSan PASS; same unchanged source set. Offline behavior only."
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "remaining_context_argument_helpers",
+      "area": "dependency_closure",
+      "rvas": [
+        "0x2e480c..0x2e48d0",
+        "0x3214f4..0x321565",
+        "0x32225c..0x3222cf"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_input_physics_arguments.cpp",
+        "source/reconstructed/game_input_physics_bindings.cpp",
+        "source/reconstructed/game_input_physics_coverage.cpp",
+        "source/reconstructed/game_input_physics_keys.cpp",
+        "source/reconstructed/game_input_physics_literals.cpp",
+        "source/reconstructed/game_input_physics_metadata.cpp",
+        "source/reconstructed/game_input_physics_pe.cpp",
+        "source/reconstructed/game_input_physics_queries.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/game_input_physics/release.json",
+        "dump_analysis/semantic_reconstruction/game_input_physics/remaining.json",
+        "dump_analysis/semantic_reconstruction/active_waves_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/active_waves_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Standalone known-store helpers implemented. Context-losing optional MovementMain call sites need explicit context3f7410/3f7510 and dispatcher mapping; target code is not context. Unknown raw string-pointer bytes remain unmaterialized.",
+        "Combined 323 translation units /447 captured inputs strict and ASan/UBSan PASS; same unchanged source set. Offline behavior only."
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "auxiliary_game_helpers",
+      "area": "game_helpers",
+      "rvas": [
+        "0x315a24",
+        "0x32957c",
+        "0x329714",
+        "0x329a38",
+        "0x36ad68",
+        "0x36ae90",
+        "0x372c1c",
+        "0x3740e0",
+        "0x374124",
+        "0x374268",
+        "0x3743f8",
+        "0x37628c"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_aux_helpers_analysis.cpp",
+        "source/reconstructed/game_aux_helpers_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/game_aux_helpers/released_sources.json",
+        "dump_analysis/semantic_reconstruction/game_aux_helpers/strict_verification.txt",
+        "dump_analysis/semantic_reconstruction/game_aux_helpers/sanitizer_verification.txt",
+        "dump_analysis/semantic_reconstruction/auxiliary_helpers_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/auxiliary_helpers_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Twelve full bodies and five adapters pass focused fixtures and the 354-input combined strict/ASan/UBSan checkpoint with identical unchanged sources",
+        "Direct Snapshot vector into-form preserves alias/partial-write order; wider independent review and matching native ABI remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "small_game_field_controllers",
+      "area": "game_helpers",
+      "rvas": [
+        "0x32308c",
+        "0x368244",
+        "0x368468",
+        "0x3691c0",
+        "0x36a1e4",
+        "0x3714c4",
+        "0x371688",
+        "0x3717c0",
+        "0x371df4",
+        "0x372bf4",
+        "0x373eb4",
+        "0x372ba4"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_field_controllers.cpp",
+        "source/reconstructed/game_field_controller_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/game_field_controllers/audit.json",
+        "dump_analysis/semantic_reconstruction/game_field_controllers/mutations.json",
+        "dump_analysis/semantic_reconstruction/game_field_controllers/shared_argument_probe_verification.txt",
+        "dump_analysis/semantic_reconstruction/fields_font_editor_final_sources.json",
+        "dump_analysis/semantic_reconstruction/fields_font_editor_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/runtime_sky_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Twelve concrete roots887bytes, five domain adapters, shared argument composition and ignored-result setter interface pass390-input combined strict/ASan/UBSan",
+        "Two isolated scratch mutations rejected at intended assertions; independent whole-domain review, typed final game effects and raw output alias/ABI limits remain explicit"
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "projectile_literal_conversion_bindings",
+      "area": "projectile",
+      "rvas": [
+        "0x330c04..0x330cf2",
+        "0x330d65..0x330d97",
+        "0x3316e1..0x331907",
+        "0x331964..0x331a20",
+        "0x331a2a..0x331b74"
+      ],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/game_local_literals_analysis.cpp",
+        "source/reconstructed/game_local_literals_bindings.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/review_dependency_closure/exact_remaining.json",
+        "dump_analysis/semantic_reconstruction/game_local_literals/game_local_literals_release.json",
+        "dump_analysis/semantic_reconstruction/game_local_literals/semantic_range_ledger.json",
+        "dump_analysis/semantic_reconstruction/active_waves_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/active_waves_sanitizer_sources.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "49 producers,15 variants,220 ordered operations and five projectile inline segments implemented. Actual material scratch aliases and final managed/game effects remain required; enclosing optional item/grade consumer bindings remain explicit.",
+        "Combined 323 translation units /447 captured inputs strict and ASan/UBSan PASS; same unchanged source set. Offline behavior only."
+      ],
+      "current_priority": "optional_reconstruction_backlog",
+      "minimum_base_required": false,
+      "priority_note": "Retained in comprehensive reconstruction ledger; does not block minimum platform DLL bring-up."
+    },
+    {
+      "id": "windows_platform_dll",
+      "area": "minimum_windows_base",
+      "rvas": [],
+      "required": true,
+      "confidence": "C",
+      "status": "translated",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/windows_base/base_api.h",
+        "source/windows_base/base_dll.cpp",
+        "source/windows_base/base_frame.cpp",
+        "source/windows_base/windows_host_checks.cpp",
+        "source/windows_base/CMakeLists.txt"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/windows_base/build/verification.json",
+        "dump_analysis/semantic_reconstruction/windows_base/cmake_verification.json",
+        "dump_analysis/semantic_reconstruction/windows_base/native_checks/verification.json",
+        "dump_analysis/semantic_reconstruction/windows_base/wine_runtime/verification.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Windows x64 DLL and authored host compile/link; five exports inspected. Portable strict/sanitizer checks pass. Fresh-prefix Wine10/Xvfb host test also passes load/init/hook/original/input/pixels/restore/reinit/target-loss/unload. Native Windows and game runtime validation remain required."
+      ],
+      "current_priority": "minimum_path",
+      "minimum_base_required": true
+    },
+    {
+      "id": "minimum_game_runtime_adapters",
+      "area": "minimum_windows_base",
+      "rvas": [],
+      "required": true,
+      "confidence": "I",
+      "status": "artifact_required",
+      "owner": "parent_integration",
+      "implementation": [],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/windows_base/minimum_path_callbacks.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "No real game callback is bound in the current DLL. Matching artifacts and verified metadata/invocation/object layouts are Needed / To do; no successful mock/context substitute."
+      ],
+      "current_priority": "minimum_path",
+      "minimum_base_required": true
+    },
+    {
+      "id": "minimum_game_hook",
+      "area": "minimum_windows_base",
+      "rvas": [],
+      "required": true,
+      "confidence": "I",
+      "status": "artifact_required",
+      "owner": "parent_integration",
+      "implementation": [],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/windows_base/minimum_path_callbacks.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Platform owned-window subclass lifecycle is implemented and cross-built. Actual Client.LateUpdate target/signature/original ABI, install/restore/in-flight cleanup remain Needed / To do after artifact verification."
+      ],
+      "current_priority": "minimum_path",
+      "minimum_base_required": true
+    },
+    {
+      "id": "minimum_runtime_validation",
+      "area": "minimum_windows_base",
+      "rvas": [],
+      "required": true,
+      "confidence": "I",
+      "status": "pending",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/windows_base/windows_host_checks.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/windows_base/cmake_verification.json",
+        "dump_analysis/semantic_reconstruction/windows_base/wine_runtime/verification.json"
+      ],
+      "remaining_ranges_or_dependencies": [
+        "Owned Windows PE harness passes under Wine10/Xvfb in a fresh isolated prefix. Execute the same authored host on native Windows x64, then validate game frame/render/input only after matching artifacts and real adapters/hook exist in an authorized environment. No sample/game executed."
+      ],
+      "current_priority": "minimum_path",
+      "minimum_base_required": true
+    },
+    {
+      "id": "dll_native_menu",
+      "area": "latest_menu_offsets_goal",
+      "rvas": [],
+      "required": true,
+      "confidence": "C",
+      "status": "scoped_complete",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/windows_base/base_menu.hpp",
+        "source/windows_base/base_menu.cpp",
+        "source/windows_base/base_dll.cpp",
+        "source/windows_base/windows_host_checks.cpp"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_offsets/acceptance.json",
+        "dump_analysis/semantic_reconstruction/menu_offsets_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/menu_offsets_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_base/wine_runtime/verification.json"
+      ],
+      "remaining_ranges_or_dependencies": [],
+      "scope_justification": "General/Offsets/About native controls, F1/Escape lifecycle and actual frame preference changes; Wine owned-host scope; native Windows/game validation remains tracked separately.",
+      "current_priority": "latest_user_goal",
+      "minimum_base_required": true
+    },
+    {
+      "id": "external_offset_profile",
+      "area": "latest_menu_offsets_goal",
+      "rvas": [],
+      "required": true,
+      "confidence": "C",
+      "status": "scoped_complete",
+      "owner": "parent_integration",
+      "implementation": [
+        "source/reconstructed/offset_profile.hpp",
+        "source/reconstructed/offset_profile.cpp",
+        "source/reconstructed/offset_catalog.cpp",
+        "source/reconstructed/offset_profile_bindings.cpp",
+        "source/windows_base/offsets.json"
+      ],
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_offsets/acceptance.json",
+        "dump_analysis/semantic_reconstruction/menu_offsets_integrated_sources.json",
+        "dump_analysis/semantic_reconstruction/menu_offsets_sanitizer_sources.json",
+        "dump_analysis/semantic_reconstruction/windows_base/wine_runtime/verification.json"
+      ],
+      "remaining_ranges_or_dependencies": [],
+      "scope_justification": "One219-context JSON file with validated kinds/modules, atomic save/reload, last-good retention, owned getter reads and numeric resolvers; historical reference values remain unverified for current games.",
+      "current_priority": "latest_user_goal",
+      "minimum_base_required": true
+    }
+  ],
+  "passes": [
+    {
+      "id": "scope_reconciliation",
+      "status": "in_progress",
+      "confidence": "I",
+      "scope_note": "Open until remaining required units and incoming agents are integrated and audited."
+    },
+    {
+      "id": "native_body_translation",
+      "status": "in_progress",
+      "confidence": "I",
+      "scope_note": "Open until remaining required units and incoming agents are integrated and audited."
+    },
+    {
+      "id": "transitive_dependency_resolution",
+      "status": "in_progress",
+      "confidence": "I",
+      "scope_note": "Open until remaining required units and incoming agents are integrated and audited."
+    },
+    {
+      "id": "independent_semantic_audit",
+      "status": "in_progress",
+      "confidence": "I",
+      "scope_note": "Scoped hooks/base/metadata reviews complete; movementM1-M3 and projectile/aim/cacheP1-P3/A1-A4/C1-C2 corrected with rejected reversions. Other domains and incoming modules retain scoped audit debt."
+    },
+    {
+      "id": "strict_integrated_build",
+      "status": "passed",
+      "confidence": "C",
+      "scope_note": "Current328 translation units /455 matching unchanged captured inputs; native menu/profile logic and Wine host tests are separately scoped.",
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_offsets_integrated_sources.json"
+      ]
+    },
+    {
+      "id": "meaningful_fixtures",
+      "status": "passed",
+      "confidence": "C",
+      "scope_note": "Current328 translation units /455 matching unchanged captured inputs; native menu/profile logic and Wine host tests are separately scoped.",
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_offsets_integrated_sources.json"
+      ]
+    },
+    {
+      "id": "integrated_sanitizers",
+      "status": "passed",
+      "confidence": "C",
+      "scope_note": "Current328 translation units /455 matching unchanged captured inputs; native menu/profile logic and Wine host tests are separately scoped.",
+      "verification": [
+        "dump_analysis/semantic_reconstruction/menu_offsets_sanitizer_sources.json"
+      ]
+    },
+    {
+      "id": "input_integrity",
+      "status": "passed",
+      "confidence": "C",
+      "verification": [
+        "dump_analysis/semantic_reconstruction/input_verification_menu_offsets.txt"
+      ],
+      "scope_note": "All 135 supplied manifest entries pass; no supplied input modified."
+    },
+    {
+      "id": "docs_links_tags",
+      "status": "passed",
+      "confidence": "C",
+      "scope_note": "Current source index/links/confidence tags regenerated; minimum-base audit and explicit optional backlog included.",
+      "verification": [
+        "dump_analysis/semantic_reconstruction/final_audit.json"
+      ]
+    },
+    {
+      "id": "output_checksums",
+      "status": "passed",
+      "confidence": "C",
+      "scope_note": "Current source deliverables checksummed and verified; separate Windows PE artifact hashes are in their build records. Does not establish live functionality.",
+      "verification": [
+        "dump_analysis/semantic_reconstruction/OUTPUTS.sha256",
+        "dump_analysis/semantic_reconstruction/output_verification_minimum_base.txt"
+      ]
+    }
+  ],
+  "active_review": {
+    "hooks_stack_base": "dump_analysis/semantic_reconstruction/review_hooks_stack_base",
+    "metadata_scoped": "dump_analysis/semantic_reconstruction/helicopter_aim/parent_review.md"
+  },
+  "active_priority": "User-directed minimum Windows x64 DLL base after current waves finish; exhaustive optional reconstruction on explicit backlog",
+  "priority_audit": "source/BASE_READINESS.md",
+  "current_priority": "Delivered native DLL menu and one-file offsets; actual game bring-up remains blocked and optional exhaustive reconstruction remains backlog",
+  "minimum_base_readiness": "source/BASE_READINESS.md",
+  "minimum_base_completion_rule": "DLL compile/link, observed Windows initialization/cleanup, real matching runtime adapters, complete game hook lifecycle, one observed in-game frame/render/input path. Offline fixtures prove only their recorded scopes.",
+  "blocker_audit": "dump_analysis/semantic_reconstruction/windows_base/blocker_audit.json",
+  "blocked_reason": "Matching game artifacts and verified native game ABI/runtime unavailable; minimum game adapters/hook/frame path cannot proceed within evidence/scope. Optional reconstruction remains backlog.",
+  "latest_user_objective": "Usable DLL menu and one-file offset profile",
+  "latest_user_objective_record": "source/MENU_OFFSETS_GOAL.md",
+  "latest_user_objective_status": "implemented and scoped validation passed"
+}

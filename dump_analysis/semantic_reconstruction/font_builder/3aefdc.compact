@@ -1,0 +1,18 @@
+3aefdc sub    rsp,0x28
+3aefe0 mov    r8,QWORD PTR [rcx+0x8]
+3aefe4 movsxd r9,DWORD PTR [rcx+0x24]
+3aefe8 lea    rcx,[r8+0x6]
+3aefec add    rcx,r9
+3aefef call   0x3add94
+3aeff4 lea    rcx,[r8+0x4]
+3aeff8 movsx  edx,ax
+3aeffb add    rcx,r9
+3aeffe call   0x3add94
+3af003 movsx  ecx,ax
+3af006 sub    ecx,edx
+3af008 movd   xmm0,ecx
+3af00c cvtdq2ps xmm0,xmm0
+3af00f divss  xmm1,xmm0
+3af013 movaps xmm0,xmm1
+3af016 add    rsp,0x28
+3af01a ret

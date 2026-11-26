@@ -1,0 +1,11 @@
+# Player and item name helpers
+
+[C] `player_name_369040` implements `369040..369163`: numeric receiver guard, prefab/NPC predicate, literal Scientist, display-string+338 and+14 guards, per-WORD UTF8 conversion through the existing365004/393c38 translation, empty-name gate, and late streamer setting/substitution. [I] Output strings and substitution cache use owned C++ storage. Missing copied words/config bytes and missing required RNG effects remain explicit failures.
+
+[C] `item_name_372398` implements `372398..37261b`. It reads the UTF16 short name from definition+28, converts each WORD to its low byte, hashes through the first byte NUL, and applies the hash-only `m16a2 → M-16` override. Both literals were independently decoded from copied bytes2a8c3c/2a8c44; their getters are37233c/372354. Otherwise definition+40 → phrase+20 → UTF16+14 supplies the displayed name. Invalid intermediate numeric pointers return the native empty result. Missing copied memory remains distinct from an empty result.
+
+[C] The two conversion paths differ: player display names use365004's per-WORD UTF8 encoder; item names use `2cee44 → 2cf59c → 2cf7e4`, whose loop reads one BYTE while advancing the source by2. Embedded low-byte zeros survive in the owned item string length, while the short-name hash stops at its first NUL. A converted item name containing zeros is not replaced with an invented fallback.
+
+[C] [Fixtures](/home/john/Desktop/cheat_re/source/reconstructed/name_helpers_checks.cpp) cover NPC/streamer/UTF8 behavior, hash override and embedded low-byte NUL, localized name conversion, empty/intermediate-pointer paths and unavailable bytes. [C] Raw roots are in [player disassembly](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/name_helpers/369040.asm) and [item disassembly](/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/name_helpers/372398.asm). [U] Current combined integration and independent semantic review are tracked in PROGRESS.md.
+
+[I] Bounds on UTF16 scans and host string allocation are analyst safeguards/adaptations. Original string-object allocation addresses, exception ABI and matching game field declarations are not asserted. No sample instruction or numeric address is executed.

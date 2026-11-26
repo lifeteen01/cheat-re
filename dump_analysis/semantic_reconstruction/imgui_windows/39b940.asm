@@ -1,0 +1,20 @@
+39b940	mov    rax,QWORD PTR [rdx+0x3f08]
+39b947	movzx  r8d,WORD PTR [rax+0xf0]
+39b94f	mov    WORD PTR [rcx],r8w
+39b953	movzx  eax,WORD PTR [rdx+0x4850]
+39b95a	mov    WORD PTR [rcx+0x2],ax
+39b95e	movzx  eax,WORD PTR [rdx+0x4860]
+39b965	mov    WORD PTR [rcx+0x4],ax
+39b969	movzx  eax,WORD PTR [rdx+0x4870]
+39b970	mov    WORD PTR [rcx+0x6],ax
+39b974	movzx  eax,WORD PTR [rdx+0x4880]
+39b97b	mov    WORD PTR [rcx+0x8],ax
+39b97f	movzx  eax,WORD PTR [rdx+0x48a0]
+39b986	mov    WORD PTR [rcx+0xa],ax
+39b98a	movzx  eax,WORD PTR [rdx+0x4890]
+39b991	mov    WORD PTR [rcx+0xc],ax
+39b995	movzx  eax,WORD PTR [rdx+0x48c0]
+39b99c	mov    WORD PTR [rcx+0xe],ax
+39b9a0	movzx  eax,WORD PTR [rdx+0x5bb0]
+39b9a7	mov    WORD PTR [rcx+0x10],ax
+39b9ab	ret

@@ -1,0 +1,38 @@
+3ae550 mov    QWORD PTR [rsp+0x8],rbx
+3ae555 push   rdi
+3ae556 sub    rsp,0x20
+3ae55a mov    rdi,QWORD PTR [rcx+0x8]
+3ae55e mov    r10,rcx
+3ae561 movsxd rcx,DWORD PTR [rcx+0x24]
+3ae565 mov    r11d,edx
+3ae568 add    rcx,0x22
+3ae56c add    rcx,rdi
+3ae56f call   0x3add94
+3ae574 movzx  ebx,ax
+3ae577 cmp    edx,ebx
+3ae579 jge    0x3ae5b8
+3ae57b lea    edx,[rdx*4+0x0]
+3ae582 test   r8,r8
+3ae585 je     0x3ae59f
+3ae587 movsxd rax,DWORD PTR [r10+0x28]
+3ae58b add    rax,rdi
+3ae58e movsxd rcx,edx
+3ae591 add    rcx,rax
+3ae594 call   0x3add94
+3ae599 movsx  ecx,ax
+3ae59c mov    DWORD PTR [r8],ecx
+3ae59f test   r9,r9
+3ae5a2 je     0x3ae606
+3ae5a4 movsxd rcx,DWORD PTR [r10+0x28]
+3ae5a8 add    rcx,QWORD PTR [r10+0x8]
+3ae5ac movsxd rax,edx
+3ae5af or     rax,0x2
+3ae5b3 add    rcx,rax
+3ae5b6 jmp    0x3ae5fb
+3ae5b8 lea    edx,[rbx*4+0x0]
+3ae5bf test   r8,r8
+3ae5c2 je     0x3ae5df
+3ae5c4 movsxd rcx,DWORD PTR [r10+0x28]
+3ae5c8 add    rcx,0xfffffffffffffffc
+3ae5cc mov    eax,edx
+3ae5ce add    rax,rdi

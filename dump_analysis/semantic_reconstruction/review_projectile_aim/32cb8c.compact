@@ -1,0 +1,23 @@
+32cb8c mov    QWORD PTR [rsp+0x8],rbx
+32cb91 mov    QWORD PTR [rsp+0x10],rsi
+32cb96 push   rdi
+32cb97 sub    rsp,0x20
+32cb9b mov    rdi,rcx
+32cb9e mov    rsi,rdx
+32cba1 lea    rcx,[r8+0x8]
+32cba5 mov    rbx,r8
+32cba8 mov    rdx,QWORD PTR [rdi+0x8]
+32cbac call   0x32b6c8
+32cbb1 add    QWORD PTR [rdi+0x8],0xfffffffffffffff8
+32cbb6 mov    rcx,rdi
+32cbb9 call   0x2cb3a4
+32cbbe mov    r8,rax
+32cbc1 mov    rdx,rbx
+32cbc4 mov    rcx,rsi
+32cbc7 call   0x2d3fe0
+32cbcc mov    rbx,QWORD PTR [rsp+0x30]
+32cbd1 mov    rax,rsi
+32cbd4 mov    rsi,QWORD PTR [rsp+0x38]
+32cbd9 add    rsp,0x20
+32cbdd pop    rdi
+32cbde ret

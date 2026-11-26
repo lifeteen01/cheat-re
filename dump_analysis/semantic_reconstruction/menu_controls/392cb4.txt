@@ -1,0 +1,5 @@
+392cb4	movsxd rax,ecx
+392cb7	lea    rcx,[rax+rax*2]
+392cbb	lea    rax,[rip+0xfffffffffff16c6e]        # 0x2a9930
+392cc2	lea    rax,[rax+rcx*4]
+392cc6	ret

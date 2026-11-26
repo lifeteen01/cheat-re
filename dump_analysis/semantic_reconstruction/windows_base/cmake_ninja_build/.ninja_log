@@ -1,0 +1,16 @@
+# ninja log v7
+2	1037	1795542014267144849	windows_base/CMakeFiles/re_base.dir/base_frame.cpp.obj	a57daddb1a67b128
+2	3654	1795542014265959746	windows_base/CMakeFiles/re_base.dir/base_dll.cpp.obj	cf94b4ffc7114059
+906	2161	1795537402684218873	windows_base/CMakeFiles/re_base.dir/__/reconstructed/drawlist_core_commands.cpp.obj	37687d030c4b04f
+1864	3155	1795537403641059393	windows_base/CMakeFiles/re_base.dir/__/reconstructed/drawlist_core_channels.cpp.obj	ea1ce45f881c74e
+7656	7835	1795542022084793421	windows_base/re_base.dll	72362bcaf4978f49
+7656	7835	1795542022084793421	windows_base/libre_base.dll.a	72362bcaf4978f49
+2	1851	1795542335551125258	windows_base/CMakeFiles/windows_host_checks.dir/windows_host_checks.cpp.obj	9aa68fb54cf377ce
+1851	2016	1795542337400085925	windows_base/windows_host_checks.exe	2c18e39df902dd69
+1037	3690	1795542015300937730	windows_base/CMakeFiles/re_base.dir/base_menu.cpp.obj	92f27c93ad2a740f
+3691	4909	1795542017954881274	windows_base/CMakeFiles/re_base.dir/__/reconstructed/offset_catalog.cpp.obj	7b705261e00aa16
+4909	6191	1795542019174307438	windows_base/CMakeFiles/re_base.dir/__/reconstructed/offset_profile_bindings.cpp.obj	e58197b12c6a7e36
+3654	7656	1795542017917882061	windows_base/CMakeFiles/re_base.dir/__/reconstructed/offset_profile.cpp.obj	79139c543a405772
+2	3633	1795542519639209273	windows_base/CMakeFiles/re_base.dir/base_dll.cpp.obj	cf94b4ffc7114059
+3633	3817	1795542523441128397	windows_base/re_base.dll	72362bcaf4978f49
+3633	3817	1795542523441128397	windows_base/libre_base.dll.a	72362bcaf4978f49

@@ -1,0 +1,33 @@
+{
+  "flags": [
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-D_GLIBCXX_ASSERTIONS",
+    "-ffp-contract=off",
+    "-O1",
+    "-g",
+    "--sysroot=/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/lib/gcc/x86_64-linux-gnu/15",
+    "-B/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/libexec/gcc/x86_64-linux-gnu/15",
+    "-L/usr/lib/x86_64-linux-gnu",
+    "-I/home/john/Desktop/cheat_re/source/reconstructed",
+    "-fsanitize=address,undefined",
+    "-static-libasan",
+    "-static-libubsan",
+    "-fno-sanitize-recover=all",
+    "-fno-omit-frame-pointer"
+  ],
+  "dependencies": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/aim_weapon_analysis.cpp": "0db1c0c211d2c5e82e05016d9fd639e2d690dc7858252bf5689ab9b3a7c2d7db",
+    "/home/john/Desktop/cheat_re/source/reconstructed/aim_weapon_analysis.hpp": "ff5629d56450eae93b6483daee3a7fbdaf043e0ea6050480607ede2b9b20d71f",
+    "/home/john/Desktop/cheat_re/source/reconstructed/entities_analysis.hpp": "c1f3a9ad7186a1d8bde1ffb0710cc5cb80c5c960aedd145fc093ea6994908ba9",
+    "/home/john/Desktop/cheat_re/source/reconstructed/internal_analysis.hpp": "de6265cdbf9f115d3d0a6f1ab6f0742f9254f2aad2ca1b49a2b3a6a67a6d29ee",
+    "/home/john/Desktop/cheat_re/source/reconstructed/server_analysis.hpp": "741d72f3cd5e33c17d6786e9b3e1d9462114256d3e6d58cd1b0abf4df47d2b2e",
+    "/home/john/Desktop/cheat_re/source/reconstructed/snapshot_bindings.hpp": "d4c916a94f9a63e59e1ea98dfcb1d4fce121563ae01d2aa76fa9034f832899dd",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_base_analysis.hpp": "7de5f5ca6e3ffa719ae0ee80ec90218257c1989762b2217f52ab07c9f4d46d86",
+    "/home/john/Desktop/cheat_re/source/reconstructed/launcher_analysis.hpp": "a5fb7073e0efda2911f7cb3e2856c6e3d0954b649cd6bf951de3e4525882cb68"
+  }
+}

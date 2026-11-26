@@ -1,0 +1,189 @@
+{
+  "scope": "Latest user priority: minimum Windows x64 base; comprehensive optional reconstruction retained on backlog",
+  "previous_goal_turn_classification": "progress: authored PE host/DLL passed a fresh-prefix Wine10/Xvfb lifecycle/render/input test",
+  "current_goal_turn_classification": "no implementation progress possible on the minimum game path; verified external blocker audit",
+  "complete": false,
+  "requirements": [
+    {
+      "requirement": "Finish active waves and integrate released modules",
+      "result": "achieved within offline scope",
+      "evidence": [
+        "windows_base/release_integration.json",
+        "active_waves_integrated_sources.json",
+        "active_waves_sanitizer_sources.json"
+      ]
+    },
+    {
+      "requirement": "Windows x64 DLL compiles/links with exports and lifecycle",
+      "result": "compile/link achieved; lifecycle observed under Wine",
+      "evidence": [
+        "windows_base/build/verification.json",
+        "windows_base/cmake_verification.json",
+        "windows_base/wine_runtime/verification.json"
+      ]
+    },
+    {
+      "requirement": "Real minimum game/Unity adapters; identify all unimplemented callbacks",
+      "result": "inventory implemented; real game bindings missing",
+      "evidence": [
+        "windows_base/minimum_path_callbacks.json",
+        "windows_base/runtime_callback_inventory.json",
+        "source/reconstructed/metadata_analysis.hpp"
+      ]
+    },
+    {
+      "requirement": "Complete real game hook lifecycle",
+      "result": "missing target/signature/original ABI and game-hook implementation; owned window subclass is separate platform evidence",
+      "evidence": [
+        "source/BASE_READINESS.md",
+        "source/windows_base/base_dll.cpp"
+      ]
+    },
+    {
+      "requirement": "One complete in-game frame/render/input path",
+      "result": "not achieved; owned GDI/Wine path does not establish Unity or in-game operation",
+      "evidence": [
+        "windows_base/readiness.json"
+      ]
+    },
+    {
+      "requirement": "Integration and runtime validation in authorized scope",
+      "result": "combined strict/sanitizer and Wine host tests pass; native Windows/game validation pending",
+      "evidence": [
+        "active_waves_integrated_sources.json",
+        "active_waves_sanitizer_sources.json",
+        "windows_base/wine_runtime/verification.json"
+      ]
+    },
+    {
+      "requirement": "No missing behavior fabricated, no successful game mocks, spoof executor detection-only, no sample execution",
+      "result": "scope retained; current DLL has no game adapter and reports game bindings required",
+      "evidence": [
+        "source/windows_base/base_api.h",
+        "source/windows_base/base_dll.cpp",
+        "source/reconstructed/metadata_analysis.hpp"
+      ]
+    }
+  ],
+  "blocking_condition": "Matching GameAssembly.dll, UnityPlayer.dll and paired global-metadata.dat remain unavailable; no validated native game ABI/targets/runtime environment exists for the actual game path",
+  "required_external_change": [
+    "Supply the exact matching game artifacts, with build identity/hash correspondence",
+    "Provide an authorized native Windows/game validation environment"
+  ],
+  "needed_to_do": [
+    "GameAssembly.dll from exact game build",
+    "UnityPlayer.dll from the same build",
+    "global-metadata.dat paired to that GameAssembly.dll"
+  ],
+  "user_confirmation": "No matching files downloaded yet; no new directory request is pending",
+  "workspace_matching_artifact_paths": [],
+  "local_platform": "Linux",
+  "local_native_windows_commands": {
+    "cmd.exe": null,
+    "powershell.exe": null,
+    "pwsh.exe": null
+  },
+  "blocked_threshold": {
+    "satisfied": true,
+    "consecutive_goal_turns": 3,
+    "turns": [
+      {
+        "turn": "Minimum DLL implementation/integration turn",
+        "progress": "Final waves integrated and Windows DLL cross-built",
+        "same_blocker": "Matching game artifacts and native game ABI unavailable"
+      },
+      {
+        "turn": "Wine owned-host validation continuation",
+        "progress": "Fresh-prefix DLL init/hook/render/input/cleanup test passed under Wine",
+        "same_blocker": "Matching artifacts and real game adapters/hook still unavailable"
+      },
+      {
+        "turn": "Current minimum-path audit",
+        "progress": "No implementation progress; current evidence and absent workspace artifacts revalidated",
+        "same_blocker": "Matching artifacts and validated game ABI/runtime remain unavailable"
+      }
+    ]
+  },
+  "why_no_safe_next_implementation": [
+    "Current metadata contracts explicitly mark actual export calling conventions/layouts as requiring matching artifacts",
+    "The Snapshot controllers use numeric evidence keys and owned data; converting them to callable pointers would violate their contract",
+    "Generic IL2CPP or unrelated game-build assumptions cannot prove the actual Client.LateUpdate signature/target, managed layout, Unity resources or original-call ABI",
+    "Returning successful callbacks or a successful context detector would fabricate the missing game behavior",
+    "Optional feature/library/review work was explicitly deprioritized and does not unblock this minimum game path",
+    "Repeating passing offline/Wine tests cannot establish native Windows or in-game functionality"
+  ],
+  "comprehensive_ledger": {
+    "units": 64,
+    "required_open": [
+      "main_movement",
+      "automation",
+      "melee_farming",
+      "classifier_remainder",
+      "world_draw",
+      "player_overlay",
+      "game_base_helpers",
+      "sky_detour",
+      "helicopter_aim",
+      "launcher_aim",
+      "model_chams",
+      "unity_backend",
+      "frame_integration",
+      "metadata_export_adapters",
+      "sample_containers",
+      "projectile_folded_ranges",
+      "other_sample_local_dependencies",
+      "matching_game_artifacts",
+      "interaction_local_folds",
+      "hook_setup_initializers",
+      "game_object_motion_helpers",
+      "frame_configuration_and_menu",
+      "renderer_widget_font_icon_helpers",
+      "frame_menu_pages",
+      "cross_domain_failure_composition",
+      "drawlist_image_core",
+      "font_text_atlas_core",
+      "world_domain_bindings",
+      "menu_custom_controls",
+      "inventory_name_and_frame_bindings",
+      "font_atlas_producers",
+      "projectile_aim_semantic_audit",
+      "projectile_curve_spread_leaf",
+      "draw_shape_primitives",
+      "unity_scalar_wrappers",
+      "world_immediate_render_binding",
+      "window_popup_lifecycle",
+      "meter_controllers",
+      "preview_raid_transition_clears",
+      "frame_font_and_failure_composition",
+      "draw_shadow_primitives",
+      "window_remaining_details",
+      "menu_color_and_tooltip",
+      "default_font_builder",
+      "imgui_navigation",
+      "imgui_text_editor",
+      "font_atlas_input_pipeline",
+      "menu_layout_channels",
+      "remaining_frame_and_world_controllers",
+      "remaining_runtime_metadata_wrappers",
+      "remaining_direct_game_wrappers",
+      "remaining_small_game_controllers",
+      "remaining_key_physics_controllers",
+      "remaining_context_argument_helpers",
+      "auxiliary_game_helpers",
+      "small_game_field_controllers",
+      "projectile_literal_conversion_bindings",
+      "windows_platform_dll",
+      "minimum_game_runtime_adapters",
+      "minimum_game_hook",
+      "minimum_runtime_validation"
+    ],
+    "open_passes": [
+      "scope_reconciliation",
+      "native_body_translation",
+      "transitive_dependency_resolution",
+      "independent_semantic_audit"
+    ]
+  },
+  "minimum_path_callback_declarations": 476,
+  "goal_complete": false
+}

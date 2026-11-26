@@ -1,0 +1,8 @@
+{
+  "scope": "Seven meter controllers and required reached local helper closure",
+  "untranslated_local_ranges": [],
+  "required_released_domains": ["draw_shapes geometry/path/rectangle", "drawlist_core owned buffers and list commands", "font_text color packing", "renderer_helpers 392dcc lazy list and vector index", "unity_math_scalar concrete cached wrappers"],
+  "typed_external_inputs": ["Actual Unity Sin/Cos results", "Owned allocation storage key and mapped Snapshot bytes", "Owned decoded literal-name storage", "Copied shared shape/atlas values"],
+  "excluded_operations": ["Numeric pointer execution", "Live Unity/sample execution", "Executable context/stack fabrication", "Arbitrary malformed native memory aliasing and uninitialized stack materialization"],
+  "analysis_limits": ["Per-loop maximum_segments bound retains prior committed geometry", "Host floating-point environment and NaN payload portability are not claimed"]
+}

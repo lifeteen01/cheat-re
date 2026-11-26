@@ -1,0 +1,10 @@
+exponent=1 pow(0)=0 pow(1)=1
+circle texel UV bounds=48,72,64,88,
+rounded texel UV0=2,66,14,78,
+circle alpha row y=88 x=48..64: 7 7 7 7 7 22 41 62 83 104 125 146 167 187 206 221 228
+rounded alpha row y=80 x=2..18: 8 22 42 63 84 106 127 148 169 191 212 232 246 253 254 253 246
+exponent=2 pow(0)=-4.23193 pow(1)=1.05798
+circle texel UV bounds=48,72,64,88,
+rounded texel UV0=2,66,14,78,
+circle alpha row y=88 x=48..64: 100 100 100 100 100 255 200 10 29 45 64 86 108 135 167 196 209
+rounded alpha row y=80 x=2..18: 100 255 200 11 30 47 67 88 112 141 178 218 250 9 12 9 250

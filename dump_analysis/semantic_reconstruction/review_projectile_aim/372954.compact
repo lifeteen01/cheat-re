@@ -1,0 +1,82 @@
+372954 mov    QWORD PTR [rsp+0x8],rbx
+372959 push   rbp
+37295a push   rsi
+37295b push   rdi
+37295c sub    rsp,0x60
+372960 mov    rdx,rcx
+372963 call   0x2caf08
+372968 test   al,al
+37296a je     0x372aa2
+372970 cmp    BYTE PTR [rdx+0x48],0x0
+372974 je     0x372aa2
+37297a mov    rbp,QWORD PTR [rdx+0x50]
+37297e mov    rcx,rbp
+372981 call   0x2caf08
+372986 test   al,al
+372988 je     0x372aa2
+37298e mov    eax,DWORD PTR [rip+0x8e57c]        # 0x400f10
+372994 test   al,0x1
+372996 jne    0x372a4d
+37299c or     eax,0x1
+37299f lea    rdx,[rsp+0x88]
+3729a7 lea    rcx,[rsp+0x88]
+3729af mov    DWORD PTR [rip+0x8e55b],eax        # 0x400f10
+3729b5 call   0x2cc730
+3729ba mov    rcx,rax
+3729bd call   0x2cdca4
+3729c2 lea    rdx,[rsp+0x30]
+3729c7 mov    rsi,rax
+3729ca lea    rcx,[rsp+0x90]
+3729d2 call   0x372738
+3729d7 mov    rcx,rax
+3729da call   0x2e9b8c
+3729df lea    rdx,[rsp+0x39]
+3729e4 mov    rdi,rax
+3729e7 lea    rcx,[rsp+0x90]
+3729ef call   0x372700
+3729f4 mov    rcx,rax
+3729f7 call   0x2cde34
+3729fc lea    rdx,[rsp+0x45]
+372a01 mov    rbx,rax
+372a04 lea    rcx,[rsp+0x90]
+372a0c call   0x3726b4
+372a11 mov    rcx,rax
+372a14 call   0x2d866c
+372a19 mov    rcx,rax
+372a1c mov    rdx,rbx
+372a1f call   0x334224
+372a24 or     r8d,0xffffffff
+372a28 mov    rcx,rax
+372a2b mov    r9,rsi
+372a2e mov    DWORD PTR [rsp+0x20],r8d
+372a33 mov    rdx,rdi
+372a36 call   0x3349ac
+372a3b mov    r8,QWORD PTR [rax]
+372a3e mov    eax,DWORD PTR [rip+0x8e4cc]        # 0x400f10
+372a44 mov    QWORD PTR [rip+0x8e4bd],r8        # 0x400f08
+372a4b jmp    0x372a54
+372a4d mov    r8,QWORD PTR [rip+0x8e4b4]        # 0x400f08
+372a54 test   al,0x2
+372a56 jne    0x372a77
+372a58 mov    rcx,QWORD PTR [rip+0x63401]        # 0x3d5e60
+372a5f lea    rdx,[rip+0x8e4ba]        # 0x400f20
+372a66 or     eax,0x2
+372a69 xor    r9d,r9d
+372a6c mov    DWORD PTR [rip+0x8e49e],eax        # 0x400f10
+372a72 call   0x2cbd24
+372a77 movss  xmm1,DWORD PTR [rip+0xfffffffffff1a7d5]        # 0x28d254
+372a7f xorps  xmm0,xmm0
+372a82 call   0x2e3d5c
+372a87 mov    rcx,QWORD PTR [rip+0x633d2]        # 0x3d5e60
+372a8e lea    rdx,[rip+0x8e48b]        # 0x400f20
+372a95 movaps xmm3,xmm0
+372a98 mov    r8,rbp
+372a9b call   0x32b728
+372aa0 jmp    0x372aaa
+372aa2 movss  xmm0,DWORD PTR [rip+0xfffffffffff1a7aa]        # 0x28d254
+372aaa mov    rbx,QWORD PTR [rsp+0x80]
+372ab2 add    rsp,0x60
+372ab6 pop    rdi
+372ab7 pop    rsi
+372ab8 pop    rbp
+372ab9 ret

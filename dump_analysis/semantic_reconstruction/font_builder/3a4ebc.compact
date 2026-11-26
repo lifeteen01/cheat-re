@@ -1,0 +1,38 @@
+3a4ebc rex push rbx
+3a4ebe push   rbp
+3a4ebf push   rsi
+3a4ec0 push   rdi
+3a4ec1 sub    rsp,0x28
+3a4ec5 cmp    DWORD PTR [rcx+0x49c],0x0
+3a4ecc mov    rbp,rcx
+3a4ecf jge    0x3a4f2f
+3a4ed1 lea    rsi,[rcx+0x544]
+3a4ed8 mov    rcx,rsi
+3a4edb call   0x3a3858
+3a4ee0 mov    rcx,rsi
+3a4ee3 mov    ebx,eax
+3a4ee5 call   0x3a498c
+3a4eea mov    rcx,rbp
+3a4eed lea    edx,[rbx+rax*1]
+3a4ef0 mov    r8d,edx
+3a4ef3 call   0x39fcc8
+3a4ef8 mov    rcx,rsi
+3a4efb mov    DWORD PTR [rbp+0x49c],eax
+3a4f01 call   0x3a4734
+3a4f06 mov    rcx,rsi
+3a4f09 mov    edi,eax
+3a4f0b call   0x3a3770
+3a4f10 mov    rcx,rsi
+3a4f13 lea    ebx,[rdi+rax*1]
+3a4f16 call   0x3a3778
+3a4f1b mov    r8d,ebx
+3a4f1e mov    rcx,rbp
+3a4f21 lea    edx,[rdi+rax*1]
+3a4f24 call   0x39fcc8
+3a4f29 mov    DWORD PTR [rbp+0x4a0],eax
+3a4f2f add    rsp,0x28
+3a4f33 pop    rdi
+3a4f34 pop    rsi
+3a4f35 pop    rbp
+3a4f36 pop    rbx
+3a4f37 ret

@@ -1,0 +1,9 @@
+{
+  "confidence": "C",
+  "scope": "Filename-only read-only search of Desktop and existing common Steam game directories; not a whole-system inventory.",
+  "roots": [
+    "/home/john/Desktop"
+  ],
+  "matches": [],
+  "errors": []
+}

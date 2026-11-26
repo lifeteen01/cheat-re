@@ -1,0 +1,8 @@
+{
+  "executable": "/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/analysis_checks",
+  "sha256": "ad196ab151e74366419fd2bca76c957f56b6162a47d1b24acc81084623cbe5dd",
+  "exit_code": 0,
+  "stdout": "PASS: hook replay, pointer provenance, trajectories, entity arrays, PE/unwind metadata, tick projection\n",
+  "stderr": "",
+  "scope": "Existing analyst-authored fixture binary only; build provenance/current source correspondence not asserted. No sample code executed."
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "constructor": "0x2cc730",
+    "end": "0x2cc737",
+    "length": 1,
+    "parts": [
+      {
+        "immediate": "0x37",
+        "size": 1,
+        "load": "0x2cc730",
+        "store": "0x2cc730",
+        "destination": 0
+      }
+    ],
+    "decoded": "\u0000"
+  },
+  {
+    "constructor": "0x2e5730",
+    "end": "0x2e5749",
+    "length": 12,
+    "parts": [
+      {
+        "source": "0x28de58",
+        "size": 8,
+        "load": "0x2e5736",
+        "destination": 0,
+        "store": "0x2e573e"
+      },
+      {
+        "source": "0x28de60",
+        "size": 4,
+        "load": "0x2e5730",
+        "destination": 8,
+        "store": "0x2e5742"
+      }
+    ],
+    "decoded": "get_visible\u0000"
+  },
+  {
+    "constructor": "0x2e5574",
+    "end": "0x2e558d",
+    "length": 12,
+    "parts": [
+      {
+        "source": "0x28de48",
+        "size": 8,
+        "load": "0x2e557a",
+        "destination": 0,
+        "store": "0x2e5582"
+      },
+      {
+        "source": "0x28de50",
+        "size": 4,
+        "load": "0x2e5574",
+        "destination": 8,
+        "store": "0x2e5586"
+      }
+    ],
+    "decoded": "UnityEngine\u0000"
+  },
+  {
+    "constructor": "0x2e53f8",
+    "end": "0x2e5418",
+    "length": 7,
+    "parts": [
+      {
+        "source": "0x28de40",
+        "size": 4,
+        "load": "0x2e53f8",
+        "destination": 0,
+        "store": "0x2e53fe"
+      },
+      {
+        "source": "0x28de44",
+        "size": 2,
+        "load": "0x2e5400",
+        "destination": 4,
+        "store": "0x2e5407"
+      },
+      {
+        "source": "0x28de46",
+        "size": 1,
+        "load": "0x2e540b",
+        "destination": 6,
+        "store": "0x2e5411"
+      }
+    ],
+    "decoded": "Cursor\u0000"
+  },
+  {
+    "constructor": "0x2e56b8",
+    "end": "0x2e56d1",
+    "length": 12,
+    "parts": [
+      {
+        "source": "0x28df80",
+        "size": 8,
+        "load": "0x2e56be",
+        "destination": 0,
+        "store": "0x2e56c6"
+      },
+      {
+        "source": "0x28df88",
+        "size": 4,
+        "load": "0x2e56b8",
+        "destination": 8,
+        "store": "0x2e56ca"
+      }
+    ],
+    "decoded": "get_current\u0000"
+  },
+  {
+    "constructor": "0x2e5504",
+    "end": "0x2e551f",
+    "length": 24,
+    "parts": [
+      {
+        "source": "0x28df68",
+        "size": 16,
+        "load": "0x2e5504",
+        "destination": 0,
+        "store": "0x2e5516"
+      },
+      {
+        "source": "0x28df78",
+        "size": 8,
+        "load": "0x2e550e",
+        "destination": 16,
+        "store": "0x2e5519"
+      }
+    ],
+    "decoded": "UnityEngine.InputSystem\u0000"
+  },
+  {
+    "constructor": "0x2e538c",
+    "end": "0x2e53a5",
+    "length": 9,
+    "parts": [
+      {
+        "source": "0x28df58",
+        "size": 8,
+        "load": "0x2e5392",
+        "destination": 0,
+        "store": "0x2e539a"
+      },
+      {
+        "source": "0x28df60",
+        "size": 1,
+        "load": "0x2e538c",
+        "destination": 8,
+        "store": "0x2e539e"
+      }
+    ],
+    "decoded": "Keyboard\u0000"
+  },
+  {
+    "constructor": "0x2e56d4",
+    "end": "0x2e56ed",
+    "length": 9,
+    "parts": [
+      {
+        "source": "0x28dfb8",
+        "size": 8,
+        "load": "0x2e56da",
+        "destination": 0,
+        "store": "0x2e56e2"
+      },
+      {
+        "source": "0x28dfc0",
+        "size": 1,
+        "load": "0x2e56d4",
+        "destination": 8,
+        "store": "0x2e56e6"
+      }
+    ],
+    "decoded": "get_keys\u0000"
+  },
+  {
+    "constructor": "0x2e5520",
+    "end": "0x2e553b",
+    "length": 24,
+    "parts": [
+      {
+        "source": "0x28dfa0",
+        "size": 16,
+        "load": "0x2e5520",
+        "destination": 0,
+        "store": "0x2e5532"
+      },
+      {
+        "source": "0x28dfb0",
+        "size": 8,
+        "load": "0x2e552a",
+        "destination": 16,
+        "store": "0x2e5535"
+      }
+    ],
+    "decoded": "UnityEngine.InputSystem\u0000"
+  },
+  {
+    "constructor": "0x2e53a8",
+    "end": "0x2e53c1",
+    "length": 9,
+    "parts": [
+      {
+        "source": "0x28df90",
+        "size": 8,
+        "load": "0x2e53ae",
+        "destination": 0,
+        "store": "0x2e53b6"
+      },
+      {
+        "source": "0x28df98",
+        "size": 1,
+        "load": "0x2e53a8",
+        "destination": 8,
+        "store": "0x2e53ba"
+      }
+    ],
+    "decoded": "Keyboard\u0000"
+  },
+  {
+    "constructor": "0x2e574c",
+    "end": "0x2e5770",
+    "length": 14,
+    "parts": [
+      {
+        "source": "0x28dea0",
+        "size": 8,
+        "load": "0x2e5752",
+        "destination": 0,
+        "store": "0x2e575a"
+      },
+      {
+        "source": "0x28dea8",
+        "size": 4,
+        "load": "0x2e574c",
+        "destination": 8,
+        "store": "0x2e575e"
+      },
+      {
+        "source": "0x28deac",
+        "size": 2,
+        "load": "0x2e5761",
+        "destination": 12,
+        "store": "0x2e5768"
+      }
+    ],
+    "decoded": "get_isPressed\u0000"
+  },
+  {
+    "constructor": "0x2e5590",
+    "end": "0x2e55b2",
+    "length": 33,
+    "parts": [
+      {
+        "source": "0x28de78",
+        "size": 16,
+        "load": "0x2e5596",
+        "destination": 0,
+        "store": "0x2e55a4"
+      },
+      {
+        "source": "0x28de88",
+        "size": 16,
+        "load": "0x2e559d",
+        "destination": 16,
+        "store": "0x2e55a7"
+      },
+      {
+        "source": "0x28de98",
+        "size": 1,
+        "load": "0x2e5590",
+        "destination": 32,
+        "store": "0x2e55ab"
+      }
+    ],
+    "decoded": "UnityEngine.InputSystem.Controls\u0000"
+  },
+  {
+    "constructor": "0x2e5434",
+    "end": "0x2e5458",
+    "length": 14,
+    "parts": [
+      {
+        "source": "0x28de68",
+        "size": 8,
+        "load": "0x2e543a",
+        "destination": 0,
+        "store": "0x2e5442"
+      },
+      {
+        "source": "0x28de70",
+        "size": 4,
+        "load": "0x2e5434",
+        "destination": 8,
+        "store": "0x2e5446"
+      },
+      {
+        "source": "0x28de74",
+        "size": 2,
+        "load": "0x2e5449",
+        "destination": 12,
+        "store": "0x2e5450"
+      }
+    ],
+    "decoded": "ButtonControl\u0000"
+  },
+  {
+    "constructor": "0x2e57a0",
+    "end": "0x2e57b9",
+    "length": 25,
+    "parts": [
+      {
+        "source": "0x28df38",
+        "size": 16,
+        "load": "0x2e57a0",
+        "destination": 0,
+        "store": "0x2e57b1"
+      },
+      {
+        "source": "0x28df41",
+        "size": 16,
+        "load": "0x2e57aa",
+        "destination": 9,
+        "store": "0x2e57b4"
+      }
+    ],
+    "decoded": "get_wasReleasedThisFrame\u0000"
+  },
+  {
+    "constructor": "0x2e55f4",
+    "end": "0x2e5616",
+    "length": 33,
+    "parts": [
+      {
+        "source": "0x28df10",
+        "size": 16,
+        "load": "0x2e55fa",
+        "destination": 0,
+        "store": "0x2e5608"
+      },
+      {
+        "source": "0x28df20",
+        "size": 16,
+        "load": "0x2e5601",
+        "destination": 16,
+        "store": "0x2e560b"
+      },
+      {
+        "source": "0x28df30",
+        "size": 1,
+        "load": "0x2e55f4",
+        "destination": 32,
+        "store": "0x2e560f"
+      }
+    ],
+    "decoded": "UnityEngine.InputSystem.Controls\u0000"
+  },
+  {
+    "constructor": "0x2e5490",
+    "end": "0x2e54b4",
+    "length": 14,
+    "parts": [
+      {
+        "source": "0x28df00",
+        "size": 8,
+        "load": "0x2e5496",
+        "destination": 0,
+        "store": "0x2e549e"
+      },
+      {
+        "source": "0x28df08",
+        "size": 4,
+        "load": "0x2e5490",
+        "destination": 8,
+        "store": "0x2e54a2"
+      },
+      {
+        "source": "0x28df0c",
+        "size": 2,
+        "load": "0x2e54a5",
+        "destination": 12,
+        "store": "0x2e54ac"
+      }
+    ],
+    "decoded": "ButtonControl\u0000"
+  },
+  {
+    "constructor": "0x2e5770",
+    "end": "0x2e578b",
+    "length": 24,
+    "parts": [
+      {
+        "source": "0x28dee8",
+        "size": 16,
+        "load": "0x2e5770",
+        "destination": 0,
+        "store": "0x2e5782"
+      },
+      {
+        "source": "0x28def8",
+        "size": 8,
+        "load": "0x2e577a",
+        "destination": 16,
+        "store": "0x2e5785"
+      }
+    ],
+    "decoded": "get_wasPressedThisFrame\u0000"
+  },
+  {
+    "constructor": "0x2e55b4",
+    "end": "0x2e55d6",
+    "length": 33,
+    "parts": [
+      {
+        "source": "0x28dec0",
+        "size": 16,
+        "load": "0x2e55ba",
+        "destination": 0,
+        "store": "0x2e55c8"
+      },
+      {
+        "source": "0x28ded0",
+        "size": 16,
+        "load": "0x2e55c1",
+        "destination": 16,
+        "store": "0x2e55cb"
+      },
+      {
+        "source": "0x28dee0",
+        "size": 1,
+        "load": "0x2e55b4",
+        "destination": 32,
+        "store": "0x2e55cf"
+      }
+    ],
+    "decoded": "UnityEngine.InputSystem.Controls\u0000"
+  },
+  {
+    "constructor": "0x2e5458",
+    "end": "0x2e547c",
+    "length": 14,
+    "parts": [
+      {
+        "source": "0x28deb0",
+        "size": 8,
+        "load": "0x2e545e",
+        "destination": 0,
+        "store": "0x2e5466"
+      },
+      {
+        "source": "0x28deb8",
+        "size": 4,
+        "load": "0x2e5458",
+        "destination": 8,
+        "store": "0x2e546a"
+      },
+      {
+        "source": "0x28debc",
+        "size": 2,
+        "load": "0x2e546d",
+        "destination": 12,
+        "store": "0x2e5474"
+      }
+    ],
+    "decoded": "ButtonControl\u0000"
+  },
+  {
+    "constructor": "0x32392c",
+    "end": "0x323943",
+    "length": 17,
+    "parts": [
+      {
+        "source": "0x293ba8",
+        "size": 16,
+        "load": "0x323932",
+        "destination": 0,
+        "store": "0x323939"
+      },
+      {
+        "source": "0x293bb8",
+        "size": 1,
+        "load": "0x32392c",
+        "destination": 16,
+        "store": "0x32393c"
+      }
+    ],
+    "decoded": "GameAssembly.dll\u0000"
+  },
+  {
+    "constructor": "0x323b58",
+    "end": "0x323b73",
+    "length": 21,
+    "parts": [
+      {
+        "source": "0x293bc0",
+        "size": 16,
+        "load": "0x323b58",
+        "destination": 0,
+        "store": "0x323b6a"
+      },
+      {
+        "source": "0x293bcd",
+        "size": 8,
+        "load": "0x323b62",
+        "destination": 13,
+        "store": "0x323b6d"
+      }
+    ],
+    "decoded": "il2cpp_resolve_icall\u0000"
+  },
+  {
+    "constructor": "0x3238f4",
+    "end": "0x323918",
+    "length": 44,
+    "parts": [
+      {
+        "source": "0x293bd8",
+        "size": 16,
+        "load": "0x3238f4",
+        "destination": 0,
+        "store": "0x323905"
+      },
+      {
+        "source": "0x293be8",
+        "size": 16,
+        "load": "0x3238fe",
+        "destination": 16,
+        "store": "0x32390f"
+      },
+      {
+        "source": "0x293bf4",
+        "size": 16,
+        "load": "0x323908",
+        "destination": 28,
+        "store": "0x323913"
+      }
+    ],
+    "decoded": "UnityEngine.Physics::IgnoreLayerCollision()\u0000"
+  }
+]

@@ -1,0 +1,4 @@
+3ae244 jmp    0x3a9fdc
+3ae249 int3
+3ae24a int3
+3ae24b int3

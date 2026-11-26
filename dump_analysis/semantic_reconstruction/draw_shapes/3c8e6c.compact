@@ -1,0 +1,2 @@
+3c8e6c movaps xmm2,xmm0
+3c8e6f movaps xmm1,xmm0

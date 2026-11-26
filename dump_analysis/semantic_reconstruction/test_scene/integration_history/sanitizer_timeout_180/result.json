@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "exit_reason": "verifier timed out after180seconds; no completed sanitizer verdict",
+  "runtime_limit_seconds": 180
+}

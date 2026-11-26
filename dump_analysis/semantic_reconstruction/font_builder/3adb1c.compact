@@ -1,0 +1,179 @@
+3adb1c rex push rbp
+3adb1e push   rbx
+3adb1f push   rsi
+3adb20 push   rdi
+3adb21 push   r12
+3adb23 push   r13
+3adb25 push   r14
+3adb27 push   r15
+3adb29 mov    rbp,rsp
+3adb2c sub    rsp,0x38
+3adb30 mov    r14d,DWORD PTR [rbp+0x68]
+3adb34 mov    ebx,r8d
+3adb37 sub    ebx,r14d
+3adb3a mov    QWORD PTR [rbp-0x18],0x0
+3adb41 
+3adb42 mov    r15d,r9d
+3adb45 mov    r12d,r8d
+3adb48 mov    esi,edx
+3adb4a mov    rdi,rcx
+3adb4d test   edx,edx
+3adb4f jle    0x3add43
+3adb55 mov    r8,r14
+3adb58 lea    rcx,[rbp-0x18]
+3adb5c xor    edx,edx
+3adb5e call   0x3c8d70
+3adb63 xor    r10d,r10d
+3adb66 mov    eax,r14d
+3adb69 sub    eax,0x2
+3adb6c je     0x3adcc6
+3adb72 sub    eax,0x1
+3adb75 je     0x3adc77
+3adb7b sub    eax,0x1
+3adb7e je     0x3adc29
+3adb84 xor    r9d,r9d
+3adb87 cmp    eax,0x1
+3adb8a je     0x3adbd9
+3adb8c test   ebx,ebx
+3adb8e js     0x3add32
+3adb94 mov    eax,r9d
+3adb97 imul   eax,r15d
+3adb9b movsxd r8,eax
+3adb9e mov    eax,r9d
+3adba1 and    eax,0x7
+3adba4 movzx  edx,BYTE PTR [rdi+r8*1]
+3adba9 movzx  ecx,BYTE PTR [rbp+rax*1-0x18]
+3adbae mov    eax,edx
+3adbb0 sub    eax,ecx
+3adbb2 add    r10d,eax
+3adbb5 lea    eax,[r9+r14*1]
+3adbb9 and    eax,0x7
+3adbbc inc    r9d
+3adbbf mov    BYTE PTR [rbp+rax*1-0x18],dl
+3adbc3 xor    edx,edx
+3adbc5 mov    eax,r10d
+3adbc8 div    r14d
+3adbcb mov    BYTE PTR [rdi+r8*1],al
+3adbcf cmp    r9d,ebx
+3adbd2 jle    0x3adb94
+3adbd4 jmp    0x3add32
+3adbd9 test   ebx,ebx
+3adbdb js     0x3add32
+3adbe1 mov    eax,r9d
+3adbe4 imul   eax,r15d
+3adbe8 movsxd r8,eax
+3adbeb mov    eax,r9d
+3adbee and    eax,0x7
+3adbf1 movzx  edx,BYTE PTR [rdi+r8*1]
+3adbf6 movzx  ecx,BYTE PTR [rbp+rax*1-0x18]
+3adbfb mov    eax,edx
+3adbfd sub    eax,ecx
+3adbff add    r10d,eax
+3adc02 lea    eax,[r9+0x5]
+3adc06 and    eax,0x7
+3adc09 inc    r9d
+3adc0c mov    BYTE PTR [rbp+rax*1-0x18],dl
+3adc10 mov    eax,0xcccccccd
+3adc15 mul    r10d
+3adc18 shr    edx,0x2
+3adc1b mov    BYTE PTR [rdi+r8*1],dl
+3adc1f cmp    r9d,ebx
+3adc22 jle    0x3adbe1
+3adc24 jmp    0x3add32
+3adc29 xor    r9d,r9d
+3adc2c test   ebx,ebx
+3adc2e js     0x3add32
+3adc34 mov    eax,r9d
+3adc37 imul   eax,r15d
+3adc3b movsxd r8,eax
+3adc3e mov    eax,r9d
+3adc41 and    eax,0x7
+3adc44 movzx  edx,BYTE PTR [rdi+r8*1]
+3adc49 movzx  ecx,BYTE PTR [rbp+rax*1-0x18]
+3adc4e mov    eax,edx
+3adc50 sub    eax,ecx
+3adc52 add    r10d,eax
+3adc55 lea    eax,[r9+0x4]
+3adc59 and    eax,0x7
+3adc5c inc    r9d
+3adc5f mov    BYTE PTR [rbp+rax*1-0x18],dl
+3adc63 mov    eax,r10d
+3adc66 shr    eax,0x2
+3adc69 mov    BYTE PTR [rdi+r8*1],al
+3adc6d cmp    r9d,ebx
+3adc70 jle    0x3adc34
+3adc72 jmp    0x3add32
+3adc77 xor    r9d,r9d
+3adc7a test   ebx,ebx
+3adc7c js     0x3add32
+3adc82 mov    eax,r9d
+3adc85 imul   eax,r15d
+3adc89 movsxd r8,eax
+3adc8c mov    eax,r9d
+3adc8f and    eax,0x7
+3adc92 movzx  edx,BYTE PTR [rdi+r8*1]
+3adc97 movzx  ecx,BYTE PTR [rbp+rax*1-0x18]
+3adc9c mov    eax,edx
+3adc9e sub    eax,ecx
+3adca0 add    r10d,eax
+3adca3 lea    eax,[r9+0x3]
+3adca7 and    eax,0x7
+3adcaa inc    r9d
+3adcad mov    BYTE PTR [rbp+rax*1-0x18],dl
+3adcb1 mov    eax,0xaaaaaaab
+3adcb6 mul    r10d
+3adcb9 shr    edx,1
+3adcbb mov    BYTE PTR [rdi+r8*1],dl
+3adcbf cmp    r9d,ebx
+3adcc2 jle    0x3adc82
+3adcc4 jmp    0x3add32
+3adcc6 xor    r9d,r9d
+3adcc9 test   ebx,ebx
+3adccb js     0x3add32
+3adccd mov    eax,r9d
+3adcd0 imul   eax,r15d
+3adcd4 movsxd r8,eax
+3adcd7 mov    eax,r9d
+3adcda and    eax,0x7
+3adcdd movzx  edx,BYTE PTR [rdi+r8*1]
+3adce2 movzx  ecx,BYTE PTR [rbp+rax*1-0x18]
+3adce7 mov    eax,edx
+3adce9 sub    eax,ecx
+3adceb add    r10d,eax
+3adcee lea    eax,[r9+0x2]
+3adcf2 and    eax,0x7
+3adcf5 inc    r9d
+3adcf8 mov    BYTE PTR [rbp+rax*1-0x18],dl
+3adcfc mov    eax,r10d
+3adcff shr    eax,1
+3add01 mov    BYTE PTR [rdi+r8*1],al
+3add05 cmp    r9d,ebx
+3add08 jle    0x3adccd
+3add0a jmp    0x3add32
+3add0c mov    eax,r9d
+3add0f xor    edx,edx
+3add11 and    eax,0x7
+3add14 mov    ecx,r9d
+3add17 imul   ecx,r15d
+3add1b movzx  eax,BYTE PTR [rbp+rax*1-0x18]
+3add20 sub    r10d,eax
+3add23 mov    eax,r10d
+3add26 movsxd rcx,ecx
+3add29 div    r14d
+3add2c inc    r9d
+3add2f mov    BYTE PTR [rdi+rcx*1],al
+3add32 cmp    r9d,r12d
+3add35 jl     0x3add0c
+3add37 inc    rdi
+3add3a sub    esi,0x1
+3add3d jne    0x3adb55
+3add43 add    rsp,0x38
+3add47 pop    r15
+3add49 pop    r14
+3add4b pop    r13
+3add4d pop    r12
+3add4f pop    rdi
+3add50 pop    rsi
+3add51 pop    rbx
+3add52 pop    rbp
+3add53 ret

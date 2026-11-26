@@ -1,0 +1,25 @@
+Compile windows unity_math_analysis.cpp
+Compile windows world_esp_analysis.cpp
+Compile windows world_esp_bounds.cpp
+Compile windows world_esp_classifier_tables.cpp
+Compile windows world_esp_draw.cpp
+Compile windows world_esp_draw_tables.cpp
+Compile windows world_esp_inventory_tooltip.cpp
+Compile windows world_esp_item_names.cpp
+Compile windows world_esp_labels.cpp
+Compile windows world_esp_names.cpp
+Compile windows world_esp_player_actions.cpp
+Compile windows world_esp_player_labels.cpp
+Compile windows world_esp_player_radar.cpp
+Compile windows world_esp_player_worker.cpp
+Compile windows world_esp_players.cpp
+Compile windows world_esp_skeleton_tables.cpp
+Compile windows world_render_bindings.cpp
+Compile windows world_snapshot_bindings.cpp
+Compile windows esp.cpp
+Compile windows host.cpp
+Compile windows menu.cpp
+Compile windows resource_checks.cpp
+Compile windows resources.cpp
+Compile windows scene.cpp
+{"passed": true, "mode": "windows", "cache_hits": 94, "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe", "artifact_sha256": "0f15397935119dc9f5a0475454043c88dae90755452336d05536504e51219847"}

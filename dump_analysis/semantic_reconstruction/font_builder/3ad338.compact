@@ -1,0 +1,71 @@
+3ad338 movups xmm0,XMMWORD PTR [r9+r11*4-0x10]
+3ad33e comiss xmm0,xmm1
+3ad341 seta   cl
+3ad344 test   ecx,ecx
+3ad346 je     0x3ad363
+3ad348 movups xmm0,XMMWORD PTR [r9+r11*4-0x14]
+3ad34e mov    ecx,DWORD PTR [r9+r11*4-0x4]
+3ad353 dec    edx
+3ad355 movups XMMWORD PTR [r9+r11*4],xmm0
+3ad35a mov    DWORD PTR [r9+r11*4+0x10],ecx
+3ad35f test   edx,edx
+3ad361 jg     0x3ad32f
+3ad363 cmp    r8d,edx
+3ad366 je     0x3ad386
+3ad368 movsxd rcx,edx
+3ad36b lea    rdx,[rcx+rcx*4]
+3ad36f movsd  QWORD PTR [r9+rdx*4+0x8],xmm2
+3ad376 mov    DWORD PTR [r9+rdx*4+0x10],ebx
+3ad37b movss  DWORD PTR [r9+rdx*4+0x4],xmm1
+3ad382 mov    DWORD PTR [r9+rdx*4],eax
+3ad386 inc    r8d
+3ad389 cmp    r8d,r10d
+3ad38c jl     0x3ad30e
+3ad38e mov    rbx,QWORD PTR [rsp+0x8]
+3ad393 ret
+3ad394 cmp    edx,0xc
+3ad397 jle    0x3ad4ec
+3ad39d mov    QWORD PTR [rsp+0x8],rbx
+3ad3a2 push   rdi
+3ad3a3 sub    rsp,0x20
+3ad3a7 mov    edi,edx
+3ad3a9 mov    rbx,rcx
+3ad3ac xor    r9d,r9d
+3ad3af mov    eax,edi
+3ad3b1 shr    eax,1
+3ad3b3 lea    r8,[rax+rax*4]
+3ad3b7 mov    eax,edi
+3ad3b9 movss  xmm0,DWORD PTR [rbx+r8*4+0x4]
+3ad3c0 lea    rcx,[rax+rax*4]
+3ad3c4 movss  xmm1,DWORD PTR [rbx+rcx*4-0x10]
+3ad3ca comiss xmm1,xmm0
+3ad3cd seta   r9b
+3ad3d1 xor    eax,eax
+3ad3d3 comiss xmm0,DWORD PTR [rbx+0x4]
+3ad3d7 seta   al
+3ad3da cmp    eax,r9d
+3ad3dd je     0x3ad41e
+3ad3df movups xmm0,XMMWORD PTR [rbx+r8*4]
+3ad3e4 xor    edx,edx
+3ad3e6 lea    ecx,[rdi-0x1]
+3ad3e9 comiss xmm1,DWORD PTR [rbx+0x4]
+3ad3ed seta   dl
+3ad3f0 xor    eax,eax
+3ad3f2 cmp    edx,r9d
+3ad3f5 cmove  ecx,eax
+3ad3f8 movsxd rax,ecx
+3ad3fb lea    rcx,[rax+rax*4]
+3ad3ff movups xmm1,XMMWORD PTR [rbx+rcx*4]
+3ad403 mov    edx,DWORD PTR [rbx+rcx*4+0x10]
+3ad407 movups XMMWORD PTR [rbx+rcx*4],xmm0
+3ad40b mov    eax,DWORD PTR [rbx+r8*4+0x10]
+3ad410 mov    DWORD PTR [rbx+rcx*4+0x10],eax
+3ad414 movups XMMWORD PTR [rbx+r8*4],xmm1
+3ad419 mov    DWORD PTR [rbx+r8*4+0x10],edx
+3ad41e movups xmm0,XMMWORD PTR [rbx+r8*4]
+3ad423 mov    ecx,DWORD PTR [rbx+0x10]
+3ad426 mov    r9d,0x1
+3ad42c movups xmm1,XMMWORD PTR [rbx]
+3ad42f movups XMMWORD PTR [rbx],xmm0
+3ad432 mov    eax,DWORD PTR [rbx+r8*4+0x10]
+3ad437 mov    DWORD PTR [rbx+0x10],eax

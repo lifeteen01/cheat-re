@@ -1,0 +1,26 @@
+3612f8 mov    r11,rsp
+3612fb push   rbx
+3612fc sub    rsp,0x40
+361300 movaps xmm0,xmm2
+361303 lea    rax,[r11+0x8]
+361307 mov    QWORD PTR [r11-0x20],rax
+36130b lea    r9,[r11-0x14]
+36130f movaps xmm4,xmm1
+361312 lea    rax,[r11-0x18]
+361316 movaps xmm1,xmm0
+361319 mov    QWORD PTR [r11-0x28],rax
+36131d movaps xmm2,xmm3
+361320 movaps xmm0,xmm4
+361323 mov    rbx,rcx
+361326 call   0x3904e0
+36132b movss  xmm0,DWORD PTR [rsp+0x70]
+361331 mov    rcx,rbx
+361334 movss  xmm3,DWORD PTR [rsp+0x50]
+36133a movss  xmm2,DWORD PTR [rsp+0x30]
+361340 movss  xmm1,DWORD PTR [rsp+0x34]
+361346 movss  DWORD PTR [rsp+0x20],xmm0
+36134c call   0x2d484c
+361351 mov    rax,rbx
+361354 add    rsp,0x40
+361358 pop    rbx
+361359 ret

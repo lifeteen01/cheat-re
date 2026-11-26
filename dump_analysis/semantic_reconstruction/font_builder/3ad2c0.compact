@@ -1,0 +1,6 @@
+3ad2c0 mulss  xmm0,xmm1
+3ad2c4 mulss  xmm0,DWORD PTR [rip+0xffffffffffedff84]        # 0x28d250
+3ad2cc ret
+3ad2cd int3
+3ad2ce int3
+3ad2cf int3

@@ -1,0 +1,9 @@
+{
+  "source/reconstructed/draw_shadows_analysis.hpp": "5f06969c50ffbedbece25db283f5e4ecad73d9ab1bbec13d154bde8c2d5dc488",
+  "source/reconstructed/draw_shadows_checks.cpp": "b4462638700bd005cd431c443cf3133646f564160ded3fea2f92fee331573308",
+  "source/reconstructed/draw_shadows_clipping.cpp": "aa1739cc14bca20412babab510dd560edbc0d7a16c046b8bceb3e25019c6c6e1",
+  "source/reconstructed/draw_shadows_controllers.cpp": "5a865584ef33c43c8772ac60b206f3df929c522eef6c62b2e0093f5b0792ca45",
+  "source/reconstructed/draw_shadows_geometry.cpp": "147a4d0da2ec00c20d151c669cd4ffaa835b61d1aadaa6326580757b6af27691",
+  "source/reconstructed/draw_shadows_internal.hpp": "1b1b28f5a7dbb01962cc36b5ff69bdac8c359576bcb9671f8fce87ce0bf80aeb",
+  "source/reconstructed/draw_shadows_reconstruction.md": "8df4df13bc89eb4fea53394053e03df81d280688f9853357864350467c648c71"
+}

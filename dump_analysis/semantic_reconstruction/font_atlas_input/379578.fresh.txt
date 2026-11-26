@@ -1,0 +1,12 @@
+379578 rex push rbx
+37957a sub    rsp,0x20
+37957e mov    rbx,rcx
+379581 mov    rcx,QWORD PTR [rcx+0x8]
+379585 test   rcx,rcx
+379588 je     0x37959e
+37958a mov    QWORD PTR [rbx],0x0
+379591 call   0x39517c
+379596 mov    QWORD PTR [rbx+0x8],0x0
+37959e add    rsp,0x20
+3795a2 pop    rbx
+3795a3 ret

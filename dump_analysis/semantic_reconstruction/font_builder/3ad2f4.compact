@@ -1,0 +1,143 @@
+3ad2f4 mov    QWORD PTR [rsp+0x8],rbx
+3ad2f9 mov    r8d,0x1
+3ad2ff mov    r10d,edx
+3ad302 mov    r9,rcx
+3ad305 cmp    edx,r8d
+3ad308 jle    0x3ad38e
+3ad30e mov    eax,r8d
+3ad311 mov    edx,r8d
+3ad314 lea    rcx,[rax+rax*4]
+3ad318 mov    eax,DWORD PTR [r9+rcx*4]
+3ad31c movss  xmm1,DWORD PTR [r9+rcx*4+0x4]
+3ad323 movsd  xmm2,QWORD PTR [r9+rcx*4+0x8]
+3ad32a mov    ebx,DWORD PTR [r9+rcx*4+0x10]
+3ad32f mov    ecx,edx
+3ad331 lea    r11,[rcx+rcx*4]
+3ad335 xor    ecx,ecx
+3ad337 movss  xmm0,DWORD PTR [r9+r11*4-0x10]
+3ad33e comiss xmm0,xmm1
+3ad341 seta   cl
+3ad344 test   ecx,ecx
+3ad346 je     0x3ad363
+3ad348 movups xmm0,XMMWORD PTR [r9+r11*4-0x14]
+3ad34e mov    ecx,DWORD PTR [r9+r11*4-0x4]
+3ad353 dec    edx
+3ad355 movups XMMWORD PTR [r9+r11*4],xmm0
+3ad35a mov    DWORD PTR [r9+r11*4+0x10],ecx
+3ad35f test   edx,edx
+3ad361 jg     0x3ad32f
+3ad363 cmp    r8d,edx
+3ad366 je     0x3ad386
+3ad368 movsxd rcx,edx
+3ad36b lea    rdx,[rcx+rcx*4]
+3ad36f movsd  QWORD PTR [r9+rdx*4+0x8],xmm2
+3ad376 mov    DWORD PTR [r9+rdx*4+0x10],ebx
+3ad37b movss  DWORD PTR [r9+rdx*4+0x4],xmm1
+3ad382 mov    DWORD PTR [r9+rdx*4],eax
+3ad386 inc    r8d
+3ad389 cmp    r8d,r10d
+3ad38c jl     0x3ad30e
+3ad38e mov    rbx,QWORD PTR [rsp+0x8]
+3ad393 ret
+3ad394 cmp    edx,0xc
+3ad397 jle    0x3ad4ec
+3ad39d mov    QWORD PTR [rsp+0x8],rbx
+3ad3a2 push   rdi
+3ad3a3 sub    rsp,0x20
+3ad3a7 mov    edi,edx
+3ad3a9 mov    rbx,rcx
+3ad3ac xor    r9d,r9d
+3ad3af mov    eax,edi
+3ad3b1 shr    eax,1
+3ad3b3 lea    r8,[rax+rax*4]
+3ad3b7 mov    eax,edi
+3ad3b9 movss  xmm0,DWORD PTR [rbx+r8*4+0x4]
+3ad3c0 lea    rcx,[rax+rax*4]
+3ad3c4 movss  xmm1,DWORD PTR [rbx+rcx*4-0x10]
+3ad3ca comiss xmm1,xmm0
+3ad3cd seta   r9b
+3ad3d1 xor    eax,eax
+3ad3d3 comiss xmm0,DWORD PTR [rbx+0x4]
+3ad3d7 seta   al
+3ad3da cmp    eax,r9d
+3ad3dd je     0x3ad41e
+3ad3df movups xmm0,XMMWORD PTR [rbx+r8*4]
+3ad3e4 xor    edx,edx
+3ad3e6 lea    ecx,[rdi-0x1]
+3ad3e9 comiss xmm1,DWORD PTR [rbx+0x4]
+3ad3ed seta   dl
+3ad3f0 xor    eax,eax
+3ad3f2 cmp    edx,r9d
+3ad3f5 cmove  ecx,eax
+3ad3f8 movsxd rax,ecx
+3ad3fb lea    rcx,[rax+rax*4]
+3ad3ff movups xmm1,XMMWORD PTR [rbx+rcx*4]
+3ad403 mov    edx,DWORD PTR [rbx+rcx*4+0x10]
+3ad407 movups XMMWORD PTR [rbx+rcx*4],xmm0
+3ad40b mov    eax,DWORD PTR [rbx+r8*4+0x10]
+3ad410 mov    DWORD PTR [rbx+rcx*4+0x10],eax
+3ad414 movups XMMWORD PTR [rbx+r8*4],xmm1
+3ad419 mov    DWORD PTR [rbx+r8*4+0x10],edx
+3ad41e movups xmm0,XMMWORD PTR [rbx+r8*4]
+3ad423 mov    ecx,DWORD PTR [rbx+0x10]
+3ad426 mov    r9d,0x1
+3ad42c movups xmm1,XMMWORD PTR [rbx]
+3ad42f movups XMMWORD PTR [rbx],xmm0
+3ad432 mov    eax,DWORD PTR [rbx+r8*4+0x10]
+3ad437 mov    DWORD PTR [rbx+0x10],eax
+3ad43a movups XMMWORD PTR [rbx+r8*4],xmm1
+3ad43f mov    DWORD PTR [rbx+r8*4+0x10],ecx
+3ad444 lea    r8d,[rdi-0x1]
+3ad448 movss  xmm1,DWORD PTR [rbx+0x4]
+3ad44d jmp    0x3ad452
+3ad44f inc    r9d
+3ad452 movsxd rax,r9d
+3ad455 lea    rcx,[rax+rax*4]
+3ad459 comiss xmm1,DWORD PTR [rbx+rcx*4+0x4]
+3ad45e ja     0x3ad44f
+3ad460 jmp    0x3ad465
+3ad462 dec    r8d
+3ad465 movsxd rax,r8d
+3ad468 lea    rcx,[rax+rax*4]
+3ad46c movss  xmm0,DWORD PTR [rbx+rcx*4+0x4]
+3ad472 comiss xmm0,xmm1
+3ad475 ja     0x3ad462
+3ad477 movsxd rax,r9d
+3ad47a lea    rcx,[rax+rax*4]
+3ad47e lea    r10,[rbx+rcx*4]
+3ad482 cmp    r9d,r8d
+3ad485 jge    0x3ad4b6
+3ad487 movups xmm1,XMMWORD PTR [r10]
+3ad48b mov    edx,DWORD PTR [r10+0x10]
+3ad48f inc    r9d
+3ad492 movsxd rax,r8d
+3ad495 dec    r8d
+3ad498 lea    rcx,[rax+rax*4]
+3ad49c movups xmm0,XMMWORD PTR [rbx+rcx*4]
+3ad4a0 movups XMMWORD PTR [r10],xmm0
+3ad4a4 mov    eax,DWORD PTR [rbx+rcx*4+0x10]
+3ad4a8 mov    DWORD PTR [r10+0x10],eax
+3ad4ac movups XMMWORD PTR [rbx+rcx*4],xmm1
+3ad4b0 mov    DWORD PTR [rbx+rcx*4+0x10],edx
+3ad4b4 jmp    0x3ad448
+3ad4b6 sub    edi,r9d
+3ad4b9 mov    eax,edi
+3ad4bb cmp    r8d,edi
+3ad4be jge    0x3ad4c8
+3ad4c0 mov    rcx,rbx
+3ad4c3 mov    rbx,r10
+3ad4c6 jmp    0x3ad4d1
+3ad4c8 mov    edi,r8d
+3ad4cb mov    rcx,r10
+3ad4ce mov    r8d,eax
+3ad4d1 mov    edx,r8d
+3ad4d4 call   0x3ad394
+3ad4d9 cmp    edi,0xc
+3ad4dc jg     0x3ad3ac
+3ad4e2 mov    rbx,QWORD PTR [rsp+0x30]
+3ad4e7 add    rsp,0x20
+3ad4eb pop    rdi
+3ad4ec ret
+3ad4ed int3
+3ad4ee int3
+3ad4ef int3

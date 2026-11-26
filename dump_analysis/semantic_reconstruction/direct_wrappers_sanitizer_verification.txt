@@ -1,0 +1,16 @@
+[I] Combined immutable-script ASan/UBSan verification.
+Compile game_direct_wrappers_analysis.cpp
+Compile game_direct_wrappers_arguments.cpp
+Compile game_direct_wrappers_bindings.cpp
+Compile game_direct_wrappers_checks.cpp
+Compile game_direct_wrappers_controllers.cpp
+Compile game_direct_wrappers_conversion_checks.cpp
+Compile game_direct_wrappers_failure_checks.cpp
+Compile game_direct_wrappers_literals.cpp
+Compile game_direct_wrappers_selector.cpp
+Compile game_direct_wrappers_selector_checks.cpp
+Compile analysis_checks.cpp
+Link 299 translation units; 288 content-verified cache hits
+PASS: offline hooks, metadata, rendering/entities, literal math, prediction/projectiles, aim/weapons, desync/collider, launcher/hit and PE/unwind fixtures
+EXIT_STATUS=0
+SOURCE_SET_UNCHANGED=True

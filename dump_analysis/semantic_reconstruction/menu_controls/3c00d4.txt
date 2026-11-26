@@ -1,0 +1,42 @@
+3c00d4	rex push rbx
+3c00d6	sub    rsp,0x20
+3c00da	mov    ebx,edx
+3c00dc	call   0x3c00a4
+3c00e1	cmp    BYTE PTR [rax],0x25
+3c00e4	je     0x3c00f1
+3c00e6	mov    eax,ebx
+3c00e8	jmp    0x3c014a
+3c00ea	mov    cl,BYTE PTR [rax]
+3c00ec	cmp    cl,0x39
+3c00ef	jg     0x3c00fb
+3c00f1	inc    rax
+3c00f4	mov    cl,BYTE PTR [rax]
+3c00f6	cmp    cl,0x30
+3c00f9	jge    0x3c00ea
+3c00fb	mov    r10d,0x7fffffff
+3c0101	mov    edx,r10d
+3c0104	mov    DWORD PTR [rsp+0x30],edx
+3c0108	cmp    cl,0x2e
+3c010b	jne    0x3c0125
+3c010d	lea    rcx,[rax+0x1]
+3c0111	lea    rdx,[rsp+0x30]
+3c0116	call   0x3b59f8
+3c011b	mov    edx,DWORD PTR [rsp+0x30]
+3c011f	cmp    edx,0x63
+3c0122	cmova  edx,ebx
+3c0125	mov    cl,BYTE PTR [rax]
+3c0127	lea    eax,[rcx-0x45]
+3c012a	test   al,0xdf
+3c012c	mov    eax,0xffffffff
+3c0131	cmove  edx,eax
+3c0134	add    cl,0xb9
+3c0137	test   cl,0xdf
+3c013a	jne    0x3c0142
+3c013c	cmp    edx,r10d
+3c013f	cmove  edx,eax
+3c0142	cmp    edx,r10d
+3c0145	cmove  edx,ebx
+3c0148	mov    eax,edx
+3c014a	add    rsp,0x20
+3c014e	pop    rbx
+3c014f	ret

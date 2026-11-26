@@ -1,0 +1,202 @@
+[
+  {
+    "begin": "0x39fe54",
+    "end": "0x39ff7c",
+    "role": "memory font ingestion"
+  },
+  {
+    "begin": "0x39fd68",
+    "end": "0x39fe54",
+    "role": "AddFont"
+  },
+  {
+    "begin": "0x39f550",
+    "end": "0x39f5aa",
+    "role": "config constructor"
+  },
+  {
+    "begin": "0x39f3d0",
+    "end": "0x39f433",
+    "role": "font constructor"
+  },
+  {
+    "begin": "0x3a3c40",
+    "end": "0x3a3c63",
+    "role": "clear atlas controller"
+  },
+  {
+    "begin": "0x3a3d04",
+    "end": "0x3a3e10",
+    "role": "clear input"
+  },
+  {
+    "begin": "0x3a3c64",
+    "end": "0x3a3c80",
+    "role": "clear fonts"
+  },
+  {
+    "begin": "0x39f268",
+    "end": "0x39f28a",
+    "role": "font destroy wrapper"
+  },
+  {
+    "begin": "0x39f73c",
+    "end": "0x39f770",
+    "role": "destructor flag0 specialization"
+  },
+  {
+    "begin": "0x39f5ac",
+    "end": "0x39f5d9",
+    "role": "font destructor"
+  },
+  {
+    "begin": "0x336624",
+    "end": "0x33663b",
+    "role": "descriptor destructor"
+  },
+  {
+    "begin": "0x37a658",
+    "end": "0x37a69b",
+    "role": "font pointer append"
+  },
+  {
+    "begin": "0x37a758",
+    "end": "0x37a7b9",
+    "role": "font pointer reserve"
+  },
+  {
+    "begin": "0x3a9480",
+    "end": "0x3a9518",
+    "role": "config append"
+  },
+  {
+    "begin": "0x3a95bc",
+    "end": "0x3a9620",
+    "role": "config reserve"
+  },
+  {
+    "begin": "0x3a931c",
+    "end": "0x3a932e",
+    "role": "config back"
+  },
+  {
+    "begin": "0x39e314",
+    "end": "0x39e324",
+    "role": "font back"
+  },
+  {
+    "begin": "0x39f620",
+    "end": "0x39f62f",
+    "role": "config index"
+  },
+  {
+    "begin": "0x38bb84",
+    "end": "0x38bb90",
+    "role": "font index"
+  },
+  {
+    "begin": "0x362efc",
+    "end": "0x362f25",
+    "role": "growth"
+  },
+  {
+    "begin": "0x379578",
+    "end": "0x3795a4",
+    "role": "vector clear"
+  },
+  {
+    "begin": "0x38bb6c",
+    "end": "0x38bb70",
+    "role": "literal no-fill"
+  },
+  {
+    "begin": "0x2db3a0",
+    "end": "0x2db3ad",
+    "role": "vector constructor"
+  },
+  {
+    "begin": "0x2d4870",
+    "end": "0x2d487b",
+    "role": "Vec2 zero"
+  },
+  {
+    "begin": "0x3c8d4c",
+    "end": "0x3c8d6e",
+    "role": "forward byte copy"
+  },
+  {
+    "begin": "0x3a8bec",
+    "end": "0x3a8c1f",
+    "role": "range unpack"
+  },
+  {
+    "begin": "0x3a47b4",
+    "end": "0x3a47bc",
+    "role": "range getter"
+  },
+  {
+    "begin": "0x3a47cc",
+    "end": "0x3a482e",
+    "role": "Chinese range getter"
+  },
+  {
+    "begin": "0x3a4748",
+    "end": "0x3a4750",
+    "role": "range getter"
+  },
+  {
+    "begin": "0x3a47c4",
+    "end": "0x3a47cc",
+    "role": "range getter"
+  },
+  {
+    "begin": "0x3a4830",
+    "end": "0x3a4838",
+    "role": "range getter"
+  },
+  {
+    "begin": "0x3a4840",
+    "end": "0x3a4848",
+    "role": "range getter"
+  },
+  {
+    "begin": "0x3a4838",
+    "end": "0x3a4840",
+    "role": "range getter"
+  },
+  {
+    "begin": "0x3a4750",
+    "end": "0x3a47b4",
+    "role": "Japanese range getter"
+  },
+  {
+    "begin": "0x3c8d70",
+    "end": "0x3c8d8b",
+    "role": "forward byte fill"
+  },
+  {
+    "begin": "0x3a3e10",
+    "end": "0x3a3e64",
+    "role": "shared output clear with owned mutations"
+  },
+  {
+    "begin": "0x3a3e64",
+    "end": "0x3a3ea3",
+    "role": "shared pixel clear with owned mutations"
+  },
+  {
+    "begin": "0x395158",
+    "end": "0x39517b",
+    "role": "reused draw-core allocation wrapper"
+  },
+  {
+    "begin": "0x39517c",
+    "end": "0x3951a1",
+    "role": "reused draw-core free wrapper"
+  },
+  {
+    "begin": "0x3a9344",
+    "end": "0x3a937f",
+    "role": "font pointer vector destruction"
+  }
+]

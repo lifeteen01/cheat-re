@@ -1,0 +1,25 @@
+Compile metadata_analysis.cpp
+Compile drawlist_core_commands.cpp
+Compile drawlist_core_channels.cpp
+Compile drawlist_core_bindings.cpp
+Compile menu_controls_math.cpp
+Compile menu_controls_common.cpp
+Compile menu_controls_input.cpp
+Compile menu_controls_layout.cpp
+Compile menu_controls_navigation.cpp
+Compile imgui_windows_begin.cpp
+Compile imgui_windows_bindings.cpp
+Compile imgui_windows_checks.cpp
+Compile imgui_windows_child.cpp
+Compile imgui_windows_controls.cpp
+Compile imgui_windows_create.cpp
+Compile 399f3c.cpp
+Compile imgui_windows_end.cpp
+Compile imgui_windows_first_frame.cpp
+Compile imgui_windows_helpers.cpp
+Compile imgui_windows_metrics.cpp
+Compile imgui_windows_modal.cpp
+Compile check_main.cpp
+Link 22 translation units; 0 content-verified cache hits
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  native saved window flags control menu branch after background callback mutation

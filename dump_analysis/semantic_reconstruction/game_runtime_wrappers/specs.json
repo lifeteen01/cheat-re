@@ -1,0 +1,796 @@
+[
+  {
+    "wrapper": 3016732,
+    "end": 3016987,
+    "role": "scalar",
+    "guard": "none",
+    "flags": 4027360,
+    "target": 4027352,
+    "context": 4027376,
+    "flags_read": 3016740,
+    "flag_one": 3016767,
+    "target_read": 3016901,
+    "flags_reload": 3016904,
+    "target_store": 3016910,
+    "warm_target": 3016919,
+    "setup_root": 3016930,
+    "flag_two": 3016950,
+    "effect_root": 3016961,
+    "effect_site": 3016982,
+    "executor": 3008848,
+    "selector": 3361196,
+    "method": "get_fixedDeltaTime",
+    "klass": "Time",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2dfb28",
+        "decoded": "get_fixedDeltaTime"
+      },
+      {
+        "getter": "0x2df9cc",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2df8b0",
+        "decoded": "Time"
+      }
+    ]
+  },
+  {
+    "wrapper": 3017712,
+    "end": 3017967,
+    "role": "scalar",
+    "guard": "none",
+    "flags": 4027128,
+    "target": 4027120,
+    "context": 4027136,
+    "flags_read": 3017720,
+    "flag_one": 3017747,
+    "target_read": 3017881,
+    "flags_reload": 3017884,
+    "target_store": 3017890,
+    "warm_target": 3017899,
+    "setup_root": 3017910,
+    "flag_two": 3017930,
+    "effect_root": 3017941,
+    "effect_site": 3017962,
+    "executor": 3008848,
+    "selector": 3361196,
+    "method": "get_smoothDeltaTime",
+    "klass": "Time",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2dfb78",
+        "decoded": "get_smoothDeltaTime"
+      },
+      {
+        "getter": "0x2dfa20",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2df908",
+        "decoded": "Time"
+      }
+    ]
+  },
+  {
+    "wrapper": 3039808,
+    "end": 3040063,
+    "role": "scalar",
+    "guard": "none",
+    "flags": 4081664,
+    "target": 4081656,
+    "context": 4081680,
+    "flags_read": 3039816,
+    "flag_one": 3039843,
+    "target_read": 3039977,
+    "flags_reload": 3039980,
+    "target_store": 3039986,
+    "warm_target": 3039995,
+    "setup_root": 3040006,
+    "flag_two": 3040026,
+    "effect_root": 3040037,
+    "effect_site": 3040058,
+    "executor": 3008848,
+    "selector": 3361196,
+    "method": "get_time",
+    "klass": "Time",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2e5714",
+        "decoded": "get_time"
+      },
+      {
+        "getter": "0x2e5558",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2e53e0",
+        "decoded": "Time"
+      }
+    ]
+  },
+  {
+    "wrapper": 3229996,
+    "end": 3230309,
+    "role": "lerp",
+    "guard": "none",
+    "flags": 4089328,
+    "target": 4089320,
+    "context": 4089344,
+    "flags_read": 3230011,
+    "flag_one": 3230053,
+    "target_read": 3230184,
+    "flags_reload": 3230187,
+    "target_store": 3230193,
+    "warm_target": 3230202,
+    "setup_root": 3230213,
+    "flag_two": 3230233,
+    "effect_root": 3230252,
+    "effect_site": 3230283,
+    "executor": 3068440,
+    "selector": 3361196,
+    "method": "Lerp",
+    "klass": "Vector3",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2f4204",
+        "decoded": "Lerp"
+      },
+      {
+        "getter": "0x2f365c",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2df850",
+        "decoded": "Vector3"
+      }
+    ]
+  },
+  {
+    "wrapper": 3233820,
+    "end": 3234084,
+    "role": "scalar",
+    "guard": "none",
+    "flags": 4088376,
+    "target": 4088368,
+    "context": 4088384,
+    "flags_read": 3233830,
+    "flag_one": 3233855,
+    "target_read": 3233998,
+    "flags_reload": 3234001,
+    "target_store": 3234007,
+    "warm_target": 3234016,
+    "setup_root": 3234027,
+    "flag_two": 3234047,
+    "effect_root": 3234058,
+    "effect_site": 3234079,
+    "executor": 3008848,
+    "selector": 3361196,
+    "method": "get_realtimeSinceStartup",
+    "klass": "Time",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2f4234",
+        "decoded": "get_realtimeSinceStartup"
+      },
+      {
+        "getter": "0x2f36b0",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2f21fc",
+        "decoded": "Time"
+      }
+    ]
+  },
+  {
+    "wrapper": 3234084,
+    "end": 3234339,
+    "role": "object_zero",
+    "guard": "none",
+    "flags": 4088848,
+    "target": 4088840,
+    "context": 4088864,
+    "flags_read": 3234092,
+    "flag_one": 3234119,
+    "target_read": 3234253,
+    "flags_reload": 3234256,
+    "target_store": 3234262,
+    "warm_target": 3234271,
+    "setup_root": 3234282,
+    "flag_two": 3234302,
+    "effect_root": 3234313,
+    "effect_site": 3234334,
+    "executor": 3004952,
+    "selector": 3361196,
+    "method": "get_main",
+    "klass": "Camera",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2f4250",
+        "decoded": "get_main"
+      },
+      {
+        "getter": "0x2f36cc",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2f2214",
+        "decoded": "Camera"
+      }
+    ]
+  },
+  {
+    "wrapper": 3234388,
+    "end": 3234690,
+    "role": "object_one",
+    "guard": "receiver",
+    "flags": 4089568,
+    "target": 4089560,
+    "context": 4089584,
+    "flags_read": 3234419,
+    "flag_one": 3234452,
+    "target_read": 3234592,
+    "flags_reload": 3234595,
+    "target_store": 3234601,
+    "warm_target": 3234610,
+    "setup_root": 3234621,
+    "flag_two": 3234641,
+    "effect_root": 3234652,
+    "effect_site": 3234669,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_transform",
+    "klass": "Component",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x2f426c",
+        "decoded": "get_transform"
+      },
+      {
+        "getter": "0x2f36e8",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x2f2234",
+        "decoded": "Component"
+      }
+    ]
+  },
+  {
+    "wrapper": 3295180,
+    "end": 3295492,
+    "role": "predicate",
+    "guard": "root_329714",
+    "flags": 4140288,
+    "target": 4140280,
+    "context": 4140304,
+    "flags_read": 3295216,
+    "flag_one": 3295249,
+    "target_read": 3295389,
+    "flags_reload": 3295392,
+    "target_store": 3295398,
+    "warm_target": 3295407,
+    "setup_root": 3295418,
+    "flag_two": 3295438,
+    "effect_root": 3295449,
+    "effect_site": 3295466,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_enabled",
+    "klass": "Behaviour",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x323d60",
+        "decoded": "get_enabled"
+      },
+      {
+        "getter": "0x323ae8",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x3238a0",
+        "decoded": "Behaviour"
+      }
+    ]
+  },
+  {
+    "wrapper": 3315696,
+    "end": 3315998,
+    "role": "object_one",
+    "guard": "receiver",
+    "flags": 4140048,
+    "target": 4140040,
+    "context": 4140064,
+    "flags_read": 3315727,
+    "flag_one": 3315760,
+    "target_read": 3315900,
+    "flags_reload": 3315903,
+    "target_store": 3315909,
+    "warm_target": 3315918,
+    "setup_root": 3315929,
+    "flag_two": 3315949,
+    "effect_root": 3315960,
+    "effect_site": 3315977,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_transform",
+    "klass": "Component",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x323d7c",
+        "decoded": "get_transform"
+      },
+      {
+        "getter": "0x323b04",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x3238bc",
+        "decoded": "Component"
+      }
+    ]
+  },
+  {
+    "wrapper": 3316000,
+    "end": 3316279,
+    "role": "object_one",
+    "guard": "none",
+    "flags": 4139552,
+    "target": 4139544,
+    "context": 4139568,
+    "flags_read": 3316014,
+    "flag_one": 3316042,
+    "target_read": 3316182,
+    "flags_reload": 3316185,
+    "target_store": 3316191,
+    "warm_target": 3316200,
+    "setup_root": 3316211,
+    "flag_two": 3316231,
+    "effect_root": 3316242,
+    "effect_site": 3316274,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_transform",
+    "klass": "RaycastHit",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x323da0",
+        "decoded": "get_transform"
+      },
+      {
+        "getter": "0x323b20",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x3238d8",
+        "decoded": "RaycastHit"
+      }
+    ]
+  },
+  {
+    "wrapper": 3325448,
+    "end": 3325750,
+    "role": "object_one",
+    "guard": "receiver",
+    "flags": 4160224,
+    "target": 4160216,
+    "context": 4160240,
+    "flags_read": 3325479,
+    "flag_one": 3325512,
+    "target_read": 3325652,
+    "flags_reload": 3325655,
+    "target_store": 3325661,
+    "warm_target": 3325670,
+    "setup_root": 3325681,
+    "flag_two": 3325701,
+    "effect_root": 3325712,
+    "effect_site": 3325729,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_transform",
+    "klass": "Component",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x32b9ec",
+        "decoded": "get_transform"
+      },
+      {
+        "getter": "0x32b93c",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x32b8d4",
+        "decoded": "Component"
+      }
+    ]
+  },
+  {
+    "wrapper": 3344128,
+    "end": 3344430,
+    "role": "object_one",
+    "guard": "receiver",
+    "flags": 4166480,
+    "target": 4166472,
+    "context": 4166496,
+    "flags_read": 3344159,
+    "flag_one": 3344192,
+    "target_read": 3344332,
+    "flags_reload": 3344335,
+    "target_store": 3344341,
+    "warm_target": 3344350,
+    "setup_root": 3344361,
+    "flag_two": 3344381,
+    "effect_root": 3344392,
+    "effect_site": 3344409,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_transform",
+    "klass": "Component",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x330504",
+        "decoded": "get_transform"
+      },
+      {
+        "getter": "0x330404",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x330294",
+        "decoded": "Component"
+      }
+    ]
+  },
+  {
+    "wrapper": 3590044,
+    "end": 3590340,
+    "role": "integer",
+    "guard": "receiver",
+    "flags": 4193344,
+    "target": 4193336,
+    "context": 4193360,
+    "flags_read": 3590075,
+    "flag_one": 3590102,
+    "target_read": 3590245,
+    "flags_reload": 3590248,
+    "target_store": 3590254,
+    "warm_target": 3590263,
+    "setup_root": 3590274,
+    "flag_two": 3590294,
+    "effect_root": 3590305,
+    "effect_site": 3590322,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_cullingMask",
+    "klass": "Camera",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x36c5d8",
+        "decoded": "get_cullingMask"
+      },
+      {
+        "getter": "0x36c54c",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x36c4b0",
+        "decoded": "Camera"
+      }
+    ]
+  },
+  {
+    "wrapper": 3591140,
+    "end": 3591456,
+    "role": "set_integer",
+    "guard": "receiver",
+    "flags": 4193104,
+    "target": 4193096,
+    "context": 4193120,
+    "flags_read": 3591177,
+    "flag_one": 3591210,
+    "target_read": 3591350,
+    "flags_reload": 3591353,
+    "target_store": 3591359,
+    "warm_target": 3591368,
+    "setup_root": 3591379,
+    "flag_two": 3591399,
+    "effect_root": 3591410,
+    "effect_site": 3591430,
+    "executor": 3322312,
+    "selector": 3361196,
+    "method": "set_cullingMask",
+    "klass": "Camera",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x36c628",
+        "decoded": "set_cullingMask"
+      },
+      {
+        "getter": "0x36c5a0",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x36c510",
+        "decoded": "Camera"
+      }
+    ]
+  },
+  {
+    "wrapper": 3591704,
+    "end": 3592020,
+    "role": "set_byte",
+    "guard": "receiver",
+    "flags": 4194064,
+    "target": 4194056,
+    "context": 4194080,
+    "flags_read": 3591741,
+    "flag_one": 3591774,
+    "target_read": 3591914,
+    "flags_reload": 3591917,
+    "target_store": 3591923,
+    "warm_target": 3591932,
+    "setup_root": 3591943,
+    "flag_two": 3591963,
+    "effect_root": 3591974,
+    "effect_site": 3591994,
+    "executor": 3282164,
+    "selector": 3361196,
+    "method": "set_enabled",
+    "klass": "Behaviour",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x36cdfc",
+        "decoded": "set_enabled"
+      },
+      {
+        "getter": "0x36cde0",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x36cdc4",
+        "decoded": "Behaviour"
+      }
+    ]
+  },
+  {
+    "wrapper": 3605768,
+    "end": 3606070,
+    "role": "object_one",
+    "guard": "receiver",
+    "flags": 4194800,
+    "target": 4194792,
+    "context": 4194816,
+    "flags_read": 3605799,
+    "flag_one": 3605832,
+    "target_read": 3605972,
+    "flags_reload": 3605975,
+    "target_store": 3605981,
+    "warm_target": 3605990,
+    "setup_root": 3606001,
+    "flag_two": 3606021,
+    "effect_root": 3606032,
+    "effect_site": 3606049,
+    "executor": 2931196,
+    "selector": 3361196,
+    "method": "get_gameObject",
+    "klass": "Component",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x370340",
+        "decoded": "get_gameObject"
+      },
+      {
+        "getter": "0x370298",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x3701ec",
+        "decoded": "Component"
+      }
+    ]
+  },
+  {
+    "wrapper": 3606888,
+    "end": 3607204,
+    "role": "set_vector",
+    "guard": "receiver",
+    "flags": 4195040,
+    "target": 4195032,
+    "context": 4195056,
+    "flags_read": 3606925,
+    "flag_one": 3606958,
+    "target_read": 3607098,
+    "flags_reload": 3607101,
+    "target_store": 3607107,
+    "warm_target": 3607116,
+    "setup_root": 3607127,
+    "flag_two": 3607147,
+    "effect_root": 3607158,
+    "effect_site": 3607178,
+    "executor": 2957460,
+    "selector": 3361196,
+    "method": "set_size",
+    "klass": "BoxCollider",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x3703d0",
+        "decoded": "set_size"
+      },
+      {
+        "getter": "0x370308",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x370258",
+        "decoded": "BoxCollider"
+      }
+    ]
+  },
+  {
+    "wrapper": 3619020,
+    "end": 3619268,
+    "role": "inverse",
+    "guard": "none",
+    "flags": 4200320,
+    "target": 4200312,
+    "context": 4200336,
+    "flags_read": 3619032,
+    "flag_one": 3619065,
+    "target_read": 3619167,
+    "flags_reload": 3619170,
+    "target_store": 3619176,
+    "warm_target": 3619185,
+    "setup_root": 3619196,
+    "flag_two": 3619216,
+    "effect_root": 3619227,
+    "effect_site": 3619247,
+    "executor": 2957460,
+    "selector": 3361424,
+    "method": "Inverse",
+    "klass": "Quaternion",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x3738b8",
+        "decoded": "Inverse"
+      },
+      {
+        "getter": "0x37389c",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x373880",
+        "decoded": "Quaternion"
+      }
+    ]
+  },
+  {
+    "wrapper": 3620620,
+    "end": 3620941,
+    "role": "set_scalar",
+    "guard": "receiver",
+    "flags": 4201280,
+    "target": 4201272,
+    "context": 4201296,
+    "flags_read": 3620659,
+    "flag_one": 3620692,
+    "target_read": 3620832,
+    "flags_reload": 3620835,
+    "target_store": 3620841,
+    "warm_target": 3620850,
+    "setup_root": 3620861,
+    "flag_two": 3620881,
+    "effect_root": 3620892,
+    "effect_site": 3620912,
+    "executor": 3285596,
+    "selector": 3361196,
+    "method": "%adb7a5f1f195e60174cae56fc8b24e1362215881",
+    "klass": "PlayerWalkMovement",
+    "namespace": "",
+    "literal_getters": [
+      {
+        "getter": "0x373e90",
+        "decoded": "%adb7a5f1f195e60174cae56fc8b24e1362215881"
+      },
+      {
+        "getter": "0x373e78",
+        "decoded": "PlayerWalkMovement"
+      }
+    ]
+  },
+  {
+    "wrapper": 3623928,
+    "end": 3624285,
+    "role": "transform",
+    "guard": "receiver",
+    "flags": 4202720,
+    "target": 4202712,
+    "context": 4202736,
+    "flags_read": 3623987,
+    "flag_one": 3624012,
+    "target_read": 3624137,
+    "flags_reload": 3624140,
+    "target_store": 3624146,
+    "warm_target": 3624155,
+    "setup_root": 3624166,
+    "flag_two": 3624186,
+    "effect_root": 3624206,
+    "effect_site": 3624232,
+    "executor": 2931280,
+    "selector": 3361196,
+    "method": "InverseTransformDirection",
+    "klass": "Transform",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x3746d8",
+        "decoded": "InverseTransformDirection"
+      },
+      {
+        "getter": "0x3745b0",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x374498",
+        "decoded": "Transform"
+      }
+    ]
+  },
+  {
+    "wrapper": 3624288,
+    "end": 3624645,
+    "role": "transform",
+    "guard": "receiver",
+    "flags": 4202480,
+    "target": 4202472,
+    "context": 4202496,
+    "flags_read": 3624347,
+    "flag_one": 3624372,
+    "target_read": 3624497,
+    "flags_reload": 3624500,
+    "target_store": 3624506,
+    "warm_target": 3624515,
+    "setup_root": 3624526,
+    "flag_two": 3624546,
+    "effect_root": 3624566,
+    "effect_site": 3624592,
+    "executor": 2931280,
+    "selector": 3361196,
+    "method": "InverseTransformPoint",
+    "klass": "Transform",
+    "namespace": "UnityEngine",
+    "literal_getters": [
+      {
+        "getter": "0x3746f4",
+        "decoded": "InverseTransformPoint"
+      },
+      {
+        "getter": "0x3745cc",
+        "decoded": "UnityEngine"
+      },
+      {
+        "getter": "0x3744b4",
+        "decoded": "Transform"
+      }
+    ]
+  }
+]

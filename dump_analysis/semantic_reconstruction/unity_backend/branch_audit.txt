@@ -1,0 +1,112 @@
+Function 3b2b38..3b2ee9
+  return 3b2ee8: c3
+Function 3b337c..3b34ed
+  3b34e8: jmp    0x3b3240; tail edge outside function
+Function 3b3028..3b3199
+  3b305f: jne    0x3b3096; inside function
+  3b3070: jbe    0x3b307c; inside function
+  3b307a: jmp    0x3b3089; inside function
+  3b3091: jmp    0x3b317c; inside function
+  3b30d9: jp     0x3b30e8; inside function
+  3b30db: jne    0x3b30e8; inside function
+  3b30e4: jp     0x3b30e8; inside function
+  3b30e6: je     0x3b311f; inside function
+  3b3147: jae    0x3b317c; inside function
+  3b314d: jae    0x3b317c; inside function
+  3b3153: je     0x3b317c; inside function
+  return 3b3198: c3
+Function 3b1a94..3b1dc1
+  3b1c29: jle    0x3b1d8f; inside function
+  3b1c3f: jle    0x3b1d7a; inside function
+  3b1cb5: jae    0x3b1d6d; inside function
+  3b1cc4: jae    0x3b1d6d; inside function
+  3b1ccf: ja     0x3b1d6d; inside function
+  3b1cda: ja     0x3b1d6d; inside function
+  3b1d74: jl     0x3b1c45; inside function
+  3b1d89: jl     0x3b1c2f; inside function
+  return 3b1dc0: c3
+Function 3b4250..3b44cf
+  3b427a: jle    0x3b4290; inside function
+  3b428e: jl     0x3b4282; inside function
+  3b4296: je     0x3b42ba; inside function
+  3b4309: jle    0x3b446f; inside function
+  3b4389: jle    0x3b444c; inside function
+  3b4437: jl     0x3b4397; inside function
+  3b4469: jl     0x3b430f; inside function
+  return 3b44ce: c3
+Function 3b2004..3b211d
+  3b201d: jne    0x3b20ce; inside function
+  3b20cc: jmp    0x3b20d5; inside function
+  3b20d7: jne    0x3b20f8; inside function
+  3b2118: jmp    0x2cb9fc; tail edge outside function
+Function 2f8574..2f8dae
+  2f8596: jne    0x2f85ae; inside function
+  2f85dc: je     0x2f85ea; inside function
+  2f85f1: jne    0x2f8613; inside function
+  2f861a: jne    0x2f863c; inside function
+  2f8643: jne    0x2f8665; inside function
+  2f866c: jne    0x2f868e; inside function
+  2f8695: jne    0x2f86b7; inside function
+  2f86be: jne    0x2f86e0; inside function
+  2f86e7: jne    0x2f8709; inside function
+  2f8710: jne    0x2f8732; inside function
+  2f8745: jne    0x2f8765; inside function
+  2f8763: jmp    0x2f876c; inside function
+  2f876f: jne    0x2f8793; inside function
+  2f87b0: je     0x2f8d9a; inside function
+  2f87d9: jne    0x2f88d4; inside function
+  2f88e4: je     0x2f88f4; inside function
+  2f88fb: je     0x2f89d1; inside function
+  2f89d8: jne    0x2f8d9a; inside function
+  2f89ed: je     0x2f8d9a; inside function
+  2f89fa: jne    0x2f8a6c; inside function
+  2f8a09: jne    0x2f8a0f; inside function
+  2f8a0d: je     0x2f8a6c; inside function
+  2f8a27: je     0x2f8a6c; inside function
+  2f8a3a: je     0x2f8a6c; inside function
+  2f8a46: je     0x2f8a61; inside function
+  2f8a57: je     0x2f8a61; inside function
+  2f8a7b: jne    0x2f8aa1; inside function
+  2f8a84: jne    0x2f8aa1; inside function
+  2f8a8d: jne    0x2f8aa1; inside function
+  2f8a96: jne    0x2f8aa1; inside function
+  2f8a9f: je     0x2f8ac1; inside function
+  2f8ab7: je     0x2f8ac1; inside function
+  2f8ac4: je     0x2f8b06; inside function
+  2f8b0d: jne    0x2f8b88; inside function
+  2f8ba4: je     0x2f8c13; inside function
+  2f8bc6: jb     0x2f8c02; inside function
+  2f8bd3: jbe    0x2f8be7; inside function
+  2f8be5: jmp    0x2f8bef; inside function
+  2f8c00: jmp    0x2f8c0b; inside function
+  2f8c0d: jne    0x2f8d7e; inside function
+  2f8c1a: jne    0x2f8d2b; inside function
+  2f8c45: je     0x2f8c71; inside function
+  2f8c6f: jmp    0x2f8c97; inside function
+  2f8cb5: je     0x2f8ce1; inside function
+  2f8cdf: jmp    0x2f8d07; inside function
+  return 2f8dad: c3
+Function 3b3240..3b337b
+  3b331b: je     0x3b334f; inside function
+  3b334d: jb     0x3b3320; inside function
+  return 3b337a: c3
+Function 3b1904..3b197e
+  return 3b197d: c3
+Function 3b2eec..3b3027
+  3b2f42: je     0x3b3020; inside function
+  return 3b3026: c3
+Function 375abc..375c05
+  375ad8: jne    0x375afc; inside function
+  375b04: jne    0x375bab; inside function
+  375ba9: jmp    0x375bb2; inside function
+  375bb4: jne    0x375bd5; inside function
+  return 375c04: c3
+Function 375c08..375d2f
+  375c69: jle    0x375c7c; inside function
+  375c7a: jl     0x375c6b; inside function
+  375c90: jne    0x375ccf; inside function
+  375ccd: jmp    0x375cd6; inside function
+  375cd8: jne    0x375cf9; inside function
+  return 375d2e: c3
+Native command-count initializer27fa54=0x1
+Shader runtime-type initializer27f9a8=0x402402

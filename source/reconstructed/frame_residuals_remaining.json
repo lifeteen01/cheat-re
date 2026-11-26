@@ -1,0 +1,88 @@
+{
+  "claim": "C/I",
+  "controllers": [
+    {
+      "begin": "0x36f788",
+      "end_exclusive": "0x36f8b5",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x365038",
+      "end_exclusive": "0x365815",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x36e55c",
+      "end_exclusive": "0x36f5cb",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x2cce78",
+      "end_exclusive": "0x2ccef2",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x31aa90",
+      "end_exclusive": "0x31aaf8",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x31ab60",
+      "end_exclusive": "0x31abc8",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x31acb0",
+      "end_exclusive": "0x31acd0",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x37d7b0",
+      "end_exclusive": "0x37db89",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x37db8c",
+      "end_exclusive": "0x37df58",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x37df58",
+      "end_exclusive": "0x37e92f",
+      "status": "concrete offline controller"
+    },
+    {
+      "begin": "0x37d394",
+      "end_exclusive": "0x37d7af",
+      "status": "concrete offline controller"
+    }
+  ],
+  "untranslated_assigned_local_ranges": [],
+  "explicit_native_indeterminate_data": [
+    {
+      "site": "0x2cce98",
+      "data": "seven stack bytes copied to3d6179..3d617f",
+      "behavior": "stop after tree clear unless copied bits supplied"
+    },
+    {
+      "site": "0x37e39f",
+      "data": "side5 sixth placement target",
+      "behavior": "stop after preceding counter/font stores"
+    }
+  ],
+  "owned_library_adaptations": [
+    "allocation/tree/string/vector/map ABI",
+    "MSVC hash-list insertion/growth and clearing over owned nodes",
+    "CRC and font metrics reuse released implementations"
+  ],
+  "matching_effects_required": [
+    "Unity/IL2CPP camera/player/bone/time",
+    "existing concrete game/world projection/radar/grid outputs",
+    "ImGui library calls and released font/draw adapters"
+  ],
+  "integration_limits": [
+    "synchronize FontText Snapshot248ed0/4/8 outputs to FrameMenuState.values",
+    "bind owned mutable widget/event/clear storage explicitly",
+    "goal-level independent review and full integration remain parent work"
+  ]
+}

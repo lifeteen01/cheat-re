@@ -1,0 +1,24 @@
+32b1c8 mov    QWORD PTR [rsp+0x8],rbx
+32b1cd push   rdi
+32b1ce sub    rsp,0x30
+32b1d2 mov    rdi,rdx
+32b1d5 lea    rcx,[rsp+0x20]
+32b1da mov    rdx,r8
+32b1dd mov    ebx,r9d
+32b1e0 call   0x2cc268
+32b1e5 mov    edx,ebx
+32b1e7 lea    rcx,[rsp+0x28]
+32b1ec call   0x2df370
+32b1f1 movzx  eax,WORD PTR [rsp+0x4a]
+32b1f6 mov    rcx,rdi
+32b1f9 movups xmm0,XMMWORD PTR [rsp+0x20]
+32b1fe mov    WORD PTR [rdi+0xd2],ax
+32b205 lea    rax,[rsp+0x38]
+32b20a mov    QWORD PTR [rdi+0x78],rax
+32b20e movdqu XMMWORD PTR [rdi+0x88],xmm0
+32b216 mov    WORD PTR [rdi+0xd0],0x0
+32b21f mov    QWORD PTR [rdi+0x80],0x2
+32b22a mov    rbx,QWORD PTR [rsp+0x40]
+32b22f add    rsp,0x30
+32b233 pop    rdi
+32b234 jmp    0x3cdbd4

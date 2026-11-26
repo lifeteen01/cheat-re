@@ -1,0 +1,63 @@
+3a1148 test   r9d,0xff000000
+3a114f je     0x3a1243
+3a1155 push   rbx
+3a1156 push   rbp
+3a1157 push   rsi
+3a1158 push   rdi
+3a1159 sub    rsp,0x58
+3a115d test   BYTE PTR [rcx+0x30],0x1
+3a1161 mov    esi,r9d
+3a1164 mov    rbx,r8
+3a1167 mov    rbp,rdx
+3a116a mov    rdi,rcx
+3a116d je     0x3a11b3
+3a116f movss  xmm2,DWORD PTR [rip+0xffffffffffeec0d9]        # 0x28d250
+3a1177 lea    rcx,[rsp+0x30]
+3a117c movaps xmm1,xmm2
+3a117f call   0x2cc340
+3a1184 mov    r8,rax
+3a1187 lea    rcx,[rsp+0x38]
+3a118c mov    rdx,rbx
+3a118f call   0x3367e4
+3a1194 movss  xmm2,DWORD PTR [rip+0xffffffffffeec0b4]        # 0x28d250
+3a119c lea    rcx,[rsp+0x40]
+3a11a1 movaps xmm1,xmm2
+3a11a4 mov    rbx,rax
+3a11a7 call   0x2cc340
+3a11ac lea    rcx,[rsp+0x48]
+3a11b1 jmp    0x3a11f5
+3a11b3 movss  xmm1,DWORD PTR [rip+0xfffffffffff0bcfd]        # 0x2aceb8
+3a11bb lea    rcx,[rsp+0x48]
+3a11c0 movaps xmm2,xmm1
+3a11c3 call   0x2cc340
+3a11c8 mov    r8,rax
+3a11cb lea    rcx,[rsp+0x40]
+3a11d0 mov    rdx,rbx
+3a11d3 call   0x3367e4
+3a11d8 movss  xmm1,DWORD PTR [rip+0xffffffffffeec070]        # 0x28d250
+3a11e0 lea    rcx,[rsp+0x38]
+3a11e5 movaps xmm2,xmm1
+3a11e8 mov    rbx,rax
+3a11eb call   0x2cc340
+3a11f0 lea    rcx,[rsp+0x30]
+3a11f5 mov    r8,rax
+3a11f8 mov    rdx,rbp
+3a11fb call   0x2ef9d8
+3a1200 mov    ecx,DWORD PTR [rsp+0xa8]
+3a1207 mov    r8,rbx
+3a120a movss  xmm3,DWORD PTR [rsp+0xa0]
+3a1213 mov    rdx,rax
+3a1216 mov    DWORD PTR [rsp+0x20],ecx
+3a121a mov    rcx,rdi
+3a121d call   0x3a6b78
+3a1222 movss  xmm3,DWORD PTR [rsp+0xb0]
+3a122b mov    r8d,0x1
+3a1231 mov    edx,esi
+3a1233 mov    rcx,rdi
+3a1236 call   0x398758
+3a123b add    rsp,0x58
+3a123f pop    rdi
+3a1240 pop    rsi
+3a1241 pop    rbp
+3a1242 pop    rbx
+3a1243 ret

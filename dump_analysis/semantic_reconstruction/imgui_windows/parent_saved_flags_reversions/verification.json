@@ -1,0 +1,18 @@
+{
+  "production_unchanged": true,
+  "source_sha256": "d72d217bb695790bc3e1daaecaf5abf10617a0db06a74f14628129ef18d08d01",
+  "mutations": [
+    {
+      "site": "399f3c",
+      "exit_status": -6,
+      "rejected_by_expected_assertion": true,
+      "log": "dump_analysis/semantic_reconstruction/imgui_windows/parent_saved_flags_reversions/399f3c.txt"
+    },
+    {
+      "site": "39a0f2",
+      "exit_status": -6,
+      "rejected_by_expected_assertion": true,
+      "log": "dump_analysis/semantic_reconstruction/imgui_windows/parent_saved_flags_reversions/39a0f2.txt"
+    }
+  ]
+}

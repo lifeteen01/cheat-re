@@ -1,0 +1,32 @@
+3a8cb4 sub    rsp,0x28
+3a8cb8 mov    rdx,QWORD PTR [rcx+0x38]
+3a8cbc movaps xmm0,xmm1
+3a8cbf addss  xmm0,DWORD PTR [rip+0xfffffffffff0421d]        # 0x2acee4
+3a8cc7 cvttss2si eax,xmm0
+3a8ccb cmp    eax,0x40
+3a8cce jge    0x3a8cdf
+3a8cd0 cdqe
+3a8cd2 movzx  eax,BYTE PTR [rdx+rax*1+0x1c4]
+3a8cda add    rsp,0x28
+3a8cde ret
+3a8cdf movss  xmm0,DWORD PTR [rdx+0x18]
+3a8ce4 call   0x3762cc
+3a8ce9 movaps xmm2,xmm0
+3a8cec movss  xmm0,DWORD PTR [rip+0xffffffffffee4560]        # 0x28d254
+3a8cf4 divss  xmm2,xmm1
+3a8cf8 subss  xmm0,xmm2
+3a8cfc call   0x3c852c
+3a8d01 movss  xmm1,DWORD PTR [rip+0xffffffffffeea453]        # 0x29315c
+3a8d09 divss  xmm1,xmm0
+3a8d0d movaps xmm0,xmm1
+3a8d10 call   0x3c8918
+3a8d15 cvttss2si eax,xmm0
+3a8d19 mov    r8d,0x200
+3a8d1f inc    eax
+3a8d21 cdq
+3a8d22 sub    eax,edx
+3a8d24 mov    edx,0x4
+3a8d29 sar    eax,1
+3a8d2b lea    ecx,[rax+rax*1]
+3a8d2e add    rsp,0x28
+3a8d32 jmp    0x3762ac

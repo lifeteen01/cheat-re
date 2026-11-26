@@ -1,0 +1,7 @@
+Compile game_root_helpers.cpp
+Compile game_root_helper_checks.cpp
+Compile metadata_argument_bindings.cpp
+Compile metadata_analysis.cpp
+Compile main.cpp
+Link 5 translation units; 0 content-verified cache hits
+game roots PASS

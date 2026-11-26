@@ -1,0 +1,6998 @@
+{
+  "markers": {
+    "C": "concrete root/local calculations including required supplied typed effects",
+    "I": "owned container adaptation; native allocator/object ABI not claimed",
+    "S": "reached typed specialization, generic native helper branches not fully exposed",
+    "U": "explicit missing/native closure; never successful event default"
+  },
+  "sample_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "virtual_layout": "file offset equals RVA",
+  "range_count": 51,
+  "bytes_in_inventory": 16588,
+  "ranges": [
+    {
+      "begin": "0x3786d8",
+      "end_exclusive": "0x3786e7",
+      "bytes": 15,
+      "status": "C",
+      "scope": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "a3968d0dac852218bc382486ecb5e11fdd6cf57469b47663941fda7e0e9698de",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 4,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x38f5d0",
+      "end_exclusive": "0x38f6b9",
+      "bytes": 233,
+      "status": "C",
+      "scope": "whole interactive resize including late blocks, constrained corner solve and keyboard analog vector",
+      "extent_source": "PE runtime function record",
+      "sha256": "d8ac36ed32e71d758e27a96e53fe87576f57db41f172a104bec920b73c8d7bbf",
+      "implementation_files": [
+        "imgui_window_details_resize.cpp"
+      ],
+      "instruction_count": 65,
+      "conditional_branches": [
+        {
+          "site": "0x38f658",
+          "target": "0x38f674",
+          "instruction": "jp     0x38f674",
+          "status": "C"
+        },
+        {
+          "site": "0x38f65a",
+          "target": "0x38f674",
+          "instruction": "jne    0x38f674",
+          "status": "C"
+        },
+        {
+          "site": "0x38f67d",
+          "target": "0x38f69b",
+          "instruction": "jp     0x38f69b",
+          "status": "C"
+        },
+        {
+          "site": "0x38f67f",
+          "target": "0x38f69b",
+          "instruction": "jne    0x38f69b",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x38f5fa",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x38f60b",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x38f61d",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x38f62e",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x38f63e",
+          "target": "0x38fbe8",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39138c",
+      "end_exclusive": "0x3915b3",
+      "bytes": 551,
+      "status": "C",
+      "scope": "popup/tooltip/menu auto position and main-viewport allowed extent",
+      "extent_source": "PE runtime function record",
+      "sha256": "f66628693cf7ae79c344f9609fe10aba740eef49f80257ce99372172cf695569",
+      "implementation_files": [
+        "imgui_window_details_position.cpp"
+      ],
+      "instruction_count": 118,
+      "conditional_branches": [
+        {
+          "site": "0x3913c3",
+          "target": "0x391499",
+          "instruction": "je     0x391499",
+          "status": "C"
+        },
+        {
+          "site": "0x3913fa",
+          "target": "0x391420",
+          "instruction": "je     0x391420",
+          "status": "C"
+        },
+        {
+          "site": "0x3914a0",
+          "target": "0x3914ba",
+          "instruction": "je     0x3914ba",
+          "status": "C"
+        },
+        {
+          "site": "0x3914c1",
+          "target": "0x39158d",
+          "instruction": "je     0x39158d",
+          "status": "C"
+        },
+        {
+          "site": "0x3914e8",
+          "target": "0x391531",
+          "instruction": "jne    0x391531",
+          "status": "C"
+        },
+        {
+          "site": "0x3914f1",
+          "target": "0x391531",
+          "instruction": "je     0x391531",
+          "status": "C"
+        },
+        {
+          "site": "0x3914f7",
+          "target": "0x391531",
+          "instruction": "jne    0x391531",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3913b7",
+          "target": "0x3929e8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3913d5",
+          "target": "0x38bbc0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3913e9",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x391456",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39148f",
+          "target": "0x3915b4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3914b0",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3914d3",
+          "target": "0x3952b0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3914dc",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39156b",
+          "target": "0x38baf4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x39141e",
+          "instruction": "jmp    0x391450"
+        },
+        {
+          "site": "0x391494",
+          "instruction": "jmp    0x391596"
+        },
+        {
+          "site": "0x3914b8",
+          "instruction": "jmp    0x39146b"
+        },
+        {
+          "site": "0x39152f",
+          "instruction": "jmp    0x391567"
+        },
+        {
+          "site": "0x391588",
+          "instruction": "jmp    0x391473"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3915b4",
+      "end_exclusive": "0x391925",
+      "bytes": 881,
+      "status": "C",
+      "scope": "popup/tooltip/menu auto position and main-viewport allowed extent",
+      "extent_source": "PE runtime function record",
+      "sha256": "3235421a5f72d3c51a2a212e011fe37b00956b414aa44efc025736c89da64d58",
+      "implementation_files": [
+        "imgui_window_details_position.cpp"
+      ],
+      "instruction_count": 225,
+      "conditional_branches": [
+        {
+          "site": "0x391613",
+          "target": "0x3917be",
+          "instruction": "jne    0x3917be",
+          "status": "C"
+        },
+        {
+          "site": "0x391633",
+          "target": "0x391639",
+          "instruction": "jne    0x391639",
+          "status": "C"
+        },
+        {
+          "site": "0x391642",
+          "target": "0x391702",
+          "instruction": "je     0x391702",
+          "status": "C"
+        },
+        {
+          "site": "0x391654",
+          "target": "0x391676",
+          "instruction": "jne    0x391676",
+          "status": "C"
+        },
+        {
+          "site": "0x391679",
+          "target": "0x39179a",
+          "instruction": "jne    0x39179a",
+          "status": "C"
+        },
+        {
+          "site": "0x3916a4",
+          "target": "0x3916cf",
+          "instruction": "jne    0x3916cf",
+          "status": "C"
+        },
+        {
+          "site": "0x3916fc",
+          "target": "0x3917b5",
+          "instruction": "jne    0x3917b5",
+          "status": "C"
+        },
+        {
+          "site": "0x391709",
+          "target": "0x39162f",
+          "instruction": "jl     0x39162f",
+          "status": "C"
+        },
+        {
+          "site": "0x3917a1",
+          "target": "0x3916a1",
+          "instruction": "jne    0x3916a1",
+          "status": "C"
+        },
+        {
+          "site": "0x3917c4",
+          "target": "0x391850",
+          "instruction": "jne    0x391850",
+          "status": "C"
+        },
+        {
+          "site": "0x3917e2",
+          "target": "0x3917e8",
+          "instruction": "jne    0x3917e8",
+          "status": "C"
+        },
+        {
+          "site": "0x3917f1",
+          "target": "0x391845",
+          "instruction": "je     0x391845",
+          "status": "C"
+        },
+        {
+          "site": "0x3917f5",
+          "target": "0x391886",
+          "instruction": "jne    0x391886",
+          "status": "C"
+        },
+        {
+          "site": "0x391808",
+          "target": "0x39189a",
+          "instruction": "jne    0x39189a",
+          "status": "C"
+        },
+        {
+          "site": "0x391826",
+          "target": "0x39182d",
+          "instruction": "jbe    0x39182d",
+          "status": "C"
+        },
+        {
+          "site": "0x39182b",
+          "target": "0x391845",
+          "instruction": "jbe    0x391845",
+          "status": "C"
+        },
+        {
+          "site": "0x39183b",
+          "target": "0x3918b3",
+          "instruction": "jbe    0x3918b3",
+          "status": "C"
+        },
+        {
+          "site": "0x391843",
+          "target": "0x3918b3",
+          "instruction": "ja     0x3918b3",
+          "status": "C"
+        },
+        {
+          "site": "0x39184a",
+          "target": "0x3917df",
+          "instruction": "jl     0x3917df",
+          "status": "C"
+        },
+        {
+          "site": "0x391859",
+          "target": "0x391715",
+          "instruction": "jne    0x391715",
+          "status": "C"
+        },
+        {
+          "site": "0x39188f",
+          "target": "0x3917ff",
+          "instruction": "jne    0x3917ff",
+          "status": "C"
+        },
+        {
+          "site": "0x3918a3",
+          "target": "0x391813",
+          "instruction": "jne    0x391813",
+          "status": "C"
+        },
+        {
+          "site": "0x3918be",
+          "target": "0x3918f8",
+          "instruction": "jne    0x3918f8",
+          "status": "C"
+        },
+        {
+          "site": "0x3918fb",
+          "target": "0x391904",
+          "instruction": "jne    0x391904",
+          "status": "C"
+        },
+        {
+          "site": "0x39190c",
+          "target": "0x391919",
+          "instruction": "jne    0x391919",
+          "status": "C"
+        },
+        {
+          "site": "0x39191c",
+          "target": "0x3918c8",
+          "instruction": "jne    0x3918c8",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3915f6",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x391608",
+          "target": "0x393018",
+          "kind": "call"
+        },
+        {
+          "site": "0x39164c",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x391663",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x391693",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3916c1",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3916da",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3916ea",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3916f5",
+          "target": "0x390790",
+          "kind": "call"
+        },
+        {
+          "site": "0x39172b",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39173d",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x391755",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x391766",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39186e",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39187c",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3918b7",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x3918d3",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3918e4",
+          "target": "0x38a3f4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x391637",
+          "instruction": "jmp    0x391648"
+        },
+        {
+          "site": "0x391671",
+          "instruction": "jmp    0x39179f"
+        },
+        {
+          "site": "0x3917b0",
+          "instruction": "jmp    0x3916b6"
+        },
+        {
+          "site": "0x3917bc",
+          "instruction": "jmp    0x391776"
+        },
+        {
+          "site": "0x3917e6",
+          "instruction": "jmp    0x3917f3"
+        },
+        {
+          "site": "0x391881",
+          "instruction": "jmp    0x391776"
+        },
+        {
+          "site": "0x3918ae",
+          "instruction": "jmp    0x391819"
+        },
+        {
+          "site": "0x3918f3",
+          "instruction": "jmp    0x391776"
+        },
+        {
+          "site": "0x391902",
+          "instruction": "jmp    0x3918c8"
+        },
+        {
+          "site": "0x391917",
+          "instruction": "jmp    0x3918cd"
+        },
+        {
+          "site": "0x391923",
+          "instruction": "jmp    0x3918cd"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x391d84",
+      "end_exclusive": "0x391dce",
+      "bytes": 74,
+      "status": "C",
+      "scope": "both menu-column update modes, signed cached settings offset, ordered live chunk walk",
+      "extent_source": "PE runtime function record",
+      "sha256": "21d03d45e73106c7b0c293bef8ad03cbfe92f36e1b5d73075cf61831efdee78d",
+      "implementation_files": [
+        "imgui_window_details_lookup.cpp"
+      ],
+      "instruction_count": 21,
+      "conditional_branches": [
+        {
+          "site": "0x391da7",
+          "target": "0x391daf",
+          "instruction": "jne    0x391daf",
+          "status": "C"
+        },
+        {
+          "site": "0x391dad",
+          "target": "0x391dc3",
+          "instruction": "je     0x391dc3",
+          "status": "C"
+        },
+        {
+          "site": "0x391dc1",
+          "target": "0x391da5",
+          "instruction": "jne    0x391da5",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x391d9e",
+          "target": "0x39e390",
+          "kind": "call"
+        },
+        {
+          "site": "0x391db9",
+          "target": "0x39ee58",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x391da3",
+          "instruction": "jmp    0x391dbe"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x391dd0",
+      "end_exclusive": "0x391df6",
+      "bytes": 38,
+      "status": "C",
+      "scope": "both menu-column update modes, signed cached settings offset, ordered live chunk walk",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "ac779627b6715ed86adaf39ad2abd6ec26f30d048315da152ebd6fbcab20f35e",
+      "implementation_files": [
+        "imgui_window_details_lookup.cpp"
+      ],
+      "instruction_count": 8,
+      "conditional_branches": [
+        {
+          "site": "0x391dd9",
+          "target": "0x391dee",
+          "instruction": "je     0x391dee",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x391de9",
+          "target": "0x38bb70",
+          "kind": "jmp"
+        },
+        {
+          "site": "0x391df1",
+          "target": "0x391d84",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3921c0",
+      "end_exclusive": "0x3921c5",
+      "bytes": 5,
+      "status": "C",
+      "scope": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "7d43b4934c672c9327d0bb568a39637e66684c3ff4eadc6bc48fec1e45404ea3",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 1,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3921c0",
+          "target": "0x3786d8",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x392724",
+      "end_exclusive": "0x392798",
+      "bytes": 116,
+      "status": "C",
+      "scope": "whole interactive resize including late blocks, constrained corner solve and keyboard analog vector",
+      "extent_source": "PE runtime function record",
+      "sha256": "f3575cbd2d2fb07753fc422cdcf908ee68afbb7dcf0373af859613fb1d74c18e",
+      "implementation_files": [
+        "imgui_window_details_resize.cpp"
+      ],
+      "instruction_count": 37,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x392746",
+          "target": "0x392714",
+          "kind": "call"
+        },
+        {
+          "site": "0x392750",
+          "target": "0x392714",
+          "kind": "call"
+        },
+        {
+          "site": "0x392761",
+          "target": "0x392714",
+          "kind": "call"
+        },
+        {
+          "site": "0x39276b",
+          "target": "0x392714",
+          "kind": "call"
+        },
+        {
+          "site": "0x392780",
+          "target": "0x2cc340",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3929e8",
+      "end_exclusive": "0x392a99",
+      "bytes": 177,
+      "status": "C",
+      "scope": "popup/tooltip/menu auto position and main-viewport allowed extent",
+      "extent_source": "PE runtime function record",
+      "sha256": "79fbd13df805795a22833950fb7fe953d130f187a8c8109c39a44ce43abbc63d",
+      "implementation_files": [
+        "imgui_window_details_position.cpp"
+      ],
+      "instruction_count": 45,
+      "conditional_branches": [
+        {
+          "site": "0x392a38",
+          "target": "0x392a43",
+          "instruction": "jbe    0x392a43",
+          "status": "C"
+        },
+        {
+          "site": "0x392a58",
+          "target": "0x392a63",
+          "instruction": "jbe    0x392a63",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x392a06",
+          "target": "0x392868",
+          "kind": "call"
+        },
+        {
+          "site": "0x392a11",
+          "target": "0x392828",
+          "kind": "call"
+        },
+        {
+          "site": "0x392a29",
+          "target": "0x378934",
+          "kind": "call"
+        },
+        {
+          "site": "0x392a49",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x392a71",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x392a7c",
+          "target": "0x3911cc",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x392a41",
+          "instruction": "jmp    0x392a46"
+        },
+        {
+          "site": "0x392a61",
+          "instruction": "jmp    0x392a66"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x392a9c",
+      "end_exclusive": "0x392bba",
+      "bytes": 286,
+      "status": "C",
+      "scope": "full decoration composition: released prefix399d88..39a167, owned grip path/rest and outer-borders/held path",
+      "extent_source": "PE runtime function record",
+      "sha256": "bedeac220e88c3e6dfbc3755587d1ebab551163b1ecf2149e06a5c6fd26dcefa",
+      "implementation_files": [
+        "imgui_window_details_grips.cpp"
+      ],
+      "instruction_count": 77,
+      "conditional_branches": [
+        {
+          "site": "0x392adb",
+          "target": "0x392aff",
+          "instruction": "jp     0x392aff",
+          "status": "C"
+        },
+        {
+          "site": "0x392add",
+          "target": "0x392aff",
+          "instruction": "jne    0x392aff",
+          "status": "C"
+        },
+        {
+          "site": "0x392b01",
+          "target": "0x392b35",
+          "instruction": "jne    0x392b35",
+          "status": "C"
+        },
+        {
+          "site": "0x392b38",
+          "target": "0x392b41",
+          "instruction": "jne    0x392b41",
+          "status": "C"
+        },
+        {
+          "site": "0x392b44",
+          "target": "0x392b6a",
+          "instruction": "jne    0x392b6a",
+          "status": "C"
+        },
+        {
+          "site": "0x392b70",
+          "target": "0x392b96",
+          "instruction": "jne    0x392b96",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x392aca",
+          "target": "0x398d44",
+          "kind": "call"
+        },
+        {
+          "site": "0x392aee",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x392afa",
+          "target": "0x38cc68",
+          "kind": "call"
+        },
+        {
+          "site": "0x392b2e",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x392b96",
+          "target": "0x38bb2c",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x392b33",
+          "instruction": "jmp    0x392b9b"
+        },
+        {
+          "site": "0x392b3f",
+          "instruction": "jmp    0x392b08"
+        },
+        {
+          "site": "0x392b68",
+          "instruction": "jmp    0x392b25"
+        },
+        {
+          "site": "0x392b94",
+          "instruction": "jmp    0x392b28"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x394464",
+      "end_exclusive": "0x39448f",
+      "bytes": 43,
+      "status": "S",
+      "scope": "mouse button0 plus negative configured threshold as reached by collapse drag",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "a3c03f7de9c533f9d5cdb8258c983d88936a212e3e28b2021d91217ece62ae6b",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 11,
+      "conditional_branches": [
+        {
+          "site": "0x394471",
+          "target": "0x394478",
+          "instruction": "jbe    0x394478",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x394490",
+      "end_exclusive": "0x3944ac",
+      "bytes": 28,
+      "status": "S",
+      "scope": "mouse button0 plus negative configured threshold as reached by collapse drag",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "9bfe908553dd0203c0b7191749f4cca3ea3b70b4438478e27714bd0c3aea800b",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 7,
+      "conditional_branches": [
+        {
+          "site": "0x3944a2",
+          "target": "0x3944a7",
+          "instruction": "jne    0x3944a7",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3944a7",
+          "target": "0x394464",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x394550",
+      "end_exclusive": "0x394585",
+      "bytes": 53,
+      "status": "S",
+      "scope": "null optional mouse override / selected nav rectangle fold as reached by positioning",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "a8f568d7b47419d3cd2139982b77b81ccdb70506203f147b03192522f7dc187a",
+      "implementation_files": [
+        "imgui_window_details_position.cpp"
+      ],
+      "instruction_count": 15,
+      "conditional_branches": [
+        {
+          "site": "0x394573",
+          "target": "0x394582",
+          "instruction": "jb     0x394582",
+          "status": "S"
+        },
+        {
+          "site": "0x39457d",
+          "target": "0x394582",
+          "instruction": "jb     0x394582",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x394dd4",
+      "end_exclusive": "0x394e59",
+      "bytes": 133,
+      "status": "C",
+      "scope": "finish/logged text line splitting/indentation and numeric configured clipboard dispatch",
+      "extent_source": "PE runtime function record",
+      "sha256": "0cb4582c9b497f17349d039684bc0c040301c52e9d661d95d496d0e1640bf132",
+      "implementation_files": [
+        "imgui_window_details_log.cpp"
+      ],
+      "instruction_count": 28,
+      "conditional_branches": [
+        {
+          "site": "0x394dec",
+          "target": "0x394e4e",
+          "instruction": "je     0x394e4e",
+          "status": "C"
+        },
+        {
+          "site": "0x394e01",
+          "target": "0x394e26",
+          "instruction": "jne    0x394e26",
+          "status": "C"
+        },
+        {
+          "site": "0x394e14",
+          "target": "0x394e26",
+          "instruction": "jne    0x394e26",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x394df5",
+          "target": "0x395038",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e0d",
+          "target": "0x39eba4",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e19",
+          "target": "0x39e3a4",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e21",
+          "target": "0x39b1f8",
+          "kind": "call"
+        },
+        {
+          "site": "0x394e49",
+          "target": "0x3788ec",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x394e5c",
+      "end_exclusive": "0x395020",
+      "bytes": 452,
+      "status": "C",
+      "scope": "finish/logged text line splitting/indentation and numeric configured clipboard dispatch",
+      "extent_source": "PE runtime function record",
+      "sha256": "20d6491131aba1c033d9a95f18bcbfc5bc7b94d8a7757590b288ea08e44b2991",
+      "implementation_files": [
+        "imgui_window_details_log.cpp"
+      ],
+      "instruction_count": 116,
+      "conditional_branches": [
+        {
+          "site": "0x394eb3",
+          "target": "0x394ec2",
+          "instruction": "jne    0x394ec2",
+          "status": "C"
+        },
+        {
+          "site": "0x394ecc",
+          "target": "0x394f15",
+          "instruction": "je     0x394f15",
+          "status": "C"
+        },
+        {
+          "site": "0x394eeb",
+          "target": "0x394ef1",
+          "instruction": "jbe    0x394ef1",
+          "status": "C"
+        },
+        {
+          "site": "0x394ef4",
+          "target": "0x394f15",
+          "instruction": "je     0x394f15",
+          "status": "C"
+        },
+        {
+          "site": "0x394f00",
+          "target": "0x394f15",
+          "instruction": "je     0x394f15",
+          "status": "C"
+        },
+        {
+          "site": "0x394f18",
+          "target": "0x394f31",
+          "instruction": "je     0x394f31",
+          "status": "C"
+        },
+        {
+          "site": "0x394f41",
+          "target": "0x394f4b",
+          "instruction": "jle    0x394f4b",
+          "status": "C"
+        },
+        {
+          "site": "0x394f6d",
+          "target": "0x394f74",
+          "instruction": "jne    0x394f74",
+          "status": "C"
+        },
+        {
+          "site": "0x394f72",
+          "target": "0x394fea",
+          "instruction": "je     0x394fea",
+          "status": "C"
+        },
+        {
+          "site": "0x394fc7",
+          "target": "0x394fdc",
+          "instruction": "jne    0x394fdc",
+          "status": "C"
+        },
+        {
+          "site": "0x394fdf",
+          "target": "0x394fea",
+          "instruction": "je     0x394fea",
+          "status": "C"
+        },
+        {
+          "site": "0x394ff2",
+          "target": "0x395008",
+          "instruction": "je     0x395008",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x394eba",
+          "target": "0x391c50",
+          "kind": "call"
+        },
+        {
+          "site": "0x394f09",
+          "target": "0x395038",
+          "kind": "call"
+        },
+        {
+          "site": "0x394f1d",
+          "target": "0x3ca904",
+          "kind": "call"
+        },
+        {
+          "site": "0x394f62",
+          "target": "0x393520",
+          "kind": "call"
+        },
+        {
+          "site": "0x394f96",
+          "target": "0x38c774",
+          "kind": "call"
+        },
+        {
+          "site": "0x394f9e",
+          "target": "0x39e8fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x394fb7",
+          "target": "0x395038",
+          "kind": "call"
+        },
+        {
+          "site": "0x394fd0",
+          "target": "0x395038",
+          "kind": "call"
+        },
+        {
+          "site": "0x394ff7",
+          "target": "0x3ca904",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x394eef",
+          "instruction": "jmp    0x394ef8"
+        },
+        {
+          "site": "0x394f2c",
+          "instruction": "call   0x394e5c"
+        },
+        {
+          "site": "0x394f49",
+          "instruction": "jmp    0x394f4d"
+        },
+        {
+          "site": "0x394fe5",
+          "instruction": "jmp    0x394f5c"
+        },
+        {
+          "site": "0x395003",
+          "instruction": "jmp    0x394e79"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x395038",
+      "end_exclusive": "0x395073",
+      "bytes": 59,
+      "status": "S",
+      "scope": "known newline or fixed %*s%.*s formatting with owned byte-vector append; generic varargs not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "45668ff7da3a2e6dda258a884d7e4a460e351adc1b30029e647078a0c0251f7c",
+      "implementation_files": [
+        "imgui_window_details_log.cpp"
+      ],
+      "instruction_count": 15,
+      "conditional_branches": [
+        {
+          "site": "0x39505d",
+          "target": "0x39506e",
+          "instruction": "je     0x39506e",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x395069",
+          "target": "0x395074",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x395074",
+      "end_exclusive": "0x3950c1",
+      "bytes": 77,
+      "status": "S",
+      "scope": "known newline or fixed %*s%.*s formatting with owned byte-vector append; generic varargs not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "b21da5790a52f39cb530aa7c4aa012d7b1bd740aecf435fef6fd557ab0c26c88",
+      "implementation_files": [
+        "imgui_window_details_log.cpp"
+      ],
+      "instruction_count": 20,
+      "conditional_branches": [
+        {
+          "site": "0x395098",
+          "target": "0x3950a4",
+          "instruction": "je     0x3950a4",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39509f",
+          "target": "0x37acd4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3950bc",
+          "target": "0x39e280",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3952b0",
+      "end_exclusive": "0x395465",
+      "bytes": 437,
+      "status": "C",
+      "scope": "popup/tooltip/menu auto position and main-viewport allowed extent",
+      "extent_source": "PE runtime function record",
+      "sha256": "c093d067b83c9f32c4f99cd330d366cb6c1bc1d2962b5f64895c6bc6d0275855",
+      "implementation_files": [
+        "imgui_window_details_position.cpp"
+      ],
+      "instruction_count": 101,
+      "conditional_branches": [
+        {
+          "site": "0x3952d5",
+          "target": "0x395409",
+          "instruction": "jne    0x395409",
+          "status": "C"
+        },
+        {
+          "site": "0x3952e2",
+          "target": "0x395409",
+          "instruction": "je     0x395409",
+          "status": "C"
+        },
+        {
+          "site": "0x3952f2",
+          "target": "0x395409",
+          "instruction": "je     0x395409",
+          "status": "C"
+        },
+        {
+          "site": "0x395325",
+          "target": "0x395379",
+          "instruction": "je     0x395379",
+          "status": "C"
+        },
+        {
+          "site": "0x39533a",
+          "target": "0x39534d",
+          "instruction": "jp     0x39534d",
+          "status": "C"
+        },
+        {
+          "site": "0x39533c",
+          "target": "0x39534d",
+          "instruction": "jne    0x39534d",
+          "status": "C"
+        },
+        {
+          "site": "0x395349",
+          "target": "0x39534d",
+          "instruction": "jp     0x39534d",
+          "status": "C"
+        },
+        {
+          "site": "0x39534b",
+          "target": "0x395379",
+          "instruction": "je     0x395379",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x395314",
+          "target": "0x39e234",
+          "kind": "call"
+        },
+        {
+          "site": "0x395354",
+          "target": "0x38f3ec",
+          "kind": "call"
+        },
+        {
+          "site": "0x395368",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x395374",
+          "target": "0x39c044",
+          "kind": "call"
+        },
+        {
+          "site": "0x39537d",
+          "target": "0x378934",
+          "kind": "call"
+        },
+        {
+          "site": "0x39538d",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39539f",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x3953b7",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3953cb",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3953d0",
+          "target": "0x392868",
+          "kind": "call"
+        },
+        {
+          "site": "0x3953e4",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3953f7",
+          "target": "0x393018",
+          "kind": "call"
+        },
+        {
+          "site": "0x395402",
+          "target": "0x39307c",
+          "kind": "call"
+        },
+        {
+          "site": "0x395410",
+          "target": "0x394550",
+          "kind": "call"
+        },
+        {
+          "site": "0x39544b",
+          "target": "0x2cc340",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x395407",
+          "instruction": "jmp    0x395450"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x395500",
+      "end_exclusive": "0x3955bb",
+      "bytes": 187,
+      "status": "C",
+      "scope": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller",
+      "extent_source": "PE runtime function record",
+      "sha256": "e9cbb7437c64e572c2ce44541054648722ff3686a35823f0546eb9cba113cecb",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 40,
+      "conditional_branches": [
+        {
+          "site": "0x39551b",
+          "target": "0x395535",
+          "instruction": "je     0x395535",
+          "status": "C"
+        },
+        {
+          "site": "0x39553c",
+          "target": "0x395562",
+          "instruction": "je     0x395562",
+          "status": "C"
+        },
+        {
+          "site": "0x395545",
+          "target": "0x395562",
+          "instruction": "jne    0x395562",
+          "status": "C"
+        },
+        {
+          "site": "0x39554e",
+          "target": "0x395562",
+          "instruction": "je     0x395562",
+          "status": "C"
+        },
+        {
+          "site": "0x395552",
+          "target": "0x395562",
+          "instruction": "jne    0x395562",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x395567",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39557e",
+          "target": "0x39b690",
+          "kind": "call"
+        },
+        {
+          "site": "0x39559b",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3955ab",
+          "target": "0x39676c",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x395533",
+          "instruction": "jmp    0x3955b0"
+        },
+        {
+          "site": "0x395560",
+          "instruction": "jmp    0x395527"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x39676c",
+      "end_exclusive": "0x39678e",
+      "bytes": 34,
+      "status": "C",
+      "scope": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "bf16a5a56bae5d3513575f9f4bac928c30e827087ef0d3161f015888d9696e4a",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 9,
+      "conditional_branches": [
+        {
+          "site": "0x39677b",
+          "target": "0x396785",
+          "instruction": "jne    0x396785",
+          "status": "C"
+        },
+        {
+          "site": "0x396783",
+          "target": "0x396787",
+          "instruction": "je     0x396787",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3970f0",
+      "end_exclusive": "0x39711f",
+      "bytes": 47,
+      "status": "C",
+      "scope": "column width ratio and table/columns shortcut layer predicate",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "212b30b0b6f4eef0ae274bea4a7a46a374c8d7905df87163432947035529dad1",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 11,
+      "conditional_branches": [
+        {
+          "site": "0x397106",
+          "target": "0x397116",
+          "instruction": "jne    0x397116",
+          "status": "C"
+        },
+        {
+          "site": "0x397110",
+          "target": "0x397116",
+          "instruction": "jne    0x397116",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [
+        {
+          "site": "0x397114",
+          "instruction": "jmp    0x397118"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x39878c",
+      "end_exclusive": "0x3987d6",
+      "bytes": 74,
+      "status": "I",
+      "scope": "EndColumns, separate owned channel splitter, copied state restoration and separator input",
+      "extent_source": "PE runtime function record",
+      "sha256": "6356427f5bcd990b72db947f55723c970bd694056652755713fb2dbc8f4cfb6c",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 17,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x398792",
+          "target": "0x35d200",
+          "kind": "call"
+        },
+        {
+          "site": "0x3987a1",
+          "target": "0x3a6e34",
+          "kind": "call"
+        },
+        {
+          "site": "0x3987b1",
+          "target": "0x39e380",
+          "kind": "call"
+        },
+        {
+          "site": "0x3987be",
+          "target": "0x38bab4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3997ac",
+      "end_exclusive": "0x399993",
+      "bytes": 487,
+      "status": "C",
+      "scope": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller",
+      "extent_source": "PE runtime function record",
+      "sha256": "b5c512ced756351900c48d1d7235bb25452ad49873fc3fe07fc5d73edfae34e2",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 115,
+      "conditional_branches": [
+        {
+          "site": "0x3997e2",
+          "target": "0x39996d",
+          "instruction": "jne    0x39996d",
+          "status": "C"
+        },
+        {
+          "site": "0x3997ef",
+          "target": "0x3997fb",
+          "instruction": "je     0x3997fb",
+          "status": "C"
+        },
+        {
+          "site": "0x3997f5",
+          "target": "0x39996d",
+          "instruction": "je     0x39996d",
+          "status": "C"
+        },
+        {
+          "site": "0x39980a",
+          "target": "0x39996d",
+          "instruction": "jne    0x39996d",
+          "status": "C"
+        },
+        {
+          "site": "0x399814",
+          "target": "0x39981b",
+          "instruction": "je     0x39981b",
+          "status": "C"
+        },
+        {
+          "site": "0x39984a",
+          "target": "0x39992f",
+          "instruction": "je     0x39992f",
+          "status": "C"
+        },
+        {
+          "site": "0x399881",
+          "target": "0x39989a",
+          "instruction": "jne    0x39989a",
+          "status": "C"
+        },
+        {
+          "site": "0x399921",
+          "target": "0x39992f",
+          "instruction": "jne    0x39992f",
+          "status": "C"
+        },
+        {
+          "site": "0x399933",
+          "target": "0x39996d",
+          "instruction": "je     0x39996d",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x399839",
+          "target": "0x3901b8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39985f",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39986b",
+          "target": "0x3911cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x399877",
+          "target": "0x390790",
+          "kind": "call"
+        },
+        {
+          "site": "0x399895",
+          "target": "0x3a7268",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998a9",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998ba",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998ca",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998dc",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3998ec",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x399919",
+          "target": "0x3a1148",
+          "kind": "call"
+        },
+        {
+          "site": "0x39992a",
+          "target": "0x3a6e34",
+          "kind": "call"
+        },
+        {
+          "site": "0x39993d",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399968",
+          "target": "0x3a1148",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x399819",
+          "instruction": "jmp    0x399823"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x399a64",
+      "end_exclusive": "0x399afb",
+      "bytes": 151,
+      "status": "S",
+      "scope": "owned string_view text plus required measured size; generic raw-pointer/end and null-size overloads remain released font/control domain",
+      "extent_source": "PE runtime function record",
+      "sha256": "28ef14e67658189d496cbfbd0587ce9bb3944257f329cf9cf0648400a54f3949",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 42,
+      "conditional_branches": [
+        {
+          "site": "0x399a88",
+          "target": "0x399af0",
+          "instruction": "je     0x399af0",
+          "status": "S"
+        },
+        {
+          "site": "0x399ae0",
+          "target": "0x399af0",
+          "instruction": "je     0x399af0",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x399a7e",
+          "target": "0x391c50",
+          "kind": "call"
+        },
+        {
+          "site": "0x399ad4",
+          "target": "0x399afc",
+          "kind": "call"
+        },
+        {
+          "site": "0x399aeb",
+          "target": "0x394e5c",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x399afc",
+      "end_exclusive": "0x399cc1",
+      "bytes": 453,
+      "status": "S",
+      "scope": "owned string_view text plus required measured size; generic raw-pointer/end and null-size overloads remain released font/control domain",
+      "extent_source": "PE runtime function record",
+      "sha256": "71b74274892a633e8439a046b237d9c6b597117a22c51e98e889bbc9cf8a5144",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 123,
+      "conditional_branches": [
+        {
+          "site": "0x399b39",
+          "target": "0x399b4a",
+          "instruction": "je     0x399b4a",
+          "status": "S"
+        },
+        {
+          "site": "0x399b96",
+          "target": "0x399baa",
+          "instruction": "jae    0x399baa",
+          "status": "S"
+        },
+        {
+          "site": "0x399ba4",
+          "target": "0x399baa",
+          "instruction": "jae    0x399baa",
+          "status": "S"
+        },
+        {
+          "site": "0x399baf",
+          "target": "0x399bcc",
+          "instruction": "je     0x399bcc",
+          "status": "S"
+        },
+        {
+          "site": "0x399bb8",
+          "target": "0x399bc8",
+          "instruction": "ja     0x399bc8",
+          "status": "S"
+        },
+        {
+          "site": "0x399bc2",
+          "target": "0x399bc8",
+          "instruction": "ja     0x399bc8",
+          "status": "S"
+        },
+        {
+          "site": "0x399bd7",
+          "target": "0x399bfb",
+          "instruction": "jbe    0x399bfb",
+          "status": "S"
+        },
+        {
+          "site": "0x399c03",
+          "target": "0x399c28",
+          "instruction": "jbe    0x399c28",
+          "status": "S"
+        },
+        {
+          "site": "0x399c2a",
+          "target": "0x399c6c",
+          "instruction": "je     0x399c6c",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x399b5d",
+          "target": "0x38f79c",
+          "kind": "call"
+        },
+        {
+          "site": "0x399bf1",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x399c1e",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x399c4a",
+          "target": "0x2cc350",
+          "kind": "call"
+        },
+        {
+          "site": "0x399c5c",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399c79",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399ca7",
+          "target": "0x3a31f8",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x399b48",
+          "instruction": "jmp    0x399b65"
+        },
+        {
+          "site": "0x399ba8",
+          "instruction": "jmp    0x399bac"
+        },
+        {
+          "site": "0x399bc6",
+          "instruction": "jmp    0x399bca"
+        },
+        {
+          "site": "0x399c6a",
+          "instruction": "jmp    0x399c87"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x399d88",
+      "end_exclusive": "0x39a306",
+      "bytes": 1406,
+      "status": "C",
+      "scope": "full decoration composition: released prefix399d88..39a167, owned grip path/rest and outer-borders/held path",
+      "extent_source": "PE runtime function record",
+      "sha256": "a737b0b9db0494c450710a789a6a6490b08f62a66202052bee8d5c768e6a7e50",
+      "implementation_files": [
+        "imgui_window_details_grips.cpp",
+        "imgui_windows_decorations.cpp"
+      ],
+      "instruction_count": 331,
+      "conditional_branches": [
+        {
+          "site": "0x399df7",
+          "target": "0x399e59",
+          "instruction": "je     0x399e59",
+          "status": "C"
+        },
+        {
+          "site": "0x399e10",
+          "target": "0x399e1f",
+          "instruction": "je     0x399e1f",
+          "status": "C"
+        },
+        {
+          "site": "0x399e1d",
+          "target": "0x399e24",
+          "instruction": "je     0x399e24",
+          "status": "C"
+        },
+        {
+          "site": "0x399e6d",
+          "target": "0x399f4d",
+          "instruction": "js     0x399f4d",
+          "status": "C"
+        },
+        {
+          "site": "0x399e90",
+          "target": "0x399ec3",
+          "instruction": "je     0x399ec3",
+          "status": "C"
+        },
+        {
+          "site": "0x399f61",
+          "target": "0x399f88",
+          "instruction": "jbe    0x399f88",
+          "status": "C"
+        },
+        {
+          "site": "0x399f6f",
+          "target": "0x399f88",
+          "instruction": "je     0x399f88",
+          "status": "C"
+        },
+        {
+          "site": "0x399f7e",
+          "target": "0x399f88",
+          "instruction": "jbe    0x399f88",
+          "status": "C"
+        },
+        {
+          "site": "0x399f8b",
+          "target": "0x399fc2",
+          "instruction": "jne    0x399fc2",
+          "status": "C"
+        },
+        {
+          "site": "0x399fc6",
+          "target": "0x39a0f5",
+          "instruction": "jae    0x39a0f5",
+          "status": "C"
+        },
+        {
+          "site": "0x399ffc",
+          "target": "0x39a004",
+          "instruction": "je     0x39a004",
+          "status": "C"
+        },
+        {
+          "site": "0x39a08d",
+          "target": "0x39a0f2",
+          "instruction": "jbe    0x39a0f2",
+          "status": "C"
+        },
+        {
+          "site": "0x39a0a0",
+          "target": "0x39a0f2",
+          "instruction": "jbe    0x39a0f2",
+          "status": "C"
+        },
+        {
+          "site": "0x39a0fd",
+          "target": "0x39a106",
+          "instruction": "je     0x39a106",
+          "status": "C"
+        },
+        {
+          "site": "0x39a10e",
+          "target": "0x39a11a",
+          "instruction": "je     0x39a11a",
+          "status": "C"
+        },
+        {
+          "site": "0x39a11d",
+          "target": "0x39a2d5",
+          "instruction": "je     0x39a2d5",
+          "status": "C"
+        },
+        {
+          "site": "0x39a126",
+          "target": "0x39a2cd",
+          "instruction": "jne    0x39a2cd",
+          "status": "C"
+        },
+        {
+          "site": "0x39a131",
+          "target": "0x39a2cd",
+          "instruction": "jle    0x39a2cd",
+          "status": "C"
+        },
+        {
+          "site": "0x39a161",
+          "target": "0x39a2c3",
+          "instruction": "je     0x39a2c3",
+          "status": "C"
+        },
+        {
+          "site": "0x39a1a4",
+          "target": "0x39a1b3",
+          "instruction": "je     0x39a1b3",
+          "status": "C"
+        },
+        {
+          "site": "0x39a20b",
+          "target": "0x39a21a",
+          "instruction": "je     0x39a21a",
+          "status": "C"
+        },
+        {
+          "site": "0x39a2c7",
+          "target": "0x39a156",
+          "instruction": "jl     0x39a156",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x399e2c",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399e45",
+          "target": "0x3992a0",
+          "kind": "call"
+        },
+        {
+          "site": "0x399e73",
+          "target": "0x392ea0",
+          "kind": "call"
+        },
+        {
+          "site": "0x399e7e",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399e9c",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x399ed7",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x399ef8",
+          "target": "0x39bf80",
+          "kind": "call"
+        },
+        {
+          "site": "0x399f08",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x399f19",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x399f37",
+          "target": "0x3a1244",
+          "kind": "call"
+        },
+        {
+          "site": "0x399f83",
+          "target": "0x39a64c",
+          "kind": "call"
+        },
+        {
+          "site": "0x399f98",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x399fbd",
+          "target": "0x3a1244",
+          "kind": "call"
+        },
+        {
+          "site": "0x399fd4",
+          "target": "0x3951ec",
+          "kind": "call"
+        },
+        {
+          "site": "0x399fe0",
+          "target": "0x398d44",
+          "kind": "call"
+        },
+        {
+          "site": "0x399fed",
+          "target": "0x3901b8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a011",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a023",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a035",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a048",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a05a",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a07a",
+          "target": "0x3a1244",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a0b2",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a0c3",
+          "target": "0x392154",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a0d5",
+          "target": "0x392130",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a0ed",
+          "target": "0x3a01f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a101",
+          "target": "0x3c3234",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a115",
+          "target": "0x3c3234",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a17b",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a18e",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a1be",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a1da",
+          "target": "0x38bbdc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a1eb",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a1f8",
+          "target": "0x378a40",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a224",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a23f",
+          "target": "0x38bbdc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a24f",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a25c",
+          "target": "0x378a40",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a286",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a2a7",
+          "target": "0x3a6b38",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a2b6",
+          "target": "0x378a14",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a2d0",
+          "target": "0x39a308",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x399e54",
+          "instruction": "jmp    0x39a2d5"
+        },
+        {
+          "site": "0x399f4b",
+          "instruction": "jmp    0x399f54"
+        },
+        {
+          "site": "0x39a002",
+          "instruction": "jmp    0x39a008"
+        },
+        {
+          "site": "0x39a1b1",
+          "instruction": "jmp    0x39a1be"
+        },
+        {
+          "site": "0x39a218",
+          "instruction": "jmp    0x39a224"
+        }
+      ],
+      "partitions": [
+        {
+          "begin": "0x399d88",
+          "end_exclusive": "0x39a167",
+          "bytes": 991,
+          "scope": "released imgui_windows prefix; entry register values retained"
+        },
+        {
+          "begin": "0x39a167",
+          "end_exclusive": "0x39a2c3",
+          "bytes": 348,
+          "scope": "owned grip points/arc/fill"
+        },
+        {
+          "begin": "0x39a2c3",
+          "end_exclusive": "0x39a306",
+          "bytes": 67,
+          "scope": "owned iteration/outer border dispatch/return"
+        }
+      ]
+    },
+    {
+      "begin": "0x39a308",
+      "end_exclusive": "0x39a64a",
+      "bytes": 834,
+      "status": "C",
+      "scope": "full decoration composition: released prefix399d88..39a167, owned grip path/rest and outer-borders/held path",
+      "extent_source": "PE runtime function record",
+      "sha256": "27f9a409994e120d7db4d95c19495874251e3dbce519b99925f5b7a1ef1882b0",
+      "implementation_files": [
+        "imgui_window_details_grips.cpp"
+      ],
+      "instruction_count": 190,
+      "conditional_branches": [
+        {
+          "site": "0x39a361",
+          "target": "0x39a3bd",
+          "instruction": "jbe    0x39a3bd",
+          "status": "C"
+        },
+        {
+          "site": "0x39a367",
+          "target": "0x39a3bd",
+          "instruction": "jne    0x39a3bd",
+          "status": "C"
+        },
+        {
+          "site": "0x39a3c8",
+          "target": "0x39a575",
+          "instruction": "je     0x39a575",
+          "status": "C"
+        },
+        {
+          "site": "0x39a583",
+          "target": "0x39a614",
+          "instruction": "jbe    0x39a614",
+          "status": "C"
+        },
+        {
+          "site": "0x39a58e",
+          "target": "0x39a614",
+          "instruction": "jne    0x39a614",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39a37d",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a390",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a3b8",
+          "target": "0x3a1148",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a3f2",
+          "target": "0x392a9c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a410",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a42d",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a44f",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a45e",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a46d",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a499",
+          "target": "0x3a684c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a4be",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a4d2",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a4f4",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a503",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a512",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a539",
+          "target": "0x3a684c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a54b",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a55e",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a570",
+          "target": "0x398758",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a597",
+          "target": "0x39bf80",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a5ba",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a5dc",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a5f3",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a60f",
+          "target": "0x3a01f4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": [
+        {
+          "begin": "0x39a308",
+          "end_exclusive": "0x39a3ce",
+          "bytes": 198,
+          "scope": "owned outer-border/gate"
+        },
+        {
+          "begin": "0x39a3ce",
+          "end_exclusive": "0x39a575",
+          "bytes": 423,
+          "scope": "owned held-border arcs/stroke"
+        },
+        {
+          "begin": "0x39a575",
+          "end_exclusive": "0x39a64a",
+          "bytes": 213,
+          "scope": "owned title separator/return"
+        }
+      ]
+    },
+    {
+      "begin": "0x39a64c",
+      "end_exclusive": "0x39a7a8",
+      "bytes": 348,
+      "status": "C",
+      "scope": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller",
+      "extent_source": "PE runtime function record",
+      "sha256": "0b9d75f1540683b21af60ad8518a1bf9845fe436621929a33ed1c424343c0222",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 75,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39a68c",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a69f",
+          "target": "0x3c8e6c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6aa",
+          "target": "0x3c899c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6bd",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6d5",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a6f9",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a72c",
+          "target": "0x3a2010",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a74c",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a77f",
+          "target": "0x3a2010",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39a7a8",
+      "end_exclusive": "0x39ac03",
+      "bytes": 1115,
+      "status": "C",
+      "scope": "title layout/close/collapse/drag/clipped text and native marker",
+      "extent_source": "PE runtime function record",
+      "sha256": "0210f2aa2293a8e7baeb01b91d6190c221476635226f09c940ba7b6cf423afd0",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 262,
+      "conditional_branches": [
+        {
+          "site": "0x39a800",
+          "target": "0x39a80c",
+          "instruction": "jne    0x39a80c",
+          "status": "C"
+        },
+        {
+          "site": "0x39a805",
+          "target": "0x39a80c",
+          "instruction": "je     0x39a80c",
+          "status": "C"
+        },
+        {
+          "site": "0x39a855",
+          "target": "0x39a885",
+          "instruction": "je     0x39a885",
+          "status": "C"
+        },
+        {
+          "site": "0x39a888",
+          "target": "0x39a932",
+          "instruction": "je     0x39a932",
+          "status": "C"
+        },
+        {
+          "site": "0x39a891",
+          "target": "0x39a8c8",
+          "instruction": "jne    0x39a8c8",
+          "status": "C"
+        },
+        {
+          "site": "0x39a8cb",
+          "target": "0x39a8f8",
+          "instruction": "jne    0x39a8f8",
+          "status": "C"
+        },
+        {
+          "site": "0x39a928",
+          "target": "0x39a932",
+          "instruction": "je     0x39a932",
+          "status": "C"
+        },
+        {
+          "site": "0x39a935",
+          "target": "0x39a96e",
+          "instruction": "je     0x39a96e",
+          "status": "C"
+        },
+        {
+          "site": "0x39a967",
+          "target": "0x39a96e",
+          "instruction": "je     0x39a96e",
+          "status": "C"
+        },
+        {
+          "site": "0x39a989",
+          "target": "0x39a996",
+          "instruction": "je     0x39a996",
+          "status": "C"
+        },
+        {
+          "site": "0x39a9eb",
+          "target": "0x39a9f5",
+          "instruction": "jbe    0x39a9f5",
+          "status": "C"
+        },
+        {
+          "site": "0x39a9f9",
+          "target": "0x39aa04",
+          "instruction": "jbe    0x39aa04",
+          "status": "C"
+        },
+        {
+          "site": "0x39aa26",
+          "target": "0x39aa9e",
+          "instruction": "jbe    0x39aa9e",
+          "status": "C"
+        },
+        {
+          "site": "0x39aa2c",
+          "target": "0x39aa9e",
+          "instruction": "jbe    0x39aa9e",
+          "status": "C"
+        },
+        {
+          "site": "0x39aaff",
+          "target": "0x39aba8",
+          "instruction": "je     0x39aba8",
+          "status": "C"
+        },
+        {
+          "site": "0x39ab53",
+          "target": "0x39aba8",
+          "instruction": "jbe    0x39aba8",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39a844",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a84d",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a877",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a8ba",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a8e5",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a900",
+          "target": "0x38c5a8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a908",
+          "target": "0x39e94c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a916",
+          "target": "0x392614",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a921",
+          "target": "0x3be114",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a93f",
+          "target": "0x38c8bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a947",
+          "target": "0x39e8d4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a955",
+          "target": "0x392614",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a960",
+          "target": "0x3bde30",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a9a5",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a9cc",
+          "target": "0x38f79c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39a9db",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa36",
+          "target": "0x2e3ef0",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa41",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa5e",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa66",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa7a",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa89",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aa95",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aac3",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aad6",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39aaf7",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab09",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab12",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab36",
+          "target": "0x3762bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab5e",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab78",
+          "target": "0x3a7620",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ab9e",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39abcd",
+          "target": "0x399a64",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x39a80a",
+          "instruction": "jmp    0x39a80f"
+        },
+        {
+          "site": "0x39a994",
+          "instruction": "jmp    0x39a99a"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x39b1d0",
+      "end_exclusive": "0x39b1ed",
+      "bytes": 29,
+      "status": "C",
+      "scope": "title layout/close/collapse/drag/clipped text and native marker",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "58916c4ffca23ca5eebd6e2cedcee7ef9c7c309291915df9773dde67a17f9930",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 4,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39b1e8",
+          "target": "0x395810",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39b1f8",
+      "end_exclusive": "0x39b220",
+      "bytes": 40,
+      "status": "C",
+      "scope": "finish/logged text line splitting/indentation and numeric configured clipboard dispatch",
+      "extent_source": "PE runtime function record",
+      "sha256": "f013d1706c02e09c88f44590fbfd24dbab5906dadcd07eeb515d772228601926",
+      "implementation_files": [
+        "imgui_window_details_log.cpp"
+      ],
+      "instruction_count": 10,
+      "conditional_branches": [
+        {
+          "site": "0x39b210",
+          "target": "0x39b21b",
+          "instruction": "je     0x39b21b",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [
+        {
+          "site": "0x39b219",
+          "instruction": "call   rax"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x39b690",
+      "end_exclusive": "0x39b6d7",
+      "bytes": 71,
+      "status": "S",
+      "scope": "nav ID setter specialized to zero ID from395500; other callers parent navigation domain",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "b05af88755bbad1eefa9ab880f911e43d9ca9f3f5d2bcc2e9131f515e391eaf9",
+      "implementation_files": [
+        "imgui_window_details_base.cpp"
+      ],
+      "instruction_count": 12,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39be68",
+      "end_exclusive": "0x39beee",
+      "bytes": 134,
+      "status": "C",
+      "scope": "title layout/close/collapse/drag/clipped text and native marker",
+      "extent_source": "PE runtime function record",
+      "sha256": "2d30de144929e2c4643c05f0c7471b732feba1f5b457368c6b768fa05c7944aa",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 30,
+      "conditional_branches": [
+        {
+          "site": "0x39becd",
+          "target": "0x39bee3",
+          "instruction": "jne    0x39bee3",
+          "status": "C"
+        },
+        {
+          "site": "0x39beda",
+          "target": "0x39bee3",
+          "instruction": "jne    0x39bee3",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39be7e",
+          "target": "0x391efc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39be89",
+          "target": "0x39b0cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39beac",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39bec4",
+          "target": "0x39b1d0",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39d760",
+      "end_exclusive": "0x39e0f5",
+      "bytes": 2453,
+      "status": "C",
+      "scope": "whole interactive resize including late blocks, constrained corner solve and keyboard analog vector",
+      "extent_source": "PE runtime function record",
+      "sha256": "3ed116e7b900a7fcc74823b6e997e86e7f2a7de96fda38af440fa0d77a822874",
+      "implementation_files": [
+        "imgui_window_details_resize.cpp"
+      ],
+      "instruction_count": 544,
+      "conditional_branches": [
+        {
+          "site": "0x39d7d8",
+          "target": "0x39e0a0",
+          "instruction": "jne    0x39e0a0",
+          "status": "C"
+        },
+        {
+          "site": "0x39d7e5",
+          "target": "0x39e0a0",
+          "instruction": "jg     0x39e0a0",
+          "status": "C"
+        },
+        {
+          "site": "0x39d7f2",
+          "target": "0x39e0a0",
+          "instruction": "jg     0x39e0a0",
+          "status": "C"
+        },
+        {
+          "site": "0x39d7ff",
+          "target": "0x39e0a0",
+          "instruction": "je     0x39e0a0",
+          "status": "C"
+        },
+        {
+          "site": "0x39d88d",
+          "target": "0x39d895",
+          "instruction": "je     0x39d895",
+          "status": "C"
+        },
+        {
+          "site": "0x39d90c",
+          "target": "0x39dc52",
+          "instruction": "jle    0x39dc52",
+          "status": "C"
+        },
+        {
+          "site": "0x39d9e5",
+          "target": "0x39d9f6",
+          "instruction": "jbe    0x39d9f6",
+          "status": "C"
+        },
+        {
+          "site": "0x39da01",
+          "target": "0x39da12",
+          "instruction": "jbe    0x39da12",
+          "status": "C"
+        },
+        {
+          "site": "0x39da60",
+          "target": "0x39da6a",
+          "instruction": "jne    0x39da6a",
+          "status": "C"
+        },
+        {
+          "site": "0x39da64",
+          "target": "0x39dc00",
+          "instruction": "je     0x39dc00",
+          "status": "C"
+        },
+        {
+          "site": "0x39da7d",
+          "target": "0x39dc00",
+          "instruction": "je     0x39dc00",
+          "status": "C"
+        },
+        {
+          "site": "0x39da8f",
+          "target": "0x39dad7",
+          "instruction": "jne    0x39dad7",
+          "status": "C"
+        },
+        {
+          "site": "0x39da94",
+          "target": "0x39dad7",
+          "instruction": "jne    0x39dad7",
+          "status": "C"
+        },
+        {
+          "site": "0x39daec",
+          "target": "0x39daf8",
+          "instruction": "jp     0x39daf8",
+          "status": "C"
+        },
+        {
+          "site": "0x39daee",
+          "target": "0x39daf8",
+          "instruction": "jne    0x39daf8",
+          "status": "C"
+        },
+        {
+          "site": "0x39db0a",
+          "target": "0x39db15",
+          "instruction": "jp     0x39db15",
+          "status": "C"
+        },
+        {
+          "site": "0x39db0c",
+          "target": "0x39db15",
+          "instruction": "jne    0x39db15",
+          "status": "C"
+        },
+        {
+          "site": "0x39db26",
+          "target": "0x39db32",
+          "instruction": "jp     0x39db32",
+          "status": "C"
+        },
+        {
+          "site": "0x39db28",
+          "target": "0x39db32",
+          "instruction": "jne    0x39db32",
+          "status": "C"
+        },
+        {
+          "site": "0x39db39",
+          "target": "0x39db45",
+          "instruction": "jp     0x39db45",
+          "status": "C"
+        },
+        {
+          "site": "0x39db3b",
+          "target": "0x39db45",
+          "instruction": "jne    0x39db45",
+          "status": "C"
+        },
+        {
+          "site": "0x39dc03",
+          "target": "0x39dc0d",
+          "instruction": "je     0x39dc0d",
+          "status": "C"
+        },
+        {
+          "site": "0x39dc07",
+          "target": "0x39dc0d",
+          "instruction": "jne    0x39dc0d",
+          "status": "C"
+        },
+        {
+          "site": "0x39dc0b",
+          "target": "0x39dc34",
+          "instruction": "je     0x39dc34",
+          "status": "C"
+        },
+        {
+          "site": "0x39dc42",
+          "target": "0x39d932",
+          "instruction": "jl     0x39d932",
+          "status": "C"
+        },
+        {
+          "site": "0x39dc58",
+          "target": "0x39de18",
+          "instruction": "je     0x39de18",
+          "status": "C"
+        },
+        {
+          "site": "0x39dc68",
+          "target": "0x39dc76",
+          "instruction": "jb     0x39dc76",
+          "status": "C"
+        },
+        {
+          "site": "0x39dce6",
+          "target": "0x39dcf9",
+          "instruction": "je     0x39dcf9",
+          "status": "C"
+        },
+        {
+          "site": "0x39dcf7",
+          "target": "0x39dd01",
+          "instruction": "ja     0x39dd01",
+          "status": "C"
+        },
+        {
+          "site": "0x39dcfb",
+          "target": "0x39de0a",
+          "instruction": "je     0x39de0a",
+          "status": "C"
+        },
+        {
+          "site": "0x39dd0a",
+          "target": "0x39de0a",
+          "instruction": "je     0x39de0a",
+          "status": "C"
+        },
+        {
+          "site": "0x39dd25",
+          "target": "0x39e071",
+          "instruction": "jne    0x39e071",
+          "status": "C"
+        },
+        {
+          "site": "0x39dd43",
+          "target": "0x39e089",
+          "instruction": "jne    0x39e089",
+          "status": "C"
+        },
+        {
+          "site": "0x39de12",
+          "target": "0x39dc60",
+          "instruction": "jl     0x39dc60",
+          "status": "C"
+        },
+        {
+          "site": "0x39de31",
+          "target": "0x39e007",
+          "instruction": "je     0x39e007",
+          "status": "C"
+        },
+        {
+          "site": "0x39de3e",
+          "target": "0x39e007",
+          "instruction": "jne    0x39e007",
+          "status": "C"
+        },
+        {
+          "site": "0x39de57",
+          "target": "0x39de8f",
+          "instruction": "jne    0x39de8f",
+          "status": "C"
+        },
+        {
+          "site": "0x39de60",
+          "target": "0x39de8f",
+          "instruction": "je     0x39de8f",
+          "status": "C"
+        },
+        {
+          "site": "0x39de96",
+          "target": "0x39dec5",
+          "instruction": "jne    0x39dec5",
+          "status": "C"
+        },
+        {
+          "site": "0x39ded1",
+          "target": "0x39dee9",
+          "instruction": "jp     0x39dee9",
+          "status": "C"
+        },
+        {
+          "site": "0x39ded3",
+          "target": "0x39dee9",
+          "instruction": "jne    0x39dee9",
+          "status": "C"
+        },
+        {
+          "site": "0x39dee1",
+          "target": "0x39dee9",
+          "instruction": "jp     0x39dee9",
+          "status": "C"
+        },
+        {
+          "site": "0x39dee3",
+          "target": "0x39e007",
+          "instruction": "je     0x39e007",
+          "status": "C"
+        },
+        {
+          "site": "0x39dfab",
+          "target": "0x39dfbf",
+          "instruction": "jp     0x39dfbf",
+          "status": "C"
+        },
+        {
+          "site": "0x39dfad",
+          "target": "0x39dfbf",
+          "instruction": "jne    0x39dfbf",
+          "status": "C"
+        },
+        {
+          "site": "0x39dfbb",
+          "target": "0x39dfbf",
+          "instruction": "jp     0x39dfbf",
+          "status": "C"
+        },
+        {
+          "site": "0x39dfbd",
+          "target": "0x39e007",
+          "instruction": "je     0x39e007",
+          "status": "C"
+        },
+        {
+          "site": "0x39e010",
+          "target": "0x39e014",
+          "instruction": "jp     0x39e014",
+          "status": "C"
+        },
+        {
+          "site": "0x39e012",
+          "target": "0x39e032",
+          "instruction": "je     0x39e032",
+          "status": "C"
+        },
+        {
+          "site": "0x39e03b",
+          "target": "0x39e03f",
+          "instruction": "jp     0x39e03f",
+          "status": "C"
+        },
+        {
+          "site": "0x39e03d",
+          "target": "0x39e061",
+          "instruction": "je     0x39e061",
+          "status": "C"
+        },
+        {
+          "site": "0x39e079",
+          "target": "0x39dd31",
+          "instruction": "jne    0x39dd31",
+          "status": "C"
+        },
+        {
+          "site": "0x39e08f",
+          "target": "0x39dd4f",
+          "instruction": "jne    0x39dd4f",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39d857",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d8b3",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d8c3",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d8e0",
+          "target": "0x38c760",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d8e8",
+          "target": "0x39e8fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d8f0",
+          "target": "0x398b04",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d956",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d969",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d990",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d9a0",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d9b5",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d9c5",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d9d5",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x39d9f1",
+          "target": "0x38a3fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39da0d",
+          "target": "0x38a3fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39da18",
+          "target": "0x3925e8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39da2f",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39da4f",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x39daa4",
+          "target": "0x38fbe8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dac3",
+          "target": "0x390078",
+          "kind": "call"
+        },
+        {
+          "site": "0x39db1d",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39db4d",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39db5f",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39db74",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39db86",
+          "target": "0x39340c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dba0",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dbb0",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dbc8",
+          "target": "0x393018",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dbf1",
+          "target": "0x38f5d0",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dc24",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dc93",
+          "target": "0x392a9c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dc9f",
+          "target": "0x3925e8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dcb6",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dcd6",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dd3a",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dd56",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dd70",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dd82",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dd9c",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ddb8",
+          "target": "0x393018",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dde6",
+          "target": "0x383070",
+          "kind": "call"
+        },
+        {
+          "site": "0x39de05",
+          "target": "0x38f5d0",
+          "kind": "call"
+        },
+        {
+          "site": "0x39de18",
+          "target": "0x398878",
+          "kind": "call"
+        },
+        {
+          "site": "0x39de4b",
+          "target": "0x2d4870",
+          "kind": "call"
+        },
+        {
+          "site": "0x39de7e",
+          "target": "0x392724",
+          "kind": "call"
+        },
+        {
+          "site": "0x39deb4",
+          "target": "0x392724",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df07",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df1f",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df2a",
+          "target": "0x38cc48",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df3d",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df4e",
+          "target": "0x3367e4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df5d",
+          "target": "0x383044",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df82",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x39df9a",
+          "target": "0x39307c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dfcf",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39dfde",
+          "target": "0x38fbe8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e002",
+          "target": "0x38cc68",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e02d",
+          "target": "0x395108",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e04b",
+          "target": "0x39307c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e05c",
+          "target": "0x395108",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x39d893",
+          "instruction": "jmp    0x39d899"
+        },
+        {
+          "site": "0x39d930",
+          "instruction": "jmp    0x39d939"
+        },
+        {
+          "site": "0x39dad2",
+          "instruction": "jmp    0x39dc0d"
+        },
+        {
+          "site": "0x39daf6",
+          "instruction": "jmp    0x39dafc"
+        },
+        {
+          "site": "0x39db13",
+          "instruction": "jmp    0x39db19"
+        },
+        {
+          "site": "0x39db30",
+          "instruction": "jmp    0x39db35"
+        },
+        {
+          "site": "0x39db43",
+          "instruction": "jmp    0x39db48"
+        },
+        {
+          "site": "0x39dc5e",
+          "instruction": "jmp    0x39dc65"
+        },
+        {
+          "site": "0x39dc74",
+          "instruction": "jmp    0x39dc7d"
+        },
+        {
+          "site": "0x39e06f",
+          "instruction": "jmp    0x39e0a2"
+        },
+        {
+          "site": "0x39e084",
+          "instruction": "jmp    0x39dd35"
+        },
+        {
+          "site": "0x39e09b",
+          "instruction": "jmp    0x39dd52"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x39e234",
+      "end_exclusive": "0x39e27e",
+      "bytes": 74,
+      "status": "S",
+      "scope": "null optional mouse override / selected nav rectangle fold as reached by positioning",
+      "extent_source": "PE runtime function record",
+      "sha256": "b82293246c4d1b500d9e36c1838f9f570ef92a88d680afedb6d4843bfb32d546",
+      "implementation_files": [
+        "imgui_window_details_position.cpp"
+      ],
+      "instruction_count": 17,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39e270",
+          "target": "0x38baf4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39e280",
+      "end_exclusive": "0x39e304",
+      "bytes": 132,
+      "status": "S",
+      "scope": "known newline or fixed %*s%.*s formatting with owned byte-vector append; generic varargs not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "9b30374ddf8a31a9d12241de6a51e50083daca3120b182d8e398677f30f873cd",
+      "implementation_files": [
+        "imgui_window_details_log.cpp"
+      ],
+      "instruction_count": 49,
+      "conditional_branches": [
+        {
+          "site": "0x39e2aa",
+          "target": "0x39e2f7",
+          "instruction": "jle    0x39e2f7",
+          "status": "S"
+        },
+        {
+          "site": "0x39e2bf",
+          "target": "0x39e2d0",
+          "instruction": "jl     0x39e2d0",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39e2a0",
+          "target": "0x393270",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e2cb",
+          "target": "0x37a69c",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e2d5",
+          "target": "0x37acd4",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e2e0",
+          "target": "0x38bb70",
+          "kind": "call"
+        },
+        {
+          "site": "0x39e2f2",
+          "target": "0x393270",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x39ee58",
+      "end_exclusive": "0x39ee96",
+      "bytes": 62,
+      "status": "C",
+      "scope": "both menu-column update modes, signed cached settings offset, ordered live chunk walk",
+      "extent_source": "PE runtime function record",
+      "sha256": "5d1490eb3fbd397a03a1ae236b6872720b04368e442a25ba8a4d197f92eb048d",
+      "implementation_files": [
+        "imgui_window_details_lookup.cpp"
+      ],
+      "instruction_count": 19,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x39ee68",
+          "target": "0x39e3b8",
+          "kind": "call"
+        },
+        {
+          "site": "0x39ee76",
+          "target": "0x39ebac",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3a7620",
+      "end_exclusive": "0x3a7654",
+      "bytes": 52,
+      "status": "C",
+      "scope": "title layout/close/collapse/drag/clipped text and native marker",
+      "extent_source": "PE runtime function record",
+      "sha256": "77ea93f6af2ff473c85e41ca7e36dd68b7a63e341cf17c654e3a8eb65415a816",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 11,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3a764a",
+          "target": "0x39f874",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3b4f94",
+      "end_exclusive": "0x3b530a",
+      "bytes": 886,
+      "status": "I",
+      "scope": "EndColumns, separate owned channel splitter, copied state restoration and separator input",
+      "extent_source": "PE runtime function record",
+      "sha256": "ccc7ccf62bd61ac3269ba6eacca55921bdef5980120598977d59d5130e5e974f",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 217,
+      "conditional_branches": [
+        {
+          "site": "0x3b4ff6",
+          "target": "0x3b500d",
+          "instruction": "jle    0x3b500d",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5039",
+          "target": "0x3b5045",
+          "instruction": "jne    0x3b5045",
+          "status": "I"
+        },
+        {
+          "site": "0x3b504e",
+          "target": "0x3b5273",
+          "instruction": "jne    0x3b5273",
+          "status": "I"
+        },
+        {
+          "site": "0x3b505a",
+          "target": "0x3b5273",
+          "instruction": "jne    0x3b5273",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5090",
+          "target": "0x3b5273",
+          "instruction": "jle    0x3b5273",
+          "status": "I"
+        },
+        {
+          "site": "0x3b513c",
+          "target": "0x3b51fe",
+          "instruction": "je     0x3b51fe",
+          "status": "I"
+        },
+        {
+          "site": "0x3b514f",
+          "target": "0x3b5192",
+          "instruction": "jne    0x3b5192",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5171",
+          "target": "0x3b5177",
+          "instruction": "jne    0x3b5177",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5175",
+          "target": "0x3b5192",
+          "instruction": "je     0x3b5192",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5183",
+          "target": "0x3b5192",
+          "instruction": "je     0x3b5192",
+          "status": "I"
+        },
+        {
+          "site": "0x3b520c",
+          "target": "0x3b50c1",
+          "instruction": "jl     0x3b50c1",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5216",
+          "target": "0x3b5270",
+          "instruction": "je     0x3b5270",
+          "status": "I"
+        },
+        {
+          "site": "0x3b521d",
+          "target": "0x3b5251",
+          "instruction": "jne    0x3b5251",
+          "status": "I"
+        },
+        {
+          "site": "0x3b5225",
+          "target": "0x3b5251",
+          "instruction": "jle    0x3b5251",
+          "status": "I"
+        },
+        {
+          "site": "0x3b524f",
+          "target": "0x3b5227",
+          "instruction": "jl     0x3b5227",
+          "status": "I"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3b4fdd",
+          "target": "0x35d200",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b4fec",
+          "target": "0x3988d0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b4ff8",
+          "target": "0x39878c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5008",
+          "target": "0x3a65c4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b501f",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b506e",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5082",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b50c4",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b50d1",
+          "target": "0x3b5320",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b50f7",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b510f",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b511e",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5135",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5164",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51a9",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51c6",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51d8",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b51f4",
+          "target": "0x3a01f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b522d",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b523b",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5260",
+          "target": "0x3b53f0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b526b",
+          "target": "0x3b5554",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5305",
+          "target": "0x3970f0",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3b530c",
+      "end_exclusive": "0x3b531e",
+      "bytes": 18,
+      "status": "C",
+      "scope": "column width ratio and table/columns shortcut layer predicate",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "1f3623ad6aecc2189bdc23e931ade6b43e0bf59aa06230038c1ee8054e2855fe",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 5,
+      "conditional_branches": [],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3b5320",
+      "end_exclusive": "0x3b5372",
+      "bytes": 82,
+      "status": "S",
+      "scope": "known nonnull current columns fromEndColumns; direct public null columns variants not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "838c884ce2fe4dd9bb4409a36a5b00930b7bb7e2b1f96a8260bb01c9b73da4fd",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 24,
+      "conditional_branches": [
+        {
+          "site": "0x3b533b",
+          "target": "0x3b5342",
+          "instruction": "jne    0x3b5342",
+          "status": "S"
+        },
+        {
+          "site": "0x3b5344",
+          "target": "0x3b5349",
+          "instruction": "jns    0x3b5349",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3b532c",
+          "target": "0x3923c8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b534f",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5362",
+          "target": "0x33565c",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3b5340",
+          "instruction": "jmp    0x3b5367"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3b5384",
+      "end_exclusive": "0x3b53f0",
+      "bytes": 108,
+      "status": "S",
+      "scope": "known nonnull current columns fromEndColumns; direct public null columns variants not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "ad814d879e10dcfc6047b5a015cc33ea4297a9175b7fe13f52fdf947cc8986f0",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 37,
+      "conditional_branches": [
+        {
+          "site": "0x3b5394",
+          "target": "0x3b5399",
+          "instruction": "jns    0x3b5399",
+          "status": "S"
+        },
+        {
+          "site": "0x3b53a6",
+          "target": "0x3b53c6",
+          "instruction": "je     0x3b53c6",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3b53a8",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b53b5",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b53c6",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b53d3",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b53eb",
+          "target": "0x3b5374",
+          "kind": "jmp"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3b53c4",
+          "instruction": "jmp    0x3b53e0"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3b53f0",
+      "end_exclusive": "0x3b548b",
+      "bytes": 155,
+      "status": "S",
+      "scope": "known nonnull current columns fromEndColumns; direct public null columns variants not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "4bfcf82e58774284965c26e0bacdb11edd5ab2a17fc5de24c08f1de8f9a9e42d",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 35,
+      "conditional_branches": [
+        {
+          "site": "0x3b5453",
+          "target": "0x3b5473",
+          "instruction": "je     0x3b5473",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3b5413",
+          "target": "0x3b5320",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5447",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5458",
+          "target": "0x3b5320",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b546b",
+          "target": "0x3762cc",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3b5554",
+      "end_exclusive": "0x3b563a",
+      "bytes": 230,
+      "status": "S",
+      "scope": "known nonnull current columns fromEndColumns; direct public null columns variants not exported",
+      "extent_source": "PE runtime function record",
+      "sha256": "03dacbe73b248c62c822e1e7acd670d11d87068873d156370c9115fdeb088c17",
+      "implementation_files": [
+        "imgui_window_details_columns.cpp"
+      ],
+      "instruction_count": 69,
+      "conditional_branches": [
+        {
+          "site": "0x3b5585",
+          "target": "0x3b558a",
+          "instruction": "jns    0x3b558a",
+          "status": "S"
+        },
+        {
+          "site": "0x3b558e",
+          "target": "0x3b55af",
+          "instruction": "jne    0x3b55af",
+          "status": "S"
+        },
+        {
+          "site": "0x3b5597",
+          "target": "0x3b55af",
+          "instruction": "jge    0x3b55af",
+          "status": "S"
+        },
+        {
+          "site": "0x3b55b9",
+          "target": "0x3b55e3",
+          "instruction": "jne    0x3b55e3",
+          "status": "S"
+        },
+        {
+          "site": "0x3b5608",
+          "target": "0x3b5625",
+          "instruction": "je     0x3b5625",
+          "status": "S"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3b55a5",
+          "target": "0x3b5384",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b55db",
+          "target": "0x3762cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b55e9",
+          "target": "0x38bba8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b55fc",
+          "target": "0x3b530c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3b5615",
+          "target": "0x38a3f4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3b55ad",
+          "instruction": "jmp    0x3b55b5"
+        },
+        {
+          "site": "0x3b5620",
+          "instruction": "jmp    0x3b556e"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3bd06c",
+      "end_exclusive": "0x3bd113",
+      "bytes": 167,
+      "status": "C",
+      "scope": "both menu-column update modes, signed cached settings offset, ordered live chunk walk",
+      "extent_source": "manually audited leaf/tail including post-first-RET blocks",
+      "sha256": "b306dda82e6093b038ded441b4c675be4b0d914ca7f8e7d7855a0c7f29ff8a91",
+      "implementation_files": [
+        "imgui_window_details_lookup.cpp"
+      ],
+      "instruction_count": 54,
+      "conditional_branches": [
+        {
+          "site": "0x3bd07a",
+          "target": "0x3bd0ab",
+          "instruction": "jne    0x3bd0ab",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd088",
+          "target": "0x3bd094",
+          "instruction": "je     0x3bd094",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd08d",
+          "target": "0x3bd097",
+          "instruction": "je     0x3bd097",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0a7",
+          "target": "0x3bd07f",
+          "instruction": "jne    0x3bd07f",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0ba",
+          "target": "0x3bd0c6",
+          "instruction": "je     0x3bd0c6",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0bf",
+          "target": "0x3bd0c9",
+          "instruction": "je     0x3bd0c9",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0d3",
+          "target": "0x3bd0dc",
+          "instruction": "jne    0x3bd0dc",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0e0",
+          "target": "0x3bd0ef",
+          "instruction": "jne    0x3bd0ef",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0f3",
+          "target": "0x3bd103",
+          "instruction": "je     0x3bd103",
+          "status": "C"
+        },
+        {
+          "site": "0x3bd0ff",
+          "target": "0x3bd0ae",
+          "instruction": "jl     0x3bd0ae",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [],
+      "indirect_leaves": [
+        {
+          "site": "0x3bd0a9",
+          "instruction": "jmp    0x3bd10b"
+        },
+        {
+          "site": "0x3bd0da",
+          "instruction": "jmp    0x3bd0e7"
+        },
+        {
+          "site": "0x3bd0ed",
+          "instruction": "jmp    0x3bd0ae"
+        },
+        {
+          "site": "0x3bd101",
+          "instruction": "jmp    0x3bd10b"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3bde30",
+      "end_exclusive": "0x3be111",
+      "bytes": 737,
+      "status": "C",
+      "scope": "title layout/close/collapse/drag/clipped text and native marker",
+      "extent_source": "PE runtime function record",
+      "sha256": "5c9506c89e1aeda99d1eaa164d24b9926571a9c0658cbdbd3a6f311552b0d501",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 182,
+      "conditional_branches": [
+        {
+          "site": "0x3bdef8",
+          "target": "0x3bdf33",
+          "instruction": "jbe    0x3bdf33",
+          "status": "C"
+        },
+        {
+          "site": "0x3bdf66",
+          "target": "0x3be0eb",
+          "instruction": "je     0x3be0eb",
+          "status": "C"
+        },
+        {
+          "site": "0x3bdfa5",
+          "target": "0x3bdfda",
+          "instruction": "je     0x3bdfda",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3bde80",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bde97",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdea6",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdeb5",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdec4",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bded8",
+          "target": "0x3bfebc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdee4",
+          "target": "0x3bfebc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf02",
+          "target": "0x378940",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf16",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf22",
+          "target": "0x39307c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf2e",
+          "target": "0x3911cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf40",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf5c",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf85",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdf94",
+          "target": "0x3788f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdfbb",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdfd5",
+          "target": "0x39f874",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bdffc",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be00d",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be019",
+          "target": "0x38cc68",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be039",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be049",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be05b",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be06b",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be083",
+          "target": "0x3a01f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be099",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be0a9",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be0bb",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be0cb",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be0e3",
+          "target": "0x3a01f4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [],
+      "partitions": []
+    },
+    {
+      "begin": "0x3be114",
+      "end_exclusive": "0x3be2eb",
+      "bytes": 471,
+      "status": "C",
+      "scope": "title layout/close/collapse/drag/clipped text and native marker",
+      "extent_source": "PE runtime function record",
+      "sha256": "28841549b2c71c7b9eca5f12d7d7a82ce9891e6b6a41cc66764acf928ba102ab",
+      "implementation_files": [
+        "imgui_window_details_title.cpp"
+      ],
+      "instruction_count": 124,
+      "conditional_branches": [
+        {
+          "site": "0x3be1de",
+          "target": "0x3be1eb",
+          "instruction": "je     0x3be1eb",
+          "status": "C"
+        },
+        {
+          "site": "0x3be1e2",
+          "target": "0x3be1eb",
+          "instruction": "je     0x3be1eb",
+          "status": "C"
+        },
+        {
+          "site": "0x3be219",
+          "target": "0x3be220",
+          "instruction": "jne    0x3be220",
+          "status": "C"
+        },
+        {
+          "site": "0x3be21e",
+          "target": "0x3be262",
+          "instruction": "je     0x3be262",
+          "status": "C"
+        },
+        {
+          "site": "0x3be2a9",
+          "target": "0x3be2c6",
+          "instruction": "je     0x3be2c6",
+          "status": "C"
+        },
+        {
+          "site": "0x3be2bc",
+          "target": "0x3be2c6",
+          "instruction": "je     0x3be2c6",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3be15b",
+          "target": "0x38bc08",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be173",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be182",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be191",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be1a0",
+          "target": "0x2db388",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be1b1",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be1cc",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be201",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be210",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be244",
+          "target": "0x3788f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be25d",
+          "target": "0x39f874",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be278",
+          "target": "0x2ef9d8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be29d",
+          "target": "0x3a7400",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be2a2",
+          "target": "0x393ff4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be2b5",
+          "target": "0x394490",
+          "kind": "call"
+        },
+        {
+          "site": "0x3be2c1",
+          "target": "0x39be68",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3be1e9",
+          "instruction": "jmp    0x3be1f6"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3bff14",
+      "end_exclusive": "0x3bff58",
+      "bytes": 68,
+      "status": "C",
+      "scope": "two-axis scrollbar controller/core and bounds",
+      "extent_source": "PE runtime function record",
+      "sha256": "5ea31c703d757e3c757ae8d383ad3fe752145928a630e17945f02ffb0921a4d2",
+      "implementation_files": [
+        "imgui_window_details_scrollbar.cpp"
+      ],
+      "instruction_count": 20,
+      "conditional_branches": [
+        {
+          "site": "0x3bff24",
+          "target": "0x3bff32",
+          "instruction": "jne    0x3bff32",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3bff2b",
+          "target": "0x3bc2f8",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bff37",
+          "target": "0x3bc37c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bff3f",
+          "target": "0x39e924",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bff4d",
+          "target": "0x392614",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3bff30",
+          "instruction": "jmp    0x3bff3c"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3bff58",
+      "end_exclusive": "0x3c0020",
+      "bytes": 200,
+      "status": "C",
+      "scope": "two-axis scrollbar controller/core and bounds",
+      "extent_source": "PE runtime function record",
+      "sha256": "98d4a6e9daad4ef9061cb1d0b1b72ff994d0b8082013012af649b1c6478071fc",
+      "implementation_files": [
+        "imgui_window_details_scrollbar.cpp"
+      ],
+      "instruction_count": 45,
+      "conditional_branches": [
+        {
+          "site": "0x3bff92",
+          "target": "0x3bffcc",
+          "instruction": "jne    0x3bffcc",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3bff78",
+          "target": "0x398d44",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bff8b",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bffac",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3bffe1",
+          "target": "0x38a3f4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c0008",
+          "target": "0x38baf4",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3bffca",
+          "instruction": "jmp    0x3c0005"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3c3234",
+      "end_exclusive": "0x3c338d",
+      "bytes": 345,
+      "status": "C",
+      "scope": "two-axis scrollbar controller/core and bounds",
+      "extent_source": "PE runtime function record",
+      "sha256": "1c7556a4ebbcb12533a44b32beb4bffe02d926f33a5543b0e7f145c47842c754",
+      "implementation_files": [
+        "imgui_window_details_scrollbar.cpp"
+      ],
+      "instruction_count": 88,
+      "conditional_branches": [
+        {
+          "site": "0x3c327c",
+          "target": "0x3c3295",
+          "instruction": "jne    0x3c3295",
+          "status": "C"
+        },
+        {
+          "site": "0x3c328b",
+          "target": "0x3c32c8",
+          "instruction": "jne    0x3c32c8",
+          "status": "C"
+        },
+        {
+          "site": "0x3c32b6",
+          "target": "0x3c32c8",
+          "instruction": "jne    0x3c32c8",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3c3261",
+          "target": "0x3bff14",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3274",
+          "target": "0x3bff58",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c32d2",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c32ee",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c32fe",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c331a",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c332c",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3360",
+          "target": "0x3c3390",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3c3293",
+          "instruction": "jmp    0x3c32c8"
+        }
+      ],
+      "partitions": []
+    },
+    {
+      "begin": "0x3c3390",
+      "end_exclusive": "0x3c3890",
+      "bytes": 1280,
+      "status": "C",
+      "scope": "two-axis scrollbar controller/core and bounds",
+      "extent_source": "PE runtime function record",
+      "sha256": "32466a754fd7b00be642ef154371dd12192e83011484b12a9d1f2556ce55ffdb",
+      "implementation_files": [
+        "imgui_window_details_scrollbar.cpp"
+      ],
+      "instruction_count": 294,
+      "conditional_branches": [
+        {
+          "site": "0x3c340b",
+          "target": "0x3c3845",
+          "instruction": "jne    0x3c3845",
+          "status": "C"
+        },
+        {
+          "site": "0x3c342c",
+          "target": "0x3c3845",
+          "instruction": "jae    0x3c3845",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3435",
+          "target": "0x3c3845",
+          "instruction": "jae    0x3c3845",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3448",
+          "target": "0x3c3480",
+          "instruction": "jne    0x3c3480",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3468",
+          "target": "0x3c3480",
+          "instruction": "jbe    0x3c3480",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3488",
+          "target": "0x3c3845",
+          "instruction": "jae    0x3c3845",
+          "status": "C"
+        },
+        {
+          "site": "0x3c352e",
+          "target": "0x3c3537",
+          "instruction": "jne    0x3c3537",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3618",
+          "target": "0x3c3732",
+          "instruction": "je     0x3c3732",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3623",
+          "target": "0x3c3732",
+          "instruction": "je     0x3c3732",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3636",
+          "target": "0x3c3732",
+          "instruction": "jbe    0x3c3732",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3680",
+          "target": "0x3c36c1",
+          "instruction": "je     0x3c36c1",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3685",
+          "target": "0x3c36b5",
+          "instruction": "ja     0x3c36b5",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3692",
+          "target": "0x3c36b5",
+          "instruction": "ja     0x3c36b5",
+          "status": "C"
+        },
+        {
+          "site": "0x3c3720",
+          "target": "0x3c3732",
+          "instruction": "je     0x3c3732",
+          "status": "C"
+        },
+        {
+          "site": "0x3c379e",
+          "target": "0x3c37d0",
+          "instruction": "jne    0x3c37d0",
+          "status": "C"
+        }
+      ],
+      "calls_and_tail_dependencies": [
+        {
+          "site": "0x3c3411",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c341d",
+          "target": "0x378934",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3475",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c34ce",
+          "target": "0x3762bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3501",
+          "target": "0x3762bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3514",
+          "target": "0x2cc340",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3521",
+          "target": "0x3911cc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3530",
+          "target": "0x378970",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3537",
+          "target": "0x378934",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3556",
+          "target": "0x3b5b74",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3563",
+          "target": "0x3b5b74",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3585",
+          "target": "0x3762bc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c35a7",
+          "target": "0x3948dc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c35c6",
+          "target": "0x3bc7e0",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c35df",
+          "target": "0x3b5b74",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c35fe",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3646",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3656",
+          "target": "0x38bbcc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3668",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3673",
+          "target": "0x39b52c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c36e9",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c370c",
+          "target": "0x3789fc",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c373b",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c375e",
+          "target": "0x392298",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3789",
+          "target": "0x3a1244",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3793",
+          "target": "0x38bb2c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c37ac",
+          "target": "0x33565c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c37dc",
+          "target": "0x33565c",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c3803",
+          "target": "0x38baf4",
+          "kind": "call"
+        },
+        {
+          "site": "0x3c383b",
+          "target": "0x3a1244",
+          "kind": "call"
+        }
+      ],
+      "indirect_leaves": [
+        {
+          "site": "0x3c347e",
+          "instruction": "jmp    0x3c3484"
+        },
+        {
+          "site": "0x3c3535",
+          "instruction": "jmp    0x3c353c"
+        },
+        {
+          "site": "0x3c36b3",
+          "instruction": "jmp    0x3c36c1"
+        },
+        {
+          "site": "0x3c37ce",
+          "instruction": "jmp    0x3c37fe"
+        },
+        {
+          "site": "0x3c3843",
+          "instruction": "jmp    0x3c3847"
+        }
+      ],
+      "partitions": []
+    }
+  ],
+  "dependency_count": 150,
+  "dependencies": [
+    {
+      "target": "0x2cc340",
+      "end_exclusive": null,
+      "sites": [
+        "0x391663",
+        "0x391693",
+        "0x3916c1",
+        "0x39186e",
+        "0x392780",
+        "0x392a71",
+        "0x392aee",
+        "0x3953cb",
+        "0x39544b",
+        "0x39985f",
+        "0x3998ba",
+        "0x3998dc",
+        "0x399f08",
+        "0x39a023",
+        "0x39a048",
+        "0x39a1be",
+        "0x39a224",
+        "0x39a286",
+        "0x39a42d",
+        "0x39a4d2",
+        "0x39a5dc",
+        "0x39a5f3",
+        "0x39a6bd",
+        "0x39a877",
+        "0x39a8ba",
+        "0x39a8e5",
+        "0x39a9a5",
+        "0x39d8b3",
+        "0x39d8c3",
+        "0x39db1d",
+        "0x39db4d",
+        "0x39dd3a",
+        "0x39dd56",
+        "0x3b50f7",
+        "0x3b510f",
+        "0x3b51c6",
+        "0x3b51d8",
+        "0x3bde97",
+        "0x3be00d",
+        "0x3be039",
+        "0x3be05b",
+        "0x3be099",
+        "0x3be0bb",
+        "0x3be173",
+        "0x3c3514"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 constructor"
+    },
+    {
+      "target": "0x2cc350",
+      "end_exclusive": null,
+      "sites": [
+        "0x399c4a"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "four-float constructor"
+    },
+    {
+      "target": "0x2d4870",
+      "end_exclusive": null,
+      "sites": [
+        "0x39164c",
+        "0x3918b7",
+        "0x39a844",
+        "0x39a84d",
+        "0x39ab09",
+        "0x39de4b"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "actual zero Vec2 store"
+    },
+    {
+      "target": "0x2db388",
+      "end_exclusive": null,
+      "sites": [
+        "0x3914b0",
+        "0x3916ea",
+        "0x39d9d5",
+        "0x3b511e",
+        "0x3bdec4",
+        "0x3be1a0"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rect min/max constructor"
+    },
+    {
+      "target": "0x2e3ef0",
+      "end_exclusive": "0x2e3ef8",
+      "sites": [
+        "0x39aa36"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "binary32 absolute sign-bit clear"
+    },
+    {
+      "target": "0x2ef9d8",
+      "end_exclusive": "0x2efa03",
+      "sites": [
+        "0x38f60b",
+        "0x3916da",
+        "0x39187c",
+        "0x3953e4",
+        "0x3998ec",
+        "0x399ed7",
+        "0x399f19",
+        "0x39a05a",
+        "0x39a17b",
+        "0x39a1eb",
+        "0x39a24f",
+        "0x39a390",
+        "0x39a45e",
+        "0x39a46d",
+        "0x39a503",
+        "0x39a512",
+        "0x39a6f9",
+        "0x39a74c",
+        "0x39a9db",
+        "0x39d956",
+        "0x39d9a0",
+        "0x39dbb0",
+        "0x39dfcf",
+        "0x3bdea6",
+        "0x3bdeb5",
+        "0x3be049",
+        "0x3be06b",
+        "0x3be0a9",
+        "0x3be0cb",
+        "0x3be182",
+        "0x3be191",
+        "0x3be278"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 addition"
+    },
+    {
+      "target": "0x33565c",
+      "end_exclusive": null,
+      "sites": [
+        "0x3b5362",
+        "0x3c37ac",
+        "0x3c37dc"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "literal float interpolation"
+    },
+    {
+      "target": "0x3367e4",
+      "end_exclusive": "0x33680f",
+      "sites": [
+        "0x38f62e",
+        "0x3915f6",
+        "0x395368",
+        "0x3998ca",
+        "0x39a035",
+        "0x39beac",
+        "0x39d9c5",
+        "0x39dba0",
+        "0x39df3d",
+        "0x39df4e"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 subtraction"
+    },
+    {
+      "target": "0x35d200",
+      "end_exclusive": null,
+      "sites": [
+        "0x398792",
+        "0x3b4fdd"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x35d21d"
+        }
+      ]
+    },
+    {
+      "target": "0x3762bc",
+      "end_exclusive": null,
+      "sites": [
+        "0x39ab36",
+        "0x3c34ce",
+        "0x3c3501",
+        "0x3c3585"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "literal clamp"
+    },
+    {
+      "target": "0x3762cc",
+      "end_exclusive": null,
+      "sites": [
+        "0x39172b",
+        "0x391755",
+        "0x39538d",
+        "0x3953b7",
+        "0x39aa66",
+        "0x39aad6",
+        "0x39ab9e",
+        "0x39df07",
+        "0x3b5082",
+        "0x3b546b",
+        "0x3b55db"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "literal MINSS"
+    },
+    {
+      "target": "0x3786d8",
+      "end_exclusive": "0x3786e7",
+      "sites": [
+        "0x3921c0"
+      ],
+      "status": "inventory range above",
+      "meaning": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller"
+    },
+    {
+      "target": "0x3788ec",
+      "end_exclusive": "0x3788f1",
+      "sites": [
+        "0x394e49"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "tail to379578: owned log clear, native free counter and required free leaf"
+    },
+    {
+      "target": "0x3788f4",
+      "end_exclusive": "0x378931",
+      "sites": [
+        "0x3bdf94",
+        "0x3be244"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle center using copied half constant"
+    },
+    {
+      "target": "0x378934",
+      "end_exclusive": null,
+      "sites": [
+        "0x392a29",
+        "0x39537d",
+        "0x3c341d",
+        "0x3c3537"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle height"
+    },
+    {
+      "target": "0x378940",
+      "end_exclusive": "0x37896d",
+      "sites": [
+        "0x3bdf02"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle size"
+    },
+    {
+      "target": "0x378970",
+      "end_exclusive": null,
+      "sites": [
+        "0x392a49",
+        "0x39539f",
+        "0x39aa41",
+        "0x39ab12",
+        "0x3c3411",
+        "0x3c3530"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle width"
+    },
+    {
+      "target": "0x3789fc",
+      "end_exclusive": null,
+      "sites": [
+        "0x399e9c",
+        "0x39aa7a",
+        "0x3c3475",
+        "0x3c35fe",
+        "0x3c3668",
+        "0x3c36e9",
+        "0x3c370c"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "saturation"
+    },
+    {
+      "target": "0x378a14",
+      "end_exclusive": "0x378a3d",
+      "sites": [
+        "0x39a2b6"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "draw_shapes path fill"
+    },
+    {
+      "target": "0x378a40",
+      "end_exclusive": null,
+      "sites": [
+        "0x39a1f8",
+        "0x39a25c"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "owned drawlist path point"
+    },
+    {
+      "target": "0x37a69c",
+      "end_exclusive": "0x37a6f5",
+      "sites": [
+        "0x39e2cb"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "owned log reserve/copy; exact size/capacity effects retained, native heap/free ABI not claimed"
+    },
+    {
+      "target": "0x37acd4",
+      "end_exclusive": "0x37ad04",
+      "sites": [
+        "0x39509f",
+        "0x39e2d5"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "byte-vector resize/write count"
+    },
+    {
+      "target": "0x383044",
+      "end_exclusive": "0x38306f",
+      "sites": [
+        "0x39df5d"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "component MAXSS"
+    },
+    {
+      "target": "0x383070",
+      "end_exclusive": "0x38309b",
+      "sites": [
+        "0x39dde6"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "component MINSS"
+    },
+    {
+      "target": "0x38a3f4",
+      "end_exclusive": null,
+      "sites": [
+        "0x39173d",
+        "0x391766",
+        "0x3918d3",
+        "0x3918e4",
+        "0x399bf1",
+        "0x399c1e",
+        "0x39a55e",
+        "0x39aa5e",
+        "0x39aa89",
+        "0x39aa95",
+        "0x39d857",
+        "0x3b501f",
+        "0x3b506e",
+        "0x3b5447",
+        "0x3b5615",
+        "0x3bdfbb",
+        "0x3bffac",
+        "0x3bffe1"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "literal MAXSS"
+    },
+    {
+      "target": "0x38a3fc",
+      "end_exclusive": "0x38a409",
+      "sites": [
+        "0x39d9f1",
+        "0x39da0d"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "swap two float words"
+    },
+    {
+      "target": "0x38bab4",
+      "end_exclusive": "0x38baf3",
+      "sites": [
+        "0x3987be"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "four-float copy"
+    },
+    {
+      "target": "0x38baf4",
+      "end_exclusive": "0x38bb2a",
+      "sites": [
+        "0x391456",
+        "0x39156b",
+        "0x392b2e",
+        "0x39aac3",
+        "0x39aaf7",
+        "0x39e270",
+        "0x3c0008",
+        "0x3c3803"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "four-float constructor"
+    },
+    {
+      "target": "0x38bb2c",
+      "end_exclusive": "0x38bb58",
+      "sites": [
+        "0x3913e9",
+        "0x3914dc",
+        "0x392b96",
+        "0x395567",
+        "0x39559b",
+        "0x3c3793"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "zero rectangle"
+    },
+    {
+      "target": "0x38bb70",
+      "end_exclusive": null,
+      "sites": [
+        "0x391de9",
+        "0x39e2e0"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "signed byte-index chunk address"
+    },
+    {
+      "target": "0x38bba8",
+      "end_exclusive": null,
+      "sites": [
+        "0x3b50c4",
+        "0x3b522d",
+        "0x3b523b",
+        "0x3b534f",
+        "0x3b53a8",
+        "0x3b53b5",
+        "0x3b53c6",
+        "0x3b53d3",
+        "0x3b55e9"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "column stride28 element"
+    },
+    {
+      "target": "0x38bbc0",
+      "end_exclusive": "0x38bbcc",
+      "sites": [
+        "0x3913d5"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "signed window-stack stride0x58 element"
+    },
+    {
+      "target": "0x38bbcc",
+      "end_exclusive": null,
+      "sites": [
+        "0x39dd70",
+        "0x39dd82",
+        "0x39dd9c",
+        "0x3bff8b",
+        "0x3c32d2",
+        "0x3c32ee",
+        "0x3c32fe",
+        "0x3c331a",
+        "0x3c332c",
+        "0x3c3646",
+        "0x3c3656"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 component address"
+    },
+    {
+      "target": "0x38bbdc",
+      "end_exclusive": "0x38bc07",
+      "sites": [
+        "0x39a1da",
+        "0x39a23f"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 multiply"
+    },
+    {
+      "target": "0x38bc08",
+      "end_exclusive": "0x38bc2b",
+      "sites": [
+        "0x39a410",
+        "0x39a4be",
+        "0x39a6d5",
+        "0x39d990",
+        "0x39d9b5",
+        "0x39db5f",
+        "0x39db74",
+        "0x39df1f",
+        "0x3bde80",
+        "0x3bdf16",
+        "0x3be15b"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 scalar multiply"
+    },
+    {
+      "target": "0x38c5a8",
+      "end_exclusive": "0x38c5c3",
+      "sites": [
+        "0x39a900"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "fixed encoded #COLLAPSE literal constructor"
+    },
+    {
+      "target": "0x38c760",
+      "end_exclusive": "0x38c771",
+      "sites": [
+        "0x39d8e0"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "fixed encoded #RESIZE literal constructor"
+    },
+    {
+      "target": "0x38c774",
+      "end_exclusive": null,
+      "sites": [
+        "0x394f96"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "fixed format literal %*s%.*s"
+    },
+    {
+      "target": "0x38c8bc",
+      "end_exclusive": "0x38c8dc",
+      "sites": [
+        "0x39a93f"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "fixed encoded #CLOSE literal constructor"
+    },
+    {
+      "target": "0x38cc48",
+      "end_exclusive": null,
+      "sites": [
+        "0x39df2a"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 addition assign"
+    },
+    {
+      "target": "0x38cc68",
+      "end_exclusive": null,
+      "sites": [
+        "0x392afa",
+        "0x39e002",
+        "0x3be019"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 subtraction assign"
+    },
+    {
+      "target": "0x38f3ec",
+      "end_exclusive": "0x38f5ce",
+      "sites": [
+        "0x395354"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "released window scroll target"
+    },
+    {
+      "target": "0x38f5d0",
+      "end_exclusive": "0x38f6b9",
+      "sites": [
+        "0x39dbf1",
+        "0x39de05"
+      ],
+      "status": "inventory range above",
+      "meaning": "whole interactive resize including late blocks, constrained corner solve and keyboard analog vector"
+    },
+    {
+      "target": "0x38f79c",
+      "end_exclusive": "0x38f859",
+      "sites": [
+        "0x399b5d",
+        "0x39a9cc"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "renderer_measure_38f79c copied advance data and literal UTF/wrap semantics"
+    },
+    {
+      "target": "0x38fbe8",
+      "end_exclusive": "0x38fd8c",
+      "sites": [
+        "0x38f63e",
+        "0x39daa4",
+        "0x39dfde"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "released window size constraint, consumed callback"
+    },
+    {
+      "target": "0x390078",
+      "end_exclusive": null,
+      "sites": [
+        "0x39dac3"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x390081"
+        }
+      ]
+    },
+    {
+      "target": "0x3901b8",
+      "end_exclusive": "0x390206",
+      "sites": [
+        "0x399839",
+        "0x399fed"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rect intersection"
+    },
+    {
+      "target": "0x390790",
+      "end_exclusive": "0x3907c0",
+      "sites": [
+        "0x3916f5",
+        "0x399877"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "inclusive rectangle containment including unordered false"
+    },
+    {
+      "target": "0x3911cc",
+      "end_exclusive": "0x391205",
+      "sites": [
+        "0x392a7c",
+        "0x39986b",
+        "0x3bdf2e",
+        "0x3c3521"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle expand by Vec2"
+    },
+    {
+      "target": "0x3915b4",
+      "end_exclusive": "0x391925",
+      "sites": [
+        "0x39148f"
+      ],
+      "status": "inventory range above",
+      "meaning": "popup/tooltip/menu auto position and main-viewport allowed extent"
+    },
+    {
+      "target": "0x391c50",
+      "end_exclusive": "0x391c78",
+      "sites": [
+        "0x394eba",
+        "0x399a7e"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "visible text end NUL or## within optional end"
+    },
+    {
+      "target": "0x391d84",
+      "end_exclusive": "0x391dce",
+      "sites": [
+        "0x391df1"
+      ],
+      "status": "inventory range above",
+      "meaning": "both menu-column update modes, signed cached settings offset, ordered live chunk walk"
+    },
+    {
+      "target": "0x391efc",
+      "end_exclusive": "0x392043",
+      "sites": [
+        "0x39be7e"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x392043"
+        }
+      ]
+    },
+    {
+      "target": "0x392130",
+      "end_exclusive": "0x392153",
+      "sites": [
+        "0x39a0d5"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rect bottom-left"
+    },
+    {
+      "target": "0x392154",
+      "end_exclusive": null,
+      "sites": [
+        "0x39a0c3"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rect bottom-right"
+    },
+    {
+      "target": "0x392298",
+      "end_exclusive": "0x3922dc",
+      "sites": [
+        "0x3998a9",
+        "0x39993d",
+        "0x399c5c",
+        "0x399c79",
+        "0x399e2c",
+        "0x399e7e",
+        "0x399f98",
+        "0x39a011",
+        "0x39a0b2",
+        "0x39a37d",
+        "0x39a54b",
+        "0x39a5ba",
+        "0x39a68c",
+        "0x39ab5e",
+        "0x39dc24",
+        "0x39df82",
+        "0x3b51a9",
+        "0x3bdf85",
+        "0x3bdffc",
+        "0x3be201",
+        "0x3be210",
+        "0x3c373b",
+        "0x3c375e"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x3922dc"
+        }
+      ]
+    },
+    {
+      "target": "0x3923c8",
+      "end_exclusive": null,
+      "sites": [
+        "0x3b532c"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "current-window address"
+    },
+    {
+      "target": "0x3925e8",
+      "end_exclusive": "0x392613",
+      "sites": [
+        "0x39da18",
+        "0x39dc9f"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "raw CRC of four index bytes with current ID seed"
+    },
+    {
+      "target": "0x392614",
+      "end_exclusive": "0x392654",
+      "sites": [
+        "0x39a916",
+        "0x39a955",
+        "0x3bff4d"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x392654"
+        }
+      ]
+    },
+    {
+      "target": "0x392714",
+      "end_exclusive": null,
+      "sites": [
+        "0x392746",
+        "0x392750",
+        "0x392761",
+        "0x39276b"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x392722"
+        }
+      ]
+    },
+    {
+      "target": "0x392724",
+      "end_exclusive": "0x392798",
+      "sites": [
+        "0x39de7e",
+        "0x39deb4"
+      ],
+      "status": "inventory range above",
+      "meaning": "whole interactive resize including late blocks, constrained corner solve and keyboard analog vector"
+    },
+    {
+      "target": "0x392828",
+      "end_exclusive": "0x392866",
+      "sites": [
+        "0x392a11"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "released main viewport rectangle"
+    },
+    {
+      "target": "0x392868",
+      "end_exclusive": "0x392889",
+      "sites": [
+        "0x392a06",
+        "0x3953d0"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "released main viewport getter"
+    },
+    {
+      "target": "0x3929e8",
+      "end_exclusive": "0x392a99",
+      "sites": [
+        "0x3913b7"
+      ],
+      "status": "inventory range above",
+      "meaning": "popup/tooltip/menu auto position and main-viewport allowed extent"
+    },
+    {
+      "target": "0x392a9c",
+      "end_exclusive": "0x392bba",
+      "sites": [
+        "0x39a3f2",
+        "0x39dc93"
+      ],
+      "status": "inventory range above",
+      "meaning": "full decoration composition: released prefix399d88..39a167, owned grip path/rest and outer-borders/held path"
+    },
+    {
+      "target": "0x392ea0",
+      "end_exclusive": "0x392ebf",
+      "sites": [
+        "0x399e73"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "flags to background style index"
+    },
+    {
+      "target": "0x393018",
+      "end_exclusive": "0x39305e",
+      "sites": [
+        "0x391608",
+        "0x3953f7",
+        "0x39dbc8",
+        "0x39ddb8"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "two-axis clamp with literal compare/MINSS order"
+    },
+    {
+      "target": "0x39307c",
+      "end_exclusive": "0x3930aa",
+      "sites": [
+        "0x395402",
+        "0x39df9a",
+        "0x39e04b",
+        "0x3bdf22"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "imgui_windows",
+          "status": "C",
+          "extent": "0x3930aa"
+        },
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x3930aa"
+        }
+      ]
+    },
+    {
+      "target": "0x393270",
+      "end_exclusive": "0x3932af",
+      "sites": [
+        "0x39e2a0",
+        "0x39e2f2"
+      ],
+      "status": "S/U: fixed formatter adaptation; generic body remains",
+      "meaning": "known newline and %*s%.*s only; generic3214dc CRT/varargs closure is not reconstructed"
+    },
+    {
+      "target": "0x39340c",
+      "end_exclusive": "0x39344b",
+      "sites": [
+        "0x38f5fa",
+        "0x38f61d",
+        "0x39a18e",
+        "0x39a44f",
+        "0x39a4f4",
+        "0x39d969",
+        "0x39db86"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "Vec2 component interpolation"
+    },
+    {
+      "target": "0x393520",
+      "end_exclusive": "0x393549",
+      "sites": [
+        "0x394f62"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "bounded newline search"
+    },
+    {
+      "target": "0x393ff4",
+      "end_exclusive": null,
+      "sites": [
+        "0x3be2a2"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "menu_color_picker_item_active_393ff4"
+    },
+    {
+      "target": "0x394464",
+      "end_exclusive": "0x39448f",
+      "sites": [
+        "0x3944a7"
+      ],
+      "status": "inventory range above",
+      "meaning": "mouse button0 plus negative configured threshold as reached by collapse drag"
+    },
+    {
+      "target": "0x394490",
+      "end_exclusive": "0x3944ac",
+      "sites": [
+        "0x3be2b5"
+      ],
+      "status": "inventory range above",
+      "meaning": "mouse button0 plus negative configured threshold as reached by collapse drag"
+    },
+    {
+      "target": "0x394550",
+      "end_exclusive": "0x394585",
+      "sites": [
+        "0x395410"
+      ],
+      "status": "inventory range above",
+      "meaning": "null optional mouse override / selected nav rectangle fold as reached by positioning"
+    },
+    {
+      "target": "0x3948dc",
+      "end_exclusive": "0x394a12",
+      "sites": [
+        "0x39da2f",
+        "0x39dcb6",
+        "0x3b5135",
+        "0x3bdf40",
+        "0x3be1b1",
+        "0x3c35a7"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x394a12"
+        }
+      ]
+    },
+    {
+      "target": "0x394e5c",
+      "end_exclusive": "0x395020",
+      "sites": [
+        "0x399aeb"
+      ],
+      "status": "inventory range above",
+      "meaning": "finish/logged text line splitting/indentation and numeric configured clipboard dispatch"
+    },
+    {
+      "target": "0x395038",
+      "end_exclusive": "0x395073",
+      "sites": [
+        "0x394df5",
+        "0x394f09",
+        "0x394fb7",
+        "0x394fd0"
+      ],
+      "status": "inventory range above",
+      "meaning": "known newline or fixed %*s%.*s formatting with owned byte-vector append; generic varargs not exported"
+    },
+    {
+      "target": "0x395074",
+      "end_exclusive": "0x3950c1",
+      "sites": [
+        "0x395069"
+      ],
+      "status": "inventory range above",
+      "meaning": "known newline or fixed %*s%.*s formatting with owned byte-vector append; generic varargs not exported"
+    },
+    {
+      "target": "0x395108",
+      "end_exclusive": null,
+      "sites": [
+        "0x39e02d",
+        "0x39e05c"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "released settings dirty gate"
+    },
+    {
+      "target": "0x3951ec",
+      "end_exclusive": "0x39524d",
+      "sites": [
+        "0x399fd4"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "menu rectangle"
+    },
+    {
+      "target": "0x3952b0",
+      "end_exclusive": "0x395465",
+      "sites": [
+        "0x3914d3"
+      ],
+      "status": "inventory range above",
+      "meaning": "popup/tooltip/menu auto position and main-viewport allowed extent"
+    },
+    {
+      "target": "0x395810",
+      "end_exclusive": null,
+      "sites": [
+        "0x39b1e8"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "imgui_navigation_cancel_395810 exact reset+refresh"
+    },
+    {
+      "target": "0x39676c",
+      "end_exclusive": "0x39678e",
+      "sites": [
+        "0x3955ab"
+      ],
+      "status": "inventory range above",
+      "meaning": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller"
+    },
+    {
+      "target": "0x3970f0",
+      "end_exclusive": "0x39711f",
+      "sites": [
+        "0x3b5305"
+      ],
+      "status": "inventory range above",
+      "meaning": "column width ratio and table/columns shortcut layer predicate"
+    },
+    {
+      "target": "0x398758",
+      "end_exclusive": "0x39878c",
+      "sites": [
+        "0x39a570"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "draw_shapes path stroke"
+    },
+    {
+      "target": "0x39878c",
+      "end_exclusive": "0x3987d6",
+      "sites": [
+        "0x3b4ff8"
+      ],
+      "status": "inventory range above",
+      "meaning": "EndColumns, separate owned channel splitter, copied state restoration and separator input"
+    },
+    {
+      "target": "0x398878",
+      "end_exclusive": "0x398892",
+      "sites": [
+        "0x39de18"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "pop current ID scope"
+    },
+    {
+      "target": "0x3988d0",
+      "end_exclusive": "0x39890b",
+      "sites": [
+        "0x3b4fec"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "pop item width and restore previous float"
+    },
+    {
+      "target": "0x398b04",
+      "end_exclusive": "0x398b41",
+      "sites": [
+        "0x39d8f0"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "known #RESIZE scope ID hash plus owned vector push"
+    },
+    {
+      "target": "0x398d44",
+      "end_exclusive": "0x398d82",
+      "sites": [
+        "0x392aca",
+        "0x399fe0",
+        "0x3bff78"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "position plus actual size rectangle"
+    },
+    {
+      "target": "0x3992a0",
+      "end_exclusive": "0x39940e",
+      "sites": [
+        "0x399e45"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "imgui_windows",
+          "status": "S",
+          "extent": "0x39940e"
+        }
+      ]
+    },
+    {
+      "target": "0x399a64",
+      "end_exclusive": "0x399afb",
+      "sites": [
+        "0x39abcd"
+      ],
+      "status": "inventory range above",
+      "meaning": "owned string_view text plus required measured size; generic raw-pointer/end and null-size overloads remain released font/control domain"
+    },
+    {
+      "target": "0x399afc",
+      "end_exclusive": "0x399cc1",
+      "sites": [
+        "0x399ad4"
+      ],
+      "status": "inventory range above",
+      "meaning": "owned string_view text plus required measured size; generic raw-pointer/end and null-size overloads remain released font/control domain"
+    },
+    {
+      "target": "0x39a308",
+      "end_exclusive": "0x39a64a",
+      "sites": [
+        "0x39a2d0"
+      ],
+      "status": "inventory range above",
+      "meaning": "full decoration composition: released prefix399d88..39a167, owned grip path/rest and outer-borders/held path"
+    },
+    {
+      "target": "0x39a64c",
+      "end_exclusive": "0x39a7a8",
+      "sites": [
+        "0x399f83"
+      ],
+      "status": "inventory range above",
+      "meaning": "signed table stride, nav initialization/refresh, owned highlight clip, repeated shadow controller"
+    },
+    {
+      "target": "0x39b0cc",
+      "end_exclusive": "0x39b1cf",
+      "sites": [
+        "0x39be89"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x39b1cf"
+        }
+      ]
+    },
+    {
+      "target": "0x39b1d0",
+      "end_exclusive": "0x39b1ed",
+      "sites": [
+        "0x39bec4"
+      ],
+      "status": "inventory range above",
+      "meaning": "title layout/close/collapse/drag/clipped text and native marker"
+    },
+    {
+      "target": "0x39b1f8",
+      "end_exclusive": "0x39b220",
+      "sites": [
+        "0x394e21"
+      ],
+      "status": "inventory range above",
+      "meaning": "finish/logged text line splitting/indentation and numeric configured clipboard dispatch"
+    },
+    {
+      "target": "0x39b52c",
+      "end_exclusive": null,
+      "sites": [
+        "0x3c3673"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x39b555"
+        }
+      ]
+    },
+    {
+      "target": "0x39b690",
+      "end_exclusive": "0x39b6d7",
+      "sites": [
+        "0x39557e"
+      ],
+      "status": "inventory range above",
+      "meaning": "nav ID setter specialized to zero ID from395500; other callers parent navigation domain"
+    },
+    {
+      "target": "0x39be68",
+      "end_exclusive": "0x39beee",
+      "sites": [
+        "0x3be2c1"
+      ],
+      "status": "inventory range above",
+      "meaning": "title layout/close/collapse/drag/clipped text and native marker"
+    },
+    {
+      "target": "0x39bf80",
+      "end_exclusive": "0x39bfb6",
+      "sites": [
+        "0x399ef8",
+        "0x39a597"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "released title height"
+    },
+    {
+      "target": "0x39c044",
+      "end_exclusive": "0x39c07d",
+      "sites": [
+        "0x395374"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle translate by Vec2"
+    },
+    {
+      "target": "0x39e234",
+      "end_exclusive": "0x39e27e",
+      "sites": [
+        "0x395314"
+      ],
+      "status": "inventory range above",
+      "meaning": "null optional mouse override / selected nav rectangle fold as reached by positioning"
+    },
+    {
+      "target": "0x39e280",
+      "end_exclusive": "0x39e304",
+      "sites": [
+        "0x3950bc"
+      ],
+      "status": "inventory range above",
+      "meaning": "known newline or fixed %*s%.*s formatting with owned byte-vector append; generic varargs not exported"
+    },
+    {
+      "target": "0x39e380",
+      "end_exclusive": null,
+      "sites": [
+        "0x3987b1"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "back16 vector address"
+    },
+    {
+      "target": "0x39e390",
+      "end_exclusive": null,
+      "sites": [
+        "0x391d9e"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "chunk first"
+    },
+    {
+      "target": "0x39e3a4",
+      "end_exclusive": null,
+      "sites": [
+        "0x394e19"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "byte-vector data or static empty"
+    },
+    {
+      "target": "0x39e3b8",
+      "end_exclusive": null,
+      "sites": [
+        "0x39ee68"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "chunk length"
+    },
+    {
+      "target": "0x39e8d4",
+      "end_exclusive": "0x39e8fa",
+      "sites": [
+        "0x39a947"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "known fixed #CLOSE decoder specialization"
+    },
+    {
+      "target": "0x39e8fc",
+      "end_exclusive": "0x39e922",
+      "sites": [
+        "0x394f9e",
+        "0x39d8e8"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "known fixed #RESIZE and %*s%.*s decoder specializations"
+    },
+    {
+      "target": "0x39e924",
+      "end_exclusive": "0x39e94a",
+      "sites": [
+        "0x3bff3f"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "known fixed scrollbar literal decoder specialization"
+    },
+    {
+      "target": "0x39e94c",
+      "end_exclusive": "0x39e972",
+      "sites": [
+        "0x39a908"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "known fixed #COLLAPSE decoder specialization"
+    },
+    {
+      "target": "0x39eba4",
+      "end_exclusive": null,
+      "sites": [
+        "0x394e0d"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "byte-vector count"
+    },
+    {
+      "target": "0x39ebac",
+      "end_exclusive": null,
+      "sites": [
+        "0x39ee76"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "chunk end"
+    },
+    {
+      "target": "0x39ee58",
+      "end_exclusive": "0x39ee96",
+      "sites": [
+        "0x391db9"
+      ],
+      "status": "inventory range above",
+      "meaning": "both menu-column update modes, signed cached settings offset, ordered live chunk walk"
+    },
+    {
+      "target": "0x39f874",
+      "end_exclusive": "0x39f926",
+      "sites": [
+        "0x3a764a",
+        "0x3bdfd5",
+        "0x3be25d"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "typed filled circle geometry"
+    },
+    {
+      "target": "0x3a01f4",
+      "end_exclusive": "0x3a0294",
+      "sites": [
+        "0x39a0ed",
+        "0x39a60f",
+        "0x3b51f4",
+        "0x3be083",
+        "0x3be0e3"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "typed line geometry"
+    },
+    {
+      "target": "0x3a1148",
+      "end_exclusive": "0x3a1244",
+      "sites": [
+        "0x399919",
+        "0x399968",
+        "0x39a3b8"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "typed rectangle geometry"
+    },
+    {
+      "target": "0x3a1244",
+      "end_exclusive": "0x3a12d8",
+      "sites": [
+        "0x399f37",
+        "0x399fbd",
+        "0x39a07a",
+        "0x3c3789",
+        "0x3c383b"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "typed filled rectangle geometry"
+    },
+    {
+      "target": "0x3a2010",
+      "end_exclusive": "0x3a2373",
+      "sites": [
+        "0x39a72c",
+        "0x39a77f"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "parent draw_shadows rectangle; typed controls glow_rectangle binding"
+    },
+    {
+      "target": "0x3a31f8",
+      "end_exclusive": "0x3a3335",
+      "sites": [
+        "0x399ca7"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "font_text store/sink geometry"
+    },
+    {
+      "target": "0x3a65c4",
+      "end_exclusive": "0x3a684c",
+      "sites": [
+        "0x3b5008"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "owned drawlist splitter merge"
+    },
+    {
+      "target": "0x3a684c",
+      "end_exclusive": "0x3a6b37",
+      "sites": [
+        "0x39a499",
+        "0x39a539"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "draw_shapes arc"
+    },
+    {
+      "target": "0x3a6b38",
+      "end_exclusive": "0x3a6b77",
+      "sites": [
+        "0x39a2a7"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "draw_shapes fast arc wrapper"
+    },
+    {
+      "target": "0x3a6e34",
+      "end_exclusive": "0x3a6e84",
+      "sites": [
+        "0x3987a1",
+        "0x39992a"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "owned drawlist clip pop"
+    },
+    {
+      "target": "0x3a7268",
+      "end_exclusive": "0x3a7360",
+      "sites": [
+        "0x399895"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "owned drawlist clip push"
+    },
+    {
+      "target": "0x3a7400",
+      "end_exclusive": "0x3a761f",
+      "sites": [
+        "0x3be29d"
+      ],
+      "status": "concrete released dependency / typed geometry binding",
+      "meaning": "parent exact arrow through controls binding"
+    },
+    {
+      "target": "0x3a7620",
+      "end_exclusive": "0x3a7654",
+      "sites": [
+        "0x39ab78"
+      ],
+      "status": "inventory range above",
+      "meaning": "title layout/close/collapse/drag/clipped text and native marker"
+    },
+    {
+      "target": "0x3b530c",
+      "end_exclusive": "0x3b531e",
+      "sites": [
+        "0x3b55fc"
+      ],
+      "status": "inventory range above",
+      "meaning": "column width ratio and table/columns shortcut layer predicate"
+    },
+    {
+      "target": "0x3b5320",
+      "end_exclusive": "0x3b5372",
+      "sites": [
+        "0x3b50d1",
+        "0x3b5413",
+        "0x3b5458"
+      ],
+      "status": "inventory range above",
+      "meaning": "known nonnull current columns fromEndColumns; direct public null columns variants not exported"
+    },
+    {
+      "target": "0x3b5374",
+      "end_exclusive": "0x3b5383",
+      "sites": [
+        "0x3b53eb"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "column normalized width scale"
+    },
+    {
+      "target": "0x3b5384",
+      "end_exclusive": "0x3b53f0",
+      "sites": [
+        "0x3b55a5"
+      ],
+      "status": "inventory range above",
+      "meaning": "known nonnull current columns fromEndColumns; direct public null columns variants not exported"
+    },
+    {
+      "target": "0x3b53f0",
+      "end_exclusive": "0x3b548b",
+      "sites": [
+        "0x3b5260"
+      ],
+      "status": "inventory range above",
+      "meaning": "known nonnull current columns fromEndColumns; direct public null columns variants not exported"
+    },
+    {
+      "target": "0x3b5554",
+      "end_exclusive": "0x3b563a",
+      "sites": [
+        "0x3b526b"
+      ],
+      "status": "inventory range above",
+      "meaning": "known nonnull current columns fromEndColumns; direct public null columns variants not exported"
+    },
+    {
+      "target": "0x3b5b74",
+      "end_exclusive": "0x3b5b7f",
+      "sites": [
+        "0x3c3556",
+        "0x3c3563",
+        "0x3c35df"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "signed64 maximum"
+    },
+    {
+      "target": "0x3bc2f8",
+      "end_exclusive": "0x3bc311",
+      "sites": [
+        "0x3bff2b"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "fixed encoded #SCROLLX literal constructor"
+    },
+    {
+      "target": "0x3bc37c",
+      "end_exclusive": "0x3bc395",
+      "sites": [
+        "0x3bff37"
+      ],
+      "status": "owned storage/literal specialization",
+      "meaning": "fixed encoded #SCROLLY literal constructor"
+    },
+    {
+      "target": "0x3bc7e0",
+      "end_exclusive": "0x3bcd9b",
+      "sites": [
+        "0x39da4f",
+        "0x39dcd6",
+        "0x3b5164",
+        "0x3bdf5c",
+        "0x3be1cc",
+        "0x3c35c6"
+      ],
+      "status": "released domain; preserve original coverage limits",
+      "meaning": [
+        {
+          "domain": "menu_controls",
+          "status": "C/I: concrete controller/helper",
+          "extent": "0x3bcd9b"
+        }
+      ]
+    },
+    {
+      "target": "0x3bde30",
+      "end_exclusive": "0x3be111",
+      "sites": [
+        "0x39a960"
+      ],
+      "status": "inventory range above",
+      "meaning": "title layout/close/collapse/drag/clipped text and native marker"
+    },
+    {
+      "target": "0x3be114",
+      "end_exclusive": "0x3be2eb",
+      "sites": [
+        "0x39a921"
+      ],
+      "status": "inventory range above",
+      "meaning": "title layout/close/collapse/drag/clipped text and native marker"
+    },
+    {
+      "target": "0x3bfebc",
+      "end_exclusive": "0x3bfed4",
+      "sites": [
+        "0x3bded8",
+        "0x3bdee4"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "rectangle signed float area"
+    },
+    {
+      "target": "0x3bff14",
+      "end_exclusive": "0x3bff58",
+      "sites": [
+        "0x3c3261"
+      ],
+      "status": "inventory range above",
+      "meaning": "two-axis scrollbar controller/core and bounds"
+    },
+    {
+      "target": "0x3bff58",
+      "end_exclusive": "0x3c0020",
+      "sites": [
+        "0x3c3274"
+      ],
+      "status": "inventory range above",
+      "meaning": "two-axis scrollbar controller/core and bounds"
+    },
+    {
+      "target": "0x3c3234",
+      "end_exclusive": "0x3c338d",
+      "sites": [
+        "0x39a101",
+        "0x39a115"
+      ],
+      "status": "inventory range above",
+      "meaning": "two-axis scrollbar controller/core and bounds"
+    },
+    {
+      "target": "0x3c3390",
+      "end_exclusive": "0x3c3890",
+      "sites": [
+        "0x3c3360"
+      ],
+      "status": "inventory range above",
+      "meaning": "two-axis scrollbar controller/core and bounds"
+    },
+    {
+      "target": "0x3c899c",
+      "end_exclusive": null,
+      "sites": [
+        "0x39a6aa"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "released sample cosine"
+    },
+    {
+      "target": "0x3c8e6c",
+      "end_exclusive": null,
+      "sites": [
+        "0x39a69f"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "released sample sine"
+    },
+    {
+      "target": "0x3ca904",
+      "end_exclusive": null,
+      "sites": [
+        "0x394f1d",
+        "0x394ff7"
+      ],
+      "status": "literal fold / owned read adaptation",
+      "meaning": "bounded owned C-string scan"
+    }
+  ],
+  "limits": [
+    "Not a live ImGui/runtime/game ABI.",
+    "Default font/atlas production and actual copied initialized data remain caller supplied.",
+    "Clipboard numeric target requires an owned data callback, never executes numeric code.",
+    "Generic variadic formatter and allocator/vector ABI remain explicit specializations.",
+    "Decorations prefix is composed from parent-owned imgui_windows; shadow raster parent-owned draw_shadows.",
+    "Input/button/nav helpers retain their released per-range limitations.",
+    "Analysis bounds stop malformed chunk/column/log/recursive data rather than claiming native safety."
+  ],
+  "remaining_generic_format_chain": [
+    {
+      "begin": "0x393270",
+      "end_exclusive": "0x3932af",
+      "bytes": 63,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [
+        {
+          "site": "0x393280",
+          "target": "0x3214dc",
+          "end_exclusive": "0x3214f2"
+        }
+      ],
+      "sha256": "e122851a21e2505f6efa543deb6f582a5ca2ff830cd830e432e334e86ffe8d1a"
+    },
+    {
+      "begin": "0x3214dc",
+      "end_exclusive": "0x3214f2",
+      "bytes": 22,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [
+        {
+          "site": "0x3214e8",
+          "target": "0x2d96c0",
+          "end_exclusive": "0x2d970e"
+        }
+      ],
+      "sha256": "25abb080a543ba788cba78d9843d14d010a773351d5f1805c30f7151adf95b2c"
+    },
+    {
+      "begin": "0x2d96c0",
+      "end_exclusive": "0x2d970e",
+      "bytes": 78,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [
+        {
+          "site": "0x2d96d5",
+          "target": "0x2d963c",
+          "end_exclusive": null
+        },
+        {
+          "site": "0x2d96f8",
+          "target": "0x3ca828",
+          "end_exclusive": null
+        }
+      ],
+      "sha256": "730ac509fe2ad7125ae5c8603680e748fc79aac2dd072ef2a6ec2846b0954dfa"
+    },
+    {
+      "begin": "0x2d963c",
+      "end_exclusive": "0x2d9644",
+      "bytes": 8,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [],
+      "sha256": "ae56fa119d8036cd045a0483b74f298634946729c6a92e18dde3bdb2b47e4042"
+    },
+    {
+      "begin": "0x3ca828",
+      "end_exclusive": "0x3ca841",
+      "bytes": 25,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [
+        {
+          "site": "0x3ca83c",
+          "target": "0x3ca500",
+          "end_exclusive": "0x3ca523"
+        }
+      ],
+      "sha256": "b577cc46785ecfbee5883ef5dab4263e8fcb4063551c0c9419a0f4a69c7d9052"
+    },
+    {
+      "begin": "0x3ca500",
+      "end_exclusive": "0x3ca523",
+      "bytes": 35,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [
+        {
+          "site": "0x3ca519",
+          "target": "0x3c9ab0",
+          "end_exclusive": "0x3ca267"
+        }
+      ],
+      "sha256": "6392172163a694bbfaf72213bc788f415bfc3fc6223be0d4a0fff0cd67a8c90e"
+    },
+    {
+      "begin": "0x3ca49c",
+      "end_exclusive": "0x3ca4a6",
+      "bytes": 10,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [],
+      "sha256": "c6055efab8a7bd445225f5701bec24631bc0315b4ea187fc881cd41efd748d86"
+    },
+    {
+      "begin": "0x3c9ab0",
+      "end_exclusive": "0x3ca267",
+      "bytes": 1975,
+      "status": "U: generic formatting closure not implemented",
+      "direct_dependencies": [
+        {
+          "site": "0x3c9b62",
+          "target": "0x3c9674",
+          "end_exclusive": null
+        },
+        {
+          "site": "0x3c9b73",
+          "target": "0x3c8f3c",
+          "end_exclusive": "0x3c8f73"
+        },
+        {
+          "site": "0x3c9bbe",
+          "target": "0x3c9674",
+          "end_exclusive": null
+        },
+        {
+          "site": "0x3c9bcf",
+          "target": "0x3c8f3c",
+          "end_exclusive": "0x3c8f73"
+        },
+        {
+          "site": "0x3c9e37",
+          "target": "0x3cab84",
+          "end_exclusive": null
+        },
+        {
+          "site": "0x3c9e62",
+          "target": "0x3c9a94",
+          "end_exclusive": null
+        },
+        {
+          "site": "0x3c9fd1",
+          "target": "0x3c98c4",
+          "end_exclusive": "0x3c99a6"
+        },
+        {
+          "site": "0x3ca07e",
+          "target": "0x3c98c4",
+          "end_exclusive": "0x3c99a6"
+        },
+        {
+          "site": "0x3ca17b",
+          "target": "0x3c97e8",
+          "end_exclusive": "0x3c98c4"
+        },
+        {
+          "site": "0x3ca1dd",
+          "target": "0x3c8f74",
+          "end_exclusive": "0x3c92d5"
+        },
+        {
+          "site": "0x3ca220",
+          "target": "0x3c92d8",
+          "end_exclusive": "0x3c9673"
+        }
+      ],
+      "sha256": "330c3d01cdd62a3f791519d26f1efbeeb615e1f0aa039b353debb5e7d4d48816"
+    }
+  ]
+}

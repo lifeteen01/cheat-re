@@ -1,0 +1,31 @@
+3ae24c sub    rsp,0x28
+3ae250 mov    r11,rcx
+3ae253 test   rdx,rdx
+3ae256 je     0x3ae273
+3ae258 movsxd r10,DWORD PTR [rcx+0x24]
+3ae25c mov    rcx,QWORD PTR [rcx+0x8]
+3ae260 add    rcx,0x4
+3ae264 add    rcx,r10
+3ae267 call   0x3add94
+3ae26c movsx  r10d,ax
+3ae270 mov    DWORD PTR [rdx],r10d
+3ae273 test   r8,r8
+3ae276 je     0x3ae292
+3ae278 mov    rax,QWORD PTR [r11+0x8]
+3ae27c movsxd rcx,DWORD PTR [r11+0x24]
+3ae280 add    rax,0x6
+3ae284 add    rcx,rax
+3ae287 call   0x3add94
+3ae28c movsx  ecx,ax
+3ae28f mov    DWORD PTR [r8],ecx
+3ae292 test   r9,r9
+3ae295 je     0x3ae2b1
+3ae297 mov    rax,QWORD PTR [r11+0x8]
+3ae29b movsxd rcx,DWORD PTR [r11+0x24]
+3ae29f add    rax,0x8
+3ae2a3 add    rcx,rax
+3ae2a6 call   0x3add94
+3ae2ab movsx  ecx,ax
+3ae2ae mov    DWORD PTR [r9],ecx
+3ae2b1 add    rsp,0x28
+3ae2b5 ret

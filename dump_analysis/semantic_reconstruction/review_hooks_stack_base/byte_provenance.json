@@ -1,0 +1,482 @@
+{
+  "input": "/home/john/Desktop/cheat_re/dump_analysis/unpacked/cheat.unpacked.dll",
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "layout": "file offset = RVA",
+  "source_sha256": {
+    "source/reconstructed/01_hooks.cpp": "907591ccbabe9b1ce4d26e3519c39e4402ae920b41026f65cefade58dc614d34",
+    "source/reconstructed/03_stack_spoof_spoofcall.cpp": "9ab9abeea5567353f59599fe8ec68a266b786aa5e29ab0835d3e358798fbc8e6",
+    "source/reconstructed/game_base_analysis.cpp": "eb70e4d9541280a3b9c50767e9fb9558eb9b9925592385fe2ae72866e9b88c15",
+    "source/reconstructed/hooks_analysis.hpp": "e77b69e7fc8099e340df06471d0ee3cbbb249c32977714ed1680bd058001973f",
+    "source/reconstructed/game_base_analysis.hpp": "4f077c0297d4ed90b41a79678d2847799247d76154483c76d6f0266f255967b2",
+    "source/reconstructed/internal_analysis.hpp": "bf9b20a5b6667d138c9f38028d1dae890cf9c203fa7a3c7d6438ef5116a1e46a",
+    "source/reconstructed/hooks_checks.cpp": "fa91580e925a026a50973b5a60b590b00b4d878a3d0e2d5ab02b0aa8a411759d",
+    "source/reconstructed/game_base_checks.cpp": "ea243ee47a9035235a6b122368faa2dfac9df4c5fcfa684c44174585313e31c3"
+  },
+  "excerpt_checks": [
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2caf08.asm",
+      "spans": 9,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2ce5d8.asm",
+      "spans": 2,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2ddb10.asm",
+      "spans": 45,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2e12e0.asm",
+      "spans": 926,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2e91fc.asm",
+      "spans": 41,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2ea90c.asm",
+      "spans": 35,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2ea978.asm",
+      "spans": 55,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2eaa28.asm",
+      "spans": 54,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/2f8574.asm",
+      "spans": 440,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/315c34.asm",
+      "spans": 461,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/3163d8.asm",
+      "spans": 38,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/316458.asm",
+      "spans": 56,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/3164fc.asm",
+      "spans": 3,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/317c3c.asm",
+      "spans": 538,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/3215cc.asm",
+      "spans": 129,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/322aec.asm",
+      "spans": 246,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/324b30.asm",
+      "spans": 4099,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32a9f8.asm",
+      "spans": 58,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32ae10.asm",
+      "spans": 54,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32b3a8.asm",
+      "spans": 160,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32b62c.asm",
+      "spans": 35,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32bf38.asm",
+      "spans": 103,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32cae8.asm",
+      "spans": 37,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32f038.asm",
+      "spans": 54,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/32f408.asm",
+      "spans": 418,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/332554.asm",
+      "spans": 49,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/334224.asm",
+      "spans": 38,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/334528.asm",
+      "spans": 37,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/334960.asm",
+      "spans": 23,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/3349ac.asm",
+      "spans": 69,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/362118.asm",
+      "spans": 58,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/36920c.asm",
+      "spans": 21,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/01_hooks/373d04.asm",
+      "spans": 33,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2cb9fc.asm",
+      "spans": 18,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2cbd24.asm",
+      "spans": 131,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2cc46c.asm",
+      "spans": 4,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2ce130.asm",
+      "spans": 41,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2ce1d4.asm",
+      "spans": 6,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2ce1f0.asm",
+      "spans": 21,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/2ce3dc.asm",
+      "spans": 104,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/38a3c4.asm",
+      "spans": 17,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/38a3cc.asm",
+      "spans": 13,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3af0bc.asm",
+      "spans": 29,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3c7c98.asm",
+      "spans": 21,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3c7e28.asm",
+      "spans": 8,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3c7e4c.asm",
+      "spans": 8,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3c8bd0.asm",
+      "spans": 29,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3c8c70.asm",
+      "spans": 29,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3cabc0.asm",
+      "spans": 32,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3caccc.asm",
+      "spans": 18,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3cdbba.asm",
+      "spans": 6,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/3cdbd4.asm",
+      "spans": 120,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/allocator_thunks_exact.asm",
+      "spans": 8,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/executor_exact.asm",
+      "spans": 120,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/03_stack/restore_exact.asm",
+      "spans": 6,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/game_base_dependencies.asm",
+      "spans": 575,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/game_base_math_dependencies.asm",
+      "spans": 194,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/projection_dependencies.asm",
+      "spans": 73,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/instant_predicates_evidence.asm",
+      "spans": 317,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/base_alternate_returns.asm",
+      "spans": 38,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/string_range_conversion.asm",
+      "spans": 58,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/managed_conversion_worker.asm",
+      "spans": 44,
+      "mismatches": []
+    },
+    {
+      "path": "dump_analysis/semantic_reconstruction/binding_fields_evidence.asm",
+      "spans": 62,
+      "mismatches": []
+    }
+  ],
+  "spans": 10574,
+  "mismatches": 0,
+  "local_pdata_ranges_exclusive": {
+    "0x315c34": [
+      [
+        "0x315c34",
+        "0x3163d5",
+        "0x3d2520"
+      ]
+    ],
+    "0x362118": [
+      [
+        "0x362118",
+        "0x3621ff",
+        "0x3d25c8"
+      ]
+    ],
+    "0x3217ec": [
+      [
+        "0x3217ec",
+        "0x32185d",
+        "0x3d2064"
+      ]
+    ],
+    "0x32189c": [
+      [
+        "0x32189c",
+        "0x3218c2",
+        "0x3d2038"
+      ]
+    ],
+    "0x3218c4": [
+      [
+        "0x3218c4",
+        "0x32193c",
+        "0x3d2038"
+      ]
+    ],
+    "0x36f5cc": [
+      [
+        "0x36f5cc",
+        "0x36f5f3",
+        "0x3d2064"
+      ]
+    ],
+    "0x334bf4": [
+      [
+        "0x334bf4",
+        "0x334ff2",
+        "0x3d375c"
+      ]
+    ],
+    "0x2ce7c8": [
+      [
+        "0x2ce7c8",
+        "0x2ce84c",
+        "0x3d2078"
+      ]
+    ],
+    "0x2ce130": [
+      [
+        "0x2ce130",
+        "0x2ce1d4",
+        "0x3d20e4"
+      ]
+    ],
+    "0x2cdfc4": [
+      [
+        "0x2cdfc4",
+        "0x2ce073",
+        "0x3d20b4"
+      ]
+    ],
+    "0x2ce074": [
+      [
+        "0x2ce074",
+        "0x2ce12e",
+        "0x3d20b4"
+      ]
+    ],
+    "0x2cdea8": [
+      [
+        "0x2cdea8",
+        "0x2cdfc1",
+        "0x3d20cc"
+      ]
+    ]
+  },
+  "float_constants": {
+    "0x28db54": {
+      "bits": "0x7f7fffff",
+      "value": 3.4028234663852886e+38
+    },
+    "0x2930c0": {
+      "bits": "0x3effbe77",
+      "value": 0.49950000643730164
+    },
+    "0x293258": {
+      "bits": "0xbeffbe77",
+      "value": -0.49950000643730164
+    },
+    "0x2931fc": {
+      "bits": "0x42652ee6",
+      "value": 57.295799255371094
+    },
+    "0x28e1c0": {
+      "bits": "0x3a83126f",
+      "value": 0.0010000000474974513
+    },
+    "0x2a875c": {
+      "bits": "0x3f833333",
+      "value": 1.024999976158142
+    },
+    "0x293098": {
+      "bits": "0x3d4ccccd",
+      "value": 0.05000000074505806
+    },
+    "0x29325c": {
+      "bits": "0xbf666666",
+      "value": -0.8999999761581421
+    },
+    "0x28daf8": {
+      "bits": "0x3fbf5c29",
+      "value": 1.4950000047683716
+    },
+    "0x2930f4": {
+      "bits": "0x3f9f5c2a",
+      "value": 1.2450001239776611
+    },
+    "0x28dae0": {
+      "bits": "0x3d088889",
+      "value": 0.03333333507180214
+    },
+    "0x28dafc": {
+      "bits": "0x3fc00000",
+      "value": 1.5
+    },
+    "0x28dae4": {
+      "bits": "0x3dcccccd",
+      "value": 0.10000000149011612
+    },
+    "0x28e1cc": {
+      "bits": "0x3f733333",
+      "value": 0.949999988079071
+    },
+    "0x2930d0": {
+      "bits": "0x3f3ae148",
+      "value": 0.7300000190734863
+    }
+  }
+}

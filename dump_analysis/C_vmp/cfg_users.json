@@ -1,0 +1,9851 @@
+{
+"Bools.AWaterCrateESP": {
+"glob": "0x3e7d90",
+"reg": "call 0x2df16c",
+"init": "0x2b3c04",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 8
+},
+"Bools.Adminmode": {
+"glob": "0x3f3250",
+"reg": "call 0x2df16c",
+"init": "0x2bd1e0",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"Bools.AfricaTC": {
+"glob": "0x40f9e0",
+"reg": "call 0x2df16c",
+"init": "0x2c3c48",
+"users": [],
+"nrefs": 1
+},
+"Bools.AimAtMarker": {
+"glob": "0x413b30",
+"reg": "call 0x2df16c",
+"init": "0x2c3c8c",
+"users": [],
+"nrefs": 1
+},
+"Bools.AimPrediction": {
+"glob": "0x4113d0",
+"reg": "call 0x2df16c",
+"init": "0x2c3cd0",
+"users": [],
+"nrefs": 1
+},
+"Bools.Aimbot": {
+"glob": "0x3e78e0",
+"reg": "call 0x2df16c",
+"init": "0x2b3c90",
+"users": [
+"0x2f9988",
+"0x359098"
+],
+"nrefs": 5
+},
+"Bools.AimbotVischeck": {
+"glob": "0x3d7d40",
+"reg": "call 0x2df16c",
+"init": "0x2b2c2c",
+"users": [
+"0x2e02b0",
+"0x2f8574",
+"0x359098",
+"0x3684e0"
+],
+"nrefs": 6
+},
+"Bools.Airdrop": {
+"glob": "0x3e8fb0",
+"reg": "call 0x2df16c",
+"init": "0x2b3d30",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.AlwaysVisible": {
+"glob": "0x3e7890",
+"reg": "call 0x2df16c",
+"init": "0x2b3e18",
+"users": [
+"0x3098a4"
+],
+"nrefs": 3
+},
+"Bools.Ambient": {
+"glob": "0x3f8950",
+"reg": "call 0x2df16c",
+"init": "0x2becd8",
+"users": [
+"0x32f408",
+"0x349db4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.AnimalChams": {
+"glob": "0x3e8b00",
+"reg": "call 0x2df16c",
+"init": "0x2b3e5c",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 16
+},
+"Bools.AnimalChamsEnable": {
+"glob": "0x411920",
+"reg": "call 0x2df16c",
+"init": "0x2c3dfc",
+"users": [],
+"nrefs": 1
+},
+"Bools.AnimalCorpse": {
+"glob": "0x3e74d0",
+"reg": "call 0x2df16c",
+"init": "0x2b3ee8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 7
+},
+"Bools.AnimalIcons": {
+"glob": "0x3e6a80",
+"reg": "call 0x2df16c",
+"init": "0x2b3fd4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 7
+},
+"Bools.AntiAFK": {
+"glob": "0x3e4ec0",
+"reg": "call 0x2df16c",
+"init": "0x2b335c",
+"users": [
+"0x2e6b20",
+"0x346ccc"
+],
+"nrefs": 4
+},
+"Bools.AntiFly": {
+"glob": "0x412af0",
+"reg": "call 0x2df16c",
+"init": "0x2c3e88",
+"users": [],
+"nrefs": 1
+},
+"Bools.AntiNoclip": {
+"glob": "0x412c30",
+"reg": "call 0x2df16c",
+"init": "0x2c3ecc",
+"users": [],
+"nrefs": 1
+},
+"Bools.AntiSpeed": {
+"glob": "0x412b90",
+"reg": "call 0x2df16c",
+"init": "0x2c3f10",
+"users": [],
+"nrefs": 1
+},
+"Bools.AntiTerrain": {
+"glob": "0x412c80",
+"reg": "call 0x2df16c",
+"init": "0x2c3f54",
+"users": [],
+"nrefs": 1
+},
+"Bools.AntiViolations": {
+"glob": "0x3e9e60",
+"reg": "call 0x2df16c",
+"init": "0x2b4060",
+"users": [
+"0x3098a4",
+"0x32cea8",
+"0x346ccc"
+],
+"nrefs": 10
+},
+"Bools.AspectChanger": {
+"glob": "0x3f8a90",
+"reg": "call 0x2df16c",
+"init": "0x2bee64",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 4
+},
+"Bools.AutoAdjustSpeed": {
+"glob": "0x3e9f50",
+"reg": "call 0x2df16c",
+"init": "0x2b40a4",
+"users": [
+"0x318f34",
+"0x324b30",
+"0x32dbb0",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 9
+},
+"Bools.AutoCollect": {
+"glob": "0x3e9910",
+"reg": "call 0x2df16c",
+"init": "0x2b4138",
+"users": [
+"0x2fb72c",
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 28
+},
+"Bools.AutoDrink": {
+"glob": "0x40f530",
+"reg": "call 0x2df16c",
+"init": "0x2c3fe0",
+"users": [],
+"nrefs": 1
+},
+"Bools.AutoFarmOre": {
+"glob": "0x3e95f0",
+"reg": "call 0x2df16c",
+"init": "0x2b41cc",
+"users": [
+"0x31acd0",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.AutoFire": {
+"glob": "0x3e5050",
+"reg": "call 0x2df16c",
+"init": "0x2b33a0",
+"users": [
+"0x2e6b20",
+"0x317c3c",
+"0x319024",
+"0x324b30",
+"0x359098"
+],
+"nrefs": 12
+},
+"Bools.AutoFreeCrates": {
+"glob": "0x3f37a0",
+"reg": "call 0x2df16c",
+"init": "0x2bd274",
+"users": [
+"0x324b30"
+],
+"nrefs": 2
+},
+"Bools.AutoHeal": {
+"glob": "0x3f2f80",
+"reg": "call 0x2df16c",
+"init": "0x2bd2b8",
+"users": [
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.AutoHotSpotStuff": {
+"glob": "0x4136d0",
+"reg": "call 0x2df16c",
+"init": "0x2c4024",
+"users": [],
+"nrefs": 1
+},
+"Bools.AutoKnock": {
+"glob": "0x3f3750",
+"reg": "call 0x2df16c",
+"init": "0x2bd2fc",
+"users": [
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.AutoOpen": {
+"glob": "0x412500",
+"reg": "call 0x2df16c",
+"init": "0x2c4068",
+"users": [],
+"nrefs": 1
+},
+"Bools.AutoReloadBait": {
+"glob": "0x3e4160",
+"reg": "call 0x2df16c",
+"init": "0x2b3240",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 5
+},
+"Bools.AutoReplaceDoor": {
+"glob": "0x3e5190",
+"reg": "call 0x2df16c",
+"init": "0x2b3434",
+"users": [
+"0x2e6b20",
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"Bools.AutoRespawn": {
+"glob": "0x3f3930",
+"reg": "call 0x2df16c",
+"init": "0x2bd340",
+"users": [
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.AutoStack": {
+"glob": "0x3fc750",
+"reg": "call 0x2df16c",
+"init": "0x2bf298",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 2
+},
+"Bools.AutoSuicide": {
+"glob": "0x3f3980",
+"reg": "call 0x2df16c",
+"init": "0x2bd384",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.AutoThrowRod": {
+"glob": "0x3fc6b0",
+"reg": "call 0x2df16c",
+"init": "0x2bf32c",
+"users": [
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.AutoTurretESP": {
+"glob": "0x3e86a0",
+"reg": "call 0x2df16c",
+"init": "0x2b4210",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 7
+},
+"Bools.AutoUpgrade": {
+"glob": "0x3f3890",
+"reg": "call 0x2df16c",
+"init": "0x2bd40c",
+"users": [
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.AutoUpgrade1": {
+"glob": "0x3f38e0",
+"reg": "call 0x2df16c",
+"init": "0x2bd3c8",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.AutoWalkMarker": {
+"glob": "0x3e95a0",
+"reg": "call 0x2df16c",
+"init": "0x2b4254",
+"users": [
+"0x31acd0",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.Autolock": {
+"glob": "0x3e9d70",
+"reg": "call 0x2df16c",
+"init": "0x2b42e8",
+"users": [
+"0x2f8db0",
+"0x31acd0",
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 7
+},
+"Bools.Autorun": {
+"glob": "0x412280",
+"reg": "call 0x2df16c",
+"init": "0x2c40ac",
+"users": [],
+"nrefs": 1
+},
+"Bools.BWaterCrateESP": {
+"glob": "0x3e7de0",
+"reg": "call 0x2df16c",
+"init": "0x2b432c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 8
+},
+"Bools.Backpack": {
+"glob": "0x3e7570",
+"reg": "call 0x2df16c",
+"init": "0x2b4370",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 7
+},
+"Bools.BasicCrateESP": {
+"glob": "0x3e7e30",
+"reg": "call 0x2df16c",
+"init": "0x2b4560",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 7
+},
+"Bools.BearEsp": {
+"glob": "0x3e7e80",
+"reg": "call 0x2df16c",
+"init": "0x2b4740",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 6
+},
+"Bools.BeeHive": {
+"glob": "0x3e8240",
+"reg": "call 0x2df16c",
+"init": "0x2b47e8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.BeeSwarmAI": {
+"glob": "0x3e8290",
+"reg": "call 0x2df16c",
+"init": "0x2b48d8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 6
+},
+"Bools.BerryOptionsOpen": {
+"glob": "0x410980",
+"reg": "call 0x2df16c",
+"init": "0x2c40f0",
+"users": [],
+"nrefs": 1
+},
+"Bools.BlueBarrelEsp": {
+"glob": "0x3e7b10",
+"reg": "call 0x2df16c",
+"init": "0x2b4ad4",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.BoneRandomization": {
+"glob": "0x4120f0",
+"reg": "call 0x2df16c",
+"init": "0x2c423c",
+"users": [],
+"nrefs": 1
+},
+"Bools.BowAimcone": {
+"glob": "0x411e70",
+"reg": "call 0x2df16c",
+"init": "0x2c42c8",
+"users": [],
+"nrefs": 1
+},
+"Bools.Box": {
+"glob": "0x40fee0",
+"reg": "call 0x2df16c",
+"init": "0x2c430c",
+"users": [],
+"nrefs": 1
+},
+"Bools.Bradley": {
+"glob": "0x3e91e0",
+"reg": "call 0x2df16c",
+"init": "0x2b4c14",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 7
+},
+"Bools.BrightStars": {
+"glob": "0x3f89a0",
+"reg": "call 0x2df16c",
+"init": "0x2beef0",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 4
+},
+"Bools.BruteForceCodes": {
+"glob": "0x3e9550",
+"reg": "call 0x2df16c",
+"init": "0x2b4cb4",
+"users": [
+"0x2fb72c",
+"0x3098a4",
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 8
+},
+"Bools.CCTV": {
+"glob": "0x3e6c60",
+"reg": "call 0x2df16c",
+"init": "0x2b4d04",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.CanShoot": {
+"glob": "0x3f39d0",
+"reg": "call 0x2df16c",
+"init": "0x2bd498",
+"users": [
+"0x324b30",
+"0x34841c"
+],
+"nrefs": 4
+},
+"Bools.CancleAll": {
+"glob": "0x3f2f30",
+"reg": "call 0x2df16c",
+"init": "0x2bd52c",
+"users": [
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.CarESP": {
+"glob": "0x3e8510",
+"reg": "call 0x2df16c",
+"init": "0x2b4e08",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 5
+},
+"Bools.Cargoship": {
+"glob": "0x3e9050",
+"reg": "call 0x2df16c",
+"init": "0x2b4e4c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 5
+},
+"Bools.CaveAmbient": {
+"glob": "0x40fd50",
+"reg": "call 0x2df16c",
+"init": "0x2c43fc",
+"users": [],
+"nrefs": 1
+},
+"Bools.Caves": {
+"glob": "0x411a10",
+"reg": "call 0x2df16c",
+"init": "0x2c44a0",
+"users": [],
+"nrefs": 1
+},
+"Bools.ChamOres": {
+"glob": "0x3e6e40",
+"reg": "call 0x2df16c",
+"init": "0x2b4f90",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 8
+},
+"Bools.CloseDoorWhileWounded": {
+"glob": "0x3f3c50",
+"reg": "call 0x2df16c",
+"init": "0x2bd570",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"Bools.ClutterLayer": {
+"glob": "0x4107a0",
+"reg": "call 0x2df16c",
+"init": "0x2c4548",
+"users": [],
+"nrefs": 1
+},
+"Bools.CollectableIcons": {
+"glob": "0x3e69e0",
+"reg": "call 0x2df16c",
+"init": "0x2b50ec",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 20
+},
+"Bools.ColorPickerMode": {
+"glob": "0x413310",
+"reg": "call 0x2df16c",
+"init": "0x2c458c",
+"users": [],
+"nrefs": 1
+},
+"Bools.ConstructionLayer": {
+"glob": "0x410610",
+"reg": "call 0x2df16c",
+"init": "0x2c4618",
+"users": [],
+"nrefs": 1
+},
+"Bools.ContainerChamEnabled": {
+"glob": "0x411880",
+"reg": "call 0x2df16c",
+"init": "0x2c465c",
+"users": [],
+"nrefs": 1
+},
+"Bools.ContainerChams": {
+"glob": "0x3e8a60",
+"reg": "call 0x2df16c",
+"init": "0x2b5228",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 17
+},
+"Bools.ContainerIcons": {
+"glob": "0x3e6ad0",
+"reg": "call 0x2df16c",
+"init": "0x2b52b4",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 15
+},
+"Bools.CornerBox": {
+"glob": "0x3e9cd0",
+"reg": "call 0x2df16c",
+"init": "0x2b53a4",
+"users": [
+"0x3098a4",
+"0x338f30",
+"0x37d7b0"
+],
+"nrefs": 6
+},
+"Bools.Corpse": {
+"glob": "0x3e7430",
+"reg": "call 0x2df16c",
+"init": "0x2b53e8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 7
+},
+"Bools.CowESP": {
+"glob": "0x3e8100",
+"reg": "call 0x2df16c",
+"init": "0x2b5584",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 6
+},
+"Bools.CrocodileEsp": {
+"glob": "0x3e7fc0",
+"reg": "call 0x2df16c",
+"init": "0x2b5674",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.CrouchMode": {
+"glob": "0x3f3a70",
+"reg": "call 0x2df16c",
+"init": "0x2bd5b4",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.Cupboard": {
+"glob": "0x3e8e70",
+"reg": "call 0x2df16c",
+"init": "0x2b57cc",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 6
+},
+"Bools.CustomEffects": {
+"glob": "0x3fc7a0",
+"reg": "call 0x2df16c",
+"init": "0x2bf5e0",
+"users": [
+"0x34841c"
+],
+"nrefs": 3
+},
+"Bools.DBox": {
+"glob": "0x412f00",
+"reg": "call 0x2df16c",
+"init": "0x2c46e8",
+"users": [],
+"nrefs": 1
+},
+"Bools.Dayhack": {
+"glob": "0x3f89f0",
+"reg": "call 0x2df16c",
+"init": "0x2bef34",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 4
+},
+"Bools.Dead": {
+"glob": "0x3e7390",
+"reg": "call 0x2df16c",
+"init": "0x2b5920",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30"
+],
+"nrefs": 4
+},
+"Bools.DebugChatlog": {
+"glob": "0x40f580",
+"reg": "call 0x2df16c",
+"init": "0x2c478c",
+"users": [],
+"nrefs": 1
+},
+"Bools.DebugDrawing": {
+"glob": "0x4124b0",
+"reg": "call 0x2df16c",
+"init": "0x2c47d0",
+"users": [],
+"nrefs": 1
+},
+"Bools.DemoRecord": {
+"glob": "0x3f3160",
+"reg": "call 0x2df16c",
+"init": "0x2bd648",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.DemolishEnabled": {
+"glob": "0x3f32a0",
+"reg": "call 0x2df16c",
+"init": "0x2bd750",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"Bools.DeployableChams": {
+"glob": "0x3e8bf0",
+"reg": "call 0x2df16c",
+"init": "0x2b5a08",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 14
+},
+"Bools.DeployableIcons": {
+"glob": "0x3e6bc0",
+"reg": "call 0x2df16c",
+"init": "0x2b5a4c",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 8
+},
+"Bools.DespawnBox": {
+"glob": "0x3e5140",
+"reg": "call 0x2df16c",
+"init": "0x2b3520",
+"users": [
+"0x2e6b20",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.DisableAnimations": {
+"glob": "0x3fc4d0",
+"reg": "call 0x2df16c",
+"init": "0x2bf66c",
+"users": [
+"0x34aedc",
+"0x3872e8"
+],
+"nrefs": 4
+},
+"Bools.DisableESPMap": {
+"glob": "0x3e6df0",
+"reg": "call 0x2df16c",
+"init": "0x2b5b34",
+"users": [
+"0x2fb72c",
+"0x3098a4",
+"0x33e738",
+"0x36e55c"
+],
+"nrefs": 6
+},
+"Bools.DisablePlayerCulling": {
+"glob": "0x3e70c0",
+"reg": "call 0x2df16c",
+"init": "0x2b5b78",
+"users": [
+"0x338f30"
+],
+"nrefs": 2
+},
+"Bools.DoFatBulletHit": {
+"glob": "0x3d8010",
+"reg": "call 0x2df16c",
+"init": "0x2b2cc0",
+"users": [
+"0x2e12e0",
+"0x2f7dd0",
+"0x2f824c",
+"0x324b30",
+"0x32c0d4",
+"0x336868",
+"0x369790"
+],
+"nrefs": 11
+},
+"Bools.DrawAnimalHealth": {
+"glob": "0x411560",
+"reg": "call 0x2df16c",
+"init": "0x2c485c",
+"users": [],
+"nrefs": 1
+},
+"Bools.DrawBikes": {
+"glob": "0x3e6f80",
+"reg": "call 0x2df16c",
+"init": "0x2b5c04",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 5
+},
+"Bools.DrawCirclessss": {
+"glob": "0x413680",
+"reg": "call 0x2df16c",
+"init": "0x2c48a0",
+"users": [],
+"nrefs": 1
+},
+"Bools.DrawColliders": {
+"glob": "0x411c40",
+"reg": "call 0x2df16c",
+"init": "0x2c48e4",
+"users": [],
+"nrefs": 1
+},
+"Bools.DrawDebugMode": {
+"glob": "0x4120a0",
+"reg": "call 0x2df16c",
+"init": "0x2c4928",
+"users": [],
+"nrefs": 1
+},
+"Bools.DrawDistance": {
+"glob": "0x3e77a0",
+"reg": "call 0x2df16c",
+"init": "0x2b5c48",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 4
+},
+"Bools.DrawDrone": {
+"glob": "0x3e99b0",
+"reg": "call 0x2df16c",
+"init": "0x2b5c8c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.DrawForever": {
+"glob": "0x40f5d0",
+"reg": "call 0x2df16c",
+"init": "0x2c496c",
+"users": [],
+"nrefs": 1
+},
+"Bools.DrawHitPoint": {
+"glob": "0x3e7070",
+"reg": "call 0x2df16c",
+"init": "0x2b5cd0",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 7
+},
+"Bools.DrawHotkeys": {
+"glob": "0x3fc520",
+"reg": "call 0x2df16c",
+"init": "0x2bf6b0",
+"users": [
+"0x34aedc",
+"0x35d5ac"
+],
+"nrefs": 3
+},
+"Bools.DrawIcon": {
+"glob": "0x411d80",
+"reg": "call 0x2df16c",
+"init": "0x2c49b0",
+"users": [],
+"nrefs": 1
+},
+"Bools.DrawIngameRadarEntities": {
+"glob": "0x3ea270",
+"reg": "call 0x2df16c",
+"init": "0x2b5d14",
+"users": [
+"0x2fb72c",
+"0x341bd8"
+],
+"nrefs": 98
+},
+"Bools.DrawIngameRadarLocalStashes": {
+"glob": "0x3ea220",
+"reg": "call 0x2df16c",
+"init": "0x2b5d58",
+"users": [
+"0x2fb72c",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.DrawIngameRadarPlayers": {
+"glob": "0x3ea1d0",
+"reg": "call 0x2df16c",
+"init": "0x2b5d9c",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.DrawIngameRadarRaids": {
+"glob": "0x3f3d40",
+"reg": "call 0x2df16c",
+"init": "0x2bd7e4",
+"users": [
+"0x324b30",
+"0x341bd8",
+"0x36e55c"
+],
+"nrefs": 4
+},
+"Bools.DrawIngamemapScientist": {
+"glob": "0x3ea090",
+"reg": "call 0x2df16c",
+"init": "0x2b5de0",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.DrawOnlineSleepers": {
+"glob": "0x3e7340",
+"reg": "call 0x2df16c",
+"init": "0x2b5e24",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"Bools.DrawOnlyOre": {
+"glob": "0x3e6cb0",
+"reg": "call 0x2df16c",
+"init": "0x2b5e68",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 6
+},
+"Bools.DrawPath": {
+"glob": "0x3e7020",
+"reg": "call 0x2df16c",
+"init": "0x2b5eac",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 6
+},
+"Bools.DrawRadarCircles": {
+"glob": "0x3e9eb0",
+"reg": "call 0x2df16c",
+"init": "0x2b5ef0",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.DrawRadarEntities": {
+"glob": "0x3e8380",
+"reg": "call 0x2df16c",
+"init": "0x2b5f34",
+"users": [
+"0x2fb72c",
+"0x341bd8"
+],
+"nrefs": 104
+},
+"Bools.DrawScientist": {
+"glob": "0x3ea040",
+"reg": "call 0x2df16c",
+"init": "0x2b5f78",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.EliteCrateESP": {
+"glob": "0x3e7c50",
+"reg": "call 0x2df16c",
+"init": "0x2b6150",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.ExcludeTrash": {
+"glob": "0x3e9640",
+"reg": "call 0x2df16c",
+"init": "0x2b6334",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"Bools.ExtendMounted": {
+"glob": "0x3f9490",
+"reg": "call 0x2df16c",
+"init": "0x2bf168",
+"users": [
+"0x330b38",
+"0x336868"
+],
+"nrefs": 3
+},
+"Bools.FakeLag": {
+"glob": "0x412320",
+"reg": "call 0x2df16c",
+"init": "0x2c4a50",
+"users": [],
+"nrefs": 1
+},
+"Bools.FishingBot": {
+"glob": "0x3e40c0",
+"reg": "call 0x2df16c",
+"init": "0x2b3284",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 6
+},
+"Bools.FlameTrapESP": {
+"glob": "0x3e86f0",
+"reg": "call 0x2df16c",
+"init": "0x2b64d0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.FlyBypass": {
+"glob": "0x40fa30",
+"reg": "call 0x2df16c",
+"init": "0x2c4a94",
+"users": [],
+"nrefs": 1
+},
+"Bools.Flyhack": {
+"glob": "0x3f3570",
+"reg": "call 0x2df16c",
+"init": "0x2bd86c",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"Bools.FoodChams": {
+"glob": "0x3e8b50",
+"reg": "call 0x2df16c",
+"init": "0x2b65f4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 23
+},
+"Bools.FoodCrateESP": {
+"glob": "0x3e7cf0",
+"reg": "call 0x2df16c",
+"init": "0x2b6728",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.FoodIcons": {
+"glob": "0x3e6a30",
+"reg": "call 0x2df16c",
+"init": "0x2b67b4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 8
+},
+"Bools.FovChanger": {
+"glob": "0x3e9a00",
+"reg": "call 0x2df16c",
+"init": "0x2b6840",
+"users": [
+"0x2f8574",
+"0x349db4"
+],
+"nrefs": 4
+},
+"Bools.FragmentsESP": {
+"glob": "0x3e85b0",
+"reg": "call 0x2df16c",
+"init": "0x2b6970",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.GestureSpam": {
+"glob": "0x411c90",
+"reg": "call 0x2df16c",
+"init": "0x2c4bb0",
+"users": [],
+"nrefs": 1
+},
+"Bools.Glass": {
+"glob": "0x413900",
+"reg": "call 0x2df16c",
+"init": "0x2c4bf4",
+"users": [],
+"nrefs": 1
+},
+"Bools.GrenadeAngles": {
+"glob": "0x3e6fd0",
+"reg": "call 0x2df16c",
+"init": "0x2b6ab0",
+"users": [
+"0x317c3c",
+"0x324b30",
+"0x359098"
+],
+"nrefs": 6
+},
+"Bools.HBHFSensor": {
+"glob": "0x3e6d50",
+"reg": "call 0x2df16c",
+"init": "0x2b6b50",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.HQMOre": {
+"glob": "0x3e79d0",
+"reg": "call 0x2df16c",
+"init": "0x2b6bf8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33a6f8"
+],
+"nrefs": 5
+},
+"Bools.HandcuffStuff": {
+"glob": "0x3e9870",
+"reg": "call 0x2df16c",
+"init": "0x2b6ca0",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 6
+},
+"Bools.Headpos": {
+"glob": "0x412140",
+"reg": "call 0x2df16c",
+"init": "0x2c4d8c",
+"users": [],
+"nrefs": 1
+},
+"Bools.Headsilent": {
+"glob": "0x412780",
+"reg": "call 0x2df16c",
+"init": "0x2c4dd0",
+"users": [],
+"nrefs": 1
+},
+"Bools.HealthBar": {
+"glob": "0x40ff30",
+"reg": "call 0x2df16c",
+"init": "0x2c4e14",
+"users": [],
+"nrefs": 1
+},
+"Bools.HeldItem": {
+"glob": "0x3e7660",
+"reg": "call 0x2df16c",
+"init": "0x2b6d04",
+"users": [
+"0x3098a4",
+"0x338f30",
+"0x37bc98"
+],
+"nrefs": 6
+},
+"Bools.HeliMagic": {
+"glob": "0x3f3b60",
+"reg": "call 0x2df16c",
+"init": "0x2bd8bc",
+"users": [
+"0x324b30",
+"0x330b38",
+"0x336868"
+],
+"nrefs": 4
+},
+"Bools.HeliSilentMelee": {
+"glob": "0x3d7cf0",
+"reg": "call 0x2df16c",
+"init": "0x2b2d1c",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x34841c"
+],
+"nrefs": 6
+},
+"Bools.HitChams": {
+"glob": "0x3d7d90",
+"reg": "call 0x2df16c",
+"init": "0x2b2d60",
+"users": [
+"0x2e12e0",
+"0x32b3a8",
+"0x337e7c"
+],
+"nrefs": 6
+},
+"Bools.HitOverride": {
+"glob": "0x3f7950",
+"reg": "call 0x2df16c",
+"init": "0x2be8fc",
+"users": [
+"0x32b3a8",
+"0x336868"
+],
+"nrefs": 3
+},
+"Bools.HitScanVisCheck": {
+"glob": "0x411bf0",
+"reg": "call 0x2df16c",
+"init": "0x2c4ea0",
+"users": [],
+"nrefs": 1
+},
+"Bools.HorseEsp": {
+"glob": "0x3e81a0",
+"reg": "call 0x2df16c",
+"init": "0x2b6e4c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.IncHeight": {
+"glob": "0x4122d0",
+"reg": "call 0x2df16c",
+"init": "0x2c4f74",
+"users": [],
+"nrefs": 1
+},
+"Bools.IncreaseVelocity": {
+"glob": "0x3d7ca0",
+"reg": "call 0x2df16c",
+"init": "0x2b2da4",
+"users": [
+"0x2e12e0",
+"0x2f9988",
+"0x2fa300",
+"0x3098a4",
+"0x32c0d4",
+"0x34841c",
+"0x36b758"
+],
+"nrefs": 13
+},
+"Bools.InjJump": {
+"glob": "0x3f3520",
+"reg": "call 0x2df16c",
+"init": "0x2bd900",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.InstantKill": {
+"glob": "0x3e50a0",
+"reg": "call 0x2df16c",
+"init": "0x2b3610",
+"users": [
+"0x2e6b20",
+"0x336868"
+],
+"nrefs": 6
+},
+"Bools.InstantLoot": {
+"glob": "0x3f1a00",
+"reg": "call 0x2df16c",
+"init": "0x2bd0fc",
+"users": [
+"0x3215cc",
+"0x3455b4"
+],
+"nrefs": 12
+},
+"Bools.InstantPickup": {
+"glob": "0x40f4e0",
+"reg": "call 0x2df16c",
+"init": "0x2c4fb8",
+"users": [],
+"nrefs": 1
+},
+"Bools.InstantRevive": {
+"glob": "0x3f3340",
+"reg": "call 0x2df16c",
+"init": "0x2bd944",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 4
+},
+"Bools.IsOutside": {
+"glob": "0x3e7250",
+"reg": "call 0x2df16c",
+"init": "0x2b71a8",
+"users": [
+"0x2f8574",
+"0x3098a4",
+"0x338f30",
+"0x3684e0"
+],
+"nrefs": 6
+},
+"Bools.Jesus": {
+"glob": "0x3f3430",
+"reg": "call 0x2df16c",
+"init": "0x2bda60",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"Bools.JiggleMode": {
+"glob": "0x412be0",
+"reg": "call 0x2df16c",
+"init": "0x2c541c",
+"users": [],
+"nrefs": 1
+},
+"Bools.KeepTarget": {
+"glob": "0x3d7fc0",
+"reg": "call 0x2df16c",
+"init": "0x2b2e38",
+"users": [
+"0x2e02b0",
+"0x359098"
+],
+"nrefs": 4
+},
+"Bools.LandmineESP": {
+"glob": "0x3e8740",
+"reg": "call 0x2df16c",
+"init": "0x2b73d8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.LargeBattery": {
+"glob": "0x3e6d00",
+"reg": "call 0x2df16c",
+"init": "0x2b741c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.LegitBulletTP": {
+"glob": "0x3f9440",
+"reg": "call 0x2df16c",
+"init": "0x2bf1ac",
+"users": [
+"0x330b38",
+"0x336868"
+],
+"nrefs": 4
+},
+"Bools.LegitFishing": {
+"glob": "0x3fc700",
+"reg": "call 0x2df16c",
+"init": "0x2bf92c",
+"users": [
+"0x3429f4"
+],
+"nrefs": 2
+},
+"Bools.LockCodeOpened": {
+"glob": "0x410930",
+"reg": "call 0x2df16c",
+"init": "0x2c5580",
+"users": [],
+"nrefs": 1
+},
+"Bools.LockGUI": {
+"glob": "0x3f2df0",
+"reg": "call 0x2df16c",
+"init": "0x2bdb94",
+"users": [
+"0x324b30",
+"0x34aedc"
+],
+"nrefs": 3
+},
+"Bools.LockedCrates": {
+"glob": "0x3e90a0",
+"reg": "call 0x2df16c",
+"init": "0x2b758c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.LowFuel": {
+"glob": "0x40ffd0",
+"reg": "call 0x2df16c",
+"init": "0x2c55c4",
+"users": [],
+"nrefs": 1
+},
+"Bools.LowVelocity": {
+"glob": "0x3f30c0",
+"reg": "call 0x2df16c",
+"init": "0x2bdbd8",
+"users": [
+"0x324b30",
+"0x336868",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.MagicBoolet": {
+"glob": "0x412960",
+"reg": "call 0x2df16c",
+"init": "0x2c5608",
+"users": [],
+"nrefs": 1
+},
+"Bools.MedicalCrateESP": {
+"glob": "0x3e7d40",
+"reg": "call 0x2df16c",
+"init": "0x2b76d8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.Metal": {
+"glob": "0x413a40",
+"reg": "call 0x2df16c",
+"init": "0x2c5724",
+"users": [],
+"nrefs": 1
+},
+"Bools.MetalBike": {
+"glob": "0x3e6f30",
+"reg": "call 0x2df16c",
+"init": "0x2b776c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 5
+},
+"Bools.MetalOre": {
+"glob": "0x3e7a20",
+"reg": "call 0x2df16c",
+"init": "0x2b7874",
+"users": [
+"0x2f9138",
+"0x2fb72c",
+"0x31acd0",
+"0x33a6f8"
+],
+"nrefs": 6
+},
+"Bools.MilitaryCrateESP": {
+"glob": "0x3e7c00",
+"reg": "call 0x2df16c",
+"init": "0x2b79c4",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.Minicopter": {
+"glob": "0x3e9370",
+"reg": "call 0x2df16c",
+"init": "0x2b7a08",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.MountedFuel": {
+"glob": "0x413cc0",
+"reg": "call 0x2df16c",
+"init": "0x2c57b0",
+"users": [],
+"nrefs": 1
+},
+"Bools.MountedOnly": {
+"glob": "0x3fc570",
+"reg": "call 0x2df16c",
+"init": "0x2bf9b8",
+"users": [
+"0x3400b0",
+"0x369fac"
+],
+"nrefs": 3
+},
+"Bools.Necksilent": {
+"glob": "0x412820",
+"reg": "call 0x2df16c",
+"init": "0x2c583c",
+"users": [],
+"nrefs": 1
+},
+"Bools.NoAimblock": {
+"glob": "0x412000",
+"reg": "call 0x2df16c",
+"init": "0x2c5978",
+"users": [],
+"nrefs": 1
+},
+"Bools.NoBlackout": {
+"glob": "0x412370",
+"reg": "call 0x2df16c",
+"init": "0x2c59bc",
+"users": [],
+"nrefs": 1
+},
+"Bools.NoCollision": {
+"glob": "0x3f34d0",
+"reg": "call 0x2df16c",
+"init": "0x2bdc64",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"Bools.NoCractTimer": {
+"glob": "0x3f2ee0",
+"reg": "call 0x2df16c",
+"init": "0x2bdca8",
+"users": [
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.NoFall": {
+"glob": "0x3f33e0",
+"reg": "call 0x2df16c",
+"init": "0x2bdcec",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"Bools.NoFog": {
+"glob": "0x412410",
+"reg": "call 0x2df16c",
+"init": "0x2c5a50",
+"users": [],
+"nrefs": 1
+},
+"Bools.NoHittingSpikes": {
+"glob": "0x3e97d0",
+"reg": "call 0x2df16c",
+"init": "0x2b7cfc",
+"users": [
+"0x31acd0",
+"0x3213cc",
+"0x3455b4"
+],
+"nrefs": 8
+},
+"Bools.NoRain": {
+"glob": "0x4123c0",
+"reg": "call 0x2df16c",
+"init": "0x2c5a94",
+"users": [],
+"nrefs": 1
+},
+"Bools.NoSlow": {
+"glob": "0x411f10",
+"reg": "call 0x2df16c",
+"init": "0x2c5ad8",
+"users": [],
+"nrefs": 1
+},
+"Bools.NoSway": {
+"glob": "0x3e9690",
+"reg": "call 0x2df16c",
+"init": "0x2b7d40",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 3
+},
+"Bools.NoWaterBlur": {
+"glob": "0x3f96c0",
+"reg": "call 0x2df16c",
+"init": "0x2bf1f0",
+"users": [
+"0x332554",
+"0x349db4"
+],
+"nrefs": 3
+},
+"Bools.NodePath": {
+"glob": "0x3e7930",
+"reg": "call 0x2df16c",
+"init": "0x2b7d84",
+"users": [
+"0x2f9138",
+"0x31acd0"
+],
+"nrefs": 7
+},
+"Bools.NormalCrateESP": {
+"glob": "0x3e7bb0",
+"reg": "call 0x2df16c",
+"init": "0x2b7f70",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.NormalCrosshair": {
+"glob": "0x40f8f0",
+"reg": "call 0x2df16c",
+"init": "0x2c5b80",
+"users": [],
+"nrefs": 1
+},
+"Bools.OOFWeapons": {
+"glob": "0x3e82e0",
+"reg": "call 0x2df16c",
+"init": "0x2b8064",
+"users": [
+"0x31acd0"
+],
+"nrefs": 2
+},
+"Bools.OilBarrelEsp": {
+"glob": "0x3e7b60",
+"reg": "call 0x2df16c",
+"init": "0x2b8150",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 5
+},
+"Bools.OmniSprint": {
+"glob": "0x3f3840",
+"reg": "call 0x2df16c",
+"init": "0x2bde08",
+"users": [
+"0x324b30",
+"0x32dbb0",
+"0x346ccc"
+],
+"nrefs": 4
+},
+"Bools.OnlyOnline": {
+"glob": "0x412460",
+"reg": "call 0x2df16c",
+"init": "0x2c5be4",
+"users": [],
+"nrefs": 1
+},
+"Bools.OrchidESP": {
+"glob": "0x3e84c0",
+"reg": "call 0x2df16c",
+"init": "0x2b81f0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.OreIcons": {
+"glob": "0x3e6990",
+"reg": "call 0x2df16c",
+"init": "0x2b82c4",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 3
+},
+"Bools.OtherChams": {
+"glob": "0x3e8ab0",
+"reg": "call 0x2df16c",
+"init": "0x2b8350",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 10
+},
+"Bools.OtherIcons": {
+"glob": "0x3e6b20",
+"reg": "call 0x2df16c",
+"init": "0x2b83dc",
+"users": [
+"0x2fb72c",
+"0x33a6f8",
+"0x33c768"
+],
+"nrefs": 7
+},
+"Bools.PSilent": {
+"glob": "0x3d7e30",
+"reg": "call 0x2df16c",
+"init": "0x2b2ed8",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x2f9988",
+"0x2fa300",
+"0x317c3c",
+"0x324b30",
+"0x32c0d4",
+"0x359098",
+"0x369790"
+],
+"nrefs": 15
+},
+"Bools.PantherEsp": {
+"glob": "0x3e7f70",
+"reg": "call 0x2df16c",
+"init": "0x2b84bc",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.PatrolHeli": {
+"glob": "0x3e9190",
+"reg": "call 0x2df16c",
+"init": "0x2b861c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 7
+},
+"Bools.Pierce": {
+"glob": "0x3d7e80",
+"reg": "call 0x2df16c",
+"init": "0x2b2f1c",
+"users": [
+"0x2e02b0",
+"0x2e12e0",
+"0x324b30",
+"0x32c0d4",
+"0x32cea8",
+"0x330934",
+"0x330b38",
+"0x336868",
+"0x369790"
+],
+"nrefs": 15
+},
+"Bools.PierceFr": {
+"glob": "0x3e51e0",
+"reg": "call 0x2df16c",
+"init": "0x2b369c",
+"users": [
+"0x321d60",
+"0x324b30",
+"0x336868"
+],
+"nrefs": 7
+},
+"Bools.PigEsp": {
+"glob": "0x3e8150",
+"reg": "call 0x2df16c",
+"init": "0x2b8660",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.PlayerESP": {
+"glob": "0x3e7200",
+"reg": "call 0x2df16c",
+"init": "0x2b8888",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30"
+],
+"nrefs": 4
+},
+"Bools.PlayerView": {
+"glob": "0x3e7840",
+"reg": "call 0x2df16c",
+"init": "0x2b8960",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"Bools.RFBroadcaster": {
+"glob": "0x3e90f0",
+"reg": "call 0x2df16c",
+"init": "0x2b8aec",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.RFReceiver": {
+"glob": "0x3e9140",
+"reg": "call 0x2df16c",
+"init": "0x2b8b90",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.RHIB": {
+"glob": "0x3e92d0",
+"reg": "call 0x2df16c",
+"init": "0x2b8c38",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.RageBigBullet": {
+"glob": "0x4119c0",
+"reg": "call 0x2df16c",
+"init": "0x2c5da4",
+"users": [],
+"nrefs": 1
+},
+"Bools.RageFly": {
+"glob": "0x3f3480",
+"reg": "call 0x2df16c",
+"init": "0x2bd828",
+"users": [
+"0x324b30"
+],
+"nrefs": 2
+},
+"Bools.RageRecoil": {
+"glob": "0x3fc610",
+"reg": "call 0x2df16c",
+"init": "0x2bfafc",
+"users": [
+"0x34841c",
+"0x36bc14"
+],
+"nrefs": 5
+},
+"Bools.Rainbow": {
+"glob": "0x4132c0",
+"reg": "call 0x2df16c",
+"init": "0x2c5de8",
+"users": [],
+"nrefs": 1
+},
+"Bools.RainbowHands": {
+"glob": "0x413270",
+"reg": "call 0x2df16c",
+"init": "0x2c5e2c",
+"users": [],
+"nrefs": 1
+},
+"Bools.RedCardESP": {
+"glob": "0x3e8650",
+"reg": "call 0x2df16c",
+"init": "0x2b8fc0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.RemoveMinigunwait": {
+"glob": "0x3e5000",
+"reg": "call 0x2df16c",
+"init": "0x2b36e0",
+"users": [
+"0x2e6b20",
+"0x34841c"
+],
+"nrefs": 4
+},
+"Bools.RequireHammer": {
+"glob": "0x3e50f0",
+"reg": "call 0x2df16c",
+"init": "0x2b3774",
+"users": [
+"0x2e6b20",
+"0x324b30",
+"0x3429f4",
+"0x3455b4"
+],
+"nrefs": 6
+},
+"Bools.RoseESP": {
+"glob": "0x3e8420",
+"reg": "call 0x2df16c",
+"init": "0x2b90bc",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.RotateEnabled": {
+"glob": "0x3f32f0",
+"reg": "call 0x2df16c",
+"init": "0x2bde58",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"Bools.RotateShit": {
+"glob": "0x3f3390",
+"reg": "call 0x2df16c",
+"init": "0x2bdeec",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 4
+},
+"Bools.Rowboat": {
+"glob": "0x3e9320",
+"reg": "call 0x2df16c",
+"init": "0x2b9100",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.SafeTeleport": {
+"glob": "0x4125f0",
+"reg": "call 0x2df16c",
+"init": "0x2c61c8",
+"users": [],
+"nrefs": 1
+},
+"Bools.SafeZone": {
+"glob": "0x3e7610",
+"reg": "call 0x2df16c",
+"init": "0x2b91a4",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30"
+],
+"nrefs": 4
+},
+"Bools.SamSiteAlert": {
+"glob": "0x3ea540",
+"reg": "call 0x2df16c",
+"init": "0x2b924c",
+"users": [
+"0x2fb72c",
+"0x31acd0"
+],
+"nrefs": 3
+},
+"Bools.SamsiteESP": {
+"glob": "0x3e8790",
+"reg": "call 0x2df16c",
+"init": "0x2b92ec",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 7
+},
+"Bools.SaveAmbient": {
+"glob": "0x412550",
+"reg": "call 0x2df16c",
+"init": "0x2c620c",
+"users": [],
+"nrefs": 1
+},
+"Bools.Scientist": {
+"glob": "0x3e73e0",
+"reg": "call 0x2df16c",
+"init": "0x2b948c",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30",
+"0x36aec4"
+],
+"nrefs": 6
+},
+"Bools.ScientistCorpse": {
+"glob": "0x3e7480",
+"reg": "call 0x2df16c",
+"init": "0x2b94d0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.ScrapHeli": {
+"glob": "0x3e93c0",
+"reg": "call 0x2df16c",
+"init": "0x2b955c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.SecondAimbotOption": {
+"glob": "0x410840",
+"reg": "call 0x2df16c",
+"init": "0x2c6250",
+"users": [],
+"nrefs": 1
+},
+"Bools.SeismicSensor": {
+"glob": "0x3e6da0",
+"reg": "call 0x2df16c",
+"init": "0x2b9600",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.SettingAimbotHotkey": {
+"glob": "0x4101b0",
+"reg": "call 0x2df16c",
+"init": "0x2c6294",
+"users": [],
+"nrefs": 1
+},
+"Bools.SettingConfigHotkey": {
+"glob": "0x410160",
+"reg": "call 0x2df16c",
+"init": "0x2c62d8",
+"users": [],
+"nrefs": 1
+},
+"Bools.SettingFlyKey": {
+"glob": "0x411100",
+"reg": "call 0x2df16c",
+"init": "0x2c631c",
+"users": [],
+"nrefs": 1
+},
+"Bools.SettingReviveKey": {
+"glob": "0x410e80",
+"reg": "call 0x2df16c",
+"init": "0x2c6360",
+"users": [],
+"nrefs": 1
+},
+"Bools.SettingWeaponSpamKey": {
+"glob": "0x410430",
+"reg": "call 0x2df16c",
+"init": "0x2c63a4",
+"users": [],
+"nrefs": 1
+},
+"Bools.SharkEsp": {
+"glob": "0x3e81f0",
+"reg": "call 0x2df16c",
+"init": "0x2b96f0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.SheepESP": {
+"glob": "0x3e80b0",
+"reg": "call 0x2df16c",
+"init": "0x2b97e0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.ShootThroughFriends": {
+"glob": "0x3f1d10",
+"reg": "call 0x2df16c",
+"init": "0x2bd140",
+"users": [
+"0x321c58",
+"0x321d60",
+"0x324b30",
+"0x336868"
+],
+"nrefs": 11
+},
+"Bools.ShootThroughWalls": {
+"glob": "0x4134a0",
+"reg": "call 0x2df16c",
+"init": "0x2c63e8",
+"users": [],
+"nrefs": 1
+},
+"Bools.ShotgunTrapESP": {
+"glob": "0x3e8830",
+"reg": "call 0x2df16c",
+"init": "0x2b9888",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.ShouldAttempDesync": {
+"glob": "0x3ea5e0",
+"reg": "call 0x2df16c",
+"init": "0x2b98cc",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x32cea8"
+],
+"nrefs": 5
+},
+"Bools.ShowIngameRadarDirection": {
+"glob": "0x3ea3b0",
+"reg": "call 0x2df16c",
+"init": "0x2b9910",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.ShowIngameRadarText": {
+"glob": "0x3ea400",
+"reg": "call 0x2df16c",
+"init": "0x2b9954",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.ShowRadarDirection": {
+"glob": "0x3ea310",
+"reg": "call 0x2df16c",
+"init": "0x2b9998",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.ShowRadarText": {
+"glob": "0x3ea360",
+"reg": "call 0x2df16c",
+"init": "0x2b99dc",
+"users": [
+"0x2fb72c",
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 5
+},
+"Bools.ShowTime": {
+"glob": "0x3e98c0",
+"reg": "call 0x2df16c",
+"init": "0x2b9a20",
+"users": [
+"0x3098a4",
+"0x349db4"
+],
+"nrefs": 3
+},
+"Bools.SilentFarmOre": {
+"glob": "0x3d7ed0",
+"reg": "call 0x2df16c",
+"init": "0x2b2ff0",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x2f9138",
+"0x31acd0",
+"0x34841c"
+],
+"nrefs": 8
+},
+"Bools.SilentFarmTree": {
+"glob": "0x3e5230",
+"reg": "call 0x2df16c",
+"init": "0x2b37b8",
+"users": [
+"0x2e6b20",
+"0x2f96f4",
+"0x31acd0"
+],
+"nrefs": 5
+},
+"Bools.SilentLoot": {
+"glob": "0x3e41b0",
+"reg": "call 0x2df16c",
+"init": "0x2b32d4",
+"users": [
+"0x2e6b20",
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 8
+},
+"Bools.SilentMeleePlayers": {
+"glob": "0x3d7f20",
+"reg": "call 0x2df16c",
+"init": "0x2b307c",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x2f94ac",
+"0x31acd0",
+"0x34841c"
+],
+"nrefs": 9
+},
+"Bools.SilentReload": {
+"glob": "0x411d30",
+"reg": "call 0x2df16c",
+"init": "0x2c6514",
+"users": [],
+"nrefs": 1
+},
+"Bools.Skeleton": {
+"glob": "0x3e75c0",
+"reg": "call 0x2df16c",
+"init": "0x2b9ac4",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 5
+},
+"Bools.SkyChanger": {
+"glob": "0x3f8a40",
+"reg": "call 0x2df16c",
+"init": "0x2befc0",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 6
+},
+"Bools.Sleepers": {
+"glob": "0x3e72f0",
+"reg": "call 0x2df16c",
+"init": "0x2b9bac",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30",
+"0x36aec4",
+"0x36b1a0"
+],
+"nrefs": 6
+},
+"Bools.SleepingBag": {
+"glob": "0x3e8ec0",
+"reg": "call 0x2df16c",
+"init": "0x2b9bf0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.SmallFragmentsESP": {
+"glob": "0x3e8600",
+"reg": "call 0x2df16c",
+"init": "0x2b9dd4",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.SmoothFlyhack": {
+"glob": "0x3f2440",
+"reg": "call 0x2df16c",
+"init": "0x2bd19c",
+"users": [
+"0x322aec",
+"0x322ef8",
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"Bools.SnakeEsp": {
+"glob": "0x3e7ed0",
+"reg": "call 0x2df16c",
+"init": "0x2b9e6c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.Snapline": {
+"glob": "0x3e7a70",
+"reg": "call 0x2df16c",
+"init": "0x2b9fd0",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 4
+},
+"Bools.SnaptrapESP": {
+"glob": "0x3e8330",
+"reg": "call 0x2df16c",
+"init": "0x2ba014",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.SpamTorch": {
+"glob": "0x3f3700",
+"reg": "call 0x2df16c",
+"init": "0x2bdfe8",
+"users": [
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.SpecialTeleport": {
+"glob": "0x3f7e00",
+"reg": "call 0x2df16c",
+"init": "0x2be984",
+"users": [
+"0x32c0d4",
+"0x32cea8",
+"0x336868",
+"0x369164"
+],
+"nrefs": 5
+},
+"Bools.Spiderman": {
+"glob": "0x3f3200",
+"reg": "call 0x2df16c",
+"init": "0x2be02c",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.Spinesilent": {
+"glob": "0x412870",
+"reg": "call 0x2df16c",
+"init": "0x2c6678",
+"users": [],
+"nrefs": 1
+},
+"Bools.StackDoubleSheetDoor": {
+"glob": "0x412dc0",
+"reg": "call 0x2df16c",
+"init": "0x2c66bc",
+"users": [],
+"nrefs": 1
+},
+"Bools.StackStoneWall": {
+"glob": "0x412e10",
+"reg": "call 0x2df16c",
+"init": "0x2c67ec",
+"users": [],
+"nrefs": 1
+},
+"Bools.StackTC": {
+"glob": "0x412e60",
+"reg": "call 0x2df16c",
+"init": "0x2c6830",
+"users": [],
+"nrefs": 1
+},
+"Bools.StagEsp": {
+"glob": "0x3e8010",
+"reg": "call 0x2df16c",
+"init": "0x2ba0f0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.StashesHidden": {
+"glob": "0x3e8f10",
+"reg": "call 0x2df16c",
+"init": "0x2ba198",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.StashesUnHidden": {
+"glob": "0x3e8f60",
+"reg": "call 0x2df16c",
+"init": "0x2ba240",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.StealUnlockedDoors": {
+"glob": "0x3f3110",
+"reg": "call 0x2df16c",
+"init": "0x2be070",
+"users": [
+"0x324b30",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.StoneOre": {
+"glob": "0x3e7980",
+"reg": "call 0x2df16c",
+"init": "0x2ba344",
+"users": [
+"0x2f9138",
+"0x2fb72c",
+"0x31acd0",
+"0x33a6f8"
+],
+"nrefs": 6
+},
+"Bools.StreamerMode": {
+"glob": "0x3fc480",
+"reg": "call 0x2df16c",
+"init": "0x2bfcf0",
+"users": [
+"0x338f30",
+"0x3663d4",
+"0x3665b8",
+"0x369040"
+],
+"nrefs": 5
+},
+"Bools.Submarine": {
+"glob": "0x3e9410",
+"reg": "call 0x2df16c",
+"init": "0x2ba440",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.SulfurOre": {
+"glob": "0x3e7ac0",
+"reg": "call 0x2df16c",
+"init": "0x2ba52c",
+"users": [
+"0x2f9138",
+"0x2fb72c",
+"0x31acd0",
+"0x33a6f8"
+],
+"nrefs": 6
+},
+"Bools.SunflowerESP": {
+"glob": "0x3e8470",
+"reg": "call 0x2df16c",
+"init": "0x2ba62c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.SwasticaCross": {
+"glob": "0x40f8a0",
+"reg": "call 0x2df16c",
+"init": "0x2c6b58",
+"users": [],
+"nrefs": 1
+},
+"Bools.TargetHelicopter": {
+"glob": "0x3e9d20",
+"reg": "call 0x2df16c",
+"init": "0x2ba67c",
+"users": [
+"0x2f9988",
+"0x2fa300",
+"0x32c0d4",
+"0x359098"
+],
+"nrefs": 6
+},
+"Bools.TeamID": {
+"glob": "0x3e7700",
+"reg": "call 0x2df16c",
+"init": "0x2ba6c0",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 5
+},
+"Bools.TerrainLayer": {
+"glob": "0x410660",
+"reg": "call 0x2df16c",
+"init": "0x2c6b9c",
+"users": [],
+"nrefs": 1
+},
+"Bools.TigerEsp": {
+"glob": "0x3e7f20",
+"reg": "call 0x2df16c",
+"init": "0x2ba80c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.ToolCrateESP": {
+"glob": "0x3e7ca0",
+"reg": "call 0x2df16c",
+"init": "0x2ba9b8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 6
+},
+"Bools.ToolMode": {
+"glob": "0x3e6e90",
+"reg": "call 0x2df16c",
+"init": "0x2ba9fc",
+"users": [
+"0x2f8180",
+"0x2f81e8",
+"0x33a6f8"
+],
+"nrefs": 4
+},
+"Bools.TrainESP": {
+"glob": "0x3e8560",
+"reg": "call 0x2df16c",
+"init": "0x2bab64",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.TrapChams": {
+"glob": "0x3e8ba0",
+"reg": "call 0x2df16c",
+"init": "0x2baba8",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 9
+},
+"Bools.TrapIcons": {
+"glob": "0x3e6c10",
+"reg": "call 0x2df16c",
+"init": "0x2babec",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 10
+},
+"Bools.TrapManipulation": {
+"glob": "0x3e72a0",
+"reg": "call 0x2df16c",
+"init": "0x2bac78",
+"users": [
+"0x317c3c",
+"0x324b30",
+"0x359098"
+],
+"nrefs": 4
+},
+"Bools.TreeLayer": {
+"glob": "0x4105c0",
+"reg": "call 0x2df16c",
+"init": "0x2c6d90",
+"users": [],
+"nrefs": 1
+},
+"Bools.TurretAlert": {
+"glob": "0x413d10",
+"reg": "call 0x2df16c",
+"init": "0x2c6dd4",
+"users": [],
+"nrefs": 1
+},
+"Bools.TurretWarning": {
+"glob": "0x40f490",
+"reg": "call 0x2df16c",
+"init": "0x2c6e18",
+"users": [],
+"nrefs": 1
+},
+"Bools.UnlockAngle": {
+"glob": "0x3fc660",
+"reg": "call 0x2df16c",
+"init": "0x2bfd34",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 2
+},
+"Bools.UpgradeHQM": {
+"glob": "0x413220",
+"reg": "call 0x2df16c",
+"init": "0x2c6ea4",
+"users": [],
+"nrefs": 1
+},
+"Bools.UpgradeMetal": {
+"glob": "0x4131d0",
+"reg": "call 0x2df16c",
+"init": "0x2c6ee8",
+"users": [],
+"nrefs": 1
+},
+"Bools.UpgradeStone": {
+"glob": "0x413180",
+"reg": "call 0x2df16c",
+"init": "0x2c6f2c",
+"users": [],
+"nrefs": 1
+},
+"Bools.UpgradeWood": {
+"glob": "0x413130",
+"reg": "call 0x2df16c",
+"init": "0x2c6f70",
+"users": [],
+"nrefs": 1
+},
+"Bools.UseAntiAis": {
+"glob": "0x4133b0",
+"reg": "call 0x2df16c",
+"init": "0x2c6fb4",
+"users": [],
+"nrefs": 1
+},
+"Bools.UseCachedPositions": {
+"glob": "0x3e87e0",
+"reg": "call 0x2df16c",
+"init": "0x2bae08",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 6
+},
+"Bools.UseFastSpeed": {
+"glob": "0x413540",
+"reg": "call 0x2df16c",
+"init": "0x2c6ff8",
+"users": [],
+"nrefs": 1
+},
+"Bools.UseIcon": {
+"glob": "0x3e76b0",
+"reg": "call 0x2df16c",
+"init": "0x2bae4c",
+"users": [
+"0x3098a4",
+"0x338f30",
+"0x37bc98"
+],
+"nrefs": 4
+},
+"Bools.UseMeleeAnimations": {
+"glob": "0x40f850",
+"reg": "call 0x2df16c",
+"init": "0x2c703c",
+"users": [],
+"nrefs": 1
+},
+"Bools.UseRadarIcons": {
+"glob": "0x3ea2c0",
+"reg": "call 0x2df16c",
+"init": "0x2bae90",
+"users": [
+"0x2fb72c",
+"0x341bd8"
+],
+"nrefs": 5
+},
+"Bools.UseRageSilent": {
+"glob": "0x3d7c50",
+"reg": "call 0x2df16c",
+"init": "0x2b30c0",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x34841c"
+],
+"nrefs": 5
+},
+"Bools.VehicleChams": {
+"glob": "0x3e8c40",
+"reg": "call 0x2df16c",
+"init": "0x2baf1c",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 18
+},
+"Bools.VehicleIcons": {
+"glob": "0x3e6b70",
+"reg": "call 0x2df16c",
+"init": "0x2bafa8",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 9
+},
+"Bools.ViewModelChams": {
+"glob": "0x3e7110",
+"reg": "call 0x2df16c",
+"init": "0x2bb034",
+"users": [
+"0x2fb2f4",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.ViewOffset": {
+"glob": "0x411f60",
+"reg": "call 0x2df16c",
+"init": "0x2c7080",
+"users": [],
+"nrefs": 1
+},
+"Bools.VisCheck": {
+"glob": "0x3e9f00",
+"reg": "call 0x2df16c",
+"init": "0x2bb280",
+"users": [
+"0x2f8574",
+"0x3098a4",
+"0x3684e0"
+],
+"nrefs": 5
+},
+"Bools.VisualBulletSize": {
+"glob": "0x3f7d60",
+"reg": "call 0x2df16c",
+"init": "0x2bea58",
+"users": [
+"0x32bf38",
+"0x34841c"
+],
+"nrefs": 4
+},
+"Bools.Visualise": {
+"glob": "0x40f800",
+"reg": "call 0x2df16c",
+"init": "0x2c7128",
+"users": [],
+"nrefs": 1
+},
+"Bools.VisualizeCorpse": {
+"glob": "0x3f2e40",
+"reg": "call 0x2df16c",
+"init": "0x2be164",
+"users": [
+"0x324b30",
+"0x33c768",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.WaitForinstanthit": {
+"glob": "0x3e4fb0",
+"reg": "call 0x2df16c",
+"init": "0x2b38e0",
+"users": [
+"0x2e6b20",
+"0x324b30",
+"0x359098"
+],
+"nrefs": 15
+},
+"Bools.WaterLayer": {
+"glob": "0x4106b0",
+"reg": "call 0x2df16c",
+"init": "0x2c716c",
+"users": [],
+"nrefs": 1
+},
+"Bools.WaterMagic": {
+"glob": "0x413c20",
+"reg": "call 0x2df16c",
+"init": "0x2c71b0",
+"users": [],
+"nrefs": 1
+},
+"Bools.WaterReflect": {
+"glob": "0x40f440",
+"reg": "call 0x2df16c",
+"init": "0x2c71f4",
+"users": [],
+"nrefs": 1
+},
+"Bools.WheatESP": {
+"glob": "0x3e83d0",
+"reg": "call 0x2df16c",
+"init": "0x2bb438",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.WolfEsp": {
+"glob": "0x3e8060",
+"reg": "call 0x2df16c",
+"init": "0x2bb4c4",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.WoodPile": {
+"glob": "0x3e6ee0",
+"reg": "call 0x2df16c",
+"init": "0x2bb5cc",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33a6f8"
+],
+"nrefs": 4
+},
+"Bools.Workbench": {
+"glob": "0x3e9000",
+"reg": "call 0x2df16c",
+"init": "0x2bb674",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.WorldLayer": {
+"glob": "0x410700",
+"reg": "call 0x2df16c",
+"init": "0x2c72ec",
+"users": [],
+"nrefs": 1
+},
+"Bools.Wounded": {
+"glob": "0x3e77f0",
+"reg": "call 0x2df16c",
+"init": "0x2bb874",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30"
+],
+"nrefs": 4
+},
+"Bools.Zoom": {
+"glob": "0x3e9a50",
+"reg": "call 0x2df16c",
+"init": "0x2bb914",
+"users": [
+"0x2f8574",
+"0x349db4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.aiminmountable": {
+"glob": "0x411ec0",
+"reg": "call 0x2df16c",
+"init": "0x2c7594",
+"users": [],
+"nrefs": 1
+},
+"Bools.aimmarker": {
+"glob": "0x3ea680",
+"reg": "call 0x2df16c",
+"init": "0x2bba40",
+"users": [
+"0x2f9988",
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 4
+},
+"Bools.aimwounded": {
+"glob": "0x3fe570",
+"reg": "call 0x2df16c",
+"init": "0x2c26c4",
+"users": [
+"0x36aec4",
+"0x36b0c8",
+"0x36b1a0"
+],
+"nrefs": 8
+},
+"Bools.allthewayround": {
+"glob": "0x412cd0",
+"reg": "call 0x2df16c",
+"init": "0x2c75d8",
+"users": [],
+"nrefs": 1
+},
+"Bools.animalstuffopen": {
+"glob": "0x410b60",
+"reg": "call 0x2df16c",
+"init": "0x2c761c",
+"users": [],
+"nrefs": 1
+},
+"Bools.assigntofriend": {
+"glob": "0x4137c0",
+"reg": "call 0x2df16c",
+"init": "0x2c7660",
+"users": [],
+"nrefs": 1
+},
+"Bools.attackheliangle": {
+"glob": "0x411a60",
+"reg": "call 0x2df16c",
+"init": "0x2c76a4",
+"users": [],
+"nrefs": 1
+},
+"Bools.attackhelicopter": {
+"glob": "0x3e9280",
+"reg": "call 0x2df16c",
+"init": "0x2bbb28",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.authlist": {
+"glob": "0x411380",
+"reg": "call 0x2df16c",
+"init": "0x2c76e8",
+"users": [],
+"nrefs": 1
+},
+"Bools.autoCanShoot": {
+"glob": "0x40f670",
+"reg": "call 0x2df16c",
+"init": "0x2c772c",
+"users": [],
+"nrefs": 1
+},
+"Bools.autoCanShootSetKey": {
+"glob": "0x40f710",
+"reg": "call 0x2df16c",
+"init": "0x2c77b8",
+"users": [],
+"nrefs": 1
+},
+"Bools.autoauth": {
+"glob": "0x3f3b10",
+"reg": "call 0x2df16c",
+"init": "0x2be1a8",
+"users": [
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.autobuyvendingmachines": {
+"glob": "0x40fc10",
+"reg": "call 0x2df16c",
+"init": "0x2c77fc",
+"users": [],
+"nrefs": 1
+},
+"Bools.autodepositbrokenrods": {
+"glob": "0x3e9be0",
+"reg": "call 0x2df16c",
+"init": "0x2bbb6c",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.autodepositfish": {
+"glob": "0x3e4110",
+"reg": "call 0x2df16c",
+"init": "0x2b3318",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 5
+},
+"Bools.autoeat": {
+"glob": "0x3e9960",
+"reg": "call 0x2df16c",
+"init": "0x2bbbb0",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 4
+},
+"Bools.autoenemy": {
+"glob": "0x3d7de0",
+"reg": "call 0x2df16c",
+"init": "0x2b3104",
+"users": [
+"0x2e02b0",
+"0x2f8574",
+"0x3684e0"
+],
+"nrefs": 7
+},
+"Bools.autofire360": {
+"glob": "0x413090",
+"reg": "call 0x2df16c",
+"init": "0x2c7840",
+"users": [],
+"nrefs": 1
+},
+"Bools.autolootrods": {
+"glob": "0x3e9b90",
+"reg": "call 0x2df16c",
+"init": "0x2bbbf4",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.autolootstuff": {
+"glob": "0x3e4f10",
+"reg": "call 0x2df16c",
+"init": "0x2b3930",
+"users": [
+"0x2e6b20",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"Bools.automasssuicide": {
+"glob": "0x413360",
+"reg": "call 0x2df16c",
+"init": "0x2c7884",
+"users": [],
+"nrefs": 1
+},
+"Bools.autorefilljackhammer": {
+"glob": "0x3e4f60",
+"reg": "call 0x2df16c",
+"init": "0x2b3974",
+"users": [
+"0x2e6b20",
+"0x3429f4"
+],
+"nrefs": 4
+},
+"Bools.autosteal": {
+"glob": "0x4130e0",
+"reg": "call 0x2df16c",
+"init": "0x2c78c8",
+"users": [],
+"nrefs": 1
+},
+"Bools.autostop": {
+"glob": "0x413d60",
+"reg": "call 0x2df16c",
+"init": "0x2c790c",
+"users": [],
+"nrefs": 1
+},
+"Bools.autostrike": {
+"glob": "0x3e4e70",
+"reg": "call 0x2df16c",
+"init": "0x2b39b8",
+"users": [
+"0x2e6b20",
+"0x34841c"
+],
+"nrefs": 4
+},
+"Bools.bagOptionsOpen": {
+"glob": "0x410de0",
+"reg": "call 0x2df16c",
+"init": "0x2c7950",
+"users": [],
+"nrefs": 1
+},
+"Bools.bagfriend": {
+"glob": "0x411ce0",
+"reg": "call 0x2df16c",
+"init": "0x2c7994",
+"users": [],
+"nrefs": 1
+},
+"Bools.battlemode": {
+"glob": "0x3ea450",
+"reg": "call 0x2df16c",
+"init": "0x2bbc98",
+"users": [
+"0x3098a4",
+"0x33e738",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.battlemodeshits": {
+"glob": "0x413bd0",
+"reg": "call 0x2df16c",
+"init": "0x2c79d8",
+"users": [],
+"nrefs": 1
+},
+"Bools.bfov": {
+"glob": "0x3e7160",
+"reg": "call 0x2df16c",
+"init": "0x2bbd2c",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"Bools.black": {
+"glob": "0x4115b0",
+"reg": "call 0x2df16c",
+"init": "0x2c7a1c",
+"users": [],
+"nrefs": 1
+},
+"Bools.blue": {
+"glob": "0x411600",
+"reg": "call 0x2df16c",
+"init": "0x2c7a60",
+"users": [],
+"nrefs": 1
+},
+"Bools.candy": {
+"glob": "0x40fbc0",
+"reg": "call 0x2df16c",
+"init": "0x2c7b8c",
+"users": [],
+"nrefs": 1
+},
+"Bools.chammies": {
+"glob": "0x3e9820",
+"reg": "call 0x2df16c",
+"init": "0x2bbdb8",
+"users": [
+"0x2fabf8",
+"0x338f30"
+],
+"nrefs": 4
+},
+"Bools.chamoptionsopen": {
+"glob": "0x4109d0",
+"reg": "call 0x2df16c",
+"init": "0x2c7bd0",
+"users": [],
+"nrefs": 1
+},
+"Bools.clothing": {
+"glob": "0x410110",
+"reg": "call 0x2df16c",
+"init": "0x2c7d34",
+"users": [],
+"nrefs": 1
+},
+"Bools.collectableopen": {
+"glob": "0x4108e0",
+"reg": "call 0x2df16c",
+"init": "0x2c7d78",
+"users": [],
+"nrefs": 1
+},
+"Bools.compound": {
+"glob": "0x411b00",
+"reg": "call 0x2df16c",
+"init": "0x2c7dbc",
+"users": [],
+"nrefs": 1
+},
+"Bools.copysteam": {
+"glob": "0x410020",
+"reg": "call 0x2df16c",
+"init": "0x2c7e00",
+"users": [],
+"nrefs": 1
+},
+"Bools.cornesp": {
+"glob": "0x3e8a10",
+"reg": "call 0x2df16c",
+"init": "0x2bbe08",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.crosshair": {
+"glob": "0x3fc5c0",
+"reg": "call 0x2df16c",
+"init": "0x2bfe2c",
+"users": [
+"0x337e7c",
+"0x3643b4"
+],
+"nrefs": 3
+},
+"Bools.cupboardhealth": {
+"glob": "0x40ff80",
+"reg": "call 0x2df16c",
+"init": "0x2c7e8c",
+"users": [],
+"nrefs": 1
+},
+"Bools.debuginteractive": {
+"glob": "0x3f35c0",
+"reg": "call 0x2df16c",
+"init": "0x2be1ec",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 4
+},
+"Bools.debugmode": {
+"glob": "0x40f620",
+"reg": "call 0x2df16c",
+"init": "0x2c80c8",
+"users": [],
+"nrefs": 1
+},
+"Bools.deployableenablecham": {
+"glob": "0x4117e0",
+"reg": "call 0x2df16c",
+"init": "0x2c8170",
+"users": [],
+"nrefs": 1
+},
+"Bools.desyncnotvisible": {
+"glob": "0x3ea590",
+"reg": "call 0x2df16c",
+"init": "0x2bbe94",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x32cea8",
+"0x336868"
+],
+"nrefs": 5
+},
+"Bools.dirt": {
+"glob": "0x4139f0",
+"reg": "call 0x2df16c",
+"init": "0x2c81b4",
+"users": [],
+"nrefs": 1
+},
+"Bools.diselesp": {
+"glob": "0x3e8d30",
+"reg": "call 0x2df16c",
+"init": "0x2bbed8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.draweenemy": {
+"glob": "0x3ea130",
+"reg": "call 0x2df16c",
+"init": "0x2bbf1c",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"Bools.drawfishingstate": {
+"glob": "0x3e9c30",
+"reg": "call 0x2df16c",
+"init": "0x2bbf60",
+"users": [
+"0x3098a4",
+"0x3429f4"
+],
+"nrefs": 3
+},
+"Bools.drawrectangles": {
+"glob": "0x413720",
+"reg": "call 0x2df16c",
+"init": "0x2c8240",
+"users": [],
+"nrefs": 1
+},
+"Bools.drawreloadbar": {
+"glob": "0x410070",
+"reg": "call 0x2df16c",
+"init": "0x2c8284",
+"users": [],
+"nrefs": 1
+},
+"Bools.drawteam": {
+"glob": "0x3e9b40",
+"reg": "call 0x2df16c",
+"init": "0x2bbfa4",
+"users": [
+"0x3098a4",
+"0x31acd0",
+"0x338f30",
+"0x35d5ac",
+"0x3684e0"
+],
+"nrefs": 7
+},
+"Bools.dropinv": {
+"glob": "0x3e5280",
+"reg": "call 0x2df16c",
+"init": "0x2b3a4c",
+"users": [
+"0x2e6b20",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.droppeditems": {
+"glob": "0x3e8e20",
+"reg": "call 0x2df16c",
+"init": "0x2bbfe8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 12
+},
+"Bools.droppedweapons": {
+"glob": "0x3e8dd0",
+"reg": "call 0x2df16c",
+"init": "0x2bc088",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 9
+},
+"Bools.enableflight": {
+"glob": "0x413c70",
+"reg": "call 0x2df16c",
+"init": "0x2c82c8",
+"users": [],
+"nrefs": 1
+},
+"Bools.enemylist": {
+"glob": "0x413810",
+"reg": "call 0x2df16c",
+"init": "0x2c836c",
+"users": [],
+"nrefs": 1
+},
+"Bools.enemyoptionsOpen": {
+"glob": "0x410c00",
+"reg": "call 0x2df16c",
+"init": "0x2c83b0",
+"users": [],
+"nrefs": 1
+},
+"Bools.enemystuff": {
+"glob": "0x3ea4f0",
+"reg": "call 0x2df16c",
+"init": "0x2bc12c",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"Bools.enemytracker": {
+"glob": "0x4107f0",
+"reg": "call 0x2df16c",
+"init": "0x2c83f4",
+"users": [],
+"nrefs": 1
+},
+"Bools.eokatap": {
+"glob": "0x3e9780",
+"reg": "call 0x2df16c",
+"init": "0x2bc170",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 5
+},
+"Bools.espoptions": {
+"glob": "0x410c50",
+"reg": "call 0x2df16c",
+"init": "0x2c8438",
+"users": [],
+"nrefs": 1
+},
+"Bools.everyone": {
+"glob": "0x412730",
+"reg": "call 0x2df16c",
+"init": "0x2c847c",
+"users": [],
+"nrefs": 1
+},
+"Bools.fastbow": {
+"glob": "0x411e20",
+"reg": "call 0x2df16c",
+"init": "0x2c84c0",
+"users": [],
+"nrefs": 1
+},
+"Bools.fastfire": {
+"glob": "0x3e9730",
+"reg": "call 0x2df16c",
+"init": "0x2bc1b4",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 4
+},
+"Bools.fastplace": {
+"glob": "0x3f2e90",
+"reg": "call 0x2df16c",
+"init": "0x2be230",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"Bools.flameTrapOptionsOpen": {
+"glob": "0x410d90",
+"reg": "call 0x2df16c",
+"init": "0x2c8504",
+"users": [],
+"nrefs": 1
+},
+"Bools.flesh": {
+"glob": "0x413950",
+"reg": "call 0x2df16c",
+"init": "0x2c8548",
+"users": [],
+"nrefs": 1
+},
+"Bools.foodchameanble": {
+"glob": "0x411970",
+"reg": "call 0x2df16c",
+"init": "0x2c858c",
+"users": [],
+"nrefs": 1
+},
+"Bools.footpos": {
+"glob": "0x4121e0",
+"reg": "call 0x2df16c",
+"init": "0x2c85d0",
+"users": [],
+"nrefs": 1
+},
+"Bools.friendlylist": {
+"glob": "0x413770",
+"reg": "call 0x2df16c",
+"init": "0x2c8674",
+"users": [],
+"nrefs": 1
+},
+"Bools.fullauto": {
+"glob": "0x3e96e0",
+"reg": "call 0x2df16c",
+"init": "0x2bc340",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 3
+},
+"Bools.gameautofire": {
+"glob": "0x413040",
+"reg": "call 0x2df16c",
+"init": "0x2c8700",
+"users": [],
+"nrefs": 1
+},
+"Bools.gestureblock": {
+"glob": "0x40f990",
+"reg": "call 0x2df16c",
+"init": "0x2c878c",
+"users": [],
+"nrefs": 1
+},
+"Bools.green": {
+"glob": "0x411650",
+"reg": "call 0x2df16c",
+"init": "0x2c87d0",
+"users": [],
+"nrefs": 1
+},
+"Bools.gunTrapOptionsOpen": {
+"glob": "0x410cf0",
+"reg": "call 0x2df16c",
+"init": "0x2c8814",
+"users": [],
+"nrefs": 1
+},
+"Bools.handchamopen": {
+"glob": "0x410a20",
+"reg": "call 0x2df16c",
+"init": "0x2c8858",
+"users": [],
+"nrefs": 1
+},
+"Bools.handcuffspammer": {
+"glob": "0x3f3610",
+"reg": "call 0x2df16c",
+"init": "0x2be274",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"Bools.handcuffstuffFunny": {
+"glob": "0x3f36b0",
+"reg": "call 0x2df16c",
+"init": "0x2be2b8",
+"users": [
+"0x324b30",
+"0x329120",
+"0x3429f4"
+],
+"nrefs": 4
+},
+"Bools.handpos": {
+"glob": "0x412230",
+"reg": "call 0x2df16c",
+"init": "0x2c889c",
+"users": [],
+"nrefs": 1
+},
+"Bools.healthvalue": {
+"glob": "0x413590",
+"reg": "call 0x2df16c",
+"init": "0x2c88e0",
+"users": [],
+"nrefs": 1
+},
+"Bools.helihitover": {
+"glob": "0x3f7900",
+"reg": "call 0x2df16c",
+"init": "0x2be940",
+"users": [
+"0x32b3a8",
+"0x336868"
+],
+"nrefs": 3
+},
+"Bools.helpfriend": {
+"glob": "0x4138b0",
+"reg": "call 0x2df16c",
+"init": "0x2c89b4",
+"users": [],
+"nrefs": 1
+},
+"Bools.hempesp": {
+"glob": "0x3e8880",
+"reg": "call 0x2df16c",
+"init": "0x2bc4a8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.hitscan": {
+"glob": "0x411330",
+"reg": "call 0x2df16c",
+"init": "0x2c89f8",
+"users": [],
+"nrefs": 1
+},
+"Bools.hotbar": {
+"glob": "0x4100c0",
+"reg": "call 0x2df16c",
+"init": "0x2c8a3c",
+"users": [],
+"nrefs": 1
+},
+"Bools.hotbarOpened": {
+"glob": "0x411510",
+"reg": "call 0x2df16c",
+"init": "0x2c8a80",
+"users": [],
+"nrefs": 1
+},
+"Bools.instantOpened": {
+"glob": "0x410890",
+"reg": "call 0x2df16c",
+"init": "0x2c8b0c",
+"users": [],
+"nrefs": 1
+},
+"Bools.instanthit": {
+"glob": "0x3d7f70",
+"reg": "call 0x2df16c",
+"init": "0x2b3154",
+"users": [
+"0x2e2474",
+"0x2e6b20",
+"0x2f7dd0",
+"0x2f824c",
+"0x2f9988",
+"0x2fa300",
+"0x3098a4",
+"0x32c0d4",
+"0x336868",
+"0x359098"
+],
+"nrefs": 18
+},
+"Bools.instantunlockhandcuff": {
+"glob": "0x3f3660",
+"reg": "call 0x2df16c",
+"init": "0x2be2fc",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"Bools.intensive": {
+"glob": "0x40fe40",
+"reg": "call 0x2df16c",
+"init": "0x2c8b50",
+"users": [],
+"nrefs": 1
+},
+"Bools.interactive": {
+"glob": "0x3f3ac0",
+"reg": "call 0x2df16c",
+"init": "0x2be340",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"Bools.isopentest": {
+"glob": "0x410750",
+"reg": "call 0x2df16c",
+"init": "0x2c8b94",
+"users": [],
+"nrefs": 1
+},
+"Bools.keepalive": {
+"glob": "0x4126e0",
+"reg": "call 0x2df16c",
+"init": "0x2c8bd8",
+"users": [],
+"nrefs": 1
+},
+"Bools.ladder": {
+"glob": "0x3f3a20",
+"reg": "call 0x2df16c",
+"init": "0x2be390",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.landmine": {
+"glob": "0x40f940",
+"reg": "call 0x2df16c",
+"init": "0x2c8c1c",
+"users": [],
+"nrefs": 1
+},
+"Bools.largevalue": {
+"glob": "0x40fdf0",
+"reg": "call 0x2df16c",
+"init": "0x2c8c60",
+"users": [],
+"nrefs": 1
+},
+"Bools.locktarget": {
+"glob": "0x411470",
+"reg": "call 0x2df16c",
+"init": "0x2c8ca4",
+"users": [],
+"nrefs": 1
+},
+"Bools.lookingat": {
+"glob": "0x3e9500",
+"reg": "call 0x2df16c",
+"init": "0x2bc63c",
+"users": [
+"0x2f8574",
+"0x3098a4",
+"0x31acd0",
+"0x338f30",
+"0x3684e0"
+],
+"nrefs": 8
+},
+"Bools.lowerspinesilent": {
+"glob": "0x4128c0",
+"reg": "call 0x2df16c",
+"init": "0x2c8ce8",
+"users": [],
+"nrefs": 1
+},
+"Bools.mediumvalue": {
+"glob": "0x40fda0",
+"reg": "call 0x2df16c",
+"init": "0x2c8e04",
+"users": [],
+"nrefs": 1
+},
+"Bools.meleedist": {
+"glob": "0x411b50",
+"reg": "call 0x2df16c",
+"init": "0x2c8e48",
+"users": [],
+"nrefs": 1
+},
+"Bools.metalesp": {
+"glob": "0x3e8920",
+"reg": "call 0x2df16c",
+"init": "0x2bc6c8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.mouseautofire": {
+"glob": "0x412ff0",
+"reg": "call 0x2df16c",
+"init": "0x2c8eec",
+"users": [],
+"nrefs": 1
+},
+"Bools.movementpen": {
+"glob": "0x411ab0",
+"reg": "call 0x2df16c",
+"init": "0x2c8f30",
+"users": [],
+"nrefs": 1
+},
+"Bools.mushroomesp": {
+"glob": "0x3e8c90",
+"reg": "call 0x2df16c",
+"init": "0x2bc70c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.name": {
+"glob": "0x3e7750",
+"reg": "call 0x2df16c",
+"init": "0x2bc750",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 5
+},
+"Bools.namespooftest": {
+"glob": "0x40f6c0",
+"reg": "call 0x2df16c",
+"init": "0x2c8f74",
+"users": [],
+"nrefs": 1
+},
+"Bools.nobolty": {
+"glob": "0x411dd0",
+"reg": "call 0x2df16c",
+"init": "0x2c8fb8",
+"users": [],
+"nrefs": 1
+},
+"Bools.noflash": {
+"glob": "0x3f3ca0",
+"reg": "call 0x2df16c",
+"init": "0x2be424",
+"users": [
+"0x324b30",
+"0x349db4"
+],
+"nrefs": 3
+},
+"Bools.nofrienddamage": {
+"glob": "0x412690",
+"reg": "call 0x2df16c",
+"init": "0x2c9044",
+"users": [],
+"nrefs": 1
+},
+"Bools.nograss": {
+"glob": "0x3f3070",
+"reg": "call 0x2df16c",
+"init": "0x2be468",
+"users": [
+"0x324b30",
+"0x349db4"
+],
+"nrefs": 4
+},
+"Bools.nomeleeslow": {
+"glob": "0x3e94b0",
+"reg": "call 0x2df16c",
+"init": "0x2bc794",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 3
+},
+"Bools.nosmoke": {
+"glob": "0x3f3bb0",
+"reg": "call 0x2df16c",
+"init": "0x2be4ac",
+"users": [
+"0x324b30",
+"0x32f038",
+"0x349db4"
+],
+"nrefs": 4
+},
+"Bools.nospikeslow": {
+"glob": "0x3f3020",
+"reg": "call 0x2df16c",
+"init": "0x2be4f0",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"Bools.nospread": {
+"glob": "0x3f7cc0",
+"reg": "call 0x2df16c",
+"init": "0x2beae4",
+"users": [
+"0x32c0d4",
+"0x330b38",
+"0x34841c"
+],
+"nrefs": 6
+},
+"Bools.noweaponbob": {
+"glob": "0x3e9dc0",
+"reg": "call 0x2df16c",
+"init": "0x2bc7d8",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 3
+},
+"Bools.noweaponlowering": {
+"glob": "0x413450",
+"reg": "call 0x2df16c",
+"init": "0x2c9088",
+"users": [],
+"nrefs": 1
+},
+"Bools.nowind": {
+"glob": "0x412f50",
+"reg": "call 0x2df16c",
+"init": "0x2c90cc",
+"users": [],
+"nrefs": 1
+},
+"Bools.onheli": {
+"glob": "0x4127d0",
+"reg": "call 0x2df16c",
+"init": "0x2c9178",
+"users": [],
+"nrefs": 1
+},
+"Bools.onlyfriends": {
+"glob": "0x412640",
+"reg": "call 0x2df16c",
+"init": "0x2c91bc",
+"users": [],
+"nrefs": 1
+},
+"Bools.orechamopen": {
+"glob": "0x410a70",
+"reg": "call 0x2df16c",
+"init": "0x2c9200",
+"users": [],
+"nrefs": 1
+},
+"Bools.otherchamenable": {
+"glob": "0x4118d0",
+"reg": "call 0x2df16c",
+"init": "0x2c928c",
+"users": [],
+"nrefs": 1
+},
+"Bools.pointofinterest": {
+"glob": "0x3fc7f0",
+"reg": "call 0x2df16c",
+"init": "0x2c1d80",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 2
+},
+"Bools.potatoesp": {
+"glob": "0x3e8d80",
+"reg": "call 0x2df16c",
+"init": "0x2bc870",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.present": {
+"glob": "0x4135e0",
+"reg": "call 0x2df16c",
+"init": "0x2c9324",
+"users": [],
+"nrefs": 1
+},
+"Bools.psilentheli": {
+"glob": "0x40fc60",
+"reg": "call 0x2df16c",
+"init": "0x2c93b0",
+"users": [],
+"nrefs": 1
+},
+"Bools.pumpkinesp": {
+"glob": "0x3e8ce0",
+"reg": "call 0x2df16c",
+"init": "0x2bc8b4",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.radar": {
+"glob": "0x3e9ff0",
+"reg": "call 0x2df16c",
+"init": "0x2bc8f8",
+"users": [
+"0x2fb72c",
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 5
+},
+"Bools.radarbackground": {
+"glob": "0x3ea4a0",
+"reg": "call 0x2df16c",
+"init": "0x2bc93c",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.radarcross": {
+"glob": "0x3ea0e0",
+"reg": "call 0x2df16c",
+"init": "0x2bc980",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"Bools.radaroutline": {
+"glob": "0x413630",
+"reg": "call 0x2df16c",
+"init": "0x2c943c",
+"users": [],
+"nrefs": 1
+},
+"Bools.radarshiutopen": {
+"glob": "0x410ac0",
+"reg": "call 0x2df16c",
+"init": "0x2c94c8",
+"users": [],
+"nrefs": 1
+},
+"Bools.raidesp": {
+"glob": "0x3f3c00",
+"reg": "call 0x2df16c",
+"init": "0x2be61c",
+"users": [
+"0x324b30",
+"0x33e738",
+"0x36e55c"
+],
+"nrefs": 5
+},
+"Bools.randomizationnohead": {
+"glob": "0x412910",
+"reg": "call 0x2df16c",
+"init": "0x2c9554",
+"users": [],
+"nrefs": 1
+},
+"Bools.recoilcomp": {
+"glob": "0x4125a0",
+"reg": "call 0x2df16c",
+"init": "0x2c9598",
+"users": [],
+"nrefs": 1
+},
+"Bools.recoilmod": {
+"glob": "0x3f31b0",
+"reg": "call 0x2df16c",
+"init": "0x2be660",
+"users": [
+"0x324b30",
+"0x34841c",
+"0x35d5ac",
+"0x36bc14"
+],
+"nrefs": 6
+},
+"Bools.recycler": {
+"glob": "0x3e7520",
+"reg": "call 0x2df16c",
+"init": "0x2bca1c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.red": {
+"glob": "0x4116a0",
+"reg": "call 0x2df16c",
+"init": "0x2c95dc",
+"users": [],
+"nrefs": 1
+},
+"Bools.removelayer": {
+"glob": "0x3f3cf0",
+"reg": "call 0x2df16c",
+"init": "0x2be6a4",
+"users": [
+"0x324b30",
+"0x349db4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.removepunch": {
+"glob": "0x3e71b0",
+"reg": "call 0x2df16c",
+"init": "0x2bca60",
+"users": [
+"0x34841c"
+],
+"nrefs": 2
+},
+"Bools.removeserverUI": {
+"glob": "0x4134f0",
+"reg": "call 0x2df16c",
+"init": "0x2c9668",
+"users": [],
+"nrefs": 1
+},
+"Bools.ropemode": {
+"glob": "0x3f2fd0",
+"reg": "call 0x2df16c",
+"init": "0x2be730",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"Bools.safesilent": {
+"glob": "0x412fa0",
+"reg": "call 0x2df16c",
+"init": "0x2c96ac",
+"users": [],
+"nrefs": 1
+},
+"Bools.samsiteOptionsOpen": {
+"glob": "0x410ca0",
+"reg": "call 0x2df16c",
+"init": "0x2c96f0",
+"users": [],
+"nrefs": 1
+},
+"Bools.savehouse": {
+"glob": "0x3e9aa0",
+"reg": "call 0x2df16c",
+"init": "0x2bcb3c",
+"users": [
+"0x3098a4",
+"0x33e738",
+"0x35d5ac",
+"0x36e55c"
+],
+"nrefs": 7
+},
+"Bools.saveposition": {
+"glob": "0x3ea180",
+"reg": "call 0x2df16c",
+"init": "0x2bcbd0",
+"users": [
+"0x3098a4",
+"0x33e738",
+"0x35d5ac",
+"0x36e55c"
+],
+"nrefs": 6
+},
+"Bools.setmenukey": {
+"glob": "0x411420",
+"reg": "call 0x2df16c",
+"init": "0x2c9734",
+"users": [],
+"nrefs": 1
+},
+"Bools.settgingspammer": {
+"glob": "0x410570",
+"reg": "call 0x2df16c",
+"init": "0x2c9778",
+"users": [],
+"nrefs": 1
+},
+"Bools.setting3rdkey": {
+"glob": "0x411010",
+"reg": "call 0x2df16c",
+"init": "0x2c97bc",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingadminkey": {
+"glob": "0x411150",
+"reg": "call 0x2df16c",
+"init": "0x2c9800",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingambientkey": {
+"glob": "0x410200",
+"reg": "call 0x2df16c",
+"init": "0x2c9844",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingchargekey": {
+"glob": "0x4103e0",
+"reg": "call 0x2df16c",
+"init": "0x2c9888",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingcurrentkey": {
+"glob": "0x410520",
+"reg": "call 0x2df16c",
+"init": "0x2c98cc",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingdemokey": {
+"glob": "0x410ed0",
+"reg": "call 0x2df16c",
+"init": "0x2c9910",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingdemolishkey": {
+"glob": "0x4111a0",
+"reg": "call 0x2df16c",
+"init": "0x2c9954",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingdespawnkey": {
+"glob": "0x410340",
+"reg": "call 0x2df16c",
+"init": "0x2c9998",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingdropinvkey": {
+"glob": "0x410390",
+"reg": "call 0x2df16c",
+"init": "0x2c99dc",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingenemykey": {
+"glob": "0x4104d0",
+"reg": "call 0x2df16c",
+"init": "0x2c9a20",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingfriendkey": {
+"glob": "0x410480",
+"reg": "call 0x2df16c",
+"init": "0x2c9a64",
+"users": [],
+"nrefs": 1
+},
+"Bools.settinginteractivkey": {
+"glob": "0x411240",
+"reg": "call 0x2df16c",
+"init": "0x2c9aa8",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingladderkey": {
+"glob": "0x4112e0",
+"reg": "call 0x2df16c",
+"init": "0x2c9aec",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingmagickey": {
+"glob": "0x4102a0",
+"reg": "call 0x2df16c",
+"init": "0x2c9b30",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingmaskkey": {
+"glob": "0x4102f0",
+"reg": "call 0x2df16c",
+"init": "0x2c9b74",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingmountedkey": {
+"glob": "0x411fb0",
+"reg": "call 0x2df16c",
+"init": "0x2c9bb8",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingpointkey": {
+"glob": "0x410f20",
+"reg": "call 0x2df16c",
+"init": "0x2c9bfc",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingrotatekey": {
+"glob": "0x4111f0",
+"reg": "call 0x2df16c",
+"init": "0x2c9c40",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingsavedposkey": {
+"glob": "0x410f70",
+"reg": "call 0x2df16c",
+"init": "0x2c9c84",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingsavedshitkey": {
+"glob": "0x410fc0",
+"reg": "call 0x2df16c",
+"init": "0x2c9cc8",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingshitkey": {
+"glob": "0x411060",
+"reg": "call 0x2df16c",
+"init": "0x2c9d0c",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingsomeshit": {
+"glob": "0x410250",
+"reg": "call 0x2df16c",
+"init": "0x2c9d50",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingteleportkey": {
+"glob": "0x411290",
+"reg": "call 0x2df16c",
+"init": "0x2c9d94",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingwirekey": {
+"glob": "0x4110b0",
+"reg": "call 0x2df16c",
+"init": "0x2c9dd8",
+"users": [],
+"nrefs": 1
+},
+"Bools.settingzoomkey": {
+"glob": "0x410e30",
+"reg": "call 0x2df16c",
+"init": "0x2c9e1c",
+"users": [],
+"nrefs": 1
+},
+"Bools.shouldrun": {
+"glob": "0x40fa80",
+"reg": "call 0x2df16c",
+"init": "0x2c9e60",
+"users": [],
+"nrefs": 1
+},
+"Bools.shouljump": {
+"glob": "0x40fad0",
+"reg": "call 0x2df16c",
+"init": "0x2c9ea4",
+"users": [],
+"nrefs": 1
+},
+"Bools.showaimbone": {
+"glob": "0x40fb20",
+"reg": "call 0x2df16c",
+"init": "0x2c9ee8",
+"users": [],
+"nrefs": 1
+},
+"Bools.signpainter": {
+"glob": "0x3e9fa0",
+"reg": "call 0x2df16c",
+"init": "0x2bcc14",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 4
+},
+"Bools.silentnospread": {
+"glob": "0x40fb70",
+"reg": "call 0x2df16c",
+"init": "0x2c9f2c",
+"users": [],
+"nrefs": 1
+},
+"Bools.simulateproj": {
+"glob": "0x3ea630",
+"reg": "call 0x2df16c",
+"init": "0x2bcc58",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 7
+},
+"Bools.smallvalue": {
+"glob": "0x40fd00",
+"reg": "call 0x2df16c",
+"init": "0x2c9f70",
+"users": [],
+"nrefs": 1
+},
+"Bools.spikeslowdown": {
+"glob": "0x412d20",
+"reg": "call 0x2df16c",
+"init": "0x2ca058",
+"users": [],
+"nrefs": 1
+},
+"Bools.spinbot": {
+"glob": "0x4129b0",
+"reg": "call 0x2df16c",
+"init": "0x2ca09c",
+"users": [],
+"nrefs": 1
+},
+"Bools.spinbotRandom": {
+"glob": "0x412a00",
+"reg": "call 0x2df16c",
+"init": "0x2ca0e0",
+"users": [],
+"nrefs": 1
+},
+"Bools.spinbotYawOpened": {
+"glob": "0x412a50",
+"reg": "call 0x2df16c",
+"init": "0x2ca1b4",
+"users": [],
+"nrefs": 1
+},
+"Bools.spinepos": {
+"glob": "0x412190",
+"reg": "call 0x2df16c",
+"init": "0x2ca1f8",
+"users": [],
+"nrefs": 1
+},
+"Bools.stackbarricade": {
+"glob": "0x412eb0",
+"reg": "call 0x2df16c",
+"init": "0x2ca23c",
+"users": [],
+"nrefs": 1
+},
+"Bools.stash": {
+"glob": "0x40fe90",
+"reg": "call 0x2df16c",
+"init": "0x2ca280",
+"users": [],
+"nrefs": 1
+},
+"Bools.steallooot": {
+"glob": "0x3e4e20",
+"reg": "call 0x2df16c",
+"init": "0x2b3ae0",
+"users": [
+"0x2e6b20",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"Bools.stickysmooth": {
+"glob": "0x4114c0",
+"reg": "call 0x2df16c",
+"init": "0x2ca2c4",
+"users": [],
+"nrefs": 1
+},
+"Bools.stoneesp": {
+"glob": "0x3e88d0",
+"reg": "call 0x2df16c",
+"init": "0x2bcd2c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 5
+},
+"Bools.sulfuresp": {
+"glob": "0x3e8970",
+"reg": "call 0x2df16c",
+"init": "0x2bcd70",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.swimhacks": {
+"glob": "0x412d70",
+"reg": "call 0x2df16c",
+"init": "0x2ca308",
+"users": [],
+"nrefs": 1
+},
+"Bools.teleport5m": {
+"glob": "0x3f37f0",
+"reg": "call 0x2df16c",
+"init": "0x2be774",
+"users": [
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"Bools.thickbullet": {
+"glob": "0x3f7db0",
+"reg": "call 0x2df16c",
+"init": "0x2beb70",
+"users": [
+"0x32c0d4",
+"0x34841c"
+],
+"nrefs": 4
+},
+"Bools.thirdperson": {
+"glob": "0x412050",
+"reg": "call 0x2df16c",
+"init": "0x2ca3dc",
+"users": [],
+"nrefs": 1
+},
+"Bools.tracers": {
+"glob": "0x3e9c80",
+"reg": "call 0x2df16c",
+"init": "0x2bce50",
+"users": [
+"0x3098a4",
+"0x32ae10",
+"0x32bf38",
+"0x337e7c"
+],
+"nrefs": 6
+},
+"Bools.trapchamenable": {
+"glob": "0x411830",
+"reg": "call 0x2df16c",
+"init": "0x2ca4b0",
+"users": [],
+"nrefs": 1
+},
+"Bools.trapoptionsOpen": {
+"glob": "0x410bb0",
+"reg": "call 0x2df16c",
+"init": "0x2ca4f4",
+"users": [],
+"nrefs": 1
+},
+"Bools.tree": {
+"glob": "0x4139a0",
+"reg": "call 0x2df16c",
+"init": "0x2ca538",
+"users": [],
+"nrefs": 1
+},
+"Bools.tugboat": {
+"glob": "0x3e9230",
+"reg": "call 0x2df16c",
+"init": "0x2bce94",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33e738"
+],
+"nrefs": 4
+},
+"Bools.tunacanalarm": {
+"glob": "0x3e9e10",
+"reg": "call 0x2df16c",
+"init": "0x2bcf38",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"Bools.turnme": {
+"glob": "0x411ba0",
+"reg": "call 0x2df16c",
+"init": "0x2ca57c",
+"users": [],
+"nrefs": 1
+},
+"Bools.turretauthlist": {
+"glob": "0x413860",
+"reg": "call 0x2df16c",
+"init": "0x2ca5c0",
+"users": [],
+"nrefs": 1
+},
+"Bools.turretflags": {
+"glob": "0x413ae0",
+"reg": "call 0x2df16c",
+"init": "0x2ca604",
+"users": [],
+"nrefs": 1
+},
+"Bools.turretline": {
+"glob": "0x40fcb0",
+"reg": "call 0x2df16c",
+"init": "0x2ca648",
+"users": [],
+"nrefs": 1
+},
+"Bools.turretoff": {
+"glob": "0x413b80",
+"reg": "call 0x2df16c",
+"init": "0x2ca68c",
+"users": [],
+"nrefs": 1
+},
+"Bools.turretstuff": {
+"glob": "0x412b40",
+"reg": "call 0x2df16c",
+"init": "0x2ca6d0",
+"users": [],
+"nrefs": 1
+},
+"Bools.unlockach": {
+"glob": "0x412aa0",
+"reg": "call 0x2df16c",
+"init": "0x2ca75c",
+"users": [],
+"nrefs": 1
+},
+"Bools.upgradeFromBool": {
+"glob": "0x40f760",
+"reg": "call 0x2df16c",
+"init": "0x2ca7a0",
+"users": [],
+"nrefs": 1
+},
+"Bools.upgradeToBool": {
+"glob": "0x40f7b0",
+"reg": "call 0x2df16c",
+"init": "0x2ca7e4",
+"users": [],
+"nrefs": 1
+},
+"Bools.upkeeptime": {
+"glob": "0x413a90",
+"reg": "call 0x2df16c",
+"init": "0x2ca828",
+"users": [],
+"nrefs": 1
+},
+"Bools.usemisschance": {
+"glob": "0x3f7d10",
+"reg": "call 0x2df16c",
+"init": "0x2bebb4",
+"users": [
+"0x32c0d4",
+"0x359098"
+],
+"nrefs": 4
+},
+"Bools.usesmooth": {
+"glob": "0x3e9af0",
+"reg": "call 0x2df16c",
+"init": "0x2bcf7c",
+"users": [
+"0x2f9988",
+"0x2fa300",
+"0x359098"
+],
+"nrefs": 4
+},
+"Bools.vehiclechamenable": {
+"glob": "0x411790",
+"reg": "call 0x2df16c",
+"init": "0x2ca944",
+"users": [],
+"nrefs": 1
+},
+"Bools.water": {
+"glob": "0x3f9710",
+"reg": "call 0x2df16c",
+"init": "0x2bf234",
+"users": [
+"0x332554",
+"0x349db4"
+],
+"nrefs": 8
+},
+"Bools.weaponspammer": {
+"glob": "0x413400",
+"reg": "call 0x2df16c",
+"init": "0x2ca9d0",
+"users": [],
+"nrefs": 1
+},
+"Bools.white": {
+"glob": "0x4116f0",
+"reg": "call 0x2df16c",
+"init": "0x2caa5c",
+"users": [],
+"nrefs": 1
+},
+"Bools.woodesp": {
+"glob": "0x3e89c0",
+"reg": "call 0x2df16c",
+"init": "0x2bcfc0",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"Bools.workbench2": {
+"glob": "0x3e9460",
+"reg": "call 0x2df16c",
+"init": "0x2bd004",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"Bools.worlditemopen": {
+"glob": "0x410d40",
+"reg": "call 0x2df16c",
+"init": "0x2caae8",
+"users": [],
+"nrefs": 1
+},
+"Bools.worldoptionsopen": {
+"glob": "0x410b10",
+"reg": "call 0x2df16c",
+"init": "0x2cab2c",
+"users": [],
+"nrefs": 1
+},
+"Bools.yellow": {
+"glob": "0x411740",
+"reg": "call 0x2df16c",
+"init": "0x2cab70",
+"users": [],
+"nrefs": 1
+},
+"C.AWaterCrateColor": {
+"glob": "0x3ebe70",
+"reg": "call 0x2ee854",
+"init": "0x2b3ba4",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.AirDropColor": {
+"glob": "0x3ebff0",
+"reg": "call 0x2ee854",
+"init": "0x2b3cd4",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.AlertColor": {
+"glob": "0x3ea6d0",
+"reg": "call 0x2ee854",
+"init": "0x2b3dbc",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 4
+},
+"C.AmbientColor": {
+"glob": "0x3f8ae0",
+"reg": "call 0x2ee854",
+"init": "0x2bed1c",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 3
+},
+"C.AnimalCorpseC": {
+"glob": "0x3ec170",
+"reg": "call 0x2ee854",
+"init": "0x2b3f2c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.BackpackC": {
+"glob": "0x3ec1d0",
+"reg": "call 0x2ee854",
+"init": "0x2b43b4",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.BarrelColor": {
+"glob": "0x3ebb70",
+"reg": "call 0x2ee854",
+"init": "0x2b4458",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.BasicCrateColor": {
+"glob": "0x3ebf30",
+"reg": "call 0x2ee854",
+"init": "0x2b44b8",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.BasicWaterCrateColor": {
+"glob": "0x3ebed0",
+"reg": "call 0x2ee854",
+"init": "0x2b45a4",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.BearEspC": {
+"glob": "0x3eaa90",
+"reg": "call 0x2ee854",
+"init": "0x2b4784",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"C.BeeHiveColor": {
+"glob": "0x3ece90",
+"reg": "call 0x2ee854",
+"init": "0x2b482c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.BeeSwarmColor": {
+"glob": "0x3ecef0",
+"reg": "call 0x2ee854",
+"init": "0x2b491c",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"C.BikeColor": {
+"glob": "0x3eca10",
+"reg": "call 0x2ee854",
+"init": "0x2b4a74",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 4
+},
+"C.BlackColor": {
+"glob": "0x413f30",
+"reg": "call 0x2ee854",
+"init": "0x2c4134",
+"users": [],
+"nrefs": 1
+},
+"C.BlueColor": {
+"glob": "0x413f90",
+"reg": "call 0x2ee854",
+"init": "0x2c4194",
+"users": [],
+"nrefs": 1
+},
+"C.BradleyColor": {
+"glob": "0x3eb210",
+"reg": "call 0x2ee854",
+"init": "0x2b4c58",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 5
+},
+"C.CandyColor": {
+"glob": "0x413ed0",
+"reg": "call 0x2ee854",
+"init": "0x2c4350",
+"users": [],
+"nrefs": 1
+},
+"C.CarColor": {
+"glob": "0x3ed0d0",
+"reg": "call 0x2ee854",
+"init": "0x2b4dac",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 4
+},
+"C.CargoshipColor": {
+"glob": "0x3eb570",
+"reg": "call 0x2ee854",
+"init": "0x2b4e90",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 4
+},
+"C.CaveColor": {
+"glob": "0x414170",
+"reg": "call 0x2ee854",
+"init": "0x2c4440",
+"users": [],
+"nrefs": 1
+},
+"C.ChamsColor": {
+"glob": "0x4142f0",
+"reg": "call 0x2ee854",
+"init": "0x2c44e4",
+"users": [],
+"nrefs": 1
+},
+"C.CornColor": {
+"glob": "0x3eb7b0",
+"reg": "call 0x2ee854",
+"init": "0x2b5340",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"C.CorpseC": {
+"glob": "0x3ec050",
+"reg": "call 0x2ee854",
+"init": "0x2b542c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 5
+},
+"C.CorpseCNonNaked": {
+"glob": "0x3ec0b0",
+"reg": "call 0x2ee854",
+"init": "0x2b548c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.CowEspC": {
+"glob": "0x3eabb0",
+"reg": "call 0x2ee854",
+"init": "0x2b55c8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.CrocodileEspC": {
+"glob": "0x3ece30",
+"reg": "call 0x2ee854",
+"init": "0x2b56b8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.CrossColor": {
+"glob": "0x3ec8f0",
+"reg": "call 0x2ee854",
+"init": "0x2b571c",
+"users": [
+"0x3098a4",
+"0x337e7c",
+"0x3643b4"
+],
+"nrefs": 5
+},
+"C.CupboardC": {
+"glob": "0x3ead90",
+"reg": "call 0x2ee854",
+"init": "0x2b5810",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.DeadColor": {
+"glob": "0x3ec770",
+"reg": "call 0x2ee854",
+"init": "0x2b5964",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.DeathPosColor": {
+"glob": "0x4141d0",
+"reg": "call 0x2ee854",
+"init": "0x2c472c",
+"users": [],
+"nrefs": 1
+},
+"C.DieselCollectableColor": {
+"glob": "0x3ebb10",
+"reg": "call 0x2ee854",
+"init": "0x2b5ad8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.DroneColor": {
+"glob": "0x3eb390",
+"reg": "call 0x2ee854",
+"init": "0x2b5fbc",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.EliteCrateColor": {
+"glob": "0x3ebcf0",
+"reg": "call 0x2ee854",
+"init": "0x2b60a8",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.EnemyColor": {
+"glob": "0x3ec590",
+"reg": "call 0x2ee854",
+"init": "0x2b6194",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.EnemyColorAlert": {
+"glob": "0x413e10",
+"reg": "call 0x2ee854",
+"init": "0x2c49f4",
+"users": [],
+"nrefs": 1
+},
+"C.FlameTrapColor": {
+"glob": "0x3ec470",
+"reg": "call 0x2ee854",
+"init": "0x2b6474",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.FoodCrateColor": {
+"glob": "0x3ebdb0",
+"reg": "call 0x2ee854",
+"init": "0x2b6680",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.FragmentsColor": {
+"glob": "0x3ed190",
+"reg": "call 0x2ee854",
+"init": "0x2b68cc",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.GlowColor": {
+"glob": "0x3ea730",
+"reg": "call 0x2ee854",
+"init": "0x2b69c0",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"C.GreenColor": {
+"glob": "0x413ff0",
+"reg": "call 0x2ee854",
+"init": "0x2c4cc8",
+"users": [],
+"nrefs": 1
+},
+"C.GuntrapColor": {
+"glob": "0x3ec3b0",
+"reg": "call 0x2ee854",
+"init": "0x2b6af4",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.HBHFSensorColor": {
+"glob": "0x3ea850",
+"reg": "call 0x2ee854",
+"init": "0x2b6b94",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.HandChamsColor": {
+"glob": "0x414350",
+"reg": "call 0x2ee854",
+"init": "0x2c4d28",
+"users": [],
+"nrefs": 1
+},
+"C.HelicopterColor": {
+"glob": "0x3ec9b0",
+"reg": "call 0x2ee854",
+"init": "0x2b6d48",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 4
+},
+"C.HempColor": {
+"glob": "0x3eb930",
+"reg": "call 0x2ee854",
+"init": "0x2b6da4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.HorseEspC": {
+"glob": "0x3eacd0",
+"reg": "call 0x2ee854",
+"init": "0x2b6e90",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.HouseColor": {
+"glob": "0x3eb150",
+"reg": "call 0x2ee854",
+"init": "0x2b6fac",
+"users": [
+"0x3098a4",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.IridescentNonVisColor": {
+"glob": "0x4146b0",
+"reg": "call 0x2ee854",
+"init": "0x2c513c",
+"users": [],
+"nrefs": 1
+},
+"C.IridescentNonVisColorWeapons": {
+"glob": "0x4149b0",
+"reg": "call 0x2ee854",
+"init": "0x2c519c",
+"users": [],
+"nrefs": 1
+},
+"C.IridescentVisColor": {
+"glob": "0x414650",
+"reg": "call 0x2ee854",
+"init": "0x2c531c",
+"users": [],
+"nrefs": 1
+},
+"C.IridescentVisColorWeapons": {
+"glob": "0x414950",
+"reg": "call 0x2ee854",
+"init": "0x2c5378",
+"users": [],
+"nrefs": 1
+},
+"C.LandMineColor": {
+"glob": "0x3ec530",
+"reg": "call 0x2ee854",
+"init": "0x2b737c",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.LargeBatteryColor": {
+"glob": "0x3ea7f0",
+"reg": "call 0x2ee854",
+"init": "0x2b7460",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.LockedCrateColor": {
+"glob": "0x3ebf90",
+"reg": "call 0x2ee854",
+"init": "0x2b74e4",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.MarkerColor": {
+"glob": "0x3ecb30",
+"reg": "call 0x2ee854",
+"init": "0x2b75d0",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"C.MedicalCrateColor": {
+"glob": "0x3ebe10",
+"reg": "call 0x2ee854",
+"init": "0x2b7630",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.MetalBikeColor": {
+"glob": "0x3ea910",
+"reg": "call 0x2ee854",
+"init": "0x2b77b0",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.MetalCollectableColor": {
+"glob": "0x3eb9f0",
+"reg": "call 0x2ee854",
+"init": "0x2b7810",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.MetalOreColor": {
+"glob": "0x3eb6f0",
+"reg": "call 0x2ee854",
+"init": "0x2b6c3c",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 3
+},
+"C.MilitaryCrateColor": {
+"glob": "0x3ebc90",
+"reg": "call 0x2ee854",
+"init": "0x2b791c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.MinicopterColor": {
+"glob": "0x3eb450",
+"reg": "call 0x2ee854",
+"init": "0x2b7a4c",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.MushroomColor": {
+"glob": "0x3eb810",
+"reg": "call 0x2ee854",
+"init": "0x2b7aac",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.NPCCorpseC": {
+"glob": "0x3ec110",
+"reg": "call 0x2ee854",
+"init": "0x2b7b58",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.NPCcolor": {
+"glob": "0x3ec7d0",
+"reg": "call 0x2ee854",
+"init": "0x2b7c48",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 4
+},
+"C.NonVisChamsColor": {
+"glob": "0x3ecbf0",
+"reg": "call 0x2ee854",
+"init": "0x2b7dc8",
+"users": [
+"0x2fabf8",
+"0x338f30",
+"0x36a464"
+],
+"nrefs": 4
+},
+"C.NonVisChamsColorRe": {
+"glob": "0x3fc960",
+"reg": "call 0x2ee854",
+"init": "0x2bf9fc",
+"users": [
+"0x337e7c"
+],
+"nrefs": 2
+},
+"C.NonVisChamsColorWeapons": {
+"glob": "0x3ecc50",
+"reg": "call 0x2ee854",
+"init": "0x2b7e24",
+"users": [
+"0x2fb2f4",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.NonVisibleHandChamsColor": {
+"glob": "0x414410",
+"reg": "call 0x2ee854",
+"init": "0x2c5b1c",
+"users": [],
+"nrefs": 1
+},
+"C.NormalCrateColor": {
+"glob": "0x3ebc30",
+"reg": "call 0x2ee854",
+"init": "0x2b7ec8",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.OilBarrelColor": {
+"glob": "0x3ebbd0",
+"reg": "call 0x2ee854",
+"init": "0x2b80a8",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.OnlineSleeperColor": {
+"glob": "0x3fc8a0",
+"reg": "call 0x2ee854",
+"init": "0x2bfa58",
+"users": [
+"0x338f30"
+],
+"nrefs": 2
+},
+"C.OrchidColor": {
+"glob": "0x3ed070",
+"reg": "call 0x2ee854",
+"init": "0x2b8194",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.PantherEspC": {
+"glob": "0x3ecdd0",
+"reg": "call 0x2ee854",
+"init": "0x2b8500",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.PigEspC": {
+"glob": "0x3eac70",
+"reg": "call 0x2ee854",
+"init": "0x2b86a4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.PlayerColor1": {
+"glob": "0x3eca70",
+"reg": "call 0x2ee854",
+"init": "0x2b8750",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.PotatoColor": {
+"glob": "0x3eb8d0",
+"reg": "call 0x2ee854",
+"init": "0x2b89c4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.PresentColor": {
+"glob": "0x413db0",
+"reg": "call 0x2ee854",
+"init": "0x2c5c70",
+"users": [],
+"nrefs": 1
+},
+"C.PumpkinColor": {
+"glob": "0x3eb870",
+"reg": "call 0x2ee854",
+"init": "0x2b8a88",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.RFBroadcasterC": {
+"glob": "0x3eb030",
+"reg": "call 0x2ee854",
+"init": "0x2b8b30",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.RFReceiverC": {
+"glob": "0x3eafd0",
+"reg": "call 0x2ee854",
+"init": "0x2b8bd4",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.RHIBColor": {
+"glob": "0x3eb4b0",
+"reg": "call 0x2ee854",
+"init": "0x2b8c7c",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.RadarBGColor": {
+"glob": "0x3eaa30",
+"reg": "call 0x2ee854",
+"init": "0x2b8cdc",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"C.RadarCriclesColor": {
+"glob": "0x3ea970",
+"reg": "call 0x2ee854",
+"init": "0x2b8d3c",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"C.RadarCrossColor": {
+"glob": "0x3ea9d0",
+"reg": "call 0x2ee854",
+"init": "0x2b8d9c",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 8
+},
+"C.RaidColor": {
+"glob": "0x3fc840",
+"reg": "call 0x2ee854",
+"init": "0x2bfb40",
+"users": [
+"0x33e738",
+"0x36e55c"
+],
+"nrefs": 10
+},
+"C.RainbowNonVisible": {
+"glob": "0x4144d0",
+"reg": "call 0x2ee854",
+"init": "0x2c5f00",
+"users": [],
+"nrefs": 1
+},
+"C.RainbowNonVisibleWeapons": {
+"glob": "0x414770",
+"reg": "call 0x2ee854",
+"init": "0x2c5f64",
+"users": [],
+"nrefs": 1
+},
+"C.RainbowVisible": {
+"glob": "0x414470",
+"reg": "call 0x2ee854",
+"init": "0x2c5fc8",
+"users": [],
+"nrefs": 1
+},
+"C.RainbowVisibleWeapons": {
+"glob": "0x414710",
+"reg": "call 0x2ee854",
+"init": "0x2c6024",
+"users": [],
+"nrefs": 1
+},
+"C.RecyclerC": {
+"glob": "0x3eae50",
+"reg": "call 0x2ee854",
+"init": "0x2b8eb8",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.RedCardColor": {
+"glob": "0x3ed250",
+"reg": "call 0x2ee854",
+"init": "0x2b8f1c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.RedColor": {
+"glob": "0x414050",
+"reg": "call 0x2ee854",
+"init": "0x2c6080",
+"users": [],
+"nrefs": 1
+},
+"C.RoseColor": {
+"glob": "0x3ecfb0",
+"reg": "call 0x2ee854",
+"init": "0x2b9060",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.RowboatColor": {
+"glob": "0x3eb510",
+"reg": "call 0x2ee854",
+"init": "0x2b9144",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.Safezonecolor": {
+"glob": "0x3ec6b0",
+"reg": "call 0x2ee854",
+"init": "0x2b91e8",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.SamsiteColor": {
+"glob": "0x3ec410",
+"reg": "call 0x2ee854",
+"init": "0x2b9290",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 5
+},
+"C.SavedPosColor": {
+"glob": "0x3eb1b0",
+"reg": "call 0x2ee854",
+"init": "0x2b942c",
+"users": [
+"0x3098a4",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.ScrapheliColor": {
+"glob": "0x3eb3f0",
+"reg": "call 0x2ee854",
+"init": "0x2b95a0",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.SeismicSensorColor": {
+"glob": "0x3ea8b0",
+"reg": "call 0x2ee854",
+"init": "0x2b9644",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.SharkEspC": {
+"glob": "0x3ead30",
+"reg": "call 0x2ee854",
+"init": "0x2b9734",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.SheepEspC": {
+"glob": "0x3eac10",
+"reg": "call 0x2ee854",
+"init": "0x2b9824",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.SimProjectileColor": {
+"glob": "0x3ecad0",
+"reg": "call 0x2ee854",
+"init": "0x2b9a64",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 10
+},
+"C.SkyColor": {
+"glob": "0x3f8b40",
+"reg": "call 0x2ee854",
+"init": "0x2bf004",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 3
+},
+"C.SleeperColor": {
+"glob": "0x3ec710",
+"reg": "call 0x2ee854",
+"init": "0x2b9b50",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.SleepingBagC": {
+"glob": "0x3eaf70",
+"reg": "call 0x2ee854",
+"init": "0x2b9c34",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.SmallFragmentsColor": {
+"glob": "0x3ed1f0",
+"reg": "call 0x2ee854",
+"init": "0x2b9d30",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.SnakeEspC": {
+"glob": "0x3ecd10",
+"reg": "call 0x2ee854",
+"init": "0x2b9eb0",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.SnapColor": {
+"glob": "0x3ec890",
+"reg": "call 0x2ee854",
+"init": "0x2b9f14",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 4
+},
+"C.SnapTrapColor": {
+"glob": "0x3ec4d0",
+"reg": "call 0x2ee854",
+"init": "0x2b9f74",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.StagEspC": {
+"glob": "0x3eaaf0",
+"reg": "call 0x2ee854",
+"init": "0x2ba134",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.StarryNightInvisibleColor": {
+"glob": "0x4145f0",
+"reg": "call 0x2ee854",
+"init": "0x2c6874",
+"users": [],
+"nrefs": 1
+},
+"C.StarryNightInvisibleColorWeapons": {
+"glob": "0x4148f0",
+"reg": "call 0x2ee854",
+"init": "0x2c68d8",
+"users": [],
+"nrefs": 1
+},
+"C.StarryNightStarColor": {
+"glob": "0x414530",
+"reg": "call 0x2ee854",
+"init": "0x2c693c",
+"users": [],
+"nrefs": 1
+},
+"C.StarryNightStarColorItems": {
+"glob": "0x4147d0",
+"reg": "call 0x2ee854",
+"init": "0x2c6998",
+"users": [],
+"nrefs": 1
+},
+"C.StarryNightStarColorWeapons": {
+"glob": "0x414830",
+"reg": "call 0x2ee854",
+"init": "0x2c69f4",
+"users": [],
+"nrefs": 1
+},
+"C.StarryNightVisibleColor": {
+"glob": "0x414590",
+"reg": "call 0x2ee854",
+"init": "0x2c6a50",
+"users": [],
+"nrefs": 1
+},
+"C.StarryNightVisibleColorWeapons": {
+"glob": "0x414890",
+"reg": "call 0x2ee854",
+"init": "0x2c6ab0",
+"users": [],
+"nrefs": 1
+},
+"C.StashesHiddenC": {
+"glob": "0x3eaf10",
+"reg": "call 0x2ee854",
+"init": "0x2ba1dc",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"C.StashesUnHiddenC": {
+"glob": "0x3eaeb0",
+"reg": "call 0x2ee854",
+"init": "0x2ba284",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.StoneCollectableColor": {
+"glob": "0x3eb990",
+"reg": "call 0x2ee854",
+"init": "0x2ba2e8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.StoneOreColor": {
+"glob": "0x3eb5d0",
+"reg": "call 0x2ee854",
+"init": "0x2ba388",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 3
+},
+"C.SubColor": {
+"glob": "0x3eb270",
+"reg": "call 0x2ee854",
+"init": "0x2ba3e4",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.SulfurCollectableColor": {
+"glob": "0x3eba50",
+"reg": "call 0x2ee854",
+"init": "0x2ba4cc",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.SulfurOreColor": {
+"glob": "0x3eb750",
+"reg": "call 0x2ee854",
+"init": "0x2ba570",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 3
+},
+"C.SunflowerColor": {
+"glob": "0x3ed010",
+"reg": "call 0x2ee854",
+"init": "0x2ba5cc",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.Teamcolor": {
+"glob": "0x3ec830",
+"reg": "call 0x2ee854",
+"init": "0x2ba704",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.TigerEspC": {
+"glob": "0x3ecd70",
+"reg": "call 0x2ee854",
+"init": "0x2ba850",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.TinCanColor": {
+"glob": "0x3ec350",
+"reg": "call 0x2ee854",
+"init": "0x2ba8b4",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.ToolCrateColor": {
+"glob": "0x3ebd50",
+"reg": "call 0x2ee854",
+"init": "0x2ba910",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.TracerColor": {
+"glob": "0x3ea790",
+"reg": "call 0x2ee854",
+"init": "0x2baa40",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"C.TrainColor": {
+"glob": "0x3ed130",
+"reg": "call 0x2ee854",
+"init": "0x2bab08",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.TurretColor": {
+"glob": "0x3ec2f0",
+"reg": "call 0x2ee854",
+"init": "0x2badac",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.VisChamsColor": {
+"glob": "0x3ecb90",
+"reg": "call 0x2ee854",
+"init": "0x2bb1c0",
+"users": [
+"0x2fabf8",
+"0x338f30",
+"0x36a464"
+],
+"nrefs": 4
+},
+"C.VisChamsColorRe": {
+"glob": "0x3fc900",
+"reg": "call 0x2ee854",
+"init": "0x2bfd78",
+"users": [
+"0x337e7c"
+],
+"nrefs": 2
+},
+"C.VisChamsColorWeapons": {
+"glob": "0x3eccb0",
+"reg": "call 0x2ee854",
+"init": "0x2bb220",
+"users": [
+"0x2fb2f4",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.VisibleColor": {
+"glob": "0x3ec5f0",
+"reg": "call 0x2ee854",
+"init": "0x2bb2c4",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.VisibleHandChamsColor": {
+"glob": "0x4143b0",
+"reg": "call 0x2ee854",
+"init": "0x2c70c4",
+"users": [],
+"nrefs": 1
+},
+"C.WheatColor": {
+"glob": "0x3ecf50",
+"reg": "call 0x2ee854",
+"init": "0x2bb3d4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.WhiteColor": {
+"glob": "0x4140b0",
+"reg": "call 0x2ee854",
+"init": "0x2c7244",
+"users": [],
+"nrefs": 1
+},
+"C.WolfEspC": {
+"glob": "0x3eab50",
+"reg": "call 0x2ee854",
+"init": "0x2bb508",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.WoodCollectableColor": {
+"glob": "0x3ebab0",
+"reg": "call 0x2ee854",
+"init": "0x2bb56c",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"C.WoodPileColor": {
+"glob": "0x3eb630",
+"reg": "call 0x2ee854",
+"init": "0x2bb610",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 3
+},
+"C.WorkbenchC": {
+"glob": "0x3eb090",
+"reg": "call 0x2ee854",
+"init": "0x2bb6b8",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"C.WoundedPlayercolor": {
+"glob": "0x3ec650",
+"reg": "call 0x2ee854",
+"init": "0x2bb8b8",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 3
+},
+"C.YellowColor": {
+"glob": "0x414110",
+"reg": "call 0x2ee854",
+"init": "0x2c7330",
+"users": [],
+"nrefs": 1
+},
+"C.atackhelicolor": {
+"glob": "0x3eb2d0",
+"reg": "call 0x2ee854",
+"init": "0x2bbacc",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.deployabledistC": {
+"glob": "0x413e70",
+"reg": "call 0x2ee854",
+"init": "0x2c810c",
+"users": [],
+"nrefs": 1
+},
+"C.droppeditemsC": {
+"glob": "0x3ec230",
+"reg": "call 0x2ee854",
+"init": "0x2bc02c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"C.droppedweaponsC": {
+"glob": "0x3ec290",
+"reg": "call 0x2ee854",
+"init": "0x2bc0cc",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"C.fov_color": {
+"glob": "0x3ec950",
+"reg": "call 0x2ee854",
+"init": "0x2bc2e0",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"C.menu_accent": {
+"glob": "0x414290",
+"reg": "call 0x2ee854",
+"init": "0x2c8e8c",
+"users": [],
+"nrefs": 1
+},
+"C.snaplines_color": {
+"glob": "0x414230",
+"reg": "call 0x2ee854",
+"init": "0x2c9fb4",
+"users": [],
+"nrefs": 1
+},
+"C.tugboatcolor": {
+"glob": "0x3eb330",
+"reg": "call 0x2ee854",
+"init": "0x2bced8",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"C.workbench2C": {
+"glob": "0x3eb0f0",
+"reg": "call 0x2ee854",
+"init": "0x2bd048",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"F.AmbientMultiplier": {
+"glob": "0x3f8bf0",
+"reg": "call 0x2df024",
+"init": "0x2bed80",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 3
+},
+"F.AmbientMultiplierDay": {
+"glob": "0x4157d0",
+"reg": "call 0x2df024",
+"init": "0x2c3db4",
+"users": [],
+"nrefs": 1
+},
+"F.AnimalIconsMult": {
+"glob": "0x3ed3a0",
+"reg": "call 0x2df024",
+"init": "0x2b4018",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 6
+},
+"F.AspectValue": {
+"glob": "0x3f8ba0",
+"reg": "call 0x2df024",
+"init": "0x2beea8",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 3
+},
+"F.AutoDes": {
+"glob": "0x415460",
+"reg": "call 0x2df024",
+"init": "0x2c3f98",
+"users": [],
+"nrefs": 1
+},
+"F.BoomRadius": {
+"glob": "0x3eddf0",
+"reg": "call 0x2df024",
+"init": "0x2b4b6c",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 7
+},
+"F.BoxSpacing": {
+"glob": "0x402d20",
+"reg": "call 0x2df024",
+"init": "0x2c2708",
+"users": [
+"0x37b724",
+"0x37c484",
+"0x37d7b0"
+],
+"nrefs": 4
+},
+"F.BulletSize1": {
+"glob": "0x3f3d90",
+"reg": "call 0x2df024",
+"init": "0x2bd450",
+"users": [
+"0x324b30",
+"0x32a4f0",
+"0x330b38",
+"0x336868"
+],
+"nrefs": 7
+},
+"F.BulletSizeLegit": {
+"glob": "0x3f94e0",
+"reg": "call 0x2df024",
+"init": "0x2bf0d8",
+"users": [
+"0x330b38",
+"0x336868"
+],
+"nrefs": 3
+},
+"F.CollectableIconsMult": {
+"glob": "0x3ed300",
+"reg": "call 0x2df024",
+"init": "0x2b5130",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 19
+},
+"F.ContainerIconsMult": {
+"glob": "0x3ed3f0",
+"reg": "call 0x2df024",
+"init": "0x2b52f8",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 14
+},
+"F.CrossSpacing": {
+"glob": "0x3fcba0",
+"reg": "call 0x2df024",
+"init": "0x2bf4c0",
+"users": [
+"0x337e7c",
+"0x3643b4"
+],
+"nrefs": 3
+},
+"F.CurrentSize": {
+"glob": "0x4154b0",
+"reg": "call 0x2df024",
+"init": "0x2c46a0",
+"users": [],
+"nrefs": 1
+},
+"F.DeployableIconsMult": {
+"glob": "0x3ed4e0",
+"reg": "call 0x2df024",
+"init": "0x2b5a90",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 7
+},
+"F.DestroyTimer": {
+"glob": "0x3fca10",
+"reg": "call 0x2df024",
+"init": "0x2bf624",
+"users": [
+"0x337e7c",
+"0x36a464"
+],
+"nrefs": 4
+},
+"F.DistanceScaling": {
+"glob": "0x415b40",
+"reg": "call 0x2df024",
+"init": "0x2c4814",
+"users": [],
+"nrefs": 1
+},
+"F.EntityCircleSize": {
+"glob": "0x3ed9e0",
+"reg": "call 0x2df024",
+"init": "0x2b6298",
+"users": [
+"0x2fb72c",
+"0x341bd8"
+],
+"nrefs": 4
+},
+"F.FastSpeed": {
+"glob": "0x3edcb0",
+"reg": "call 0x2df024",
+"init": "0x2b6378",
+"users": [
+"0x318f34",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.FloatSmoothing": {
+"glob": "0x3edd00",
+"reg": "call 0x2df024",
+"init": "0x2b6514",
+"users": [
+"0x2f9988",
+"0x2fa300",
+"0x359098"
+],
+"nrefs": 4
+},
+"F.FoodIconsMult": {
+"glob": "0x3ed350",
+"reg": "call 0x2df024",
+"init": "0x2b67f8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 7
+},
+"F.FovValue": {
+"glob": "0x3ed800",
+"reg": "call 0x2df024",
+"init": "0x2b6884",
+"users": [
+"0x2f8574",
+"0x349db4"
+],
+"nrefs": 3
+},
+"F.GUIAnimationSpeed": {
+"glob": "0x3fcab0",
+"reg": "call 0x2df024",
+"init": "0x2bf7e4",
+"users": [
+"0x34aedc",
+"0x3872e8"
+],
+"nrefs": 4
+},
+"F.GlowChamsGlowIntensity": {
+"glob": "0x415eb0",
+"reg": "call 0x2df024",
+"init": "0x2c4c38",
+"users": [],
+"nrefs": 1
+},
+"F.GlowChamsGlowIntensityWeapons": {
+"glob": "0x414c90",
+"reg": "call 0x2df024",
+"init": "0x2c4c80",
+"users": [],
+"nrefs": 1
+},
+"F.GlowSmoothness": {
+"glob": "0x3ede90",
+"reg": "call 0x2df024",
+"init": "0x2b6a20",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"F.GlowStrength": {
+"glob": "0x3edd50",
+"reg": "call 0x2df024",
+"init": "0x2b6a68",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 3
+},
+"F.HeldItemIconMult": {
+"glob": "0x3fc9c0",
+"reg": "call 0x2df024",
+"init": "0x2bf82c",
+"users": [
+"0x338f30",
+"0x37bc98"
+],
+"nrefs": 3
+},
+"F.HeliMagicSTUFF": {
+"glob": "0x4160e0",
+"reg": "call 0x2df024",
+"init": "0x2c4e58",
+"users": [],
+"nrefs": 1
+},
+"F.Hitbonechance": {
+"glob": "0x415af0",
+"reg": "call 0x2df024",
+"init": "0x2c4ee4",
+"users": [],
+"nrefs": 1
+},
+"F.Hitbonechancemagic": {
+"glob": "0x4159b0",
+"reg": "call 0x2df024",
+"init": "0x2c4f2c",
+"users": [],
+"nrefs": 1
+},
+"F.IconSize": {
+"glob": "0x3edda0",
+"reg": "call 0x2df024",
+"init": "0x2b7064",
+"users": [
+"0x307638",
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 5
+},
+"F.IngameCircleSize": {
+"glob": "0x3eda30",
+"reg": "call 0x2df024",
+"init": "0x2b7100",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.IngameCircleSizeEntity": {
+"glob": "0x3eda80",
+"reg": "call 0x2df024",
+"init": "0x2b7148",
+"users": [
+"0x2fb72c",
+"0x341bd8",
+"0x36e55c"
+],
+"nrefs": 6
+},
+"F.InteractiveNoclipShiftSpeed": {
+"glob": "0x3f3f70",
+"reg": "call 0x2df024",
+"init": "0x2bd988",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.InteractiveNoclipSlowSpeed": {
+"glob": "0x3f3f20",
+"reg": "call 0x2df024",
+"init": "0x2bd9d0",
+"users": [
+"0x324b30"
+],
+"nrefs": 2
+},
+"F.InteractiveNormalSpeed": {
+"glob": "0x3f3ed0",
+"reg": "call 0x2df024",
+"init": "0x2bda18",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.IridescentIntensity": {
+"glob": "0x415000",
+"reg": "call 0x2df024",
+"init": "0x2c50ac",
+"users": [],
+"nrefs": 1
+},
+"F.IridescentIntensityWeapons": {
+"glob": "0x414e70",
+"reg": "call 0x2df024",
+"init": "0x2c50f4",
+"users": [],
+"nrefs": 1
+},
+"F.IridescentShiftSpeed": {
+"glob": "0x414fb0",
+"reg": "call 0x2df024",
+"init": "0x2c51fc",
+"users": [],
+"nrefs": 1
+},
+"F.IridescentShiftSpeedWeapons": {
+"glob": "0x414e20",
+"reg": "call 0x2df024",
+"init": "0x2c5244",
+"users": [],
+"nrefs": 1
+},
+"F.IridescentTransparency": {
+"glob": "0x415050",
+"reg": "call 0x2df024",
+"init": "0x2c528c",
+"users": [],
+"nrefs": 1
+},
+"F.IridescentTransparencyWeapons": {
+"glob": "0x414ec0",
+"reg": "call 0x2df024",
+"init": "0x2c52d4",
+"users": [],
+"nrefs": 1
+},
+"F.JiggleIntensitiy": {
+"glob": "0x415500",
+"reg": "call 0x2df024",
+"init": "0x2c53d4",
+"users": [],
+"nrefs": 1
+},
+"F.LightIntensity": {
+"glob": "0x4156e0",
+"reg": "call 0x2df024",
+"init": "0x2c54a8",
+"users": [],
+"nrefs": 1
+},
+"F.LightIntensityDay": {
+"glob": "0x415780",
+"reg": "call 0x2df024",
+"init": "0x2c54f0",
+"users": [],
+"nrefs": 1
+},
+"F.LineThicknessPath": {
+"glob": "0x414f60",
+"reg": "call 0x2df024",
+"init": "0x2c5538",
+"users": [],
+"nrefs": 1
+},
+"F.MagicPoints": {
+"glob": "0x415ff0",
+"reg": "call 0x2df024",
+"init": "0x2c564c",
+"users": [],
+"nrefs": 1
+},
+"F.MaxDesync": {
+"glob": "0x4151e0",
+"reg": "call 0x2df024",
+"init": "0x2c5694",
+"users": [],
+"nrefs": 1
+},
+"F.Metallic": {
+"glob": "0x414b00",
+"reg": "call 0x2df024",
+"init": "0x2c5768",
+"users": [],
+"nrefs": 1
+},
+"F.MinimumDesyncInstantkill": {
+"glob": "0x3e52d0",
+"reg": "call 0x2df024",
+"init": "0x2b3654",
+"users": [
+"0x2e6b20",
+"0x336868"
+],
+"nrefs": 5
+},
+"F.Multiplier": {
+"glob": "0x414a10",
+"reg": "call 0x2df024",
+"init": "0x2c57f4",
+"users": [],
+"nrefs": 1
+},
+"F.NPCCircleSize": {
+"glob": "0x3ed940",
+"reg": "call 0x2df024",
+"init": "0x2b7b10",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.NPCDirectionLength": {
+"glob": "0x3edad0",
+"reg": "call 0x2df024",
+"init": "0x2b7bb8",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.NPCDirectionWidth": {
+"glob": "0x3edb70",
+"reg": "call 0x2df024",
+"init": "0x2b7c00",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.NoclipNormalSpeed": {
+"glob": "0x3f3de0",
+"reg": "call 0x2df024",
+"init": "0x2bdd30",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.NoclipShiftSpeed": {
+"glob": "0x3f3e80",
+"reg": "call 0x2df024",
+"init": "0x2bdd78",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.NoclipSlowSpeed": {
+"glob": "0x3f3e30",
+"reg": "call 0x2df024",
+"init": "0x2bddc0",
+"users": [
+"0x324b30",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.OOFSize": {
+"glob": "0x3ed710",
+"reg": "call 0x2df024",
+"init": "0x2b7fd4",
+"users": [
+"0x3098a4"
+],
+"nrefs": 2
+},
+"F.OreIconsMult": {
+"glob": "0x3ed2b0",
+"reg": "call 0x2df024",
+"init": "0x2b8308",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 3
+},
+"F.OtherIconsMult": {
+"glob": "0x3ed440",
+"reg": "call 0x2df024",
+"init": "0x2b8420",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 7
+},
+"F.PerfectAmount": {
+"glob": "0x3fcb50",
+"reg": "call 0x2df024",
+"init": "0x2bfab4",
+"users": [
+"0x337e7c",
+"0x3643b4"
+],
+"nrefs": 3
+},
+"F.PierceValue": {
+"glob": "0x415870",
+"reg": "call 0x2df024",
+"init": "0x2c5c28",
+"users": [],
+"nrefs": 1
+},
+"F.PlayerCirlceSize": {
+"glob": "0x3ed990",
+"reg": "call 0x2df024",
+"init": "0x2b8708",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.PlayerDirectionLength": {
+"glob": "0x3edb20",
+"reg": "call 0x2df024",
+"init": "0x2b87f8",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.PlayerDirectionWidth": {
+"glob": "0x3edbc0",
+"reg": "call 0x2df024",
+"init": "0x2b8840",
+"users": [
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 3
+},
+"F.PlayerSpacing": {
+"glob": "0x3ed760",
+"reg": "call 0x2df024",
+"init": "0x2b8918",
+"users": [
+"0x3098a4",
+"0x338f30",
+"0x37bc98"
+],
+"nrefs": 7
+},
+"F.ProjectileDesync": {
+"glob": "0x4158c0",
+"reg": "call 0x2df024",
+"init": "0x2c5ccc",
+"users": [],
+"nrefs": 1
+},
+"F.ProjectileProtection": {
+"glob": "0x415960",
+"reg": "call 0x2df024",
+"init": "0x2c5d14",
+"users": [],
+"nrefs": 1
+},
+"F.ProjectileRadius": {
+"glob": "0x3ede40",
+"reg": "call 0x2df024",
+"init": "0x2b8a28",
+"users": [
+"0x3098a4",
+"0x337e7c"
+],
+"nrefs": 6
+},
+"F.RadarSize": {
+"glob": "0x3ed8f0",
+"reg": "call 0x2df024",
+"init": "0x2b8dfc",
+"users": [
+"0x2fb72c",
+"0x3098a4",
+"0x341bd8"
+],
+"nrefs": 14
+},
+"F.RainbowIntensity": {
+"glob": "0x414b50",
+"reg": "call 0x2df024",
+"init": "0x2c5e70",
+"users": [],
+"nrefs": 1
+},
+"F.RainbowIntensityWeapons": {
+"glob": "0x414ce0",
+"reg": "call 0x2df024",
+"init": "0x2c5eb8",
+"users": [],
+"nrefs": 1
+},
+"F.ReflectionMultiplier": {
+"glob": "0x415730",
+"reg": "call 0x2df024",
+"init": "0x2c60e0",
+"users": [],
+"nrefs": 1
+},
+"F.SilentFarmTreeDelay": {
+"glob": "0x415a50",
+"reg": "call 0x2df024",
+"init": "0x2c64cc",
+"users": [],
+"nrefs": 1
+},
+"F.Silent_ForceCheckDistance": {
+"glob": "0x415910",
+"reg": "call 0x2df024",
+"init": "0x2c6558",
+"users": [],
+"nrefs": 1
+},
+"F.Silent_maxDist": {
+"glob": "0x415a00",
+"reg": "call 0x2df024",
+"init": "0x2c65a0",
+"users": [],
+"nrefs": 1
+},
+"F.SkeletonThickness": {
+"glob": "0x3ed5d0",
+"reg": "call 0x2df024",
+"init": "0x2b9b08",
+"users": [
+"0x3098a4",
+"0x338f30"
+],
+"nrefs": 38
+},
+"F.SlowSpeed": {
+"glob": "0x3edc60",
+"reg": "call 0x2df024",
+"init": "0x2b9c98",
+"users": [
+"0x318f34",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.Smoothness": {
+"glob": "0x414ab0",
+"reg": "call 0x2df024",
+"init": "0x2c6630",
+"users": [],
+"nrefs": 1
+},
+"F.SpreadAmount": {
+"glob": "0x3f7ef0",
+"reg": "call 0x2df024",
+"init": "0x2be9c8",
+"users": [
+"0x32c0d4",
+"0x34841c"
+],
+"nrefs": 3
+},
+"F.SubTract": {
+"glob": "0x415be0",
+"reg": "call 0x2df024",
+"init": "0x2c6b10",
+"users": [],
+"nrefs": 1
+},
+"F.SuccessRate": {
+"glob": "0x3ed8a0",
+"reg": "call 0x2df024",
+"init": "0x2ba484",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 3
+},
+"F.TestValue": {
+"glob": "0x415410",
+"reg": "call 0x2df024",
+"init": "0x2c6c70",
+"users": [],
+"nrefs": 1
+},
+"F.TestValue1234545": {
+"glob": "0x415b90",
+"reg": "call 0x2df024",
+"init": "0x2c6be0",
+"users": [],
+"nrefs": 1
+},
+"F.Thickness": {
+"glob": "0x3f7f40",
+"reg": "call 0x2df024",
+"init": "0x2bea10",
+"users": [
+"0x32c0d4",
+"0x34841c"
+],
+"nrefs": 9
+},
+"F.ThirdPersonValue": {
+"glob": "0x415d70",
+"reg": "call 0x2df024",
+"init": "0x2c6d00",
+"users": [],
+"nrefs": 1
+},
+"F.TracerLifetime": {
+"glob": "0x3ed580",
+"reg": "call 0x2df024",
+"init": "0x2baaa0",
+"users": [
+"0x337e7c"
+],
+"nrefs": 3
+},
+"F.TrapDistance": {
+"glob": "0x4150a0",
+"reg": "call 0x2df024",
+"init": "0x2c6d48",
+"users": [],
+"nrefs": 1
+},
+"F.TrapIconsMult": {
+"glob": "0x3ed530",
+"reg": "call 0x2df024",
+"init": "0x2bac30",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 9
+},
+"F.VehicleIconsMult": {
+"glob": "0x3ed490",
+"reg": "call 0x2df024",
+"init": "0x2bafec",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 8
+},
+"F.ViewValue": {
+"glob": "0x3ed7b0",
+"reg": "call 0x2df024",
+"init": "0x2bb078",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 3
+},
+"F.WorldDistance": {
+"glob": "0x415280",
+"reg": "call 0x2df024",
+"init": "0x2c72a4",
+"users": [],
+"nrefs": 1
+},
+"F.ZoomValue": {
+"glob": "0x3ed850",
+"reg": "call 0x2df024",
+"init": "0x2bb958",
+"users": [
+"0x2f8574",
+"0x349db4"
+],
+"nrefs": 3
+},
+"F._StarDensity": {
+"glob": "0x414ba0",
+"reg": "call 0x2df024",
+"init": "0x2c7390",
+"users": [],
+"nrefs": 1
+},
+"F._StarDensityWeapons": {
+"glob": "0x414d30",
+"reg": "call 0x2df024",
+"init": "0x2c73d8",
+"users": [],
+"nrefs": 1
+},
+"F._Transparency": {
+"glob": "0x414c40",
+"reg": "call 0x2df024",
+"init": "0x2c7420",
+"users": [],
+"nrefs": 1
+},
+"F._TransparencyWeapons": {
+"glob": "0x414dd0",
+"reg": "call 0x2df024",
+"init": "0x2c7468",
+"users": [],
+"nrefs": 1
+},
+"F._TwinkleSpeed": {
+"glob": "0x414bf0",
+"reg": "call 0x2df024",
+"init": "0x2c74b0",
+"users": [],
+"nrefs": 1
+},
+"F._TwinkleSpeedWeapons": {
+"glob": "0x414d80",
+"reg": "call 0x2df024",
+"init": "0x2c74f8",
+"users": [],
+"nrefs": 1
+},
+"F.bonesize": {
+"glob": "0x415e10",
+"reg": "call 0x2df024",
+"init": "0x2c7aa4",
+"users": [],
+"nrefs": 1
+},
+"F.bulletspeedtest": {
+"glob": "0x415dc0",
+"reg": "call 0x2df024",
+"init": "0x2c7b44",
+"users": [],
+"nrefs": 1
+},
+"F.chamrefresh": {
+"glob": "0x415640",
+"reg": "call 0x2df024",
+"init": "0x2c7c5c",
+"users": [],
+"nrefs": 1
+},
+"F.chamrefresh1": {
+"glob": "0x415690",
+"reg": "call 0x2df024",
+"init": "0x2c7c14",
+"users": [],
+"nrefs": 1
+},
+"F.closeness": {
+"glob": "0x416090",
+"reg": "call 0x2df024",
+"init": "0x2c7cec",
+"users": [],
+"nrefs": 1
+},
+"F.crosssize": {
+"glob": "0x415c30",
+"reg": "call 0x2df024",
+"init": "0x2c7e44",
+"users": [],
+"nrefs": 1
+},
+"F.currentApoint": {
+"glob": "0x415140",
+"reg": "call 0x2df024",
+"init": "0x2c7f18",
+"users": [],
+"nrefs": 1
+},
+"F.currentmovementvalue": {
+"glob": "0x4155a0",
+"reg": "call 0x2df024",
+"init": "0x2c7f60",
+"users": [],
+"nrefs": 1
+},
+"F.currentxpoint": {
+"glob": "0x415320",
+"reg": "call 0x2df024",
+"init": "0x2c7fa8",
+"users": [],
+"nrefs": 1
+},
+"F.currentypoint": {
+"glob": "0x4152d0",
+"reg": "call 0x2df024",
+"init": "0x2c7ff0",
+"users": [],
+"nrefs": 1
+},
+"F.debugFloat": {
+"glob": "0x414a60",
+"reg": "call 0x2df024",
+"init": "0x2c8080",
+"users": [],
+"nrefs": 1
+},
+"F.fishingstrain": {
+"glob": "0x3fca60",
+"reg": "call 0x2df024",
+"init": "0x2bff0c",
+"users": [
+"0x3429f4"
+],
+"nrefs": 2
+},
+"F.fuckyou": {
+"glob": "0x4153c0",
+"reg": "call 0x2df024",
+"init": "0x2c86b8",
+"users": [],
+"nrefs": 1
+},
+"F.helimagicstuff1": {
+"glob": "0x416130",
+"reg": "call 0x2df024",
+"init": "0x2c896c",
+"users": [
+"0x2c5930"
+],
+"nrefs": 2
+},
+"F.innerRadius": {
+"glob": "0x414f10",
+"reg": "call 0x2df024",
+"init": "0x2c8ac4",
+"users": [],
+"nrefs": 1
+},
+"F.lookingatradius": {
+"glob": "0x3ed6c0",
+"reg": "call 0x2df024",
+"init": "0x2bc680",
+"users": [
+"0x31acd0",
+"0x338f30",
+"0x3684e0"
+],
+"nrefs": 4
+},
+"F.magicdistance": {
+"glob": "0x415190",
+"reg": "call 0x2df024",
+"init": "0x2c8d2c",
+"users": [],
+"nrefs": 1
+},
+"F.magicvaluetest": {
+"glob": "0x415e60",
+"reg": "call 0x2df024",
+"init": "0x2c8d74",
+"users": [],
+"nrefs": 1
+},
+"F.maxvaluemanip": {
+"glob": "0x4150f0",
+"reg": "call 0x2df024",
+"init": "0x2c8dbc",
+"users": [],
+"nrefs": 1
+},
+"F.misschance": {
+"glob": "0x3f7ea0",
+"reg": "call 0x2df024",
+"init": "0x2bea9c",
+"users": [
+"0x32c0d4",
+"0x359098"
+],
+"nrefs": 4
+},
+"F.noclipvalue": {
+"glob": "0x4155f0",
+"reg": "call 0x2df024",
+"init": "0x2c8ffc",
+"users": [],
+"nrefs": 1
+},
+"F.outerRadius": {
+"glob": "0x3ed620",
+"reg": "call 0x2df024",
+"init": "0x2bc81c",
+"users": [
+"0x3098a4",
+"0x346ccc",
+"0x35b508",
+"0x35c938"
+],
+"nrefs": 5
+},
+"F.projectilespeed": {
+"glob": "0x3d8060",
+"reg": "call 0x2df024",
+"init": "0x2b31d8",
+"users": [
+"0x2e12e0",
+"0x2f9988",
+"0x2fa300",
+"0x3098a4",
+"0x32c0d4",
+"0x34841c"
+],
+"nrefs": 11
+},
+"F.projectilevisualsize": {
+"glob": "0x3f7e50",
+"reg": "call 0x2df024",
+"init": "0x2beb28",
+"users": [
+"0x32bf38",
+"0x34841c"
+],
+"nrefs": 3
+},
+"F.radarshit": {
+"glob": "0x415230",
+"reg": "call 0x2df024",
+"init": "0x2c9480",
+"users": [],
+"nrefs": 1
+},
+"F.radius": {
+"glob": "0x415fa0",
+"reg": "call 0x2df024",
+"init": "0x2c950c",
+"users": [],
+"nrefs": 1
+},
+"F.raidtime": {
+"glob": "0x3fcb00",
+"reg": "call 0x2df024",
+"init": "0x2c1e14",
+"users": [
+"0x33e738",
+"0x36f788"
+],
+"nrefs": 4
+},
+"F.reloadrate": {
+"glob": "0x415c80",
+"reg": "call 0x2df024",
+"init": "0x2c9620",
+"users": [],
+"nrefs": 1
+},
+"F.spamspeed": {
+"glob": "0x415aa0",
+"reg": "call 0x2df024",
+"init": "0x2ca010",
+"users": [],
+"nrefs": 1
+},
+"F.speedlimiter": {
+"glob": "0x3edc10",
+"reg": "call 0x2df024",
+"init": "0x2bcce4",
+"users": [
+"0x318f34",
+"0x346ccc"
+],
+"nrefs": 3
+},
+"F.spinbotSpeed": {
+"glob": "0x415550",
+"reg": "call 0x2df024",
+"init": "0x2ca124",
+"users": [],
+"nrefs": 1
+},
+"F.spinspeed": {
+"glob": "0x3fcbf0",
+"reg": "call 0x2df024",
+"init": "0x2c1ea4",
+"users": [
+"0x337e7c",
+"0x3643b4"
+],
+"nrefs": 3
+},
+"F.teleportdistance": {
+"glob": "0x3ed670",
+"reg": "call 0x2df024",
+"init": "0x2bcdb4",
+"users": [
+"0x3098a4",
+"0x32cea8"
+],
+"nrefs": 3
+},
+"F.test": {
+"glob": "0x415d20",
+"reg": "call 0x2df024",
+"init": "0x2ca34c",
+"users": [],
+"nrefs": 1
+},
+"F.testtime": {
+"glob": "0x416040",
+"reg": "call 0x2df024",
+"init": "0x2ca394",
+"users": [],
+"nrefs": 1
+},
+"F.thirdvalue": {
+"glob": "0x415370",
+"reg": "call 0x2df024",
+"init": "0x2ca468",
+"users": [],
+"nrefs": 1
+},
+"F.valforaim": {
+"glob": "0x415cd0",
+"reg": "call 0x2df024",
+"init": "0x2ca86c",
+"users": [],
+"nrefs": 1
+},
+"F.value3": {
+"glob": "0x3f3fc0",
+"reg": "call 0x2df024",
+"init": "0x2be7c4",
+"users": [
+"0x324b30",
+"0x336868"
+],
+"nrefs": 3
+},
+"F.value4": {
+"glob": "0x3f4010",
+"reg": "call 0x2df024",
+"init": "0x2be80c",
+"users": [
+"0x324b30",
+"0x336868"
+],
+"nrefs": 3
+},
+"F.value5": {
+"glob": "0x415f00",
+"reg": "call 0x2df024",
+"init": "0x2ca8b4",
+"users": [],
+"nrefs": 1
+},
+"F.value6": {
+"glob": "0x415f50",
+"reg": "call 0x2df024",
+"init": "0x2ca8fc",
+"users": [],
+"nrefs": 1
+},
+"F.weaponspammertime": {
+"glob": "0x415820",
+"reg": "call 0x2df024",
+"init": "0x2caa14",
+"users": [],
+"nrefs": 1
+},
+"K.AimbotVirtualKey": {
+"glob": "0x3f43f0",
+"reg": "call 0x2df0c4",
+"init": "0x2bd224",
+"users": [
+"0x324b30",
+"0x359098"
+],
+"nrefs": 3
+},
+"K.AmbientVirtualKey": {
+"glob": "0x3f8ce0",
+"reg": "call 0x2df0c4",
+"init": "0x2bee10",
+"users": [
+"0x32f408",
+"0x349db4",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"K.AutoAuthVirtual": {
+"glob": "0x3ef550",
+"reg": "call 0x2df0c4",
+"init": "0x2b40e8",
+"users": [
+"0x2f8f74",
+"0x3098a4",
+"0x31acd0",
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 12
+},
+"K.AutoCollect": {
+"glob": "0x3ef430",
+"reg": "call 0x2df0c4",
+"init": "0x2b417c",
+"users": [
+"0x2fb72c",
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 28
+},
+"K.AutoFarmOreVirtual": {
+"glob": "0x3d81f0",
+"reg": "call 0x2df0c4",
+"init": "0x2b2c70",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x2f9138",
+"0x31acd0",
+"0x324b30",
+"0x32cea8",
+"0x32dbb0",
+"0x35d5ac"
+],
+"nrefs": 12
+},
+"K.AutoLootKeyCode": {
+"glob": "0x3e5540",
+"reg": "call 0x2df0c4",
+"init": "0x2b33e4",
+"users": [
+"0x2e6b20",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"K.AutoStackKey": {
+"glob": "0x3fd0f0",
+"reg": "call 0x2df0c4",
+"init": "0x2bf2dc",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 3
+},
+"K.AutoWalkToMarkerVirtual": {
+"glob": "0x3ef490",
+"reg": "call 0x2df0c4",
+"init": "0x2b4298",
+"users": [
+"0x324b30",
+"0x32cea8",
+"0x32dbb0",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"K.CancelAllVirtualKey": {
+"glob": "0x3f42d0",
+"reg": "call 0x2df0c4",
+"init": "0x2bd4dc",
+"users": [
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.CorpseLTWKey": {
+"glob": "0x3ef5b0",
+"reg": "call 0x2df0c4",
+"init": "0x2b54ec",
+"users": [
+"0x2fb72c",
+"0x3098a4",
+"0x31acd0",
+"0x324b30",
+"0x33c768",
+"0x35d5ac"
+],
+"nrefs": 11
+},
+"K.CrouchKey": {
+"glob": "0x3ef610",
+"reg": "call 0x2df0c4",
+"init": "0x2b577c",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x32dbb0",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"K.DebugVirtualKey": {
+"glob": "0x3f44b0",
+"reg": "call 0x2df0c4",
+"init": "0x2bd5f8",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"K.DemoRecordKey": {
+"glob": "0x3f41b0",
+"reg": "call 0x2df0c4",
+"init": "0x2bd68c",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.DemolishHotkey": {
+"glob": "0x3f4330",
+"reg": "call 0x2df0c4",
+"init": "0x2bd794",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"K.FastVirtualKey": {
+"glob": "0x3ef8b0",
+"reg": "call 0x2df0c4",
+"init": "0x2b63c0",
+"users": [
+"0x318f34",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.FlyVirtualKey": {
+"glob": "0x3efa30",
+"reg": "call 0x2df0c4",
+"init": "0x2b655c",
+"users": [
+"0x3098a4",
+"0x322aec",
+"0x324b30",
+"0x32dbb0",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 14
+},
+"K.InfJumpVirtualKey": {
+"glob": "0x3ef730",
+"reg": "call 0x2df0c4",
+"init": "0x2b70ac",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 7
+},
+"K.InteractiveVirtualKey": {
+"glob": "0x3d8250",
+"reg": "call 0x2df0c4",
+"init": "0x2b2de8",
+"users": [
+"0x2e12e0",
+"0x2e6b20",
+"0x3098a4",
+"0x319024",
+"0x322aec",
+"0x324b30",
+"0x32cea8",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 36
+},
+"K.LowVelocityVirtualKey": {
+"glob": "0x3d82b0",
+"reg": "call 0x2df0c4",
+"init": "0x2b2e7c",
+"users": [
+"0x2e12e0",
+"0x2f9988",
+"0x2fa300",
+"0x3098a4",
+"0x324b30",
+"0x32c0d4",
+"0x336868",
+"0x35d5ac"
+],
+"nrefs": 14
+},
+"K.MenuHotkey": {
+"glob": "0x3ef790",
+"reg": "call 0x2df0c4",
+"init": "0x2b771c",
+"users": [
+"0x2f8574",
+"0x34aedc"
+],
+"nrefs": 3
+},
+"K.NoCollisionKey": {
+"glob": "0x416d60",
+"reg": "call 0x2df0c4",
+"init": "0x2c5a00",
+"users": [],
+"nrefs": 1
+},
+"K.NoCollisionNoclipKey": {
+"glob": "0x3ef7f0",
+"reg": "call 0x2df0c4",
+"init": "0x2b7cac",
+"users": [
+"0x3098a4",
+"0x322aec",
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 9
+},
+"K.RecoilKey": {
+"glob": "0x3efbb0",
+"reg": "call 0x2df0c4",
+"init": "0x2b8e64",
+"users": [
+"0x3098a4",
+"0x319024",
+"0x324b30",
+"0x34841c",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"K.ReplaceDoorKey": {
+"glob": "0x3e5480",
+"reg": "call 0x2df0c4",
+"init": "0x2b3724",
+"users": [
+"0x2e6b20",
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 7
+},
+"K.ResetCraftingVirtual": {
+"glob": "0x3ef4f0",
+"reg": "call 0x2df0c4",
+"init": "0x2b9010",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"K.RotateHotkey": {
+"glob": "0x3f4390",
+"reg": "call 0x2df0c4",
+"init": "0x2bde9c",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"K.SecondAimbotVirtualKey": {
+"glob": "0x3f4450",
+"reg": "call 0x2df0c4",
+"init": "0x2bdf48",
+"users": [
+"0x324b30",
+"0x359098",
+"0x369790"
+],
+"nrefs": 4
+},
+"K.SignPainterKey": {
+"glob": "0x3f4150",
+"reg": "call 0x2df0c4",
+"init": "0x2bdf98",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"K.SlowVirtualKey": {
+"glob": "0x3ef910",
+"reg": "call 0x2df0c4",
+"init": "0x2b9ce0",
+"users": [
+"0x318f34",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.SpidermanVirtualKey": {
+"glob": "0x3efa90",
+"reg": "call 0x2df0c4",
+"init": "0x2ba058",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"K.SuicideVirtualKey": {
+"glob": "0x3f4270",
+"reg": "call 0x2df0c4",
+"init": "0x2be0b4",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.TeleportVirtualKey": {
+"glob": "0x3efaf0",
+"reg": "call 0x2df0c4",
+"init": "0x2ba774",
+"users": [
+"0x3098a4",
+"0x324b30",
+"0x32cea8",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 14
+},
+"K.UpgradeKey": {
+"glob": "0x3e5420",
+"reg": "call 0x2df0c4",
+"init": "0x2b3844",
+"users": [
+"0x2e6b20",
+"0x3098a4",
+"0x324b30",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 9
+},
+"K.UpgradeKey1": {
+"glob": "0x3f4210",
+"reg": "call 0x2df0c4",
+"init": "0x2be110",
+"users": [
+"0x324b30",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"K.addenemyvirtualkey": {
+"glob": "0x3ef6d0",
+"reg": "call 0x2df0c4",
+"init": "0x2bb9a0",
+"users": [
+"0x3098a4",
+"0x338f30",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.addfriendvirtualkey": {
+"glob": "0x3ef850",
+"reg": "call 0x2df0c4",
+"init": "0x2bb9f0",
+"users": [
+"0x3098a4",
+"0x338f30",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.battlemodevirtualkey": {
+"glob": "0x3efc10",
+"reg": "call 0x2df0c4",
+"init": "0x2bbcdc",
+"users": [
+"0x3098a4",
+"0x33e738",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"K.despawnkeycode": {
+"glob": "0x3e54e0",
+"reg": "call 0x2df0c4",
+"init": "0x2b39fc",
+"users": [
+"0x2e6b20",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"K.dropinvkeycode": {
+"glob": "0x3e55a0",
+"reg": "call 0x2df0c4",
+"init": "0x2b3a90",
+"users": [
+"0x2b3564",
+"0x2b35a8",
+"0x2e6b20",
+"0x3429f4",
+"0x35d5ac"
+],
+"nrefs": 9
+},
+"K.laddervirtualkey": {
+"glob": "0x3efb50",
+"reg": "call 0x2df0c4",
+"init": "0x2bc5a4",
+"users": [
+"0x3098a4",
+"0x319024",
+"0x324b30",
+"0x346ccc",
+"0x35d5ac"
+],
+"nrefs": 10
+},
+"K.layermaskkey": {
+"glob": "0x3f4510",
+"reg": "call 0x2df0c4",
+"init": "0x2be3d4",
+"users": [
+"0x324b30",
+"0x349db4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.mountablekey": {
+"glob": "0x3fd1b0",
+"reg": "call 0x2df0c4",
+"init": "0x2c1d30",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 3
+},
+"K.pointvirtualkey": {
+"glob": "0x3fd150",
+"reg": "call 0x2df0c4",
+"init": "0x2c1dc4",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 3
+},
+"K.savedposvirtualkey": {
+"glob": "0x3ef970",
+"reg": "call 0x2df0c4",
+"init": "0x2bcaec",
+"users": [
+"0x3098a4",
+"0x33e738",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.savehousevirtualkey": {
+"glob": "0x3ef9d0",
+"reg": "call 0x2df0c4",
+"init": "0x2bcb80",
+"users": [
+"0x3098a4",
+"0x33e738",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"K.steallootkey": {
+"glob": "0x3e53c0",
+"reg": "call 0x2df0c4",
+"init": "0x2b3b24",
+"users": [
+"0x2e6b20",
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 6
+},
+"K.zoomvirtualkey": {
+"glob": "0x3ef670",
+"reg": "call 0x2df0c4",
+"init": "0x2bd0ac",
+"users": [
+"0x2f8574",
+"0x349db4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"S.BruteForceStart": {
+"glob": "0x3fd210",
+"reg": "call 0x323398",
+"init": "0x2bf400",
+"users": [
+"0x3455b4",
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"S.ConfigInputTest": {
+"glob": "0x3fd2f0",
+"reg": "call 0x323398",
+"init": "0x2bf460",
+"users": [
+"0x34c4b0",
+"0x35d5ac"
+],
+"nrefs": 4
+},
+"S.FavoriteInputText": {
+"glob": "0x3fd360",
+"reg": "call 0x323398",
+"init": "0x2bf73c",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 5
+},
+"S.SearchInputTest": {
+"glob": "0x3fd280",
+"reg": "call 0x323398",
+"init": "0x2bfc30",
+"users": [
+"0x34d784",
+"0x34e554",
+"0x34f35c",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"S.SpoofedName": {
+"glob": "0x3fd3d0",
+"reg": "call 0x323398",
+"init": "0x2bfc90",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 2
+},
+"S.enemyList": {
+"glob": "0x416dc0",
+"reg": "call 0x323398",
+"init": "0x2c830c",
+"users": [],
+"nrefs": 1
+},
+"S.friendList": {
+"glob": "0x416e30",
+"reg": "call 0x323398",
+"init": "0x2c8614",
+"users": [],
+"nrefs": 1
+},
+"V2.ClothingPosition": {
+"glob": "0x3efe00",
+"reg": "call 0x2eea0c",
+"init": "0x2b4fec",
+"users": [
+"0x307638"
+],
+"nrefs": 14
+},
+"V2.ClothingSize": {
+"glob": "0x3eff40",
+"reg": "call 0x2eea0c",
+"init": "0x2b5044",
+"users": [
+"0x307638"
+],
+"nrefs": 12
+},
+"V2.FishingBarPosition": {
+"glob": "0x3efc70",
+"reg": "call 0x2eea0c",
+"init": "0x2b6410",
+"users": [
+"0x3098a4"
+],
+"nrefs": 5
+},
+"V2.HotBarPosition": {
+"glob": "0x3efdb0",
+"reg": "call 0x2eea0c",
+"init": "0x2b6ef4",
+"users": [
+"0x307638"
+],
+"nrefs": 13
+},
+"V2.HotbarSize": {
+"glob": "0x3efea0",
+"reg": "call 0x2eea0c",
+"init": "0x2b6f4c",
+"users": [
+"0x307638"
+],
+"nrefs": 11
+},
+"V2.HotkeyPositions": {
+"glob": "0x3fd440",
+"reg": "call 0x2eea0c",
+"init": "0x2bf874",
+"users": [
+"0x35d5ac"
+],
+"nrefs": 7
+},
+"V2.HotkeySizeTest": {
+"glob": "0x3fd490",
+"reg": "call 0x2eea0c",
+"init": "0x2bf8d4",
+"users": [
+"0x35ccf4",
+"0x35d5ac"
+],
+"nrefs": 8
+},
+"V2.ParentedPosition": {
+"glob": "0x3efe50",
+"reg": "call 0x2eea0c",
+"init": "0x2b8564",
+"users": [
+"0x307638"
+],
+"nrefs": 7
+},
+"V2.ParentedSize": {
+"glob": "0x3efef0",
+"reg": "call 0x2eea0c",
+"init": "0x2b85bc",
+"users": [
+"0x307638"
+],
+"nrefs": 10
+},
+"V2.ViolationsPosition": {
+"glob": "0x3efd10",
+"reg": "call 0x2eea0c",
+"init": "0x2bb168",
+"users": [
+"0x3098a4"
+],
+"nrefs": 7
+},
+"V2.WarningBarPosition": {
+"glob": "0x3efcc0",
+"reg": "call 0x2eea0c",
+"init": "0x2bb320",
+"users": [
+"0x3098a4"
+],
+"nrefs": 7
+},
+"V2.radarpos": {
+"glob": "0x3efd60",
+"reg": "call 0x2eea0c",
+"init": "0x2bc9c4",
+"users": [
+"0x2fb72c",
+"0x3098a4"
+],
+"nrefs": 25
+},
+"V3.AimbotTargetPos": {
+"glob": "0x416f00",
+"reg": "call 0x2eeaac",
+"init": "0x2c3d5c",
+"users": [],
+"nrefs": 1
+},
+"V3.HousePosition": {
+"glob": "0x3efff0",
+"reg": "call 0x2eeaac",
+"init": "0x2b700c",
+"users": [
+"0x2b49c8",
+"0x2b4a0c",
+"0x3098a4",
+"0x33e738",
+"0x36e55c"
+],
+"nrefs": 14
+},
+"V3.InteractivePos": {
+"glob": "0x417020",
+"reg": "call 0x2eeaac",
+"init": "0x2c4ffc",
+"users": [],
+"nrefs": 1
+},
+"V3.InteractivePosEyes": {
+"glob": "0x417080",
+"reg": "call 0x2eeaac",
+"init": "0x2c5054",
+"users": [],
+"nrefs": 1
+},
+"V3.InteractivePosRage": {
+"glob": "0x3f8410",
+"reg": "call 0x2eeaac",
+"init": "0x2bec04",
+"users": [
+"0x32cea8"
+],
+"nrefs": 5
+},
+"V3.InteractivePosStartOther": {
+"glob": "0x3f83b0",
+"reg": "call 0x2eeaac",
+"init": "0x2bec5c",
+"users": [
+"0x32cea8"
+],
+"nrefs": 7
+},
+"V3.NetworkBubble": {
+"glob": "0x416f60",
+"reg": "call 0x2eeaac",
+"init": "0x2c58d8",
+"users": [],
+"nrefs": 1
+},
+"V3.NetworkBubble1": {
+"glob": "0x416fc0",
+"reg": "call 0x2eeaac",
+"init": "0x2c5880",
+"users": [],
+"nrefs": 1
+},
+"V3.Reflectpos": {
+"glob": "0x417140",
+"reg": "call 0x2eeaac",
+"init": "0x2c6128",
+"users": [
+"0x2c6748",
+"0x2c678c"
+],
+"nrefs": 3
+},
+"V3.SavedPos": {
+"glob": "0x3eff90",
+"reg": "call 0x2eeaac",
+"init": "0x2b93d4",
+"users": [
+"0x3098a4",
+"0x317c3c",
+"0x324b30",
+"0x33e738",
+"0x36e55c"
+],
+"nrefs": 15
+},
+"V3.SilentAimTargetPos": {
+"glob": "0x416ea0",
+"reg": "call 0x2eeaac",
+"init": "0x2c6474",
+"users": [],
+"nrefs": 1
+},
+"V3.bulletendpos": {
+"glob": "0x4170e0",
+"reg": "call 0x2eeaac",
+"init": "0x2c7aec",
+"users": [],
+"nrefs": 1
+},
+"VectorBools.BattlemodeOptions": {
+"glob": "0x3f04f0",
+"reg": "call 0x2e4d04",
+"init": "0x2b464c",
+"users": [
+"0x2fb72c",
+"0x33e738",
+"0x36e55c"
+],
+"nrefs": 63
+},
+"VectorBools.BerryOptions": {
+"glob": "0x3f0070",
+"reg": "call 0x2e4d04",
+"init": "0x2b49c8",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33ac78"
+],
+"nrefs": 24
+},
+"VectorBools.ChamOptions": {
+"glob": "0x3f0100",
+"reg": "call 0x2e4d04",
+"init": "0x2b4ef0",
+"users": [
+"0x2fabf8",
+"0x338f30",
+"0x36b1a0"
+],
+"nrefs": 5
+},
+"VectorBools.CollectableOptions": {
+"glob": "0x3f06a0",
+"reg": "call 0x2e4d04",
+"init": "0x2b5178",
+"users": [
+"0x2fb72c",
+"0x3429f4"
+],
+"nrefs": 25
+},
+"VectorBools.CurLootables": {
+"glob": "0x3e56b0",
+"reg": "call 0x2e4d04",
+"init": "0x2b3478",
+"users": [
+"0x2e6b20",
+"0x3429f4"
+],
+"nrefs": 11
+},
+"VectorBools.EnemyOptions": {
+"glob": "0x3f0730",
+"reg": "call 0x2e4d04",
+"init": "0x2b61f8",
+"users": [
+"0x3098a4",
+"0x31acd0"
+],
+"nrefs": 5
+},
+"VectorBools.FishbotOptions": {
+"glob": "0x3e5620",
+"reg": "call 0x2e4d04",
+"init": "0x2b3564",
+"users": [
+"0x3429f4"
+],
+"nrefs": 3
+},
+"VectorBools.Layers": {
+"glob": "0x3f46e0",
+"reg": "call 0x2e4d04",
+"init": "0x2bdaec",
+"users": [
+"0x324b30",
+"0x349db4"
+],
+"nrefs": 8
+},
+"VectorBools.SamsiteOptions": {
+"glob": "0x3f0340",
+"reg": "call 0x2e4d04",
+"init": "0x2b9330",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"VectorBools.StackOptions": {
+"glob": "0x4171c0",
+"reg": "call 0x2e4d04",
+"init": "0x2c6748",
+"users": [],
+"nrefs": 1
+},
+"VectorBools.TrapOptions": {
+"glob": "0x3f02b0",
+"reg": "call 0x2e4d04",
+"init": "0x2bacbc",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 10
+},
+"VectorBools.ViolationOptions": {
+"glob": "0x3f0220",
+"reg": "call 0x2e4d04",
+"init": "0x2bb0c0",
+"users": [
+"0x3098a4",
+"0x32cea8",
+"0x346ccc"
+],
+"nrefs": 7
+},
+"VectorBools.WorldItemCatOptions": {
+"glob": "0x3f0460",
+"reg": "call 0x2e4d04",
+"init": "0x2bb71c",
+"users": [
+"0x2fb72c",
+"0x31acd0",
+"0x33c768"
+],
+"nrefs": 25
+},
+"VectorBools.WorldOptionsStuff": {
+"glob": "0x3f0610",
+"reg": "call 0x2e4d04",
+"init": "0x2bb7d0",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 7
+},
+"VectorBools.flameTrapOptions": {
+"glob": "0x3f0580",
+"reg": "call 0x2e4d04",
+"init": "0x2bc1f8",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"VectorBools.gunTrapOptions": {
+"glob": "0x3f03d0",
+"reg": "call 0x2e4d04",
+"init": "0x2bc3c0",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"VectorBools.hotbarOptions": {
+"glob": "0x3f0190",
+"reg": "call 0x2e4d04",
+"init": "0x2bc4ec",
+"users": [
+"0x307638",
+"0x314bb4",
+"0x338f30"
+],
+"nrefs": 11
+},
+"i.AdvancedWaterCrateDistance": {
+"glob": "0x3ee520",
+"reg": "call 0x2def84",
+"init": "0x2b3c48",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.AimbotFOV": {
+"glob": "0x3d81a0",
+"reg": "call 0x2def84",
+"init": "0x2b2be4",
+"users": [
+"0x2e02b0",
+"0x3098a4",
+"0x314bb4",
+"0x337e7c"
+],
+"nrefs": 6
+},
+"i.AimbotSmoothing": {
+"glob": "0x4169f0",
+"reg": "call 0x2def84",
+"init": "0x2c3d14",
+"users": [],
+"nrefs": 1
+},
+"i.AirdropDistance": {
+"glob": "0x3ee340",
+"reg": "call 0x2def84",
+"init": "0x2b3d74",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.AmbientType": {
+"glob": "0x3f8c90",
+"reg": "call 0x2def84",
+"init": "0x2bedc8",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 3
+},
+"i.AnimalChamsIndex": {
+"glob": "0x3ef150",
+"reg": "call 0x2def84",
+"init": "0x2b3ea0",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 15
+},
+"i.AnimalCorpseDistance": {
+"glob": "0x3ee200",
+"reg": "call 0x2def84",
+"init": "0x2b3f8c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.AnimalDistance": {
+"glob": "0x416a40",
+"reg": "call 0x2def84",
+"init": "0x2c3e40",
+"users": [],
+"nrefs": 1
+},
+"i.BackpackDistance": {
+"glob": "0x3ee250",
+"reg": "call 0x2def84",
+"init": "0x2b4410",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.BasicCrateDistance": {
+"glob": "0x3ee660",
+"reg": "call 0x2def84",
+"init": "0x2b4518",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.BasicWaterCrateDistance": {
+"glob": "0x3ee570",
+"reg": "call 0x2def84",
+"init": "0x2b4604",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.BearDistance": {
+"glob": "0x3edee0",
+"reg": "call 0x2def84",
+"init": "0x2b46f8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"i.BeeHiveDistance": {
+"glob": "0x3eee30",
+"reg": "call 0x2def84",
+"init": "0x2b4890",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.BeeSwarmDistance": {
+"glob": "0x3eede0",
+"reg": "call 0x2def84",
+"init": "0x2b4980",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"i.BoarDistance": {
+"glob": "0x3edfd0",
+"reg": "call 0x2def84",
+"init": "0x2b4b18",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"i.BoneIndex": {
+"glob": "0x416270",
+"reg": "call 0x2def84",
+"init": "0x2c41f4",
+"users": [],
+"nrefs": 1
+},
+"i.BoneIndex1": {
+"glob": "0x3fcc90",
+"reg": "call 0x2def84",
+"init": "0x2bf370",
+"users": [
+"0x359098",
+"0x369790"
+],
+"nrefs": 4
+},
+"i.BoneIndex2": {
+"glob": "0x3f9530",
+"reg": "call 0x2def84",
+"init": "0x2bf090",
+"users": [
+"0x330b38",
+"0x336868"
+],
+"nrefs": 3
+},
+"i.BoneIndex3": {
+"glob": "0x3f79a0",
+"reg": "call 0x2def84",
+"init": "0x2be8b4",
+"users": [
+"0x32b3a8",
+"0x32b62c",
+"0x336868"
+],
+"nrefs": 8
+},
+"i.BoneIndexSecond": {
+"glob": "0x3fcce0",
+"reg": "call 0x2def84",
+"init": "0x2bf3b8",
+"users": [
+"0x359098",
+"0x369790"
+],
+"nrefs": 4
+},
+"i.BoneVirtualKey": {
+"glob": "0x416630",
+"reg": "call 0x2def84",
+"init": "0x2c4280",
+"users": [],
+"nrefs": 1
+},
+"i.CategoryCount": {
+"glob": "0x416d10",
+"reg": "call 0x2def84",
+"init": "0x2c43b4",
+"users": [],
+"nrefs": 1
+},
+"i.CollectableDistance": {
+"glob": "0x3ef290",
+"reg": "call 0x2def84",
+"init": "0x2b50a4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 19
+},
+"i.ConfigVirtualKey": {
+"glob": "0x416950",
+"reg": "call 0x2def84",
+"init": "0x2c45d0",
+"users": [],
+"nrefs": 1
+},
+"i.ContainerChamsIndex": {
+"glob": "0x3ef0b0",
+"reg": "call 0x2def84",
+"init": "0x2b526c",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 16
+},
+"i.CowDistance": {
+"glob": "0x3ee020",
+"reg": "call 0x2def84",
+"init": "0x2b553c",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 4
+},
+"i.CrocodileDistance": {
+"glob": "0x3ee9d0",
+"reg": "call 0x2def84",
+"init": "0x2b562c",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.CurrentFontIndex": {
+"glob": "0x3fcd30",
+"reg": "call 0x2def84",
+"init": "0x2bf508",
+"users": [
+"0x34aedc",
+"0x36135c",
+"0x361bcc",
+"0x37bc98"
+],
+"nrefs": 5
+},
+"i.CurrentFontIndexItems": {
+"glob": "0x3ee7a0",
+"reg": "call 0x2def84",
+"init": "0x2b58c0",
+"users": [
+"0x2fb72c",
+"0x34aedc",
+"0x36135c"
+],
+"nrefs": 5
+},
+"i.CurrentFontIndexRadarKeybinds": {
+"glob": "0x3fcd80",
+"reg": "call 0x2def84",
+"init": "0x2bf550",
+"users": [
+"0x34aedc",
+"0x35bc70",
+"0x36135c"
+],
+"nrefs": 4
+},
+"i.CurrentFontIndexWarnings": {
+"glob": "0x3fcdd0",
+"reg": "call 0x2def84",
+"init": "0x2bf598",
+"users": [
+"0x34aedc",
+"0x36135c"
+],
+"nrefs": 3
+},
+"i.CurrentProjectileMaterial": {
+"glob": "0x3f9580",
+"reg": "call 0x2def84",
+"init": "0x2bf120",
+"users": [
+"0x330638",
+"0x330b38",
+"0x336868"
+],
+"nrefs": 9
+},
+"i.Dayvalue": {
+"glob": "0x3f8c40",
+"reg": "call 0x2def84",
+"init": "0x2bef78",
+"users": [
+"0x32f408",
+"0x349db4"
+],
+"nrefs": 3
+},
+"i.DeployableChamIndex": {
+"glob": "0x3ef240",
+"reg": "call 0x2def84",
+"init": "0x2b59c0",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 13
+},
+"i.DrawBarType": {
+"glob": "0x3eeca0",
+"reg": "call 0x2def84",
+"init": "0x2b5bbc",
+"users": [
+"0x3098a4",
+"0x346ccc"
+],
+"nrefs": 8
+},
+"i.DroppedItemsDistance": {
+"glob": "0x3ee2a0",
+"reg": "call 0x2def84",
+"init": "0x2b6018",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 4
+},
+"i.DroppedWeaponsDistance": {
+"glob": "0x3ee2f0",
+"reg": "call 0x2def84",
+"init": "0x2b6060",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.EffectIndex": {
+"glob": "0x3fce20",
+"reg": "call 0x2def84",
+"init": "0x2bf6f4",
+"users": [
+"0x34841c"
+],
+"nrefs": 2
+},
+"i.EliteCrateDistance": {
+"glob": "0x3ee480",
+"reg": "call 0x2def84",
+"init": "0x2b6108",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.EokaIndex": {
+"glob": "0x3eea20",
+"reg": "call 0x2def84",
+"init": "0x2b62e0",
+"users": [
+"0x319024",
+"0x34841c"
+],
+"nrefs": 4
+},
+"i.FontIndex": {
+"glob": "0x3eecf0",
+"reg": "call 0x2def84",
+"init": "0x2b65ac",
+"users": [
+"0x2fb72c",
+"0x34aedc",
+"0x36135c",
+"0x361bcc",
+"0x37bc98",
+"0x37df58"
+],
+"nrefs": 36
+},
+"i.FontIndexKeyRadar": {
+"glob": "0x3fcf10",
+"reg": "call 0x2def84",
+"init": "0x2bf79c",
+"users": [
+"0x34aedc",
+"0x35bc70",
+"0x36135c"
+],
+"nrefs": 10
+},
+"i.FontSizeEntity": {
+"glob": "0x416360",
+"reg": "call 0x2def84",
+"init": "0x2c4ad8",
+"users": [],
+"nrefs": 1
+},
+"i.FontSizeIndicator": {
+"glob": "0x4163b0",
+"reg": "call 0x2def84",
+"init": "0x2c4b20",
+"users": [],
+"nrefs": 1
+},
+"i.FontSizePlayer": {
+"glob": "0x416310",
+"reg": "call 0x2def84",
+"init": "0x2c4b68",
+"users": [],
+"nrefs": 1
+},
+"i.FoodChamsIndex": {
+"glob": "0x3ef1f0",
+"reg": "call 0x2def84",
+"init": "0x2b6638",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 22
+},
+"i.FoodCrateDistance": {
+"glob": "0x3ee610",
+"reg": "call 0x2def84",
+"init": "0x2b66e0",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.FoodDistance": {
+"glob": "0x3ef2e0",
+"reg": "call 0x2def84",
+"init": "0x2b676c",
+"users": [
+"0x2b7234",
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 8
+},
+"i.FragmentsDistance": {
+"glob": "0x3eee80",
+"reg": "call 0x2def84",
+"init": "0x2b6928",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.HorseDistance": {
+"glob": "0x3ee0c0",
+"reg": "call 0x2def84",
+"init": "0x2b6e04",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.ItemChamsIndex": {
+"glob": "0x3eefc0",
+"reg": "call 0x2def84",
+"init": "0x2b71ec",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 3
+},
+"i.LViterations": {
+"glob": "0x3f4100",
+"reg": "call 0x2def84",
+"init": "0x2bdaa4",
+"users": [
+"0x324b30",
+"0x336868"
+],
+"nrefs": 3
+},
+"i.LastSavedConfig": {
+"glob": "0x416770",
+"reg": "call 0x2def84",
+"init": "0x2c5460",
+"users": [],
+"nrefs": 1
+},
+"i.LockedCrateDistance": {
+"glob": "0x3ee390",
+"reg": "call 0x2def84",
+"init": "0x2b7544",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.MaxAnglesGenerated": {
+"glob": "0x3f40b0",
+"reg": "call 0x2def84",
+"init": "0x2bdc1c",
+"users": [
+"0x324b30",
+"0x336868"
+],
+"nrefs": 3
+},
+"i.MaxFlightTime": {
+"glob": "0x416ae0",
+"reg": "call 0x2def84",
+"init": "0x2c56dc",
+"users": [],
+"nrefs": 1
+},
+"i.MedicalCrateDistance": {
+"glob": "0x3ee5c0",
+"reg": "call 0x2def84",
+"init": "0x2b7690",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.MenuSize": {
+"glob": "0x3fcc40",
+"reg": "call 0x2def84",
+"init": "0x2bf970",
+"users": [
+"0x34aedc"
+],
+"nrefs": 2
+},
+"i.MilitaryCrateDistance": {
+"glob": "0x3ee430",
+"reg": "call 0x2def84",
+"init": "0x2b797c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.NormalBarrelDistance": {
+"glob": "0x3ee6b0",
+"reg": "call 0x2def84",
+"init": "0x2b7e80",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.NormalCrateDistance": {
+"glob": "0x3ee3e0",
+"reg": "call 0x2def84",
+"init": "0x2b7f28",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.OOFType": {
+"glob": "0x3ee750",
+"reg": "call 0x2def84",
+"init": "0x2b801c",
+"users": [
+"0x3098a4"
+],
+"nrefs": 2
+},
+"i.OilBarrelDistance": {
+"glob": "0x3ee700",
+"reg": "call 0x2def84",
+"init": "0x2b8108",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.OreChamIndex": {
+"glob": "0x3ef010",
+"reg": "call 0x2def84",
+"init": "0x2b8234",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 6
+},
+"i.OreDistance": {
+"glob": "0x3ee840",
+"reg": "call 0x2def84",
+"init": "0x2b827c",
+"users": [
+"0x2fb72c",
+"0x33a6f8"
+],
+"nrefs": 7
+},
+"i.OtherChamsIndex": {
+"glob": "0x3ef1a0",
+"reg": "call 0x2def84",
+"init": "0x2b8394",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 9
+},
+"i.PantherDistance": {
+"glob": "0x3ee980",
+"reg": "call 0x2def84",
+"init": "0x2b8474",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.PlayerCorpseDistance": {
+"glob": "0x3ee160",
+"reg": "call 0x2def84",
+"init": "0x2b87b0",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.PlayerMaxDistance": {
+"glob": "0x3d8100",
+"reg": "call 0x2def84",
+"init": "0x2b2f60",
+"users": [
+"0x2e02b0",
+"0x2e6340",
+"0x2f9988",
+"0x3098a4",
+"0x314bb4",
+"0x31acd0",
+"0x338f30"
+],
+"nrefs": 9
+},
+"i.RadtownDistance": {
+"glob": "0x416680",
+"reg": "call 0x2def84",
+"init": "0x2c5d5c",
+"users": [],
+"nrefs": 1
+},
+"i.Recoilpercent": {
+"glob": "0x3fd000",
+"reg": "call 0x2def84",
+"init": "0x2bfbe8",
+"users": [
+"0x34841c",
+"0x36bc14"
+],
+"nrefs": 4
+},
+"i.Recoilpercent1": {
+"glob": "0x3fd050",
+"reg": "call 0x2def84",
+"init": "0x2bfba0",
+"users": [
+"0x34841c",
+"0x36bc14"
+],
+"nrefs": 4
+},
+"i.RedCardDistance": {
+"glob": "0x3eef20",
+"reg": "call 0x2def84",
+"init": "0x2b8f78",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.ReviveVirtualKey": {
+"glob": "0x4164a0",
+"reg": "call 0x2def84",
+"init": "0x2c6180",
+"users": [],
+"nrefs": 1
+},
+"i.ScientistCorpseDistance": {
+"glob": "0x3ee1b0",
+"reg": "call 0x2def84",
+"init": "0x2b9514",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.ScientistMaxDistance": {
+"glob": "0x3d8150",
+"reg": "call 0x2def84",
+"init": "0x2b2fa8",
+"users": [
+"0x2e02b0",
+"0x3098a4",
+"0x314bb4",
+"0x31acd0",
+"0x338f30"
+],
+"nrefs": 9
+},
+"i.SharkDistance": {
+"glob": "0x3ee110",
+"reg": "call 0x2def84",
+"init": "0x2b96a8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.SheepDistance": {
+"glob": "0x3ee070",
+"reg": "call 0x2def84",
+"init": "0x2b9798",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.SignPainterVirtualKey": {
+"glob": "0x416450",
+"reg": "call 0x2def84",
+"init": "0x2c642c",
+"users": [],
+"nrefs": 1
+},
+"i.SilentMeleeBone": {
+"glob": "0x3d80b0",
+"reg": "call 0x2def84",
+"init": "0x2b3034",
+"users": [
+"0x2e12e0",
+"0x34841c"
+],
+"nrefs": 4
+},
+"i.SkyChangerValue": {
+"glob": "0x416c20",
+"reg": "call 0x2def84",
+"init": "0x2c65e8",
+"users": [],
+"nrefs": 1
+},
+"i.SmallFragmentsDistance": {
+"glob": "0x3eeed0",
+"reg": "call 0x2def84",
+"init": "0x2b9d8c",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.SnakeDistance": {
+"glob": "0x3ee8e0",
+"reg": "call 0x2def84",
+"init": "0x2b9e24",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.StackIndex": {
+"glob": "0x416c70",
+"reg": "call 0x2def84",
+"init": "0x2c6700",
+"users": [],
+"nrefs": 1
+},
+"i.StagDistance": {
+"glob": "0x3edf30",
+"reg": "call 0x2def84",
+"init": "0x2ba0a8",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.TestValue2": {
+"glob": "0x416a90",
+"reg": "call 0x2def84",
+"init": "0x2c6c28",
+"users": [],
+"nrefs": 1
+},
+"i.Testindex": {
+"glob": "0x4162c0",
+"reg": "call 0x2def84",
+"init": "0x2c6cb8",
+"users": [],
+"nrefs": 1
+},
+"i.TigerDistance": {
+"glob": "0x3ee930",
+"reg": "call 0x2def84",
+"init": "0x2ba7c4",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.ToolCrateDistance": {
+"glob": "0x3ee4d0",
+"reg": "call 0x2def84",
+"init": "0x2ba970",
+"users": [
+"0x2fb72c",
+"0x33c768"
+],
+"nrefs": 3
+},
+"i.TrapsChamIndex": {
+"glob": "0x3ef100",
+"reg": "call 0x2def84",
+"init": "0x2bad64",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 8
+},
+"i.UIScale": {
+"glob": "0x416cc0",
+"reg": "call 0x2def84",
+"init": "0x2c6e5c",
+"users": [],
+"nrefs": 1
+},
+"i.UpgradeFromTier": {
+"glob": "0x3e5370",
+"reg": "call 0x2def84",
+"init": "0x2b37fc",
+"users": [
+"0x2e6b20",
+"0x324b30",
+"0x3429f4",
+"0x3455b4"
+],
+"nrefs": 6
+},
+"i.UpgradeToTier": {
+"glob": "0x3e5320",
+"reg": "call 0x2def84",
+"init": "0x2b3898",
+"users": [
+"0x2e6b20",
+"0x324b30",
+"0x3429f4",
+"0x3455b4"
+],
+"nrefs": 8
+},
+"i.VehicleChamIndex": {
+"glob": "0x3ef060",
+"reg": "call 0x2def84",
+"init": "0x2baed4",
+"users": [
+"0x2fb72c"
+],
+"nrefs": 17
+},
+"i.VehicleDistance": {
+"glob": "0x3eed90",
+"reg": "call 0x2def84",
+"init": "0x2baf60",
+"users": [
+"0x2fb72c",
+"0x33e738"
+],
+"nrefs": 19
+},
+"i.WeaponChamIndex": {
+"glob": "0x3eef70",
+"reg": "call 0x2def84",
+"init": "0x2bb38c",
+"users": [
+"0x2fb2f4",
+"0x33e738"
+],
+"nrefs": 3
+},
+"i.WolfDistance": {
+"glob": "0x3edf80",
+"reg": "call 0x2def84",
+"init": "0x2bb47c",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 3
+},
+"i.aimbone": {
+"glob": "0x416900",
+"reg": "call 0x2def84",
+"init": "0x2c754c",
+"users": [],
+"nrefs": 1
+},
+"i.animalIndex": {
+"glob": "0x3ee7f0",
+"reg": "call 0x2def84",
+"init": "0x2bba84",
+"users": [
+"0x2fb72c",
+"0x33ac78"
+],
+"nrefs": 14
+},
+"i.autoCanShootKey": {
+"glob": "0x4167c0",
+"reg": "call 0x2def84",
+"init": "0x2c7770",
+"users": [],
+"nrefs": 1
+},
+"i.autoturretdist": {
+"glob": "0x3eeb10",
+"reg": "call 0x2def84",
+"init": "0x2bbc38",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"i.chamindex": {
+"glob": "0x3eed40",
+"reg": "call 0x2def84",
+"init": "0x2bbd70",
+"users": [
+"0x2fabf8",
+"0x338f30"
+],
+"nrefs": 3
+},
+"i.chamindexRecreation": {
+"glob": "0x3fcfb0",
+"reg": "call 0x2def84",
+"init": "0x2bfdd8",
+"users": [
+"0x337e7c",
+"0x36a464"
+],
+"nrefs": 3
+},
+"i.chargevirtualkey": {
+"glob": "0x416400",
+"reg": "call 0x2def84",
+"init": "0x2c7ca4",
+"users": [],
+"nrefs": 1
+},
+"i.curcrossindex": {
+"glob": "0x3fcf60",
+"reg": "call 0x2def84",
+"init": "0x2bfe70",
+"users": [
+"0x337e7c",
+"0x3643b4"
+],
+"nrefs": 9
+},
+"i.currentAimbotRegion": {
+"glob": "0x4168b0",
+"reg": "call 0x2def84",
+"init": "0x2c7ed0",
+"users": [],
+"nrefs": 1
+},
+"i.curstatustest": {
+"glob": "0x416810",
+"reg": "call 0x2def84",
+"init": "0x2c8038",
+"users": [],
+"nrefs": 1
+},
+"i.deployabledist": {
+"glob": "0x3ee890",
+"reg": "call 0x2def84",
+"init": "0x2bbe4c",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 15
+},
+"i.distanceplayer": {
+"glob": "0x416b30",
+"reg": "call 0x2def84",
+"init": "0x2c81f8",
+"users": [],
+"nrefs": 1
+},
+"i.firstpriority": {
+"glob": "0x3fce70",
+"reg": "call 0x2def84",
+"init": "0x2bfec4",
+"users": [
+"0x359098",
+"0x369790"
+],
+"nrefs": 3
+},
+"i.flametrapdist": {
+"glob": "0x3eec50",
+"reg": "call 0x2def84",
+"init": "0x2bc298",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"i.gestureIndex": {
+"glob": "0x4164f0",
+"reg": "call 0x2def84",
+"init": "0x2c8744",
+"users": [],
+"nrefs": 1
+},
+"i.guntrapdist": {
+"glob": "0x3eec00",
+"reg": "call 0x2def84",
+"init": "0x2bc460",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"i.heightvirtualkey": {
+"glob": "0x416590",
+"reg": "call 0x2def84",
+"init": "0x2c8924",
+"users": [],
+"nrefs": 1
+},
+"i.landminedist": {
+"glob": "0x3eea70",
+"reg": "call 0x2def84",
+"init": "0x2bc5f4",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"i.language": {
+"glob": "0x3fd0a0",
+"reg": "call 0x2def84",
+"init": "0x2c1ce8",
+"users": [
+"0x336868",
+"0x337e7c",
+"0x338f30",
+"0x33a6f8",
+"0x33ac78",
+"0x33c768",
+"0x33e738",
+"0x3400b0",
+"0x341bd8",
+"0x3429f4",
+"0x3455b4",
+"0x346ccc",
+"0x34841c",
+"0x349db4",
+"0x34aedc",
+"0x34c4b0",
+"0x34d784",
+"0x34e554",
+"0x34f35c",
+"0x359098",
+"0x35d5ac"
+],
+"nrefs": 965
+},
+"i.numberofsides": {
+"glob": "0x416720",
+"reg": "call 0x2def84",
+"init": "0x2c9110",
+"users": [],
+"nrefs": 1
+},
+"i.otherDistance": {
+"glob": "0x4166d0",
+"reg": "call 0x2def84",
+"init": "0x2c9244",
+"users": [],
+"nrefs": 1
+},
+"i.ourvirtualkey": {
+"glob": "0x4169a0",
+"reg": "call 0x2def84",
+"init": "0x2c92d0",
+"users": [],
+"nrefs": 1
+},
+"i.presentdistance": {
+"glob": "0x4161d0",
+"reg": "call 0x2def84",
+"init": "0x2c9368",
+"users": [],
+"nrefs": 1
+},
+"i.radarindex": {
+"glob": "0x416860",
+"reg": "call 0x2def84",
+"init": "0x2c93f4",
+"users": [],
+"nrefs": 1
+},
+"i.reviveindex": {
+"glob": "0x3f4060",
+"reg": "call 0x2def84",
+"init": "0x2be6e8",
+"users": [
+"0x324b30",
+"0x3455b4"
+],
+"nrefs": 3
+},
+"i.samsitedist": {
+"glob": "0x3eebb0",
+"reg": "call 0x2def84",
+"init": "0x2bcaa4",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 4
+},
+"i.secondpriority": {
+"glob": "0x3fcec0",
+"reg": "call 0x2def84",
+"init": "0x2c1e5c",
+"users": [
+"0x359098",
+"0x369790"
+],
+"nrefs": 3
+},
+"i.snaptrapdist": {
+"glob": "0x3eeac0",
+"reg": "call 0x2def84",
+"init": "0x2bcc9c",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"i.spinbotYaw": {
+"glob": "0x416bd0",
+"reg": "call 0x2def84",
+"init": "0x2ca16c",
+"users": [],
+"nrefs": 1
+},
+"i.thirdpersonvirtualkey": {
+"glob": "0x416540",
+"reg": "call 0x2def84",
+"init": "0x2ca420",
+"users": [],
+"nrefs": 1
+},
+"i.tincandistance": {
+"glob": "0x3eeb60",
+"reg": "call 0x2def84",
+"init": "0x2bce08",
+"users": [
+"0x2fb72c",
+"0x3400b0"
+],
+"nrefs": 3
+},
+"i.turretwarningdistance": {
+"glob": "0x416220",
+"reg": "call 0x2def84",
+"init": "0x2ca714",
+"users": [],
+"nrefs": 1
+},
+"i.vendingmachineitem": {
+"glob": "0x416b80",
+"reg": "call 0x2def84",
+"init": "0x2ca988",
+"users": [],
+"nrefs": 1
+},
+"i.wirevirtualkey": {
+"glob": "0x4165e0",
+"reg": "call 0x2def84",
+"init": "0x2caaa0",
+"users": [],
+"nrefs": 1
+}
+}

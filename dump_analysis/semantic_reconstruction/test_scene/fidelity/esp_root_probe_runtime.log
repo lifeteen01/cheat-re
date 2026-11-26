@@ -1,0 +1,1 @@
+PASS: full overlay rejects missing mandatory window, simulation and history bindings; scene remains an explicit selected-player boundary

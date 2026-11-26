@@ -1,0 +1,26 @@
+[
+  {
+    "reversion": "C1_curve_root_after_flag",
+    "detected": true,
+    "message": "missing curve root does not commit bit2",
+    "exit_code": 1
+  },
+  {
+    "reversion": "C1_allocator_root_after_flag",
+    "detected": true,
+    "message": "missing allocator root does not commit bit2",
+    "exit_code": 1
+  },
+  {
+    "reversion": "C2_curve_skip_root",
+    "detected": true,
+    "message": "warm curve still acquires postrandom root",
+    "exit_code": 1
+  },
+  {
+    "reversion": "C2_allocator_skip_root",
+    "detected": true,
+    "message": "warm allocator still reloads root",
+    "exit_code": 1
+  }
+]

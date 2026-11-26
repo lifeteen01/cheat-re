@@ -1,0 +1,10 @@
+3ad2d0 rex push rbx
+3ad2d2 sub    rsp,0x20
+3ad2d6 mov    r11d,edx
+3ad2d9 mov    rbx,rcx
+3ad2dc call   0x3ad394
+3ad2e1 mov    edx,r11d
+3ad2e4 mov    rcx,rbx
+3ad2e7 add    rsp,0x20
+3ad2eb pop    rbx
+3ad2ec jmp    0x3ad2f4

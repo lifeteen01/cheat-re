@@ -1,0 +1,134 @@
+[
+  {
+    "rva": "0x298c60",
+    "end": "0x298c70",
+    "utf8": "Ресурсы",
+    "sha256": "e275c1e466ec233ca42952829201aae8d05de7929b9833d73d70431dad20d221"
+  },
+  {
+    "rva": "0x298c70",
+    "end": "0x298c76",
+    "utf8": "资源",
+    "sha256": "376e3eaee466499ae5ee175a6d82ea4b6f49ff6ea724f201e3e5f5f3831968e2"
+  },
+  {
+    "rva": "0x298c78",
+    "end": "0x298c90",
+    "utf8": "Камень руда",
+    "sha256": "21e2d910475354d76094033dc49f6ee7d1643b622705098ff75b767c59f1fcac"
+  },
+  {
+    "rva": "0x298c90",
+    "end": "0x298c96",
+    "utf8": "石矿",
+    "sha256": "af84e4d1634ffa8cd348b043ca1cb4e5ab705884ab19d8a4ca8392daf0d6fc0a"
+  },
+  {
+    "rva": "0x298c98",
+    "end": "0x298cb4",
+    "utf8": "штаб-квартира",
+    "sha256": "8ff9175789302142c6e519f6fa04d523c64cbe7797cfbd58561f4e2a29cbf56c"
+  },
+  {
+    "rva": "0x298cb8",
+    "end": "0x298cc6",
+    "utf8": "总部品质管理",
+    "sha256": "2ac32edfe1bace152627d9184271a28e8b684f0b4aa0364fed1da329bb0de6bf"
+  },
+  {
+    "rva": "0x298cc8",
+    "end": "0x298ce0",
+    "utf8": "Металл руда",
+    "sha256": "d7c254d2d13026eff9213ab09c6eb83a63ad5092f99d61c69a4066b71bbf0b62"
+  },
+  {
+    "rva": "0x298ce0",
+    "end": "0x298ce8",
+    "utf8": "金属矿",
+    "sha256": "f9f939f4c58dc56711828cc0f05b99589375c14c963a6d982f82a1f438f1a5e4"
+  },
+  {
+    "rva": "0x298ce8",
+    "end": "0x298cfc",
+    "utf8": "Сера руда",
+    "sha256": "77ddcbd87815dd85da604df9c70ef94990e3d32d496fb2c89a44b1ef8d8e4b78"
+  },
+  {
+    "rva": "0x298d00",
+    "end": "0x298d08",
+    "utf8": "硫磺矿",
+    "sha256": "07714fc09b638326116ecb7a519dde44119e3ae4d09be090215ee8a3f5e5f3d3"
+  },
+  {
+    "rva": "0x298d08",
+    "end": "0x298d20",
+    "utf8": "Куча дерева",
+    "sha256": "9a921ac657a29e569ca64f6f0cf4ab3b64640fe5b22a8f55f31d9de3c6d13d53"
+  },
+  {
+    "rva": "0x298d20",
+    "end": "0x298d26",
+    "utf8": "木堆",
+    "sha256": "a4dc62edc48ac574546b16eaa2fa3ece4c77ffa6276f3e3d61e5352afc96582e"
+  },
+  {
+    "rva": "0x298d68",
+    "end": "0x298d92",
+    "utf8": "Проверка инструмента",
+    "sha256": "22536061b83c918e7b9d84e087d41531072c552a798a58eaa243031b8ac7cdf5"
+  },
+  {
+    "rva": "0x298d98",
+    "end": "0x298da2",
+    "utf8": "工具检查",
+    "sha256": "2009689a473c6791c9d4b38b80ce89ccd2bed44dd1357a917a746f8a97142989"
+  },
+  {
+    "rva": "0x298d28",
+    "end": "0x298d52",
+    "utf8": "Проверяет инструмент",
+    "sha256": "18f87807aa6ea6f64af66e4bcdc81f5134a0f600653a14a1cbc4d65ef256e04e"
+  },
+  {
+    "rva": "0x298d58",
+    "end": "0x298d66",
+    "utf8": "检查所需工具",
+    "sha256": "87e2e0216e48b9a2cf7d4a3ef64c2e395ccfb373a7ba5dc1d9217d8f0cd41791"
+  },
+  {
+    "rva": "0x298da8",
+    "end": "0x298dd2",
+    "utf8": "Модификации ресурсов",
+    "sha256": "9560ef4328bd198b78918696bf22041345091278444ac4be487aba6d99170122"
+  },
+  {
+    "rva": "0x298dd8",
+    "end": "0x298de2",
+    "utf8": "资源修改",
+    "sha256": "394355fd0c71c0c37e3cd827aecaf54f366d902e4db5b609de0788ab679a6790"
+  },
+  {
+    "rva": "0x298de8",
+    "end": "0x298dfc",
+    "utf8": "Чамы руды",
+    "sha256": "fd9ea92784f5cefd2e1e0bb0ea27b4ebfd68f50e0afec8e3b4fe761d973e7774"
+  },
+  {
+    "rva": "0x298e00",
+    "end": "0x298e0a",
+    "utf8": "矿物透视",
+    "sha256": "a85e8e158755a1a18ff0d44fa7132f5ebf66bfc64cec800647dc42bb2f4fff5b"
+  },
+  {
+    "rva": "0x298e10",
+    "end": "0x298e30",
+    "utf8": "Дистанция узлов",
+    "sha256": "d46c8b707e28e95acbcb2eebc64b3800dcd27b85e046af41c4c109292c06ecfc"
+  },
+  {
+    "rva": "0x298e30",
+    "end": "0x298e3a",
+    "utf8": "节点距离",
+    "sha256": "c1dc2d8b92792167bd7d00ed59e11325a7ad44944913a444dd15bfbdb854ca1e"
+  }
+]

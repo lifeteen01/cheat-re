@@ -1,0 +1,41 @@
+32b838 mov    DWORD PTR [rsp+0x20],r9d
+32b83d mov    QWORD PTR [rsp+0x18],r8
+32b842 mov    QWORD PTR [rsp+0x10],rdx
+32b847 push   rbp
+32b848 push   rbx
+32b849 push   rsi
+32b84a push   rdi
+32b84b mov    rbp,rsp
+32b84e sub    rsp,0x28
+32b852 mov    rdi,rcx
+32b855 lea    rcx,[rbp+0x30]
+32b859 call   0x2d0a44
+32b85e lea    rcx,[rbp+0x38]
+32b862 mov    QWORD PTR [rbp+0x28],rax
+32b866 mov    rbx,rax
+32b869 call   0x2d0a44
+32b86e mov    rsi,rax
+32b871 cmp    rbx,rax
+32b874 je     0x32b897
+32b876 mov    rdx,QWORD PTR [rbx]
+32b879 lea    rcx,[rbp+0x40]
+32b87d call   0x32ba6c
+32b882 test   al,al
+32b884 jne    0x32b897
+32b886 mov    rbx,QWORD PTR [rbp+0x28]
+32b88a add    rbx,0x8
+32b88e mov    QWORD PTR [rbp+0x28],rbx
+32b892 cmp    rbx,rsi
+32b895 jne    0x32b876
+32b897 lea    rdx,[rbp+0x28]
+32b89b lea    rcx,[rbp+0x30]
+32b89f call   0x2d182c
+32b8a4 mov    rax,QWORD PTR [rbp+0x30]
+32b8a8 mov    QWORD PTR [rdi],rax
+32b8ab mov    rax,rdi
+32b8ae add    rsp,0x28
+32b8b2 pop    rdi
+32b8b3 pop    rsi
+32b8b4 pop    rbx
+32b8b5 pop    rbp
+32b8b6 ret

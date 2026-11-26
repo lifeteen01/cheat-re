@@ -1,0 +1,83 @@
+[
+  {
+    "factory": "0x39f650",
+    "data": "0x2aa288",
+    "raw": "5455584a3b",
+    "decoded": "cmap",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f668",
+    "data": "0x2aa290",
+    "raw": "5b575a5b3b",
+    "decoded": "loca",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f680",
+    "data": "0x2aa298",
+    "raw": "5f5d585e3b",
+    "decoded": "head",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f698",
+    "data": "0x2aa2a0",
+    "raw": "5054405c3b",
+    "decoded": "glyf",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f6b0",
+    "data": "0x2aa2a8",
+    "raw": "5f505c5b3b",
+    "decoded": "hhea",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f6c8",
+    "data": "0x2aa2b0",
+    "raw": "5f554d423b",
+    "decoded": "hmtx",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f6e0",
+    "data": "0x2aa2b8",
+    "raw": "5c5d4b543b",
+    "decoded": "kern",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f6f8",
+    "data": "0x2aa2c0",
+    "raw": "706876693b",
+    "decoded": "GPOS",
+    "tags": [
+      "C"
+    ]
+  },
+  {
+    "factory": "0x39f710",
+    "data": "0x2aa2c8",
+    "raw": "747e7f1a3b",
+    "decoded": "CFF ",
+    "tags": [
+      "C"
+    ]
+  }
+]

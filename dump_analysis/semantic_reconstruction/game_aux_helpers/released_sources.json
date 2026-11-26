@@ -1,0 +1,23 @@
+{
+  "owned_files": {
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_aux_helpers_analysis.cpp": "a42837436df7062b45eff4f8096d0ea208a0b26155c892c10afaae2633097a10",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_aux_helpers_analysis.hpp": "5cfd421dcdb37e12b44c4dee7e4ffe0a8dfab9cac47032a6aa335f01e2a6fd67",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_aux_helpers_bindings.cpp": "25fd0e9f54c5e863eda4832359de2fd6b6cb65b550daaef94b6204df31d6eacf",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_aux_helpers_checks.cpp": "0db6502a2b548fdc88e10d2568e825f3b12a0e245b4af6cef4cd37a4c1f66ad5",
+    "/home/john/Desktop/cheat_re/source/reconstructed/game_aux_helpers_reconstruction.md": "c45d4643005bf25083607f6464c58ba93b9ca2d7a4f4efc2ea9f0d2bfed68efa"
+  },
+  "strict": "strict_verification.txt",
+  "sanitizer": "sanitizer_verification.txt",
+  "same_strict_sanitizer_inputs": true,
+  "whole_native_bodies": 12,
+  "native_bytes": 644,
+  "conditional_branches": 16,
+  "exports": [
+    "check_game_aux_helpers_reconstruction",
+    "bind_game_aux_aim",
+    "bind_game_aux_projectile",
+    "bind_game_aux_interaction",
+    "bind_game_aux_movement",
+    "bind_game_aux_frame"
+  ]
+}

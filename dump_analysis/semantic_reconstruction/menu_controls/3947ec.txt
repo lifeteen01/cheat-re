@@ -1,0 +1,54 @@
+3947ec	mov    QWORD PTR [rsp+0x8],rbx
+3947f1	mov    QWORD PTR [rsp+0x10],rsi
+3947f6	push   rdi
+3947f7	sub    rsp,0x20
+3947fb	mov    rsi,QWORD PTR [rip+0x71326]        # 0x405b28
+394802	mov    ebx,ecx
+394804	mov    rdi,QWORD PTR [rsi+0x3f10]
+39480b	test   rdi,rdi
+39480e	je     0x394887
+394810	test   bl,0x4
+394813	jne    0x394856
+394815	mov    rax,QWORD PTR [rsi+0x3f08]
+39481c	mov    r8d,ecx
+39481f	shr    r8d,0x3
+394823	not    r8b
+394826	and    r8b,0x1
+39482a	test   bl,0x2
+39482d	je     0x39483a
+39482f	mov    dl,r8b
+394832	mov    rcx,rax
+394835	call   0x392318
+39483a	test   bl,0x1
+39483d	je     0x39484c
+39483f	mov    rdx,rax
+394842	mov    rcx,rdi
+394845	call   0x39474c
+39484a	jmp    0x394852
+39484c	cmp    rdi,rax
+39484f	sete   al
+394852	test   al,al
+394854	je     0x394887
+394856	mov    edx,ebx
+394858	mov    rcx,rdi
+39485b	call   0x394784
+394860	test   al,al
+394862	je     0x394887
+394864	test   bl,bl
+394866	js     0x394883
+394868	mov    eax,DWORD PTR [rsi+0x3f68]
+39486e	test   eax,eax
+394870	je     0x394883
+394872	cmp    BYTE PTR [rsi+0x3f75],0x0
+394879	jne    0x394883
+39487b	cmp    eax,DWORD PTR [rdi+0x7c]
+39487e	sete   al
+394881	jmp    0x394889
+394883	mov    al,0x1
+394885	jmp    0x394889
+394887	xor    al,al
+394889	mov    rbx,QWORD PTR [rsp+0x30]
+39488e	mov    rsi,QWORD PTR [rsp+0x38]
+394893	add    rsp,0x20
+394897	pop    rdi
+394898	ret

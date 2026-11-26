@@ -1,0 +1,41 @@
+3aa4f0 sub    rsp,0x28
+3aa4f4 cmp    edx,DWORD PTR [rcx+0x14]
+3aa4f7 jge    0x3aa56f
+3aa4f9 cmp    DWORD PTR [rcx+0x3c],0x2
+3aa4fd jge    0x3aa56f
+3aa4ff cmp    DWORD PTR [rcx+0x3c],0x0
+3aa503 mov    r10d,DWORD PTR [rcx+0x20]
+3aa507 mov    r8,QWORD PTR [rcx+0x8]
+3aa50b movsxd r9,DWORD PTR [rcx+0x18]
+3aa50f jne    0x3aa53b
+3aa511 lea    eax,[rdx+rdx*1]
+3aa514 cdqe
+3aa516 add    rax,r9
+3aa519 add    r8,rax
+3aa51c mov    rcx,r8
+3aa51f call   0x3add94
+3aa524 movzx  edx,ax
+3aa527 lea    rcx,[r8+0x2]
+3aa52b lea    r9d,[rdx+rdx*1]
+3aa52f call   0x3add94
+3aa534 movzx  edx,ax
+3aa537 add    edx,edx
+3aa539 jmp    0x3aa560
+3aa53b lea    eax,[rdx*4+0x0]
+3aa542 cdqe
+3aa544 add    rax,r9
+3aa547 add    r8,rax
+3aa54a mov    rcx,r8
+3aa54d call   0x3add74
+3aa552 lea    rcx,[r8+0x4]
+3aa556 mov    r9d,eax
+3aa559 call   0x3add74
+3aa55e mov    edx,eax
+3aa560 or     ecx,0xffffffff
+3aa563 lea    eax,[r10+r9*1]
+3aa567 cmp    r9d,edx
+3aa56a cmove  eax,ecx
+3aa56d jmp    0x3aa572
+3aa56f or     eax,0xffffffff
+3aa572 add    rsp,0x28
+3aa576 ret

@@ -1,0 +1,1093 @@
+{
+  "untranslated_local_roots": [],
+  "typed_and_native_data_limits": [
+    "No GameAssembly.dll/UnityPlayer.dll/global-metadata.dat available; actual final effects remain required typed results.",
+    "Raw pointer slots, returnslot keys and stack-high bytes are never invented; unmaterialized masks accompany final effects.",
+    "Value-only struct inputs adapt native pointer/alias ABI; supplied numeric keys preserve known output-clear/copy and input-load ordering.",
+    "3214f4/32225c standalone public APIs belong to active game_input_physics, not this module.",
+    "Fixed literal storage and existing metadata helpers reused; generic native string/allocator/dispatcher/executor ABI not claimed."
+  ],
+  "reached_local_specializations": [
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cb9fc",
+      "end_exclusive": "0x2cba4f",
+      "sites": [
+        "0x315b6d",
+        "0x3248ea",
+        "0x329909",
+        "0x329a32",
+        "0x32bf21",
+        "0x330819",
+        "0x36c8b2",
+        "0x370621"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "reuse released metadata_argument_context onepointer helper"
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cba50",
+      "end_exclusive": "0x2cbae2",
+      "sites": [
+        "0x374d28",
+        "0x374e90"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "reached threepointer transform packaging; unknown temporary/input pointers explicit"
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cbd24",
+      "end_exclusive": "0x2cbef8",
+      "sites": [
+        "0x2e08fc",
+        "0x2e0cd0",
+        "0x2e6320",
+        "0x314a1f",
+        "0x315905",
+        "0x315a04",
+        "0x315b57",
+        "0x3248d4",
+        "0x3298f3",
+        "0x329a0d",
+        "0x32bf0b",
+        "0x330803",
+        "0x36c89c",
+        "0x36cced",
+        "0x36cf21",
+        "0x37060b",
+        "0x370a71",
+        "0x373996",
+        "0x374017",
+        "0x374d00",
+        "0x374e68"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2cc730",
+      "end_exclusive": "0x2cc737",
+      "sites": [
+        "0x2e0845",
+        "0x2e0c19",
+        "0x2e6269",
+        "0x31496b",
+        "0x315845",
+        "0x31594d",
+        "0x315a9a",
+        "0x324817",
+        "0x329836",
+        "0x329950",
+        "0x32be4e",
+        "0x330746",
+        "0x36c7dc",
+        "0x36cc30",
+        "0x36ce64",
+        "0x37054e",
+        "0x3709b4",
+        "0x373f5a",
+        "0x373f94",
+        "0x374c52",
+        "0x374dba"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cdca4",
+      "end_exclusive": "0x2cdcca",
+      "sites": [
+        "0x2e084d",
+        "0x2e0c21",
+        "0x2e6271",
+        "0x314973",
+        "0x31584d",
+        "0x315955",
+        "0x315aa2",
+        "0x32481f",
+        "0x32983e",
+        "0x329958",
+        "0x32be56",
+        "0x33074e",
+        "0x36c7e4",
+        "0x36cc38",
+        "0x36ce6c",
+        "0x370556",
+        "0x3709bc",
+        "0x373f62",
+        "0x373f9c",
+        "0x374c5a",
+        "0x374dc2"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cdcf4",
+      "end_exclusive": "0x2cdd1a",
+      "sites": [
+        "0x36c83e",
+        "0x36cc8f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cdd1c",
+      "end_exclusive": "0x2cdd42",
+      "sites": [
+        "0x315af9",
+        "0x324876",
+        "0x329895",
+        "0x32bead",
+        "0x3307a5"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cdd44",
+      "end_exclusive": "0x2cdd6a",
+      "sites": [
+        "0x36cec3",
+        "0x3705ad"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cdd6c",
+      "end_exclusive": "0x2cdd92",
+      "sites": [
+        "0x2e0867"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cdd94",
+      "end_exclusive": "0x2cddba",
+      "sites": [
+        "0x373fb9"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cddbc",
+      "end_exclusive": "0x2cdde2",
+      "sites": [
+        "0x2e0c3b"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cde0c",
+      "end_exclusive": "0x2cde32",
+      "sites": [
+        "0x2e0881",
+        "0x2e0c55",
+        "0x2e62a5",
+        "0x3149a7",
+        "0x315887",
+        "0x315989",
+        "0x315adc",
+        "0x32483c",
+        "0x324859",
+        "0x329878",
+        "0x329992",
+        "0x32be90",
+        "0x330788",
+        "0x373921"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2cde34",
+      "end_exclusive": "0x2cde5a",
+      "sites": [
+        "0x36c81e",
+        "0x36cc72",
+        "0x36ce89",
+        "0x36cea6",
+        "0x370590",
+        "0x3709f6",
+        "0x370a13"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2d2094",
+      "end_exclusive": "0x2d2106",
+      "sites": [
+        "0x370a8a",
+        "0x3739af"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "known two-slot reached pointer materialization; missing raw slots masked explicitly"
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2d8504",
+      "end_exclusive": "0x2d852a",
+      "sites": [
+        "0x2e628b",
+        "0x31596f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2d85cc",
+      "end_exclusive": "0x2d85f2",
+      "sites": [
+        "0x3299af",
+        "0x37393b"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2d861c",
+      "end_exclusive": "0x2d8642",
+      "sites": [
+        "0x315abf",
+        "0x32985b",
+        "0x329975",
+        "0x32be73",
+        "0x33076b"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2d866c",
+      "end_exclusive": "0x2d8692",
+      "sites": [
+        "0x370573"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2dd110",
+      "end_exclusive": "0x2dd136",
+      "sites": [
+        "0x3159a6"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2dd138",
+      "end_exclusive": "0x2dd15e",
+      "sites": [
+        "0x3149c1",
+        "0x373907"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2dd160",
+      "end_exclusive": "0x2dd186",
+      "sites": [
+        "0x36c801",
+        "0x36cc55"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2dda18",
+      "end_exclusive": "0x2dda33",
+      "sites": [
+        "0x315a1e"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "reuse released metadata_argument_context zeroarity helper"
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2de950",
+      "end_exclusive": "0x2de979",
+      "sites": [
+        "0x2e0916",
+        "0x2e0cea",
+        "0x2e633a",
+        "0x31591f"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "zeroarity float result helper; known arity/return-slot location; actual returnslot key optional"
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2df850",
+      "end_exclusive": "0x2df861",
+      "sites": [
+        "0x3149b9"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2df8b0",
+      "end_exclusive": "0x2df8c5",
+      "sites": [
+        "0x2e0896"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2df908",
+      "end_exclusive": "0x2df91d",
+      "sites": [
+        "0x2e0c6a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2df9cc",
+      "end_exclusive": "0x2df9e5",
+      "sites": [
+        "0x2e0879"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2dfa20",
+      "end_exclusive": "0x2dfa39",
+      "sites": [
+        "0x2e0c4d"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2dfb28",
+      "end_exclusive": "0x2dfb3f",
+      "sites": [
+        "0x2e085f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2dfb78",
+      "end_exclusive": "0x2dfb8f",
+      "sites": [
+        "0x2e0c33"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2e35ec",
+      "end_exclusive": "0x2e3612",
+      "sites": [
+        "0x2e089e",
+        "0x2e0c72",
+        "0x2e62c2",
+        "0x31498d",
+        "0x3158a7"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2e36dc",
+      "end_exclusive": "0x2e3702",
+      "sites": [
+        "0x31586a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2e3704",
+      "end_exclusive": "0x2e372a",
+      "sites": [
+        "0x373f7f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2e53e0",
+      "end_exclusive": "0x2e53f5",
+      "sites": [
+        "0x2e62ba"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2e5558",
+      "end_exclusive": "0x2e5571",
+      "sites": [
+        "0x2e629d"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2e5714",
+      "end_exclusive": "0x2e572d",
+      "sites": [
+        "0x2e6283"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2e9b8c",
+      "end_exclusive": "0x2e9bb2",
+      "sites": [
+        "0x3709d9"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x2ed218",
+      "end_exclusive": "0x2ed2a9",
+      "sites": [
+        "0x314a4b"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "reached Lerp four-slot packaging; known DWORDtype/count/pointer slots and lowfloat; unknown pointer/highDWORD bits explicit"
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f21fc",
+      "end_exclusive": "0x2f2211",
+      "sites": [
+        "0x31589f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f2214",
+      "end_exclusive": "0x2f2234",
+      "sites": [
+        "0x31599e"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f2234",
+      "end_exclusive": "0x2f224f",
+      "sites": [
+        "0x315af1"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f365c",
+      "end_exclusive": "0x2f3675",
+      "sites": [
+        "0x31499f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f36b0",
+      "end_exclusive": "0x2f36c9",
+      "sites": [
+        "0x31587f"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f36cc",
+      "end_exclusive": "0x2f36e5",
+      "sites": [
+        "0x315981"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f36e8",
+      "end_exclusive": "0x2f3701",
+      "sites": [
+        "0x315ad4"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f4204",
+      "end_exclusive": "0x2f4219",
+      "sites": [
+        "0x314985"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f4234",
+      "end_exclusive": "0x2f424d",
+      "sites": [
+        "0x315862"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f4250",
+      "end_exclusive": "0x2f4269",
+      "sites": [
+        "0x315967"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x2f426c",
+      "end_exclusive": "0x2f4290",
+      "sites": [
+        "0x315ab7"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x3214f4",
+      "end_exclusive": "0x321565",
+      "sites": [
+        "0x36cf3a"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "private reached known pointer/byte package only; public standalone ownership game_input_physics"
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x32225c",
+      "end_exclusive": "0x3222cf",
+      "sites": [
+        "0x374030"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "private reached known pointer/float package only; public standalone ownership game_input_physics"
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3238a0",
+      "end_exclusive": "0x3238bb",
+      "sites": [
+        "0x32486e"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3238bc",
+      "end_exclusive": "0x3238d7",
+      "sites": [
+        "0x32988d"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3238d8",
+      "end_exclusive": "0x3238f1",
+      "sites": [
+        "0x3299a7"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x323ae8",
+      "end_exclusive": "0x323b01",
+      "sites": [
+        "0x324851"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x323b04",
+      "end_exclusive": "0x323b1d",
+      "sites": [
+        "0x329870"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x323b20",
+      "end_exclusive": "0x323b39",
+      "sites": [
+        "0x32998a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x323d60",
+      "end_exclusive": "0x323d79",
+      "sites": [
+        "0x324834"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x323d7c",
+      "end_exclusive": "0x323da0",
+      "sites": [
+        "0x329853"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x323da0",
+      "end_exclusive": "0x323dc4",
+      "sites": [
+        "0x32996d"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x32b1c8",
+      "end_exclusive": "0x32b239",
+      "sites": [
+        "0x36cd06"
+      ],
+      "status": "I: reached known-store specialization",
+      "meaning": "reuse released metadata_argument_context twoarg pointer/int helper; actual return key path preserves exact store order"
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x32b8d4",
+      "end_exclusive": "0x32b8ef",
+      "sites": [
+        "0x32bea5"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x32b93c",
+      "end_exclusive": "0x32b955",
+      "sites": [
+        "0x32be88"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x32b9ec",
+      "end_exclusive": "0x32ba10",
+      "sites": [
+        "0x32be6b"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x330294",
+      "end_exclusive": "0x3302af",
+      "sites": [
+        "0x33079d"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x330404",
+      "end_exclusive": "0x33041d",
+      "sites": [
+        "0x330780"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x330504",
+      "end_exclusive": "0x330528",
+      "sites": [
+        "0x330763"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36c4b0",
+      "end_exclusive": "0x36c4d0",
+      "sites": [
+        "0x36c836"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36c510",
+      "end_exclusive": "0x36c530",
+      "sites": [
+        "0x36cc87"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36c54c",
+      "end_exclusive": "0x36c565",
+      "sites": [
+        "0x36c816"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36c5a0",
+      "end_exclusive": "0x36c5b9",
+      "sites": [
+        "0x36cc6a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36c5d8",
+      "end_exclusive": "0x36c5e7",
+      "sites": [
+        "0x36c7f9"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36c628",
+      "end_exclusive": "0x36c637",
+      "sites": [
+        "0x36cc4d"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36cdc4",
+      "end_exclusive": "0x36cddf",
+      "sites": [
+        "0x36cebb"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36cde0",
+      "end_exclusive": "0x36cdf9",
+      "sites": [
+        "0x36ce9e"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x36cdfc",
+      "end_exclusive": "0x36ce15",
+      "sites": [
+        "0x36ce81"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3701ec",
+      "end_exclusive": "0x370207",
+      "sites": [
+        "0x3705a5"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x370258",
+      "end_exclusive": "0x370271",
+      "sites": [
+        "0x370a0b"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x370298",
+      "end_exclusive": "0x3702b1",
+      "sites": [
+        "0x370588"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x370308",
+      "end_exclusive": "0x370321",
+      "sites": [
+        "0x3709ee"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x370340",
+      "end_exclusive": "0x37036d",
+      "sites": [
+        "0x37056b"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3703d0",
+      "end_exclusive": "0x3703e9",
+      "sites": [
+        "0x3709d1"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x373880",
+      "end_exclusive": "0x373899",
+      "sites": [
+        "0x373933"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x37389c",
+      "end_exclusive": "0x3738b5",
+      "sites": [
+        "0x373919"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3738b8",
+      "end_exclusive": "0x3738c9",
+      "sites": [
+        "0x3738ff"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x373e78",
+      "end_exclusive": "0x373e8f",
+      "sites": [
+        "0x373fb1"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x373e90",
+      "end_exclusive": "0x373eb4",
+      "sites": [
+        "0x373f77"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x374498",
+      "end_exclusive": "0x3744b3",
+      "sites": [
+        "0x374c9a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3744b4",
+      "end_exclusive": "0x3744cf",
+      "sites": [
+        "0x374e02"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3745b0",
+      "end_exclusive": "0x3745c9",
+      "sites": [
+        "0x374c82"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3745cc",
+      "end_exclusive": "0x3745e5",
+      "sites": [
+        "0x374dea"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3746d8",
+      "end_exclusive": "0x3746f1",
+      "sites": [
+        "0x374c6a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "manually bounded leaf/tail or all-path CFG; no firstRET heuristic",
+      "target": "0x3746f4",
+      "end_exclusive": "0x37470f",
+      "sites": [
+        "0x374dd2"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x3757c0",
+      "end_exclusive": "0x3757e6",
+      "sites": [
+        "0x374ca2",
+        "0x374e0a"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x375810",
+      "end_exclusive": "0x375836",
+      "sites": [
+        "0x374dda"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x375838",
+      "end_exclusive": "0x37585e",
+      "sites": [
+        "0x374c72"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    },
+    {
+      "extent_source": "PE runtime function record",
+      "target": "0x375860",
+      "end_exclusive": "0x375886",
+      "sites": [
+        "0x374c8a",
+        "0x374df2"
+      ],
+      "status": "I: fixed literal constructor/decoder specialization",
+      "meaning": "Native fixed encoded literal is represented by decoded owned string in static catalogue; generic constructor/decoder ABI not claimed."
+    }
+  ]
+}

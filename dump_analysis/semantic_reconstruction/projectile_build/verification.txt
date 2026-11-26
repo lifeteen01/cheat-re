@@ -1,0 +1,6 @@
+GCC 15.2, C++20 -Wall -Wextra -Wpedantic -Werror -D_GLIBCXX_ASSERTIONS -ffp-contract=off -O1 -g.
+Linked 05_server_observable.cpp, projectile_analysis.cpp, projectile_checks.cpp, fixture-only driver.
+Ordinary build and check_projectile_reconstruction(): PASS.
+AddressSanitizer + UndefinedBehaviorSanitizer, -fno-sanitize-recover=all: PASS.
+Full worker byte comparison: PASS (2580 bytes and 5675 bytes).
+No sample instruction was executed; original files were read only.

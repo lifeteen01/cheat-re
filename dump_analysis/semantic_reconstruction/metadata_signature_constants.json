@@ -1,0 +1,7 @@
+{
+  "table_rva": "0x294e70",
+  "all_256_crc_entries_match": true,
+  "type_separator_rva": "0x294e64",
+  "type_separator": "2e00",
+  "table_sha256": "12f3e0576d447eb37b36d82ba0c1c5481b8f0d12fdc70347ce4a076b229d4c86"
+}

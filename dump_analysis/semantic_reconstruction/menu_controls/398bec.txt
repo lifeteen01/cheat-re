@@ -1,0 +1,26 @@
+398bec	mov    QWORD PTR [rsp+0x8],rbx
+398bf1	mov    QWORD PTR [rsp+0x10],rsi
+398bf6	push   rdi
+398bf7	sub    rsp,0x40
+398bfb	mov    rsi,QWORD PTR [rip+0x6cf26]        # 0x405b28
+398c02	mov    edi,edx
+398c04	movsxd rbx,ecx
+398c07	lea    rcx,[rsp+0x20]
+398c0c	call   0x38a550
+398c11	mov    DWORD PTR [rsp+0x20],ebx
+398c15	lea    rcx,[rsi+0x4850]
+398c1c	add    rbx,rbx
+398c1f	lea    rdx,[rsp+0x20]
+398c24	movups xmm0,XMMWORD PTR [rsi+rbx*8+0x38b8]
+398c2c	movdqu XMMWORD PTR [rsp+0x24],xmm0
+398c32	call   0x39ef90
+398c37	mov    edx,edi
+398c39	lea    rcx,[rsp+0x20]
+398c3e	call   0x390720
+398c43	movups xmm0,XMMWORD PTR [rax]
+398c46	movdqu XMMWORD PTR [rsi+rbx*8+0x38b8],xmm0
+398c4f	mov    rbx,QWORD PTR [rsp+0x50]
+398c54	mov    rsi,QWORD PTR [rsp+0x58]
+398c59	add    rsp,0x40
+398c5d	pop    rdi
+398c5e	ret

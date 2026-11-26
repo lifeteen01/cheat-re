@@ -1,0 +1,909 @@
+{
+  "scope": "parent-owned new game_field_controllers_* only",
+  "ranges": [
+    {
+      "begin": "0x322ef8",
+      "end_exclusive": "0x322f30",
+      "bytes": 56,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "3cb3cab8ca20abd6744471567f6a1fa87632b20ab6b4ad67bd4e7f482a70db5b",
+      "conditional_branches": [],
+      "direct_dependencies": [
+        {
+          "site": "0x322f0b",
+          "target": "0x3229d8",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x322f13",
+          "target": "0x2dd160",
+          "target_end_exclusive": "0x2dd186"
+        },
+        {
+          "site": "0x322f25",
+          "target": "0x322f30",
+          "target_end_exclusive": "0x323006"
+        }
+      ],
+      "source_forwarding_evidence": [],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_reconstruction.md",
+          "line": 32,
+          "text": "[C] 0x322b0e captures `0x322ef8(object)` before lazy original setup and forwarding of all three original arguments at 0x322b86. A range-invalid captured collider still permits the original call and then skips all latch/config work. [C] The capture helper's component traversal is byte-extracted through 0x323004; [U] component lookup remains `capture_322ef8`, because class-string matching and matching-build game types are not fabricated.",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x32308c",
+      "end_exclusive": "0x3230cf",
+      "bytes": 67,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "9b5ef06fc1b6177dc7b881d69e1086a9165593ec3ce0d4fe3dcc7dc524ca78ba",
+      "conditional_branches": [
+        {
+          "site": "0x3230ab",
+          "instruction": "jne    0x3230bd"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x3230a4",
+          "target": "0x3164fc",
+          "target_end_exclusive": null
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 264,
+          "text": "if(request&&!flag(latch)) {effect(0x32308c,{Address(record),address(0x3d6f00)+game_cell,Address(detour)});flag(latch,true);}"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 74,
+          "text": "| [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b004`, `0x36b758`, `0x36ba2c`, `0x36cbe4`, `0x36ce18`, `0x370968`, `0x370b50`, `0x3721b4`, `0x372c1c`, `0x373eb4`, `0x373f0c`, `0x375140`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x368244",
+      "end_exclusive": "0x36827e",
+      "bytes": 58,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "1f44348ea04663c7377370b197bdd41427d5cc9ac2f0d321bd0a0e131cc7d1ed",
+      "conditional_branches": [
+        {
+          "site": "0x368252",
+          "instruction": "je     0x368277"
+        },
+        {
+          "site": "0x368269",
+          "instruction": "je     0x368277"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x36824b",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x368257",
+          "target": "0x369400",
+          "target_end_exclusive": "0x369429"
+        },
+        {
+          "site": "0x368262",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x368272",
+          "target": "0x372ba4",
+          "target_end_exclusive": "0x372bca"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 292,
+          "text": "if(flag(0x3f3c98)&&pred(0x2e8910,{std::int32_t{0x12},true})&&pred(0x368244,{player})) {"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 72,
+          "text": "| [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x372bf4`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x368468",
+      "end_exclusive": "0x3684a7",
+      "bytes": 63,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "3bdc60161ebf081dee95796b36f519cc4ff0d345da92b15c8cd94d097a0078c3",
+      "conditional_branches": [
+        {
+          "site": "0x368476",
+          "instruction": "je     0x3684a0"
+        },
+        {
+          "site": "0x36848d",
+          "instruction": "je     0x3684a0"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x36846f",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36847b",
+          "target": "0x369400",
+          "target_end_exclusive": "0x369429"
+        },
+        {
+          "site": "0x368486",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36849b",
+          "target": "0x372bf4",
+          "target_end_exclusive": "0x372c1b"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 311,
+          "text": "const bool crouch=(flag(0x3f7020)&&flag(0x3e5e71))?true:pred(0x368468,{player});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 72,
+          "text": "| [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x372bf4`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x3691c0",
+      "end_exclusive": "0x36920a",
+      "bytes": 74,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "a960306783faf8e81e20277fc980ac2ff265f0affd19fc25c7e90f54dc41eb72",
+      "conditional_branches": [
+        {
+          "site": "0x3691d3",
+          "instruction": "je     0x3691f9"
+        },
+        {
+          "site": "0x3691ea",
+          "instruction": "je     0x3691f9"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x3691cc",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3691d8",
+          "target": "0x369298",
+          "target_end_exclusive": "0x369323"
+        },
+        {
+          "site": "0x3691e3",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3691f2",
+          "target": "0x373a68",
+          "target_end_exclusive": "0x373b28"
+        },
+        {
+          "site": "0x3691fc",
+          "target": "0x3c7bbc",
+          "target_end_exclusive": null
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 788,
+          "text": "(void)vec(0x3691c0,{player}); // [C] unconditional getter before flags test."
+        },
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 796,
+          "text": "} else effect(0x375140,{t,vec(0x3691c0,{player})});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 73,
+          "text": "| [U] Vector/quaternion/string results | Vectors: `0x31492c`, `0x368100`, `0x368b9c`, `0x368be8`, `0x369164`, `0x3691c0`, `0x36924c`, `0x369790`, `0x369c1c`, `0x3743f8`, `0x3747d4`; quaternions: `0x3738cc`, `0x3739c4`, `0x373c60`, `0x374aa4`; owned identifier string: `0x369e70`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x36a0e0",
+      "end_exclusive": "0x36a175",
+      "bytes": 149,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "bc7c6b4d7210ad2bf9c5472a1e67d6f9e597ef75c9b8669b26f3446bc8c1e2f2",
+      "conditional_branches": [
+        {
+          "site": "0x36a0f0",
+          "instruction": "je     0x36a16d"
+        },
+        {
+          "site": "0x36a0fb",
+          "instruction": "jne    0x36a11d"
+        },
+        {
+          "site": "0x36a127",
+          "instruction": "jne    0x36a148"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x36a0e9",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36a143",
+          "target": "0x2cbd24",
+          "target_end_exclusive": "0x2cbef8"
+        },
+        {
+          "site": "0x36a159",
+          "target": "0x2cb9fc",
+          "target_end_exclusive": "0x2cba4f"
+        },
+        {
+          "site": "0x36a161",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 789,
+          "text": "if(saved_flags==0&&!pred(0x36a0e0,{player})&&!pred(0x36a20c,{player,std::int32_t{0}})&&flag(0x3d82a1)) {"
+        },
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 847,
+          "text": "if(flying&&!pred(0x36a0e0,{player})&&!flag(0x3f34c8)) {"
+        },
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 979,
+          "text": "if(!flag(0x3f3888)||pred(0x36a0e0,{player})||pred(0x36b288,{player}))return;"
+        },
+        {
+          "file": "source/reconstructed/world_esp_analysis.cpp",
+          "line": 383,
+          "text": "need(b.preferred_36a0e0, 0x31fb33, 0x36a0e0);"
+        },
+        {
+          "file": "source/reconstructed/interaction_workers.cpp",
+          "line": 437,
+          "text": "if(extended>d&&pred(0x36a0e0,config.player_3d72c0)&&65.0f>d) input_attack(input);"
+        },
+        {
+          "file": "source/reconstructed/interaction_workers.cpp",
+          "line": 734,
+          "text": "const bool mounted=extended>d&&pred(0x36a0e0,target)&&65.0f>d;"
+        },
+        {
+          "file": "source/reconstructed/interaction_workers.cpp",
+          "line": 736,
+          "text": "const bool hit_mounted=pred(0x36a0e0,target);"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 72,
+          "text": "| [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x372bf4`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x36a1e4",
+      "end_exclusive": "0x36a20a",
+      "bytes": 38,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "4d6d196d886138047f68035d56a69261ddf5c7c7098d063bc7a6ecfd28adadd2",
+      "conditional_branches": [
+        {
+          "site": "0x36a1f2",
+          "instruction": "jne    0x36a1f9"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x36a1eb",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36a205",
+          "target": "0x369df4",
+          "target_end_exclusive": "0x369e1b"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 584,
+          "text": "if(flag(0x3f36a8)&&pred(0x36a1e4,{player})&&cooldown(0x3f72d8,0.02f))rpc(player,\"RPC_ReqRemoveCuffs\");"
+        },
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 590,
+          "text": "if(pred(0x36a1e4,{other})) {"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 72,
+          "text": "| [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x372bf4`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x36ba2c",
+      "end_exclusive": "0x36baca",
+      "bytes": 158,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "244c5bcf30178fe05891ed83fee7cfb36abfed56d0f42e19ac4ebdf25cfe2692",
+      "conditional_branches": [
+        {
+          "site": "0x36ba44",
+          "instruction": "je     0x36babf"
+        },
+        {
+          "site": "0x36ba50",
+          "instruction": "je     0x36babf"
+        },
+        {
+          "site": "0x36ba5c",
+          "instruction": "jne    0x36babf"
+        },
+        {
+          "site": "0x36ba69",
+          "instruction": "jbe    0x36babf"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x36ba3d",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36ba49",
+          "target": "0x36bacc",
+          "target_end_exclusive": "0x36bb55"
+        },
+        {
+          "site": "0x36ba55",
+          "target": "0x36b9a0",
+          "target_end_exclusive": "0x36ba29"
+        },
+        {
+          "site": "0x36ba75",
+          "target": "0x36b3bc",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36ba7d",
+          "target": "0x2e9b8c",
+          "target_end_exclusive": "0x2e9bb2"
+        },
+        {
+          "site": "0x36ba88",
+          "target": "0x36c274",
+          "target_end_exclusive": "0x36c346"
+        },
+        {
+          "site": "0x36ba98",
+          "target": "0x36c0f0",
+          "target_end_exclusive": "0x36c184"
+        },
+        {
+          "site": "0x36baa7",
+          "target": "0x36b420",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x36baaf",
+          "target": "0x2e3614",
+          "target_end_exclusive": "0x2e363a"
+        },
+        {
+          "site": "0x36baba",
+          "target": "0x366c30",
+          "target_end_exclusive": "0x366ccb"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 321,
+          "text": "if(sample_pointer_range(component))effect(0x36ba2c,{component,scalar(0x36970c,{player})});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 74,
+          "text": "| [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b004`, `0x36b758`, `0x36ba2c`, `0x36cbe4`, `0x36ce18`, `0x370968`, `0x370b50`, `0x3721b4`, `0x372c1c`, `0x373eb4`, `0x373f0c`, `0x375140`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x3714c4",
+      "end_exclusive": "0x37154a",
+      "bytes": 134,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "acae983873ddfb5af5926acc3e2e6f01d6f4bc272356498387106a938afb78da",
+      "conditional_branches": [
+        {
+          "site": "0x3714dd",
+          "instruction": "je     0x371538"
+        },
+        {
+          "site": "0x3714f4",
+          "instruction": "je     0x371538"
+        },
+        {
+          "site": "0x371509",
+          "instruction": "jne    0x371516"
+        },
+        {
+          "site": "0x371514",
+          "instruction": "je     0x371538"
+        },
+        {
+          "site": "0x371520",
+          "instruction": "je     0x371533"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x3714d6",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3714e2",
+          "target": "0x37154c",
+          "target_end_exclusive": "0x3715d7"
+        },
+        {
+          "site": "0x3714ed",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3714f9",
+          "target": "0x37261c",
+          "target_end_exclusive": "0x372644"
+        },
+        {
+          "site": "0x371502",
+          "target": "0x3719e8",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x37150d",
+          "target": "0x371828",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x371519",
+          "target": "0x37236c",
+          "target_end_exclusive": "0x372395"
+        },
+        {
+          "site": "0x371525",
+          "target": "0x37236c",
+          "target_end_exclusive": "0x372395"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/aim_weapon_analysis.cpp",
+          "line": 476,
+          "text": "Address view=object(c,0x3714c4,held);"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/aim_weapon_reconstruction.md",
+          "line": 66,
+          "text": "| `0x3714c4..0x37154a` | [U] Outer view-model getter. Resulting copied `+0x218 -> +0x28 -> +0xf0 -> WORD+0x20` chain is translated. |",
+          "confidence": "U",
+          "roles": [
+            "range_start"
+          ]
+        }
+      ]
+    },
+    {
+      "begin": "0x371688",
+      "end_exclusive": "0x3716df",
+      "bytes": 87,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "9ee7229447e5525efa8c2347b8c8055b280948e59a0c5fb048153b461afe1839",
+      "conditional_branches": [
+        {
+          "site": "0x371698",
+          "instruction": "je     0x3716d7"
+        },
+        {
+          "site": "0x3716af",
+          "instruction": "je     0x3716d7"
+        },
+        {
+          "site": "0x3716be",
+          "instruction": "je     0x3716d2"
+        },
+        {
+          "site": "0x3716c5",
+          "instruction": "je     0x3716d2"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x371691",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x37169d",
+          "target": "0x37154c",
+          "target_end_exclusive": "0x3715d7"
+        },
+        {
+          "site": "0x3716a8",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3716b4",
+          "target": "0x37261c",
+          "target_end_exclusive": "0x372644"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 638,
+          "text": "const auto torch=ptr(0x371688,{item});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 69,
+          "text": "| [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, `0x369298`, `0x369764`, `0x36a2f4`, `0x36b938`, `0x370508`, `0x371464`, `0x37154c`, `0x371688`, `0x3716e0`, `0x3717c0`, `0x371df4`, `0x371eb8`, `0x372abc`, `0x372b30`, `0x372efc`, `0x37628c`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x3717c0",
+      "end_exclusive": "0x371826",
+      "bytes": 102,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "88fc30b05b92a87c35b9facb9fa018edcede9a5d03f04a1aabb76636488c55c9",
+      "conditional_branches": [
+        {
+          "site": "0x3717d4",
+          "instruction": "je     0x371819"
+        },
+        {
+          "site": "0x3717eb",
+          "instruction": "je     0x371819"
+        },
+        {
+          "site": "0x3717fa",
+          "instruction": "je     0x371803"
+        },
+        {
+          "site": "0x371801",
+          "instruction": "jne    0x371819"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x3717cd",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3717d9",
+          "target": "0x37154c",
+          "target_end_exclusive": "0x3715d7"
+        },
+        {
+          "site": "0x3717e4",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x3717f0",
+          "target": "0x37261c",
+          "target_end_exclusive": "0x372644"
+        },
+        {
+          "site": "0x371806",
+          "target": "0x37236c",
+          "target_end_exclusive": "0x372395"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 628,
+          "text": "const auto component=ptr(0x3717c0,{item});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 69,
+          "text": "| [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, `0x369298`, `0x369764`, `0x36a2f4`, `0x36b938`, `0x370508`, `0x371464`, `0x37154c`, `0x371688`, `0x3716e0`, `0x3717c0`, `0x371df4`, `0x371eb8`, `0x372abc`, `0x372b30`, `0x372efc`, `0x37628c`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x371df4",
+      "end_exclusive": "0x371e5a",
+      "bytes": 102,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "5caa358e2076fc7e42ec0568b23cf98a6f73b327ad501130030a7e2a718bfe36",
+      "conditional_branches": [
+        {
+          "site": "0x371e08",
+          "instruction": "je     0x371e4d"
+        },
+        {
+          "site": "0x371e1f",
+          "instruction": "je     0x371e4d"
+        },
+        {
+          "site": "0x371e2e",
+          "instruction": "je     0x371e37"
+        },
+        {
+          "site": "0x371e35",
+          "instruction": "jne    0x371e4d"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x371e01",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x371e0d",
+          "target": "0x37154c",
+          "target_end_exclusive": "0x3715d7"
+        },
+        {
+          "site": "0x371e18",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x371e24",
+          "target": "0x37261c",
+          "target_end_exclusive": "0x372644"
+        },
+        {
+          "site": "0x371e3a",
+          "target": "0x37236c",
+          "target_end_exclusive": "0x372395"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 320,
+          "text": "const auto component=ptr(0x371df4,{item});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 69,
+          "text": "| [U] Pointer/game/metadata results | `0x2cb9fc`, `0x2ce5d8`, `0x2dda9c`, `0x2e02b0`, `0x2e069c`, `0x315924`, `0x315a24`, `0x315a54`, `0x32957c`, `0x329714`, `0x3297f0`, `0x329920`, `0x329a38`, `0x334224`, `0x35d31c`, `0x368a84`, `0x369298`, `0x369764`, `0x36a2f4`, `0x36b938`, `0x370508`, `0x371464`, `0x37154c`, `0x371688`, `0x3716e0`, `0x3717c0`, `0x371df4`, `0x371eb8`, `0x372abc`, `0x372b30`, `0x372efc`, `0x37628c`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x372bf4",
+      "end_exclusive": "0x372c1b",
+      "bytes": 39,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "37b4e99442253ffdc57d80dbc7d21b6cfe4117e0759898e457ad0ab158dd8c77",
+      "conditional_branches": [
+        {
+          "site": "0x372c06",
+          "instruction": "je     0x372c15"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x372bff",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        },
+        {
+          "site": "0x372c0b",
+          "target": "0x372bcc",
+          "target_end_exclusive": "0x372bf4"
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 984,
+          "text": "else speed=pred(0x372bf4,{input.model_state,std::int32_t{2}})?2.8f:5.5f;"
+        },
+        {
+          "file": "source/reconstructed/field_getters_analysis.cpp",
+          "line": 24,
+          "text": "{0x372bcc,0x372bf4,0x24,FieldGetterKind::raw_u32,0},"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 72,
+          "text": "| [U] Predicates/input/physics | `0x2e2320`, `0x2e5e4c`, `0x2e6744`, `0x2e8910`, `0x2e89e4`, `0x2f7dd0`, `0x2f824c`, `0x3247cc`, `0x368244`, `0x368468`, `0x3693b0`, `0x36a0e0`, `0x36a1e4`, `0x36a20c`, `0x36a238`, `0x36b288`, `0x372bf4`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x373eb4",
+      "end_exclusive": "0x373f09",
+      "bytes": 85,
+      "group": "small_composite_and_field_controllers",
+      "confidence": "C: native extent/calls; I: implementation scope reconciliation",
+      "status": "recoverable local body/controller remaining; actual game effect separate",
+      "sha256": "7e235af747a3ce951bfcdcfd63d52b2712c13e1f11bf59fd0944a7f3f9f9acf9",
+      "conditional_branches": [
+        {
+          "site": "0x373ec2",
+          "instruction": "je     0x373f04"
+        },
+        {
+          "site": "0x373ecc",
+          "instruction": "jne    0x373edb"
+        },
+        {
+          "site": "0x373ee3",
+          "instruction": "jne    0x373ef2"
+        },
+        {
+          "site": "0x373ef4",
+          "instruction": "je     0x373f04"
+        }
+      ],
+      "direct_dependencies": [
+        {
+          "site": "0x373ebb",
+          "target": "0x2caf08",
+          "target_end_exclusive": null
+        }
+      ],
+      "source_forwarding_evidence": [
+        {
+          "file": "source/reconstructed/movement_main_analysis.cpp",
+          "line": 883,
+          "text": "effect(0x373eb4,{movement,nofall});"
+        }
+      ],
+      "document_references": [
+        {
+          "file": "source/reconstructed/movement_main_reconstruction.md",
+          "line": 74,
+          "text": "| [U] Original/game/dispatch side effects | `0x2cba50`, `0x2cbd24`, `0x2d2094`, `0x2e480c`, `0x32225c`, `0x32308c`, `0x329aa0`, `0x366c30`, `0x366ccc`, `0x366d7c`, `0x366e38`, `0x366ef0`, `0x36817c`, `0x36ad68`, `0x36ae90`, `0x36b004`, `0x36b758`, `0x36ba2c`, `0x36cbe4`, `0x36ce18`, `0x370968`, `0x370b50`, `0x3721b4`, `0x372c1c`, `0x373eb4`, `0x373f0c`, `0x375140`. |",
+          "confidence": "U",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "begin": "0x372ba4",
+      "end_exclusive": "0x372bca",
+      "bytes": 38,
+      "group": "newly_exposed_immediate_local_child",
+      "confidence": "C: native bytes/caller; I: omitted local scope",
+      "status": "recoverable local body remaining",
+      "reason": "Guarded model predicate child of368244.",
+      "sha256": "aa4dd49fa1cb269939046a7a8e7726587bf4207b6a886ac2df7e9e775c3b0ac3",
+      "direct_dependencies": [
+        {
+          "site": "0x372bab",
+          "instruction": "call   0x2caf08"
+        },
+        {
+          "site": "0x372bc5",
+          "instruction": "jmp    0x372bf4"
+        }
+      ]
+    }
+  ]
+}

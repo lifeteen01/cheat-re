@@ -1,0 +1,9 @@
+395130	mov    rax,QWORD PTR [rip+0x709f1]        # 0x405b28
+395137	mov    edx,DWORD PTR [rax+0x3f68]
+39513d	cmp    edx,ecx
+39513f	je     0x395145
+395141	test   edx,edx
+395143	jne    0x39514e
+395145	mov    WORD PTR [rax+0x3f78],0x101
+39514e	or     DWORD PTR [rax+0x47ac],0x4
+395155	ret

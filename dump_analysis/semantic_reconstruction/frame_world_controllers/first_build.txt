@@ -1,0 +1,33 @@
+/home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_configuration.cpp: In function ‘std::string rust_internal_re::{anonymous}::number(const rust_internal_re::FrameWorldConfigApi&, float)’:
+/home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_configuration.cpp:85:52: error: ‘%f’ directive output truncated writing between 3 and 317 bytes into a region of size 1 [-Werror=format-truncation=]
+   85 |     (void)std::snprintf(data.data(), data.size(), "%f", double(v));
+      |                                                    ^~
+/home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_configuration.cpp:85:51: note: assuming directive output of 8 bytes
+   85 |     (void)std::snprintf(data.data(), data.size(), "%f", double(v));
+      |                                                   ^~~~
+In file included from /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/stdio.h:974,
+                 from /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/c++/15/cstdio:47,
+                 from /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/c++/15/ext/string_conversions.h:47,
+                 from /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/c++/15/bits/basic_string.h:4442,
+                 from /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/c++/15/string:56,
+                 from /home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/c++/15/stdexcept:41,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/internal_analysis.hpp:16,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/entities_analysis.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/unity_backend_analysis.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_dependencies_analysis.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_dependencies_menu.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_dependencies_ui_setup.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_dependencies_configuration.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_analysis.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_internal.hpp:2,
+                 from /home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_configuration.cpp:1:
+In function ‘int snprintf(char*, size_t, const char*, ...)’,
+    inlined from ‘std::string rust_internal_re::{anonymous}::number(const rust_internal_re::FrameWorldConfigApi&, float)’ at /home/john/Desktop/cheat_re/source/reconstructed/frame_world_controllers_configuration.cpp:85:24:
+/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/toolchain/usr/include/x86_64-linux-gnu/bits/stdio2.h:68:35: note: ‘__builtin___snprintf_chk’ output between 4 and 318 bytes into a destination of size 1
+   68 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   69 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   70 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+cc1plus: all warnings being treated as errors

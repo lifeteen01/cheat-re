@@ -1,0 +1,49 @@
+3ab5f0 rex push rbx
+3ab5f2 push   rbp
+3ab5f3 push   rsi
+3ab5f4 push   rdi
+3ab5f5 sub    rsp,0x28
+3ab5f9 mov    rbx,rdx
+3ab5fc mov    rsi,rcx
+3ab5ff mov    rcx,rbx
+3ab602 xor    edx,edx
+3ab604 mov    ebp,r8d
+3ab607 call   0x3aafe4
+3ab60c jmp    0x3ab64b
+3ab60e call   0x3ab1b4
+3ab613 mov    rcx,rbx
+3ab616 call   0x3aaf74
+3ab61b mov    rcx,rbx
+3ab61e cmp    al,0x1c
+3ab620 jae    0x3ab60e
+3ab622 mov    r10d,DWORD PTR [rbx+0x8]
+3ab626 call   0x3aaf1c
+3ab62b cmp    al,0xc
+3ab62d jne    0x3ab642
+3ab62f mov    rcx,rbx
+3ab632 call   0x3aaf1c
+3ab637 movzx  r9d,al
+3ab63b bts    r9d,0x8
+3ab640 jmp    0x3ab646
+3ab642 movzx  r9d,al
+3ab646 cmp    r9d,ebp
+3ab649 je     0x3ab670
+3ab64b mov    edi,DWORD PTR [rbx+0x8]
+3ab64e cmp    edi,DWORD PTR [rbx+0xc]
+3ab651 jl     0x3ab613
+3ab653 xor    r9d,r9d
+3ab656 xor    r8d,r8d
+3ab659 mov    rdx,rbx
+3ab65c mov    rcx,rsi
+3ab65f call   0x3aaf8c
+3ab664 mov    rax,rsi
+3ab667 add    rsp,0x28
+3ab66b pop    rdi
+3ab66c pop    rsi
+3ab66d pop    rbp
+3ab66e pop    rbx
+3ab66f ret
+3ab670 sub    r10d,edi
+3ab673 mov    r8d,edi
+3ab676 mov    r9d,r10d
+3ab679 jmp    0x3ab659

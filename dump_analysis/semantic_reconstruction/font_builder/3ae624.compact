@@ -1,0 +1,75 @@
+3ae624 sub    rsp,0x28
+3ae628 movss  xmm4,DWORD PTR [rip+0xffffffffffedec24]        # 0x28d254
+3ae630 movd   xmm0,edx
+3ae634 movaps xmm5,xmm4
+3ae637 cvtdq2ps xmm0,xmm0
+3ae63a movsxd rax,r9d
+3ae63d mov    r9,QWORD PTR [rsp+0x50]
+3ae642 imul   rdx,rax,0x1c
+3ae646 divss  xmm5,xmm0
+3ae64a cmp    DWORD PTR [rsp+0x68],0x0
+3ae64f movd   xmm0,r8d
+3ae654 mov    r8,QWORD PTR [rsp+0x60]
+3ae659 cvtdq2ps xmm0,xmm0
+3ae65c divss  xmm4,xmm0
+3ae660 movss  xmm0,DWORD PTR [rdx+rcx*1+0x8]
+3ae666 addss  xmm0,DWORD PTR [r9]
+3ae66b je     0x3ae6d7
+3ae66d movss  xmm2,DWORD PTR [rip+0xffffffffffedebdb]        # 0x28d250
+3ae675 addss  xmm0,xmm2
+3ae679 call   0x3930e8
+3ae67e cvttss2si eax,xmm0
+3ae682 movss  xmm0,DWORD PTR [rdx+rcx*1+0xc]
+3ae688 xorps  xmm3,xmm3
+3ae68b cvtsi2ss xmm3,eax
+3ae68f mov    rax,QWORD PTR [rsp+0x58]
+3ae694 addss  xmm0,DWORD PTR [rax]
+3ae698 addss  xmm0,xmm2
+3ae69c call   0x3930e8
+3ae6a1 movss  DWORD PTR [r8],xmm3
+3ae6a6 xorps  xmm2,xmm2
+3ae6a9 cvttss2si eax,xmm0
+3ae6ad cvtsi2ss xmm2,eax
+3ae6b1 movss  DWORD PTR [r8+0x4],xmm2
+3ae6b7 addss  xmm3,DWORD PTR [rdx+rcx*1+0x14]
+3ae6bd subss  xmm3,DWORD PTR [rdx+rcx*1+0x8]
+3ae6c3 movss  DWORD PTR [r8+0x10],xmm3
+3ae6c9 addss  xmm2,DWORD PTR [rdx+rcx*1+0x18]
+3ae6cf subss  xmm2,DWORD PTR [rdx+rcx*1+0xc]
+3ae6d5 jmp    0x3ae70c
+3ae6d7 mov    rax,QWORD PTR [rsp+0x58]
+3ae6dc movss  DWORD PTR [r8],xmm0
+3ae6e1 movss  xmm0,DWORD PTR [rdx+rcx*1+0xc]
+3ae6e7 addss  xmm0,DWORD PTR [rax]
+3ae6eb movss  DWORD PTR [r8+0x4],xmm0
+3ae6f1 movss  xmm0,DWORD PTR [rdx+rcx*1+0x14]
+3ae6f7 addss  xmm0,DWORD PTR [r9]
+3ae6fc movss  DWORD PTR [r8+0x10],xmm0
+3ae702 movss  xmm2,DWORD PTR [rdx+rcx*1+0x18]
+3ae708 addss  xmm2,DWORD PTR [rax]
+3ae70c movss  DWORD PTR [r8+0x14],xmm2
+3ae712 movzx  eax,WORD PTR [rdx+rcx*1]
+3ae716 movd   xmm0,eax
+3ae71a cvtdq2ps xmm0,xmm0
+3ae71d mulss  xmm0,xmm5
+3ae721 movss  DWORD PTR [r8+0x8],xmm0
+3ae727 movzx  eax,WORD PTR [rdx+rcx*1+0x2]
+3ae72c movd   xmm1,eax
+3ae730 cvtdq2ps xmm1,xmm1
+3ae733 mulss  xmm1,xmm4
+3ae737 movss  DWORD PTR [r8+0xc],xmm1
+3ae73d movzx  eax,WORD PTR [rdx+rcx*1+0x4]
+3ae742 movd   xmm0,eax
+3ae746 cvtdq2ps xmm0,xmm0
+3ae749 mulss  xmm0,xmm5
+3ae74d movss  DWORD PTR [r8+0x18],xmm0
+3ae753 movzx  eax,WORD PTR [rdx+rcx*1+0x6]
+3ae758 movd   xmm1,eax
+3ae75c cvtdq2ps xmm1,xmm1
+3ae75f mulss  xmm1,xmm4
+3ae763 movss  DWORD PTR [r8+0x1c],xmm1
+3ae769 movss  xmm0,DWORD PTR [rdx+rcx*1+0x10]
+3ae76f addss  xmm0,DWORD PTR [r9]
+3ae774 movss  DWORD PTR [r9],xmm0
+3ae779 add    rsp,0x28
+3ae77d ret

@@ -1,0 +1,1 @@
+packing6000 batches /32 TrueType +4 CFF raster oracle cases PASS

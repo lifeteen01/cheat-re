@@ -1,0 +1,5 @@
+strict window-details immutable fixture verification
+start 2026-11-24T14:47:50.285732+00:00
+exit_code 0
+changed files 0
+window details checks PASS

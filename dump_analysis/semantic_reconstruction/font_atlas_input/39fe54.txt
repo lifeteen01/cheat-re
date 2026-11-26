@@ -1,0 +1,75 @@
+39fe54 mov    rax,rsp
+39fe57 push   rbp
+39fe58 push   rbx
+39fe59 push   rsi
+39fe5a push   rdi
+39fe5b lea    rbp,[rax-0x78]
+39fe5f sub    rsp,0x158
+39fe66 movaps XMMWORD PTR [rax-0x38],xmm6
+39fe6a mov    edi,r8d
+39fe6d mov    rax,QWORD PTR [rbp+0xa0]
+39fe74 movaps xmm6,xmm3
+39fe77 mov    rsi,rdx
+39fe7a mov    rbx,rcx
+39fe7d test   rax,rax
+39fe80 je     0x39fed2
+39fe82 movups xmm0,XMMWORD PTR [rax]
+39fe85 movups xmm1,XMMWORD PTR [rax+0x10]
+39fe89 movups XMMWORD PTR [rbp-0x50],xmm0
+39fe8d movups xmm0,XMMWORD PTR [rax+0x20]
+39fe91 movups XMMWORD PTR [rbp-0x40],xmm1
+39fe95 movups xmm1,XMMWORD PTR [rax+0x30]
+39fe99 movups XMMWORD PTR [rbp-0x30],xmm0
+39fe9d movups xmm0,XMMWORD PTR [rax+0x40]
+39fea1 movups XMMWORD PTR [rbp-0x20],xmm1
+39fea5 movups xmm1,XMMWORD PTR [rax+0x50]
+39fea9 movups XMMWORD PTR [rbp-0x10],xmm0
+39fead movups xmm0,XMMWORD PTR [rax+0x60]
+39feb1 movups XMMWORD PTR [rbp+0x0],xmm1
+39feb5 movups xmm1,XMMWORD PTR [rax+0x70]
+39feb9 mov    rax,QWORD PTR [rax+0x80]
+39fec0 mov    QWORD PTR [rbp+0x30],rax
+39fec4 lea    rax,[rbp-0x50]
+39fec8 movups XMMWORD PTR [rbp+0x10],xmm0
+39fecc movups XMMWORD PTR [rbp+0x20],xmm1
+39fed0 jmp    0x39fedb
+39fed2 lea    rcx,[rbp-0x50]
+39fed6 call   0x39f550
+39fedb comiss xmm6,DWORD PTR [rip+0xffffffffffeed36a]        # 0x28d24c
+39fee2 movups xmm0,XMMWORD PTR [rax]
+39fee5 movups xmm1,XMMWORD PTR [rax+0x10]
+39fee9 movups XMMWORD PTR [rsp+0x20],xmm0
+39feee mov    QWORD PTR [rsp+0x20],rsi
+39fef3 movups xmm0,XMMWORD PTR [rax+0x20]
+39fef7 mov    DWORD PTR [rsp+0x28],edi
+39fefb movups XMMWORD PTR [rsp+0x30],xmm1
+39ff00 movups xmm1,XMMWORD PTR [rax+0x30]
+39ff04 movups XMMWORD PTR [rsp+0x40],xmm0
+39ff09 movups xmm0,XMMWORD PTR [rax+0x40]
+39ff0d movups XMMWORD PTR [rsp+0x50],xmm1
+39ff12 movups xmm1,XMMWORD PTR [rax+0x50]
+39ff16 movups XMMWORD PTR [rsp+0x60],xmm0
+39ff1b movups xmm0,XMMWORD PTR [rax+0x60]
+39ff1f movups XMMWORD PTR [rsp+0x70],xmm1
+39ff24 movups xmm1,XMMWORD PTR [rax+0x70]
+39ff28 mov    rax,QWORD PTR [rax+0x80]
+39ff2f movups XMMWORD PTR [rbp-0x80],xmm0
+39ff33 mov    QWORD PTR [rbp-0x60],rax
+39ff37 movups XMMWORD PTR [rbp-0x70],xmm1
+39ff3b jbe    0x39ff43
+39ff3d movss  DWORD PTR [rsp+0x34],xmm6
+39ff43 mov    rax,QWORD PTR [rbp+0xa8]
+39ff4a lea    rdx,[rsp+0x20]
+39ff4f mov    rcx,QWORD PTR [rsp+0x58]
+39ff54 test   rax,rax
+39ff57 cmovne rcx,rax
+39ff5b mov    QWORD PTR [rsp+0x58],rcx
+39ff60 mov    rcx,rbx
+39ff63 call   0x39fd68
+39ff68 movaps xmm6,XMMWORD PTR [rsp+0x140]
+39ff70 add    rsp,0x158
+39ff77 pop    rdi
+39ff78 pop    rsi
+39ff79 pop    rbx
+39ff7a pop    rbp
+39ff7b ret

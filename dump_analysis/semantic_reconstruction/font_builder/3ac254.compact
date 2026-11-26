@@ -1,0 +1,51 @@
+3ac254 mov    QWORD PTR [rsp+0x8],rbx
+3ac259 push   rdi
+3ac25a sub    rsp,0x30
+3ac25e mov    edi,r8d
+3ac261 movaps XMMWORD PTR [rsp+0x20],xmm6
+3ac266 mov    r8,QWORD PTR [rsp+0x60]
+3ac26b mov    rbx,rdx
+3ac26e mov    edx,0x20
+3ac273 movaps xmm6,xmm3
+3ac276 call   0x3ac0fc
+3ac27b mov    rcx,rax
+3ac27e test   rax,rax
+3ac281 je     0x3ac307
+3ac287 movss  xmm0,DWORD PTR [rbx+0xc]
+3ac28c subss  xmm0,DWORD PTR [rbx+0x4]
+3ac291 movss  xmm1,DWORD PTR [rbx+0x8]
+3ac296 subss  xmm1,DWORD PTR [rbx]
+3ac29a movss  xmm2,DWORD PTR [rip+0xffffffffffee0fb2]        # 0x28d254
+3ac2a1 
+3ac2a2 divss  xmm1,xmm0
+3ac2a6 xorps  xmm0,xmm0
+3ac2a9 ucomiss xmm1,xmm0
+3ac2ac movss  DWORD PTR [rax+0xc],xmm1
+3ac2b1 jp     0x3ac2b5
+3ac2b3 je     0x3ac2bc
+3ac2b5 movaps xmm0,xmm2
+3ac2b8 divss  xmm0,xmm1
+3ac2bc movss  DWORD PTR [rax+0x10],xmm0
+3ac2c1 subss  xmm6,DWORD PTR [rbx+0x4]
+3ac2c6 movd   xmm0,edi
+3ac2ca cvtdq2ps xmm0,xmm0
+3ac2cd mulss  xmm6,xmm1
+3ac2d1 addss  xmm6,DWORD PTR [rbx]
+3ac2d5 subss  xmm6,xmm0
+3ac2d9 movss  DWORD PTR [rax+0x8],xmm6
+3ac2de cmp    DWORD PTR [rbx+0x10],0x0
+3ac2e2 jne    0x3ac2ec
+3ac2e4 movss  xmm2,DWORD PTR [rip+0xffffffffffee6f74]        # 0x293260
+3ac2eb 
+3ac2ec movss  DWORD PTR [rax+0x14],xmm2
+3ac2f1 mov    eax,DWORD PTR [rbx+0x4]
+3ac2f4 mov    DWORD PTR [rcx+0x18],eax
+3ac2f7 mov    eax,DWORD PTR [rbx+0xc]
+3ac2fa mov    DWORD PTR [rcx+0x1c],eax
+3ac2fd mov    rax,rcx
+3ac300 mov    QWORD PTR [rcx],0x0
+3ac307 mov    rbx,QWORD PTR [rsp+0x40]
+3ac30c movaps xmm6,XMMWORD PTR [rsp+0x20]
+3ac311 add    rsp,0x30
+3ac315 pop    rdi
+3ac316 ret

@@ -1,0 +1,15 @@
+[C] Read-only audit of original virtual-layout unpacked bytes and linear annotation.
+[C] DLL SHA256 ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090
+[C] Exact team stub RVA 0x2cd32c..0x2cd32f: 33 c0 c3 (xor eax,eax; ret).
+[C] All direct annotated references to culling object/value:
+2b5ba0	lea    rcx,[rip+0x131519]        # 0x3e70c0
+339b7e	lea    rdx,[rip+0xad583]        # 0x3e7108
+[C] Config inventory entry: {"glob": "0x3e70c0", "init": "0x2b5b78", "nrefs": 2, "reg": "call 0x2df16c", "users": ["0x338f30"]}
+[C] Separate chams helper string callsites:
+36a640	call   0x367f4c   ; STR "Sussy Object"
+36a79f	call   0x367950   ; STR "SussyMesh"
+[U] This no-logic-reader finding covers direct references in available static annotation and config inventory; alias-based/indirect use is not disproven.
+[C] Original bytes at 0x36a640: e8 07 d9 ff ff; decoded relative call target 0x367f4c.
+[C] Original bytes at 0x36a79f: e8 ac d1 ff ff; decoded relative call target 0x367950.
+[C] Original bytes at 0x2b5ba0: 48 8d 0d 19 15 13 00; decoded RIP-relative target 0x3e70c0.
+[C] Original bytes at 0x339b7e: 48 8d 15 83 d5 0a 00; decoded RIP-relative target 0x3e7108.

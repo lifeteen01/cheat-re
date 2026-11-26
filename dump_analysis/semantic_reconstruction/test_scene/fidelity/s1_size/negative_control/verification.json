@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "mutation": "Revert only ordinary label measurement size from copied shared state to literal sixteen",
+  "mutation_source_sha256": "0329ba404e6e98a0980a8a6af69efa4374b9a9aa59936eb768506a6d2516f5c4",
+  "runtime_exit_code": 1,
+  "expected_assertion": "Empty label must read a nondefault size and preserve the text controller size write",
+  "mutation_source": "dump_analysis/semantic_reconstruction/test_scene/fidelity/s1_size_hardcoded16.cpp",
+  "assigned_sources_unchanged": true,
+  "captured_dependencies_match_current": false,
+  "concurrent_dependency_changes": {
+    "/home/john/Desktop/cheat_re/source/test_scene/resources.cpp": {
+      "captured_sha256": "d460ba10612845f60dc4d8c6b13d0658ead98087e34baac9e39d688055be2e84",
+      "current_sha256": "d6ca375a54a6d0dd050dd5f5b14769374dcfc0b0ac1e3daced7ba773ebdea5d7"
+    },
+    "/home/john/Desktop/cheat_re/source/test_scene/scene.hpp": {
+      "captured_sha256": "b9a7761810bd5e0befc5b8e11d334a8c16a69afbf774579dbfc296a8cced99a4",
+      "current_sha256": "c8af34585f39375ce3896a2c01dc4f3ed90138ca3278dba59c5d9b15397277d0"
+    },
+    "/home/john/Desktop/cheat_re/source/test_scene/frame.hpp": {
+      "captured_sha256": "ad3973fb164bb6f1333f6e94844669eebe55ba61db8f75b0465e4007c38038c7",
+      "current_sha256": "cb231c2bdae632eca8708ba2d394275242de8d31a6676d25b9a12deb17691782"
+    }
+  },
+  "scope": "Authored working copy with one-line reversion; links captured positive strict objects; current broader dependencies changed concurrently; no production source mutation"
+}

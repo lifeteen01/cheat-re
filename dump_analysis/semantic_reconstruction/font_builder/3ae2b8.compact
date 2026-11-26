@@ -1,0 +1,16 @@
+3ae2b8 mov    r11,rsp
+3ae2bb sub    rsp,0x58
+3ae2bf mov    rax,QWORD PTR [rsp+0x98]
+3ae2c7 xorps  xmm0,xmm0
+3ae2ca mov    QWORD PTR [r11-0x10],rax
+3ae2ce mov    rax,QWORD PTR [rsp+0x90]
+3ae2d6 mov    QWORD PTR [r11-0x18],rax
+3ae2da mov    rax,QWORD PTR [rsp+0x88]
+3ae2e2 mov    QWORD PTR [r11-0x20],rax
+3ae2e6 mov    rax,QWORD PTR [rsp+0x80]
+3ae2ee mov    QWORD PTR [r11-0x28],rax
+3ae2f2 movss  DWORD PTR [rsp+0x28],xmm0
+3ae2f8 movss  DWORD PTR [rsp+0x20],xmm0
+3ae2fe call   0x3ae308
+3ae303 add    rsp,0x58
+3ae307 ret

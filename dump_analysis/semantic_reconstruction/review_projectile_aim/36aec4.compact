@@ -1,0 +1,50 @@
+36aec4 mov    QWORD PTR [rsp+0x8],rbx
+36aec9 push   rdi
+36aeca sub    rsp,0x20
+36aece mov    dil,dl
+36aed1 mov    rbx,rcx
+36aed4 call   0x2caf08
+36aed9 test   al,al
+36aedb je     0x36af4b
+36aedd test   dl,dl
+36aedf jne    0x36aeed
+36aee1 mov    rcx,rbx
+36aee4 call   0x36a178
+36aee9 test   al,al
+36aeeb je     0x36aeef
+36aeed mov    al,0x1
+36aeef cmp    BYTE PTR [rip+0x7c532],0x0        # 0x3e7428
+36aef6 jne    0x36aefc
+36aef8 test   al,al
+36aefa jne    0x36af4b
+36aefc mov    rcx,rbx
+36aeff call   0x3693b0
+36af04 test   al,al
+36af06 jne    0x36af4b
+36af08 test   dil,dil
+36af0b jne    0x36af47
+36af0d mov    rcx,rbx
+36af10 call   0x36acb8
+36af15 test   al,al
+36af17 jne    0x36af4b
+36af19 cmp    BYTE PTR [rip+0x93699],al        # 0x3fe5b8
+36af1f jne    0x36af2d
+36af21 mov    rcx,rbx
+36af24 call   0x36b288
+36af29 test   al,al
+36af2b jne    0x36af4b
+36af2d xor    edx,edx
+36af2f mov    rcx,rbx
+36af32 call   0x36a20c
+36af37 test   al,al
+36af39 je     0x36af47
+36af3b cmp    BYTE PTR [rip+0x7c3f6],0x0        # 0x3e7338
+36af42 setne  al
+36af45 jmp    0x36af4d
+36af47 mov    al,0x1
+36af49 jmp    0x36af4d
+36af4b xor    al,al
+36af4d mov    rbx,QWORD PTR [rsp+0x30]
+36af52 add    rsp,0x20
+36af56 pop    rdi
+36af57 ret

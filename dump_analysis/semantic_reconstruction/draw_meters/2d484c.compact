@@ -1,0 +1,10 @@
+2d484c rex push rbx
+2d484e sub    rsp,0x30
+2d4852 movss  xmm0,DWORD PTR [rsp+0x60]
+2d4858 mov    rbx,rcx
+2d485b movss  DWORD PTR [rsp+0x20],xmm0
+2d4861 call   0x2cc350
+2d4866 mov    rax,rbx
+2d4869 add    rsp,0x30
+2d486d pop    rbx
+2d486e ret

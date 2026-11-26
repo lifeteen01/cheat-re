@@ -1,0 +1,24 @@
+0x2e12e0..0x2e231d: 926 instructions; RETs ['0x2e231c']; sha256 653e2087610bcb00b62bfd9a19edb5b1dd27f8c73dd8795ba54da014b5147820
+0x2e6b20..0x2e890d: 1841 instructions; RETs ['0x2e890c']; sha256 d27c4dc775bee44f0db383347b0c60a1b66227ab10760f2f759daffc9bd95997
+0x2e91fc..0x2e92ae: 41 instructions; RETs ['0x2e92ad']; sha256 f0a699aa4081e50d55abc2159fa8f7d9205facb783c159d10bfabcba34c0e66b
+0x2e091c..0x2e09ef: 45 instructions; RETs ['0x2e09ee']; sha256 bd862985e9cdf432c91503e9870c9a85d8428f5cccd5e73f3a9e059707699255
+0x2e0ff0..0x2e124a: 139 instructions; RETs ['0x2e1249']; sha256 a63db75aaf3cd4a919cf1a075f43dc1cfc2d12b9b5214d4b4b6de8759f05bd4a
+0x2e1278..0x2e12df: 28 instructions; RETs ['0x2e12de']; sha256 90bfd9bb8b7a02962bacd69e65aa7ae8f4c5e8b7b76b46f8e01af9627014f838
+0x2e6340..0x2e6740: 262 instructions; RETs ['0x2e65b2']; sha256 485091b67c461119fb69168e5eb3201b6a2f003e76e059281f66224a3cb1964b
+0x2e8a30..0x2e8e85: 257 instructions; RETs ['0x2e8e84']; sha256 3c924bfcedd6cc33c053bcd4a5b4f54f087127fa3cd76ec50f717d02fd2b0d77
+0x32bb60..0x32bd4c: 135 instructions; RETs ['0x32bd48']; sha256 050ea814e5bd5e97cfa9b437006b27b9dba3af066e5af17589ab47f2d14c955a
+Existing excerpt 01_hooks/2e12e0.asm: 926 instruction byte sequences match virtual-layout DLL.
+Existing excerpt 01_hooks/2e91fc.asm: 41 instruction byte sequences match virtual-layout DLL.
+literal 0x28daf0: 9a9999999999b93f = 0.1
+literal 0x28daf8: 295cbf3f = 1.4950000047683716
+literal 0x28e1c4: 0ad7a33b = 0.004999999888241291
+literal 0x28e1c8: 9a99993e = 0.30000001192092896
+literal 0x28e1cc: 3333733f = 0.949999988079071
+literal 0x28e1d0: 6666a63f = 1.2999999523162842
+literal 0x28e1d8: 666666666666ee3f = 0.95
+literal 0x28e1e0: 00000041 = 8.0
+literal 0x28e1e4: 9a992941 = 10.600000381469727
+literal 0x28e1ec: c3f51cc1 = -9.8100004196167
+literal 0x2930f4: 2a5c9f3f = 1.2450001239776611
+Explicit exact-byte disassembly includes the alternate 0x2e65b3 branch after RET 0x2e65b2 through 0x2e673f.
+No sample execution. All disassembly is objdump reading a virtual-layout file (file offset = RVA).

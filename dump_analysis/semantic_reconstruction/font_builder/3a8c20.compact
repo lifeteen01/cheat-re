@@ -1,0 +1,48 @@
+3a8c20 mov    QWORD PTR [rsp+0x10],rbx
+3a8c25 mov    QWORD PTR [rsp+0x18],rbp
+3a8c2a push   rsi
+3a8c2b push   rdi
+3a8c2c push   r12
+3a8c2e push   r14
+3a8c30 push   r15
+3a8c32 sub    rsp,0x20
+3a8c36 mov    r12,rdx
+3a8c39 mov    rbx,rcx
+3a8c3c call   0x2d93d4
+3a8c41 mov    rcx,rbx
+3a8c44 mov    rdi,rax
+3a8c47 call   0x3a93c0
+3a8c4c mov    rbp,rax
+3a8c4f cmp    rdi,rax
+3a8c52 jae    0x3a8c9d
+3a8c54 lea    r15,[rdi*8+0x0]
+3a8c5c mov    esi,DWORD PTR [rdi]
+3a8c5e test   esi,esi
+3a8c60 je     0x3a8c94
+3a8c62 xor    ebx,ebx
+3a8c64 lea    r14,[rdi*8+0x0]
+3a8c6c bt     esi,ebx
+3a8c6f jae    0x3a8c8d
+3a8c71 mov    eax,r14d
+3a8c74 lea    rdx,[rsp+0x50]
+3a8c79 sub    eax,r15d
+3a8c7c mov    rcx,r12
+3a8c7f and    eax,0xffffffe0
+3a8c82 add    eax,ebx
+3a8c84 mov    DWORD PTR [rsp+0x50],eax
+3a8c88 call   0x39eee8
+3a8c8d inc    ebx
+3a8c8f cmp    ebx,0x20
+3a8c92 jb     0x3a8c6c
+3a8c94 add    rdi,0x4
+3a8c98 cmp    rdi,rbp
+3a8c9b jb     0x3a8c5c
+3a8c9d mov    rbx,QWORD PTR [rsp+0x58]
+3a8ca2 mov    rbp,QWORD PTR [rsp+0x60]
+3a8ca7 add    rsp,0x20
+3a8cab pop    r15
+3a8cad pop    r14
+3a8caf pop    r12
+3a8cb1 pop    rdi
+3a8cb2 pop    rsi
+3a8cb3 ret

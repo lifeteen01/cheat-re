@@ -1,0 +1,5 @@
+3925cc	mov    rax,QWORD PTR [rip+0x73555]        # 0x405b28
+3925d3	movss  xmm0,DWORD PTR [rax+0x3810]
+3925db	addss  xmm0,xmm0
+3925df	addss  xmm0,DWORD PTR [rax+0x3c30]
+3925e7	ret

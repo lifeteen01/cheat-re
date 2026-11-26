@@ -1,0 +1,1018 @@
+[
+  {
+    "begin": "0x2e2320",
+    "end": "0x2e2372",
+    "bytes": 82,
+    "sha256": "53650c61f2c0d5f951fc3146d1dbbd709dff28a6a43331765318364826291d98",
+    "pdata_end": "0x2e2372",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x2e5e4c",
+    "end": "0x2e5eec",
+    "bytes": 160,
+    "sha256": "5bd84af2f38171756edeb07d063e85f978c60e3667cc08a429e3d16d26879d98",
+    "pdata_end": "0x2e5eec",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x2e8910",
+    "end": "0x2e89e1",
+    "bytes": 209,
+    "sha256": "406385445b74ae3587a5c7cf6a274d7a5ce853dbe63c5ad5b7b8f0b8c56bd3fd",
+    "pdata_end": "0x2e89e1",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x329aa0",
+    "end": "0x329b50",
+    "bytes": 176,
+    "sha256": "361d59eb4e4ff1edf5895b26a1e46837ed1350acced8c8e3ff44acae4f412fc6",
+    "pdata_end": "0x329b50",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x2e0f10",
+    "end": "0x2e0ff0",
+    "bytes": 224,
+    "sha256": "fa7a027f189174676ee3f3ed236c50e26e3693c019e47a60fdf1e51ba9998ec2",
+    "pdata_end": "0x2e0ff0",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x2e480c",
+    "end": "0x2e48d0",
+    "bytes": 196,
+    "sha256": "fe7487440651df0033dfea419bdf551ec5e0191c276c479f00b56b22f0ee1ffa",
+    "pdata_end": "0x2e48d0",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x3214f4",
+    "end": "0x321565",
+    "bytes": 113,
+    "sha256": "560eb4a18985c074ce5a799095cb195713d6efd1eb87d9c03b9b9389f93e3e3b",
+    "pdata_end": "0x321565",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x32225c",
+    "end": "0x3222cf",
+    "bytes": 115,
+    "sha256": "18f30fee4280fcb87a5f4b02791d82d15c4600ee011ab4eb4eb8408f0bc7fe09",
+    "pdata_end": "0x3222cf",
+    "kind": "[C] [I] assigned root"
+  },
+  {
+    "begin": "0x2e6744",
+    "end": "0x2e6843",
+    "bytes": 255,
+    "sha256": "5ecfc77d635222122ee0adbfd4a2e58eadb31f919144c1f1b3a2d0312b2d216a",
+    "pdata_end": "0x2e6843",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e9c7c",
+    "end": "0x2e9d09",
+    "bytes": 141,
+    "sha256": "23b96159901ce44b9a88e49436f68282cd43a19453b469b8b6f00266597bf8aa",
+    "pdata_end": "0x2e9d09",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e5eec",
+    "end": "0x2e5ff8",
+    "bytes": 268,
+    "sha256": "84fd8a4f3fd999880114478ad386682163358d8b9cbc1f68417e1e8fc2a41e7b",
+    "pdata_end": "0x2e5ff8",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e5ff8",
+    "end": "0x2e610f",
+    "bytes": 279,
+    "sha256": "3502d88474efbb472e8f0bae84f307712406aa54f7ddfa720330ab0373b2cc1b",
+    "pdata_end": "0x2e610f",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e68b8",
+    "end": "0x2e69d5",
+    "bytes": 285,
+    "sha256": "6955fcf34c6cfdb5ae16df4c69e411135b49dca1f47b96c887950c7d1da2b676",
+    "pdata_end": "0x2e69d5",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e90d8",
+    "end": "0x2e91fb",
+    "bytes": 291,
+    "sha256": "f8ccc8bddbb9dce06dd4e7813a97521f5e5d19c8a9cbd07a04a440bb28e31728",
+    "pdata_end": "0x2e91fb",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e8e88",
+    "end": "0x2e8fab",
+    "bytes": 291,
+    "sha256": "d8a7898ceb97bd2eaab5726eec311ce114c635eec2e0a83c82a18a1825d90e2e",
+    "pdata_end": "0x2e8fab",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x32a938",
+    "end": "0x32a9f8",
+    "bytes": 192,
+    "sha256": "06fb04c28021369a995cb6d28f0a5649a9066196a3fa17ef04cd184b49363065",
+    "pdata_end": "0x32a9f8",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x3cb058",
+    "end": "0x3cb0bf",
+    "bytes": 103,
+    "sha256": "3d849e465ce8521466699a0dd4ac4f3150a294cebb5b1af5fa1f364bd8cb2f4f",
+    "pdata_end": "0x3cb0bf",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x3cae50",
+    "end": "0x3caecd",
+    "bytes": 125,
+    "sha256": "30b192ab54aacc5dfb8bc73337ec9d0c9eb96df7641b80487eada37bc8c0713a",
+    "pdata_end": "0x3caecd",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x3caed0",
+    "end": "0x3caf59",
+    "bytes": 137,
+    "sha256": "14ed3c5572f77fffa3d3e024d38ac8985f92306295a07841694bfa3592436ac5",
+    "pdata_end": "0x3caf59",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x3232d0",
+    "end": "0x323360",
+    "bytes": 144,
+    "sha256": "a404a59351ea58a793352a71f15625f9c1dcbe43804c1730ae714c26c6802a5a",
+    "pdata_end": "0x323360",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2de874",
+    "end": "0x2de950",
+    "bytes": 220,
+    "sha256": "9c3e707e5ae2957428a32ab341dd6bbbe38b80e1fb93aa5e285bb5e27cc1b0b5",
+    "pdata_end": "0x2de950",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2e49ec",
+    "end": "0x2e4a17",
+    "bytes": 43,
+    "sha256": "1420c0b2d3c3afff2a018dbd969dd319cd7ea322e72d6ff99f36196cba44f19a",
+    "pdata_end": "0x2e4a17",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2dda18",
+    "end": "0x2dda33",
+    "bytes": 27,
+    "sha256": "30f3131d25cd4a2e86534220f607de7e5eadd48397948861a5f0c4efcbcbdb9e",
+    "pdata_end": null,
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x2cb9fc",
+    "end": "0x2cba4f",
+    "bytes": 83,
+    "sha256": "fa0dc44b25b80e0ccfd0dcd7ef226ced5444dff7a2d58f995caae8643f9049a5",
+    "pdata_end": "0x2cba4f",
+    "kind": "[C] [I] immediate cache/control/known-store closure"
+  },
+  {
+    "begin": "0x3926ac",
+    "end": "0x3926b8",
+    "bytes": 12,
+    "sha256": "a886325376c056056a5ea86d901d16401824bc9837c54ec5ec5a2bb0312fdfba",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2cc268",
+    "end": "0x2cc26f",
+    "bytes": 7,
+    "sha256": "3b98965107b095508ee4fc4b85b2f7577d6b087b36ca11d22785db60f8c44b97",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2df370",
+    "end": "0x2df376",
+    "bytes": 6,
+    "sha256": "06dcc77a1c9c4313b8353858305ec3c04ecb0d4aebc8e5e372c592c54e4d456c",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2d4928",
+    "end": "0x2d492e",
+    "bytes": 6,
+    "sha256": "2feee7680534cb0d4773101d4c920a49cc956145596672dcc81ad2043d4c147c",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2ddbf8",
+    "end": "0x2ddc00",
+    "bytes": 8,
+    "sha256": "f577e99a0790e066f710ef4010befe90f64e939da43b31afa106a37b2bc21dc8",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2cd32c",
+    "end": "0x2cd32f",
+    "bytes": 3,
+    "sha256": "4bc724f3b1d0caf4fe369c18cba3102e6c4ea057f63fe1587e3973134a7f755e",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2caf08",
+    "end": "0x2caf28",
+    "bytes": 32,
+    "sha256": "9a71c11edd64818feeeda9fb3734a30ab8da101fed365978a858dc9bcd17e9b4",
+    "pdata_end": null,
+    "kind": "[C] [I] literal small fold"
+  },
+  {
+    "begin": "0x2cc730",
+    "end": "0x2cc737",
+    "bytes": 7,
+    "sha256": "1f1783e9ad63e1619f728fe1b816001d548b2fae23f0da9ae55178f14eeee07e",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5730",
+    "end": "0x2e5749",
+    "bytes": 25,
+    "sha256": "2e59a5ee1704f17bf52e6e28f7150f4fff484e26a539be3e1304fced72c08f03",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5574",
+    "end": "0x2e558d",
+    "bytes": 25,
+    "sha256": "17d135b0acc768ce95951684da9d77d5ae571ad3122572070d9dff967f59ee8c",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e53f8",
+    "end": "0x2e5418",
+    "bytes": 32,
+    "sha256": "1fd8f8f2f44d4a7fb5fafcd060d39d77cc361dfb9b3f0221b27b9ba0e468ea16",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e56b8",
+    "end": "0x2e56d1",
+    "bytes": 25,
+    "sha256": "3bc17e19e5f618521670137c72a557c7eb23e731ba32fde018235f8c59dc2409",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5504",
+    "end": "0x2e551f",
+    "bytes": 27,
+    "sha256": "901fd5371cce87e99d9464597b6b8d420f1306e12561fdc7d9173972ec2f6eac",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e538c",
+    "end": "0x2e53a5",
+    "bytes": 25,
+    "sha256": "8ff94cc8a34be5ca98f7535b8d0eb6392c7337b0ca17f7f2a85a405b96036e9a",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e56d4",
+    "end": "0x2e56ed",
+    "bytes": 25,
+    "sha256": "5cd3888d33ba32ffeb3da04197d3e58c7e84ff24f69c1bbc3465d278f685097d",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5520",
+    "end": "0x2e553b",
+    "bytes": 27,
+    "sha256": "82383a14c4278a8cb906f4d21b4feb0b9ad1041c5b4cc60d41da6b62bdf0f229",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e53a8",
+    "end": "0x2e53c1",
+    "bytes": 25,
+    "sha256": "40fd2e6d4b68d628e11f267b27b77eba87c8ca22fdb6068105ff728ebd1c6d3f",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e574c",
+    "end": "0x2e5770",
+    "bytes": 36,
+    "sha256": "2eedeb299a6d0481c1675c170a854c0606992461d7328105e80eed59975c5f54",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5590",
+    "end": "0x2e55b2",
+    "bytes": 34,
+    "sha256": "e2a674bd2d88e3cc1ee0af22850474063f27609e459f5351a9e74c4b209f9eab",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5434",
+    "end": "0x2e5458",
+    "bytes": 36,
+    "sha256": "19502458c5bcafd9fa2204a411c914ab447ebeb57b4a7cd3c546dcb1388b38b0",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e57a0",
+    "end": "0x2e57b9",
+    "bytes": 25,
+    "sha256": "51e615492cdd61b36a943b8ff95beaa6ab8d55b3ccb9ab244c9ba5779ea4563b",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e55f4",
+    "end": "0x2e5616",
+    "bytes": 34,
+    "sha256": "23e00c7f1f9528f2a8c658da6676b8dcea98bf7b3bb883cfc2cea18fdcd5d3a0",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5490",
+    "end": "0x2e54b4",
+    "bytes": 36,
+    "sha256": "fcb834c772f72d9121e9b2443b5d51e3cc492c59a0772a7224fe493fdcf60063",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5770",
+    "end": "0x2e578b",
+    "bytes": 27,
+    "sha256": "129010488750732e1444591955a9d3c4c64aa08d8b2698af1c3eee20e608e174",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e55b4",
+    "end": "0x2e55d6",
+    "bytes": 34,
+    "sha256": "bdf60148c0d03273c81188f2dd7d2e78844384c3e4112fabc3a0c8e60cb5eca5",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2e5458",
+    "end": "0x2e547c",
+    "bytes": 36,
+    "sha256": "1bb9eea5a64c36948dfadfe0fcf062c31780346177d2860f5bc60a8e9776f9e4",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x32392c",
+    "end": "0x323943",
+    "bytes": 23,
+    "sha256": "35ddc3ba0ef94c90d49012949cacf17087a4ad2dd5b9e116554fd2db0eddcdab",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x323b58",
+    "end": "0x323b73",
+    "bytes": 27,
+    "sha256": "ef050bb7506388810cda8142188e852da76add90add767794c21e406d724b4c1",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x3238f4",
+    "end": "0x323918",
+    "bytes": 36,
+    "sha256": "3df1d3959bec72745f713e28962fe551dc73b9b684ea475eb3568b07ce5236b2",
+    "pdata_end": null,
+    "kind": "[C] [I] literal constructor data fold"
+  },
+  {
+    "begin": "0x2cdca4",
+    "end": "0x2cdcca",
+    "bytes": 38,
+    "sha256": "06a5ced09eac0d03e60d93eba2f4a6e11e88ab753d36974ba2e8836e7db17c24",
+    "pdata_end": "0x2cdcca",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2ce55c",
+    "end": "0x2ce563",
+    "bytes": 7,
+    "sha256": "62053717b2e8a0a612ffea3511b429d4f80307217f2735c5ffbfb249f612a980",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2cd9dc",
+    "end": "0x2cd9e3",
+    "bytes": 7,
+    "sha256": "9eea61d1edbec31ab0b7639cfecb1cbb1cc66eefa791a59fa8d72fb56e8052be",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2cde0c",
+    "end": "0x2cde32",
+    "bytes": 38,
+    "sha256": "cb6bc5e18297432f71499a003f8796e963280c84f4a87ae4b586818d13a94e72",
+    "pdata_end": "0x2cde32",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2ce594",
+    "end": "0x2ce59c",
+    "bytes": 8,
+    "sha256": "c4d9e53fa9bbcf698455699eda73f592c58e3de3cfb64774b7371c767f3ba739",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2cdba0",
+    "end": "0x2cdbd0",
+    "bytes": 48,
+    "sha256": "fdc73584923a66165fc129ccef4410a6899cc45887fdcce51988bb592d66025e",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2dd110",
+    "end": "0x2dd136",
+    "bytes": 38,
+    "sha256": "439b827a2e69e7a359ad5058e2fee13ec307a805fbccd1a2633601575eb90998",
+    "pdata_end": "0x2dd136",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2ce56c",
+    "end": "0x2ce574",
+    "bytes": 8,
+    "sha256": "c27a5155a414d977851d21e2732f7c74f0f86833a45c01f7de180a823c59ec9a",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2dd004",
+    "end": "0x2dd034",
+    "bytes": 48,
+    "sha256": "24127552dc117fd678d519ef850df1550ee7d65e4e9857692402e4480f08ca5a",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e36b4",
+    "end": "0x2e36da",
+    "bytes": 38,
+    "sha256": "36fe725396e103b49d95c505d060b256165e152152498f66629827fbfd9e5599",
+    "pdata_end": "0x2e36da",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2e3b40",
+    "end": "0x2e3b48",
+    "bytes": 8,
+    "sha256": "9f142e44b165a221070a6ef34b4904bd3a495dabcd9407bd994aec4ced185190",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e34cc",
+    "end": "0x2e34fc",
+    "bytes": 48,
+    "sha256": "e9158d38ad48572525d7ca163827cc1f4af5e6e9440321365da19c6a5ded669c",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2d8504",
+    "end": "0x2d852a",
+    "bytes": 38,
+    "sha256": "57eaa54ddf059397f119b70dfe73d58a31df67eafdb7189a529b6b0a10550a1d",
+    "pdata_end": "0x2d852a",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2d8a90",
+    "end": "0x2d8a98",
+    "bytes": 8,
+    "sha256": "23c00b596c2c86019f5e847e4fa073b052058e0a00635cb4942b273f944a79b8",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2d8180",
+    "end": "0x2d81b0",
+    "bytes": 48,
+    "sha256": "51ba22d40cc5bebe2f3f7539ecba73625b005d91c75be3aa9f8c93fc09a4b55e",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2d861c",
+    "end": "0x2d8642",
+    "bytes": 38,
+    "sha256": "e57ab17f237a1642898c5d4b18e8b4bd8a6d0f3f70660160d99f05316a3454f5",
+    "pdata_end": "0x2d8642",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2d8ac0",
+    "end": "0x2d8ac8",
+    "bytes": 8,
+    "sha256": "8e02178066867c03f3dbb8e6a257f8e09836d021dadcd36cabf943bba48f2c11",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2d82e8",
+    "end": "0x2d8318",
+    "bytes": 48,
+    "sha256": "65212439fe8e154cecc40cccf6d53fa983e204ad91457fbf3d8d9796caaa8e69",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e36dc",
+    "end": "0x2e3702",
+    "bytes": 38,
+    "sha256": "b0521a268dec73f00f43e798078edea54b8455d5555667ed0c323c472960a835",
+    "pdata_end": "0x2e3702",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2e3b48",
+    "end": "0x2e3b50",
+    "bytes": 8,
+    "sha256": "5c7019aafba098e631dd6c88a81675f2d2174d49e6875c111f660b7f9c712729",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e34fc",
+    "end": "0x2e352c",
+    "bytes": 48,
+    "sha256": "3a10803245e268519cb37b5e5cd224890fcfe40eecddf02f0ea9cae17daf3be6",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2d8554",
+    "end": "0x2d857a",
+    "bytes": 38,
+    "sha256": "87d720068ee4bafc83041172cfa0613be60c1e90b3e407ec48ed9e154ba37fc5",
+    "pdata_end": "0x2d857a",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2d8aa0",
+    "end": "0x2d8aa8",
+    "bytes": 8,
+    "sha256": "c80beae16288aa72582e6927e45b02deb9ae5883f4182043446f5fd5f6c0ff08",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2d81e0",
+    "end": "0x2d8210",
+    "bytes": 48,
+    "sha256": "3a44779f140f9d8ff4a6928c8ad72e337b025e0747e61a79015fe1f0715d586f",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e363c",
+    "end": "0x2e3662",
+    "bytes": 38,
+    "sha256": "60ea23dc7226c12a9cdbce0b131576c50580a7d9901eac937fbfdd8fe8611c22",
+    "pdata_end": "0x2e3662",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2e3b30",
+    "end": "0x2e3b38",
+    "bytes": 8,
+    "sha256": "6d893afca54eab3c69672d87f9e9fe2d73e1ed2b0fc2d765deb42e21b890e665",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e343c",
+    "end": "0x2e346c",
+    "bytes": 48,
+    "sha256": "6984085a9e7e0ed64385c6afaf014530c4c8c69dd82659ce2bf8d31e95fe1a87",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e9c2c",
+    "end": "0x2e9c52",
+    "bytes": 38,
+    "sha256": "51b84ffd4828b45e75374fe905926d20f8e50cca286a3376c5c67d6b7b21d10b",
+    "pdata_end": "0x2e9c52",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x2e9d0c",
+    "end": "0x2e9d14",
+    "bytes": 8,
+    "sha256": "91225c76e9ebed9063538175e6efed9c0817e1f4f954ba6e394f0f65d0c52964",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e9abc",
+    "end": "0x2e9aec",
+    "bytes": 48,
+    "sha256": "0d839a5b9c56f92abfcdab7364f984712da2490e77e29ea17d5df839d0adf5a1",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x32a8fc",
+    "end": "0x32a922",
+    "bytes": 38,
+    "sha256": "7f21c281438877414431a365c45ad519839d1bb72102de2087f31666d8d1dd16",
+    "pdata_end": "0x32a922",
+    "kind": "[C] [I] conditional literal decoder"
+  },
+  {
+    "begin": "0x32a924",
+    "end": "0x32a92c",
+    "bytes": 8,
+    "sha256": "2c08aa2e38ef7d8405445dfc5443968ebda55805d0afdc33d7fcac9b48030a0c",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x32a8a4",
+    "end": "0x32a8d4",
+    "bytes": 48,
+    "sha256": "24d9722a3579641fe1a111f0aaa9f0c15a23419b910305d28c77fc8eee5c62a6",
+    "pdata_end": null,
+    "kind": "[C] [I] literal sentinel/XOR fold"
+  },
+  {
+    "begin": "0x2e4dd0",
+    "end": "0x2e4e10",
+    "bytes": 64,
+    "sha256": "4a136c930d19cd53b0075c2ea7b3fd85a36d51e4ca86f5efc3dc9172ae23ab34",
+    "pdata_end": "0x2e4e10",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4bf8",
+    "end": "0x2e4c6d",
+    "bytes": 117,
+    "sha256": "d9765763617b17aaf65c0a8482fb7cb7615d57a849d2b050ebbb3682481b8b92",
+    "pdata_end": "0x2e4c6d",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d8880",
+    "end": "0x2d88d0",
+    "bytes": 80,
+    "sha256": "464183bbf8b2b3ac9cb0d7d0be6ed65031abcbf4e2121184d1f0f1aa33de1f50",
+    "pdata_end": "0x2d88d0",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d07a4",
+    "end": "0x2d07d0",
+    "bytes": 44,
+    "sha256": "dcef605c0635420adac430c8cce569d75a9677e9310bec00d1f3d694c9768e7f",
+    "pdata_end": "0x2d07d0",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d07d4",
+    "end": "0x2d0861",
+    "bytes": 141,
+    "sha256": "0055d2fedd66519728165a35ef6d40d38384bbe7b49c84bc040480f86dffe9de",
+    "pdata_end": "0x2d0861",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d86b8",
+    "end": "0x2d86d3",
+    "bytes": 27,
+    "sha256": "10ae704089d2d816975f8ddc3c027c24c990ad8b209d45f023244ec3b1e848bc",
+    "pdata_end": "0x2d86d3",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d877c",
+    "end": "0x2d87ad",
+    "bytes": 49,
+    "sha256": "3ab36844aa889556a32c04b500d94e49f5c1a7755e21fcf3bd8faa054d327ca9",
+    "pdata_end": "0x2d87ad",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d4da0",
+    "end": "0x2d4db5",
+    "bytes": 21,
+    "sha256": "2cc30518d7ddedebf2437a53468aeb32268025133ce10a3153921769049a0526",
+    "pdata_end": "0x2d4db5",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e50f8",
+    "end": "0x2e5115",
+    "bytes": 29,
+    "sha256": "d198ba8fe00c56214eb2bb7facb743c9718201f5c3e84cb083708ec3bffb6215",
+    "pdata_end": "0x2e5115",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4488",
+    "end": "0x2e45be",
+    "bytes": 310,
+    "sha256": "1413f19d92e265d5a6788710af81bcbb094d2ded610c745064ffc4069c27431a",
+    "pdata_end": "0x2e45be",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4ae0",
+    "end": "0x2e4b05",
+    "bytes": 37,
+    "sha256": "ce1f1dca0185f55d8a67a353cc9bba8f050f6253f8e77a923f92fafc28a20383",
+    "pdata_end": "0x2e4b05",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4010",
+    "end": "0x2e402e",
+    "bytes": 30,
+    "sha256": "605c0733e43b00e28b66f2b890ba4c4b2c42dbc515f839a6f4f2faf6797f026c",
+    "pdata_end": "0x2e402e",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2ddddc",
+    "end": "0x2dde01",
+    "bytes": 37,
+    "sha256": "4daabc8b7e11d5759638116f46770d878022770b2473d26cad23926f6acc19c0",
+    "pdata_end": "0x2dde01",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2dde30",
+    "end": "0x2dde4d",
+    "bytes": 29,
+    "sha256": "fb102857571e591c112639d2415c58b150bb3d2f94498bb76d992b19cc1bb020",
+    "pdata_end": "0x2dde4d",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4030",
+    "end": "0x2e40a8",
+    "bytes": 120,
+    "sha256": "5203c17f4066d8328e91837c3fad39b78b2a1837f2feeed2901f594a6b95f77d",
+    "pdata_end": "0x2e40a8",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e9300",
+    "end": "0x2e9328",
+    "bytes": 40,
+    "sha256": "89a52352a613e0cc89fa6c1fe50017f5920a02f53d2a827d15dc4a90399c8457",
+    "pdata_end": "0x2e9328",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4a18",
+    "end": "0x2e4a63",
+    "bytes": 75,
+    "sha256": "a94584e94461344e18e0c4f572c615b4a1df0937e3cc71f89f6fae517b4e1e60",
+    "pdata_end": "0x2e4a63",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4a64",
+    "end": "0x2e4ad7",
+    "bytes": 115,
+    "sha256": "b9807070ca2530bc876685813d0361cfa687ead6f2ff4c641978aa51b91be440",
+    "pdata_end": "0x2e4ad7",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e3fe4",
+    "end": "0x2e400d",
+    "bytes": 41,
+    "sha256": "c25bc4587e91b253f2d2a15bccd91dac6722a523c74816f02776ddb4469ad8a8",
+    "pdata_end": "0x2e400d",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e40f0",
+    "end": "0x2e411a",
+    "bytes": 42,
+    "sha256": "e7bf7bed917aa6b450b992cd77cfdb1ac6818236949a76463ed3dc10331cd4a8",
+    "pdata_end": "0x2e411a",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d6d44",
+    "end": "0x2d6dce",
+    "bytes": 138,
+    "sha256": "67797a92f4949493622b67eb1fb969b78520b11c1052ee44efa9baa47aeca3dc",
+    "pdata_end": "0x2d6dce",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e9738",
+    "end": "0x2e975d",
+    "bytes": 37,
+    "sha256": "ce63a5cb3971bef9c6a55a5746991e5e784616dab760dfd3d9d29452c91725c8",
+    "pdata_end": "0x2e975d",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e949c",
+    "end": "0x2e950f",
+    "bytes": 115,
+    "sha256": "254681dfca16bed55f70ee2a9427e0d5f1730adba06e4bbc99e24d293098c708",
+    "pdata_end": "0x2e950f",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e9510",
+    "end": "0x2e971a",
+    "bytes": 522,
+    "sha256": "2cd2b8c5462bdf861f67c5995c61f50ee9e5f90ec7c0fa3e5ce72c6f8176874a",
+    "pdata_end": "0x2e971a",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2d7564",
+    "end": "0x2d75d9",
+    "bytes": 117,
+    "sha256": "52a21db7970ca8b30e637ee60e8d234fca6218be481ca398de1a590b94ab255e",
+    "pdata_end": "0x2d75d9",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e93e4",
+    "end": "0x2e940f",
+    "bytes": 43,
+    "sha256": "6c2bc5021326767dd74009724c3d296ca8f16116356004eee79975a1f5a9b003",
+    "pdata_end": "0x2e940f",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4f88",
+    "end": "0x2e4f8d",
+    "bytes": 5,
+    "sha256": "4addbdb4c21599ee3c45d87c74f068512f5e4245a6af19e2272ebcc87ff4dbfa",
+    "pdata_end": null,
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2e4f30",
+    "end": "0x2e4f50",
+    "bytes": 32,
+    "sha256": "4a099fb3286e7d8813ca02960afe462998a8421f0903027ddc0e612ca8531f1b",
+    "pdata_end": "0x2e4f50",
+    "kind": "[C] [I] owned int/byte container specialization; [U] raw heap ABI/failure-prefix"
+  },
+  {
+    "begin": "0x2cf0e4",
+    "end": "0x2cf0ec",
+    "bytes": 8,
+    "sha256": "5d2cb605b45ba2d9f195042ad1540a908847ce6ea91dc08bef0691ed0a0183bb",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2d553c",
+    "end": "0x2d5541",
+    "bytes": 5,
+    "sha256": "495386080e83ec7a0c9c0ed130bc14a1dc06c48bca59b29d6e979ddd1499a3af",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2d6fa0",
+    "end": "0x2d6fa5",
+    "bytes": 5,
+    "sha256": "c2a745501a85b695636139c816da731c08bd3f1f8a5c15c10f78f23c5de79043",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2d5544",
+    "end": "0x2d554d",
+    "bytes": 9,
+    "sha256": "6e41fdf371ba8fd37d1bb633b70fdd1d55920d3168b86f17b344914d1fd1b1aa",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2cc534",
+    "end": "0x2cc53e",
+    "bytes": 10,
+    "sha256": "3c19d5dfa709f844c86e44cca90756710fcc3b993722e5eaf5b85a2e7b5342a4",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2cd324",
+    "end": "0x2cd329",
+    "bytes": 5,
+    "sha256": "1e81307b2a60e873286c07324ab64732fa1f31859f6b539a5c8adb96f374a26f",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2d4dc0",
+    "end": "0x2d4dc5",
+    "bytes": 5,
+    "sha256": "cb20b0bdcd87287b71788380cc107e139438e4cfe401d353e92485f69e43b5d5",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2d4db8",
+    "end": "0x2d4dc0",
+    "bytes": 8,
+    "sha256": "d3868f086c0c05fe26d62fc2d42c7490564935bf093b416ca4f97eaf9cf0ed72",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2d7e10",
+    "end": "0x2d7e15",
+    "bytes": 5,
+    "sha256": "20079dcb13f6f722cbd484a7ab5f1afc081ce44433d165cfd9f3a95d2d319332",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2cb3a4",
+    "end": "0x2cb3a8",
+    "bytes": 4,
+    "sha256": "cbc18d5e3d66ae414162c4a417b073a375f2804b50567d073ef1c62e50d8d523",
+    "pdata_end": null,
+    "kind": "[C] [I] owned-container alias/equality/hash/data fold"
+  },
+  {
+    "begin": "0x2cf0ec",
+    "end": "0x2cf11c",
+    "bytes": 48,
+    "sha256": "2ae154667a37a64b8b283b2ec4c9869b91bd277d132b3c4c32f66d92088a245e",
+    "pdata_end": "0x2cf11c",
+    "kind": "[C] [I] reuse registry four-byte hash/equality"
+  },
+  {
+    "begin": "0x2d0ae4",
+    "end": "0x2d0af6",
+    "bytes": 18,
+    "sha256": "85fa21e71f9823ef02e8653b7d0d80592b391b452bf1874043c866926fa48a17",
+    "pdata_end": null,
+    "kind": "[C] [I] reuse registry four-byte hash/equality"
+  },
+  {
+    "begin": "0x2d7078",
+    "end": "0x2d70a2",
+    "bytes": 42,
+    "sha256": "b69c36ee4286e8c87f29ef8d763e85a6302ebac2ba859540fab4d24aa744393c",
+    "pdata_end": null,
+    "kind": "[C] [I] reuse registry four-byte hash/equality"
+  }
+]

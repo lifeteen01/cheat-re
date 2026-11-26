@@ -1,0 +1,23 @@
+Compile windows host.cpp
+{"passed": true, "mode": "windows", "cache_hits": 149, "artifact": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_scene.exe", "artifact_sha256": "41f10810ca15e6528a4ac009a2af9b5c8b4cd43688cb4e701fc5f63371bf1d80"}
+{
+  "passed": true,
+  "mode": "windows",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 46.522,
+  "artifact_sha256": "41f10810ca15e6528a4ac009a2af9b5c8b4cd43688cb4e701fc5f63371bf1d80",
+  "wine_version": "wine-10.0 (Ubuntu 10.0~repack-12ubuntu1)",
+  "isolated_prefix": "dump_analysis/semantic_reconstruction/test_scene/windows/owned_wine_tyq7o7nl",
+  "native_windows_validated": false,
+  "inside_rust_validated": false,
+  "build_record_sha256": "b5eac71c8b80e1ef9128dbd960734dd852f1d00594317118bfe360d2e6826333",
+  "runner_sha256": "c9e33e7ea276d0f67fbf4cdf035bcfcbd7b945e168566eb30c04c46370e3e0fd",
+  "runtime_evidence": {
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime/events.jsonl": "1582a7429363723d127fb125f0867f8b075a965150e04d4d7b43a518fca62f3b",
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime/entrypoints.json": "8838b579c516cf82eee5a5d0aa5d09a25f1130e9146d2e7c695929bf9c82bdea",
+    "dump_analysis/semantic_reconstruction/test_scene/windows/runtime.log": "ecb78958aceb06517caadc4810f988b52f869c57694a5bedb9cf162c4310a6bb"
+  },
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

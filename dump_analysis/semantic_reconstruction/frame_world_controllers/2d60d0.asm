@@ -1,0 +1,62 @@
+2d60d0	mov    QWORD PTR [rsp+0x8],rbx
+2d60d5	mov    QWORD PTR [rsp+0x10],rsi
+2d60da	push   rdi
+2d60db	sub    rsp,0x50
+2d60df	mov    rbx,rcx
+2d60e2	call   0x2d1978
+2d60e7	mov    rcx,rbx
+2d60ea	mov    rdi,rax
+2d60ed	call   0x2d79c0
+2d60f2	mov    rsi,rax
+2d60f5	cmp    rdi,rax
+2d60f8	je     0x2d619b
+2d60fe	mov    rdx,rdi
+2d6101	lea    rcx,[rsp+0x20]
+2d6106	call   0x2d47e8
+2d610b	mov    edx,DWORD PTR [rsp+0x20]
+2d610f	test   edx,edx
+2d6111	je     0x2d615d
+2d6113	sub    edx,0x1
+2d6116	je     0x2d6134
+2d6118	cmp    edx,0x1
+2d611b	jne    0x2d6184
+2d611d	lea    rcx,[rsp+0x28]
+2d6122	call   0x2cd7ec
+2d6127	mov    rdx,rax
+2d612a	mov    rcx,rbx
+2d612d	call   0x2d5918
+2d6132	jmp    0x2d6184
+2d6134	lea    rcx,[rsp+0x28]
+2d6139	call   0x2d8694
+2d613e	test   al,al
+2d6140	je     0x2d6146
+2d6142	xor    eax,eax
+2d6144	jmp    0x2d6150
+2d6146	lea    rcx,[rsp+0x28]
+2d614b	call   0x2cd7ec
+2d6150	mov    rdx,rax
+2d6153	mov    rcx,rbx
+2d6156	call   0x2d6488
+2d615b	jmp    0x2d6184
+2d615d	lea    rcx,[rsp+0x28]
+2d6162	call   0x2d8694
+2d6167	test   al,al
+2d6169	je     0x2d616f
+2d616b	xor    eax,eax
+2d616d	jmp    0x2d6179
+2d616f	lea    rcx,[rsp+0x28]
+2d6174	call   0x2cd7ec
+2d6179	mov    rdx,rax
+2d617c	mov    rcx,rbx
+2d617f	call   0x2d6068
+2d6184	lea    rcx,[rsp+0x20]
+2d6189	call   0x2d4a58
+2d618e	add    rdi,0x28
+2d6192	cmp    rdi,rsi
+2d6195	jne    0x2d60fe
+2d619b	mov    rcx,rbx
+2d619e	mov    rbx,QWORD PTR [rsp+0x60]
+2d61a3	mov    rsi,QWORD PTR [rsp+0x68]
+2d61a8	add    rsp,0x50
+2d61ac	pop    rdi
+2d61ad	jmp    0x2d7fb0

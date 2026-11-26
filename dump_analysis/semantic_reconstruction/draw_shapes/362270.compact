@@ -1,0 +1,24 @@
+362270 mov    DWORD PTR [rcx],0x3f5e147b
+362276 mov    rax,rcx
+362279 mov    DWORD PTR [rcx+0x4],0x3f400000
+362280 mov    DWORD PTR [rcx+0x8],0x3f7c28f6
+362287 mov    DWORD PTR [rcx+0xc],0x3d8f5c29
+36228e mov    DWORD PTR [rcx+0x10],0x43430000
+362295 mov    DWORD PTR [rcx+0x14],0xbd1374bc
+36229c mov    DWORD PTR [rcx+0x18],0x3ea45a1d
+3622a3 mov    DWORD PTR [rcx+0x1c],0xbea45a1d
+3622aa mov    DWORD PTR [rcx+0x20],0xbddb22d1
+3622b1 mov    DWORD PTR [rcx+0x24],0x3ec9374c
+3622b8 mov    DWORD PTR [rcx+0x28],0x3ddb22d1
+3622bf ret
+3622c0 sub    rsp,0x48
+3622c4 movaps XMMWORD PTR [rsp+0x30],xmm6
+3622c9 movaps XMMWORD PTR [rsp+0x20],xmm7
+3622ce call   0x320cd0
+3622d3 movaps xmm6,xmm0
+3622d6 mulss  xmm6,DWORD PTR [rip+0xfffffffffff30db2]        # 0x293090
+3622de movaps xmm0,xmm6
+3622e1 call   0x2e0198
+3622e6 movaps xmm7,xmm0
+3622e9 movaps xmm0,xmm6
+3622ec xorps  xmm7,XMMWORD PTR [rip+0xfffffffffff30fad]        # 0x2932a0

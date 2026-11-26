@@ -1,0 +1,38 @@
+3944ac	mov    QWORD PTR [rsp+0x8],rbx
+3944b1	mov    QWORD PTR [rsp+0x10],rsi
+3944b6	push   rdi
+3944b7	sub    rsp,0x40
+3944bb	mov    rsi,QWORD PTR [rip+0x71666]        # 0x405b28
+3944c2	mov    bl,r8b
+3944c5	mov    r8,rdx
+3944c8	mov    rdx,rcx
+3944cb	lea    rcx,[rsp+0x28]
+3944d0	call   0x2db388
+3944d5	test   bl,bl
+3944d7	je     0x3944f1
+3944d9	mov    rdx,QWORD PTR [rsi+0x3f08]
+3944e0	lea    rcx,[rsp+0x28]
+3944e5	add    rdx,0x238
+3944ec	call   0x3901b8
+3944f1	lea    rbx,[rsi+0x3834]
+3944f8	mov    r8,rbx
+3944fb	lea    rdx,[rsp+0x30]
+394500	lea    rcx,[rsp+0x68]
+394505	call   0x2ef9d8
+39450a	mov    r8,rbx
+39450d	lea    rdx,[rsp+0x28]
+394512	lea    rcx,[rsp+0x20]
+394517	mov    rdi,rax
+39451a	call   0x3367e4
+39451f	mov    rdx,rax
+394522	lea    rcx,[rsp+0x28]
+394527	mov    r8,rdi
+39452a	call   0x2db388
+39452f	lea    rdx,[rsi+0xe08]
+394536	lea    rcx,[rsp+0x28]
+39453b	call   0x3907c0
+394540	mov    rbx,QWORD PTR [rsp+0x50]
+394545	mov    rsi,QWORD PTR [rsp+0x58]
+39454a	add    rsp,0x40
+39454e	pop    rdi
+39454f	ret

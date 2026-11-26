@@ -1,0 +1,37 @@
+3345c4 mov    QWORD PTR [rsp+0x8],rbx
+3345c9 mov    QWORD PTR [rsp+0x10],rsi
+3345ce push   rdi
+3345cf sub    rsp,0x30
+3345d3 mov    eax,DWORD PTR [rip+0xc5dc7]        # 0x3fa3a0
+3345d9 mov    ebx,r8d
+3345dc mov    rdi,rdx
+3345df mov    rsi,rcx
+3345e2 test   al,0x1
+3345e4 jne    0x334606
+3345e6 or     eax,0x1
+3345e9 mov    DWORD PTR [rip+0xc5db1],eax        # 0x3fa3a0
+3345ef call   0x333a3c
+3345f4 mov    r8,rax
+3345f7 mov    QWORD PTR [rip+0xc5d9a],rax        # 0x3fa398
+3345fe mov    eax,DWORD PTR [rip+0xc5d9c]        # 0x3fa3a0
+334604 jmp    0x33460d
+334606 mov    r8,QWORD PTR [rip+0xc5d8b]        # 0x3fa398
+33460d test   al,0x2
+33460f jne    0x334630
+334611 mov    rcx,QWORD PTR [rip+0xa1848]        # 0x3d5e60
+334618 lea    rdx,[rip+0xc5d91]        # 0x3fa3b0
+33461f or     eax,0x2
+334622 xor    r9d,r9d
+334625 mov    DWORD PTR [rip+0xc5d75],eax        # 0x3fa3a0
+33462b call   0x2cbd24
+334630 mov    rcx,QWORD PTR [rip+0xa1829]        # 0x3d5e60
+334637 lea    rdx,[rip+0xc5d72]        # 0x3fa3b0
+33463e mov    r9,rdi
+334641 mov    DWORD PTR [rsp+0x20],ebx
+334645 mov    r8,rsi
+334648 call   0x332e8c
+33464d mov    rbx,QWORD PTR [rsp+0x40]
+334652 mov    rsi,QWORD PTR [rsp+0x48]
+334657 add    rsp,0x30
+33465b pop    rdi
+33465c ret

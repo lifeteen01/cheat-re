@@ -1,0 +1,374 @@
+115a K=22 W N=6c ?partial C:/Program Files (x86)/Steam/steamapps/common/Ru\u0298\u02a5\u02b2\u02bf\u02cc\u02d9\u02e6\u02f3\u0301\u030e\u031b\u0328\u0335\u0342\u034f\u035c\u036a\u0377\u0384\u0391\u039e\u03ab\u03b8\u03c5\u03d3\u03e0\u03ed\u03fa\u0407\u0414\u0421\u042e\u043c\u0449\u0456\u0463\u0470\u047d\u048a\u0497\u04a5\u04b2\u04bf\u04cc\u04d9\u04e6\u04f3\u0500\u050e\u051b\u0528\u0535\u0542\u054f\u055c\u0569\u0577\u0584\u0591\u059e
+14e3 K=6e W N=f RustClient.exe
+15eb K=d9 A N=6 hooks
+170b K=ff A N=9 debugger
+176b K=5d A N=f code_integrity
+17bb K=3b A N=15 analysis_environment
+1a6b K=d9 A N=6 hooks
+1bab K=40 A N=1d phase=%u win32=%lu stage=%ls
+1c43 K=22 W N=19 startup_failed stage=%ls
+1cbc K=8c A N=5 fail
+1d2b K=8c A N=7 finish
+1d8b K=d9 A N=6 hooks
+1f4b K=e7 A N=14 xor_tcp_h_connected
+200b K=e7 A N=19 xor_tcp_h_connect_failed
+226b K=b2 A N=36 build=telemetry-20260916 code_seal=off worker_started
+22cb K=b2 A N=6 begin
+232d K=b2 A N=7 worker
+23cc K=57 A N=9 debugger
+243b K=c9 A N=d code_capture
+24ab K=ab A N=15 analysis_environment
+268d K=66 A N=5 fail
+26eb K=66 A N=6 guard
+298a K=9c W N=26 local_log_ready output=encrypted_file
+2a5a K=14 W N=82 runtime_begin standalone=true interposer=false asm=false donor_relay=true phase1_source=remote_h steam_apps_lookup=direct_user_v1
+2b8b K=3d W N=26 eos_preloaded library="%ls" module=%p
+2c3b K=6f A N=27 waiting_for_unity_baselib_gameassembly
+2c9b K=6f A N=6 begin
+2ceb K=6f A N=8 modules
+2dca K=3b W N=10 UnityPlayer.dll
+2e5a K=99 W N=c baselib.dll
+2eea K=7f W N=11 GameAssembly.dll
+2fcb K=f6 A N=19 required_modules_present
+302b K=f6 A N=3 ok
+307b K=f6 A N=8 modules
+315b K=41 A N=15 initializing_xor_tcp
+31bb K=41 A N=6 begin
+321b K=41 A N=a steam_api
+332b K=67 A N=e xor_tcp_ready
+338b K=85 A N=3 ok
+33fc K=67 A N=17 xor_tcp_winsock_failed
+346b K=85 A N=5 fail
+34db K=85 A N=a steam_api
+35cd K=ee A N=19 hooks mapped into player
+364b K=50 A N=23 hooks mapped, inject token missing
+36bb K=0d A N=3 ok
+372b K=0d A N=5 fail
+379b K=0d A N=6 begin
+38d3 K=32 W N=2d module_ready name=GameAssembly.dll module=%p
+39da K=d8 W N=34 steam_launch status=deferred waiting_for_steam_apps
+3ada K=f9 W N=31 steam_mask status=deferred waiting_for_steam_api
+3d7b K=d4 W N=5b official_RakNet accepted module=%p exports=11 resolved_by_name=true build_independent=true
+3f6b K=22 W N=30 ?\u04a2\u04b0\u0551\u0532\u0500\u0571\u0538\u0546 init backend=ksecdd_host channel_ok=%u
+401d K=3a A N=3c external KsecDD H host is required; HV fallback is disabled
+407b K=5c A N=5 fail
+40eb K=5c A N=7 phase1
+41fb K=23 A N=13 installing_routing
+425b K=23 A N=6 begin
+42bc K=23 A N=e hooks_install
+43da K=67 W N=18 eos_preloaded module=%p
+44ea K=76 W N=36 hook_install baselib!GetProcAddress source=PE_imports
+4633 K=55 W N=39 minhook_failed stage=initialize_raknet_exports status=%d
+484a K=80 W N=3c hook_install RakNet export name=%hs target=%p trampoline=%p
+498b K=8d W N=33 hook_install RakNet export name=%hs source=MinHook
+4aba K=9c W N=34 hook_install baselib!LoadLibraryW source=PE_imports
+4bda K=50 W N=38 hook_install UnityPlayer!LoadLibraryW source=PE_imports
+4e43 K=85 W N=34 steam_launch status=deferred waiting_for_steam_apps
+4f43 K=5f W N=31 steam_mask status=deferred waiting_for_steam_api
+4fcb K=31 A N=13 routing_stabilized
+502b K=31 A N=3 ok
+508c K=31 A N=e hooks_install
+513b K=74 A N=16 starting_local_server
+519b K=74 A N=6 begin
+51ed K=74 A N=c relay_start
+52ab K=82 A N=15 local_server_started
+530b K=82 A N=3 ok
+535d K=82 A N=c relay_start
+543b K=9b A N=1f connect_thread_creation_failed
+549b K=9b A N=5 fail
+54fb K=9b A N=5 peer
+566a K=56 W N=7e runtime_ready hooks=10 routing=raknet_exports server=0.0.0.0:%u payload_mutation=true donor_relay=true phase1_source=remote_h
+56fb K=8a A N=16 hooks runtime polling
+575b K=8a A N=3 ok
+57ab K=8a A N=8 runtime
+58bb K=57 A N=22 protection_thread_creation_failed
+591b K=57 A N=5 fail
+597b K=57 A N=6 guard
+5bcb K=23 A N=16 signaled=%u win32=%lu
+5c4b K=6f A N=3 ok
+5cad K=6f A N=5 fail
+5d0b K=8d A N=c relay_ready
+5d6b K=8d A N=6 hooks
+63fa K=8b W N=39 mode2_session_key status=install_failed ntstatus=0x%08lX
+649b K=1b A N=2c received job=%llu q=%u slot1=install_failed
+652b K=fc A N=5 fail
+658b K=fc A N=9 phase1_h
+65fb K=fc A N=7 packer
+671d K=13 A N=18 polls=%llu packets=%llu
+679c K=b5 A N=3 ok
+67fb K=b5 A N=e relay_traffic
+692a K=69 W N=8f mode2_session_key status=installed algorithm=aes-256-gcm slot=slot1 source=external_H_double_H key_bytes=32 inbound_domain=2 outbound_domain=1
+69cb K=0d A N=28 delivered job=%llu q=%u slot1=installed
+6a4b K=d7 A N=3 ok
+6aab K=d7 A N=9 phase1_h
+6b1b K=d7 A N=7 packer
+6c2b K=3d A N=15 polls=%llu packets=0
+6cab K=de A N=5 fail
+6cfb K=de A N=b relay_idle
+6f1b K=1b A N=1a routing_or_logging_failed
+6f7b K=1b A N=5 fail
+6fcb K=1b A N=8 runtime
+707c K=c9 A N=12 hook_cell_changed
+70db K=c9 A N=5 fail
+712b K=c9 A N=8 runtime
+7223 K=f5 W N=28 runtime_failed reason=hook_cell_changed
+731b K=9a A N=22 connect_still_running_at_shutdown
+737b K=9a A N=5 fail
+73db K=9a A N=5 peer
+7556 K=77 W N=41 server_call NET_Close context=%p receive_polls=%llu packets=%llu
+7663 K=95 W N=5 true
+76d3 K=95 W N=6 false
+77f3 K=e8 W N=49 runtime_final ok=%ls hooks_process_lifetime=true polls=%llu packets=%llu
+78bb K=ed A N=16 hooks runtime stopped
+792b K=4f A N=3 ok
+799b K=ed A N=15 hooks runtime failed
+7a0b K=4f A N=5 fail
+7a8b K=4f A N=7 finish
+7c33 K=f2 W N=36 minhook_failed stage=enable_export name=%hs status=%d
+7d24 K=15 W N=36 minhook_failed stage=create_export name=%hs status=%d
+7e0b K=e2 W N=37 minhook_failed stage=resolve_export name=%hs status=%d
+7f4a K=6e W N=1a ?partial n{\x88\x95\xa2\xaf\xbc\xc9\xd7\xe4\xf1\xfe\u010b\u0118\u0125\u0132\u0140\u014d\u015a\u0167\u0174\u0181\u018e\u019bl
+801a K=6e W N=1a ?partial \uff91\ud5b0\u9130\u8d3c\xa2\xaf\xbc\xc9\u4dbe\u27b2\u2ad7\u12f2\ufaaf\uc8e9\ue1a0\ub28c\ufffd\u283b\u5a5e\u3a7c\u0d4e\u4d85\uff39\uc351l
+b003 K=57 W N=3f player_database status=%ls storage=memory sqlite=%d source=%ls
+c7c4 K=4f W N=3a player_database status=installed storage=memory vfs=memdb
+eba3 K=fe W N=1d HookUnityLoadLibraryW %ls %p
+ec0a K=6e W N=1a EOSSDK-Win64-Shipping.dll
+ee13 K=d5 W N=1f HookBaselibLoadLibraryW %ls %p
+ee7a K=6e W N=1a EOSSDK-Win64-Shipping.dll
+efb3 K=98 W N=1a eos_facade return=success
+f083 K=ee W N=24 ?partial \u01be\u01cd2;&e\xcb\xad\xaa\xac\xac\xc8+x\u013d\u01b2\u01c0\u01cd\u01da\u01e7\u01f4\u0201\u020e\u021b\u0229\u0236\u0243\u0250\u025d\u026a\u0277\u0284\u0292\u029f\u02ac\u02b9
+f173 K=f7 W N=28 ?partial \xf7\u0104\u0111\u011e\u012b\u0138\u0145\u0152\u0160\u016d\u017a\u0187\u0194\u01a1\u01ae\u01bb\u01c9\u01d6\u01e3\u01f0\u01fd\u020a\u0217\u0224\u0232\u023f\u024c\u0259\u0266\u0273\u0280\u028d\u029b\u02a8\u02b5\u02c2\u02cf\u02dc\u02e9\u02f6
+f243 K=d9 W N=1a eos_facade return=version
+f403 K=b2 W N=26 eos_facade resolve module=%p name=%hs
+f4e3 K=ab W N=26 eos_facade resolve module=%p name=%hs
+f5b3 K=23 W N=26 eos_facade resolve module=%p name=%hs
+f693 K=ba W N=35 eos_facade unresolved_passthrough module=%p name=%hs
+f745 K=3a W N=26 eos_facade resolve module=%p name=%hs
+fdf3 K=f9 W N=2c mode2_crypto status=failed ntstatus=0x%08lX
+ff4a K=2c W N=74 mode2_crypto status=ready algorithm=aes-256-gcm slot=slot0 key_bytes=32 tag_bytes=16 aad_bytes=0 provider=primitive
+10a23 K=0c W N=5  ...
+10ad3 K=e2 W N=2d %ls bytes=%llu preview_bytes=%llu hex=%ls%ls
+10c03 K=8d W N=2b %ls packet_index=%llu bytes=%llu data=null
+10d03 K=3e W N=43 %ls packet_index=%llu part=0/0 offset=0 bytes=0 total_bytes=0 hex=
+10f63 K=10 W N=55 %ls packet_index=%llu part=%llu/%llu offset=%llu bytes=%llu total_bytes=%llu hex=%ls
+119ab K=94 A N=22 session packet before H delivered
+119fb K=36 A N=5 fail
+11aab K=36 A N=7 packer
+11d03 K=d3 W N=7 parsed
+11d83 K=d3 W N=13 structural_warning
+11e53 K=bd W N=24b mode2_packet status=%ls authentication=pending_hook_check algorithm=aes-256-gcm direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u packet_bytes=%llu clear_id=0x%02X ciphertext_offset=1 ciphertext_bytes=%llu sequence_offset=%llu sequence_le=0x%08X sequence_hex=%ls checked_offset=%llu checked=0x%02X checked_valid=%u phase_offset=%llu phase_raw=0x%02X selected_phase=%u phase_name=%ls key_slot=%ls key_bytes=32 key_source=%ls key_material_available_to_logger=%u key_hex=%ls domain=%u nonce_hex=%ls aad_bytes=0 trailer_hex=%ls tag_offset=%llu tag_hex=%ls
+120a3 K=54 W N=b4 mode2_packet status=malformed reason=%ls direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u packet_bytes=%llu minimum_bytes=%llu trailing_bits=%u
+121dc K=17 A N=7 (null)
+12283 K=f9 W N=35 HookStartClient called, context: %p host=%hs port=%d
+123d4 K=8e W N=54 HookStartClient status=ignored_loopback reason=steam_uri_broadcast host=%hs port=%d
+12523 K=8a W N=3d mode2_session_key status=cleared source=connection_lifecycle
+12633 K=10 W N=1c packet_h epoch status=reset
+12783 K=e5 W N=51 donor_cycle status=wait timeout_ms=%u guid=0x%016llX cache=%llu cycle_running=%d
+12903 K=34 W N=4b donor_cycle status=wait_timeout guid=0x%016llX cache=%llu cycle_running=%d
+12a13 K=de W N=33 donor_cycle status=ready guid=0x%016llX cache=%llu
+12af3 K=b9 W N=37 donor_cycle status=timeout joining_without_fresh_donor
+12bb3 K=82 W N=2c mode2_outbound_counter status=reset value=0
+12d43 K=f9 W N=3d phase1_connection_epoch status=started key_source=a2_packets
+12e13 K=c2 W N=3d HookStartClient official_result=%d last_error=%lu context=%p
+12f03 K=af W N=50 phase1_connection_epoch status=cancelled reason=start_failed official_result=%d
+12fd3 K=9e W N=a HookClose
+13143 K=8a W N=3d mode2_session_key status=cleared source=connection_lifecycle
+13253 K=10 W N=1c packet_h epoch status=reset
+1353a K=94 W N=48 phase1_handshake_epoch status=marked key_ready=%u key_source=a2_packets
+1364a K=43 W N=6a a2_packet direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u bytes=%llu
+137aa K=47 W N=3b server_relay status=send guid=0x%016llX bytes=%d id=0x%02X
+13903 K=51 W N=41 server_relay status=not_ready context=%p guid=0x%016llX bytes=%d
+13a13 K=b8 W N=40 a2_packet action=relay_and_consume context=%p packet_index=%llu
+13b53 K=d4 W N=73 mode_select_packet direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u bytes=%llu
+13e23 K=8c W N=69 mode_select packet_index=%llu field=12 present=%u value_offset=%llu selected_mode=%u game_sees=0 wrap=%u
+14033 K=91 W N=ec mode2_unprotect status=authenticated action=deliver context=%p guid=0x%016llX packet_index=%llu mode2_index=%llu clear_id=0x%02X phase=%u input_bytes=%llu output_bytes=%u input_bits=%u output_bits=%u trailer_removed=22 ntstatus=0x%08lX
+14213 K=04 W N=9d mode2_unprotect status=%ls action=drop context=%p guid=0x%016llX packet_index=%llu mode2_index=%llu phase=%u input_bytes=%llu input_bits=%u ntstatus=0x%08lX
+143b3 K=80 W N=b6 receive_packet status=unhandled direction=inbound context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u bytes=%llu message_id=0x%02X message=%ls mode=%u protected_id=%u
+14613 K=ba W N=54 mode2_length_override status=consumed context=%p packet_index=%llu returned_bits=%u
+14803 K=f1 W N=43 HookWriteBytes write_index=%llu message_id=0x%02X bytes=%d mode=%u
+14903 K=7e W N=5e a2_packet direction=outbound context=%p write_index=%llu data=%p bytes=%d source=GameAssembly
+14a53 K=1c W N=87 hook_call api=NETSND_WriteBytes cache_available=1 cache_size=%llu cache_bits=%u cache_guid=0x%016llX cache_id=0x%02X action=substitute
+14bc3 K=90 W N=55 hook_call api=NETSND_WriteBytes cache_available=0 message_id=0x9E action=passthrough
+14cf3 K=d0 W N=6 slot0
+14d63 K=d0 W N=6 slot1
+14e33 K=2b W N=ce mode2_protect status=encrypted action=write direction=outbound context=%p clear_id=0x%02X phase=%u key_slot=%ls domain=%u sequence_le=0x%08X input_bytes=%d output_bytes=%d trailer_added=22 ntstatus=0x%08lX
+15033 K=85 W N=8c mode2_protect status=%ls action=passthrough_on_error direction=outbound context=%p clear_id=0x%02X phase=%u input_bytes=%d ntstatus=0x%08lX
+151f3 K=9b W N=6a ?partial hook_call api=NETSND_Send contex\u023f\u024c\u0259\u0266\u0273\u0280\u028d\u029a\u02a8\u02b5\u02c2\u02cf\u02dc\u02e9\u02f6\u0303\u0311\u031e\u032b\u0338\u0345\u0352\u035f\u036c\u037a\u0387\u0394\u03a1\u03ae\u03bb\u03c8\u03d5\u03e3\u03f0\u03fd\u040a\u0417\u0424\u0431\u043e\u044c\u0459\u0466\u0473\u0480\u048d\u049a\u04a7\u04b5\u04c2\u04cf\u04dc\u04e9\u04f6\u0503\u0510\u051e\u052b\u0538\u0545\u0552\u055f\u056c\u0579\u0587\u0594\u05a1\u05ae\u05bb\u05c8\u05d5%d
+15593 K=1b W N=37 minhook_failed stage=disable_export name=%hs status=%d
+15753 K=d7 W N=36 minhook_failed stage=remove_export name=%hs status=%d
+1592a K=de W N=39 game_relay status=send guid=0x%016llX bytes=%d id=0x%02X
+15a63 K=a1 W N=3f game_relay status=not_ready context=%p guid=0x%016llX bytes=%d
+1600a K=a2 W N=2a RustClient_Data\\Plugins\\x86_64\\RakNet.dll
+163db K=9d A N=1f packet=0x9E cached=1 win32=%lu
+1645b K=7f A N=3 ok
+164bb K=7f A N=5 fail
+1651b K=7f A N=12 first_auth_signal
+1657b K=7f A N=6 hooks
+1667d K=51 A N=31 packet=0x9E cached=1 open_event_failed win32=%lu
+166ec K=32 A N=5 fail
+1674b K=32 A N=12 first_auth_signal
+167ab K=32 A N=6 hooks
+169fa K=10 W N=19 donor_cycle status=start
+16a7b K=f6 A N=6 start
+16adb K=f6 A N=3 ok
+16b3b K=f6 A N=c donor_cycle
+16b9b K=f6 A N=6 hooks
+16cd5 K=7f W N=29 donor_cycle status=kicked guid=0x%016llX
+16e03 K=6f W N=35 steam://run/252490/connect/+connect%%20%s:%u%%20+d%u
+16f26 K=44 W N=3d donor_cycle status=steam_connect token=%u uri=%ls shell=%lld
+16ff3 K=0d W N=28 donor_cycle status=steam_connect_failed
+1707b K=ef A N=15 steam_connect_failed
+170db K=ef A N=5 fail
+1713b K=ef A N=c donor_cycle
+1719b K=ef A N=6 hooks
+172e3 K=5c W N=27 donor_cycle status=steam_connect_retry
+173d3 K=6f W N=35 ?Wz\x91zArt\x04~[H3\u0186kTg\x1a\x06.Nc\x88\x92xbp\x1a\x01{V~\u0383L_Ri\x01l/\u0232s:%u%%20+d%u
+174f6 K=44 W N=3d donor_cycle status=steam_connect token=%u uri=%ls shell=%lld
+17613 K=13 W N=3f donor_cycle status=reconnect_timeout guid=0x%016llX cache=%llu
+1769b K=c9 A N=12 reconnect_timeout
+176fb K=c9 A N=5 fail
+1775b K=c9 A N=c donor_cycle
+177bb K=c9 A N=6 hooks
+17933 K=fe W N=39 donor_cycle status=reconnected guid=0x%016llX cache=%llu
+179eb K=ef A N=17 reconnected cache=%llu
+17a6b K=2b A N=3 ok
+17acb K=2b A N=c donor_cycle
+17b2b K=2b A N=6 hooks
+17c3a K=ba W N=21 server_call NET_Create result=%p
+17d6d K=2b W N=4d server_call NET_StartServer bind=%hs port=%u max=%d result=%d last_error=%lu
+17e5b K=3a A N=24 bind=%s port=%u result=%d win32=%lu
+17eeb K=7e A N=5 fail
+17f5b K=7e A N=d relay_listen
+17fbb K=7e A N=6 hooks
+180bb K=c5 A N=10 bind=%s port=%u
+18333 K=d8 W N=33 server_call NET_StartServer status=already_started
+183ab K=ba A N=10 already_started
+1840b K=ba A N=5 fail
+1847b K=ba A N=d relay_listen
+184db K=ba A N=6 hooks
+18743 K=41 W N=3c server_reject extra_client existing=0x%016llX new=0x%016llX
+187fb K=f5 A N=1a local_connection_accepted
+1885b K=f5 A N=3 ok
+188ab K=f5 A N=10 donor_connected
+1890b K=f5 A N=6 hooks
+189ea K=93 W N=27 Initializing donor by 0x13, guid: %llu
+18a9b K=a8 A N=1b packet=0x9D send_result=%u
+18b1b K=46 A N=3 ok
+18b7b K=46 A N=13 donor_auth_request
+18bdb K=46 A N=6 hooks
+18cca K=82 W N=2a Initializing donor by 0x13 send_result=%u
+18dcc K=93 A N=21 packet=0x9E bytes=%llu cached=%u
+18e4b K=d7 A N=3 ok
+18ebb K=d7 A N=5 fail
+18f2b K=d7 A N=12 first_auth_packet
+18f8b K=d7 A N=6 hooks
+190dc K=20 W N=42 Received 0x9E response from donor stored=%d pending=%d bytes=%llu
+191ab K=d7 A N=1f packet_rejected_donor_mismatch
+1920b K=d7 A N=5 fail
+1926b K=d7 A N=12 first_auth_packet
+192cb K=d7 A N=6 hooks
+1942a K=ac W N=4a Received 0x9E ignored non_donor guid=0x%016llX donor=0x%016llX bytes=%llu
+19563 K=3d W N=3c Received %02X response from donor, size %llu guid=0x%016llX
+19673 K=8a W N=88 a2_packet direction=donor context=%p guid=0x%016llX packet_index=%llu data=%p unread_bits=%u bytes=%llu trailing_bits=%u donor_match=%u
+197f3 K=35 W N=c7 server_call NET_Receive ctx=%p result=true packet_index=%llu direction=inbound_to_local_server poll_index=%llu data=%p unread_bits=%u unread_bytes=%llu trailing_bits=%u message_id=0x%02X message=%ls
+19923 K=95 W N=c0 server_call NET_Receive ctx=%p result=true packet_index=%llu direction=inbound_to_local_server poll_index=%llu data=%p unread_bits=%u unread_bytes=%llu trailing_bits=%u message_id=unavailable
+19a63 K=e9 W N=23 donor_cycle status=already_running
+19b53 K=5e W N=29 donor_cycle status=thread_failed err=%lu
+19e63 K=66 W N=2a packet_h side=%u ok class=0x%02X bytes=%u
+19f03 K=55 W N=25 packet_h inner class=0x%02X bytes=%u
+1a903 K=90 W N=21 ksecdd_reader epoch status=reset
+1c5a3 K=d6 W N=bd ksecdd_reader cr3_scan result=0x%llX pages=%llu chunks=%llu self_pte=%llu metadata=%llu self_map=%llu translated=%llu mz=%llu validator_rejects=%llu cancelled=%u error=0x%04X native=0x%08X
+1dd63 K=63 W N=47 ksecdd_reader scan status=miss pages=%zu matches=%zu stale=%zu ms=%llu
+1e553 K=5b W N=54 ksecdd_reader scan status=ok h=%ls ctxs=%d distinct=%zu pages=%zu stale=%zu ms=%llu
+1ef53 K=f9 W N=3f ksecdd_reader eproc sys=0x%llX pid_off=0x%llX links_off=0x%llX
+1f4e3 K=53 W N=20 ksecdd_reader donor status=gone
+1f973 K=3e W N=2d ksecdd_reader donor status=stale old_pid=%lu
+1fba3 K=14 W N=36 ksecdd_reader cr3_brute pid=%lu sec=0x%llX peb=0x%llX
+20303 K=b9 W N=31 ?partial \xb9\xc6\xd3\xe0\xed\xfa\u0107\u0114\u0122\u012f\u013c\u0149\u0156\u0163\u0170\u017d\u018b\u0198\u01a5\u01b2\u01bf\u01cc\u01d9\u01e6\u01f4\u0201\u020e\u021b\u0228\u0235\u0242\u024f\u025d\u026a\u0277\u0284\u0291\u029e\u02ab\u02b8\u02c6\u02d3\u02e0\u02ed\u02fa\u0307\u0314\u0321
+204b3 K=ae W N=41 ksecdd_reader cr3_brute pid=%lu result=0x%llX ms=%llu is_donor=1
+209d3 K=30 W N=3b ksecdd_reader cache status=invalidated ctx=0x%llX after=%d
+21083 K=19 W N=48 ksecdd_reader status=started sys_proc=0x%llX ksec_state=0x%llX build=%u
+21283 K=22 W N=31 ksecdd_reader open status=stop_timeout win32=%lu
+213c3 K=b3 W N=39 ksecdd_reader open status=fail code=0x%04X native=0x%08X
+215c3 K=2d W N=29 ksecdd_reader channel status=unavailable
+21743 K=48 W N=2c ksecdd_reader status=stop_timeout win32=%lu
+21836 K=18 W N=1d ksecdd_reader status=stopped
+22973 K=6e W N=27 steam_launch status=swallowed text=%hs
+22bb3 K=c4 W N=4e steam_apps_lookup status=%ls method=direct_user_interface cached_getter=false
+22cc3 K=51 W N=2b steam_launch status=protect_failed err=%lu
+22de3 K=6e W N=41 steam_launch status=installed how=vtable slot=0x%02X original=%p
+22e9b K=04 A N=b steam_mask
+22eed K=04 A N=6 hooks
+231db K=98 A N=7 <none>
+23243 K=98 W N=8 <unset>
+232b3 K=3a W N=8 <unset>
+23323 K=3a W N=8 <unset>
+23403 K=5c W N=58 steam_mask status=%hs fn=%hs SteamAppId=%s SteamGameId=%s SteamOverlayGameId=%s ver=%hs
+234f3 K=40 W N=13 SteamOverlayGameId
+235ba K=e6 W N=b SteamAppId
+2366b K=33 W N=c SteamGameId
+238e3 K=7e W N=26 steam_mask status=steam_appid_removed
+23953 K=40 W N=13 SteamOverlayGameId
+239fa K=55 W N=4 480
+23d23 K=7e W N=26 steam_mask status=steam_appid_removed
+23d93 K=40 W N=13 SteamOverlayGameId
+23e3a K=55 W N=4 ?partial Ubo|
+23efa K=e6 W N=b SteamAppId
+23f9a K=55 W N=4 ?partial Ubo|
+2404b K=33 W N=c SteamGameId
+240ea K=55 W N=4 ?partial Ubo|
+243b3 K=05 W N=32 steam_mask status=getappid_split rust=%u decoy=%u
+2444b K=23 A N=1b first_getappid returned=%u
+244ca K=8d A N=9 getappid
+245e3 K=31 W N=34 steam_mask status=restart_swallowed app=%u decoy=%u
+2467b K=0a A N=19 restart_swallowed app=%u
+246ea K=a8 A N=8 restart
+2481b K=60 A N=2f SteamAPI_IsSteamRunning=0 steam_must_stay_open
+2488b K=60 A N=5 fail
+24a23 K=de W N=29 steam_mask status=fake_interface ver=%hs
+24c03 K=82 W N=19 %s\\config\\loginusers.vdf
+24dd3 K=31 W N=27 steam_mask status=fake_steamid id=%llu
+24f83 K=77 W N=38 steam_mask status=export_skip name=%hs reason=no_module
+25073 K=03 W N=38 steam_mask status=export_skip name=%hs reason=no_export
+2511d K=51 A N=16 shared_export_address
+2518b K=cf A N=1a unverified_export_address
+25253 K=12 W N=3c steam_mask status=export_skip name=%hs reason=%hs target=%p
+25383 K=20 W N=3f steam_mask status=export_skip name=%hs reason=create status=%d
+25493 K=ad W N=3f steam_mask status=export_skip name=%hs reason=enable status=%d
+255a3 K=bc W N=40 steam_mask status=export_skip name=%hs reason=cleanup status=%d
+25673 K=70 W N=29 steam_mask status=export_hooked name=%hs
+2579d K=ec A N=33 steam_init ok=%d spoof=%d raw=%d rust=%u err=%.60s
+2582c K=30 A N=3 ok
+25903 K=74 W N=3d steam_mask status=init_done ok=%d spoof=%d raw=%d errmsg=%hs
+25b9a K=f3 W N=28 steam_mask status=utils_getappid_hooked
+25dc3 K=95 W N=29 steam_mask status=apps_subscribed_hooked
+25ea4 K=12 W N=3e steam_mask status=init_real carrier=%u shortcut=%s rust_env=0
+25fc3 K=83 W N=42 steam_mask status=init_spoof original_raw=%d fallback_fake_user=1
+264dd K=36 A N=25 ?partial 6CP]jw\x84\x91\x9f\xac\xb9\xc6\xd3\xe0\xed\xfa\x08\x15"/<IVcq~\x8b\x98\xa5re_init
+2654b K=36 A N=3 ok
+266bd K=b6 A N=1f armed_steam_api_already_loaded
+2670b K=b6 A N=3 ok
+2678b K=7a A N=1e armed_waiting_for_steam_api64
+267db K=7a A N=3 ok
+26a2a K=f3 W N=28 steam_mask status=utils_getappid_hooked
+26c63 K=95 W N=29 steam_mask status=apps_subscribed_hooked
+271fb K=ee A N=f 185.207.15.140
+2745b K=ba A N=9 ?\xa3_{\xe2\x14\xd6\x8a\x91
+2779a K=ba A N=9 ?\xa3_{\xe2\x14\xd6\x8a\x91
+280ca K=ba A N=9 ?\xa3_{\xe2\x14\xd6\x8a\x91
+2860b K=26 A N=c ?partial &3@MZgt\x81\x8f\x9c\xa9\xb6
+2866b K=d8 A N=17 ?partial \xd8\xe5\xf2\xff\x0c?&3AN[hu\x82\x8f\x9c\xaa\xb7\xc4\xd1\xde\xeb\xf8
+2918a K=e9 W N=1a Local\\EmuPeer.InjectToken
+293ca K=e9 W N=1a Local\\EmuPeer.InjectToken
+2954a K=c5 A N=9 progress
+295aa K=5b A N=3 ok
+2960a K=f9 A N=5 fail
+2992a K=5c A N=8 n=%llu 
+299ba K=05 A N=5 %s%s
+29a3a K=41 A N=3 %s
+29ecb K=e8 A N=3 ok
+29f1b K=06 A N=5 fail
+2a18b K=20 A N=c INJECT_LOG_
+2a1eb K=20 A N=17 %s%s$%llu$%s$%s$%s$%s\n
+2a50b K=e4 A N=e INJECT_GUARD_
+2a56b K=e4 A N=6 %s%s\n

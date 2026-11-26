@@ -1,0 +1,19 @@
+Compile sanitizer host.cpp
+{"passed": true, "mode": "sanitizer", "cache_hits": 149, "artifact": "dump_analysis/semantic_reconstruction/test_scene/sanitizer/owned_scene", "artifact_sha256": "1ab0e0788d7a55e564ac9afa00bd3e6925179c1a33288a6463af29e8d2fc3b7f"}
+{
+  "passed": true,
+  "mode": "sanitizer",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "seconds": 89.756,
+  "artifact_sha256": "1ab0e0788d7a55e564ac9afa00bd3e6925179c1a33288a6463af29e8d2fc3b7f",
+  "build_record_sha256": "ea39b671a9fe77522cfdc2e0a8683ec0e6f84c783fc3279daadbd6aefc0de032",
+  "runner_sha256": "c9e33e7ea276d0f67fbf4cdf035bcfcbd7b945e168566eb30c04c46370e3e0fd",
+  "runtime_evidence": {
+    "dump_analysis/semantic_reconstruction/test_scene/sanitizer/runtime/events.jsonl": "dfb3b379d7fb2dbdfa1d840e6896b3748ae76954120c2c2a84ed4d148411b89a",
+    "dump_analysis/semantic_reconstruction/test_scene/sanitizer/runtime/entrypoints.json": "63d8a1c3f1a50a398a56f59b5f5eba95860bba1e104bee54856cd00237d7132c",
+    "dump_analysis/semantic_reconstruction/test_scene/sanitizer/runtime.log": "7183f787dda41edb3c9aa9c23e606580ee933195f7ee1baf1f926b9068e87c0a"
+  },
+  "original_manifest_entries": 135,
+  "scope": "Owned controlled scene only; no original sample, no live Rust, ordinary calls only"
+}

@@ -1,0 +1,4522 @@
+31acd0 mov    rax,rsp
+31acd3 mov    QWORD PTR [rax+0x8],rbx
+31acd7 push   rbp
+31acd8 push   rsi
+31acd9 push   rdi
+31acda push   r12
+31acdc push   r13
+31acde push   r14
+31ace0 push   r15
+31ace2 lea    rbp,[rax-0xa78]
+31ace9 sub    rsp,0xb40
+31acf0 movaps XMMWORD PTR [rax-0x48],xmm6
+31acf4 mov    r13,rcx
+31acf7 movaps XMMWORD PTR [rax-0x58],xmm7
+31acfb movaps XMMWORD PTR [rax-0x68],xmm8
+31ad00 movaps XMMWORD PTR [rax-0x78],xmm9
+31ad05 mov    DWORD PTR [rbp-0x5c],0x0
+31ad0c call   0x2e0e4c
+31ad11 test   al,al
+31ad13 jne    0x31fe1b
+31ad19 call   0x2e069c
+31ad1e mov    rcx,rax
+31ad21 mov    QWORD PTR [rbp-0x50],rax
+31ad25 call   0x2caf08
+31ad2a test   al,al
+31ad2c je     0x31fe1b
+31ad32 call   0x2dda9c
+31ad37 mov    rcx,rax
+31ad3a mov    QWORD PTR [rsp+0x48],rax
+31ad3f mov    r15,rax
+31ad42 call   0x2caf08
+31ad47 test   al,al
+31ad49 je     0x31fe1b
+31ad4f call   0x2f8db0
+31ad54 mov    QWORD PTR [rbp+0x60],rax
+31ad58 call   0x2f8f74
+31ad5d mov    QWORD PTR [rbp+0xc8],rax
+31ad64 call   0x2f94ac
+31ad69 mov    QWORD PTR [rbp+0xc0],rax
+31ad70 call   0x2f96f4
+31ad75 mov    QWORD PTR [rbp+0xd0],rax
+31ad7c call   0x2f9138
+31ad81 mov    QWORD PTR [rbp+0xd8],rax
+31ad88 call   0x2f8034
+31ad8d mov    rcx,rax
+31ad90 mov    QWORD PTR [rbp+0xb0],rax
+31ad97 mov    rbx,rax
+31ad9a call   0x2caf08
+31ad9f test   al,al
+31ada1 je     0x31fe1b
+31ada7 xor    edx,edx
+31ada9 mov    rcx,r15
+31adac call   0x2cd32c
+31adb1 mov    rcx,rbx
+31adb4 mov    QWORD PTR [rbp+0xb8],rax
+31adbb call   0x316524
+31adc0 xor    edi,edi
+31adc2 mov    DWORD PTR [rbp-0x58],eax
+31adc5 mov    DWORD PTR [rbp+0xa98],edi
+31adcb test   eax,eax
+31adcd jle    0x31fe1b
+31add3 movss  xmm8,DWORD PTR [rip+0xfffffffffff72d40]        # 0x28db1c ; f32=10
+31addc movss  xmm6,DWORD PTR [rip+0xfffffffffff78350]        # 0x293134 ; f32=2
+31ade4 movss  xmm7,DWORD PTR [rip+0xfffffffffff783cc]        # 0x2931b8 ; f32=15
+31adec movss  xmm9,DWORD PTR [rip+0xfffffffffff7840b]        # 0x293200 ; f32=75
+31adf5 mov    rcx,rbx
+31adf8 call   0x316504
+31adfd mov    rcx,rax
+31ae00 mov    rbx,rax
+31ae03 call   0x2caf08
+31ae08 test   al,al
+31ae0a je     0x31fdfb
+31ae10 lea    ecx,[rdi*8+0x0]
+31ae17 movsxd rdx,ecx
+31ae1a mov    rbx,QWORD PTR [rbx+rdx*1+0x20]
+31ae1f mov    rcx,rbx
+31ae22 mov    QWORD PTR [rsp+0x20],rbx
+31ae27 call   0x2caf08
+31ae2c xor    edi,edi
+31ae2e test   al,al
+31ae30 je     0x31fdfb
+31ae36 mov    rcx,rbx
+31ae39 call   0x2e0e9c
+31ae3e test   al,al
+31ae40 je     0x31fdfb
+31ae46 mov    rbx,QWORD PTR [rbx+0x10]
+31ae4a mov    rcx,rbx
+31ae4d call   0x2caf08
+31ae52 test   al,al
+31ae54 je     0x31fdfb
+31ae5a mov    rbx,QWORD PTR [rbx+0x20]
+31ae5e mov    rcx,rbx
+31ae61 call   0x2caf08
+31ae66 test   al,al
+31ae68 je     0x31fdfb
+31ae6e mov    rcx,rbx
+31ae71 call   0x2caf08
+31ae76 test   al,al
+31ae78 je     0x31fdfb
+31ae7e mov    rcx,rbx
+31ae81 call   0x3735b4
+31ae86 mov    rcx,rax
+31ae89 mov    r14,rax
+31ae8c call   0x2caf08
+31ae91 test   al,al
+31ae93 je     0x31fdfb
+31ae99 mov    rcx,rbx
+31ae9c call   0x3735f0
+31aea1 mov    rcx,QWORD PTR [rsp+0x20]
+31aea6 movzx  r12d,ax
+31aeaa call   0x2e5a54
+31aeaf mov    rcx,rax
+31aeb2 mov    rdx,rax
+31aeb5 call   0x2caf08
+31aeba test   al,al
+31aebc je     0x31fdfb
+31aec2 mov    rcx,rdx
+31aec5 call   0x2d6354
+31aeca cmp    BYTE PTR [rip+0xcdf97],dil        # 0x3e8e68 ; CONFIG Bools.droppeditems value(+0x48)
+31aed1 mov    rsi,rax
+31aed4 je     0x31af77
+31aeda lea    r8d,[rdi+0x10]
+31aede lea    rdx,[rbp+0x998]
+31aee5 lea    rcx,[rip+0xd55bc]        # 0x3f04a8 ; CONFIG VectorBools.WorldItemCatOptions value(+0x48)
+31aeec call   0x2e98f0
+31aef1 mov    rcx,rax
+31aef4 call   0x2d4d70
+31aef9 test   al,al
+31aefb je     0x31af77
+31aefd lea    rdx,[rsp+0x50]
+31af02 lea    rcx,[rbp+0xa88]
+31af09 call   0x2f1fa4 ; STRING getter=0x2f1fa4 DudTimedExplosive
+31af0e mov    rcx,rax
+31af11 call   0x2d857c
+31af16 movabs rbx,0xcbf29ce484222325
+31af20 mov    rcx,rax
+31af23 mov    rdx,rbx
+31af26 call   0x2e5b4c
+31af2b cmp    rsi,rax
+31af2e jne    0x31af81
+31af30 mov    rbx,QWORD PTR [rsp+0x20]
+31af35 lea    rdx,[rbp-0x40]
+31af39 lea    rcx,[rbp+0xa88]
+31af40 call   0x2f3640 ; STRING getter=0x2f3640 DudTimedExplosive
+31af45 mov    rcx,rax
+31af48 call   0x2d857c
+31af4d mov    rdx,rax
+31af50 lea    rcx,[rsp+0x28]
+31af55 call   0x2cc2cc
+31af5a mov    r9,rbx
+31af5d lea    r8,[rsp+0x28]
+31af62 lea    edx,[rdi+0x5]
+31af65 mov    rcx,r13
+31af68 call   0x3176bc
+31af6d lea    rcx,[rsp+0x28]
+31af72 call   0x2cc4f4
+31af77 movabs rbx,0xcbf29ce484222325
+31af81 cmp    BYTE PTR [rip+0xcbd20],dil        # 0x3e6ca8 ; CONFIG Bools.CCTV value(+0x48)
+31af88 je     0x31b001
+31af8a lea    rdx,[rbp+0x319]
+31af91 lea    rcx,[rbp+0xa88]
+31af98 call   0x2f41f0
+31af9d mov    rcx,rax
+31afa0 call   0x2dd138
+31afa5 mov    rcx,rax
+31afa8 mov    rdx,rbx
+31afab call   0x2e5b4c
+31afb0 cmp    rsi,rax
+31afb3 jne    0x31b001
+31afb5 mov    rbx,QWORD PTR [rsp+0x20]
+31afba lea    rdx,[rbp+0x764]
+31afc1 lea    rcx,[rbp+0xa88]
+31afc8 call   0x2f4a6c ; STRING getter=0x2f4a6c CCTV Camera
+31afcd mov    rcx,rax
+31afd0 call   0x2cde0c
+31afd5 mov    rdx,rax
+31afd8 lea    rcx,[rsp+0x28]
+31afdd call   0x2cc2cc
+31afe2 mov    r9,rbx
+31afe5 lea    r8,[rsp+0x28]
+31afea mov    edx,0x9
+31afef mov    rcx,r13
+31aff2 call   0x3176bc
+31aff7 lea    rcx,[rsp+0x28]
+31affc call   0x2cc4f4
+31b001 cmp    BYTE PTR [rip+0xbcf10],dil        # 0x3d7f18 ; CONFIG Bools.SilentFarmOre value(+0x48)
+31b008 jne    0x31b02f
+31b00a cmp    BYTE PTR [rip+0xbd230],dil        # 0x3d8241
+31b011 jne    0x31b02f
+31b013 cmp    BYTE PTR [rip+0xcc95e],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+31b01a jne    0x31b02f
+31b01c mov    QWORD PTR [rip+0xbc2a5],rdi        # 0x3d72c8
+31b023 movabs rbx,0xcbf29ce484222325
+31b02d jmp    0x31b086
+31b02f lea    rdx,[rsp+0x50]
+31b034 lea    rcx,[rbp+0xa88]
+31b03b call   0x2f51e0 ; STRING getter=0x2f51e0 OreResourceEntity
+31b040 mov    rcx,rax
+31b043 call   0x2d857c
+31b048 movabs rbx,0xcbf29ce484222325
+31b052 mov    rcx,rax
+31b055 mov    rdx,rbx
+31b058 call   0x2e5b4c
+31b05d cmp    rsi,rax
+31b060 jne    0x31b086
+31b062 mov    rdx,QWORD PTR [rbp+0xd8]
+31b069 mov    rcx,rdx
+31b06c call   0x2caf08
+31b071 test   al,al
+31b073 je     0x31b086
+31b075 mov    rax,QWORD PTR [rsp+0x20]
+31b07a cmp    rdx,rax
+31b07d jne    0x31b086
+31b07f mov    QWORD PTR [rip+0xbc242],rax        # 0x3d72c8
+31b086 cmp    BYTE PTR [rip+0xca1eb],dil        # 0x3e5278 ; CONFIG Bools.SilentFarmTree value(+0x48)
+31b08d je     0x31b0e0
+31b08f lea    rdx,[rbp+0x591]
+31b096 lea    rcx,[rbp+0xa88]
+31b09d call   0x2f5fcc ; STRING getter=0x2f5fcc TreeEntity
+31b0a2 mov    rcx,rax
+31b0a5 call   0x2d85cc
+31b0aa mov    rcx,rax
+31b0ad mov    rdx,rbx
+31b0b0 call   0x2e5b4c
+31b0b5 cmp    rsi,rax
+31b0b8 jne    0x31b0e7
+31b0ba mov    rdx,QWORD PTR [rbp+0xd0]
+31b0c1 mov    rcx,rdx
+31b0c4 call   0x2caf08
+31b0c9 test   al,al
+31b0cb je     0x31b0e7
+31b0cd mov    rax,QWORD PTR [rsp+0x20]
+31b0d2 cmp    rdx,rax
+31b0d5 jne    0x31b0e7
+31b0d7 mov    QWORD PTR [rip+0xc916a],rax        # 0x3e4248
+31b0de jmp    0x31b0e7
+31b0e0 mov    QWORD PTR [rip+0xc9161],rdi        # 0x3e4248
+31b0e7 cmp    BYTE PTR [rip+0xcecca],dil        # 0x3e9db8 ; CONFIG Bools.Autolock value(+0x48)
+31b0ee je     0x31b167
+31b0f0 lea    rdx,[rbp+0x3dc]
+31b0f7 lea    rcx,[rbp+0xa88]
+31b0fe call   0x2f6b60 ; STRING getter=0x2f6b60 CodeLock
+31b103 mov    rcx,rax
+31b106 call   0x2d8504
+31b10b mov    rcx,rax
+31b10e mov    rdx,rbx
+31b111 call   0x2e5b4c
+31b116 cmp    rsi,rax
+31b119 je     0x31b144
+31b11b lea    rdx,[rsp+0x50]
+31b120 lea    rcx,[rbp+0xa88]
+31b127 call   0x2f72a8 ; STRING getter=0x2f72a8 DigitSendCodeLock
+31b12c mov    rcx,rax
+31b12f call   0x2d857c
+31b134 mov    rcx,rax
+31b137 mov    rdx,rbx
+31b13a call   0x2e5b4c
+31b13f cmp    rsi,rax
+31b142 jne    0x31b16e
+31b144 mov    rdx,QWORD PTR [rbp+0x60]
+31b148 mov    rcx,rdx
+31b14b call   0x2caf08
+31b150 test   al,al
+31b152 je     0x31b16e
+31b154 mov    rax,QWORD PTR [rsp+0x20]
+31b159 cmp    rdx,rax
+31b15c jne    0x31b16e
+31b15e mov    QWORD PTR [rip+0xcad9b],rax        # 0x3e5f00
+31b165 jmp    0x31b16e
+31b167 mov    QWORD PTR [rip+0xcad92],rdi        # 0x3e5f00
+31b16e cmp    BYTE PTR [rip+0xd442c],dil        # 0x3ef5a1
+31b175 je     0x31b1f1
+31b177 lea    rdx,[rbp+0x3d3]
+31b17e lea    rcx,[rbp+0xa88]
+31b185 call   0x2f7cb4 ; STRING getter=0x2f7cb4 CodeLock
+31b18a mov    rcx,rax
+31b18d call   0x2d8504
+31b192 mov    rcx,rax
+31b195 mov    rdx,rbx
+31b198 call   0x2e5b4c
+31b19d cmp    rsi,rax
+31b1a0 je     0x31b1cb
+31b1a2 lea    rdx,[rsp+0x50]
+31b1a7 lea    rcx,[rbp+0xa88]
+31b1ae call   0x2f02e8 ; STRING getter=0x2f02e8 DigitSendCodeLock
+31b1b3 mov    rcx,rax
+31b1b6 call   0x2d857c
+31b1bb mov    rcx,rax
+31b1be mov    rdx,rbx
+31b1c1 call   0x2e5b4c
+31b1c6 cmp    rsi,rax
+31b1c9 jne    0x31b1f8
+31b1cb mov    rdx,QWORD PTR [rbp+0xc8]
+31b1d2 mov    rcx,rdx
+31b1d5 call   0x2caf08
+31b1da test   al,al
+31b1dc je     0x31b1f8
+31b1de mov    rax,QWORD PTR [rsp+0x20]
+31b1e3 cmp    rdx,rax
+31b1e6 jne    0x31b1f8
+31b1e8 mov    QWORD PTR [rip+0xcad19],rax        # 0x3e5f08
+31b1ef jmp    0x31b1f8
+31b1f1 mov    QWORD PTR [rip+0xcad10],rdi        # 0x3e5f08
+31b1f8 cmp    BYTE PTR [rip+0xcbd29],dil        # 0x3e6f28 ; CONFIG Bools.WoodPile value(+0x48)
+31b1ff je     0x31b2a2
+31b205 lea    rdx,[rsp+0x50]
+31b20a lea    rcx,[rbp+0xa88]
+31b211 call   0x2f084c ; STRING getter=0x2f084c OreResourceEntity
+31b216 mov    rcx,rax
+31b219 call   0x2d857c
+31b21e mov    rcx,rax
+31b221 mov    rdx,rbx
+31b224 call   0x2e5b4c
+31b229 cmp    rsi,rax
+31b22c jne    0x31b2a2
+31b22e lea    rdx,[rbp-0x40]
+31b232 lea    rcx,[rbp+0xa88]
+31b239 call   0x2f0b54 ; STRING getter=0x2f0b54 wood_log_pile/wood-pile.prefab
+31b23e mov    rcx,rax
+31b241 call   0x320624
+31b246 mov    rdx,rax
+31b249 mov    rcx,r14
+31b24c call   0x3ca960
+31b251 test   rax,rax
+31b254 je     0x31b2a2
+31b256 mov    rbx,QWORD PTR [rsp+0x20]
+31b25b lea    rdx,[rbp+0x401]
+31b262 lea    rcx,[rbp+0xa88]
+31b269 call   0x2f0ec4 ; STRING getter=0x2f0ec4 Wood Pile
+31b26e mov    rcx,rax
+31b271 call   0x2cdd1c
+31b276 mov    rdx,rax
+31b279 lea    rcx,[rsp+0x28]
+31b27e call   0x2cc2cc
+31b283 mov    r9,rbx
+31b286 lea    r8,[rsp+0x28]
+31b28b mov    edx,0x4
+31b290 mov    rcx,r13
+31b293 call   0x3176bc
+31b298 lea    rcx,[rsp+0x28]
+31b29d call   0x2cc4f4
+31b2a2 cmp    BYTE PTR [rip+0xcbaef],dil        # 0x3e6d98 ; CONFIG Bools.HBHFSensor value(+0x48)
+31b2a9 je     0x31b330
+31b2af lea    rdx,[rbp+0x59c]
+31b2b6 lea    rcx,[rbp+0xa88]
+31b2bd call   0x2f1150 ; STRING getter=0x2f1150 HBHFSensor
+31b2c2 mov    rcx,rax
+31b2c5 call   0x2d85cc
+31b2ca movabs rbx,0xcbf29ce484222325
+31b2d4 mov    rcx,rax
+31b2d7 mov    rdx,rbx
+31b2da call   0x2e5b4c
+31b2df cmp    rsi,rax
+31b2e2 jne    0x31b33a
+31b2e4 mov    rbx,QWORD PTR [rsp+0x20]
+31b2e9 lea    rdx,[rbp+0x1e0]
+31b2f0 lea    rcx,[rbp+0xa88]
+31b2f7 call   0x2f152c ; STRING getter=0x2f152c HBHF
+31b2fc mov    rcx,rax
+31b2ff call   0x2e35ec
+31b304 mov    rdx,rax
+31b307 lea    rcx,[rsp+0x28]
+31b30c call   0x2cc2cc
+31b311 mov    r9,rbx
+31b314 lea    r8,[rsp+0x28]
+31b319 mov    edx,0x12
+31b31e mov    rcx,r13
+31b321 call   0x3176bc
+31b326 lea    rcx,[rsp+0x28]
+31b32b call   0x2cc4f4
+31b330 movabs rbx,0xcbf29ce484222325
+31b33a cmp    BYTE PTR [rip+0xcbaa7],dil        # 0x3e6de8 ; CONFIG Bools.SeismicSensor value(+0x48)
+31b341 je     0x31b3ba
+31b343 lea    rdx,[rbp+0x7f0]
+31b34a lea    rcx,[rbp+0xa88]
+31b351 call   0x2f1818 ; STRING getter=0x2f1818 SeismicSensor
+31b356 mov    rcx,rax
+31b359 call   0x2d861c
+31b35e mov    rcx,rax
+31b361 mov    rdx,rbx
+31b364 call   0x2e5b4c
+31b369 cmp    rsi,rax
+31b36c jne    0x31b3ba
+31b36e mov    rbx,QWORD PTR [rsp+0x20]
+31b373 lea    rdx,[rbp+0x87c]
+31b37a lea    rcx,[rbp+0xa88]
+31b381 call   0x2f1b3c ; STRING getter=0x2f1b3c Seismic Sensor
+31b386 mov    rcx,rax
+31b389 call   0x2d8644
+31b38e mov    rdx,rax
+31b391 lea    rcx,[rsp+0x28]
+31b396 call   0x2cc2cc
+31b39b mov    r9,rbx
+31b39e lea    r8,[rsp+0x28]
+31b3a3 mov    edx,0x13
+31b3a8 mov    rcx,r13
+31b3ab call   0x3176bc
+31b3b0 lea    rcx,[rsp+0x28]
+31b3b5 call   0x2cc4f4
+31b3ba cmp    BYTE PTR [rip+0xcb987],dil        # 0x3e6d48 ; CONFIG Bools.LargeBattery value(+0x48)
+31b3c1 je     0x31b477
+31b3c7 lea    rdx,[rbp+0x9a8]
+31b3ce lea    rcx,[rbp+0xa88]
+31b3d5 call   0x2f1cb8 ; STRING getter=0x2f1cb8 ElectricBattery
+31b3da mov    rcx,rax
+31b3dd call   0x2d852c
+31b3e2 movabs rbx,0xcbf29ce484222325
+31b3ec mov    rcx,rax
+31b3ef mov    rdx,rbx
+31b3f2 call   0x2e5b4c
+31b3f7 cmp    rsi,rax
+31b3fa jne    0x31b481
+31b400 lea    rdx,[rbp+0x29e]
+31b407 lea    rcx,[rbp+0xa88]
+31b40e call   0x2f1e60 ; STRING getter=0x2f1e60 large
+31b413 mov    rcx,rax
+31b416 call   0x2d84b4
+31b41b mov    rdx,rax
+31b41e mov    rcx,r14
+31b421 call   0x3ca960
+31b426 test   rax,rax
+31b429 je     0x31b481
+31b42b mov    rbx,QWORD PTR [rsp+0x20]
+31b430 lea    rdx,[rbp+0x7fe]
+31b437 lea    rcx,[rbp+0xa88]
+31b43e call   0x2f2510 ; STRING getter=0x2f2510 Large Battery
+31b443 mov    rcx,rax
+31b446 call   0x2d861c
+31b44b mov    rdx,rax
+31b44e lea    rcx,[rsp+0x28]
+31b453 call   0x2cc2cc
+31b458 mov    r9,rbx
+31b45b lea    r8,[rsp+0x28]
+31b460 mov    edx,0x14
+31b465 mov    rcx,r13
+31b468 call   0x3176bc
+31b46d lea    rcx,[rsp+0x28]
+31b472 call   0x2cc4f4
+31b477 movabs rbx,0xcbf29ce484222325
+31b481 cmp    BYTE PTR [rip+0xcc540],dil        # 0x3e79c8 ; CONFIG Bools.StoneOre value(+0x48)
+31b488 jne    0x31b4a9
+31b48a cmp    BYTE PTR [rip+0xcc5d7],dil        # 0x3e7a68 ; CONFIG Bools.MetalOre value(+0x48)
+31b491 jne    0x31b4a9
+31b493 cmp    BYTE PTR [rip+0xcc66e],dil        # 0x3e7b08 ; CONFIG Bools.SulfurOre value(+0x48)
+31b49a jne    0x31b4a9
+31b49c cmp    BYTE PTR [rip+0xcc575],dil        # 0x3e7a18 ; CONFIG Bools.HQMOre value(+0x48)
+31b4a3 je     0x31b781
+31b4a9 lea    rdx,[rsp+0x50]
+31b4ae lea    rcx,[rbp+0xa88]
+31b4b5 call   0x2f2658 ; STRING getter=0x2f2658 OreResourceEntity
+31b4ba mov    rcx,rax
+31b4bd call   0x2d857c
+31b4c2 mov    rcx,rax
+31b4c5 mov    rdx,rbx
+31b4c8 call   0x2e5b4c
+31b4cd cmp    rsi,rax
+31b4d0 jne    0x31b781
+31b4d6 cmp    BYTE PTR [rip+0xcc53b],dil        # 0x3e7a18 ; CONFIG Bools.HQMOre value(+0x48)
+31b4dd jne    0x31b4e8
+31b4df cmp    BYTE PTR [rip+0xcc492],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+31b4e6 je     0x31b55f
+31b4e8 lea    rdx,[rbp+0xe0]
+31b4ef lea    rcx,[rbp+0xa88]
+31b4f6 call   0x2f27cc ; STRING getter=0x2f27cc hqm
+31b4fb mov    rcx,rax
+31b4fe call   0x2dd0e8
+31b503 mov    rdx,rax
+31b506 mov    rcx,r14
+31b509 call   0x3ca960
+31b50e test   rax,rax
+31b511 je     0x31b55f
+31b513 mov    rbx,QWORD PTR [rsp+0x20]
+31b518 lea    rdx,[rbp+0x311]
+31b51f lea    rcx,[rbp+0xa88]
+31b526 call   0x2f2a40
+31b52b mov    rcx,rax
+31b52e call   0x2dd138
+31b533 mov    rdx,rax
+31b536 lea    rcx,[rsp+0x28]
+31b53b call   0x2cc2cc
+31b540 mov    r9,rbx
+31b543 lea    r8,[rsp+0x28]
+31b548 mov    edx,0x7a
+31b54d mov    rcx,r13
+31b550 call   0x3176bc
+31b555 lea    rcx,[rsp+0x28]
+31b55a call   0x2cc4f4
+31b55f cmp    BYTE PTR [rip+0xcc462],dil        # 0x3e79c8 ; CONFIG Bools.StoneOre value(+0x48)
+31b566 jne    0x31b575
+31b568 cmp    BYTE PTR [rip+0xcc409],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+31b56f je     0x31b615
+31b575 lea    rdx,[rbp+0x298]
+31b57c lea    rcx,[rbp+0xa88]
+31b583 call   0x2f2bec ; STRING getter=0x2f2bec stone
+31b588 mov    rcx,rax
+31b58b call   0x2d84b4
+31b590 mov    rdx,rax
+31b593 mov    rcx,r14
+31b596 call   0x3ca960
+31b59b test   rax,rax
+31b59e je     0x31b615
+31b5a0 lea    rdx,[rsp+0x50]
+31b5a5 lea    rcx,[rbp+0xa88]
+31b5ac call   0x2f2e80 ; STRING getter=0x2f2e80 assets/bundled/prefabs/radtown/ore_stone.prefab
+31b5b1 mov    rcx,rax
+31b5b4 call   0x3206c4
+31b5b9 mov    rdx,rax
+31b5bc mov    rcx,r14
+31b5bf call   0x3ca960
+31b5c4 test   rax,rax
+31b5c7 jne    0x31b615
+31b5c9 mov    rbx,QWORD PTR [rsp+0x20]
+31b5ce lea    rdx,[rbp+0x3e5]
+31b5d5 lea    rcx,[rbp+0xa88]
+31b5dc call   0x2f30b0 ; STRING getter=0x2f30b0 StoneOre
+31b5e1 mov    rcx,rax
+31b5e4 call   0x2d8504
+31b5e9 mov    rdx,rax
+31b5ec lea    rcx,[rsp+0x28]
+31b5f1 call   0x2cc2cc
+31b5f6 mov    r9,rbx
+31b5f9 lea    r8,[rsp+0x28]
+31b5fe mov    edx,0x1
+31b603 mov    rcx,r13
+31b606 call   0x3176bc
+31b60b lea    rcx,[rsp+0x28]
+31b610 call   0x2cc4f4
+31b615 cmp    BYTE PTR [rip+0xcc44c],dil        # 0x3e7a68 ; CONFIG Bools.MetalOre value(+0x48)
+31b61c jne    0x31b62b
+31b61e cmp    BYTE PTR [rip+0xcc353],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+31b625 je     0x31b6cb
+31b62b lea    rdx,[rbp+0x282]
+31b632 lea    rcx,[rbp+0xa88]
+31b639 call   0x2f3278 ; STRING getter=0x2f3278 metal
+31b63e mov    rcx,rax
+31b641 call   0x2d84b4
+31b646 mov    rdx,rax
+31b649 mov    rcx,r14
+31b64c call   0x3ca960
+31b651 test   rax,rax
+31b654 je     0x31b6cb
+31b656 lea    rdx,[rsp+0x50]
+31b65b lea    rcx,[rbp+0xa88]
+31b662 call   0x2f33f4 ; STRING getter=0x2f33f4 assets/bundled/prefabs/radtown/ore_metal.prefab
+31b667 mov    rcx,rax
+31b66a call   0x3206c4
+31b66f mov    rdx,rax
+31b672 mov    rcx,r14
+31b675 call   0x3ca960
+31b67a test   rax,rax
+31b67d jne    0x31b6cb
+31b67f mov    rbx,QWORD PTR [rsp+0x20]
+31b684 lea    rdx,[rbp+0x3ee]
+31b68b lea    rcx,[rbp+0xa88]
+31b692 call   0x2f35d4 ; STRING getter=0x2f35d4 MetalOre
+31b697 mov    rcx,rax
+31b69a call   0x2d8504
+31b69f mov    rdx,rax
+31b6a2 lea    rcx,[rsp+0x28]
+31b6a7 call   0x2cc2cc
+31b6ac mov    r9,rbx
+31b6af lea    r8,[rsp+0x28]
+31b6b4 mov    edx,0x2
+31b6b9 mov    rcx,r13
+31b6bc call   0x3176bc
+31b6c1 lea    rcx,[rsp+0x28]
+31b6c6 call   0x2cc4f4
+31b6cb cmp    BYTE PTR [rip+0xcc436],dil        # 0x3e7b08 ; CONFIG Bools.SulfurOre value(+0x48)
+31b6d2 jne    0x31b6e1
+31b6d4 cmp    BYTE PTR [rip+0xcc29d],dil        # 0x3e7978 ; CONFIG Bools.NodePath value(+0x48)
+31b6db je     0x31b781
+31b6e1 lea    rdx,[rbp+0x2a4]
+31b6e8 lea    rcx,[rbp+0xa88]
+31b6ef call   0x2f38f4 ; STRING getter=0x2f38f4 sulfur
+31b6f4 mov    rcx,rax
+31b6f7 call   0x2dd110
+31b6fc mov    rdx,rax
+31b6ff mov    rcx,r14
+31b702 call   0x3ca960
+31b707 test   rax,rax
+31b70a je     0x31b781
+31b70c lea    rdx,[rsp+0x50]
+31b711 lea    rcx,[rbp+0xa88]
+31b718 call   0x2f39bc ; STRING getter=0x2f39bc assets/bundled/prefabs/radtown/ore_sulfur.prefab
+31b71d mov    rcx,rax
+31b720 call   0x3206ec
+31b725 mov    rdx,rax
+31b728 mov    rcx,r14
+31b72b call   0x3ca960
+31b730 test   rax,rax
+31b733 jne    0x31b781
+31b735 mov    rbx,QWORD PTR [rsp+0x20]
+31b73a lea    rdx,[rbp+0x4ab]
+31b741 lea    rcx,[rbp+0xa88]
+31b748 call   0x2f3b28 ; STRING getter=0x2f3b28 SulfurOre
+31b74d mov    rcx,rax
+31b750 call   0x2cdd1c
+31b755 mov    rdx,rax
+31b758 lea    rcx,[rsp+0x28]
+31b75d call   0x2cc2cc
+31b762 mov    r9,rbx
+31b765 lea    r8,[rsp+0x28]
+31b76a mov    edx,0x3
+31b76f mov    rcx,r13
+31b772 call   0x3176bc
+31b777 lea    rcx,[rsp+0x28]
+31b77c call   0x2cc4f4
+31b781 cmp    BYTE PTR [rip+0xccdd0],dil        # 0x3e8558 ; CONFIG Bools.CarESP value(+0x48)
+31b788 je     0x31b80f
+31b78e lea    rdx,[rbp+0x5a7]
+31b795 lea    rcx,[rbp+0xa88]
+31b79c call   0x2f3c54 ; STRING getter=0x2f3c54 ModularCar
+31b7a1 mov    rcx,rax
+31b7a4 call   0x2d85cc
+31b7a9 movabs rbx,0xcbf29ce484222325
+31b7b3 mov    rcx,rax
+31b7b6 mov    rdx,rbx
+31b7b9 call   0x2e5b4c
+31b7be cmp    rsi,rax
+31b7c1 jne    0x31b819
+31b7c3 mov    rbx,QWORD PTR [rsp+0x20]
+31b7c8 lea    rdx,[rbp+0xe4]
+31b7cf lea    rcx,[rbp+0xa88]
+31b7d6 call   0x2f3db4 ; STRING getter=0x2f3db4 Car
+31b7db mov    rcx,rax
+31b7de call   0x2dd0e8
+31b7e3 mov    rdx,rax
+31b7e6 lea    rcx,[rsp+0x28]
+31b7eb call   0x2cc2cc
+31b7f0 mov    r9,rbx
+31b7f3 lea    r8,[rsp+0x28]
+31b7f8 mov    edx,0x7d
+31b7fd mov    rcx,r13
+31b800 call   0x3176bc
+31b805 lea    rcx,[rsp+0x28]
+31b80a call   0x2cc4f4
+31b80f movabs rbx,0xcbf29ce484222325
+31b819 cmp    BYTE PTR [rip+0xccd88],dil        # 0x3e85a8 ; CONFIG Bools.TrainESP value(+0x48)
+31b820 je     0x31b899
+31b822 lea    rdx,[rbp+0x770]
+31b829 lea    rcx,[rbp+0xa88]
+31b830 call   0x2f3e6c ; STRING getter=0x2f3e6c TrainEngine
+31b835 mov    rcx,rax
+31b838 call   0x2cde0c
+31b83d mov    rcx,rax
+31b840 mov    rdx,rbx
+31b843 call   0x2e5b4c
+31b848 cmp    rsi,rax
+31b84b jne    0x31b899
+31b84d mov    rbx,QWORD PTR [rsp+0x20]
+31b852 lea    rdx,[rbp+0x27c]
+31b859 lea    rcx,[rbp+0xa88]
+31b860 call   0x2f3f6c ; STRING getter=0x2f3f6c Train
+31b865 mov    rcx,rax
+31b868 call   0x2d84b4
+31b86d mov    rdx,rax
+31b870 lea    rcx,[rsp+0x28]
+31b875 call   0x2cc2cc
+31b87a mov    r9,rbx
+31b87d lea    r8,[rsp+0x28]
+31b882 mov    edx,0x72
+31b887 mov    rcx,r13
+31b88a call   0x3176bc
+31b88f lea    rcx,[rsp+0x28]
+31b894 call   0x2cc4f4
+31b899 cmp    BYTE PTR [rip+0xce158],dil        # 0x3e99f8 ; CONFIG Bools.DrawDrone value(+0x48)
+31b8a0 je     0x31b927
+31b8a6 lea    rdx,[rbp+0x276]
+31b8ad lea    rcx,[rbp+0xa88]
+31b8b4 call   0x2f407c ; STRING getter=0x2f407c Drone
+31b8b9 mov    rcx,rax
+31b8bc call   0x2d84b4
+31b8c1 movabs rbx,0xcbf29ce484222325
+31b8cb mov    rcx,rax
+31b8ce mov    rdx,rbx
+31b8d1 call   0x2e5b4c
+31b8d6 cmp    rsi,rax
+31b8d9 jne    0x31b931
+31b8db mov    rbx,QWORD PTR [rsp+0x20]
+31b8e0 lea    rdx,[rbp+0x2ce]
+31b8e7 lea    rcx,[rbp+0xa88]
+31b8ee call   0x2f411c ; STRING getter=0x2f411c Drones
+31b8f3 mov    rcx,rax
+31b8f6 call   0x2dd110
+31b8fb mov    rdx,rax
+31b8fe lea    rcx,[rsp+0x28]
+31b903 call   0x2cc2cc
+31b908 mov    r9,rbx
+31b90b lea    r8,[rsp+0x28]
+31b910 mov    edx,0xc
+31b915 mov    rcx,r13
+31b918 call   0x3176bc
+31b91d lea    rcx,[rsp+0x28]
+31b922 call   0x2cc4f4
+31b927 movabs rbx,0xcbf29ce484222325
+31b931 cmp    BYTE PTR [rip+0xcb690],dil        # 0x3e6fc8 ; CONFIG Bools.DrawBikes value(+0x48)
+31b938 jne    0x31b947
+31b93a cmp    BYTE PTR [rip+0xcb637],dil        # 0x3e6f78 ; CONFIG Bools.MetalBike value(+0x48)
+31b941 je     0x31bb02
+31b947 lea    rdx,[rbp+0x1e5]
+31b94e lea    rcx,[rbp+0xa88]
+31b955 call   0x2f4148 ; STRING getter=0x2f4148 Bike
+31b95a mov    rcx,rax
+31b95d call   0x2e35ec
+31b962 mov    rcx,rax
+31b965 mov    rdx,rbx
+31b968 call   0x2e5b4c
+31b96d cmp    rsi,rax
+31b970 jne    0x31bb02
+31b976 cmp    BYTE PTR [rip+0xcb64b],dil        # 0x3e6fc8 ; CONFIG Bools.DrawBikes value(+0x48)
+31b97d je     0x31ba40
+31b983 lea    rdx,[rbp+0x415]
+31b98a lea    rcx,[rbp+0xa88]
+31b991 call   0x2f4370 ; STRING getter=0x2f4370 pedalbike
+31b996 mov    rcx,rax
+31b999 call   0x2cdd1c
+31b99e mov    rdx,rax
+31b9a1 mov    rcx,r14
+31b9a4 call   0x3ca960
+31b9a9 lea    rcx,[rbp+0xa88]
+31b9b0 test   rax,rax
+31b9b3 je     0x31b9d0
+31b9b5 mov    rbx,QWORD PTR [rsp+0x20]
+31b9ba lea    rdx,[rbp+0x4a1]
+31b9c1 call   0x2f4414 ; STRING getter=0x2f4414 PedalBike
+31b9c6 mov    rcx,rax
+31b9c9 call   0x2cdd1c
+31b9ce jmp    0x31ba14
+31b9d0 lea    rdx,[rbp+0x544]
+31b9d7 call   0x2f449c ; STRING getter=0x2f449c pedaltrike
+31b9dc mov    rcx,rax
+31b9df call   0x2d85cc
+31b9e4 mov    rdx,rax
+31b9e7 mov    rcx,r14
+31b9ea call   0x3ca960
+31b9ef test   rax,rax
+31b9f2 je     0x31ba40
+31b9f4 mov    rbx,QWORD PTR [rsp+0x20]
+31b9f9 lea    rdx,[rbp+0x4b5]
+31ba00 lea    rcx,[rbp+0xa88]
+31ba07 call   0x2f45a4 ; STRING getter=0x2f45a4 PedalTrike
+31ba0c mov    rcx,rax
+31ba0f call   0x2d85cc
+31ba14 mov    rdx,rax
+31ba17 lea    rcx,[rsp+0x28]
+31ba1c call   0x2cc2cc
+31ba21 mov    r9,rbx
+31ba24 lea    r8,[rsp+0x28]
+31ba29 mov    edx,0xd
+31ba2e mov    rcx,r13
+31ba31 call   0x3176bc
+31ba36 lea    rcx,[rsp+0x28]
+31ba3b call   0x2cc4f4
+31ba40 cmp    BYTE PTR [rip+0xcb531],dil        # 0x3e6f78 ; CONFIG Bools.MetalBike value(+0x48)
+31ba47 je     0x31bb02
+31ba4d lea    rdx,[rsp+0x50]
+31ba52 lea    rcx,[rbp+0xa88]
+31ba59 call   0x2f463c ; STRING getter=0x2f463c motorbike_sidecar
+31ba5e mov    rcx,rax
+31ba61 call   0x2d857c
+31ba66 mov    rdx,rax
+31ba69 mov    rcx,r14
+31ba6c call   0x3ca960
+31ba71 lea    rcx,[rbp+0xa88]
+31ba78 test   rax,rax
+31ba7b je     0x31ba95
+31ba7d mov    rbx,QWORD PTR [rsp+0x20]
+31ba82 lea    rdx,[rbp-0x40]
+31ba86 call   0x2f46d0 ; STRING getter=0x2f46d0 MotorBike Sidecar
+31ba8b mov    rcx,rax
+31ba8e call   0x2d857c
+31ba93 jmp    0x31bad6
+31ba95 lea    rdx,[rbp-0x40]
+31ba99 call   0x2f474c ; STRING getter=0x2f474c motorbike.prefab
+31ba9e mov    rcx,rax
+31baa1 call   0x2d8554
+31baa6 mov    rdx,rax
+31baa9 mov    rcx,r14
+31baac call   0x3ca960
+31bab1 test   rax,rax
+31bab4 je     0x31bb02
+31bab6 mov    rbx,QWORD PTR [rsp+0x20]
+31babb lea    rdx,[rbp+0x48d]
+31bac2 lea    rcx,[rbp+0xa88]
+31bac9 call   0x2f47fc ; STRING getter=0x2f47fc MotorBike
+31bace mov    rcx,rax
+31bad1 call   0x2cdd1c
+31bad6 mov    rdx,rax
+31bad9 lea    rcx,[rsp+0x28]
+31bade call   0x2cc2cc
+31bae3 mov    r9,rbx
+31bae6 lea    r8,[rsp+0x28]
+31baeb mov    edx,0xe
+31baf0 mov    rcx,r13
+31baf3 call   0x3176bc
+31baf8 lea    rcx,[rsp+0x28]
+31bafd call   0x2cc4f4
+31bb02 cmp    BYTE PTR [rip+0xcd6cf],dil        # 0x3e91d8 ; CONFIG Bools.PatrolHeli value(+0x48)
+31bb09 je     0x31bbfd
+31bb0f lea    rdx,[rbp-0x40]
+31bb13 lea    rcx,[rbp+0xa88]
+31bb1a call   0x2f4870 ; STRING getter=0x2f4870 PatrolHelicopter
+31bb1f mov    rcx,rax
+31bb22 call   0x2d8554
+31bb27 mov    rcx,rax
+31bb2a movabs rdx,0xcbf29ce484222325
+31bb34 call   0x2e5b4c
+31bb39 cmp    rsi,rax
+31bb3c jne    0x31bb88
+31bb3e mov    rbx,QWORD PTR [rsp+0x20]
+31bb43 lea    rdx,[rsp+0x50]
+31bb48 lea    rcx,[rbp+0xa88]
+31bb4f call   0x2f4930 ; STRING getter=0x2f4930 PatrolHelicopter
+31bb54 mov    rcx,rax
+31bb57 call   0x2d8554
+31bb5c mov    rdx,rax
+31bb5f lea    rcx,[rsp+0x28]
+31bb64 call   0x2cc2cc
+31bb69 mov    r9,rbx
+31bb6c lea    r8,[rsp+0x28]
+31bb71 mov    edx,0xf
+31bb76 mov    rcx,r13
+31bb79 call   0x3176bc
+31bb7e lea    rcx,[rsp+0x28]
+31bb83 call   0x2cc4f4
+31bb88 lea    rdx,[rsp+0x50]
+31bb8d lea    rcx,[rbp+0xa88]
+31bb94 call   0x2f4b04 ; STRING getter=0x2f4b04 heli_crate.prefab
+31bb99 mov    rcx,rax
+31bb9c call   0x2d857c
+31bba1 mov    rdx,rax
+31bba4 mov    rcx,r14
+31bba7 call   0x3ca960
+31bbac test   rax,rax
+31bbaf je     0x31bbfd
+31bbb1 mov    rbx,QWORD PTR [rsp+0x20]
+31bbb6 lea    rdx,[rbp+0x4c0]
+31bbbd lea    rcx,[rbp+0xa88]
+31bbc4 call   0x2f4bcc ; STRING getter=0x2f4bcc heli_crate
+31bbc9 mov    rcx,rax
+31bbcc call   0x2d85cc
+31bbd1 mov    rdx,rax
+31bbd4 lea    rcx,[rsp+0x28]
+31bbd9 call   0x2cc2cc
+31bbde mov    r9,rbx
+31bbe1 lea    r8,[rsp+0x28]
+31bbe6 mov    edx,0x10
+31bbeb mov    rcx,r13
+31bbee call   0x3176bc
+31bbf3 lea    rcx,[rsp+0x28]
+31bbf8 call   0x2cc4f4
+31bbfd cmp    BYTE PTR [rip+0xcb964],dil        # 0x3e7568 ; CONFIG Bools.recycler value(+0x48)
+31bc04 je     0x31bc8b
+31bc0a lea    rdx,[rbp+0x379]
+31bc11 lea    rcx,[rbp+0xa88]
+31bc18 call   0x2f4c04 ; STRING getter=0x2f4c04 Recycler
+31bc1d mov    rcx,rax
+31bc20 call   0x2d8504
+31bc25 movabs rbx,0xcbf29ce484222325
+31bc2f mov    rcx,rax
+31bc32 mov    rdx,rbx
+31bc35 call   0x2e5b4c
+31bc3a cmp    rsi,rax
+31bc3d jne    0x31bc95
+31bc3f mov    rbx,QWORD PTR [rsp+0x20]
+31bc44 lea    rdx,[rbp+0x382]
+31bc4b lea    rcx,[rbp+0xa88]
+31bc52 call   0x2f4cd0 ; STRING getter=0x2f4cd0 Recycler
+31bc57 mov    rcx,rax
+31bc5a call   0x2d8504
+31bc5f mov    rdx,rax
+31bc62 lea    rcx,[rsp+0x28]
+31bc67 call   0x2cc2cc
+31bc6c mov    r9,rbx
+31bc6f lea    r8,[rsp+0x28]
+31bc74 mov    edx,0x11
+31bc79 mov    rcx,r13
+31bc7c call   0x3176bc
+31bc81 lea    rcx,[rsp+0x28]
+31bc86 call   0x2cc4f4
+31bc8b movabs rbx,0xcbf29ce484222325
+31bc95 cmp    BYTE PTR [rip+0xcd58c],dil        # 0x3e9228 ; CONFIG Bools.Bradley value(+0x48)
+31bc9c je     0x31bd90
+31bca2 lea    rdx,[rbp+0x4cb]
+31bca9 lea    rcx,[rbp+0xa88]
+31bcb0 call   0x2f4d70 ; STRING getter=0x2f4d70 BradleyAPC
+31bcb5 mov    rcx,rax
+31bcb8 call   0x2d85cc
+31bcbd mov    rcx,rax
+31bcc0 mov    rdx,rbx
+31bcc3 call   0x2e5b4c
+31bcc8 cmp    rsi,rax
+31bccb jne    0x31bd19
+31bccd mov    rbx,QWORD PTR [rsp+0x20]
+31bcd2 lea    rdx,[rbp+0x4d6]
+31bcd9 lea    rcx,[rbp+0xa88]
+31bce0 call   0x2f4eb4 ; STRING getter=0x2f4eb4 BradleyAPC
+31bce5 mov    rcx,rax
+31bce8 call   0x2d85cc
+31bced mov    rdx,rax
+31bcf0 lea    rcx,[rsp+0x28]
+31bcf5 call   0x2cc2cc
+31bcfa mov    r9,rbx
+31bcfd lea    r8,[rsp+0x28]
+31bd02 mov    edx,0x15
+31bd07 mov    rcx,r13
+31bd0a call   0x3176bc
+31bd0f lea    rcx,[rsp+0x28]
+31bd14 call   0x2cc4f4
+31bd19 lea    rdx,[rbp+0x80c]
+31bd20 lea    rcx,[rbp+0xa88]
+31bd27 call   0x2f4ee8 ; STRING getter=0x2f4ee8 bradley_crate
+31bd2c mov    rcx,rax
+31bd2f call   0x2d861c
+31bd34 mov    rdx,rax
+31bd37 mov    rcx,r14
+31bd3a call   0x3ca960
+31bd3f test   rax,rax
+31bd42 je     0x31bd90
+31bd44 mov    rbx,QWORD PTR [rsp+0x20]
+31bd49 lea    rdx,[rbp+0x81a]
+31bd50 lea    rcx,[rbp+0xa88]
+31bd57 call   0x2f4fb4 ; STRING getter=0x2f4fb4 bradley_crate
+31bd5c mov    rcx,rax
+31bd5f call   0x2d861c
+31bd64 mov    rdx,rax
+31bd67 lea    rcx,[rsp+0x28]
+31bd6c call   0x2cc2cc
+31bd71 mov    r9,rbx
+31bd74 lea    r8,[rsp+0x28]
+31bd79 mov    edx,0x16
+31bd7e mov    rcx,r13
+31bd81 call   0x3176bc
+31bd86 lea    rcx,[rsp+0x28]
+31bd8b call   0x2cc4f4
+31bd90 cmp    BYTE PTR [rip+0xcd6c1],dil        # 0x3e9458 ; CONFIG Bools.Submarine value(+0x48)
+31bd97 je     0x31be49
+31bd9d lea    rdx,[rbp+0x7c9]
+31bda4 lea    rcx,[rbp+0xa88]
+31bdab call   0x2f500c ; STRING getter=0x2f500c SubmarineDuo
+31bdb0 mov    rcx,rax
+31bdb3 call   0x2cde5c
+31bdb8 movabs rbx,0xcbf29ce484222325
+31bdc2 mov    rcx,rax
+31bdc5 mov    rdx,rbx
+31bdc8 call   0x2e5b4c
+31bdcd cmp    rsi,rax
+31bdd0 je     0x31bdfd
+31bdd2 lea    rdx,[rbp+0x828]
+31bdd9 lea    rcx,[rbp+0xa88]
+31bde0 call   0x2f5164 ; STRING getter=0x2f5164 BaseSubmarine
+31bde5 mov    rcx,rax
+31bde8 call   0x2d861c
+31bded mov    rcx,rax
+31bdf0 mov    rdx,rbx
+31bdf3 call   0x2e5b4c
+31bdf8 cmp    rsi,rax
+31bdfb jne    0x31be53
+31bdfd mov    rbx,QWORD PTR [rsp+0x20]
+31be02 lea    rdx,[rbp+0x483]
+31be09 lea    rcx,[rbp+0xa88]
+31be10 call   0x2f5374 ; STRING getter=0x2f5374 Submarine
+31be15 mov    rcx,rax
+31be18 call   0x2cdd1c
+31be1d mov    rdx,rax
+31be20 lea    rcx,[rsp+0x28]
+31be25 call   0x2cc2cc
+31be2a mov    r9,rbx
+31be2d lea    r8,[rsp+0x28]
+31be32 mov    edx,0x17
+31be37 mov    rcx,r13
+31be3a call   0x3176bc
+31be3f lea    rcx,[rsp+0x28]
+31be44 call   0x2cc4f4
+31be49 movabs rbx,0xcbf29ce484222325
+31be53 cmp    BYTE PTR [rip+0xcd5ae],dil        # 0x3e9408 ; CONFIG Bools.ScrapHeli value(+0x48)
+31be5a je     0x31bed1
+31be5c lea    rdx,[rsp+0x50]
+31be61 lea    rcx,[rbp+0xa88]
+31be68 call   0x2f5438 ; STRING getter=0x2f5438 ScrapTransportHelicopter
+31be6d mov    rcx,rax
+31be70 call   0x2e36dc
+31be75 mov    rcx,rax
+31be78 mov    rdx,rbx
+31be7b call   0x2e5b4c
+31be80 cmp    rsi,rax
+31be83 jne    0x31bed1
+31be85 mov    rbx,QWORD PTR [rsp+0x20]
+31be8a lea    rdx,[rbp+0x9b8]
+31be91 lea    rcx,[rbp+0xa88]
+31be98 call   0x2f55e0 ; STRING getter=0x2f55e0 ScrapHelicopter
+31be9d mov    rcx,rax
+31bea0 call   0x2d852c
+31bea5 mov    rdx,rax
+31bea8 lea    rcx,[rsp+0x28]
+31bead call   0x2cc2cc
+31beb2 mov    r9,rbx
+31beb5 lea    r8,[rsp+0x28]
+31beba mov    edx,0x18
+31bebf mov    rcx,r13
+31bec2 call   0x3176bc
+31bec7 lea    rcx,[rsp+0x28]
+31becc call   0x2cc4f4
+31bed1 cmp    BYTE PTR [rip+0xcd4e0],dil        # 0x3e93b8 ; CONFIG Bools.Minicopter value(+0x48)
+31bed8 je     0x31bf5f
+31bede lea    rdx,[rbp+0x570]
+31bee5 lea    rcx,[rbp+0xa88]
+31beec call   0x2f56f0 ; STRING getter=0x2f56f0 Minicopter
+31bef1 mov    rcx,rax
+31bef4 call   0x2d85cc
+31bef9 movabs rbx,0xcbf29ce484222325
+31bf03 mov    rcx,rax
+31bf06 mov    rdx,rbx
+31bf09 call   0x2e5b4c
+31bf0e cmp    rsi,rax
+31bf11 jne    0x31bf69
+31bf13 mov    rbx,QWORD PTR [rsp+0x20]
+31bf18 lea    rdx,[rbp+0x4e1]
+31bf1f lea    rcx,[rbp+0xa88]
+31bf26 call   0x2f5904 ; STRING getter=0x2f5904 Minicopter
+31bf2b mov    rcx,rax
+31bf2e call   0x2d85cc
+31bf33 mov    rdx,rax
+31bf36 lea    rcx,[rsp+0x28]
+31bf3b call   0x2cc2cc
+31bf40 mov    r9,rbx
+31bf43 lea    r8,[rsp+0x28]
+31bf48 mov    edx,0x19
+31bf4d mov    rcx,r13
+31bf50 call   0x3176bc
+31bf55 lea    rcx,[rsp+0x28]
+31bf5a call   0x2cc4f4
+31bf5f movabs rbx,0xcbf29ce484222325
+31bf69 cmp    BYTE PTR [rip+0xcd358],dil        # 0x3e92c8 ; CONFIG Bools.attackhelicopter value(+0x48)
+31bf70 je     0x31bfe4
+31bf72 lea    rdx,[rsp+0x50]
+31bf77 lea    rcx,[rbp+0xa88]
+31bf7e call   0x2f5a3c ; STRING getter=0x2f5a3c AttackHelicopter
+31bf83 mov    rcx,rax
+31bf86 call   0x2d8554
+31bf8b mov    rcx,rax
+31bf8e mov    rdx,rbx
+31bf91 call   0x2e5b4c
+31bf96 cmp    rsi,rax
+31bf99 jne    0x31bfe4
+31bf9b mov    rbx,QWORD PTR [rsp+0x20]
+31bfa0 lea    rdx,[rbp-0x40]
+31bfa4 lea    rcx,[rbp+0xa88]
+31bfab call   0x2f5be4 ; STRING getter=0x2f5be4 AttackHelicopter
+31bfb0 mov    rcx,rax
+31bfb3 call   0x2d8554
+31bfb8 mov    rdx,rax
+31bfbb lea    rcx,[rsp+0x28]
+31bfc0 call   0x2cc2cc
+31bfc5 mov    r9,rbx
+31bfc8 lea    r8,[rsp+0x28]
+31bfcd mov    edx,0x1a
+31bfd2 mov    rcx,r13
+31bfd5 call   0x3176bc
+31bfda lea    rcx,[rsp+0x28]
+31bfdf call   0x2cc4f4
+31bfe4 cmp    BYTE PTR [rip+0xcd28d],dil        # 0x3e9278 ; CONFIG Bools.tugboat value(+0x48)
+31bfeb je     0x31c072
+31bff1 lea    rdx,[rbp+0x309]
+31bff8 lea    rcx,[rbp+0xa88]
+31bfff call   0x2f0ddc
+31c004 mov    rcx,rax
+31c007 call   0x2dd138
+31c00c movabs rbx,0xcbf29ce484222325
+31c016 mov    rcx,rax
+31c019 mov    rdx,rbx
+31c01c call   0x2e5b4c
+31c021 cmp    rsi,rax
+31c024 jne    0x31c07c
+31c026 mov    rbx,QWORD PTR [rsp+0x20]
+31c02b lea    rdx,[rbp+0x301]
+31c032 lea    rcx,[rbp+0xa88]
+31c039 call   0x2f0ddc
+31c03e mov    rcx,rax
+31c041 call   0x2dd138
+31c046 mov    rdx,rax
+31c049 lea    rcx,[rsp+0x28]
+31c04e call   0x2cc2cc
+31c053 mov    r9,rbx
+31c056 lea    r8,[rsp+0x28]
+31c05b mov    edx,0x1b
+31c060 mov    rcx,r13
+31c063 call   0x3176bc
+31c068 lea    rcx,[rsp+0x28]
+31c06d call   0x2cc4f4
+31c072 movabs rbx,0xcbf29ce484222325
+31c07c cmp    BYTE PTR [rip+0xcd295],dil        # 0x3e9318 ; CONFIG Bools.RHIB value(+0x48)
+31c083 je     0x31c0fc
+31c085 lea    rdx,[rbp+0x1db]
+31c08c lea    rcx,[rbp+0xa88]
+31c093 call   0x2f5f34 ; STRING getter=0x2f5f34 RHIB
+31c098 mov    rcx,rax
+31c09b call   0x2e35ec
+31c0a0 mov    rcx,rax
+31c0a3 mov    rdx,rbx
+31c0a6 call   0x2e5b4c
+31c0ab cmp    rsi,rax
+31c0ae jne    0x31c0fc
+31c0b0 mov    rbx,QWORD PTR [rsp+0x20]
+31c0b5 lea    rdx,[rbp+0x1ea]
+31c0bc lea    rcx,[rbp+0xa88]
+31c0c3 call   0x2f61c8 ; STRING getter=0x2f61c8 RHIB
+31c0c8 mov    rcx,rax
+31c0cb call   0x2e35ec
+31c0d0 mov    rdx,rax
+31c0d3 lea    rcx,[rsp+0x28]
+31c0d8 call   0x2cc2cc
+31c0dd mov    r9,rbx
+31c0e0 lea    r8,[rsp+0x28]
+31c0e5 mov    edx,0x1c
+31c0ea mov    rcx,r13
+31c0ed call   0x3176bc
+31c0f2 lea    rcx,[rsp+0x28]
+31c0f7 call   0x2cc4f4
+31c0fc cmp    BYTE PTR [rip+0xcd265],dil        # 0x3e9368 ; CONFIG Bools.Rowboat value(+0x48)
+31c103 je     0x31c18a
+31c109 lea    rdx,[rbp+0x7d6]
+31c110 lea    rcx,[rbp+0xa88]
+31c117 call   0x2f6390 ; STRING getter=0x2f6390 MotorRowboat
+31c11c mov    rcx,rax
+31c11f call   0x2cde5c
+31c124 movabs rbx,0xcbf29ce484222325
+31c12e mov    rcx,rax
+31c131 mov    rdx,rbx
+31c134 call   0x2e5b4c
+31c139 cmp    rsi,rax
+31c13c jne    0x31c194
+31c13e mov    rbx,QWORD PTR [rsp+0x20]
+31c143 lea    rdx,[rbp+0x2f9]
+31c14a lea    rcx,[rbp+0xa88]
+31c151 call   0x2f0d7c
+31c156 mov    rcx,rax
+31c159 call   0x2dd138
+31c15e mov    rdx,rax
+31c161 lea    rcx,[rsp+0x28]
+31c166 call   0x2cc2cc
+31c16b mov    r9,rbx
+31c16e lea    r8,[rsp+0x28]
+31c173 mov    edx,0x1d
+31c178 mov    rcx,r13
+31c17b call   0x3176bc
+31c180 lea    rcx,[rsp+0x28]
+31c185 call   0x2cc4f4
+31c18a movabs rbx,0xcbf29ce484222325
+31c194 cmp    BYTE PTR [rip+0xccefd],dil        # 0x3e9098 ; CONFIG Bools.Cargoship value(+0x48)
+31c19b je     0x31c214
+31c19d lea    rdx,[rbp+0x479]
+31c1a4 lea    rcx,[rbp+0xa88]
+31c1ab call   0x2f651c ; STRING getter=0x2f651c CargoShip
+31c1b0 mov    rcx,rax
+31c1b3 call   0x2cdd1c
+31c1b8 mov    rcx,rax
+31c1bb mov    rdx,rbx
+31c1be call   0x2e5b4c
+31c1c3 cmp    rsi,rax
+31c1c6 jne    0x31c214
+31c1c8 mov    rbx,QWORD PTR [rsp+0x20]
+31c1cd lea    rdx,[rbp+0x46f]
+31c1d4 lea    rcx,[rbp+0xa88]
+31c1db call   0x2f6608 ; STRING getter=0x2f6608 Cargoship
+31c1e0 mov    rcx,rax
+31c1e3 call   0x2cdd1c
+31c1e8 mov    rdx,rax
+31c1eb lea    rcx,[rsp+0x28]
+31c1f0 call   0x2cc2cc
+31c1f5 mov    r9,rbx
+31c1f8 lea    r8,[rsp+0x28]
+31c1fd mov    edx,0x1e
+31c202 mov    rcx,r13
+31c205 call   0x3176bc
+31c20a lea    rcx,[rsp+0x28]
+31c20f call   0x2cc4f4
+31c214 mov    r8d,0x6
+31c21a lea    rdx,[rbp+0x8c8]
+31c221 lea    rcx,[rip+0xd3e90]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31c228 call   0x2e98f0
+31c22d mov    rcx,rax
+31c230 call   0x2d4d70
+31c235 test   al,al
+31c237 je     0x31c313
+31c23d lea    rdx,[rsp+0x50]
+31c242 lea    rcx,[rbp+0xa88]
+31c249 call   0x2f673c ; STRING getter=0x2f673c CollectableEasterEgg
+31c24e mov    rcx,rax
+31c251 call   0x2e363c
+31c256 movabs rbx,0xcbf29ce484222325
+31c260 mov    rcx,rax
+31c263 mov    rdx,rbx
+31c266 call   0x2e5b4c
+31c26b cmp    rsi,rax
+31c26e jne    0x31c31d
+31c274 lea    rdx,[rbp+0x258]
+31c27b mov    ebx,0x1f
+31c280 lea    rcx,[rbp+0xa88]
+31c287 call   0x2f68b8 ; STRING getter=0x2f68b8 Candy
+31c28c mov    rcx,rax
+31c28f call   0x2d84b4
+31c294 mov    rdx,rax
+31c297 lea    rcx,[rbp-0x40]
+31c29b call   0x2cc2cc
+31c2a0 lea    rdx,[rbp+0x88b]
+31c2a7 lea    rcx,[rbp+0xa88]
+31c2ae call   0x2f6a14 ; STRING getter=0x2f6a14 collectableegg
+31c2b3 mov    rcx,rax
+31c2b6 call   0x2d8644
+31c2bb mov    rdx,rax
+31c2be mov    rcx,r14
+31c2c1 call   0x3ca960
+31c2c6 test   rax,rax
+31c2c9 je     0x31c2f7
+31c2cb lea    rdx,[rbp+0xe8]
+31c2d2 mov    ebx,0x20
+31c2d7 lea    rcx,[rbp+0xa88]
+31c2de call   0x2f6ac0 ; STRING getter=0x2f6ac0 Egg
+31c2e3 mov    rcx,rax
+31c2e6 call   0x2dd0e8
+31c2eb mov    rdx,rax
+31c2ee lea    rcx,[rbp-0x40]
+31c2f2 call   0x2d4c68
+31c2f7 mov    r9,QWORD PTR [rsp+0x20]
+31c2fc lea    r8,[rbp-0x40]
+31c300 mov    edx,ebx
+31c302 mov    rcx,r13
+31c305 call   0x3176bc
+31c30a lea    rcx,[rbp-0x40]
+31c30e call   0x2cc4f4
+31c313 movabs rbx,0xcbf29ce484222325
+31c31d cmp    BYTE PTR [rip+0xcc2d4],dil        # 0x3e85f8 ; CONFIG Bools.FragmentsESP value(+0x48)
+31c324 jne    0x31c33c
+31c326 cmp    BYTE PTR [rip+0xcc31b],dil        # 0x3e8648 ; CONFIG Bools.SmallFragmentsESP value(+0x48)
+31c32d jne    0x31c33c
+31c32f cmp    BYTE PTR [rip+0xcc362],dil        # 0x3e8698 ; CONFIG Bools.RedCardESP value(+0x48)
+31c336 je     0x31c4e4
+31c33c lea    rdx,[rbp+0x4ec]
+31c343 lea    rcx,[rbp+0xa88]
+31c34a call   0x2f6b00 ; STRING getter=0x2f6b00 ItemPickup
+31c34f mov    rcx,rax
+31c352 call   0x2d85cc
+31c357 mov    rcx,rax
+31c35a mov    rdx,rbx
+31c35d call   0x2e5b4c
+31c362 cmp    rsi,rax
+31c365 jne    0x31c4e4
+31c36b cmp    BYTE PTR [rip+0xcc286],dil        # 0x3e85f8 ; CONFIG Bools.FragmentsESP value(+0x48)
+31c372 je     0x31c3e6
+31c374 lea    rdx,[rbp-0x40]
+31c378 lea    rcx,[rbp+0xa88]
+31c37f call   0x2f6c78 ; STRING getter=0x2f6c78 advancedblueprintfragment
+31c384 mov    rcx,rax
+31c387 call   0x320534
+31c38c mov    rdx,rax
+31c38f mov    rcx,r14
+31c392 call   0x3ca960
+31c397 test   rax,rax
+31c39a je     0x31c3e6
+31c39c mov    rbx,QWORD PTR [rsp+0x20]
+31c3a1 lea    rdx,[rsp+0x50]
+31c3a6 lea    rcx,[rbp+0xa88]
+31c3ad call   0x2f6d10 ; STRING getter=0x2f6d10 Advanced Fragment
+31c3b2 mov    rcx,rax
+31c3b5 call   0x2d857c
+31c3ba mov    rdx,rax
+31c3bd lea    rcx,[rsp+0x28]
+31c3c2 call   0x2cc2cc
+31c3c7 mov    r9,rbx
+31c3ca lea    r8,[rsp+0x28]
+31c3cf mov    edx,0x5f
+31c3d4 mov    rcx,r13
+31c3d7 call   0x3176bc
+31c3dc lea    rcx,[rsp+0x28]
+31c3e1 call   0x2cc4f4
+31c3e6 cmp    BYTE PTR [rip+0xcc25b],dil        # 0x3e8648 ; CONFIG Bools.SmallFragmentsESP value(+0x48)
+31c3ed je     0x31c464
+31c3ef lea    rdx,[rsp+0x50]
+31c3f4 lea    rcx,[rbp+0xa88]
+31c3fb call   0x2f6dcc ; STRING getter=0x2f6dcc basicblueprintfragment
+31c400 mov    rcx,rax
+31c403 call   0x2e368c
+31c408 mov    rdx,rax
+31c40b mov    rcx,r14
+31c40e call   0x3ca960
+31c413 test   rax,rax
+31c416 je     0x31c464
+31c418 mov    rbx,QWORD PTR [rsp+0x20]
+31c41d lea    rdx,[rbp+0x89a]
+31c424 lea    rcx,[rbp+0xa88]
+31c42b call   0x2f6e54 ; STRING getter=0x2f6e54 Basic Fragment
+31c430 mov    rcx,rax
+31c433 call   0x2d8644
+31c438 mov    rdx,rax
+31c43b lea    rcx,[rsp+0x28]
+31c440 call   0x2cc2cc
+31c445 mov    r9,rbx
+31c448 lea    r8,[rsp+0x28]
+31c44d mov    edx,0x60
+31c452 mov    rcx,r13
+31c455 call   0x3176bc
+31c45a lea    rcx,[rsp+0x28]
+31c45f call   0x2cc4f4
+31c464 cmp    BYTE PTR [rip+0xcc22d],dil        # 0x3e8698 ; CONFIG Bools.RedCardESP value(+0x48)
+31c46b je     0x31c4e4
+31c46d lea    rdx,[rbp+0x77c]
+31c474 lea    rcx,[rbp+0xa88]
+31c47b call   0x2f6ed4 ; STRING getter=0x2f6ed4 keycard_red
+31c480 mov    rcx,rax
+31c483 call   0x2cde0c
+31c488 mov    rdx,rax
+31c48b mov    rcx,r14
+31c48e call   0x3ca960
+31c493 test   rax,rax
+31c496 je     0x31c4e4
+31c498 mov    rbx,QWORD PTR [rsp+0x20]
+31c49d lea    rdx,[rbp+0x2f1]
+31c4a4 lea    rcx,[rbp+0xa88]
+31c4ab call   0x2f6f60
+31c4b0 mov    rcx,rax
+31c4b3 call   0x2dd138
+31c4b8 mov    rdx,rax
+31c4bb lea    rcx,[rsp+0x28]
+31c4c0 call   0x2cc2cc
+31c4c5 mov    r9,rbx
+31c4c8 lea    r8,[rsp+0x28]
+31c4cd mov    edx,0x61
+31c4d2 mov    rcx,r13
+31c4d5 call   0x3176bc
+31c4da lea    rcx,[rsp+0x28]
+31c4df call   0x2cc4f4
+31c4e4 lea    rdx,[rsp+0x50]
+31c4e9 lea    rcx,[rbp+0xa88]
+31c4f0 call   0x2f7018 ; STRING getter=0x2f7018 CollectibleEntity
+31c4f5 mov    rcx,rax
+31c4f8 call   0x2d857c
+31c4fd movabs rbx,0xcbf29ce484222325
+31c507 mov    rcx,rax
+31c50a mov    rdx,rbx
+31c50d call   0x2e5b4c
+31c512 cmp    rsi,rax
+31c515 jne    0x31cfaf
+31c51b cmp    BYTE PTR [rip+0xcbef6],dil        # 0x3e8418 ; CONFIG Bools.WheatESP value(+0x48)
+31c522 je     0x31c599
+31c524 lea    rdx,[rsp+0x50]
+31c529 lea    rcx,[rbp+0xa88]
+31c530 call   0x2f7120 ; STRING getter=0x2f7120 wheat-collectable
+31c535 mov    rcx,rax
+31c538 call   0x2d857c
+31c53d mov    rdx,rax
+31c540 mov    rcx,r14
+31c543 call   0x3ca960
+31c548 test   rax,rax
+31c54b je     0x31c599
+31c54d mov    rbx,QWORD PTR [rsp+0x20]
+31c552 lea    rdx,[rbp+0x25e]
+31c559 lea    rcx,[rbp+0xa88]
+31c560 call   0x2f715c ; STRING getter=0x2f715c Wheat
+31c565 mov    rcx,rax
+31c568 call   0x2d84b4
+31c56d mov    rdx,rax
+31c570 lea    rcx,[rsp+0x28]
+31c575 call   0x2cc2cc
+31c57a mov    r9,rbx
+31c57d lea    r8,[rsp+0x28]
+31c582 mov    edx,0x39
+31c587 mov    rcx,r13
+31c58a call   0x3176bc
+31c58f lea    rcx,[rsp+0x28]
+31c594 call   0x2cc4f4
+31c599 cmp    BYTE PTR [rip+0xcbf18],dil        # 0x3e84b8 ; CONFIG Bools.SunflowerESP value(+0x48)
+31c5a0 je     0x31c617
+31c5a2 lea    rdx,[rsp+0x50]
+31c5a7 lea    rcx,[rbp+0xa88]
+31c5ae call   0x2f7214 ; STRING getter=0x2f7214 sunflower-collectable
+31c5b3 mov    rcx,rax
+31c5b6 call   0x2e3664
+31c5bb mov    rdx,rax
+31c5be mov    rcx,r14
+31c5c1 call   0x3ca960
+31c5c6 test   rax,rax
+31c5c9 je     0x31c617
+31c5cb mov    rbx,QWORD PTR [rsp+0x20]
+31c5d0 lea    rdx,[rbp+0x3f7]
+31c5d7 lea    rcx,[rbp+0xa88]
+31c5de call   0x2f7380 ; STRING getter=0x2f7380 SunFlower
+31c5e3 mov    rcx,rax
+31c5e6 call   0x2cdd1c
+31c5eb mov    rdx,rax
+31c5ee lea    rcx,[rsp+0x28]
+31c5f3 call   0x2cc2cc
+31c5f8 mov    r9,rbx
+31c5fb lea    r8,[rsp+0x28]
+31c600 mov    edx,0x3e
+31c605 mov    rcx,r13
+31c608 call   0x3176bc
+31c60d lea    rcx,[rsp+0x28]
+31c612 call   0x2cc4f4
+31c617 cmp    BYTE PTR [rip+0xcbe4a],dil        # 0x3e8468 ; CONFIG Bools.RoseESP value(+0x48)
+31c61e je     0x31c695
+31c620 lea    rdx,[rsp+0x50]
+31c625 lea    rcx,[rbp+0xa88]
+31c62c call   0x2f7500 ; STRING getter=0x2f7500 rose-collectable
+31c631 mov    rcx,rax
+31c634 call   0x2d8554
+31c639 mov    rdx,rax
+31c63c mov    rcx,r14
+31c63f call   0x3ca960
+31c644 test   rax,rax
+31c647 je     0x31c695
+31c649 mov    rbx,QWORD PTR [rsp+0x20]
+31c64e lea    rdx,[rbp+0x190]
+31c655 lea    rcx,[rbp+0xa88]
+31c65c call   0x2f76a8 ; STRING getter=0x2f76a8 Rose
+31c661 mov    rcx,rax
+31c664 call   0x2e35ec
+31c669 mov    rdx,rax
+31c66c lea    rcx,[rsp+0x28]
+31c671 call   0x2cc2cc
+31c676 mov    r9,rbx
+31c679 lea    r8,[rsp+0x28]
+31c67e mov    edx,0x3f
+31c683 mov    rcx,r13
+31c686 call   0x3176bc
+31c68b lea    rcx,[rsp+0x28]
+31c690 call   0x2cc4f4
+31c695 cmp    BYTE PTR [rip+0xcbe6c],dil        # 0x3e8508 ; CONFIG Bools.OrchidESP value(+0x48)
+31c69c je     0x31c713
+31c69e lea    rdx,[rsp+0x50]
+31c6a3 lea    rcx,[rbp+0xa88]
+31c6aa call   0x2f77e4 ; STRING getter=0x2f77e4 orchid-collectable
+31c6af mov    rcx,rax
+31c6b2 call   0x2cdd6c
+31c6b7 mov    rdx,rax
+31c6ba mov    rcx,r14
+31c6bd call   0x3ca960
+31c6c2 test   rax,rax
+31c6c5 je     0x31c713
+31c6c7 mov    rbx,QWORD PTR [rsp+0x20]
+31c6cc lea    rdx,[rbp+0x2d5]
+31c6d3 lea    rcx,[rbp+0xa88]
+31c6da call   0x2f7850 ; STRING getter=0x2f7850 Orchid
+31c6df mov    rcx,rax
+31c6e2 call   0x2dd110
+31c6e7 mov    rdx,rax
+31c6ea lea    rcx,[rsp+0x28]
+31c6ef call   0x2cc2cc
+31c6f4 mov    r9,rbx
+31c6f7 lea    r8,[rsp+0x28]
+31c6fc mov    edx,0x40
+31c701 mov    rcx,r13
+31c704 call   0x3176bc
+31c709 lea    rcx,[rsp+0x28]
+31c70e call   0x2cc4f4
+31c713 cmp    BYTE PTR [rip+0xcc1ae],dil        # 0x3e88c8 ; CONFIG Bools.hempesp value(+0x48)
+31c71a je     0x31c791
+31c71c lea    rdx,[rsp+0x50]
+31c721 lea    rcx,[rbp+0xa88]
+31c728 call   0x2f78e4 ; STRING getter=0x2f78e4 hemp-collectable
+31c72d mov    rcx,rax
+31c730 call   0x2d8554
+31c735 mov    rdx,rax
+31c738 mov    rcx,r14
+31c73b call   0x3ca960
+31c740 test   rax,rax
+31c743 je     0x31c791
+31c745 mov    rbx,QWORD PTR [rsp+0x20]
+31c74a lea    rdx,[rbp+0x195]
+31c751 lea    rcx,[rbp+0xa88]
+31c758 call   0x2f7988 ; STRING getter=0x2f7988 Hemp
+31c75d mov    rcx,rax
+31c760 call   0x2e35ec
+31c765 mov    rdx,rax
+31c768 lea    rcx,[rsp+0x28]
+31c76d call   0x2cc2cc
+31c772 mov    r9,rbx
+31c775 lea    r8,[rsp+0x28]
+31c77a mov    edx,0x21
+31c77f mov    rcx,r13
+31c782 call   0x3176bc
+31c787 lea    rcx,[rsp+0x28]
+31c78c call   0x2cc4f4
+31c791 xor    r8d,r8d
+31c794 lea    rdx,[rbp+0x8d8]
+31c79b lea    rcx,[rip+0xd3916]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31c7a2 call   0x2e98f0
+31c7a7 mov    rcx,rax
+31c7aa call   0x2d4d70
+31c7af test   al,al
+31c7b1 je     0x31c82a
+31c7b3 lea    rdx,[rbp+0x264]
+31c7ba lea    rcx,[rbp+0xa88]
+31c7c1 call   0x2f7a70 ; STRING getter=0x2f7a70 black
+31c7c6 mov    rcx,rax
+31c7c9 call   0x2d84b4
+31c7ce mov    rdx,rax
+31c7d1 mov    rcx,r14
+31c7d4 call   0x3ca960
+31c7d9 test   rax,rax
+31c7dc je     0x31c82a
+31c7de mov    rbx,QWORD PTR [rsp+0x20]
+31c7e3 lea    rdx,[rbp+0x270]
+31c7ea lea    rcx,[rbp+0xa88]
+31c7f1 call   0x2f7b7c ; STRING getter=0x2f7b7c Black
+31c7f6 mov    rcx,rax
+31c7f9 call   0x2d84b4
+31c7fe mov    rdx,rax
+31c801 lea    rcx,[rsp+0x28]
+31c806 call   0x2cc2cc
+31c80b mov    r9,rbx
+31c80e lea    r8,[rsp+0x28]
+31c813 mov    edx,0x22
+31c818 mov    rcx,r13
+31c81b call   0x3176bc
+31c820 lea    rcx,[rsp+0x28]
+31c825 call   0x2cc4f4
+31c82a mov    r8d,0x1
+31c830 lea    rdx,[rbp+0x8e8]
+31c837 lea    rcx,[rip+0xd387a]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31c83e call   0x2e98f0
+31c843 mov    rcx,rax
+31c846 call   0x2d4d70
+31c84b test   al,al
+31c84d je     0x31c8c6
+31c84f lea    rdx,[rbp+0x19a]
+31c856 lea    rcx,[rbp+0xa88]
+31c85d call   0x2f7c1c ; STRING getter=0x2f7c1c blue
+31c862 mov    rcx,rax
+31c865 call   0x2e35ec
+31c86a mov    rdx,rax
+31c86d mov    rcx,r14
+31c870 call   0x3ca960
+31c875 test   rax,rax
+31c878 je     0x31c8c6
+31c87a mov    rbx,QWORD PTR [rsp+0x20]
+31c87f lea    rdx,[rbp+0x19f]
+31c886 lea    rcx,[rbp+0xa88]
+31c88d call   0x2efa98 ; STRING getter=0x2efa98 Blue
+31c892 mov    rcx,rax
+31c895 call   0x2e35ec
+31c89a mov    rdx,rax
+31c89d lea    rcx,[rsp+0x28]
+31c8a2 call   0x2cc2cc
+31c8a7 mov    r9,rbx
+31c8aa lea    r8,[rsp+0x28]
+31c8af mov    edx,0x23
+31c8b4 mov    rcx,r13
+31c8b7 call   0x3176bc
+31c8bc lea    rcx,[rsp+0x28]
+31c8c1 call   0x2cc4f4
+31c8c6 mov    r8d,0x2
+31c8cc lea    rdx,[rbp+0x8f8]
+31c8d3 lea    rcx,[rip+0xd37de]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31c8da call   0x2e98f0
+31c8df mov    rcx,rax
+31c8e2 call   0x2d4d70
+31c8e7 test   al,al
+31c8e9 je     0x31c962
+31c8eb lea    rdx,[rbp+0x1f5]
+31c8f2 lea    rcx,[rbp+0xa88]
+31c8f9 call   0x2efbe8 ; STRING getter=0x2efbe8 green
+31c8fe mov    rcx,rax
+31c901 call   0x2d84b4
+31c906 mov    rdx,rax
+31c909 mov    rcx,r14
+31c90c call   0x3ca960
+31c911 test   rax,rax
+31c914 je     0x31c962
+31c916 mov    rbx,QWORD PTR [rsp+0x20]
+31c91b lea    rdx,[rbp+0x201]
+31c922 lea    rcx,[rbp+0xa88]
+31c929 call   0x2efd2c ; STRING getter=0x2efd2c Green
+31c92e mov    rcx,rax
+31c931 call   0x2d84b4
+31c936 mov    rdx,rax
+31c939 lea    rcx,[rsp+0x28]
+31c93e call   0x2cc2cc
+31c943 mov    r9,rbx
+31c946 lea    r8,[rsp+0x28]
+31c94b mov    edx,0x24
+31c950 mov    rcx,r13
+31c953 call   0x3176bc
+31c958 lea    rcx,[rsp+0x28]
+31c95d call   0x2cc4f4
+31c962 mov    r8d,0x3
+31c968 lea    rdx,[rbp+0x908]
+31c96f lea    rcx,[rip+0xd3742]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31c976 call   0x2e98f0
+31c97b mov    rcx,rax
+31c97e call   0x2d4d70
+31c983 test   al,al
+31c985 je     0x31c9fe
+31c987 lea    rdx,[rbp+0xec]
+31c98e lea    rcx,[rbp+0xa88]
+31c995 call   0x2efd78 ; STRING getter=0x2efd78 red
+31c99a mov    rcx,rax
+31c99d call   0x2dd0e8
+31c9a2 mov    rdx,rax
+31c9a5 mov    rcx,r14
+31c9a8 call   0x3ca960
+31c9ad test   rax,rax
+31c9b0 je     0x31c9fe
+31c9b2 mov    rbx,QWORD PTR [rsp+0x20]
+31c9b7 lea    rdx,[rbp+0x170]
+31c9be lea    rcx,[rbp+0xa88]
+31c9c5 call   0x2efe60 ; STRING getter=0x2efe60 Red
+31c9ca mov    rcx,rax
+31c9cd call   0x2dd0e8
+31c9d2 mov    rdx,rax
+31c9d5 lea    rcx,[rsp+0x28]
+31c9da call   0x2cc2cc
+31c9df mov    r9,rbx
+31c9e2 lea    r8,[rsp+0x28]
+31c9e7 mov    edx,0x25
+31c9ec mov    rcx,r13
+31c9ef call   0x3176bc
+31c9f4 lea    rcx,[rsp+0x28]
+31c9f9 call   0x2cc4f4
+31c9fe mov    r8d,0x4
+31ca04 lea    rdx,[rbp+0x918]
+31ca0b lea    rcx,[rip+0xd36a6]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31ca12 call   0x2e98f0
+31ca17 mov    rcx,rax
+31ca1a call   0x2d4d70
+31ca1f test   al,al
+31ca21 je     0x31ca9a
+31ca23 lea    rdx,[rbp+0x207]
+31ca2a lea    rcx,[rbp+0xa88]
+31ca31 call   0x2eff88 ; STRING getter=0x2eff88 white
+31ca36 mov    rcx,rax
+31ca39 call   0x2d84b4
+31ca3e mov    rdx,rax
+31ca41 mov    rcx,r14
+31ca44 call   0x3ca960
+31ca49 test   rax,rax
+31ca4c je     0x31ca9a
+31ca4e mov    rbx,QWORD PTR [rsp+0x20]
+31ca53 lea    rdx,[rbp+0x26a]
+31ca5a lea    rcx,[rbp+0xa88]
+31ca61 call   0x2f007c ; STRING getter=0x2f007c White
+31ca66 mov    rcx,rax
+31ca69 call   0x2d84b4
+31ca6e mov    rdx,rax
+31ca71 lea    rcx,[rsp+0x28]
+31ca76 call   0x2cc2cc
+31ca7b mov    r9,rbx
+31ca7e lea    r8,[rsp+0x28]
+31ca83 mov    edx,0x26
+31ca88 mov    rcx,r13
+31ca8b call   0x3176bc
+31ca90 lea    rcx,[rsp+0x28]
+31ca95 call   0x2cc4f4
+31ca9a mov    r8d,0x5
+31caa0 lea    rdx,[rbp+0x928]
+31caa7 lea    rcx,[rip+0xd360a]        # 0x3f00b8 ; CONFIG VectorBools.BerryOptions value(+0x48)
+31caae call   0x2e98f0
+31cab3 mov    rcx,rax
+31cab6 call   0x2d4d70
+31cabb test   al,al
+31cabd je     0x31cb36
+31cabf lea    rdx,[rbp+0x2dc]
+31cac6 lea    rcx,[rbp+0xa88]
+31cacd call   0x2f0104 ; STRING getter=0x2f0104 yellow
+31cad2 mov    rcx,rax
+31cad5 call   0x2dd110
+31cada mov    rdx,rax
+31cadd mov    rcx,r14
+31cae0 call   0x3ca960
+31cae5 test   rax,rax
+31cae8 je     0x31cb36
+31caea mov    rbx,QWORD PTR [rsp+0x20]
+31caef lea    rdx,[rbp+0x2e3]
+31caf6 lea    rcx,[rbp+0xa88]
+31cafd call   0x2f01ec ; STRING getter=0x2f01ec Yellow
+31cb02 mov    rcx,rax
+31cb05 call   0x2dd110
+31cb0a mov    rdx,rax
+31cb0d lea    rcx,[rsp+0x28]
+31cb12 call   0x2cc2cc
+31cb17 mov    r9,rbx
+31cb1a lea    r8,[rsp+0x28]
+31cb1f mov    edx,0x27
+31cb24 mov    rcx,r13
+31cb27 call   0x3176bc
+31cb2c lea    rcx,[rsp+0x28]
+31cb31 call   0x2cc4f4
+31cb36 cmp    BYTE PTR [rip+0xcbddb],dil        # 0x3e8918 ; CONFIG Bools.stoneesp value(+0x48)
+31cb3d je     0x31cbb1
+31cb3f lea    rdx,[rbp-0x40]
+31cb43 lea    rcx,[rbp+0xa88]
+31cb4a call   0x2f025c ; STRING getter=0x2f025c stone-collectable
+31cb4f mov    rcx,rax
+31cb52 call   0x2d857c
+31cb57 mov    rdx,rax
+31cb5a mov    rcx,r14
+31cb5d call   0x3ca960
+31cb62 test   rax,rax
+31cb65 je     0x31cbb1
+31cb67 mov    rbx,QWORD PTR [rsp+0x20]
+31cb6c lea    rdx,[rsp+0x50]
+31cb71 lea    rcx,[rbp+0xa88]
+31cb78 call   0x2f045c ; STRING getter=0x2f045c StoneCollectable
+31cb7d mov    rcx,rax
+31cb80 call   0x2d8554
+31cb85 mov    rdx,rax
+31cb88 lea    rcx,[rsp+0x28]
+31cb8d call   0x2cc2cc
+31cb92 mov    r9,rbx
+31cb95 lea    r8,[rsp+0x28]
+31cb9a mov    edx,0x28
+31cb9f mov    rcx,r13
+31cba2 call   0x3176bc
+31cba7 lea    rcx,[rsp+0x28]
+31cbac call   0x2cc4f4
+31cbb1 cmp    BYTE PTR [rip+0xcbdb0],dil        # 0x3e8968 ; CONFIG Bools.metalesp value(+0x48)
+31cbb8 je     0x31cc2f
+31cbba lea    rdx,[rbp+0x20d]
+31cbc1 lea    rcx,[rbp+0xa88]
+31cbc8 call   0x2f054c ; STRING getter=0x2f054c metal
+31cbcd mov    rcx,rax
+31cbd0 call   0x2d84b4
+31cbd5 mov    rdx,rax
+31cbd8 mov    rcx,r14
+31cbdb call   0x3ca960
+31cbe0 test   rax,rax
+31cbe3 je     0x31cc2f
+31cbe5 mov    rbx,QWORD PTR [rsp+0x20]
+31cbea lea    rdx,[rsp+0x50]
+31cbef lea    rcx,[rbp+0xa88]
+31cbf6 call   0x2f05b4 ; STRING getter=0x2f05b4 MetalCollectable
+31cbfb mov    rcx,rax
+31cbfe call   0x2d8554
+31cc03 mov    rdx,rax
+31cc06 lea    rcx,[rsp+0x28]
+31cc0b call   0x2cc2cc
+31cc10 mov    r9,rbx
+31cc13 lea    r8,[rsp+0x28]
+31cc18 mov    edx,0x29
+31cc1d mov    rcx,r13
+31cc20 call   0x3176bc
+31cc25 lea    rcx,[rsp+0x28]
+31cc2a call   0x2cc4f4
+31cc2f cmp    BYTE PTR [rip+0xcbd82],dil        # 0x3e89b8 ; CONFIG Bools.sulfuresp value(+0x48)
+31cc36 je     0x31ccad
+31cc38 lea    rdx,[rbp+0x2ea]
+31cc3f lea    rcx,[rbp+0xa88]
+31cc46 call   0x2f06ac ; STRING getter=0x2f06ac sulfur
+31cc4b mov    rcx,rax
+31cc4e call   0x2dd110
+31cc53 mov    rdx,rax
+31cc56 mov    rcx,r14
+31cc59 call   0x3ca960
+31cc5e test   rax,rax
+31cc61 je     0x31ccad
+31cc63 mov    rbx,QWORD PTR [rsp+0x20]
+31cc68 lea    rdx,[rsp+0x50]
+31cc6d lea    rcx,[rbp+0xa88]
+31cc74 call   0x2f073c ; STRING getter=0x2f073c SulfurCollectable
+31cc79 mov    rcx,rax
+31cc7c call   0x2d857c
+31cc81 mov    rdx,rax
+31cc84 lea    rcx,[rsp+0x28]
+31cc89 call   0x2cc2cc
+31cc8e mov    r9,rbx
+31cc91 lea    r8,[rsp+0x28]
+31cc96 mov    edx,0x2a
+31cc9b mov    rcx,r13
+31cc9e call   0x3176bc
+31cca3 lea    rcx,[rsp+0x28]
+31cca8 call   0x2cc4f4
+31ccad cmp    BYTE PTR [rip+0xcbd54],dil        # 0x3e8a08 ; CONFIG Bools.woodesp value(+0x48)
+31ccb4 je     0x31cd2d
+31ccb6 lea    rdx,[rbp+0x1a4]
+31ccbd lea    rcx,[rbp+0xa88]
+31ccc4 call   0x2f0758 ; STRING getter=0x2f0758 wood
+31ccc9 mov    rcx,rax
+31cccc call   0x2e35ec
+31ccd1 mov    rdx,rax
+31ccd4 mov    rcx,r14
+31ccd7 call   0x3ca960
+31ccdc test   rax,rax
+31ccdf je     0x31cd2d
+31cce1 mov    rbx,QWORD PTR [rsp+0x20]
+31cce6 lea    rdx,[rbp+0x938]
+31cced lea    rcx,[rbp+0xa88]
+31ccf4 call   0x2f07a4 ; STRING getter=0x2f07a4 WoodCollectable
+31ccf9 mov    rcx,rax
+31ccfc call   0x2d852c
+31cd01 mov    rdx,rax
+31cd04 lea    rcx,[rsp+0x28]
+31cd09 call   0x2cc2cc
+31cd0e mov    r9,rbx
+31cd11 lea    r8,[rsp+0x28]
+31cd16 mov    edx,0x2b
+31cd1b mov    rcx,r13
+31cd1e call   0x3176bc
+31cd23 lea    rcx,[rsp+0x28]
+31cd28 call   0x2cc4f4
+31cd2d cmp    BYTE PTR [rip+0xcbd24],dil        # 0x3e8a58 ; CONFIG Bools.cornesp value(+0x48)
+31cd34 je     0x31cdad
+31cd36 lea    rdx,[rbp+0x1a9]
+31cd3d lea    rcx,[rbp+0xa88]
+31cd44 call   0x2f07cc ; STRING getter=0x2f07cc corn
+31cd49 mov    rcx,rax
+31cd4c call   0x2e35ec
+31cd51 mov    rdx,rax
+31cd54 mov    rcx,r14
+31cd57 call   0x3ca960
+31cd5c test   rax,rax
+31cd5f je     0x31cdad
+31cd61 mov    rbx,QWORD PTR [rsp+0x20]
+31cd66 lea    rdx,[rbp+0x948]
+31cd6d lea    rcx,[rbp+0xa88]
+31cd74 call   0x2f07fc ; STRING getter=0x2f07fc CornCollectable
+31cd79 mov    rcx,rax
+31cd7c call   0x2d852c
+31cd81 mov    rdx,rax
+31cd84 lea    rcx,[rsp+0x28]
+31cd89 call   0x2cc2cc
+31cd8e mov    r9,rbx
+31cd91 lea    r8,[rsp+0x28]
+31cd96 mov    edx,0x2c
+31cd9b mov    rcx,r13
+31cd9e call   0x3176bc
+31cda3 lea    rcx,[rsp+0x28]
+31cda8 call   0x2cc4f4
+31cdad cmp    BYTE PTR [rip+0xcbf24],dil        # 0x3e8cd8 ; CONFIG Bools.mushroomesp value(+0x48)
+31cdb4 je     0x31ce2b
+31cdb6 lea    rdx,[rbp+0x38b]
+31cdbd lea    rcx,[rbp+0xa88]
+31cdc4 call   0x2f0818 ; STRING getter=0x2f0818 mushroom
+31cdc9 mov    rcx,rax
+31cdcc call   0x2d8504
+31cdd1 mov    rdx,rax
+31cdd4 mov    rcx,r14
+31cdd7 call   0x3ca960
+31cddc test   rax,rax
+31cddf je     0x31ce2b
+31cde1 mov    rbx,QWORD PTR [rsp+0x20]
+31cde6 lea    rdx,[rsp+0x50]
+31cdeb lea    rcx,[rbp+0xa88]
+31cdf2 call   0x2f0934 ; STRING getter=0x2f0934 MushroomCollectable
+31cdf7 mov    rcx,rax
+31cdfa call   0x2cddbc
+31cdff mov    rdx,rax
+31ce02 lea    rcx,[rsp+0x28]
+31ce07 call   0x2cc2cc
+31ce0c mov    r9,rbx
+31ce0f lea    r8,[rsp+0x28]
+31ce14 mov    edx,0x2d
+31ce19 mov    rcx,r13
+31ce1c call   0x3176bc
+31ce21 lea    rcx,[rsp+0x28]
+31ce26 call   0x2cc4f4
+31ce2b cmp    BYTE PTR [rip+0xcbef6],dil        # 0x3e8d28 ; CONFIG Bools.pumpkinesp value(+0x48)
+31ce32 je     0x31cea9
+31ce34 lea    rdx,[rbp+0x341]
+31ce3b lea    rcx,[rbp+0xa88]
+31ce42 call   0x2f097c
+31ce47 mov    rcx,rax
+31ce4a call   0x2dd138
+31ce4f mov    rdx,rax
+31ce52 mov    rcx,r14
+31ce55 call   0x3ca960
+31ce5a test   rax,rax
+31ce5d je     0x31cea9
+31ce5f mov    rbx,QWORD PTR [rsp+0x20]
+31ce64 lea    rdx,[rsp+0x50]
+31ce69 lea    rcx,[rbp+0xa88]
+31ce70 call   0x2f099c ; STRING getter=0x2f099c PumpkinCollectable
+31ce75 mov    rcx,rax
+31ce78 call   0x2cdd6c
+31ce7d mov    rdx,rax
+31ce80 lea    rcx,[rsp+0x28]
+31ce85 call   0x2cc2cc
+31ce8a mov    r9,rbx
+31ce8d lea    r8,[rsp+0x28]
+31ce92 mov    edx,0x2e
+31ce97 mov    rcx,r13
+31ce9a call   0x3176bc
+31ce9f lea    rcx,[rsp+0x28]
+31cea4 call   0x2cc4f4
+31cea9 cmp    BYTE PTR [rip+0xcbec8],dil        # 0x3e8d78 ; CONFIG Bools.diselesp value(+0x48)
+31ceb0 je     0x31cf27
+31ceb2 lea    rdx,[rbp+0x2ab]
+31ceb9 lea    rcx,[rbp+0xa88]
+31cec0 call   0x2f09f4 ; STRING getter=0x2f09f4 diesel
+31cec5 mov    rcx,rax
+31cec8 call   0x2dd110
+31cecd mov    rdx,rax
+31ced0 mov    rcx,r14
+31ced3 call   0x3ca960
+31ced8 test   rax,rax
+31cedb je     0x31cf27
+31cedd mov    rbx,QWORD PTR [rsp+0x20]
+31cee2 lea    rdx,[rsp+0x50]
+31cee7 lea    rcx,[rbp+0xa88]
+31ceee call   0x2f0a54 ; STRING getter=0x2f0a54 DieselCollectable
+31cef3 mov    rcx,rax
+31cef6 call   0x2d857c
+31cefb mov    rdx,rax
+31cefe lea    rcx,[rsp+0x28]
+31cf03 call   0x2cc2cc
+31cf08 mov    r9,rbx
+31cf0b lea    r8,[rsp+0x28]
+31cf10 mov    edx,0x2f
+31cf15 mov    rcx,r13
+31cf18 call   0x3176bc
+31cf1d lea    rcx,[rsp+0x28]
+31cf22 call   0x2cc4f4
+31cf27 cmp    BYTE PTR [rip+0xcbe9a],dil        # 0x3e8dc8 ; CONFIG Bools.potatoesp value(+0x48)
+31cf2e je     0x31cfa5
+31cf30 lea    rdx,[rbp+0x2b2]
+31cf37 lea    rcx,[rbp+0xa88]
+31cf3e call   0x2f0a70 ; STRING getter=0x2f0a70 potato
+31cf43 mov    rcx,rax
+31cf46 call   0x2dd110
+31cf4b mov    rdx,rax
+31cf4e mov    rcx,r14
+31cf51 call   0x3ca960
+31cf56 test   rax,rax
+31cf59 je     0x31cfa5
+31cf5b mov    rbx,QWORD PTR [rsp+0x20]
+31cf60 lea    rdx,[rsp+0x50]
+31cf65 lea    rcx,[rbp+0xa88]
+31cf6c call   0x2f0a90 ; STRING getter=0x2f0a90 PotatoCollectable
+31cf71 mov    rcx,rax
+31cf74 call   0x2d857c
+31cf79 mov    rdx,rax
+31cf7c lea    rcx,[rsp+0x28]
+31cf81 call   0x2cc2cc
+31cf86 mov    r9,rbx
+31cf89 lea    r8,[rsp+0x28]
+31cf8e mov    edx,0x30
+31cf93 mov    rcx,r13
+31cf96 call   0x3176bc
+31cf9b lea    rcx,[rsp+0x28]
+31cfa0 call   0x2cc4f4
+31cfa5 movabs rbx,0xcbf29ce484222325
+31cfaf cmp    BYTE PTR [rip+0xcb2d2],dil        # 0x3e8288 ; CONFIG Bools.BeeHive value(+0x48)
+31cfb6 je     0x31d02f
+31cfb8 lea    rdx,[rbp+0x8a9]
+31cfbf lea    rcx,[rbp+0xa88]
+31cfc6 call   0x2f0aac ; STRING getter=0x2f0aac NaturalBeehive
+31cfcb mov    rcx,rax
+31cfce call   0x2d8644
+31cfd3 mov    rcx,rax
+31cfd6 mov    rdx,rbx
+31cfd9 call   0x2e5b4c
+31cfde cmp    rsi,rax
+31cfe1 jne    0x31d02f
+31cfe3 mov    rbx,QWORD PTR [rsp+0x20]
+31cfe8 lea    rdx,[rbp+0x369]
+31cfef lea    rcx,[rbp+0xa88]
+31cff6 call   0x2f0ae8
+31cffb mov    rcx,rax
+31cffe call   0x2dd138
+31d003 mov    rdx,rax
+31d006 lea    rcx,[rsp+0x28]
+31d00b call   0x2cc2cc
+31d010 mov    r9,rbx
+31d013 lea    r8,[rsp+0x28]
+31d018 mov    edx,0x7
+31d01d mov    rcx,r13
+31d020 call   0x3176bc
+31d025 lea    rcx,[rsp+0x28]
+31d02a call   0x2cc4f4
+31d02f cmp    BYTE PTR [rip+0xcb2a2],dil        # 0x3e82d8 ; CONFIG Bools.BeeSwarmAI value(+0x48)
+31d036 je     0x31d0bd
+31d03c lea    rdx,[rbp+0x4f7]
+31d043 lea    rcx,[rbp+0xa88]
+31d04a call   0x2f0afc ; STRING getter=0x2f0afc BeeSwarmAI
+31d04f mov    rcx,rax
+31d052 call   0x2d85cc
+31d057 movabs rbx,0xcbf29ce484222325
+31d061 mov    rcx,rax
+31d064 mov    rdx,rbx
+31d067 call   0x2e5b4c
+31d06c cmp    rsi,rax
+31d06f jne    0x31d0c7
+31d071 mov    rbx,QWORD PTR [rsp+0x20]
+31d076 lea    rdx,[rbp+0x394]
+31d07d lea    rcx,[rbp+0xa88]
+31d084 call   0x2f0c28 ; STRING getter=0x2f0c28 BeeSwarm
+31d089 mov    rcx,rax
+31d08c call   0x2d8504
+31d091 mov    rdx,rax
+31d094 lea    rcx,[rsp+0x28]
+31d099 call   0x2cc2cc
+31d09e mov    r9,rbx
+31d0a1 lea    r8,[rsp+0x28]
+31d0a6 mov    edx,0x6
+31d0ab mov    rcx,r13
+31d0ae call   0x3176bc
+31d0b3 lea    rcx,[rsp+0x28]
+31d0b8 call   0x2cc4f4
+31d0bd movabs rbx,0xcbf29ce484222325
+31d0c7 cmp    BYTE PTR [rip+0xcbf2a],dil        # 0x3e8ff8 ; CONFIG Bools.Airdrop value(+0x48)
+31d0ce je     0x31d147
+31d0d0 lea    rdx,[rbp+0x502]
+31d0d7 lea    rcx,[rbp+0xa88]
+31d0de call   0x2f0c44 ; STRING getter=0x2f0c44 SupplyDrop
+31d0e3 mov    rcx,rax
+31d0e6 call   0x2d85cc
+31d0eb mov    rcx,rax
+31d0ee mov    rdx,rbx
+31d0f1 call   0x2e5b4c
+31d0f6 cmp    rsi,rax
+31d0f9 jne    0x31d147
+31d0fb mov    rbx,QWORD PTR [rsp+0x20]
+31d100 lea    rdx,[rbp+0x361]
+31d107 lea    rcx,[rbp+0xa88]
+31d10e call   0x2f0c7c
+31d113 mov    rcx,rax
+31d116 call   0x2dd138
+31d11b mov    rdx,rax
+31d11e lea    rcx,[rsp+0x28]
+31d123 call   0x2cc2cc
+31d128 mov    r9,rbx
+31d12b lea    r8,[rsp+0x28]
+31d130 mov    edx,0x31
+31d135 mov    rcx,r13
+31d138 call   0x3176bc
+31d13d lea    rcx,[rsp+0x28]
+31d142 call   0x2cc4f4
+31d147 cmp    BYTE PTR [rip+0xcbf9a],dil        # 0x3e90e8 ; CONFIG Bools.LockedCrates value(+0x48)
+31d14e je     0x31d1cc
+31d150 lea    rdx,[rsp+0x50]
+31d155 lea    rcx,[rbp+0xa88]
+31d15c call   0x2f0cc4 ; STRING getter=0x2f0cc4 HackableLockedCrate
+31d161 mov    rcx,rax
+31d164 call   0x2cddbc
+31d169 movabs rbx,0xcbf29ce484222325
+31d173 mov    rcx,rax
+31d176 mov    rdx,rbx
+31d179 call   0x2e5b4c
+31d17e cmp    rsi,rax
+31d181 jne    0x31d1d6
+31d183 mov    rbx,QWORD PTR [rsp+0x20]
+31d188 lea    rdx,[rbp-0x40]
+31d18c lea    rcx,[rbp+0xa88]
+31d193 call   0x2f0cf8 ; STRING getter=0x2f0cf8 HackableLockedCrate
+31d198 mov    rcx,rax
+31d19b call   0x2cddbc
+31d1a0 mov    rdx,rax
+31d1a3 lea    rcx,[rsp+0x28]
+31d1a8 call   0x2cc2cc
+31d1ad mov    r9,rbx
+31d1b0 lea    r8,[rsp+0x28]
+31d1b5 mov    edx,0x32
+31d1ba mov    rcx,r13
+31d1bd call   0x3176bc
+31d1c2 lea    rcx,[rsp+0x28]
+31d1c7 call   0x2cc4f4
+31d1cc movabs rbx,0xcbf29ce484222325
+31d1d6 cmp    BYTE PTR [rip+0xcabfb],dil        # 0x3e7dd8 ; CONFIG Bools.AWaterCrateESP value(+0x48)
+31d1dd jne    0x31d1ec
+31d1df cmp    BYTE PTR [rip+0xcac42],dil        # 0x3e7e28 ; CONFIG Bools.BWaterCrateESP value(+0x48)
+31d1e6 je     0x31d312
+31d1ec lea    rdx,[rsp+0x50]
+31d1f1 lea    rcx,[rbp+0xa88]
+31d1f8 call   0x2f0d20 ; STRING getter=0x2f0d20 FreeableLootContainer
+31d1fd mov    rcx,rax
+31d200 call   0x2e3664
+31d205 mov    rcx,rax
+31d208 mov    rdx,rbx
+31d20b call   0x2e5b4c
+31d210 cmp    rsi,rax
+31d213 jne    0x31d312
+31d219 cmp    BYTE PTR [rip+0xcabb8],dil        # 0x3e7dd8 ; CONFIG Bools.AWaterCrateESP value(+0x48)
+31d220 je     0x31d294
+31d222 lea    rdx,[rbp-0x40]
+31d226 lea    rcx,[rbp+0xa88]
+31d22d call   0x2f0d58 ; STRING getter=0x2f0d58 crate_underwater_advanced.prefab
+31d232 mov    rcx,rax
+31d235 call   0x2e9c2c
+31d23a mov    rdx,rax
+31d23d mov    rcx,r14
+31d240 call   0x3ca960
+31d245 test   rax,rax
+31d248 je     0x31d294
+31d24a mov    rbx,QWORD PTR [rsp+0x20]
+31d24f lea    rdx,[rsp+0x50]
+31d254 lea    rcx,[rbp+0xa88]
+31d25b call   0x2f0d90 ; STRING getter=0x2f0d90 AdvancedWaterCrate
+31d260 mov    rcx,rax
+31d263 call   0x2cdd6c
+31d268 mov    rdx,rax
+31d26b lea    rcx,[rsp+0x28]
+31d270 call   0x2cc2cc
+31d275 mov    r9,rbx
+31d278 lea    r8,[rsp+0x28]
+31d27d mov    edx,0x33
+31d282 mov    rcx,r13
+31d285 call   0x3176bc
+31d28a lea    rcx,[rsp+0x28]
+31d28f call   0x2cc4f4
+31d294 cmp    BYTE PTR [rip+0xcab8d],dil        # 0x3e7e28 ; CONFIG Bools.BWaterCrateESP value(+0x48)
+31d29b je     0x31d312
+31d29d lea    rdx,[rsp+0x50]
+31d2a2 lea    rcx,[rbp+0xa88]
+31d2a9 call   0x2f0dc0 ; STRING getter=0x2f0dc0 crate_underwater_basic.prefab
+31d2ae mov    rcx,rax
+31d2b1 call   0x3205d4
+31d2b6 mov    rdx,rax
+31d2b9 mov    rcx,r14
+31d2bc call   0x3ca960
+31d2c1 test   rax,rax
+31d2c4 je     0x31d312
+31d2c6 mov    rbx,QWORD PTR [rsp+0x20]
+31d2cb lea    rdx,[rbp+0x958]
+31d2d2 lea    rcx,[rbp+0xa88]
+31d2d9 call   0x2f0df0 ; STRING getter=0x2f0df0 BasicWaterCrate
+31d2de mov    rcx,rax
+31d2e1 call   0x2d852c
+31d2e6 mov    rdx,rax
+31d2e9 lea    rcx,[rsp+0x28]
+31d2ee call   0x2cc2cc
+31d2f3 mov    r9,rbx
+31d2f6 lea    r8,[rsp+0x28]
+31d2fb mov    edx,0x34
+31d300 mov    rcx,r13
+31d303 call   0x3176bc
+31d308 lea    rcx,[rsp+0x28]
+31d30d call   0x2cc4f4
+31d312 lea    rdx,[rbp+0x836]
+31d319 lea    rcx,[rbp+0xa88]
+31d320 call   0x2f0f18 ; STRING getter=0x2f0f18 LootContainer
+31d325 mov    rcx,rax
+31d328 call   0x2d861c
+31d32d movabs rbx,0xcbf29ce484222325
+31d337 mov    rcx,rax
+31d33a mov    rdx,rbx
+31d33d call   0x2e5b4c
+31d342 cmp    rsi,rax
+31d345 jne    0x31d829
+31d34b cmp    BYTE PTR [rip+0xca806],dil        # 0x3e7b58 ; CONFIG Bools.BlueBarrelEsp value(+0x48)
+31d352 je     0x31d3fa
+31d358 lea    rdx,[rbp+0x5b2]
+31d35f lea    rcx,[rbp+0xa88]
+31d366 call   0x2f0f58 ; STRING getter=0x2f0f58 loot-barrel
+31d36b mov    rcx,rax
+31d36e call   0x2cde0c
+31d373 mov    rdx,rax
+31d376 mov    rcx,r14
+31d379 call   0x3ca960
+31d37e test   rax,rax
+31d381 jne    0x31d3ae
+31d383 lea    rdx,[rbp+0x5be]
+31d38a lea    rcx,[rbp+0xa88]
+31d391 call   0x2f0f90 ; STRING getter=0x2f0f90 loot_barrel
+31d396 mov    rcx,rax
+31d399 call   0x2cde0c
+31d39e mov    rdx,rax
+31d3a1 mov    rcx,r14
+31d3a4 call   0x3ca960
+31d3a9 test   rax,rax
+31d3ac je     0x31d3fa
+31d3ae mov    rbx,QWORD PTR [rsp+0x20]
+31d3b3 lea    rdx,[rbp+0x2b9]
+31d3ba lea    rcx,[rbp+0xa88]
+31d3c1 call   0x2f0fc8 ; STRING getter=0x2f0fc8 Barrel
+31d3c6 mov    rcx,rax
+31d3c9 call   0x2dd110
+31d3ce mov    rdx,rax
+31d3d1 lea    rcx,[rsp+0x28]
+31d3d6 call   0x2cc2cc
+31d3db mov    r9,rbx
+31d3de lea    r8,[rsp+0x28]
+31d3e3 mov    edx,0x35
+31d3e8 mov    rcx,r13
+31d3eb call   0x3176bc
+31d3f0 lea    rcx,[rsp+0x28]
+31d3f5 call   0x2cc4f4
+31d3fa cmp    BYTE PTR [rip+0xca7a7],dil        # 0x3e7ba8 ; CONFIG Bools.OilBarrelEsp value(+0x48)
+31d401 je     0x31d47a
+31d403 lea    rdx,[rbp+0x50d]
+31d40a lea    rcx,[rbp+0xa88]
+31d411 call   0x2f0fe8 ; STRING getter=0x2f0fe8 oil_barrel
+31d416 mov    rcx,rax
+31d419 call   0x2d85cc
+31d41e mov    rdx,rax
+31d421 mov    rcx,r14
+31d424 call   0x3ca960
+31d429 test   rax,rax
+31d42c je     0x31d47a
+31d42e mov    rbx,QWORD PTR [rsp+0x20]
+31d433 lea    rdx,[rbp+0x465]
+31d43a lea    rcx,[rbp+0xa88]
+31d441 call   0x2f1020 ; STRING getter=0x2f1020 OilBarrel
+31d446 mov    rcx,rax
+31d449 call   0x2cdd1c
+31d44e mov    rdx,rax
+31d451 lea    rcx,[rsp+0x28]
+31d456 call   0x2cc2cc
+31d45b mov    r9,rbx
+31d45e lea    r8,[rsp+0x28]
+31d463 mov    edx,0x37
+31d468 mov    rcx,r13
+31d46b call   0x3176bc
+31d470 lea    rcx,[rsp+0x28]
+31d475 call   0x2cc4f4
+31d47a cmp    BYTE PTR [rip+0xca777],dil        # 0x3e7bf8 ; CONFIG Bools.NormalCrateESP value(+0x48)
+31d481 je     0x31d4f8
+31d483 lea    rdx,[rsp+0x50]
+31d488 lea    rcx,[rbp+0xa88]
+31d48f call   0x2f1078 ; STRING getter=0x2f1078 crate_normal_2.prefab
+31d494 mov    rcx,rax
+31d497 call   0x2e3664
+31d49c mov    rdx,rax
+31d49f mov    rcx,r14
+31d4a2 call   0x3ca960
+31d4a7 test   rax,rax
+31d4aa je     0x31d4f8
+31d4ac mov    rbx,QWORD PTR [rsp+0x20]
+31d4b1 lea    rdx,[rbp+0x5ca]
+31d4b8 lea    rcx,[rbp+0xa88]
+31d4bf call   0x2f10b0 ; STRING getter=0x2f10b0 NormalCrate
+31d4c4 mov    rcx,rax
+31d4c7 call   0x2cde0c
+31d4cc mov    rdx,rax
+31d4cf lea    rcx,[rsp+0x28]
+31d4d4 call   0x2cc2cc
+31d4d9 mov    r9,rbx
+31d4dc lea    r8,[rsp+0x28]
+31d4e1 mov    edx,0x38
+31d4e6 mov    rcx,r13
+31d4e9 call   0x3176bc
+31d4ee lea    rcx,[rsp+0x28]
+31d4f3 call   0x2cc4f4
+31d4f8 cmp    BYTE PTR [rip+0xca749],dil        # 0x3e7c48 ; CONFIG Bools.MilitaryCrateESP value(+0x48)
+31d4ff je     0x31d576
+31d501 lea    rdx,[rsp+0x50]
+31d506 lea    rcx,[rbp+0xa88]
+31d50d call   0x2f10d8 ; STRING getter=0x2f10d8 crate_normal.prefab
+31d512 mov    rcx,rax
+31d515 call   0x2cddbc
+31d51a mov    rdx,rax
+31d51d mov    rcx,r14
+31d520 call   0x3ca960
+31d525 test   rax,rax
+31d528 je     0x31d576
+31d52a mov    rbx,QWORD PTR [rsp+0x20]
+31d52f lea    rdx,[rbp+0x844]
+31d536 lea    rcx,[rbp+0xa88]
+31d53d call   0x2f1110 ; STRING getter=0x2f1110 MilitaryCrate
+31d542 mov    rcx,rax
+31d545 call   0x2d861c
+31d54a mov    rdx,rax
+31d54d lea    rcx,[rsp+0x28]
+31d552 call   0x2cc2cc
+31d557 mov    r9,rbx
+31d55a lea    r8,[rsp+0x28]
+31d55f mov    edx,0x3a
+31d564 mov    rcx,r13
+31d567 call   0x3176bc
+31d56c lea    rcx,[rsp+0x28]
+31d571 call   0x2cc4f4
+31d576 cmp    BYTE PTR [rip+0xca71b],dil        # 0x3e7c98 ; CONFIG Bools.EliteCrateESP value(+0x48)
+31d57d je     0x31d5f4
+31d57f lea    rdx,[rsp+0x50]
+31d584 lea    rcx,[rbp+0xa88]
+31d58b call   0x2f1238 ; STRING getter=0x2f1238 crate_elite.prefab
+31d590 mov    rcx,rax
+31d593 call   0x2cdd6c
+31d598 mov    rdx,rax
+31d59b mov    rcx,r14
+31d59e call   0x3ca960
+31d5a3 test   rax,rax
+31d5a6 je     0x31d5f4
+31d5a8 mov    rbx,QWORD PTR [rsp+0x20]
+31d5ad lea    rdx,[rbp+0x518]
+31d5b4 lea    rcx,[rbp+0xa88]
+31d5bb call   0x2f125c ; STRING getter=0x2f125c EliteCrate
+31d5c0 mov    rcx,rax
+31d5c3 call   0x2d85cc
+31d5c8 mov    rdx,rax
+31d5cb lea    rcx,[rsp+0x28]
+31d5d0 call   0x2cc2cc
+31d5d5 mov    r9,rbx
+31d5d8 lea    r8,[rsp+0x28]
+31d5dd mov    edx,0x3b
+31d5e2 mov    rcx,r13
+31d5e5 call   0x3176bc
+31d5ea lea    rcx,[rsp+0x28]
+31d5ef call   0x2cc4f4
+31d5f4 cmp    BYTE PTR [rip+0xca6ed],dil        # 0x3e7ce8 ; CONFIG Bools.ToolCrateESP value(+0x48)
+31d5fb je     0x31d674
+31d5fd lea    rdx,[rbp+0x5d6]
+31d604 lea    rcx,[rbp+0xa88]
+31d60b call   0x2f1298 ; STRING getter=0x2f1298 crate_tools
+31d610 mov    rcx,rax
+31d613 call   0x2cde0c
+31d618 mov    rdx,rax
+31d61b mov    rcx,r14
+31d61e call   0x3ca960
+31d623 test   rax,rax
+31d626 je     0x31d674
+31d628 mov    rbx,QWORD PTR [rsp+0x20]
+31d62d lea    rdx,[rbp+0x45b]
+31d634 lea    rcx,[rbp+0xa88]
+31d63b call   0x2f12d0 ; STRING getter=0x2f12d0 ToolCrate
+31d640 mov    rcx,rax
+31d643 call   0x2cdd1c
+31d648 mov    rdx,rax
+31d64b lea    rcx,[rsp+0x28]
+31d650 call   0x2cc2cc
+31d655 mov    r9,rbx
+31d658 lea    r8,[rsp+0x28]
+31d65d mov    edx,0x3c
+31d662 mov    rcx,r13
+31d665 call   0x3176bc
+31d66a lea    rcx,[rsp+0x28]
+31d66f call   0x2cc4f4
+31d674 cmp    BYTE PTR [rip+0xca6bd],dil        # 0x3e7d38 ; CONFIG Bools.FoodCrateESP value(+0x48)
+31d67b je     0x31d723
+31d681 lea    rdx,[rbp+0x1ae]
+31d688 lea    rcx,[rbp+0xa88]
+31d68f call   0x2f131c ; STRING getter=0x2f131c food
+31d694 mov    rcx,rax
+31d697 call   0x2e35ec
+31d69c mov    rdx,rax
+31d69f mov    rcx,r14
+31d6a2 call   0x3ca960
+31d6a7 test   rax,rax
+31d6aa jne    0x31d6d7
+31d6ac lea    rdx,[rbp+0x7e3]
+31d6b3 lea    rcx,[rbp+0xa88]
+31d6ba call   0x2f1370 ; STRING getter=0x2f1370 trash-pile-1
+31d6bf mov    rcx,rax
+31d6c2 call   0x2cde5c
+31d6c7 mov    rdx,rax
+31d6ca mov    rcx,r14
+31d6cd call   0x3ca960
+31d6d2 test   rax,rax
+31d6d5 je     0x31d723
+31d6d7 mov    rbx,QWORD PTR [rsp+0x20]
+31d6dc lea    rdx,[rbp+0x429]
+31d6e3 lea    rcx,[rbp+0xa88]
+31d6ea call   0x2f13cc ; STRING getter=0x2f13cc FoodCrate
+31d6ef mov    rcx,rax
+31d6f2 call   0x2cdd1c
+31d6f7 mov    rdx,rax
+31d6fa lea    rcx,[rsp+0x28]
+31d6ff call   0x2cc2cc
+31d704 mov    r9,rbx
+31d707 lea    r8,[rsp+0x28]
+31d70c mov    edx,0x3d
+31d711 mov    rcx,r13
+31d714 call   0x3176bc
+31d719 lea    rcx,[rsp+0x28]
+31d71e call   0x2cc4f4
+31d723 cmp    BYTE PTR [rip+0xca65e],dil        # 0x3e7d88 ; CONFIG Bools.MedicalCrateESP value(+0x48)
+31d72a je     0x31d7a1
+31d72c lea    rdx,[rsp+0x50]
+31d731 lea    rcx,[rbp+0xa88]
+31d738 call   0x2f1404 ; STRING getter=0x2f1404 crate_normal_2_medical.prefab
+31d73d mov    rcx,rax
+31d740 call   0x3205d4
+31d745 mov    rdx,rax
+31d748 mov    rcx,r14
+31d74b call   0x3ca960
+31d750 test   rax,rax
+31d753 je     0x31d7a1
+31d755 mov    rbx,QWORD PTR [rsp+0x20]
+31d75a lea    rdx,[rbp+0x788]
+31d761 lea    rcx,[rbp+0xa88]
+31d768 call   0x2f1464 ; STRING getter=0x2f1464 MedicalCrate
+31d76d mov    rcx,rax
+31d770 call   0x2cde5c
+31d775 mov    rdx,rax
+31d778 lea    rcx,[rsp+0x28]
+31d77d call   0x2cc2cc
+31d782 mov    r9,rbx
+31d785 lea    r8,[rsp+0x28]
+31d78a mov    edx,0x41
+31d78f mov    rcx,r13
+31d792 call   0x3176bc
+31d797 lea    rcx,[rsp+0x28]
+31d79c call   0x2cc4f4
+31d7a1 cmp    BYTE PTR [rip+0xca6d0],dil        # 0x3e7e78 ; CONFIG Bools.BasicCrateESP value(+0x48)
+31d7a8 je     0x31d81f
+31d7aa lea    rdx,[rsp+0x50]
+31d7af lea    rcx,[rbp+0xa88]
+31d7b6 call   0x2f14c0 ; STRING getter=0x2f14c0 crate_basic.prefab
+31d7bb mov    rcx,rax
+31d7be call   0x2cdd6c
+31d7c3 mov    rdx,rax
+31d7c6 mov    rcx,r14
+31d7c9 call   0x3ca960
+31d7ce test   rax,rax
+31d7d1 je     0x31d81f
+31d7d3 mov    rbx,QWORD PTR [rsp+0x20]
+31d7d8 lea    rdx,[rbp+0x523]
+31d7df lea    rcx,[rbp+0xa88]
+31d7e6 call   0x2f1578 ; STRING getter=0x2f1578 BasicCrate
+31d7eb mov    rcx,rax
+31d7ee call   0x2d85cc
+31d7f3 mov    rdx,rax
+31d7f6 lea    rcx,[rsp+0x28]
+31d7fb call   0x2cc2cc
+31d800 mov    r9,rbx
+31d803 lea    r8,[rsp+0x28]
+31d808 mov    edx,0x42
+31d80d mov    rcx,r13
+31d810 call   0x3176bc
+31d815 lea    rcx,[rsp+0x28]
+31d81a call   0x2cc4f4
+31d81f movabs rbx,0xcbf29ce484222325
+31d829 cmp    BYTE PTR [rip+0xc9c48],dil        # 0x3e7478 ; CONFIG Bools.Corpse value(+0x48)
+31d830 je     0x31d8a9
+31d832 lea    rdx,[rbp+0x795]
+31d839 lea    rcx,[rbp+0xa88]
+31d840 call   0x2f15e4 ; STRING getter=0x2f15e4 PlayerCorpse
+31d845 mov    rcx,rax
+31d848 call   0x2cde5c
+31d84d mov    rcx,rax
+31d850 mov    rdx,rbx
+31d853 call   0x2e5b4c
+31d858 cmp    rsi,rax
+31d85b jne    0x31d8a9
+31d85d mov    rbx,QWORD PTR [rsp+0x20]
+31d862 lea    rdx,[rbp+0x2c0]
+31d869 lea    rcx,[rbp+0xa88]
+31d870 call   0x2f1624 ; STRING getter=0x2f1624 Corpse
+31d875 mov    rcx,rax
+31d878 call   0x2dd110
+31d87d mov    rdx,rax
+31d880 lea    rcx,[rsp+0x28]
+31d885 call   0x2cc2cc
+31d88a mov    r9,rbx
+31d88d lea    r8,[rsp+0x28]
+31d892 mov    edx,0x43
+31d897 mov    rcx,r13
+31d89a call   0x3176bc
+31d89f lea    rcx,[rsp+0x28]
+31d8a4 call   0x2cc4f4
+31d8a9 cmp    BYTE PTR [rip+0xc9c18],dil        # 0x3e74c8 ; CONFIG Bools.ScientistCorpse value(+0x48)
+31d8b0 je     0x31d937
+31d8b6 lea    rdx,[rbp+0x968]
+31d8bd lea    rcx,[rbp+0xa88]
+31d8c4 call   0x2f1680 ; STRING getter=0x2f1680 NPCPlayerCorpse
+31d8c9 mov    rcx,rax
+31d8cc call   0x2d852c
+31d8d1 movabs rbx,0xcbf29ce484222325
+31d8db mov    rcx,rax
+31d8de mov    rdx,rbx
+31d8e1 call   0x2e5b4c
+31d8e6 cmp    rsi,rax
+31d8e9 jne    0x31d941
+31d8eb mov    rbx,QWORD PTR [rsp+0x20]
+31d8f0 lea    rdx,[rbp+0x447]
+31d8f7 lea    rcx,[rbp+0xa88]
+31d8fe call   0x2f16b0 ; STRING getter=0x2f16b0 NPCCorpse
+31d903 mov    rcx,rax
+31d906 call   0x2cdd1c
+31d90b mov    rdx,rax
+31d90e lea    rcx,[rsp+0x28]
+31d913 call   0x2cc2cc
+31d918 mov    r9,rbx
+31d91b lea    r8,[rsp+0x28]
+31d920 mov    edx,0x44
+31d925 mov    rcx,r13
+31d928 call   0x3176bc
+31d92d lea    rcx,[rsp+0x28]
+31d932 call   0x2cc4f4
+31d937 movabs rbx,0xcbf29ce484222325
+31d941 cmp    BYTE PTR [rip+0xc9bd0],dil        # 0x3e7518 ; CONFIG Bools.AnimalCorpse value(+0x48)
+31d948 je     0x31d9c1
+31d94a lea    rdx,[rbp+0x52e]
+31d951 lea    rcx,[rbp+0xa88]
+31d958 call   0x2f16e8 ; STRING getter=0x2f16e8 BaseCorpse
+31d95d mov    rcx,rax
+31d960 call   0x2d85cc
+31d965 mov    rcx,rax
+31d968 mov    rdx,rbx
+31d96b call   0x2e5b4c
+31d970 cmp    rsi,rax
+31d973 jne    0x31d9c1
+31d975 mov    rbx,QWORD PTR [rsp+0x20]
+31d97a lea    rdx,[rbp+0x7a2]
+31d981 lea    rcx,[rbp+0xa88]
+31d988 call   0x2f171c ; STRING getter=0x2f171c AnimalCorpse
+31d98d mov    rcx,rax
+31d990 call   0x2cde5c
+31d995 mov    rdx,rax
+31d998 lea    rcx,[rsp+0x28]
+31d99d call   0x2cc2cc
+31d9a2 mov    r9,rbx
+31d9a5 lea    r8,[rsp+0x28]
+31d9aa mov    edx,0x45
+31d9af mov    rcx,r13
+31d9b2 call   0x3176bc
+31d9b7 lea    rcx,[rsp+0x28]
+31d9bc call   0x2cc4f4
+31d9c1 cmp    BYTE PTR [rip+0xc9bf0],dil        # 0x3e75b8 ; CONFIG Bools.Backpack value(+0x48)
+31d9c8 je     0x31da49
+31d9ca lea    rdx,[rsp+0x50]
+31d9cf lea    rcx,[rbp+0xa88]
+31d9d6 call   0x2f1758 ; STRING getter=0x2f1758 DroppedItemContainer
+31d9db mov    rcx,rax
+31d9de call   0x2e363c
+31d9e3 movabs rbx,0xcbf29ce484222325
+31d9ed mov    rcx,rax
+31d9f0 mov    rdx,rbx
+31d9f3 call   0x2e5b4c
+31d9f8 cmp    rsi,rax
+31d9fb jne    0x31da53
+31d9fd mov    rbx,QWORD PTR [rsp+0x20]
+31da02 lea    rdx,[rbp+0x39d]
+31da09 lea    rcx,[rbp+0xa88]
+31da10 call   0x2f17a4 ; STRING getter=0x2f17a4 Backpack
+31da15 mov    rcx,rax
+31da18 call   0x2d8504
+31da1d mov    rdx,rax
+31da20 lea    rcx,[rsp+0x28]
+31da25 call   0x2cc2cc
+31da2a mov    r9,rbx
+31da2d lea    r8,[rsp+0x28]
+31da32 mov    edx,0x46
+31da37 mov    rcx,r13
+31da3a call   0x3176bc
+31da3f lea    rcx,[rsp+0x28]
+31da44 call   0x2cc4f4
+31da49 movabs rbx,0xcbf29ce484222325
+31da53 cmp    BYTE PTR [rip+0xcb40e],dil        # 0x3e8e68 ; CONFIG Bools.droppeditems value(+0x48)
+31da5a jne    0x31da6e
+31da5c cmp    BYTE PTR [rip+0xcb3b5],dil        # 0x3e8e18 ; CONFIG Bools.droppedweapons value(+0x48)
+31da63 jne    0x31da6e
+31da65 cmp    BYTE PTR [rip+0xca8bc],dil        # 0x3e8328 ; CONFIG Bools.OOFWeapons value(+0x48)
+31da6c je     0x31daca
+31da6e lea    rdx,[rbp+0x5e2]
+31da75 lea    rcx,[rbp+0xa88]
+31da7c call   0x2f17f0 ; STRING getter=0x2f17f0 DroppedItem
+31da81 mov    rcx,rax
+31da84 call   0x2cde0c
+31da89 mov    rcx,rax
+31da8c mov    rdx,rbx
+31da8f call   0x2e5b4c
+31da94 cmp    rsi,rax
+31da97 jne    0x31daca
+31da99 mov    rbx,QWORD PTR [rsp+0x20]
+31da9e lea    rcx,[rsp+0x28]
+31daa3 mov    rdx,r14
+31daa6 call   0x2cc2cc
+31daab mov    r9,rbx
+31daae lea    r8,[rsp+0x28]
+31dab3 mov    edx,0x47
+31dab8 mov    rcx,r13
+31dabb call   0x3176bc
+31dac0 lea    rcx,[rsp+0x28]
+31dac5 call   0x2cc4f4
+31daca cmp    BYTE PTR [rip+0xcac17],dil        # 0x3e86e8 ; CONFIG Bools.AutoTurretESP value(+0x48)
+31dad1 jne    0x31dae9
+31dad3 cmp    BYTE PTR [rip+0xcbb5e],dil        # 0x3e9638 ; CONFIG Bools.AutoFarmOre value(+0x48)
+31dada jne    0x31dae9
+31dadc cmp    BYTE PTR [rip+0xcbb05],dil        # 0x3e95e8 ; CONFIG Bools.AutoWalkMarker value(+0x48)
+31dae3 je     0x31db6a
+31dae9 lea    rdx,[rbp+0x539]
+31daf0 lea    rcx,[rbp+0xa88]
+31daf7 call   0x2f18d4 ; STRING getter=0x2f18d4 AutoTurret
+31dafc mov    rcx,rax
+31daff call   0x2d85cc
+31db04 movabs rbx,0xcbf29ce484222325
+31db0e mov    rcx,rax
+31db11 mov    rdx,rbx
+31db14 call   0x2e5b4c
+31db19 cmp    rsi,rax
+31db1c jne    0x31db74
+31db1e mov    rbx,QWORD PTR [rsp+0x20]
+31db23 lea    rdx,[rbp+0x57b]
+31db2a lea    rcx,[rbp+0xa88]
+31db31 call   0x2f18f0 ; STRING getter=0x2f18f0 AutoTurret
+31db36 mov    rcx,rax
+31db39 call   0x2d85cc
+31db3e mov    rdx,rax
+31db41 lea    rcx,[rsp+0x28]
+31db46 call   0x2cc2cc
+31db4b mov    r9,rbx
+31db4e lea    r8,[rsp+0x28]
+31db53 mov    edx,0x49
+31db58 mov    rcx,r13
+31db5b call   0x3176bc
+31db60 lea    rcx,[rsp+0x28]
+31db65 call   0x2cc4f4
+31db6a movabs rbx,0xcbf29ce484222325
+31db74 cmp    BYTE PTR [rip+0xca7fd],dil        # 0x3e8378 ; CONFIG Bools.SnaptrapESP value(+0x48)
+31db7b je     0x31dbf4
+31db7d lea    rdx,[rbp+0x3a6]
+31db84 lea    rcx,[rbp+0xa88]
+31db8b call   0x2f193c ; STRING getter=0x2f193c BearTrap
+31db90 mov    rcx,rax
+31db93 call   0x2d8504
+31db98 mov    rcx,rax
+31db9b mov    rdx,rbx
+31db9e call   0x2e5b4c
+31dba3 cmp    rsi,rax
+31dba6 jne    0x31dbf4
+31dba8 mov    rbx,QWORD PTR [rsp+0x20]
+31dbad lea    rdx,[rbp+0x3af]
+31dbb4 lea    rcx,[rbp+0xa88]
+31dbbb call   0x2f197c ; STRING getter=0x2f197c BearTrap
+31dbc0 mov    rcx,rax
+31dbc3 call   0x2d8504
+31dbc8 mov    rdx,rax
+31dbcb lea    rcx,[rsp+0x28]
+31dbd0 call   0x2cc2cc
+31dbd5 mov    r9,rbx
+31dbd8 lea    r8,[rsp+0x28]
+31dbdd mov    edx,0x4a
+31dbe2 mov    rcx,r13
+31dbe5 call   0x3176bc
+31dbea lea    rcx,[rsp+0x28]
+31dbef call   0x2cc4f4
+31dbf4 cmp    BYTE PTR [rip+0xca31d],dil        # 0x3e7f18 ; CONFIG Bools.SnakeEsp value(+0x48)
+31dbfb je     0x31dc82
+31dc01 lea    rdx,[rbp+0x5ee]
+31dc08 lea    rcx,[rbp+0xa88]
+31dc0f call   0x2f19bc ; STRING getter=0x2f19bc SnakeHazard
+31dc14 mov    rcx,rax
+31dc17 call   0x2cde0c
+31dc1c movabs rbx,0xcbf29ce484222325
+31dc26 mov    rcx,rax
+31dc29 mov    rdx,rbx
+31dc2c call   0x2e5b4c
+31dc31 cmp    rsi,rax
+31dc34 jne    0x31dc8c
+31dc36 mov    rbx,QWORD PTR [rsp+0x20]
+31dc3b lea    rdx,[rbp+0x1fb]
+31dc42 lea    rcx,[rbp+0xa88]
+31dc49 call   0x2f19f4 ; STRING getter=0x2f19f4 Snake
+31dc4e mov    rcx,rax
+31dc51 call   0x2d84b4
+31dc56 mov    rdx,rax
+31dc59 lea    rcx,[rsp+0x28]
+31dc5e call   0x2cc2cc
+31dc63 mov    r9,rbx
+31dc66 lea    r8,[rsp+0x28]
+31dc6b mov    edx,0x4f
+31dc70 mov    rcx,r13
+31dc73 call   0x3176bc
+31dc78 lea    rcx,[rsp+0x28]
+31dc7d call   0x2cc4f4
+31dc82 movabs rbx,0xcbf29ce484222325
+31dc8c cmp    BYTE PTR [rip+0xca4b5],dil        # 0x3e8148 ; CONFIG Bools.CowESP value(+0x48)
+31dc93 je     0x31dd06
+31dc95 lea    rdx,[rbp+0x10]
+31dc99 lea    rcx,[rbp+0xa88]
+31dca0 call   0x2f1a24 ; STRING getter=0x2f1a24 Cow
+31dca5 mov    rcx,rax
+31dca8 call   0x2dd0e8
+31dcad mov    rcx,rax
+31dcb0 mov    rdx,rbx
+31dcb3 call   0x2e5b4c
+31dcb8 cmp    rsi,rax
+31dcbb jne    0x31dd06
+31dcbd mov    rbx,QWORD PTR [rsp+0x20]
+31dcc2 lea    rdx,[rbp+0x14]
+31dcc6 lea    rcx,[rbp+0xa88]
+31dccd call   0x2f1a24 ; STRING getter=0x2f1a24 Cow
+31dcd2 mov    rcx,rax
+31dcd5 call   0x2dd0e8
+31dcda mov    rdx,rax
+31dcdd lea    rcx,[rsp+0x28]
+31dce2 call   0x2cc2cc
+31dce7 mov    r9,rbx
+31dcea lea    r8,[rsp+0x28]
+31dcef mov    edx,0x7f
+31dcf4 mov    rcx,r13
+31dcf7 call   0x3176bc
+31dcfc lea    rcx,[rsp+0x28]
+31dd01 call   0x2cc4f4
+31dd06 cmp    BYTE PTR [rip+0xca3eb],dil        # 0x3e80f8 ; CONFIG Bools.SheepESP value(+0x48)
+31dd0d je     0x31dd94
+31dd13 lea    rdx,[rbp+0x246]
+31dd1a lea    rcx,[rbp+0xa88]
+31dd21 call   0x2f1a6c ; STRING getter=0x2f1a6c Sheep
+31dd26 mov    rcx,rax
+31dd29 call   0x2d84b4
+31dd2e movabs rbx,0xcbf29ce484222325
+31dd38 mov    rcx,rax
+31dd3b mov    rdx,rbx
+31dd3e call   0x2e5b4c
+31dd43 cmp    rsi,rax
+31dd46 jne    0x31dd9e
+31dd48 mov    rbx,QWORD PTR [rsp+0x20]
+31dd4d lea    rdx,[rbp+0x23a]
+31dd54 lea    rcx,[rbp+0xa88]
+31dd5b call   0x2f1a84 ; STRING getter=0x2f1a84 Sheep
+31dd60 mov    rcx,rax
+31dd63 call   0x2d84b4
+31dd68 mov    rdx,rax
+31dd6b lea    rcx,[rsp+0x28]
+31dd70 call   0x2cc2cc
+31dd75 mov    r9,rbx
+31dd78 lea    r8,[rsp+0x28]
+31dd7d mov    edx,0x7e
+31dd82 mov    rcx,r13
+31dd85 call   0x3176bc
+31dd8a lea    rcx,[rsp+0x28]
+31dd8f call   0x2cc4f4
+31dd94 movabs rbx,0xcbf29ce484222325
+31dd9e cmp    BYTE PTR [rip+0xca1c3],dil        # 0x3e7f68 ; CONFIG Bools.TigerEsp value(+0x48)
+31dda5 je     0x31de1e
+31dda7 lea    rdx,[rbp+0x252]
+31ddae lea    rcx,[rbp+0xa88]
+31ddb5 call   0x2f1b90 ; STRING getter=0x2f1b90 Tiger
+31ddba mov    rcx,rax
+31ddbd call   0x2d84b4
+31ddc2 mov    rcx,rax
+31ddc5 mov    rdx,rbx
+31ddc8 call   0x2e5b4c
+31ddcd cmp    rsi,rax
+31ddd0 jne    0x31de1e
+31ddd2 mov    rbx,QWORD PTR [rsp+0x20]
+31ddd7 lea    rdx,[rbp+0x24c]
+31ddde lea    rcx,[rbp+0xa88]
+31dde5 call   0x2f1ba8 ; STRING getter=0x2f1ba8 Tiger
+31ddea mov    rcx,rax
+31dded call   0x2d84b4
+31ddf2 mov    rdx,rax
+31ddf5 lea    rcx,[rsp+0x28]
+31ddfa call   0x2cc2cc
+31ddff mov    r9,rbx
+31de02 lea    r8,[rsp+0x28]
+31de07 mov    edx,0x50
+31de0c mov    rcx,r13
+31de0f call   0x3176bc
+31de14 lea    rcx,[rsp+0x28]
+31de19 call   0x2cc4f4
+31de1e cmp    BYTE PTR [rip+0xca193],dil        # 0x3e7fb8 ; CONFIG Bools.PantherEsp value(+0x48)
+31de25 je     0x31deac
+31de2b lea    rdx,[rbp+0x359]
+31de32 lea    rcx,[rbp+0xa88]
+31de39 call   0x2f1bd8
+31de3e mov    rcx,rax
+31de41 call   0x2dd138
+31de46 movabs rbx,0xcbf29ce484222325
+31de50 mov    rcx,rax
+31de53 mov    rdx,rbx
+31de56 call   0x2e5b4c
+31de5b cmp    rsi,rax
+31de5e jne    0x31deb6
+31de60 mov    rbx,QWORD PTR [rsp+0x20]
+31de65 lea    rdx,[rbp+0x371]
+31de6c lea    rcx,[rbp+0xa88]
+31de73 call   0x2f1bd8
+31de78 mov    rcx,rax
+31de7b call   0x2dd138
+31de80 mov    rdx,rax
+31de83 lea    rcx,[rsp+0x28]
+31de88 call   0x2cc2cc
+31de8d mov    r9,rbx
+31de90 lea    r8,[rsp+0x28]
+31de95 mov    edx,0x51
+31de9a mov    rcx,r13
+31de9d call   0x3176bc
+31dea2 lea    rcx,[rsp+0x28]
+31dea7 call   0x2cc4f4
+31deac movabs rbx,0xcbf29ce484222325
+31deb6 cmp    BYTE PTR [rip+0xca14b],dil        # 0x3e8008 ; CONFIG Bools.CrocodileEsp value(+0x48)
+31debd je     0x31df36
+31debf lea    rdx,[rbp+0x43d]
+31dec6 lea    rcx,[rbp+0xa88]
+31decd call   0x2f1c10 ; STRING getter=0x2f1c10 Crocodile
+31ded2 mov    rcx,rax
+31ded5 call   0x2cdd1c
+31deda mov    rcx,rax
+31dedd mov    rdx,rbx
+31dee0 call   0x2e5b4c
+31dee5 cmp    rsi,rax
+31dee8 jne    0x31df36
+31deea mov    rbx,QWORD PTR [rsp+0x20]
+31deef lea    rdx,[rbp+0x433]
+31def6 lea    rcx,[rbp+0xa88]
+31defd call   0x2f1c2c ; STRING getter=0x2f1c2c Crocodile
+31df02 mov    rcx,rax
+31df05 call   0x2cdd1c
+31df0a mov    rdx,rax
+31df0d lea    rcx,[rsp+0x28]
+31df12 call   0x2cc2cc
+31df17 mov    r9,rbx
+31df1a lea    r8,[rsp+0x28]
+31df1f mov    edx,0x52
+31df24 mov    rcx,r13
+31df27 call   0x3176bc
+31df2c lea    rcx,[rsp+0x28]
+31df31 call   0x2cc4f4
+31df36 cmp    BYTE PTR [rip+0xca7fb],dil        # 0x3e8738 ; CONFIG Bools.FlameTrapESP value(+0x48)
+31df3d je     0x31dfc4
+31df43 lea    rdx,[rbp+0x5fa]
+31df4a lea    rcx,[rbp+0xa88]
+31df51 call   0x2f1c48 ; STRING getter=0x2f1c48 FlameTurret
+31df56 mov    rcx,rax
+31df59 call   0x2cde0c
+31df5e movabs rbx,0xcbf29ce484222325
+31df68 mov    rcx,rax
+31df6b mov    rdx,rbx
+31df6e call   0x2e5b4c
+31df73 cmp    rsi,rax
+31df76 jne    0x31dfce
+31df78 mov    rbx,QWORD PTR [rsp+0x20]
+31df7d lea    rdx,[rbp+0x606]
+31df84 lea    rcx,[rbp+0xa88]
+31df8b call   0x2f1c64 ; STRING getter=0x2f1c64 FlameTurret
+31df90 mov    rcx,rax
+31df93 call   0x2cde0c
+31df98 mov    rdx,rax
+31df9b lea    rcx,[rsp+0x28]
+31dfa0 call   0x2cc2cc
+31dfa5 mov    r9,rbx
+31dfa8 lea    r8,[rsp+0x28]
+31dfad mov    edx,0x4b
+31dfb2 mov    rcx,r13
+31dfb5 call   0x3176bc
+31dfba lea    rcx,[rsp+0x28]
+31dfbf call   0x2cc4f4
+31dfc4 movabs rbx,0xcbf29ce484222325
+31dfce cmp    BYTE PTR [rip+0xcbe83],dil        # 0x3e9e58 ; CONFIG Bools.tunacanalarm value(+0x48)
+31dfd5 je     0x31e04e
+31dfd7 lea    rdx,[rbp+0x612]
+31dfde lea    rcx,[rbp+0xa88]
+31dfe5 call   0x2f1c80 ; STRING getter=0x2f1c80 TinCanAlarm
+31dfea mov    rcx,rax
+31dfed call   0x2cde0c
+31dff2 mov    rcx,rax
+31dff5 mov    rdx,rbx
+31dff8 call   0x2e5b4c
+31dffd cmp    rsi,rax
+31e000 jne    0x31e04e
+31e002 mov    rbx,QWORD PTR [rsp+0x20]
+31e007 lea    rdx,[rbp+0x61e]
+31e00e lea    rcx,[rbp+0xa88]
+31e015 call   0x2f1c9c ; STRING getter=0x2f1c9c TinCanAlarm
+31e01a mov    rcx,rax
+31e01d call   0x2cde0c
+31e022 mov    rdx,rax
+31e025 lea    rcx,[rsp+0x28]
+31e02a call   0x2cc2cc
+31e02f mov    r9,rbx
+31e032 lea    r8,[rsp+0x28]
+31e037 mov    edx,0x4c
+31e03c mov    rcx,r13
+31e03f call   0x3176bc
+31e044 lea    rcx,[rsp+0x28]
+31e049 call   0x2cc4f4
+31e04e cmp    BYTE PTR [rip+0xcb7c3],dil        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+31e055 jne    0x31e0c1
+31e057 cmp    BYTE PTR [rip+0xd15a3],dil        # 0x3ef601
+31e05e jne    0x31e0c1
+31e060 lea    rdx,[rsp+0x20]
+31e065 lea    rcx,[rip+0xc8184]        # 0x3e61f0
+31e06c call   0x2ef774
+31e071 cmp    BYTE PTR [rax],dil
+31e074 je     0x31eedb
+31e07a lea    rdx,[rsp+0x20]
+31e07f lea    rcx,[rip+0xc80ea]        # 0x3e6170
+31e086 call   0x2ef754
+31e08b mov    r8,QWORD PTR [rax]
+31e08e mov    rcx,r8
+31e091 call   0x2caf08
+31e096 test   al,al
+31e098 je     0x31ee99
+31e09e xor    edx,edx
+31e0a0 mov    rcx,r8
+31e0a3 call   0x375d30
+31e0a8 lea    rdx,[rsp+0x20]
+31e0ad lea    rcx,[rip+0xc813c]        # 0x3e61f0
+31e0b4 call   0x2ef774
+31e0b9 mov    BYTE PTR [rax],dil
+31e0bc jmp    0x31ee99
+31e0c1 lea    rdx,[rbp+0x62a]
+31e0c8 lea    rcx,[rbp+0xa88]
+31e0cf call   0x2f1d48 ; STRING getter=0x2f1d48 FlameTurret
+31e0d4 mov    rcx,rax
+31e0d7 call   0x2cde0c
+31e0dc mov    rcx,rax
+31e0df movabs rdx,0xcbf29ce484222325
+31e0e9 call   0x2e5b4c
+31e0ee cmp    rsi,rax
+31e0f1 jne    0x31e3a1
+31e0f7 movss  xmm0,DWORD PTR [rip+0xcf609]        # 0x3ed708 ; CONFIG F.lookingatradius value(+0x48)
+31e0ff ucomiss xmm0,DWORD PTR [rip+0xfffffffffff750ae]        # 0x2931b4 ; f32=14
+31e106 jp     0x31e3a1
+31e10c jne    0x31e3a1
+31e112 cmp    BYTE PTR [rip+0xcb42f],dil        # 0x3e9548 ; CONFIG Bools.lookingat value(+0x48)
+31e119 jne    0x31e3a1
+31e11f cmp    BYTE PTR [rip+0xcb6f2],dil        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+31e126 je     0x31e33f
+31e12c mov    rcx,r15
+31e12f call   0x3693b0
+31e134 test   al,al
+31e136 jne    0x31e33f
+31e13c lea    rdx,[rbp+0x638]
+31e143 mov    rcx,r15
+31e146 call   0x369164
+31e14b mov    rcx,QWORD PTR [rsp+0x20]
+31e150 lea    rdx,[rbp+0x100]
+31e157 movsd  xmm0,QWORD PTR [rax]
+31e15b mov    eax,DWORD PTR [rax+0x8]
+31e15e movsd  QWORD PTR [rbp+0x100],xmm0
+31e166 mov    DWORD PTR [rbp+0x108],eax
+31e16c call   0x3666b0
+31e171 comiss xmm8,xmm0
+31e175 lea    rdx,[rsp+0x20]
+31e17a lea    rcx,[rip+0xc806f]        # 0x3e61f0
+31e181 jbe    0x31e2ed
+31e187 call   0x2ef774
+31e18c cmp    BYTE PTR [rax],dil
+31e18f jne    0x31e3a1
+31e195 mov    rcx,QWORD PTR [rsp+0x20]
+31e19a lea    rdx,[rsp+0x50]
+31e19f call   0x3664cc
+31e1a4 movss  xmm3,DWORD PTR [rsp+0x74]
+31e1aa lea    rcx,[rbp+0x110]
+31e1b1 movss  xmm2,DWORD PTR [rsp+0x70]
+31e1b7 movss  xmm1,DWORD PTR [rsp+0x6c]
+31e1bd mulss  xmm2,DWORD PTR [rip+0xfffffffffff74fb3]        # 0x293178 ; f32=4
+31e1c5 mulss  xmm3,xmm6
+31e1c9 mulss  xmm1,xmm6
+31e1cd call   0x3c7ba8
+31e1d2 mov    rcx,QWORD PTR [rsp+0x20]
+31e1d7 call   0x370508
+31e1dc mov    rcx,rax
+31e1df mov    rdi,rax
+31e1e2 call   0x2caf08
+31e1e7 test   al,al
+31e1e9 je     0x31e39f
+31e1ef lea    rdx,[rbp+0x644]
+31e1f6 lea    rcx,[rbp+0xa88]
+31e1fd call   0x2f1d80 ; STRING getter=0x2f1d80 UnityEngine
+31e202 mov    rcx,rax
+31e205 call   0x2cde0c
+31e20a lea    rdx,[rbp+0x650]
+31e211 mov    rbx,rax
+31e214 lea    rcx,[rbp+0xa88]
+31e21b call   0x2f1d64 ; STRING getter=0x2f1d64 BoxCollider
+31e220 mov    rcx,rax
+31e223 call   0x2cde0c
+31e228 mov    rdx,rax
+31e22b mov    r8,rbx
+31e22e mov    rcx,rdi
+31e231 call   0x372efc
+31e236 mov    rcx,rax
+31e239 mov    rbx,rax
+31e23c call   0x2caf08
+31e241 xor    edi,edi
+31e243 test   al,al
+31e245 je     0x31e3a1
+31e24b mov    ecx,DWORD PTR [rbp+0x118]
+31e251 lea    rdx,[rbp+0x120]
+31e258 movsd  xmm0,QWORD PTR [rbp+0x110]
+31e260 mov    DWORD PTR [rbp+0x128],ecx
+31e266 mov    rcx,rbx
+31e269 movsd  QWORD PTR [rbp+0x120],xmm0
+31e271 call   0x370968
+31e276 lea    rdx,[rsp+0x20]
+31e27b lea    rcx,[rip+0xc7eee]        # 0x3e6170
+31e282 call   0x2ef754
+31e287 lea    rdx,[rsp+0x20]
+31e28c lea    rcx,[rip+0xc7f5d]        # 0x3e61f0
+31e293 mov    QWORD PTR [rax],rbx
+31e296 call   0x2ef774
+31e29b lea    rdx,[rbp+0x65c]
+31e2a2 lea    rcx,[rbp+0xa88]
+31e2a9 mov    BYTE PTR [rax],0x1
+31e2ac mov    rbx,QWORD PTR [rsp+0x20]
+31e2b1 call   0x2f1d9c ; STRING getter=0x2f1d9c FlameTurret
+31e2b6 mov    rcx,rax
+31e2b9 call   0x2cde0c
+31e2be mov    rdx,rax
+31e2c1 lea    rcx,[rsp+0x28]
+31e2c6 call   0x2cc2cc
+31e2cb mov    r9,rbx
+31e2ce lea    r8,[rsp+0x28]
+31e2d3 lea    edx,[rdi+0x4b]
+31e2d6 mov    rcx,r13
+31e2d9 call   0x3176bc
+31e2de lea    rcx,[rsp+0x28]
+31e2e3 call   0x2cc4f4
+31e2e8 jmp    0x31e3a1
+31e2ed call   0x2ef774
+31e2f2 cmp    BYTE PTR [rax],dil
+31e2f5 je     0x31e3a1
+31e2fb lea    rcx,[rip+0xc7e6e]        # 0x3e6170
+31e302 lea    rdx,[rsp+0x20]
+31e307 call   0x2ef754
+31e30c mov    r8,QWORD PTR [rax]
+31e30f mov    rcx,r8
+31e312 call   0x2caf08
+31e317 test   al,al
+31e319 je     0x31e3a1
+31e31f xor    edx,edx
+31e321 mov    rcx,r8
+31e324 call   0x375d30
+31e329 lea    rdx,[rsp+0x20]
+31e32e lea    rcx,[rip+0xc7ebb]        # 0x3e61f0
+31e335 call   0x2ef774
+31e33a mov    BYTE PTR [rax],dil
+31e33d jmp    0x31e3a1
+31e33f lea    rdx,[rsp+0x20]
+31e344 lea    rcx,[rip+0xc7ea5]        # 0x3e61f0
+31e34b call   0x2ef774
+31e350 cmp    BYTE PTR [rax],dil
+31e353 je     0x31e3a1
+31e355 lea    rdx,[rsp+0x20]
+31e35a lea    rcx,[rip+0xc7e0f]        # 0x3e6170
+31e361 call   0x2ef754
+31e366 mov    r8,QWORD PTR [rax]
+31e369 mov    rcx,r8
+31e36c call   0x2caf08
+31e371 test   al,al
+31e373 je     0x31e393
+31e375 xor    edx,edx
+31e377 mov    rcx,r8
+31e37a call   0x375d30
+31e37f lea    rdx,[rsp+0x20]
+31e384 lea    rcx,[rip+0xc7e65]        # 0x3e61f0
+31e38b call   0x2ef774
+31e390 mov    BYTE PTR [rax],dil
+31e393 lea    rcx,[rip+0xc7e16]        # 0x3e61b0
+31e39a jmp    0x31e302
+31e39f xor    edi,edi
+31e3a1 lea    rdx,[rsp+0x50]
+31e3a6 lea    rcx,[rbp+0xa88]
+31e3ad call   0x2f1db8 ; STRING getter=0x2f1db8 SimpleBuildingBlock
+31e3b2 mov    rcx,rax
+31e3b5 call   0x2cddbc
+31e3ba mov    rcx,rax
+31e3bd movabs rdx,0xcbf29ce484222325
+31e3c7 call   0x2e5b4c
+31e3cc cmp    rsi,rax
+31e3cf jne    0x31e81f
+31e3d5 cmp    BYTE PTR [rip+0xcb43c],dil        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+31e3dc je     0x31e78d
+31e3e2 mov    rcx,r15
+31e3e5 call   0x3693b0
+31e3ea test   al,al
+31e3ec jne    0x31e78d
+31e3f2 lea    rdx,[rbp+0x668]
+31e3f9 mov    rcx,r15
+31e3fc call   0x369164
+31e401 mov    rcx,QWORD PTR [rsp+0x20]
+31e406 lea    rdx,[rbp+0x180]
+31e40d movsd  xmm0,QWORD PTR [rax]
+31e411 mov    eax,DWORD PTR [rax+0x8]
+31e414 movsd  QWORD PTR [rbp+0x180],xmm0
+31e41c mov    DWORD PTR [rbp+0x188],eax
+31e422 call   0x3666b0
+31e427 comiss xmm7,xmm0
+31e42a lea    rdx,[rsp+0x20]
+31e42f lea    rcx,[rip+0xc7dba]        # 0x3e61f0
+31e436 jbe    0x31e776
+31e43c call   0x2ef774
+31e441 cmp    BYTE PTR [rax],dil
+31e444 jne    0x31e81f
+31e44a lea    rdx,[rbp-0x40]
+31e44e lea    rcx,[rbp+0xa88]
+31e455 call   0x2f1dd0 ; STRING getter=0x2f1dd0 external.high.stone.prefab
+31e45a mov    rcx,rax
+31e45d call   0x2e9c04
+31e462 mov    rdx,rax
+31e465 mov    rcx,r14
+31e468 call   0x3ca960
+31e46d test   rax,rax
+31e470 jne    0x31e49f
+31e472 lea    rdx,[rsp+0x50]
+31e477 lea    rcx,[rbp+0xa88]
+31e47e call   0x2f1dec ; STRING getter=0x2f1dec wall.external.high.adobe
+31e483 mov    rcx,rax
+31e486 call   0x2e36dc
+31e48b mov    rdx,rax
+31e48e mov    rcx,r14
+31e491 call   0x3ca960
+31e496 test   rax,rax
+31e499 je     0x31e5f6
+31e49f mov    rcx,QWORD PTR [rsp+0x20]
+31e4a4 lea    rdx,[rsp+0x50]
+31e4a9 call   0x3664cc
+31e4ae movss  xmm3,DWORD PTR [rsp+0x74]
+31e4b4 lea    rcx,[rbp+0x140]
+31e4bb movss  xmm2,DWORD PTR [rsp+0x70]
+31e4c1 movss  xmm1,DWORD PTR [rsp+0x6c]
+31e4c7 mulss  xmm3,DWORD PTR [rip+0xfffffffffff74c2d]        # 0x2930fc ; f32=1.35
+31e4cf mulss  xmm2,DWORD PTR [rip+0xfffffffffff74c95]        # 0x29316c ; f32=3.5
+31e4d7 mulss  xmm1,xmm6
+31e4db call   0x3c7ba8
+31e4e0 mov    rcx,QWORD PTR [rsp+0x20]
+31e4e5 call   0x370508
+31e4ea mov    rcx,rax
+31e4ed mov    rdi,rax
+31e4f0 call   0x2caf08
+31e4f5 test   al,al
+31e4f7 je     0x31e5f6
+31e4fd lea    rdx,[rbp+0x674]
+31e504 lea    rcx,[rbp+0xa88]
+31e50b call   0x2f1e24 ; STRING getter=0x2f1e24 UnityEngine
+31e510 mov    rcx,rax
+31e513 call   0x2cde0c
+31e518 lea    rdx,[rbp+0x680]
+31e51f mov    rbx,rax
+31e522 lea    rcx,[rbp+0xa88]
+31e529 call   0x2f1e08 ; STRING getter=0x2f1e08 BoxCollider
+31e52e mov    rcx,rax
+31e531 call   0x2cde0c
+31e536 mov    rdx,rax
+31e539 mov    r8,rbx
+31e53c mov    rcx,rdi
+31e53f call   0x372efc
+31e544 mov    rcx,rax
+31e547 mov    rbx,rax
+31e54a call   0x2caf08
+31e54f test   al,al
+31e551 je     0x31e5f6
+31e557 mov    ecx,DWORD PTR [rbp+0x148]
+31e55d lea    rdx,[rbp+0x150]
+31e564 movsd  xmm0,QWORD PTR [rbp+0x140]
+31e56c mov    DWORD PTR [rbp+0x158],ecx
+31e572 mov    rcx,rbx
+31e575 movsd  QWORD PTR [rbp+0x150],xmm0
+31e57d call   0x370968
+31e582 lea    rdx,[rsp+0x20]
+31e587 lea    rcx,[rip+0xc7be2]        # 0x3e6170
+31e58e call   0x2ef754
+31e593 lea    rdx,[rsp+0x20]
+31e598 lea    rcx,[rip+0xc7c51]        # 0x3e61f0
+31e59f mov    QWORD PTR [rax],rbx
+31e5a2 call   0x2ef774
+31e5a7 lea    rdx,[rbp+0x2c7]
+31e5ae lea    rcx,[rbp+0xa88]
+31e5b5 mov    BYTE PTR [rax],0x1
+31e5b8 mov    rbx,QWORD PTR [rsp+0x20]
+31e5bd call   0x2f1e40 ; STRING getter=0x2f1e40 XDWALL
+31e5c2 mov    rcx,rax
+31e5c5 call   0x2dd110
+31e5ca mov    rdx,rax
+31e5cd lea    rcx,[rsp+0x28]
+31e5d2 call   0x2cc2cc
+31e5d7 mov    r9,rbx
+31e5da lea    r8,[rsp+0x28]
+31e5df mov    edx,0x4d
+31e5e4 mov    rcx,r13
+31e5e7 call   0x3176bc
+31e5ec lea    rcx,[rsp+0x28]
+31e5f1 call   0x2cc4f4
+31e5f6 lea    rdx,[rsp+0x50]
+31e5fb lea    rcx,[rbp+0xa88]
+31e602 call   0x2f2388 ; STRING getter=0x2f2388 external.high.wood.prefab
+31e607 mov    rcx,rax
+31e60a call   0x320534
+31e60f mov    rdx,rax
+31e612 mov    rcx,r14
+31e615 call   0x3ca960
+31e61a test   rax,rax
+31e61d je     0x31e81f
+31e623 mov    rcx,QWORD PTR [rsp+0x20]
+31e628 lea    rdx,[rbp-0x40]
+31e62c call   0x3664cc
+31e631 movss  xmm3,DWORD PTR [rbp-0x1c]
+31e636 lea    rcx,[rbp+0x40]
+31e63a movss  xmm2,DWORD PTR [rbp-0x20]
+31e63f movss  xmm1,DWORD PTR [rbp-0x24]
+31e644 mulss  xmm3,DWORD PTR [rip+0xfffffffffff74ae4]        # 0x293130 ; f32=1.9
+31e64c mulss  xmm2,DWORD PTR [rip+0xfffffffffff74b20]        # 0x293174 ; f32=3.75
+31e654 mulss  xmm1,DWORD PTR [rip+0xfffffffffff74adc]        # 0x293138 ; f32=2.2
+31e65c call   0x3c7ba8
+31e661 mov    rcx,QWORD PTR [rsp+0x20]
+31e666 call   0x370508
+31e66b mov    rcx,rax
+31e66e mov    rdi,rax
+31e671 call   0x2caf08
+31e676 test   al,al
+31e678 je     0x31e81f
+31e67e lea    rdx,[rbp+0x68c]
+31e685 lea    rcx,[rbp+0xa88]
+31e68c call   0x2f23c0 ; STRING getter=0x2f23c0 UnityEngine
+31e691 mov    rcx,rax
+31e694 call   0x2cde0c
+31e699 lea    rdx,[rbp+0x698]
+31e6a0 mov    rbx,rax
+31e6a3 lea    rcx,[rbp+0xa88]
+31e6aa call   0x2f23a4 ; STRING getter=0x2f23a4 BoxCollider
+31e6af mov    rcx,rax
+31e6b2 call   0x2cde0c
+31e6b7 mov    rdx,rax
+31e6ba mov    r8,rbx
+31e6bd mov    rcx,rdi
+31e6c0 call   0x372efc
+31e6c5 mov    rcx,rax
+31e6c8 mov    rbx,rax
+31e6cb call   0x2caf08
+31e6d0 test   al,al
+31e6d2 je     0x31e81f
+31e6d8 mov    ecx,DWORD PTR [rbp+0x48]
+31e6db lea    rdx,[rbp+0x80]
+31e6e2 movsd  xmm0,QWORD PTR [rbp+0x40]
+31e6e7 mov    DWORD PTR [rbp+0x88],ecx
+31e6ed mov    rcx,rbx
+31e6f0 movsd  QWORD PTR [rbp+0x80],xmm0
+31e6f8 call   0x370968
+31e6fd lea    rdx,[rsp+0x20]
+31e702 lea    rcx,[rip+0xc7a67]        # 0x3e6170
+31e709 call   0x2ef754
+31e70e lea    rdx,[rsp+0x20]
+31e713 lea    rcx,[rip+0xc7ad6]        # 0x3e61f0
+31e71a mov    QWORD PTR [rax],rbx
+31e71d call   0x2ef774
+31e722 lea    rdx,[rbp+0x349]
+31e729 lea    rcx,[rbp+0xa88]
+31e730 mov    BYTE PTR [rax],0x1
+31e733 mov    rbx,QWORD PTR [rsp+0x20]
+31e738 call   0x2f23dc
+31e73d mov    rcx,rax
+31e740 call   0x2dd138
+31e745 mov    rdx,rax
+31e748 lea    rcx,[rsp+0x28]
+31e74d call   0x2cc2cc
+31e752 mov    r9,rbx
+31e755 lea    r8,[rsp+0x28]
+31e75a mov    edx,0x4e
+31e75f mov    rcx,r13
+31e762 call   0x3176bc
+31e767 lea    rcx,[rsp+0x28]
+31e76c call   0x2cc4f4
+31e771 jmp    0x31e81f
+31e776 call   0x2ef774
+31e77b cmp    BYTE PTR [rax],dil
+31e77e je     0x31e81f
+31e784 lea    rcx,[rip+0xc79e5]        # 0x3e6170
+31e78b jmp    0x31e7e8
+31e78d lea    rdx,[rsp+0x20]
+31e792 lea    rcx,[rip+0xc7a57]        # 0x3e61f0
+31e799 call   0x2ef774
+31e79e cmp    BYTE PTR [rax],dil
+31e7a1 je     0x31e81f
+31e7a3 lea    rdx,[rsp+0x20]
+31e7a8 lea    rcx,[rip+0xc79c1]        # 0x3e6170
+31e7af call   0x2ef754
+31e7b4 mov    r8,QWORD PTR [rax]
+31e7b7 mov    rcx,r8
+31e7ba call   0x2caf08
+31e7bf test   al,al
+31e7c1 je     0x31e7e1
+31e7c3 xor    edx,edx
+31e7c5 mov    rcx,r8
+31e7c8 call   0x375d30
+31e7cd lea    rdx,[rsp+0x20]
+31e7d2 lea    rcx,[rip+0xc7a17]        # 0x3e61f0
+31e7d9 call   0x2ef774
+31e7de mov    BYTE PTR [rax],dil
+31e7e1 lea    rcx,[rip+0xc79c8]        # 0x3e61b0
+31e7e8 lea    rdx,[rsp+0x20]
+31e7ed call   0x2ef754
+31e7f2 mov    r8,QWORD PTR [rax]
+31e7f5 mov    rcx,r8
+31e7f8 call   0x2caf08
+31e7fd test   al,al
+31e7ff je     0x31e81f
+31e801 xor    edx,edx
+31e803 mov    rcx,r8
+31e806 call   0x375d30
+31e80b lea    rdx,[rsp+0x20]
+31e810 lea    rcx,[rip+0xc79d9]        # 0x3e61f0
+31e817 call   0x2ef774
+31e81c mov    BYTE PTR [rax],dil
+31e81f lea    rdx,[rbp+0x41f]
+31e826 lea    rcx,[rbp+0xa88]
+31e82d call   0x2f23f0 ; STRING getter=0x2f23f0 Barricade
+31e832 mov    rcx,rax
+31e835 call   0x2cdd1c
+31e83a mov    rcx,rax
+31e83d movabs rdx,0xcbf29ce484222325
+31e847 call   0x2e5b4c
+31e84c cmp    rsi,rax
+31e84f jne    0x31ea9b
+31e855 cmp    BYTE PTR [rip+0xcafbc],0x0        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+31e85c je     0x31ea09
+31e862 mov    rcx,r15
+31e865 call   0x3693b0
+31e86a test   al,al
+31e86c jne    0x31ea09
+31e872 lea    rdx,[rbp+0x6a4]
+31e879 mov    rcx,r15
+31e87c call   0x369164
+31e881 mov    rcx,QWORD PTR [rsp+0x20]
+31e886 lea    rdx,[rbp+0x20]
+31e88a movsd  xmm0,QWORD PTR [rax]
+31e88e mov    eax,DWORD PTR [rax+0x8]
+31e891 movsd  QWORD PTR [rbp+0x20],xmm0
+31e896 mov    DWORD PTR [rbp+0x28],eax
+31e899 call   0x3666b0
+31e89e comiss xmm7,xmm0
+31e8a1 lea    rdx,[rsp+0x20]
+31e8a6 lea    rcx,[rip+0xc7943]        # 0x3e61f0
+31e8ad jbe    0x31e9f9
+31e8b3 call   0x2ef774
+31e8b8 cmp    BYTE PTR [rax],0x0
+31e8bb jne    0x31ea9b
+31e8c1 lea    rdx,[rsp+0x50]
+31e8c6 lea    rcx,[rbp+0xa88]
+31e8cd call   0x2f240c ; STRING getter=0x2f240c barricade.woodwire
+31e8d2 mov    rcx,rax
+31e8d5 call   0x2cdd6c
+31e8da mov    rdx,rax
+31e8dd mov    rcx,r14
+31e8e0 call   0x3ca960
+31e8e5 test   rax,rax
+31e8e8 jne    0x31e916
+31e8ea lea    rdx,[rbp-0x40]
+31e8ee lea    rcx,[rbp+0xa88]
+31e8f5 call   0x2f2424 ; STRING getter=0x2f2424 barricade.metal.prefab
+31e8fa mov    rcx,rax
+31e8fd call   0x2e368c
+31e902 mov    rdx,rax
+31e905 mov    rcx,r14
+31e908 call   0x3ca960
+31e90d test   rax,rax
+31e910 je     0x31ea9b
+31e916 mov    rcx,QWORD PTR [rsp+0x20]
+31e91b call   0x370508
+31e920 mov    rcx,rax
+31e923 mov    rdi,rax
+31e926 call   0x2caf08
+31e92b test   al,al
+31e92d je     0x31ea9b
+31e933 lea    rdx,[rbp+0x6b0]
+31e93a lea    rcx,[rbp+0xa88]
+31e941 call   0x2f245c ; STRING getter=0x2f245c UnityEngine
+31e946 mov    rcx,rax
+31e949 call   0x2cde0c
+31e94e lea    rdx,[rbp+0x6bc]
+31e955 mov    rbx,rax
+31e958 lea    rcx,[rbp+0xa88]
+31e95f call   0x2f2440 ; STRING getter=0x2f2440 BoxCollider
+31e964 mov    rcx,rax
+31e967 call   0x2cde0c
+31e96c mov    rdx,rax
+31e96f mov    r8,rbx
+31e972 mov    rcx,rdi
+31e975 call   0x372efc
+31e97a mov    rcx,rax
+31e97d mov    rbx,rax
+31e980 call   0x2caf08
+31e985 test   al,al
+31e987 je     0x31ea9b
+31e98d movss  xmm3,DWORD PTR [rip+0xfffffffffff747a7]        # 0x29313c ; f32=2.3
+31e995 lea    rcx,[rbp+0x6c8]
+31e99c movss  xmm2,DWORD PTR [rip+0xfffffffffff747d8]        # 0x29317c ; f32=4.8
+31e9a4 movss  xmm1,DWORD PTR [rip+0xfffffffffff747bc]        # 0x293168 ; f32=3.4
+31e9ac call   0x3c7ba8
+31e9b1 lea    rdx,[rbp+0x30]
+31e9b5 mov    rcx,rbx
+31e9b8 movsd  xmm0,QWORD PTR [rax]
+31e9bc mov    eax,DWORD PTR [rax+0x8]
+31e9bf movsd  QWORD PTR [rbp+0x30],xmm0
+31e9c4 mov    DWORD PTR [rbp+0x38],eax
+31e9c7 call   0x370968
+31e9cc lea    rdx,[rsp+0x20]
+31e9d1 lea    rcx,[rip+0xc77d8]        # 0x3e61b0
+31e9d8 call   0x2ef754
+31e9dd lea    rdx,[rsp+0x20]
+31e9e2 lea    rcx,[rip+0xc7807]        # 0x3e61f0
+31e9e9 mov    QWORD PTR [rax],rbx
+31e9ec call   0x2ef774
+31e9f1 mov    BYTE PTR [rax],0x1
+31e9f4 jmp    0x31ea9b
+31e9f9 call   0x2ef774
+31e9fe cmp    BYTE PTR [rax],0x0
+31ea01 je     0x31ea9b
+31ea07 jmp    0x31ea5d
+31ea09 lea    rdx,[rsp+0x20]
+31ea0e lea    rcx,[rip+0xc77db]        # 0x3e61f0
+31ea15 call   0x2ef774
+31ea1a cmp    BYTE PTR [rax],0x0
+31ea1d je     0x31ea9b
+31ea1f lea    rdx,[rsp+0x20]
+31ea24 lea    rcx,[rip+0xc7745]        # 0x3e6170
+31ea2b call   0x2ef754
+31ea30 mov    r8,QWORD PTR [rax]
+31ea33 mov    rcx,r8
+31ea36 call   0x2caf08
+31ea3b test   al,al
+31ea3d je     0x31ea5d
+31ea3f xor    edx,edx
+31ea41 mov    rcx,r8
+31ea44 call   0x375d30
+31ea49 lea    rdx,[rsp+0x20]
+31ea4e lea    rcx,[rip+0xc779b]        # 0x3e61f0
+31ea55 call   0x2ef774
+31ea5a mov    BYTE PTR [rax],0x0
+31ea5d lea    rdx,[rsp+0x20]
+31ea62 lea    rcx,[rip+0xc7747]        # 0x3e61b0
+31ea69 call   0x2ef754
+31ea6e mov    r8,QWORD PTR [rax]
+31ea71 mov    rcx,r8
+31ea74 call   0x2caf08
+31ea79 test   al,al
+31ea7b je     0x31ea9b
+31ea7d xor    edx,edx
+31ea7f mov    rcx,r8
+31ea82 call   0x375d30
+31ea87 lea    rdx,[rsp+0x20]
+31ea8c lea    rcx,[rip+0xc775d]        # 0x3e61f0
+31ea93 call   0x2ef774
+31ea98 mov    BYTE PTR [rax],0x0
+31ea9b lea    rdx,[rbp+0x3b8]
+31eaa2 lea    rcx,[rbp+0xa88]
+31eaa9 call   0x2f2478 ; STRING getter=0x2f2478 Landmine
+31eaae mov    rcx,rax
+31eab1 call   0x2d8504
+31eab6 mov    rcx,rax
+31eab9 movabs rdx,0xcbf29ce484222325
+31eac3 call   0x2e5b4c
+31eac8 cmp    rsi,rax
+31eacb jne    0x31ecda
+31ead1 xor    ebx,ebx
+31ead3 cmp    BYTE PTR [rip+0xcad3f],bl        # 0x3e9818 ; CONFIG Bools.NoHittingSpikes value(+0x48)
+31ead9 je     0x31ec4b
+31eadf mov    rcx,r15
+31eae2 call   0x3693b0
+31eae7 test   al,al
+31eae9 jne    0x31ec4b
+31eaef lea    rdx,[rbp+0x6d4]
+31eaf6 mov    rcx,r15
+31eaf9 call   0x369164
+31eafe mov    rcx,QWORD PTR [rsp+0x20]
+31eb03 lea    rdx,[rbp+0x50]
+31eb07 movsd  xmm0,QWORD PTR [rax]
+31eb0b mov    eax,DWORD PTR [rax+0x8]
+31eb0e movsd  QWORD PTR [rbp+0x50],xmm0
+31eb13 mov    DWORD PTR [rbp+0x58],eax
+31eb16 call   0x3666b0
+31eb1b comiss xmm7,xmm0
+31eb1e lea    rdx,[rsp+0x20]
+31eb23 lea    rcx,[rip+0xc76c6]        # 0x3e61f0
+31eb2a jbe    0x31ec3c
+31eb30 call   0x2ef774
+31eb35 cmp    BYTE PTR [rax],bl
+31eb37 jne    0x31ecda
+31eb3d mov    rcx,QWORD PTR [rsp+0x20]
+31eb42 lea    rdx,[rsp+0x50]
+31eb47 call   0x3664cc
+31eb4c movss  xmm3,DWORD PTR [rsp+0x74]
+31eb52 lea    rcx,[rbp+0xa0]
+31eb59 movss  xmm1,DWORD PTR [rsp+0x6c]
+31eb5f movss  xmm2,DWORD PTR [rip+0xfffffffffff6ef95]        # 0x28dafc ; f32=1.5
+31eb67 mulss  xmm3,xmm6
+31eb6b mulss  xmm1,xmm6
+31eb6f call   0x3c7ba8
+31eb74 mov    rcx,QWORD PTR [rsp+0x20]
+31eb79 call   0x370508
+31eb7e mov    rcx,rax
+31eb81 mov    rdi,rax
+31eb84 call   0x2caf08
+31eb89 test   al,al
+31eb8b je     0x31ecda
+31eb91 lea    rdx,[rbp+0x6e0]
+31eb98 lea    rcx,[rbp+0xa88]
+31eb9f call   0x2f2570 ; STRING getter=0x2f2570 UnityEngine
+31eba4 mov    rcx,rax
+31eba7 call   0x2cde0c
+31ebac lea    rdx,[rbp+0x6ec]
+31ebb3 mov    rbx,rax
+31ebb6 lea    rcx,[rbp+0xa88]
+31ebbd call   0x2f2554 ; STRING getter=0x2f2554 BoxCollider
+31ebc2 mov    rcx,rax
+31ebc5 call   0x2cde0c
+31ebca mov    rdx,rax
+31ebcd mov    r8,rbx
+31ebd0 mov    rcx,rdi
+31ebd3 call   0x372efc
+31ebd8 mov    rcx,rax
+31ebdb mov    rbx,rax
+31ebde call   0x2caf08
+31ebe3 xor    edi,edi
+31ebe5 test   al,al
+31ebe7 je     0x31ecdc
+31ebed mov    ecx,DWORD PTR [rbp+0xa8]
+31ebf3 lea    rdx,[rbp+0x70]
+31ebf7 movsd  xmm0,QWORD PTR [rbp+0xa0]
+31ebff mov    DWORD PTR [rbp+0x78],ecx
+31ec02 mov    rcx,rbx
+31ec05 movsd  QWORD PTR [rbp+0x70],xmm0
+31ec0a call   0x370968
+31ec0f lea    rdx,[rsp+0x20]
+31ec14 lea    rcx,[rip+0xc7595]        # 0x3e61b0
+31ec1b call   0x2ef754
+31ec20 lea    rdx,[rsp+0x20]
+31ec25 lea    rcx,[rip+0xc75c4]        # 0x3e61f0
+31ec2c mov    QWORD PTR [rax],rbx
+31ec2f call   0x2ef774
+31ec34 mov    BYTE PTR [rax],0x1
+31ec37 jmp    0x31ecdc
+31ec3c call   0x2ef774
+31ec41 cmp    BYTE PTR [rax],bl
+31ec43 je     0x31ecda
+31ec49 jmp    0x31ec9d
+31ec4b lea    rdx,[rsp+0x20]
+31ec50 lea    rcx,[rip+0xc7599]        # 0x3e61f0
+31ec57 call   0x2ef774
+31ec5c cmp    BYTE PTR [rax],bl
+31ec5e je     0x31ecda
+31ec60 lea    rdx,[rsp+0x20]
+31ec65 lea    rcx,[rip+0xc7504]        # 0x3e6170
+31ec6c call   0x2ef754
+31ec71 mov    r8,QWORD PTR [rax]
+31ec74 mov    rcx,r8
+31ec77 call   0x2caf08
+31ec7c test   al,al
+31ec7e je     0x31ec9d
+31ec80 xor    edx,edx
+31ec82 mov    rcx,r8
+31ec85 call   0x375d30
+31ec8a lea    rdx,[rsp+0x20]
+31ec8f lea    rcx,[rip+0xc755a]        # 0x3e61f0
+31ec96 call   0x2ef774
+31ec9b mov    BYTE PTR [rax],bl
+31ec9d lea    rdx,[rsp+0x20]
+31eca2 lea    rcx,[rip+0xc7507]        # 0x3e61b0
+31eca9 call   0x2ef754
+31ecae mov    r8,QWORD PTR [rax]
+31ecb1 mov    rcx,r8
+31ecb4 call   0x2caf08
+31ecb9 test   al,al
+31ecbb je     0x31ecda
+31ecbd xor    edx,edx
+31ecbf mov    rcx,r8
+31ecc2 call   0x375d30
+31ecc7 lea    rdx,[rsp+0x20]
+31eccc lea    rcx,[rip+0xc751d]        # 0x3e61f0
+31ecd3 call   0x2ef774
+31ecd8 mov    BYTE PTR [rax],bl
+31ecda xor    edi,edi
+31ecdc lea    rdx,[rbp+0x7af]
+31ece3 lea    rcx,[rbp+0xa88]
+31ecea call   0x2f258c ; STRING getter=0x2f258c PlayerCorpse
+31ecef mov    rcx,rax
+31ecf2 call   0x2cde5c
+31ecf7 mov    rcx,rax
+31ecfa movabs rdx,0xcbf29ce484222325
+31ed04 call   0x2e5b4c
+31ed09 cmp    rsi,rax
+31ed0c jne    0x31eedb
+31ed12 cmp    BYTE PTR [rip+0xd08e8],dil        # 0x3ef601
+31ed19 je     0x31e060
+31ed1f mov    rcx,r15
+31ed22 call   0x3693b0
+31ed27 test   al,al
+31ed29 jne    0x31e060
+31ed2f lea    rdx,[rbp+0x6f8]
+31ed36 mov    rcx,r15
+31ed39 call   0x369164
+31ed3e mov    rcx,QWORD PTR [rsp+0x20]
+31ed43 lea    rdx,[rbp+0x90]
+31ed4a movsd  xmm0,QWORD PTR [rax]
+31ed4e mov    eax,DWORD PTR [rax+0x8]
+31ed51 movsd  QWORD PTR [rbp+0x90],xmm0
+31ed59 mov    DWORD PTR [rbp+0x98],eax
+31ed5f call   0x3666b0
+31ed64 comiss xmm8,xmm0
+31ed68 lea    rdx,[rsp+0x20]
+31ed6d lea    rcx,[rip+0xc747c]        # 0x3e61f0
+31ed74 jbe    0x31ee8f
+31ed7a call   0x2ef774
+31ed7f cmp    BYTE PTR [rax],dil
+31ed82 jne    0x31eedb
+31ed88 mov    rcx,QWORD PTR [rsp+0x20]
+31ed8d lea    rdx,[rsp+0x50]
+31ed92 call   0x3664cc
+31ed97 movss  xmm3,DWORD PTR [rsp+0x74]
+31ed9d lea    rcx,[rbp+0x160]
+31eda4 movss  xmm2,DWORD PTR [rsp+0x70]
+31edaa movss  xmm1,DWORD PTR [rsp+0x6c]
+31edb0 mulss  xmm3,xmm6
+31edb4 mulss  xmm2,xmm6
+31edb8 mulss  xmm1,xmm6
+31edbc call   0x3c7ba8
+31edc1 mov    rcx,QWORD PTR [rsp+0x20]
+31edc6 call   0x370508
+31edcb mov    rcx,rax
+31edce mov    rdi,rax
+31edd1 call   0x2caf08
+31edd6 test   al,al
+31edd8 je     0x31eed9
+31edde lea    rdx,[rbp+0x704]
+31ede5 lea    rcx,[rbp+0xa88]
+31edec call   0x2f25cc ; STRING getter=0x2f25cc UnityEngine
+31edf1 mov    rcx,rax
+31edf4 call   0x2cde0c
+31edf9 lea    rdx,[rbp+0x710]
+31ee00 mov    rbx,rax
+31ee03 lea    rcx,[rbp+0xa88]
+31ee0a call   0x2f25b0 ; STRING getter=0x2f25b0 BoxCollider
+31ee0f mov    rcx,rax
+31ee12 call   0x2cde0c
+31ee17 mov    rdx,rax
+31ee1a mov    r8,rbx
+31ee1d mov    rcx,rdi
+31ee20 call   0x372efc
+31ee25 mov    rcx,rax
+31ee28 mov    rbx,rax
+31ee2b call   0x2caf08
+31ee30 xor    edi,edi
+31ee32 test   al,al
+31ee34 je     0x31eedb
+31ee3a mov    ecx,DWORD PTR [rbp+0x168]
+31ee40 lea    rdx,[rbp+0x130]
+31ee47 movsd  xmm0,QWORD PTR [rbp+0x160]
+31ee4f mov    DWORD PTR [rbp+0x138],ecx
+31ee55 mov    rcx,rbx
+31ee58 movsd  QWORD PTR [rbp+0x130],xmm0
+31ee60 call   0x370968
+31ee65 lea    rdx,[rsp+0x20]
+31ee6a lea    rcx,[rip+0xc733f]        # 0x3e61b0
+31ee71 call   0x2ef754
+31ee76 lea    rdx,[rsp+0x20]
+31ee7b lea    rcx,[rip+0xc736e]        # 0x3e61f0
+31ee82 mov    QWORD PTR [rax],rbx
+31ee85 call   0x2ef774
+31ee8a mov    BYTE PTR [rax],0x1
+31ee8d jmp    0x31eedb
+31ee8f call   0x2ef774
+31ee94 cmp    BYTE PTR [rax],dil
+31ee97 je     0x31eedb
+31ee99 lea    rdx,[rsp+0x20]
+31ee9e lea    rcx,[rip+0xc730b]        # 0x3e61b0
+31eea5 call   0x2ef754
+31eeaa mov    r8,QWORD PTR [rax]
+31eead mov    rcx,r8
+31eeb0 call   0x2caf08
+31eeb5 test   al,al
+31eeb7 je     0x31eedb
+31eeb9 xor    edx,edx
+31eebb mov    rcx,r8
+31eebe call   0x375d30
+31eec3 lea    rdx,[rsp+0x20]
+31eec8 lea    rcx,[rip+0xc7321]        # 0x3e61f0
+31eecf call   0x2ef774
+31eed4 mov    BYTE PTR [rax],dil
+31eed7 jmp    0x31eedb
+31eed9 xor    edi,edi
+31eedb cmp    BYTE PTR [rip+0xc98a6],dil        # 0x3e8788 ; CONFIG Bools.LandmineESP value(+0x48)
+31eee2 je     0x31ef62
+31eee4 lea    rdx,[rbp+0x3c1]
+31eeeb lea    rcx,[rbp+0xa88]
+31eef2 call   0x2f25e8 ; STRING getter=0x2f25e8 Landmine
+31eef7 mov    rcx,rax
+31eefa call   0x2d8504
+31eeff mov    rcx,rax
+31ef02 movabs rdx,0xcbf29ce484222325
+31ef0c call   0x2e5b4c
+31ef11 cmp    rsi,rax
+31ef14 jne    0x31ef62
+31ef16 mov    rbx,QWORD PTR [rsp+0x20]
+31ef1b lea    rdx,[rbp+0x3ca]
+31ef22 lea    rcx,[rbp+0xa88]
+31ef29 call   0x2f2604 ; STRING getter=0x2f2604 Landmine
+31ef2e mov    rcx,rax
+31ef31 call   0x2d8504
+31ef36 mov    rdx,rax
+31ef39 lea    rcx,[rsp+0x28]
+31ef3e call   0x2cc2cc
+31ef43 mov    r9,rbx
+31ef46 lea    r8,[rsp+0x28]
+31ef4b mov    edx,0x53
+31ef50 mov    rcx,r13
+31ef53 call   0x3176bc
+31ef58 lea    rcx,[rsp+0x28]
+31ef5d call   0x2cc4f4
+31ef62 cmp    BYTE PTR [rip+0xc986f],dil        # 0x3e87d8 ; CONFIG Bools.SamsiteESP value(+0x48)
+31ef69 jne    0x31ef78
+31ef6b cmp    BYTE PTR [rip+0xcb616],dil        # 0x3ea588 ; CONFIG Bools.SamSiteAlert value(+0x48)
+31ef72 je     0x31f1fb
+31ef78 lea    rdx,[rbp+0x351]
+31ef7f lea    rcx,[rbp+0xa88]
+31ef86 call   0x2f2620
+31ef8b mov    rcx,rax
+31ef8e call   0x2dd138
+31ef93 mov    rcx,rax
+31ef96 movabs rdx,0xcbf29ce484222325
+31efa0 call   0x2e5b4c
+31efa5 cmp    rsi,rax
+31efa8 jne    0x31f1fb
+31efae cmp    BYTE PTR [rip+0xc9873],dil        # 0x3e8828 ; CONFIG Bools.UseCachedPositions value(+0x48)
+31efb5 jne    0x31f010
+31efb7 mov    rbx,QWORD PTR [rsp+0x20]
+31efbc lea    rdx,[rbp+0x321]
+31efc3 lea    rcx,[rbp+0xa88]
+31efca call   0x2f2620
+31efcf mov    rcx,rax
+31efd2 call   0x2dd138
+31efd7 mov    rdx,rax
+31efda lea    rcx,[rsp+0x28]
+31efdf call   0x2cc2cc
+31efe4 mov    r9,rbx
+31efe7 lea    r8,[rsp+0x28]
+31efec mov    edx,0x54
+31eff1 mov    rcx,r13
+31eff4 call   0x3176bc
+31eff9 lea    rcx,[rsp+0x28]
+31effe call   0x2cc4f4
+31f003 cmp    BYTE PTR [rip+0xc981e],dil        # 0x3e8828 ; CONFIG Bools.UseCachedPositions value(+0x48)
+31f00a je     0x31f1fb
+31f010 mov    rax,QWORD PTR [rsp+0x20]
+31f015 mov    rdx,QWORD PTR [rax+0x48]
+31f019 mov    rcx,rdx
+31f01c call   0x2caf08
+31f021 test   al,al
+31f023 je     0x31f1fb
+31f029 mov    edi,DWORD PTR [rdx+0x38]
+31f02c lea    rcx,[rip+0xffffffffffef974d]        # 0x218780
+31f033 mov    DWORD PTR [rbp-0x60],edi
+31f036 call   0x2d1978
+31f03b lea    rcx,[rip+0xffffffffffef973e]        # 0x218780
+31f042 mov    rbx,rax
+31f045 call   0x2d79c0
+31f04a jmp    0x31f059
+31f04c cmp    DWORD PTR [rbx+0x14],edi
+31f04f je     0x31f613
+31f055 add    rbx,0x40
+31f059 cmp    rbx,rax
+31f05c jne    0x31f04c
+31f05e lea    rdx,[rbp+0xa90]
+31f065 lea    rcx,[rbp+0xa88]
+31f06c call   0x2cc730
+31f071 mov    rcx,rax
+31f074 call   0x2cdca4
+31f079 lea    rdx,[rbp+0x9c8]
+31f080 mov    rbx,rax
+31f083 lea    rcx,[rbp+0xa88]
+31f08a call   0x2f2634 ; STRING getter=0x2f2634 %0e7b8295f9567c35261c2c1ae35d9654f0ffa04b
+31f08f mov    rcx,rax
+31f092 call   0x32069c
+31f097 mov    rcx,rax
+31f09a mov    rdx,rbx
+31f09d call   0x334224
+31f0a2 mov    rcx,rax
+31f0a5 mov    rdx,rax
+31f0a8 call   0x2caf08
+31f0ad xor    edi,edi
+31f0af test   al,al
+31f0b1 je     0x31f1fb
+31f0b7 mov    rdx,QWORD PTR [rdx+0xb8]
+31f0be mov    rcx,rdx
+31f0c1 call   0x2caf08
+31f0c6 test   al,al
+31f0c8 je     0x31f1fb
+31f0ce mov    r8,QWORD PTR [rdx+0x78]
+31f0d2 mov    rcx,r8
+31f0d5 call   0x2caf08
+31f0da test   al,al
+31f0dc je     0x31f1fb
+31f0e2 mov    rdx,QWORD PTR [r8+0x108]
+31f0e9 mov    rcx,rdx
+31f0ec call   0x2caf08
+31f0f1 test   al,al
+31f0f3 je     0x31f1fb
+31f0f9 lea    rbx,[rdx+0x14]
+31f0fd mov    rcx,rbx
+31f100 call   0x2caf08
+31f105 test   al,al
+31f107 je     0x31f1fb
+31f10d mov    rcx,QWORD PTR [rsp+0x20]
+31f112 call   0x370754
+31f117 mov    rcx,rax
+31f11a mov    r9,rax
+31f11d call   0x2caf08
+31f122 test   al,al
+31f124 je     0x31f1fb
+31f12a mov    rcx,rbx
+31f12d call   0x317bec
+31f132 lea    rdx,[rsp+0x50]
+31f137 mov    rcx,r9
+31f13a mov    rbx,rax
+31f13d call   0x3747d4
+31f142 mov    ecx,DWORD PTR [rbp-0x60]
+31f145 lea    rdx,[rbp+0x329]
+31f14c mov    DWORD PTR [rsp+0x5c],ecx
+31f150 lea    rcx,[rbp+0xa88]
+31f157 mov    DWORD PTR [rsp+0x60],ebx
+31f15b call   0x2f2620
+31f160 mov    rcx,rax
+31f163 call   0x2dd138
+31f168 mov    rdx,rax
+31f16b lea    rcx,[rsp+0x68]
+31f170 call   0x2cc2cc
+31f175 lea    r8,[rsp+0x50]
+31f17a lea    rdx,[rbp-0x60]
+31f17e lea    rcx,[rbp-0x40]
+31f182 call   0x2ea0a8
+31f187 lea    rdx,[rbp-0x40]
+31f18b lea    rcx,[rip+0xffffffffffef95ee]        # 0x218780
+31f192 call   0x320d30
+31f197 lea    rcx,[rbp-0x40]
+31f19b call   0x2d4a64
+31f1a0 lea    rcx,[rsp+0x50]
+31f1a5 call   0x2d4a90
+31f1aa call   0x2dc1a0
+31f1af lea    rdx,[rsp+0x50]
+31f1b4 lea    rcx,[rbp+0xa88]
+31f1bb call   0x2f26e4 ; STRING getter=0x2f26e4 Successfully saved sam
+31f1c0 mov    rcx,rax
+31f1c3 call   0x2e368c
+31f1c8 mov    rdx,rax
+31f1cb lea    rcx,[rsp+0x28]
+31f1d0 call   0x2cc2cc
+31f1d5 lea    rdx,[rsp+0x28]
+31f1da lea    rcx,[rsp+0x50]
+31f1df call   0x2d4194
+31f1e4 mov    rcx,rax
+31f1e7 xor    r8d,r8d
+31f1ea xor    edx,edx
+31f1ec call   0x37f918
+31f1f1 lea    rcx,[rsp+0x28]
+31f1f6 call   0x2cc4f4
+31f1fb cmp    BYTE PTR [rip+0xc9676],dil        # 0x3e8878 ; CONFIG Bools.ShotgunTrapESP value(+0x48)
+31f202 je     0x31f289
+31f208 lea    rdx,[rbp+0x331]
+31f20f lea    rcx,[rbp+0xa88]
+31f216 call   0x2f2700
+31f21b mov    rcx,rax
+31f21e call   0x2dd138
+31f223 movabs rbx,0xcbf29ce484222325
+31f22d mov    rcx,rax
+31f230 mov    rdx,rbx
+31f233 call   0x2e5b4c
+31f238 cmp    rsi,rax
+31f23b jne    0x31f293
+31f23d mov    rbx,QWORD PTR [rsp+0x20]
+31f242 lea    rdx,[rbp+0x339]
+31f249 lea    rcx,[rbp+0xa88]
+31f250 call   0x2f2700
+31f255 mov    rcx,rax
+31f258 call   0x2dd138
+31f25d mov    rdx,rax
+31f260 lea    rcx,[rsp+0x28]
+31f265 call   0x2cc2cc
+31f26a mov    r9,rbx
+31f26d lea    r8,[rsp+0x28]
+31f272 mov    edx,0x55
+31f277 mov    rcx,r13
+31f27a call   0x3176bc
+31f27f lea    rcx,[rsp+0x28]
+31f284 call   0x2cc4f4
+31f289 movabs rbx,0xcbf29ce484222325
+31f293 cmp    BYTE PTR [rip+0xc9c1e],dil        # 0x3e8eb8 ; CONFIG Bools.Cupboard value(+0x48)
+31f29a je     0x31f33b
+31f2a0 lea    rdx,[rsp+0x50]
+31f2a5 lea    rcx,[rbp+0xa88]
+31f2ac call   0x2f2714 ; STRING getter=0x2f2714 BuildingPrivlidge
+31f2b1 mov    rcx,rax
+31f2b4 call   0x2d857c
+31f2b9 mov    rcx,rax
+31f2bc mov    rdx,rbx
+31f2bf call   0x2e5b4c
+31f2c4 cmp    rsi,rax
+31f2c7 je     0x31f2f1
+31f2c9 lea    rdx,[rbp-0x40]
+31f2cd lea    rcx,[rbp+0xa88]
+31f2d4 call   0x2f2730 ; STRING getter=0x2f2730 BuildingPrivilegeRetro
+31f2d9 mov    rcx,rax
+31f2dc call   0x2e368c
+31f2e1 mov    rcx,rax
+31f2e4 mov    rdx,rbx
+31f2e7 call   0x2e5b4c
+31f2ec cmp    rsi,rax
+31f2ef jne    0x31f33b
+31f2f1 mov    rbx,QWORD PTR [rsp+0x20]
+31f2f6 lea    rdx,[rsp+0x50]
+31f2fb lea    rcx,[rbp+0xa88]
+31f302 call   0x2f274c ; STRING getter=0x2f274c BuildingPrivlidge
+31f307 mov    rcx,rax
+31f30a call   0x2d857c
+31f30f mov    rdx,rax
+31f312 lea    rcx,[rsp+0x28]
+31f317 call   0x2cc2cc
+31f31c mov    r9,rbx
+31f31f lea    r8,[rsp+0x28]
+31f324 mov    edx,0x56
+31f329 mov    rcx,r13
+31f32c call   0x3176bc
+31f331 lea    rcx,[rsp+0x28]
+31f336 call   0x2cc4f4
+31f33b cmp    BYTE PTR [rip+0xc9c66],dil        # 0x3e8fa8 ; CONFIG Bools.StashesUnHidden value(+0x48)
+31f342 je     0x31f3c9
+31f348 lea    rdx,[rbp+0x8b8]
+31f34f lea    rcx,[rbp+0xa88]
+31f356 call   0x2f2768 ; STRING getter=0x2f2768 StashContainer
+31f35b mov    rcx,rax
+31f35e call   0x2d8644
+31f363 movabs rbx,0xcbf29ce484222325
+31f36d mov    rcx,rax
+31f370 mov    rdx,rbx
+31f373 call   0x2e5b4c
+31f378 cmp    rsi,rax
+31f37b jne    0x31f3d3
+31f37d mov    rbx,QWORD PTR [rsp+0x20]
+31f382 lea    rdx,[rbp+0x1ef]
+31f389 lea    rcx,[rbp+0xa88]
+31f390 call   0x2f2798 ; STRING getter=0x2f2798 Stash
+31f395 mov    rcx,rax
+31f398 call   0x2d84b4
+31f39d mov    rdx,rax
+31f3a0 lea    rcx,[rsp+0x28]
+31f3a5 call   0x2cc2cc
+31f3aa mov    r9,rbx
+31f3ad lea    r8,[rsp+0x28]
+31f3b2 mov    edx,0x7c
+31f3b7 mov    rcx,r13
+31f3ba call   0x3176bc
+31f3bf lea    rcx,[rsp+0x28]
+31f3c4 call   0x2cc4f4
+31f3c9 movabs rbx,0xcbf29ce484222325
+31f3d3 cmp    BYTE PTR [rip+0xc9b2e],dil        # 0x3e8f08 ; CONFIG Bools.SleepingBag value(+0x48)
+31f3da je     0x31f453
+31f3dc lea    rdx,[rbp+0x71c]
+31f3e3 lea    rcx,[rbp+0xa88]
+31f3ea call   0x2f27b0 ; STRING getter=0x2f27b0 SleepingBag
+31f3ef mov    rcx,rax
+31f3f2 call   0x2cde0c
+31f3f7 mov    rcx,rax
+31f3fa mov    rdx,rbx
+31f3fd call   0x2e5b4c
+31f402 cmp    rsi,rax
+31f405 jne    0x31f453
+31f407 mov    rbx,QWORD PTR [rsp+0x20]
+31f40c lea    rdx,[rbp+0x728]
+31f413 lea    rcx,[rbp+0xa88]
+31f41a call   0x2f28a4 ; STRING getter=0x2f28a4 SleepingBag
+31f41f mov    rcx,rax
+31f422 call   0x2cde0c
+31f427 mov    rdx,rax
+31f42a lea    rcx,[rsp+0x28]
+31f42f call   0x2cc2cc
+31f434 mov    r9,rbx
+31f437 lea    r8,[rsp+0x28]
+31f43c mov    edx,0x58
+31f441 mov    rcx,r13
+31f444 call   0x3176bc
+31f449 lea    rcx,[rsp+0x28]
+31f44e call   0x2cc4f4
+31f453 cmp    BYTE PTR [rip+0xc9d2e],dil        # 0x3e9188 ; CONFIG Bools.RFReceiver value(+0x48)
+31f45a je     0x31f4e1
+31f460 lea    rdx,[rbp+0x586]
+31f467 lea    rcx,[rbp+0xa88]
+31f46e call   0x2f28c0 ; STRING getter=0x2f28c0 RFReceiver
+31f473 mov    rcx,rax
+31f476 call   0x2d85cc
+31f47b movabs rbx,0xcbf29ce484222325
+31f485 mov    rcx,rax
+31f488 mov    rdx,rbx
+31f48b call   0x2e5b4c
+31f490 cmp    rsi,rax
+31f493 jne    0x31f4eb
+31f495 mov    rbx,QWORD PTR [rsp+0x20]
+31f49a lea    rdx,[rbp+0x54f]
+31f4a1 lea    rcx,[rbp+0xa88]
+31f4a8 call   0x2f28dc ; STRING getter=0x2f28dc RFReceiver
+31f4ad mov    rcx,rax
+31f4b0 call   0x2d85cc
+31f4b5 mov    rdx,rax
+31f4b8 lea    rcx,[rsp+0x28]
+31f4bd call   0x2cc2cc
+31f4c2 mov    r9,rbx
+31f4c5 lea    r8,[rsp+0x28]
+31f4ca mov    edx,0x59
+31f4cf mov    rcx,r13
+31f4d2 call   0x3176bc
+31f4d7 lea    rcx,[rsp+0x28]
+31f4dc call   0x2cc4f4
+31f4e1 movabs rbx,0xcbf29ce484222325
+31f4eb cmp    BYTE PTR [rip+0xc9c46],dil        # 0x3e9138 ; CONFIG Bools.RFBroadcaster value(+0x48)
+31f4f2 je     0x31f56b
+31f4f4 lea    rdx,[rbp+0x852]
+31f4fb lea    rcx,[rbp+0xa88]
+31f502 call   0x2f28f8 ; STRING getter=0x2f28f8 RFBroadcaster
+31f507 mov    rcx,rax
+31f50a call   0x2d861c
+31f50f mov    rcx,rax
+31f512 mov    rdx,rbx
+31f515 call   0x2e5b4c
+31f51a cmp    rsi,rax
+31f51d jne    0x31f56b
+31f51f mov    rbx,QWORD PTR [rsp+0x20]
+31f524 lea    rdx,[rbp+0x860]
+31f52b lea    rcx,[rbp+0xa88]
+31f532 call   0x2f291c ; STRING getter=0x2f291c RFBroadcaster
+31f537 mov    rcx,rax
+31f53a call   0x2d861c
+31f53f mov    rdx,rax
+31f542 lea    rcx,[rsp+0x28]
+31f547 call   0x2cc2cc
+31f54c mov    r9,rbx
+31f54f lea    r8,[rsp+0x28]
+31f554 mov    edx,0x5a
+31f559 mov    rcx,r13
+31f55c call   0x3176bc
+31f561 lea    rcx,[rsp+0x28]
+31f566 call   0x2cc4f4
+31f56b cmp    BYTE PTR [rip+0xc9ad6],dil        # 0x3e9048 ; CONFIG Bools.Workbench value(+0x48)
+31f572 jne    0x31f581
+31f574 cmp    BYTE PTR [rip+0xc9f2d],dil        # 0x3e94a8 ; CONFIG Bools.workbench2 value(+0x48)
+31f57b je     0x31f687
+31f581 lea    rdx,[rbp+0x497]
+31f588 lea    rcx,[rbp+0xa88]
+31f58f call   0x2f2940 ; STRING getter=0x2f2940 Workbench
+31f594 mov    rcx,rax
+31f597 call   0x2cdd1c
+31f59c mov    rcx,rax
+31f59f movabs rdx,0xcbf29ce484222325
+31f5a9 call   0x2e5b4c
+31f5ae cmp    rsi,rax
+31f5b1 jne    0x31f687
+31f5b7 lea    rdx,[rbp+0x55a]
+31f5be lea    rcx,[rbp+0xa88]
+31f5c5 call   0x2f295c ; STRING getter=0x2f295c workbench2
+31f5ca mov    rcx,rax
+31f5cd call   0x2d85cc
+31f5d2 mov    rdx,rax
+31f5d5 mov    rcx,r14
+31f5d8 call   0x3ca960
+31f5dd lea    rcx,[rbp+0xa88]
+31f5e4 test   rax,rax
+31f5e7 je     0x31f61a
+31f5e9 mov    rbx,QWORD PTR [rsp+0x20]
+31f5ee lea    rdx,[rbp+0x18]
+31f5f2 call   0x2f2978 ; STRING getter=0x2f2978 WB2
+31f5f7 mov    rcx,rax
+31f5fa call   0x2dd0e8
+31f5ff mov    rdx,rax
+31f602 lea    rcx,[rsp+0x28]
+31f607 call   0x2cc2cc
+31f60c mov    edx,0x5b
+31f611 jmp    0x31f66d
+31f613 xor    edi,edi
+31f615 jmp    0x31f1fb
+31f61a lea    rdx,[rbp+0x565]
+31f621 call   0x2f2984 ; STRING getter=0x2f2984 workbench3
+31f626 mov    rcx,rax
+31f629 call   0x2d85cc
+31f62e mov    rdx,rax
+31f631 mov    rcx,r14
+31f634 call   0x3ca960
+31f639 test   rax,rax
+31f63c je     0x31f687
+31f63e mov    rbx,QWORD PTR [rsp+0x20]
+31f643 lea    rdx,[rbp+0x1c]
+31f647 lea    rcx,[rbp+0xa88]
+31f64e call   0x2f29a0 ; STRING getter=0x2f29a0 WB3
+31f653 mov    rcx,rax
+31f656 call   0x2dd0e8
+31f65b mov    rdx,rax
+31f65e lea    rcx,[rsp+0x28]
+31f663 call   0x2cc2cc
+31f668 mov    edx,0x5c
+31f66d mov    r9,rbx
+31f670 lea    r8,[rsp+0x28]
+31f675 mov    rcx,r13
+31f678 call   0x3176bc
+31f67d lea    rcx,[rsp+0x28]
+31f682 call   0x2cc4f4
+31f687 cmp    BYTE PTR [rip+0xc883a],dil        # 0x3e7ec8 ; CONFIG Bools.BearEsp value(+0x48)
+31f68e je     0x31f78e
+31f694 lea    rdx,[rbp+0x1b3]
+31f69b lea    rcx,[rbp+0xa88]
+31f6a2 call   0x2f2a70 ; STRING getter=0x2f2a70 Bear
+31f6a7 mov    rcx,rax
+31f6aa call   0x2e35ec
+31f6af movabs r14,0xcbf29ce484222325
+31f6b9 mov    rcx,rax
+31f6bc mov    rdx,r14
+31f6bf call   0x2e5b4c
+31f6c4 cmp    rsi,rax
+31f6c7 jne    0x31f715
+31f6c9 mov    rbx,QWORD PTR [rsp+0x20]
+31f6ce lea    rdx,[rbp+0x1b8]
+31f6d5 lea    rcx,[rbp+0xa88]
+31f6dc call   0x2f2a88 ; STRING getter=0x2f2a88 Bear
+31f6e1 mov    rcx,rax
+31f6e4 call   0x2e35ec
+31f6e9 mov    rdx,rax
+31f6ec lea    rcx,[rsp+0x28]
+31f6f1 call   0x2cc2cc
+31f6f6 mov    r9,rbx
+31f6f9 lea    r8,[rsp+0x28]
+31f6fe mov    edx,0x5d
+31f703 mov    rcx,r13
+31f706 call   0x3176bc
+31f70b lea    rcx,[rsp+0x28]
+31f710 call   0x2cc4f4
+31f715 lea    rdx,[rbp+0x40b]
+31f71c lea    rcx,[rbp+0xa88]
+31f723 call   0x2f2aa0 ; STRING getter=0x2f2aa0 PolarBear
+31f728 mov    rcx,rax
+31f72b call   0x2cdd1c
+31f730 mov    rcx,rax
+31f733 mov    rdx,r14
+31f736 call   0x2e5b4c
+31f73b cmp    rsi,rax
+31f73e jne    0x31f798
+31f740 mov    rbx,QWORD PTR [rsp+0x20]
+31f745 lea    rdx,[rbp+0x451]
+31f74c lea    rcx,[rbp+0xa88]
+31f753 call   0x2f2abc ; STRING getter=0x2f2abc PolarBear
+31f758 mov    rcx,rax
+31f75b call   0x2cdd1c
+31f760 mov    rdx,rax
+31f763 lea    rcx,[rsp+0x28]
+31f768 call   0x2cc2cc
+31f76d mov    r9,rbx
+31f770 lea    r8,[rsp+0x28]
+31f775 mov    edx,0x5e
+31f77a mov    rcx,r13
+31f77d call   0x3176bc
+31f782 lea    rcx,[rsp+0x28]
+31f787 call   0x2cc4f4
+31f78c jmp    0x31f798
+31f78e movabs r14,0xcbf29ce484222325
+31f798 cmp    BYTE PTR [rip+0xc88b9],dil        # 0x3e8058 ; CONFIG Bools.StagEsp value(+0x48)
+31f79f je     0x31f818
+31f7a1 lea    rdx,[rbp+0x1bd]
+31f7a8 lea    rcx,[rbp+0xa88]
+31f7af call   0x2f2ad8 ; STRING getter=0x2f2ad8 Stag
+31f7b4 mov    rcx,rax
+31f7b7 call   0x2e35ec
+31f7bc mov    rcx,rax
+31f7bf mov    rdx,r14
+31f7c2 call   0x2e5b4c
+31f7c7 cmp    rsi,rax
+31f7ca jne    0x31f818
+31f7cc mov    rbx,QWORD PTR [rsp+0x20]
+31f7d1 lea    rdx,[rbp+0x1c2]
+31f7d8 lea    rcx,[rbp+0xa88]
+31f7df call   0x2f2af0 ; STRING getter=0x2f2af0 Stag
+31f7e4 mov    rcx,rax
+31f7e7 call   0x2e35ec
+31f7ec mov    rdx,rax
+31f7ef lea    rcx,[rsp+0x28]
+31f7f4 call   0x2cc2cc
+31f7f9 mov    r9,rbx
+31f7fc lea    r8,[rsp+0x28]
+31f801 mov    edx,0x64
+31f806 mov    rcx,r13
+31f809 call   0x3176bc
+31f80e lea    rcx,[rsp+0x28]
+31f813 call   0x2cc4f4
+31f818 cmp    BYTE PTR [rip+0xc8889],dil        # 0x3e80a8 ; CONFIG Bools.WolfEsp value(+0x48)
+31f81f je     0x31f8c7
+31f825 lea    rdx,[rbp+0x1c7]
+31f82c lea    rcx,[rbp+0xa88]
+31f833 call   0x2f2b08 ; STRING getter=0x2f2b08 Wolf
+31f838 mov    rcx,rax
+31f83b call   0x2e35ec
+31f840 mov    rcx,rax
+31f843 mov    rdx,r14
+31f846 call   0x2e5b4c
+31f84b cmp    rsi,rax
+31f84e je     0x31f87b
+31f850 lea    rdx,[rbp+0x240]
+31f857 lea    rcx,[rbp+0xa88]
+31f85e call   0x2f2b50 ; STRING getter=0x2f2b50 Wolf2
+31f863 mov    rcx,rax
+31f866 call   0x2d84b4
+31f86b mov    rcx,rax
+31f86e mov    rdx,r14
+31f871 call   0x2e5b4c
+31f876 cmp    rsi,rax
+31f879 jne    0x31f8c7
+31f87b mov    rbx,QWORD PTR [rsp+0x20]
+31f880 lea    rdx,[rbp+0x1cc]
+31f887 lea    rcx,[rbp+0xa88]
+31f88e call   0x2f2b68 ; STRING getter=0x2f2b68 Wolf
+31f893 mov    rcx,rax
+31f896 call   0x2e35ec
+31f89b mov    rdx,rax
+31f89e lea    rcx,[rsp+0x28]
+31f8a3 call   0x2cc2cc
+31f8a8 mov    r9,rbx
+31f8ab lea    r8,[rsp+0x28]
+31f8b0 mov    edx,0x65
+31f8b5 mov    rcx,r13
+31f8b8 call   0x3176bc
+31f8bd lea    rcx,[rsp+0x28]
+31f8c2 call   0x2cc4f4
+31f8c7 cmp    BYTE PTR [rip+0xc88ca],dil        # 0x3e8198 ; CONFIG Bools.PigEsp value(+0x48)
+31f8ce je     0x31f947
+31f8d0 lea    rdx,[rbp+0x1d1]
+31f8d7 lea    rcx,[rbp+0xa88]
+31f8de call   0x2f2bb0 ; STRING getter=0x2f2bb0 Boar
+31f8e3 mov    rcx,rax
+31f8e6 call   0x2e35ec
+31f8eb mov    rcx,rax
+31f8ee mov    rdx,r14
+31f8f1 call   0x2e5b4c
+31f8f6 cmp    rsi,rax
+31f8f9 jne    0x31f947
+31f8fb mov    rbx,QWORD PTR [rsp+0x20]
+31f900 lea    rdx,[rbp+0x1d6]
+31f907 lea    rcx,[rbp+0xa88]
+31f90e call   0x2f2c9c ; STRING getter=0x2f2c9c Boar
+31f913 mov    rcx,rax
+31f916 call   0x2e35ec
+31f91b mov    rdx,rax
+31f91e lea    rcx,[rsp+0x28]
+31f923 call   0x2cc2cc
+31f928 mov    r9,rbx
+31f92b lea    r8,[rsp+0x28]
+31f930 mov    edx,0x66
+31f935 mov    rcx,r13
+31f938 call   0x3176bc
+31f93d lea    rcx,[rsp+0x28]
+31f942 call   0x2cc4f4
+31f947 cmp    BYTE PTR [rip+0xc889a],dil        # 0x3e81e8 ; CONFIG Bools.HorseEsp value(+0x48)
+31f94e je     0x31f9f6
+31f954 lea    rdx,[rbp+0x234]
+31f95b lea    rcx,[rbp+0xa88]
+31f962 call   0x2f2ce4 ; STRING getter=0x2f2ce4 Horse
+31f967 mov    rcx,rax
+31f96a call   0x2d84b4
+31f96f mov    rcx,rax
+31f972 mov    rdx,r14
+31f975 call   0x2e5b4c
+31f97a cmp    rsi,rax
+31f97d je     0x31f9aa
+31f97f lea    rdx,[rbp+0x7bc]
+31f986 lea    rcx,[rbp+0xa88]
+31f98d call   0x2f2d2c ; STRING getter=0x2f2d2c RidableHorse
+31f992 mov    rcx,rax
+31f995 call   0x2cde5c
+31f99a mov    rcx,rax
+31f99d mov    rdx,r14
+31f9a0 call   0x2e5b4c
+31f9a5 cmp    rsi,rax
+31f9a8 jne    0x31f9f6
+31f9aa mov    rbx,QWORD PTR [rsp+0x20]
+31f9af lea    rdx,[rbp+0x22e]
+31f9b6 lea    rcx,[rbp+0xa88]
+31f9bd call   0x2f2d60 ; STRING getter=0x2f2d60 Horse
+31f9c2 mov    rcx,rax
+31f9c5 call   0x2d84b4
+31f9ca mov    rdx,rax
+31f9cd lea    rcx,[rsp+0x28]
+31f9d2 call   0x2cc2cc
+31f9d7 mov    r9,rbx
+31f9da lea    r8,[rsp+0x28]
+31f9df mov    edx,0x67
+31f9e4 mov    rcx,r13
+31f9e7 call   0x3176bc
+31f9ec lea    rcx,[rsp+0x28]
+31f9f1 call   0x2cc4f4
+31f9f6 cmp    BYTE PTR [rip+0xc883b],dil        # 0x3e8238 ; CONFIG Bools.SharkEsp value(+0x48)
+31f9fd je     0x31fa76
+31f9ff lea    rdx,[rbp+0x734]
+31fa06 lea    rcx,[rbp+0xa88]
+31fa0d call   0x2f2d90 ; STRING getter=0x2f2d90 SimpleShark
+31fa12 mov    rcx,rax
+31fa15 call   0x2cde0c
+31fa1a mov    rcx,rax
+31fa1d mov    rdx,r14
+31fa20 call   0x2e5b4c
+31fa25 cmp    rsi,rax
+31fa28 jne    0x31fa76
+31fa2a mov    rbx,QWORD PTR [rsp+0x20]
+31fa2f lea    rdx,[rbp+0x228]
+31fa36 lea    rcx,[rbp+0xa88]
+31fa3d call   0x2f2dc4 ; STRING getter=0x2f2dc4 Shark
+31fa42 mov    rcx,rax
+31fa45 call   0x2d84b4
+31fa4a mov    rdx,rax
+31fa4d lea    rcx,[rsp+0x28]
+31fa52 call   0x2cc2cc
+31fa57 mov    r9,rbx
+31fa5a lea    r8,[rsp+0x28]
+31fa5f mov    edx,0x68
+31fa64 mov    rcx,r13
+31fa67 call   0x3176bc
+31fa6c lea    rcx,[rsp+0x28]
+31fa71 call   0x2cc4f4
+31fa76 lea    rdx,[rbp+0x86e]
+31fa7d lea    rcx,[rbp+0xa88]
+31fa84 call   0x2f2df8 ; STRING getter=0x2f2df8 ScientistNPC2
+31fa89 mov    rcx,rax
+31fa8c call   0x2d861c
+31fa91 mov    rcx,rax
+31fa94 mov    rdx,r14
+31fa97 call   0x2e5b4c
+31fa9c cmp    rsi,rax
+31fa9f jne    0x31faf7
+31faa1 mov    rcx,QWORD PTR [rsp+0x20]
+31faa6 lea    rdx,[rbp+0x218]
+31faad mov    r8d,0x35
+31fab3 call   0x368be8
+31fab8 mov    rcx,QWORD PTR [rbp-0x50]
+31fabc lea    rdx,[rbp+0x740]
+31fac3 call   0x36ca34
+31fac8 mov    rcx,rax
+31facb lea    rdx,[rbp+0x218]
+31fad2 call   0x2dff30
+31fad7 movd   xmm1,DWORD PTR [rip+0xb86b9]        # 0x3d8198 ; CONFIG i.ScientistMaxDistance value(+0x48)
+31fadf cvtdq2ps xmm1,xmm1
+31fae2 comiss xmm1,xmm0
+31fae5 jb     0x31faf7
+31fae7 mov    rdx,QWORD PTR [rsp+0x20]
+31faec mov    r8b,0x1
+31faef mov    rcx,r13
+31faf2 call   0x3177b4
+31faf7 mov    eax,0x6
+31fafc cmp    r12w,ax
+31fb00 jne    0x31fdfb
+31fb06 mov    rdx,QWORD PTR [rsp+0x20]
+31fb0b cmp    rdx,r15
+31fb0e je     0x31fdfb
+31fb14 cmp    BYTE PTR [rip+0xb844d],dil        # 0x3d7f68 ; CONFIG Bools.SilentMeleePlayers value(+0x48)
+31fb1b je     0x31fb84
+31fb1d mov    rsi,QWORD PTR [rbp+0xc0]
+31fb24 mov    rcx,rsi
+31fb27 call   0x2caf08
+31fb2c test   al,al
+31fb2e je     0x31fb8b
+31fb30 mov    rcx,rdx
+31fb33 call   0x36a0e0
+31fb38 test   al,al
+31fb3a je     0x31fb71
+31fb3c lea    rdx,[rbp+0x74c]
+31fb43 mov    rcx,r15
+31fb46 call   0x369164
+31fb4b mov    rcx,QWORD PTR [rsp+0x20]
+31fb50 lea    rdx,[rbp+0xf0]
+31fb57 movsd  xmm0,QWORD PTR [rax]
+31fb5b mov    eax,DWORD PTR [rax+0x8]
+31fb5e movsd  QWORD PTR [rbp+0xf0],xmm0
+31fb66 mov    DWORD PTR [rbp+0xf8],eax
+31fb6c call   0x3666b0
+31fb71 mov    rdx,QWORD PTR [rsp+0x20]
+31fb76 cmp    rsi,rdx
+31fb79 jne    0x31fb8b
+31fb7b mov    QWORD PTR [rip+0xb773e],rdx        # 0x3d72c0
+31fb82 jmp    0x31fb8b
+31fb84 mov    QWORD PTR [rip+0xb7735],rdi        # 0x3d72c0
+31fb8b mov    rcx,r13
+31fb8e call   0x31787c
+31fb93 mov    rcx,QWORD PTR [rsp+0x20]
+31fb98 call   0x3693b0
+31fb9d mov    rcx,QWORD PTR [rsp+0x20]
+31fba2 mov    r12b,al
+31fba5 call   0x368244
+31fbaa mov    rcx,QWORD PTR [rsp+0x20]
+31fbaf mov    bl,al
+31fbb1 call   0x36b288
+31fbb6 test   al,al
+31fbb8 jne    0x31fbbe
+31fbba test   bl,bl
+31fbbc je     0x31fbcb
+31fbbe cmp    BYTE PTR [rip+0xc7c73],dil        # 0x3e7838 ; CONFIG Bools.Wounded value(+0x48)
+31fbc5 je     0x31fdfb
+31fbcb mov    rcx,QWORD PTR [rsp+0x20]
+31fbd0 call   0x36acb8
+31fbd5 test   al,al
+31fbd7 je     0x31fbe6
+31fbd9 cmp    BYTE PTR [rip+0xc7a78],dil        # 0x3e7658 ; CONFIG Bools.SafeZone value(+0x48)
+31fbe0 je     0x31fdfb
+31fbe6 mov    rcx,QWORD PTR [rsp+0x20]
+31fbeb xor    edx,edx
+31fbed call   0x36a20c
+31fbf2 test   al,al
+31fbf4 je     0x31fc07
+31fbf6 mov    rcx,QWORD PTR [rsp+0x20]
+31fbfb call   0x36821c
+31fc00 mov    r14b,0x1
+31fc03 test   al,al
+31fc05 je     0x31fc0a
+31fc07 mov    r14b,dil
+31fc0a mov    rcx,QWORD PTR [rsp+0x20]
+31fc0f xor    edx,edx
+31fc11 call   0x36a20c
+31fc16 test   al,al
+31fc18 je     0x31fc24
+31fc1a mov    rcx,QWORD PTR [rsp+0x20]
+31fc1f call   0x36821c
+31fc24 mov    rcx,QWORD PTR [rsp+0x20]
+31fc29 call   0x36a178
+31fc2e mov    r15b,al
+31fc31 test   al,al
+31fc33 je     0x31fc3e
+31fc35 cmp    BYTE PTR [rip+0xc77ec],dil        # 0x3e7428 ; CONFIG Bools.Scientist value(+0x48)
+31fc3c jmp    0x31fc45
+31fc3e cmp    BYTE PTR [rip+0xc7603],dil        # 0x3e7248 ; CONFIG Bools.PlayerESP value(+0x48)
+31fc45 je     0x31fdf6
+31fc4b mov    rcx,QWORD PTR [rsp+0x20]
+31fc50 xor    edx,edx
+31fc52 call   0x2cd32c
+31fc57 mov    rcx,QWORD PTR [rsp+0x20]
+31fc5c mov    rbx,rax
+31fc5f call   0x36af58
+31fc64 test   rbx,rbx
+31fc67 je     0x31fc74
+31fc69 cmp    rbx,QWORD PTR [rbp+0xb8]
+31fc70 mov    bl,0x1
+31fc72 je     0x31fc77
+31fc74 mov    bl,dil
+31fc77 mov    edi,DWORD PTR [rbp-0x5c]
+31fc7a lea    rdx,[rsp+0x28]
+31fc7f mov    rcx,QWORD PTR [rsp+0x20]
+31fc84 xor    r8d,r8d
+31fc87 or     edi,0x1
+31fc8a call   0x369e70
+31fc8f mov    rdx,rax
+31fc92 lea    rcx,[rip+0xb75c7]        # 0x3d7260
+31fc99 call   0x2df608
+31fc9e cmp    DWORD PTR [rax+0x24],0x1
+31fca2 je     0x31fcad
+31fca4 test   bl,bl
+31fca6 jne    0x31fcad
+31fca8 xor    sil,sil
+31fcab jmp    0x31fcb0
+31fcad mov    sil,0x1
+31fcb0 and    edi,0xfffffffe
+31fcb3 lea    rcx,[rsp+0x28]
+31fcb8 mov    DWORD PTR [rbp-0x5c],edi
+31fcbb call   0x2cc4f4
+31fcc0 mov    rcx,QWORD PTR [rsp+0x20]
+31fcc5 lea    rdx,[rsp+0x28]
+31fcca xor    r8d,r8d
+31fccd call   0x369e70
+31fcd2 mov    rdx,rax
+31fcd5 lea    rcx,[rip+0xb7584]        # 0x3d7260
+31fcdc call   0x2df608
+31fce1 lea    rcx,[rsp+0x28]
+31fce6 mov    edi,DWORD PTR [rax+0x24]
+31fce9 call   0x2cc4f4
+31fcee cmp    edi,0x2
+31fcf1 jne    0x31fd15
+31fcf3 xor    r8d,r8d
+31fcf6 lea    rdx,[rbp+0x978]
+31fcfd lea    rcx,[rip+0xd0a74]        # 0x3f0778 ; CONFIG VectorBools.EnemyOptions value(+0x48)
+31fd04 call   0x2e98f0
+31fd09 mov    rcx,rax
+31fd0c call   0x2d4d70
+31fd11 test   al,al
+31fd13 jne    0x31fd22
+31fd15 cmp    BYTE PTR [rip+0xc761c],0x0        # 0x3e7338 ; CONFIG Bools.Sleepers value(+0x48)
+31fd1c jne    0x31fd22
+31fd1e xor    bl,bl
+31fd20 jmp    0x31fd24
+31fd22 mov    bl,0x1
+31fd24 cmp    edi,0x2
+31fd27 jne    0x31fd4c
+31fd29 lea    r8d,[rdi-0x1]
+31fd2d lea    rdx,[rbp+0x988]
+31fd34 lea    rcx,[rip+0xd0a3d]        # 0x3f0778 ; CONFIG VectorBools.EnemyOptions value(+0x48)
+31fd3b call   0x2e98f0
+31fd40 mov    rcx,rax
+31fd43 call   0x2d4d70
+31fd48 test   al,al
+31fd4a jne    0x31fd59
+31fd4c cmp    BYTE PTR [rip+0xc7685],0x0        # 0x3e73d8 ; CONFIG Bools.Dead value(+0x48)
+31fd53 jne    0x31fd59
+31fd55 xor    al,al
+31fd57 jmp    0x31fd5b
+31fd59 mov    al,0x1
+31fd5b test   r12b,r12b
+31fd5e je     0x31fd68
+31fd60 test   al,al
+31fd62 je     0x31fdf6
+31fd68 test   r14b,r14b
+31fd6b je     0x31fd75
+31fd6d test   bl,bl
+31fd6f je     0x31fdf6
+31fd75 test   sil,sil
+31fd78 je     0x31fd83
+31fd7a cmp    BYTE PTR [rip+0xc9e07],0x0        # 0x3e9b88 ; CONFIG Bools.drawteam value(+0x48)
+31fd81 je     0x31fdf6
+31fd83 cmp    edi,0x2
+31fd86 jne    0x31fd91
+31fd88 cmp    BYTE PTR [rip+0xca3e9],0x0        # 0x3ea178 ; CONFIG Bools.draweenemy value(+0x48)
+31fd8f je     0x31fdf6
+31fd91 mov    rcx,QWORD PTR [rsp+0x20]
+31fd96 lea    rdx,[rbp+0x288]
+31fd9d mov    r8d,0x35
+31fda3 call   0x368be8
+31fda8 mov    rcx,QWORD PTR [rbp-0x50]
+31fdac lea    rdx,[rbp+0x758]
+31fdb3 call   0x36ca34
+31fdb8 mov    rcx,rax
+31fdbb lea    rdx,[rbp+0x288]
+31fdc2 call   0x2dff30
+31fdc7 test   r15b,r15b
+31fdca je     0x31fdd6
+31fdcc movd   xmm1,DWORD PTR [rip+0xb83c4]        # 0x3d8198 ; CONFIG i.ScientistMaxDistance value(+0x48)
+31fdd4 jmp    0x31fdde
+31fdd6 movd   xmm1,DWORD PTR [rip+0xb836a]        # 0x3d8148 ; CONFIG i.PlayerMaxDistance value(+0x48)
+31fdde cvtdq2ps xmm1,xmm1
+31fde1 comiss xmm0,xmm1
+31fde4 ja     0x31fdf6
+31fde6 mov    rdx,QWORD PTR [rsp+0x20]
+31fdeb xor    r8d,r8d
+31fdee mov    rcx,r13
+31fdf1 call   0x3177b4
+31fdf6 mov    r15,QWORD PTR [rsp+0x48]
+31fdfb mov    eax,DWORD PTR [rbp+0xa98]
+31fe01 mov    rbx,QWORD PTR [rbp+0xb0]
+31fe08 inc    eax
+31fe0a mov    edi,eax
+31fe0c mov    DWORD PTR [rbp+0xa98],eax
+31fe12 cmp    eax,DWORD PTR [rbp-0x58]
+31fe15 jl     0x31adf5
+31fe1b lea    r11,[rsp+0xb40]
+31fe23 mov    rbx,QWORD PTR [r11+0x40]
+31fe27 movaps xmm6,XMMWORD PTR [r11-0x10]
+31fe2c movaps xmm7,XMMWORD PTR [r11-0x20]
+31fe31 movaps xmm8,XMMWORD PTR [r11-0x30]
+31fe36 movaps xmm9,XMMWORD PTR [r11-0x40]
+31fe3b mov    rsp,r11
+31fe3e pop    r15
+31fe40 pop    r14
+31fe42 pop    r13
+31fe44 pop    r12
+31fe46 pop    rdi
+31fe47 pop    rsi
+31fe48 pop    rbp
+31fe49 ret

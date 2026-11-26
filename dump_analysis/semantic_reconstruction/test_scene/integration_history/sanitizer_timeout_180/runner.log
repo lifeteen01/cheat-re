@@ -1,0 +1,38 @@
+Compile sanitizer esp.cpp
+Compile sanitizer esp_root_checks.cpp
+Compile sanitizer frame.cpp
+Compile sanitizer frame_checks.cpp
+Compile sanitizer host.cpp
+Compile sanitizer menu.cpp
+Compile sanitizer menu_lifecycle_checks.cpp
+Compile sanitizer resource_checks.cpp
+Compile sanitizer resources.cpp
+Compile sanitizer scene.cpp
+Compile sanitizer semantic_checks.cpp
+{"passed": true, "mode": "sanitizer", "cache_hits": 140, "artifact": "dump_analysis/semantic_reconstruction/test_scene/sanitizer/owned_scene", "artifact_sha256": "50fc395fd840df7d52c42921f26abe08e68cee588c78c55b09cc41d6138919f4"}
+Traceback (most recent call last):
+  File "/home/john/Desktop/cheat_re/source/test_scene/verify.py", line 161, in <module>
+    main()
+    ~~~~^^
+  File "/home/john/Desktop/cheat_re/source/test_scene/verify.py", line 120, in main
+    code = subprocess.run([str(target), "--self-test", "--output", str(runtime), "--profile",
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        str(ROOT / "source/windows_base/offsets.json")], env=environment, stdout=log,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        stderr=subprocess.STDOUT, timeout=180).returncode
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1221, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 2179, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1279, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 2076, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/sanitizer/owned_scene', '--self-test', '--output', '/home/john/Desktop/cheat_re/dump_analysis/semantic_reconstruction/test_scene/sanitizer/runtime', '--profile', '/home/john/Desktop/cheat_re/source/windows_base/offsets.json']' timed out after 180 seconds

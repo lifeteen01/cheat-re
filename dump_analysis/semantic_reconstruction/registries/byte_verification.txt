@@ -1,0 +1,1 @@
+[C] 70 explicit ranges; 1734 byte spans agree with preserved DLL

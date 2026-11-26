@@ -1,0 +1,9 @@
+39b6d8	mov    rax,QWORD PTR [rip+0x6a449]        # 0x405b28
+39b6df	cmp    QWORD PTR [rax+0x48e8],rcx
+39b6e6	je     0x39b6ef
+39b6e8	mov    QWORD PTR [rax+0x48e8],rcx
+39b6ef	xor    ecx,ecx
+39b6f1	mov    WORD PTR [rax+0x4940],cx
+39b6f8	mov    BYTE PTR [rax+0x4929],cl
+39b6fe	jmp    0x39676c
+39b703	int3

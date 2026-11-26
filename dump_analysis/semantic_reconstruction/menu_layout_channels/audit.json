@@ -1,0 +1,181 @@
+{
+  "input_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090",
+  "ranges": [
+    {
+      "begin": "0x3b54ac",
+      "end_exclusive": "0x3b54f9",
+      "bytes": 77,
+      "instructions": 20,
+      "calls": [
+        {
+          "site": "0x3b54b6",
+          "target": "0x3923c8",
+          "instruction": "call   0x3923c8"
+        },
+        {
+          "site": "0x3b54d2",
+          "target": "0x3b563c",
+          "instruction": "call   0x3b563c"
+        },
+        {
+          "site": "0x3b54e9",
+          "target": "0x3a8094",
+          "instruction": "call   0x3a8094"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x3b54c9",
+          "target": "0x3b54ee",
+          "instruction": "je     0x3b54ee"
+        }
+      ],
+      "sha256": "357e41a8b03bc914b53157bada3dd62dda7d268aab61097af090a556bcccce8c",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x3b54fc",
+      "end_exclusive": "0x3b5551",
+      "bytes": 85,
+      "instructions": 21,
+      "calls": [
+        {
+          "site": "0x3b5506",
+          "target": "0x3923c8",
+          "instruction": "call   0x3923c8"
+        },
+        {
+          "site": "0x3b552e",
+          "target": "0x3b563c",
+          "instruction": "call   0x3b563c"
+        },
+        {
+          "site": "0x3b5541",
+          "target": "0x3a8094",
+          "instruction": "call   0x3a8094"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x3b5519",
+          "target": "0x3b5546",
+          "instruction": "je     0x3b5546"
+        }
+      ],
+      "sha256": "d7d2c27d09f5321450a557d1521e52c2a8449034776b24acaaa626a34a275796",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x3b5824",
+      "end_exclusive": "0x3b588d",
+      "bytes": 105,
+      "instructions": 22,
+      "calls": [
+        {
+          "site": "0x3b584f",
+          "target": "0x3b4f88",
+          "instruction": "call   0x3b4f88"
+        },
+        {
+          "site": "0x3b5861",
+          "target": "0x3b563c",
+          "instruction": "call   0x3b563c"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x3b5888",
+          "target": "0x3a8094",
+          "instruction": "jmp    0x3a8094"
+        }
+      ],
+      "sha256": "241677719add5e8cfa4c88168d0cac5c200327ef09e9490df90e99c652ad9f23",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x3b5890",
+      "end_exclusive": "0x3b58f2",
+      "bytes": 98,
+      "instructions": 18,
+      "calls": [
+        {
+          "site": "0x3b58c8",
+          "target": "0x3b563c",
+          "instruction": "call   0x3b563c"
+        }
+      ],
+      "branches": [
+        {
+          "site": "0x3b58ed",
+          "target": "0x3a8094",
+          "instruction": "jmp    0x3a8094"
+        }
+      ],
+      "sha256": "5e856f0d8d4b811922880ec89cc70dcf141b02b423c98c2c6e34c54f3255d7f8",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x3b563c",
+      "end_exclusive": "0x3b569d",
+      "bytes": 97,
+      "instructions": 23,
+      "calls": [
+        {
+          "site": "0x3b5654",
+          "target": "0x39c010",
+          "instruction": "call   0x39c010"
+        }
+      ],
+      "branches": [],
+      "sha256": "0fb41966393fa761b30abd76006b0b2e5422c836260c59afba775cb48ce643b1",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x3b4f88",
+      "end_exclusive": "0x3b4f93",
+      "bytes": 11,
+      "instructions": 4,
+      "calls": [],
+      "branches": [],
+      "sha256": "11c3cfdb78f46ee692f154f652ade417fc8356c5db58e140e0c18af135a09e03",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x39c010",
+      "end_exclusive": "0x39c043",
+      "bytes": 51,
+      "instructions": 14,
+      "calls": [
+        {
+          "site": "0x39c035",
+          "target": "0x2cc350",
+          "instruction": "call   0x2cc350"
+        }
+      ],
+      "branches": [],
+      "sha256": "944607312653d66a53be8eb7da03359fdc56ba1fc4f0534a9cece8f403c20e0c",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    },
+    {
+      "begin": "0x3923c8",
+      "end_exclusive": "0x3923d7",
+      "bytes": 15,
+      "instructions": 3,
+      "calls": [],
+      "branches": [],
+      "sha256": "8d9008de68c2882927a6ad1b93cb78023571af08468005317020568f9180aa1a",
+      "status": "C: concrete controller/shared fold; buffers use explicit owned adaptation"
+    }
+  ],
+  "bytes": 539,
+  "instructions": 125,
+  "shared_dependencies": {
+    "0x3a8094": "existing draw_core_switch_channel_3a8094",
+    "0x2cc350": "four-float local Vec4 construction; no raw native stack address fabricated"
+  },
+  "limits": [
+    "No sample execution",
+    "Owned splitter/draw-buffer ABI adaptation",
+    "No full ImGui table implementation claim"
+  ]
+}

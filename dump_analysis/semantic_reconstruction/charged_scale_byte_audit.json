@@ -1,0 +1,55 @@
+{
+  "confidence": "C",
+  "range": [
+    "0x36b504",
+    "0x36b52e"
+  ],
+  "spans": [
+    {
+      "rva": "0x36b504",
+      "bytes": "4883ec28"
+    },
+    {
+      "rva": "0x36b508",
+      "bytes": "488bd1"
+    },
+    {
+      "rva": "0x36b50b",
+      "bytes": "e8f8f9f5ff"
+    },
+    {
+      "rva": "0x36b510",
+      "bytes": "84c0"
+    },
+    {
+      "rva": "0x36b512",
+      "bytes": "7505"
+    },
+    {
+      "rva": "0x36b514",
+      "bytes": "0f57c0"
+    },
+    {
+      "rva": "0x36b517",
+      "bytes": "eb10"
+    },
+    {
+      "rva": "0x36b519",
+      "bytes": "f30f1082ac030000"
+    },
+    {
+      "rva": "0x36b521",
+      "bytes": "f30f58052b1df2ff"
+    },
+    {
+      "rva": "0x36b529",
+      "bytes": "4883c428"
+    },
+    {
+      "rva": "0x36b52d",
+      "bytes": "c3"
+    }
+  ],
+  "literal_28d254": "3f800000",
+  "dll_sha256": "ad5ad10d4fbb818064a4d1ce245c6c586394026c2296c94d2eb99e7487ee2090"
+}

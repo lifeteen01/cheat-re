@@ -1,0 +1,110 @@
+{
+  "latest_user_objective": "Usable DLL menu and one-file offset updates, using sub-agents",
+  "status": "complete within the declared native menu/profile owned-host scope",
+  "requirements": {
+    "three_subagent_deliverables_integrated": true,
+    "working_native_menu_controls": true,
+    "one_external_json_profile": true,
+    "named_contexts_and_kind_module_checks": true,
+    "edit_save_reload_changes_consumers_without_rebuild": true,
+    "invalid_reload_retains_last_good": true,
+    "unknown_build_refused": true,
+    "windows_direct_and_cmake_cross_builds": true,
+    "native_strict_sanitizer": true,
+    "wine_host_ui_lifecycle_integration": true
+  },
+  "checks": {
+    "menu_offsets_integrated_sources.json": {
+      "passed": true,
+      "captured_inputs": 455,
+      "unchanged_and_current": true
+    },
+    "menu_offsets_sanitizer_sources.json": {
+      "passed": true,
+      "captured_inputs": 455,
+      "unchanged_and_current": true
+    },
+    "windows_base/build/verification.json": {
+      "passed": true,
+      "captured_inputs": 34,
+      "unchanged_and_current": true
+    },
+    "windows_base/cmake_verification.json": {
+      "passed": true,
+      "captured_inputs": 40,
+      "unchanged_and_current": true
+    },
+    "windows_base/native_checks/verification.json": {
+      "passed": true,
+      "captured_inputs": 29,
+      "unchanged_and_current": true
+    },
+    "windows_base/wine_runtime/verification.json": {
+      "passed": true,
+      "captured_inputs": 35,
+      "unchanged_and_current": true
+    }
+  },
+  "catalog": {
+    "entries": 219,
+    "field_contexts": 142,
+    "native_reference_contexts": 77,
+    "historical_field_values": 77,
+    "historical_rvas": 64,
+    "owned_getter_contexts": 28,
+    "direct_numeric_resolvers": 18
+  },
+  "release_files": {
+    "source/reconstructed/offset_profile.hpp": "e1fdec56fcdbf0fbf560a85e0c2f9e4ccd2c3ea2eb76b0e913a33a1fa94f542c",
+    "source/reconstructed/offset_profile.cpp": "240c30c91e2583690b5739e1b3c7a0eb913ae52e5e62a53b649efd9801a0da68",
+    "source/reconstructed/offset_profile_checks.cpp": "c60e6138d80ee4526b85b853191ec0f8315ea6a56fd98c1376ca5972c258e67b",
+    "dump_analysis/semantic_reconstruction/menu_offsets/profile/README.md": "8673faeeb9fbcd1f1050ae8e17c9be5678c30facfb6b8d63ca4c984cf2813275",
+    "dump_analysis/semantic_reconstruction/menu_offsets/profile/verify.sh": "e62630f31f920fae54856c6fa120a0ce4becfe5131e35c79bf21a05a27d2c4b9",
+    "dump_analysis/semantic_reconstruction/menu_offsets/profile/driver.cpp": "f0718a5f2a72466fab703c7a13385bfd38d7f6735c1f016b032cb26a66626a43",
+    "source/reconstructed/offset_catalog.hpp": "047eafccdcbf51e08b92ddcd1d8bfc92881f04ab065d53604ffbde5da9baab78",
+    "source/reconstructed/offset_catalog.cpp": "2ccfda1bba1b5c659e5846e375dc9cc65c2bf02b28c7303a61835506d714244c",
+    "source/reconstructed/offset_catalog_checks.cpp": "134da27240fffda4d282bb2ab487cf9c53baf02c5f79dcb305dd57abd80be414",
+    "source/reconstructed/offset_profile_bindings.hpp": "204d1889cd685021471fa78f966b6b3b77972763fd4f3fb99af7281363b4a74e",
+    "source/reconstructed/offset_profile_bindings.cpp": "ee0e30f04d4c1ba3342ad6f0964aa6000c747ce681749fd813c63cf421b9c1d3",
+    "source/windows_base/offsets.json": "ebee9bbd0bdb3d487b77a3e6ce51c2b563a774fdd65fd21d10851ce6ae8a45b6",
+    "source/windows_base/OFFSETS.md": "cfbbfdf58e4138aa9e651f8eac530851df51591d7bddeaca23be50bb23d1b520",
+    "dump_analysis/semantic_reconstruction/menu_offsets/catalog/README.md": "e293dd29cd451d9f6cbcd9e539fae9abdc15cd85a3d7ff08c48845c4ddab066d",
+    "dump_analysis/semantic_reconstruction/menu_offsets/catalog/generate_catalog.py": "429724d0229524e51aa3cb2e847e689516bbd08972fe87f590afe44b27f217d1",
+    "dump_analysis/semantic_reconstruction/menu_offsets/catalog/verify_catalog.py": "5b76a20164ef5f2227cd85a58846da1be34b98e863a2f79a23c85d68138ce547",
+    "dump_analysis/semantic_reconstruction/menu_offsets/catalog/catalog_main.cpp": "a8b3dbae5b1f091f91a5be609fd7abd11854886d07ff335ae34dfc9ee38e3408",
+    "dump_analysis/semantic_reconstruction/menu_offsets/catalog/catalog.json": "fc25365e6906e63b7134c7304e68dc8466ed93ee286a81d5025248bfe59f8958",
+    "dump_analysis/semantic_reconstruction/menu_offsets/catalog/verification.json": "4dcf23cbb2023f4a3c56993a89be5fc3d7eebbfba89fccdaffacb1866f68528f",
+    "source/windows_base/base_menu.hpp": "d41cba3ebe435458216a1633bab647fa595d3f432d31774f3cf188220a83b78d",
+    "source/windows_base/base_menu.cpp": "d47b56d763d67228d65050d12f0c8e4ea393fba82a2a08f52d93e0485602ae73"
+  },
+  "parent_documentation_changes": [
+    {
+      "file": "source/windows_base/OFFSETS.md",
+      "change": "Parent added repository confidence tags to documentation; no catalog/code change"
+    }
+  ],
+  "native_windows_validated": false,
+  "current_game_offsets_verified": false,
+  "in_game_validated": false,
+  "legacy_goal_complete": false,
+  "legacy_goal_service": "blocked; replacement rejected because unfinished; not falsely completed",
+  "scope": "Native DLL menu/profile capabilities in authored owned host; no original game menu reconstruction, game feature, ABI, target or in-game claim",
+  "source_deliverable_checksums_passed": 561,
+  "preserved_input_hashes_passed": 135,
+  "documentation_audit": "passed",
+  "exported_functions": [
+    "RB_QueryAbi",
+    "RB_Initialize",
+    "RB_GetStatus",
+    "RB_Frame",
+    "RB_Shutdown",
+    "RB_SetMenuVisible",
+    "RB_GetMenuStatus",
+    "RB_LoadOffsets",
+    "RB_SaveOffsets",
+    "RB_SetOffset",
+    "RB_GetOffset",
+    "RB_ResolveOffset",
+    "RB_VerifyOffsets"
+  ]
+}
