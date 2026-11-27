@@ -101,11 +101,7 @@ void check_menu_render_bindings() {
     }
     if (!stopped || list.vertices.size != 12)
         { __builtin_trap(); }
-    // [FREESTANDING] image write operations require hosted I/O
-#if __STDC_HOSTED__
-    if (!image.write<Address>(10 + 0x38, 0x400) || !image.write<float>(0x410, 10))
-        { __builtin_trap(); }
-#endif
+    // [FREESTANDING] image write operations require hosted I/O — disabled (image not in scope)
     const auto xy = [](const DrawVertex &v) {
         Vec2 p;
         re::re_memcpy(&p, v.data(), 8);

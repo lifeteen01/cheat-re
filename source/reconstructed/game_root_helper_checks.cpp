@@ -25,14 +25,14 @@ void check_game_root_helpers() {
     effects.local_player = [&](const MetadataWrapperCall &q) {
         ++called;
         expect(q.dispatcher == 0x5678 && q.context == 0x3d6f20 &&
-                   globals.read<ReU64>(q.context + 0x80) == 0 &&
+                   globals.read<ReU64>(q.context + 0x80) == ReU64(0) &&
                    globals.read<Address>(q.context + 0x78) == 0xaaaaaaaaaaaaaaaaULL,
                "local-player root reload and concrete no-argument context packaging");
         return Address(0x200000);
     };
     const auto cold = game_root_local_player_2dda9c(globals, env, effects);
     expect(cold.status == GameBaseStatus::complete && cold.value == 0x200000 && observed == 1 &&
-               called == 1 && globals.read<Address>(0x3d6f08) == 0x5558c90,
+               called == 1 && globals.read<Address>(0x3d6f08) == Address(0x5558c90),
            "cold local-player native cache and effect result");
     expect(game_root_local_player_2dda9c(globals, env, effects).value == 0x200000 &&
                observed == 1 && called == 2,

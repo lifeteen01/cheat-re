@@ -42,6 +42,9 @@ wineprefix*/
 *.swo
 *~
 
+# Game install (large, copyrighted)
+dump_analysis/game_artifacts/rust_install/
+
 # OS
 .DS_Store
 Thumbs.db

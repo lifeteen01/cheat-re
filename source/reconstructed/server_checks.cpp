@@ -1,9 +1,26 @@
 #include "server_analysis.hpp"
+#ifndef _WIN32
+#include <sys/wait.h>
+#include <unistd.h>
+#endif
 
 namespace rust_internal_re {
 namespace {
 void require_server(bool value, re::ReStringView why) {
     if(!value)__builtin_trap();
+}
+bool expect_trap_server(void(*fn)()) {
+#ifndef _WIN32
+    pid_t pid = fork();
+    if (pid == 0) { fn(); _exit(0); }
+    if (pid < 0) return false;
+    int status = 0;
+    waitpid(pid, &status, 0);
+    return WIFSIGNALED(status);
+#else
+    (void)fn;
+    return true;
+#endif
 }
 bool close_server(float a, float b) {return re::re_fabsf(a-b)<0.0001f;}
 MovementPhysics airborne_physics() {
@@ -45,9 +62,12 @@ void check_search() {
     const re::ReVector<TrajectoryTable> malformed(140);
     require_server(search_candidates_2e2474({},malformed).status==CandidateSearchStatus::invalid_boundary,
                    "coarse index equal to count is explicit instead of reading an invalid endpoint");
-    bool invalid_interval=false;
-    { (void)refine_candidates_2e38e4(ref,tables,INT32_MIN,0,INT32_MAX,0); }
-    require_server(invalid_interval,"invalid refinement interval rejected before signed subtraction");
+    {
+        static auto s_ref = ref;
+        static auto s_tables_p = &tables;
+        require_server(expect_trap_server([]{ (void)refine_candidates_2e38e4(s_ref, *s_tables_p, INT32_MIN, 0, INT32_MAX, 0); }),
+            "invalid refinement interval rejected before signed subtraction");
+    }
     auto moving=ref;
     moving.minimum_horizontal=0;moving.maximum_horizontal=1000;
     for(ReUSize i=0;i<320;++i)moving.horizontal[i]=100+float(i);

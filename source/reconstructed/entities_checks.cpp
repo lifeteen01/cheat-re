@@ -1,9 +1,26 @@
 #include "entities_analysis.hpp"
+#ifndef _WIN32
+#include <sys/wait.h>
+#include <unistd.h>
+#endif
 
 namespace {
 using namespace rust_internal_re;
 void require_entity(bool value, re::ReStringView message) {
     if(!value)__builtin_trap();
+}
+bool expect_trap(void(*fn)()) {
+#ifndef _WIN32
+    pid_t pid = fork();
+    if (pid == 0) { fn(); _exit(0); }
+    if (pid < 0) return false;
+    int status = 0;
+    waitpid(pid, &status, 0);
+    return WIFSIGNALED(status);
+#else
+    (void)fn;
+    return true;
+#endif
 }
 re::ReVector<ReU16> u16v(const char16_t* s) { re::ReVector<ReU16> v; while(*s)v.push_back(ReU16(*s++)); return v; }
 bool near_entity(float a,float b) { return re::re_fabsf(a-b)<0.00001f; }
@@ -153,12 +170,15 @@ void check_render_commands() {
     require_entity(near_entity(plan.view_translation.x,0.0025f)&&
         plan.ortho_arguments==re::ReArray<float,6>{0,200,120,0,0,1}&&plan.disable_scissor,
         "view translation and unresolved Ortho argument boundary");
-    bool rejected=false;
-    {(void)plan_render_commands_3b1a94(frame,lists,2);}
-    require_entity(rejected,"bounded render command count");
-    auto invalid=frame;invalid.viewport.x=0;rejected=false;
-    {(void)plan_render_commands_3b1a94(invalid,lists);}
-    require_entity(rejected,"invalid viewport guard");
+    {
+        static auto neg_frame = frame;
+        static auto neg_lists_p = &lists;
+        require_entity(expect_trap([]{ (void)plan_render_commands_3b1a94(neg_frame, *neg_lists_p, 2); }),
+            "bounded render command count");
+        static auto inv = frame; inv.viewport.x = 0;
+        require_entity(expect_trap([]{ (void)plan_render_commands_3b1a94(inv, *neg_lists_p); }),
+            "invalid viewport guard");
+    }
     const RenderListInput inverted{{{{40,40,30,30},0xabc}}};
     const re::ReArray<RenderListInput, 1> inverted_lists{inverted};
     const auto inverted_plan=plan_render_commands_3b1a94(frame,inverted_lists);

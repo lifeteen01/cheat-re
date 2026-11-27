@@ -9,6 +9,7 @@ re::ReString text(const Snapshot& s,Address p){
     re::ReString out;
     for(ReUSize i=0;i<128;++i){const char c=get<char>(s,p+i);if(!c)return out;out.push_back(c);}
     { /* FREESTANDING_TODO: was throw runtime_error("cache string unterminated") */ }
+    return out;
 }
 struct Fixture {
     static constexpr Address base=0x100000,klass=0x110000,method=0x111000,name=0x112000;

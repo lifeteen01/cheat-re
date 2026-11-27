@@ -1,0 +1,36 @@
+{
+  "iteration": 20,
+  "phase": "gpt_review_fixes_complete",
+  "build_status": "compiles",
+  "source_files": 264,
+  "completed_fixes_this_session": [
+    "Domain dispatch: 8 bind layers, 33 RVAs, page dispatch, embedded assets from files",
+    "Typed call table: 60+ RVAs, 8 calling conventions, correct int/float/void/Address returns",
+    "Metadata adapter: GameAssembly image, string interning, icall/export resolution, method introspection",
+    "50+ callback bindings: Screen, Time, Mouse, AssetBundle, Mesh, Material, Texture2D, CommandBuffer, etc.",
+    "5 hooks installed via IL2CPP: Client.LateUpdate, Projectile.Update, WaterOverlay.Update, SmokeGrenade.Update, TOD_Sky.LateUpdate",
+    "Hook race fix: original pointers stored before detours published",
+    "MaterialPropertyBlock.ctor binding (was incorrectly Mesh.ctor), CommandBuffer.ctor added",
+    "Backend cache lookup: external adapter now checks prepared cache targets via spec.flags",
+    "Mouse/Pointer instance getters: reclassified from zero-arg to instance methods",
+    "Draw finalization: returns valid empty draw data instead of nullopt (prevents trap)",
+    "SEH recovery: frame replay wrapped in SEH on MSVC to recover from __builtin_trap",
+    "UnityManagedArray: il2cpp_array_new returns structured type with object+length+bytes copy",
+    "LoadFromMemory adapter: writes bytes back to managed array before calling icall",
+    "PinSystemObjectAndGetAddress: returns UnityPinned with object+handle",
+    "Generic fallback: handles 4-6 argument calls instead of dropping to 1 arg",
+    "Settings: pre-populated caches, full initializer, attributes+files+directory callbacks",
+    "Embedded assets: 8 UnityFS blobs extracted from dump, loaded from files",
+    "Literal storage: within im_snapshot padded region for snapshot writes",
+    "Test isolation: fork-based negative test isolation for entities and server checks",
+    "Unload: ref-counted detours, init thread terminated on timeout, hooks always restored"
+  ],
+  "not_done": {
+    "10_scan_hooks": "10 hooks with hashed method names need class-scan IL2CPP matching",
+    "event_hook_behavior": "4 event hooks are pass-through only — need reconstructed detour logic",
+    "settings_registry": "frame_config_state.objects unpopulated, s_frame_config at defaults",
+    "draw_producers": "DrawCoreStore has no connected producer — needs ImGui context",
+    "loader_lock_unload": "Cleanup still runs under DllMain loader lock — needs dedicated shutdown thread",
+    "signature_init_replacement": "Skipped initialize_client_362118 — signature caching effects absent"
+  }
+}

@@ -1,6 +1,6 @@
 #include "world_esp_analysis.hpp"
 namespace rust_internal_re {
-re::ReString encode_world_name_393c38(re::ReSpan<const char16_t> wide, ReUSize capacity) {
+re::ReString encode_world_name_393c38(re::ReSpan<const ReU16> wide, ReUSize capacity) {
     re::ReString out;
     if (capacity == 0)
         return out;

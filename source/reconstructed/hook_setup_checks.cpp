@@ -11,6 +11,7 @@ void hs_text(Snapshot& s,Address p,re::ReStringView value){
 re::ReString hs_string(const Snapshot& s,Address p){
     re::ReString out;for(unsigned i=0;i<1024;++i){auto c=s.read<char>(p+i);require_setup(bool(c),"hook fixture string");if(!*c)return out;out+=*c;}
     { /* FREESTANDING_TODO: was throw runtime_error("hook fixture string limit") */ }
+    return out;
 }
 struct HookFixture {
     const Address b=0x1000000;

@@ -6,6 +6,13 @@
 #include <windows.h>
 #else
 #endif
+#if __STDC_HOSTED__
+#include <fstream>
+#include <filesystem>
+#ifndef _WIN32
+#include <unistd.h>
+#endif
+#endif
 
 namespace re_base {
 namespace {
@@ -339,6 +346,14 @@ ProfileResult save_offset_profile(const std::filesystem::path &path, const Offse
     return {};
 }
 #endif /* __STDC_HOSTED__ */
+ProfileResult load_offset_profile(re::ReStringView path, OffsetProfile &out) {
+#if __STDC_HOSTED__
+    return load_offset_profile(std::filesystem::path(std::string(path.data(), path.size())), out);
+#else
+    (void)path; (void)out;
+    return fail(ProfileError::io, "not supported in freestanding mode");
+#endif
+}
 ProfileResult set_profile_offset(OffsetProfile &p, re::ReStringView key, re::ReStringView hex) {
     auto result = validate_offset_profile(p); if (!result) return result;
     if (!valid_name(key)) return fail(ProfileError::invalid_value, "invalid offset key");

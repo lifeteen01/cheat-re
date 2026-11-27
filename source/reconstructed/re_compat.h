@@ -1,6 +1,6 @@
 #pragma once
 /* Freestanding compatibility helpers for missing runtime API. */
-#include "re_string.h"
+#include "../../freestanding/runtime/re_string.h"
 
 namespace re {
 /* Fill-constructor for ReString (re_string.h lacks ReString(count, char)). */

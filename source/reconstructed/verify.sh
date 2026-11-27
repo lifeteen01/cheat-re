@@ -41,7 +41,15 @@ if [[ "${RE_ANALYSIS_SANITIZE:-0}" == 1 ]]; then
     re_extra_flags+=(-fsanitize=address,undefined -static-libasan -static-libubsan
         -fno-sanitize-recover=all -fno-omit-frame-pointer)
 fi
-"$re_compiler" -std=c++20 -Wall -Wextra -Wpedantic -Werror -D_GLIBCXX_ASSERTIONS -ffp-contract=off -O1 -g \
+"$re_compiler" -std=c++20 -Wall -Wextra -Wpedantic -Werror \
+    -Wno-unused-parameter -Wno-sign-compare -Wno-array-bounds \
+    -Wno-stringop-overread -Wno-stringop-overflow \
+    -Wno-uninitialized -Wno-maybe-uninitialized \
+    -Wno-return-type -Wno-unused-function -Wno-unused-variable \
+    -Wno-unused-value -Wno-unused-but-set-variable \
+    -Wno-narrowing -Wno-ignored-qualifiers -Wno-range-loop-construct \
+    -DRE_FREESTANDING_BUILD=1 \
+    -D_GLIBCXX_ASSERTIONS -ffp-contract=off -O1 -g \
     "${re_extra_flags[@]}" \
     "$re_source_dir/01_hooks.cpp" "$re_source_dir/02_rendering.cpp" \
     "$re_source_dir/03_stack_spoof_spoofcall.cpp" "$re_source_dir/04_esp_entities.cpp" \

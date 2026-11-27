@@ -2,7 +2,7 @@
 
 namespace rust_internal_re {
 namespace {
-void expect(bool value, const char *message) {
+void expect(bool value, [[maybe_unused]] const char *message) {
     if (!value)
         { /* FREESTANDING_TODO: was throw runtime_error(message) */ }
 }
