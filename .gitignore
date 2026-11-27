@@ -45,6 +45,10 @@ wineprefix*/
 # Game install (large, copyrighted)
 dump_analysis/game_artifacts/rust_install/
 
+# Keep game artifacts needed for reconstruction
+!dump_analysis/game_artifacts/GameAssembly.dll
+!dump_analysis/game_artifacts/UnityPlayer.dll
+
 # OS
 .DS_Store
 Thumbs.db

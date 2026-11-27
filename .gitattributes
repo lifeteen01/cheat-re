@@ -60,3 +60,4 @@
 /dump_analysis/semantic_reconstruction/windows_shadows_integrated_build/analysis_checks filter=lfs diff=lfs merge=lfs -text
 /dump_analysis/semantic_reconstruction/windows_shadows_sanitizer_build/analysis_checks filter=lfs diff=lfs merge=lfs -text
 /dump_analysis/semantic_reconstruction/world_capture_integrated_build/analysis_checks filter=lfs diff=lfs merge=lfs -text
+dump_analysis/game_artifacts/GameAssembly.dll filter=lfs diff=lfs merge=lfs -text
